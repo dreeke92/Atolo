@@ -1,33 +1,48 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  navbar:
+    home: "Home"
+    solutions: "Our solutions"
+    engagement_title: "Engagement"
+    communication_title: "Communication"
+    languages_title: "Languages"
+    about: "About us"
+    contact: "Contact us"
+  footer:
+  welcome:
+    banner:
+      engagement_caption: "People create impact"
+      communication_caption: "Communication is key"
+      languages_caption: "Everyone needs languages"
+    intro:
+      title: "Your world"
+      text_one: "Together, we help you create a culture where your people are the main drivers of success."
+      text_two: "A place where your teams are engaged and have the necessary skills to turn their engagement into impact for your organisation."
+      cards:
+        engagement_title: "Engagement"
+        engagement_content: "Co-creating a culture where people feel motivated, enjoy a sense of belonging and have an impact.
+In today’s world, the workplace needs a different approach because what we expect from our people and what they expect from you is different."
+        communication_title: "Communication"
+        communication_content: "Communication is the lifeblood of the modern organisation. Daring to communicate when needed, delegating, giving feedback and communicating complexity, simply, are all skills that an engaged organisation needs to thrive."
+        languages_title: "Languages"
+        languages_content: "Communication is interacting with people whatever the language.It’swhat ATOLO started doing many years ago and the truth is, we’re really good at it.Don’t learn a language, forget you’re speaking it!"
+        learn_more: "learn more"
+    testimonials:
+      title: "Testimonials"
+    contact_us:
+  solutions:
+    discover-button: "Discover our offer"
+    our-offer: "Our product offer"
+    engagement:
+      title: "Engagement"
+      header: "Engagement is all about X"
+      content: "Co-creating a culture where people feel motivated, enjoy a sense of belonging and have an impact.
+In today’s world, the workplace needs a different approach because what we expect from our people and what they expect from you is different."
+    communication:
+      title: "Communication"
+      header: "Communication is all about Y"
+      content: "Communication is the lifeblood of the modern organisation. Daring to communicate when needed, delegating, giving feedback and communicating complexity, simply, are all skills that an engaged organisation needs to thrive."
+    languages:
+      title: "Languages"
+      header: "Engagement is all about Z"
+      content: "Communication is interacting with people whatever the language.It’swhat ATOLO started doing many years ago and the truth is, we’re really good at it.Don’t learn a language, forget you’re speaking it!"
+

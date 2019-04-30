@@ -1,0 +1,49 @@
+
+/* Tabs */
+
+.offer-container{
+  margin-top: 72px;
+}
+
+.offer-tabs{
+  display: flex;
+  max-width: 100%;
+}
+
+/* Offer Box */
+
+  .offer-box {
+
+    margin-bottom: 0rem;
+    padding: 0.5rem;
+    width: calc(100%  /3);
+    // border-left: 1px solid rgba(0, 0, 0, 0.075);
+    border-right: 2px solid rgba(0, 0, 0, 0.075);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.075);
+  }
+
+    .offer-box > :last-child,
+    .offer-box > :last-child > :last-child,
+    .offer-box > :last-child > :last-child > :last-child {
+      margin-bottom: 0;
+    }
+
+    .offer-box.alt {
+      border: 0;
+      border-radius: 0;
+      padding: 0;
+    }
+
+  .offer-box {
+    // box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .offer-box.active{
+    color: $atolo-green;
+    font-weight: 700;
+    border-bottom: 2px solid $atolo-green;
+  }
+
+  .offer-pages{
+    box-shadow: inset 0 0 0 0 rgba(255, 255, 255, 0.125);
+  }
