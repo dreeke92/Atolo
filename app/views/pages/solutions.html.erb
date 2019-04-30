@@ -1,18 +1,23 @@
-<div id="solutions">
-  <div id="wrapper" class="divided">
+<div id="solutions" class="solutions-max-width">
     <%= render 'shared/navbar-fixed' %>
     <%= render 'shared/solutions/offers' %>
     <div class="offer-pages">
-      <div id="engagement-page" class="offer-page" >
-        <%= render 'shared/solutions/spotlight-engagement' %>
-        <%= render 'shared/solutions/gallery-engagement' %>
+      <div id="engagement-page" class="offer-page active" >
+        <div id="wrapper" class="divided">
+          <%= render 'shared/solutions/engagement/spotlight' %>
+          <%= render 'shared/solutions/engagement/products' %>
+          <%= render 'shared/solutions/engagement/approach' %>
+          <%= render 'shared/solutions/engagement/testimonials' %>
+        </div>
       </div>
-      <div id="communication-page" class="offer-page" >
-        <p>Communication</p>
+      <div id="communication-page" class="offer-page">
+        <div id="wrapper" class="divided">
+        </div>
       </div>
-      <div id="languages-page" class="offer-page" >
-        <p>Languages</p>
+      <div id="languages-page" class="offer-page">
+        <div id="wrapper" class="divided">
+        </div>
       </div>
     </div>
-  </div>
+    <%= render 'shared/contactform' %>
 </div>

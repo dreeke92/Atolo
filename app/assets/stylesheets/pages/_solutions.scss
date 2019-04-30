@@ -1,1 +1,25 @@
+#content-selector{
+  background: none;
+  color: white;
+}
+
+.mobile-content-selector{
+  display: flex;
+  justify-content: center;
+}
+.mobile-content-selector li{
+  margin: 1rem;
+}
+
+@media screen and (max-width: 736px){
+  #content-selector{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 736px){
+  .mobile-content-selector{
+    display: none;
+  }
+}
 

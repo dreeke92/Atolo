@@ -24,6 +24,8 @@ function hideAllPages(){
   })
 };
 
+
+
 function showCurrentPage(event){
   if (event.currentTarget === engagementTab) {
     engagementPage.hidden = false;
@@ -36,7 +38,6 @@ function showCurrentPage(event){
 
 function initTabs(){
   allTabs.forEach((tab) => {
-    hideAllPages();
     tab.addEventListener('click', (event)=>{
       removeActiveTabs();
       activateCurrentTab(event);
