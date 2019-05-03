@@ -3,4 +3,8 @@ class PagesController < ApplicationController
 
   def home
   end
+
+  def solutions
+    @products = Product.all
+  end
 end

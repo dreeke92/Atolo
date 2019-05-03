@@ -7,5 +7,5 @@ Rails.application.routes.draw do
   get 'solutions', to: "pages#solutions"
   get 'about', to: "pages#about"
   get 'values', to: "pages#values"
-
+  resources :products, only: [ :create, :new, :show, :update, :edit, :destroy, :index ]
 end

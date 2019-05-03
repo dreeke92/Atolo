@@ -1,0 +1,11 @@
+<!-- List of products -->
+  <section id="products" class="wrapper style1 align-center">
+    <div class="inner">
+      <h1>List of products</h1>
+      <% @products.each do |product| %>
+        <p><%= product.name %></p></br>
+        <p><%= product.group %></p></br>
+        <p><%= product.description %></p></br>
+        <p>------------------------------------</p>
+      <% end %>
+  </section>
