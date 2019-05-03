@@ -1,11 +1,32 @@
 <!-- List of products -->
-  <section id="products" class="wrapper style1 align-center">
-    <div class="inner">
-      <h1>List of products</h1>
-      <% @products.each do |product| %>
-        <p><%= product.name %></p></br>
-        <p><%= product.group %></p></br>
-        <p><%= product.description %></p></br>
-        <p>------------------------------------</p>
-      <% end %>
-  </section>
+<section id="products" class="wrapper style1 align-center">
+  <div class="inner">
+  <!-- categories section -->
+    <section class="categories-section spad">
+      <div class="container">
+        <div class="section-title">
+          <h2>List of products</h2>
+          <p class="small-font">This is a list of all the products</p>
+        </div>
+        <div class="row">
+          <% @products.each do |product| %>
+          <!-- categorie -->
+            <div class="col-lg-6 col-md-12">
+              <div class="categorie-item">
+                <div class="ci-thumb image">
+                  <%= cl_image_tag product.photo, crop: :fill, :class => "product-image" %>
+                </div>
+                <div class="ci-text">
+                  <h3><%= product.name %></h3>
+                  <p><%= product.description %></p>
+                </div>
+              </div>
+            </div>
+          <% end %>
+
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+  <!-- categories section end -->

@@ -36,3 +36,53 @@
   border-color: rgba(0, 0, 0, 0.2);
   background: white;
 }
+
+/*------------------
+  Categories section
+---------------------*/
+
+.categorie-item {
+  margin-bottom: 1rem;
+  background: #edf4f6;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  height: 80vh;
+}
+
+.categorie-item .ci-thumb {
+  background-size: cover;
+  position: relative;
+  height: 50%;
+  width: 100%;
+  padding: none;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.categorie-item .ci-text {
+  padding: 40px 35px;
+}
+
+.categorie-item .ci-text span {
+  font-size: 18px;
+  font-weight: 600;
+  color: $atolo-green;
+}
+
+.categorie-item:hover {
+  background:  $atolo-green;
+}
+
+.categorie-item:hover .ci-text h5,
+.categorie-item:hover .ci-text p,
+.categorie-item:hover .ci-text span {
+  color: #fff;
+}
+
+.product-image{
+  max-width: 100%;
+}
