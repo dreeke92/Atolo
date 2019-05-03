@@ -1,0 +1,14 @@
+#counter {
+  background: linear-gradient(rgba(255,255,255,0.7), rgba(0,0,0,0.95)), image-url('people2.jpg') fixed center center;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+.white-text{
+  color: white !important;
+}
+
+.green-text{
+ color: $atolo-green !important;
+}
+
