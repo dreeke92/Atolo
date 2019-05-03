@@ -5,6 +5,8 @@ class PagesController < ApplicationController
   end
 
   def solutions
-    @products = Product.all
+    @languages_products = Product.all
+    @communication_products = Product.all
+    @engagement_products = Product.all
   end
 end

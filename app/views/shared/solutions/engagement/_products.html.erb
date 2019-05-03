@@ -1,156 +1,26 @@
        <!-- Gallery -->
           <section class="wrapper style1 align-center">
             <div class="inner">
-              <h2>Gallery</h2>
-              <p>This is a <strong>Gallery</strong> element. It can behave as a lightbox (when given the <code>lightbox</code> class), and you can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-gallery">details</a>).</p>
+              <h2>Our products in engagement</h2>
             </div>
 
             <!-- Gallery -->
               <div class="gallery style2 medium lightbox onscroll-fade-in">
-                <article>
-                  <a href="01.jpg" class="image">
-                    <%= image_tag("01.jpg", :alt => "image") %>
-                  </a>
-                  <div class="caption">
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-                    <ul class="actions fixed">
-                      <li><span class="button small">Details</span></li>
-                    </ul>
-                  </div>
-                </article>
-                <article>
-                  <a href="02.jpg" class="image">
-                    <%= image_tag("02.jpg", :alt => "image") %>
-                  </a>
-                  <div class="caption">
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-                    <ul class="actions fixed">
-                      <li><span class="button small">Details</span></li>
-                    </ul>
-                  </div>
-                </article>
-                <article>
-                  <a href="03.jpg" class="image">
-                    <%= image_tag("03.jpg", :alt => "image") %>
-                  </a>
-                  <div class="caption">
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-                    <ul class="actions fixed">
-                      <li><span class="button small">Details</span></li>
-                    </ul>
-                  </div>
-                </article>
-                <article>
-                  <a href="04.jpg" class="image">
-                    <%= image_tag("04.jpg", :alt => "image") %>
-                  </a>
-                  <div class="caption">
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-                    <ul class="actions fixed">
-                      <li><span class="button small">Details</span></li>
-                    </ul>
-                  </div>
-                </article>
-                <article>
-                  <a href="05.jpg" class="image">
-                    <%= image_tag("05.jpg", :alt => "image") %>
-                  </a>
-                  <div class="caption">
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-                    <ul class="actions fixed">
-                      <li><span class="button small">Details</span></li>
-                    </ul>
-                  </div>
-                </article>
-                <article>
-                  <a href="06.jpg" class="image">
-                    <%= image_tag("06.jpg", :alt => "image") %>
-                  </a>
-                  <div class="caption">
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-                    <ul class="actions fixed">
-                      <li><span class="button small">Details</span></li>
-                    </ul>
-                  </div>
-                </article>
-                <article>
-                  <a href="07.jpg" class="image">
-                    <%= image_tag("07.jpg", :alt => "image") %>
-                  </a>
-                  <div class="caption">
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-                    <ul class="actions fixed">
-                      <li><span class="button small">Details</span></li>
-                    </ul>
-                  </div>
-                </article>
-                <article>
-                  <a href="08.jpg" class="image">
-                    <%= image_tag("08.jpg", :alt => "image") %>
-                  </a>
-                  <div class="caption">
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-                    <ul class="actions fixed">
-                      <li><span class="button small">Details</span></li>
-                    </ul>
-                  </div>
-                </article>
-                <article>
-                  <a href="09.jpg" class="image">
-                    <%= image_tag("09.jpg", :alt => "image") %>
-                  </a>
-                  <div class="caption">
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-                    <ul class="actions fixed">
-                      <li><span class="button small">Details</span></li>
-                    </ul>
-                  </div>
-                </article>
-                <article>
-                  <a href="10.jpg" class="image">
-                    <%= image_tag("10.jpg", :alt => "image") %>
-                  </a>
-                  <div class="caption">
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-                    <ul class="actions fixed">
-                      <li><span class="button small">Details</span></li>
-                    </ul>
-                  </div>
-                </article>
-                <article>
-                  <a href="11.jpg" class="image">
-                    <%= image_tag("11.jpg", :alt => "image") %>
-                  </a>
-                  <div class="caption">
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-                    <ul class="actions fixed">
-                      <li><span class="button small">Details</span></li>
-                    </ul>
-                  </div>
-                </article>
-                <article>
-                  <a href="12.jpg" class="image">
-                    <%= image_tag("12.jpg", :alt => "image") %>
-                  </a>
-                  <div class="caption">
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-                    <ul class="actions fixed">
-                      <li><span class="button small">Details</span></li>
-                    </ul>
-                  </div>
-                </article>
+                <% @communication_products. each do |product| %>
+
+                  <article>
+                    <a href="01.jpg" class="image">
+                      <%= cl_image_tag product.photo, crop: :fill, :alt => "image", :class => "product-image" %>
+                    </a>
+                    <div class="caption">
+                      <h3><%= product.name %></h3>
+                      <ul class="actions fixed">
+                        <li><span class="button small">Details</span></li>
+                      </ul>
+                    </div>
+                  </article>
+
+                <% end %>
               </div>
               <div class="inner"></div>
           </section>
@@ -159,7 +29,39 @@
 
 <a href="#" data-featherlight="#mylightbox"><%= image_tag("12.jpg", :alt => "image") %></a>
 <div id="mylightbox">
-  <% @products. each do |product| %>
+  <% @communication_products. each do |product| %>
     <p><%= product.name %></p>
   <% end %>
 </div>
+
+<!-- List of products -->
+<section id="products" class="wrapper style1 align-center">
+  <div class="inner">
+  <!-- categories section -->
+    <section class="categories-section spad">
+      <div class="container">
+        <div class="section-title">
+          <h2>List of products</h2>
+          <p class="small-font">This is a list of all the products</p>
+        </div>
+        <div class="row">
+          <% @communication_products.each do |product| %>
+          <!-- categorie -->
+            <div class="col-lg-6 col-md-12">
+              <div class="categorie-item">
+                <div class="ci-thumb image">
+                  <%= cl_image_tag product.photo, crop: :fill, :class => "product-image" %>
+                </div>
+                <div class="ci-text">
+                  <h3><%= product.name %></h3>
+                  <p><%= product.description %></p>
+                </div>
+              </div>
+            </div>
+          <% end %>
+
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
