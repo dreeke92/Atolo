@@ -1359,6 +1359,20 @@
     background-color: rgba(0, 0, 0, 0.125);
   }
 
+  .gallery-arrow{
+    font-size: 40px !important;
+    // font-weight: 500 !important;
+
+  }
+
+  .forward:hover {
+    color: $atolo-green;
+  }
+
+  .backward:hover {
+    color: $atolo-green;
+  }
+
   // .inner-gallery {
   //   padding: 5rem 0rem 5rem 0rem ;
   //   margin: 0 auto;

@@ -72,7 +72,7 @@ function templateFeatures() {
     $('.gallery')
       .wrapInner('<div class="inner"></div>')
       // .prepend(browser.mobile ? '' : '<div class="forward"></div><div class="backward"></div>')
-      .prepend('<div class="forward"><i class="fas fa-angle-right"></i></div><div class="backward"><i class="fas fa-angle-left"></div>')
+      .prepend('<div class="forward"><i class="fas fa-chevron-right gallery-arrow"></i></div><div class="backward"><i class="fas fa-chevron-left gallery-arrow"></div>')
       .scrollex({
         top:    '30vh',
         bottom:   '30vh',

@@ -41,6 +41,7 @@
   background: none !important;
 }
 
+
 /*------------------
   Categories section
 ---------------------*/
@@ -51,13 +52,20 @@
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
-  height: 80vh;
   border-radius: 5px;
 }
 
 @media screen and (min-width: 736px) {
   .categorie-item {
+      width: 60vh;
+      height: 80vh;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .categorie-item {
       width: 90vh;
+      height: 80vh;
   }
 }
 
@@ -65,7 +73,7 @@
   background-size: cover;
   position: relative;
   height: 50%;
-  width: 100%;
+  // width: 100%;
   padding: none;
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
