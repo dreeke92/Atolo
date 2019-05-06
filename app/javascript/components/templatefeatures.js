@@ -1,6 +1,25 @@
 
 
 function templateFeatures() {
+
+    // Used to detect whether the users browser is an mobile browser
+  function isMobile() {
+      ///<summary>Detecting whether the browser is a mobile browser or desktop browser</summary>
+      ///<returns>A boolean value indicating whether the browser is a mobile browser or not</returns>
+      if (sessionStorage.desktop) // desktop storage
+          return false;
+      else if (localStorage.mobile) // mobile storage
+          return true;
+
+      // alternative
+      var mobile = ['iphone','ipad','android','blackberry','nokia','opera mini','windows mobile','windows phone','iemobile'];
+      for (var i in mobile) if (navigator.userAgent.toLowerCase().indexOf(mobile[i].toLowerCase()) > 0) return true;
+      // nothing found.. assume desktop
+      return false;
+
+  }
+  var checkMobile = isMobile();
+
   var $window = $(window),
   $body = $('body'),
   $wrapper = $('#wrapper');
@@ -71,11 +90,12 @@ function templateFeatures() {
   // Gallery.
     $('.gallery')
       .wrapInner('<div class="inner"></div>')
-      // .prepend(browser.mobile ? '' : '<div class="forward"></div><div class="backward"></div>')
+      .prepend(checkMobile ? '' : '<div class="forward"></div><div class="backward"></div>')
       .prepend('<div class="forward"><i class="fas fa-chevron-right gallery-arrow"></i></div><div class="backward"><i class="fas fa-chevron-left gallery-arrow"></div>')
       .scrollex({
         top:    '30vh',
         bottom:   '30vh',
+        loop: true,
         delay:    50,
         initialize: function() {
           $(this).addClass('is-inactive');
@@ -101,6 +121,8 @@ function templateFeatures() {
         // .css('overflow-x', browser.mobile ? 'scroll' : 'hidden')
         // .css('overflow-y', browser.mobile ? 'visible' : 'hidden')
         // .css('overflow-x', browser.mobile ? 'scroll' : 'hidden')
+        .css('overflow-y', checkMobile ? 'visible' : 'hidden')
+        .css('overflow-x', checkMobile ? 'scroll' : 'hidden')
         .scrollLeft(0);
 
     // Style #1.
@@ -109,7 +131,6 @@ function templateFeatures() {
     // Style #2.
       $('.gallery')
         .on('wheel', '.inner', function(event) {
-
           var $this = $(this),
             delta = (event.originalEvent.deltaX * 10);
 
@@ -121,7 +142,6 @@ function templateFeatures() {
 
           // Scroll.
             $this.scrollLeft( $this.scrollLeft() + delta );
-
         })
         .on('mouseenter', '.forward, .backward', function(event) {
 

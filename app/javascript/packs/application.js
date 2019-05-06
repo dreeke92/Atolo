@@ -7,6 +7,7 @@ import { headerScroll } from '../components/navbar';
 import { initTabs } from '../components/tabs';
 import { mobileNavigation } from '../components/mobilenavigation';
 import { testimonialCarousel } from '../components/carousel';
+import { utilFeatures } from '../components/utilfeatures';
 
 // import { toTopButton } from '../components/topbutton';
 
@@ -18,6 +19,7 @@ headerScroll();
 initTabs();
 mobileNavigation();
 testimonialCarousel();
+utilFeatures();
 // toTopButton();
 
 
