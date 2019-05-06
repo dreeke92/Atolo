@@ -5,7 +5,7 @@
     </div>
 
     <!-- Gallery -->
-      <div class="gallery style2 small lightbox onscroll-fade-in">
+      <div class="gallery style2 large lightbox onscroll-fade-in">
         <% @communication_products. each do |product| %>
 
           <article>
@@ -29,17 +29,15 @@
 <div hidden>
   <% @communication_products. each do |product| %>
     <div id="mylightbox-<%= product.id %>" class="product-card">
-      <!-- <div class="col-lg-12 col-md-12"> -->
-        <div class="categorie-item">
-          <div class="ci-thumb">
-            <%= cl_image_tag product.photo, crop: :fill, :class => "product-image" %>
-          </div>
-          <div class="ci-text">
-            <h3><%= product.name %></h3>
-            <p><%= product.description %></p>
-          </div>
+      <div class="categorie-item">
+        <div class="ci-thumb">
+          <%= cl_image_tag product.photo, crop: :fill, :class => "product-image" %>
         </div>
-      <!-- </div> -->
+        <div class="ci-text">
+          <h3><%= product.name %></h3>
+          <p><%= product.description %></p>
+        </div>
+      </div>
     </div>
   <% end %>
 </div>
