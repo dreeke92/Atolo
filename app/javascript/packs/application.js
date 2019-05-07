@@ -8,6 +8,7 @@ import { initTabs } from '../components/tabs';
 import { mobileNavigation } from '../components/mobilenavigation';
 import { testimonialCarousel } from '../components/carousel';
 import { utilFeatures } from '../components/utilfeatures';
+import { productCardNavigation } from '../components/productcard';
 
 // import { toTopButton } from '../components/topbutton';
 
@@ -20,6 +21,7 @@ initTabs();
 mobileNavigation();
 testimonialCarousel();
 utilFeatures();
+productCardNavigation();
 // toTopButton();
 
 

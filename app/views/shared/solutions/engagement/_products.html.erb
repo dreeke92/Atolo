@@ -5,19 +5,17 @@
     </div>
 
     <!-- Gallery -->
-      <div class="gallery style2 large lightbox onscroll-fade-in">
+      <div id="product-gallery" class="gallery style2 large lightbox onscroll-fade-in">
         <% @communication_products. each do |product| %>
 
           <article>
-            <a href="#" data-featherlight="#mylightbox-<%= product.id %>" class="image">
+            <a href="#" data-featherlight="#mylightbox-<%= product.id %>" class="image products data-gallery">
               <%= cl_image_tag product.photo, crop: :fill, :alt => "image", :class => "product-image" %>
             </a>
             <div class="caption">
               <h2><%= product.name %></h2>
             </div>
           </article>
-
-
 
         <% end %>
       </div>
@@ -33,9 +31,15 @@
         <div class="ci-thumb">
           <%= cl_image_tag product.photo, crop: :fill, :class => "product-image" %>
         </div>
-        <div class="ci-text">
-          <h3><%= product.name %></h3>
-          <p><%= product.description %></p>
+        <div class="product-card-content">
+          <div class="ci-text">
+            <h3><%= product.name %></h3>
+            <p class=""><%= product.description %></p>
+          </div>
+<!--           <div class="product-card-buttons">
+            <button id="PrevButton-<%= product.id %>" class="small primary product-card-button fit prev-product-card" >Previous</button>
+            <button id="NextButton-<%= product.id %>" class="small primary product-card-button fit next-product-card" >Next</button>
+          </div> -->
         </div>
       </div>
     </div>
