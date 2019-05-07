@@ -110,13 +110,17 @@ button .product-card-button{
 }
 
 .categorie-item .ci-text {
-  padding: 1.5rem;
+  padding: 0.5rem 1.5rem  0.5rem 1.5rem;
 }
 
 .categorie-item .ci-text span {
   font-size: 18px;
   font-weight: 600;
   color: $atolo-green;
+}
+
+.product-card-content-margin {
+  margin: 0px;
 }
 
 .categorie-item:hover {
@@ -129,6 +133,13 @@ button .product-card-button{
   // color: #fff;
 }
 
+.ci-text{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .product-image{
   max-width: 100%;
 }
@@ -138,5 +149,5 @@ button .product-card-button{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 3rem;
+  padding: 1rem 3rem 1rem 3rem;
 }

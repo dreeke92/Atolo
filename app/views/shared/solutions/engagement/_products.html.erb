@@ -1,5 +1,5 @@
 <!-- Gallery -->
-  <section class="wrapper style1 align-center">
+  <section id="products" class="wrapper style1 align-center">
     <div class="inner">
       <h2>Our products in engagement</h2>
     </div>
@@ -31,15 +31,14 @@
         <div class="ci-thumb">
           <%= cl_image_tag product.photo, crop: :fill, :class => "product-image" %>
         </div>
-        <div class="product-card-content">
+        <div class="product-card-content small-font align-center">
           <div class="ci-text">
-            <h3><%= product.name %></h3>
-            <p class=""><%= product.description %></p>
+            <div>
+              <h3><%= product.name %></h3>
+              <p class="product-card-content-margin"><%= product.description %></p>
+            </div>
+            <button id="get-in-touch" class="small product-card-button next-product-card" >Request more information</button>
           </div>
-<!--           <div class="product-card-buttons">
-            <button id="PrevButton-<%= product.id %>" class="small primary product-card-button fit prev-product-card" >Previous</button>
-            <button id="NextButton-<%= product.id %>" class="small primary product-card-button fit next-product-card" >Next</button>
-          </div> -->
         </div>
       </div>
     </div>

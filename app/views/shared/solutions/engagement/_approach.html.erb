@@ -2,24 +2,54 @@
   <section class="spotlight style5 orient-center content-align-left image-position-center onscroll-image-fade-in color8">
     <div id="content-selector" class="content">
       <ul style="list-style: none;">
-        <li><h2>Selector 1</h2></li>
-        <li><h2>Selector 2</h2></li>
-        <li><h2>Selector 3</h2></li>
+        <li class="selector-one selector active"><h3>Fundamentals of communication</h3></li>
+        <li class="selector-two selector"><h3>Our experts</h3></li>
+        <li class="selector-three selector"><h3>Impactful tools for long lasting results</h3></li>
       </ul>
     </div>
-    <div class="content">
-      <h2>our Approach</h2>
-      <p>This is also a <strong>Spotlight</strong> element, and it's here because this demo would look a bit empty with just one spotlight. Like all spotlights, you can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).</p>
-      <ul class="actions stacked">
-        <li><a href="#" class="button">Learn More</a></li>
-      </ul>
+    <div class="content small-font approaches">
+      <div class="approach approach-one active onscroll-content-fade-in">
+        <h2>Fundamentals of communication</h2>
+        <div>
+          <p>Examples of training modules (individual coaching or group training)</p>
+          <ul>
+            <li>Presenting with impact</li>
+            <li>Writing with impact</li>
+            <li>Videoconferencing with impact</li>
+            <li>Meetings with impact</li>
+          </ul>
+          <p>Our training modules allow you to root your line of thought, to follow a creative process and master the necessary tools to overcome any difficulty encountered relating to presentations, writing, conferences or meetings. The objective is simple: Making an impact on your audience.</p>
+        </div>
+      </div>
+      <div class="approach approach-two onscroll-content-fade-in" style="display: none;">
+        <h2>Our experts</h2>
+        <div>
+          <p>ATOLO coaches are highly competent, cross-curricilar and fully committed to overcoming the challenges poses through numerous business cases engaged over many years.</p>
+          <p>We believe diversity is a strength. Whether enjoying extensive managerial backgrounds and/or having multiple university degrees we are proud to closely work with experts in their field, recognized by their peers. A team which never hesitates to challenge the classical paths and confront the elephant in the room.</p>
+          <p>Our training solutions can be given in French, English, German, Dutch, Portuguese or Spanish.</p>
+        </div>
+      </div>
+      <div class="approach approach-three onscroll-content-fade-in" style="display: none;">
+        <h2>Impactful tools</h2>
+        <div>
+          <ul>
+            <li>
+            Deepscan© : A process developed by ATOLO allowing our pedagogical teams to understand and value your uniqueness and the complexity of your personal professional reality. Deepscan leads to the identification of disrupters allowing us to fully integrate your world. With the trainees, we will target an understanding of the causal connections in terms of communication. We will then determine how to master the KCM©.</li>
+            <li>KCM© : A Key Communicative Moment© is a moment in which we can leave a lasting impression, motivate, inspire, show empathy, and defend your interests in order to engage.
+            It is actually quite simple: a KCM is an opportunity.</li>
+            <li>Communication mapping: Imagine having the possibility to take an X-ray when things are not going the way you would like them to go within your team or organisation and obtaining the qualitative data you need to take decisions. Wouldn’t you think it was worth it?
+            Based on the Actor Network Theory (ANT), this method helps us visualise and understand the communication issues in teams and organisations which are stopping them from maximising their potential and reaching their strategic goals.
+            The robustness of this approach is due to the fact that it goes beyond people to cover the factors in the environment.</li>
+          </ul>
+        </div>
+      </div>
       <ul class="mobile-content-selector" style="list-style: none;">
-        <li><i class="far fa-circle"></i></li>
-        <li><i class="far fa-circle"></i></li>
-        <li><i class="far fa-circle"></i></li>
-      </ul>
+        <li class="mobile-selector mobile-selector-one active"><i class="far fa-circle"></i></li>
+        <li class="mobile-selector mobile-selector-two"><i class="far fa-circle"></i></li>
+        <li class="mobile-selector mobile-selector-three"><i class="far fa-circle"></i></li>
     </div>
-    <div class="image">
-      <%= image_tag("spotlight02.jpg", :alt => "image") %>
+      </ul>
+    <div class="image approach-background">
+      <%= image_tag("engagement04.jpg", :alt => "image", :class => "approach-background") %>
     </div>
   </section>
