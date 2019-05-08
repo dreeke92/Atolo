@@ -5,6 +5,7 @@ en:
     engagement_title: "Engagement"
     communication_title: "Communication"
     languages_title: "Languages"
+    values: "Our values"
     about: "About us"
     contact: "Contact us"
   footer:
@@ -45,4 +46,26 @@ In today’s world, the workplace needs a different approach because what we exp
       title: "Languages"
       header: "Engagement is all about Z"
       content: "Communication is interacting with people whatever the language.It’swhat ATOLO started doing many years ago and the truth is, we’re really good at it.Don’t learn a language, forget you’re speaking it!"
+  values:
+    value_one:
+      title: "Curious by nature"
+      content: "We cannot help our actions; they are dictated by our natural curiosity! Our curiosity to see how far we can push ourselves and how much we can grow, our curiosity to understand who our trainees are, the challenges they face, the wishes they have and to see how far we can take them, our curiosity to understand how your world works and how we can provide you with value within that world. It is even worse, we work hard to infect the people who come into contact with us. We infect our trainers and trainees so that they also ask themselves how they can develop! It is this curiosity which made us ask ourselves what values dictate how we act."
+    value_two:
+      title: "Our people are our assets"
+      content: "Fundamentally, we are in the business of people and growth. We provide the right people to enable your people to overcome the language and communication obstacles that keep them from their goals. We choose people who will share and enforce our values as well as meet our high expectations. In return, we value them and nurture them and empower them by providing the support and training they need to continue growing. We treat them with the maximum respect and we always keep their best interests in mind."
+    value_three:
+      title: 'Imperfections are opportunities for growth'
+      content: 'Our strength is more than our years of being active in the world of training, or the large number of sectors and profiles we have trained. It is our ability to be humble enough to recognize when we have reached an obstacle or a limit combined with our great weakness, curiosity! The curiosity which makes us hungry to discover how we can overcome that obstacle, push our limits and come out stronger.'
+    value_four:
+      title: 'Challenging the status quo'
+      content: 'Is understood by us as challenging our limits, continuously looking for better ways to do things and feeling comfortable out of the box. This way of behaving energises us, is the only way we know to act and maintains our constant growth and innovation so that we can meet your specific needs and explains why no two courses are ever quite the same.'
+    value_five:
+      title:
+      content:
+  about:
+    spotlight:
+      title: "Great things happen when people communicate well!"
+      content: "A simple truth which reflects our determination to reach results beyond your expectations. Thanks to tailor-made solutions which answer your specific needs, your team members will deliver impactful performances within the framework of their activities. "
+    team:
+      title: "Our team"
 

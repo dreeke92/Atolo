@@ -1,5 +1,5 @@
 #counter {
-  background: linear-gradient(rgba(255,255,255,0.7), rgba(0,0,0,0.95)), image-url('people2.jpg') fixed center center;
+  background: linear-gradient(rgba(255,255,255,0.7), rgba(0,0,0,0.95)), image-url('people/people2.jpg') fixed center center;
   background-size: cover;
   // padding: 60px 0;
 }
@@ -40,6 +40,17 @@
   flex-direction: column;
   height: 100%;
   justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+  #counter-section {
+    display: none;
+  }
+
+  .contact-in-counter{
+    background: white;
+    width: 100%;
+  }
 }
 
 
