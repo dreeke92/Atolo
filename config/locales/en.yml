@@ -68,4 +68,63 @@ In today’s world, the workplace needs a different approach because what we exp
       content: "A simple truth which reflects our determination to reach results beyond your expectations. Thanks to tailor-made solutions which answer your specific needs, your team members will deliver impactful performances within the framework of their activities. "
     team:
       title: "Our team"
+      member_one:
+        first_name: "Mieke"
+        second_name: "Van Oost"
+        role: "Managing director Atolo Group"
+        text: "Great things happen when people communicate well. This sentence embodies the belief of the ATOLO-team. A team with the conviction to deliver good results when it comes to the communication of you and your employees. May I introduce them to you?"
+        location: "Lausanne & Brussels"
+      member_two:
+        first_name: "David"
+        second_name: "Michel"
+        role: "Managing director Atolo Switzerland"
+        text:
+        location: "Lausanne & Brussels"
+      member_three:
+        first_name: "Oscar"
+        second_name: "Vega"
+        role: "Managing partner"
+        text: "Creative think tank, a waterfall of ideas. Oscar passionately builds the right products to help your trainees to communicate authentically, clearly, and in a goal oriented manner. This will help them to reach their ambitions"
+        location: "Lausanne & Brussels"
+      member_four:
+        first_name: "Eva"
+        second_name: "Vermeire"
+        role: "Operations manager"
+        text: "Devoted support, handles all your projects with care. You do not have to ask Eva to do something, she most probably already took care of it."
+        location: "Brussels"
+      member_five:
+        first_name: "Adeline"
+        second_name: "Leguillier"
+        role: "Learning & Development Consultant"
+        text: "Full of energy, Adeline knows how to make challenges feel like fun and motivates everyone around her to push their boundaries. As one of our most experienced trainers on the field, she can tell you first hand what an ATOLO learning experience is all about."
+        location: "Brussels"
+      member_six:
+        first_name: "Maité"
+        second_name: "Dantine"
+        role: "Learning & development coordinator"
+        text: "With her dynamism she ensures efficient support. Maité launches your training courses with a refreshing and realistic vision."
+        location: "Brussels"
+      member_seven:
+        first_name: "Sofie"
+        second_name: "Begine"
+        role: "Learning & Development specialist"
+        text: "In love with languages and always ready to take on a new challenge, Sofie will not only find very innovative training or coaching solutions to your issues on the field but she will also implement them quickly. As a goal oriented actor in our team, she communicates very clearly and frankly her ideas and action plans."
+        location: "Brussels"
+      member_eight:
+        first_name: "Céline"
+        second_name: "Zaghet"
+        role: "Learning & Development specialist"
+        text: "With her unique and highly effective cocktail of expertise, professionalism, and contagious enthusiasm, Céline knows how to get the best out of our trainers and trainees. Never has coming out of your comfort zone been so much fun!"
+        location: "Brussels"
+      member_nine:
+        first_name: "Quentin"
+        second_name: "Dubus"
+        role: "Learning & Development specialist"
+        text: ""
+        location: "Brussels"
+      member_ten:
+        first_name:
+        second_name:
+        role:
+        text:
 
