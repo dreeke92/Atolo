@@ -230,3 +230,26 @@
   margin: 0;
 }
 
+#welcome #nav_welcome a,
+#solutions #nav_solutions a,
+#values #nav_values a,
+#about #nav_about a,
+#contact #nav_contact a {
+  color: $atolo-green;
+}
+
+.nav-menu-drop-down {
+  margin-top: 0px !important;
+}
+
+#nav_solutions #nav_engagement a,
+#nav_solutions #nav_communication a,
+#nav_solutions #nav_engagement a {
+  color: black;
+}
+
+#nav_solutions #nav_engagement a:hover,
+#nav_solutions #nav_communication a:hover,
+#nav_solutions #nav_engagement a:hover {
+  color: $atolo-green;
+}
