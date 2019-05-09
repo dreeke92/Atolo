@@ -35,17 +35,128 @@ In today’s world, the workplace needs a different approach because what we exp
     our-offer: "Our product offer"
     engagement:
       title: "Engagement"
-      header: "Engagement is all about X"
-      content: "Co-creating a culture where people feel motivated, enjoy a sense of belonging and have an impact.
+      spotlight:
+        header: "Engagement is all about X"
+        content: "Co-creating a culture where people feel motivated, enjoy a sense of belonging and have an impact.
 In today’s world, the workplace needs a different approach because what we expect from our people and what they expect from you is different."
+      products:
+        title: "Our engagement offer"
+        request: "Request more information"
+      approach:
+        header_one: "Fundamentals of communication"
+        content_one: "Examples of training modules (individual coaching or group training)
+          - Presenting with impact
+          - Writing with impact
+          - Videoconferencing with impact
+          - Meetings with impact
+          Our training modules allow you to root your line of thought, to follow a creative process and master the necessary tools to overcome any difficulty encountered relating to presentations, writing, conferences or meetings. The objective is simple: Making an impact on your audience."
+        header_two: "Our experts"
+        content_two: "ATOLO coaches are highly competent, cross-curricilar and fully committed to overcoming the challenges poses through numerous business cases engaged over many years.
+          We believe diversity is a strength. Whether enjoying extensive managerial backgrounds and/or having multiple university degrees we are proud to closely work with experts in their field, recognized by their peers. A team which never hesitates to challenge the classical paths and confront the elephant in the room.
+          Our training solutions can be given in French, English, German, Dutch, Portuguese or Spanish."
+        header_three: "Impactful tools"
+        content_three: "Deepscan© : A process developed by ATOLO allowing our pedagogical teams to understand and value your uniqueness and the complexity of your personal professional reality. Deepscan leads to the identification of disrupters allowing us to fully integrate your world. With the trainees, we will target an understanding of the causal connections in terms of communication. We will then determine how to master the KCM©.
+            KCM© : A Key Communicative Moment© is a moment in which we can leave a lasting impression, motivate, inspire, show empathy, and defend your interests in order to engage.
+            It is actually quite simple: a KCM is an opportunity.
+            Communication mapping: Imagine having the possibility to take an X-ray when things are not going the way you would like them to go within your team or organisation and obtaining the qualitative data you need to take decisions. Wouldn’t you think it was worth it?
+            Based on the Actor Network Theory (ANT), this method helps us visualise and understand the communication issues in teams and organisations which are stopping them from maximising their potential and reaching their strategic goals.
+            The robustness of this approach is due to the fact that it goes beyond people to cover the factors in the environment."
+      testimonials:
+        title: "Testimonials"
+        name_one: 'Egwin Bovyn'
+        company_one: 'Konica Minolta'
+        content_one: "The training was completely focused on my business and even my marketing materials were used. 100% customized! Very involved and professional trainer, it is like getting training from a colleague you have known for years."
+        name_two: 'Jennemie Driesens'
+        company_two: 'Axa Assistance'
+        content_two: 'The training is the result of a permanent dialogue between trainer and participants. During the training, we were able to provide continuous feedback which helped guide the content and approach wherever we wanted.'
+        name_three: 'Marina Hautman'
+        company_three: 'Credendo'
+        content_three: 'Excellent practice-oriented training. The concept allows you to focus on a project rather than the language. As a result, we progressed without realizing it by using concepts, vocabulary and expressions directly related to our needs. This makes speaking with our colleagues feel more comfortable.'
+        name_four: 'Petra Beylemans'
+        company_four: 'Cofinimmo'
+        content_four: 'Focused on specific needs using simulations of real-life situations. Very good support via the online platform and teaching materials. I speak more fluently, and I am more confident and prepared for concrete situations in the workplace.'
     communication:
       title: "Communication"
-      header: "Communication is all about Y"
-      content: "Communication is the lifeblood of the modern organisation. Daring to communicate when needed, delegating, giving feedback and communicating complexity, simply, are all skills that an engaged organisation needs to thrive."
+      spotlight:
+        header: "Communication is all about Y"
+        content: "Communication is the lifeblood of the modern organisation. Daring to communicate when needed, delegating, giving feedback and communicating complexity, simply, are all skills that an engaged organisation needs to thrive."
+      products:
+        title: "Our communication offer"
+        request: "Request more information"
+      approach:
+        header_one: "Fundamentals of communication"
+        content_one: "Examples of training modules (individual coaching or group training)
+          - Presenting with impact
+          - Writing with impact
+          - Videoconferencing with impact
+          - Meetings with impact
+          Our training modules allow you to root your line of thought, to follow a creative process and master the necessary tools to overcome any difficulty encountered relating to presentations, writing, conferences or meetings. The objective is simple: Making an impact on your audience."
+        header_two: "Our experts"
+        content_two: "ATOLO coaches are highly competent, cross-curricilar and fully committed to overcoming the challenges poses through numerous business cases engaged over many years.
+          We believe diversity is a strength. Whether enjoying extensive managerial backgrounds and/or having multiple university degrees we are proud to closely work with experts in their field, recognized by their peers. A team which never hesitates to challenge the classical paths and confront the elephant in the room.
+          Our training solutions can be given in French, English, German, Dutch, Portuguese or Spanish."
+        header_three: "Impactful tools"
+        content_three: "Deepscan© : A process developed by ATOLO allowing our pedagogical teams to understand and value your uniqueness and the complexity of your personal professional reality. Deepscan leads to the identification of disrupters allowing us to fully integrate your world. With the trainees, we will target an understanding of the causal connections in terms of communication. We will then determine how to master the KCM©.
+            KCM© : A Key Communicative Moment© is a moment in which we can leave a lasting impression, motivate, inspire, show empathy, and defend your interests in order to engage.
+            It is actually quite simple: a KCM is an opportunity.
+            Communication mapping: Imagine having the possibility to take an X-ray when things are not going the way you would like them to go within your team or organisation and obtaining the qualitative data you need to take decisions. Wouldn’t you think it was worth it?
+            Based on the Actor Network Theory (ANT), this method helps us visualise and understand the communication issues in teams and organisations which are stopping them from maximising their potential and reaching their strategic goals.
+            The robustness of this approach is due to the fact that it goes beyond people to cover the factors in the environment."
+      testimonials:
+        title: "Testimonials"
+        name_one: 'Egwin Bovyn'
+        company_one: 'Konica Minolta'
+        content_one: "The training was completely focused on my business and even my marketing materials were used. 100% customized! Very involved and professional trainer, it is like getting training from a colleague you have known for years."
+        name_two: 'Jennemie Driesens'
+        company_two: 'Axa Assistance'
+        content_two: 'The training is the result of a permanent dialogue between trainer and participants. During the training, we were able to provide continuous feedback which helped guide the content and approach wherever we wanted.'
+        name_three: 'Marina Hautman'
+        company_three: 'Credendo'
+        content_three: 'Excellent practice-oriented training. The concept allows you to focus on a project rather than the language. As a result, we progressed without realizing it by using concepts, vocabulary and expressions directly related to our needs. This makes speaking with our colleagues feel more comfortable.'
+        name_four: 'Petra Beylemans'
+        company_four: 'Cofinimmo'
+        content_four: 'Focused on specific needs using simulations of real-life situations. Very good support via the online platform and teaching materials. I speak more fluently, and I am more confident and prepared for concrete situations in the workplace.'
     languages:
       title: "Languages"
-      header: "Engagement is all about Z"
-      content: "Communication is interacting with people whatever the language.It’swhat ATOLO started doing many years ago and the truth is, we’re really good at it.Don’t learn a language, forget you’re speaking it!"
+      spotlight:
+        header: "Languages is all about Z"
+        content: "Communication is interacting with people whatever the language.It’swhat ATOLO started doing many years ago and the truth is, we’re really good at it.Don’t learn a language, forget you’re speaking it!"
+      products:
+        title: "Our offer in languages"
+        request: "Request more information"
+      approach:
+        header_one: "Fundamentals of communication"
+        content_one: "Examples of training modules (individual coaching or group training)
+          - Presenting with impact
+          - Writing with impact
+          - Videoconferencing with impact
+          - Meetings with impact
+          Our training modules allow you to root your line of thought, to follow a creative process and master the necessary tools to overcome any difficulty encountered relating to presentations, writing, conferences or meetings. The objective is simple: Making an impact on your audience."
+        header_two: "Our experts"
+        content_two: "ATOLO coaches are highly competent, cross-curricilar and fully committed to overcoming the challenges poses through numerous business cases engaged over many years.
+          We believe diversity is a strength. Whether enjoying extensive managerial backgrounds and/or having multiple university degrees we are proud to closely work with experts in their field, recognized by their peers. A team which never hesitates to challenge the classical paths and confront the elephant in the room.
+          Our training solutions can be given in French, English, German, Dutch, Portuguese or Spanish."
+        header_three: "Impactful tools"
+        content_three: "Deepscan© : A process developed by ATOLO allowing our pedagogical teams to understand and value your uniqueness and the complexity of your personal professional reality. Deepscan leads to the identification of disrupters allowing us to fully integrate your world. With the trainees, we will target an understanding of the causal connections in terms of communication. We will then determine how to master the KCM©.
+            KCM© : A Key Communicative Moment© is a moment in which we can leave a lasting impression, motivate, inspire, show empathy, and defend your interests in order to engage.
+            It is actually quite simple: a KCM is an opportunity.
+            Communication mapping: Imagine having the possibility to take an X-ray when things are not going the way you would like them to go within your team or organisation and obtaining the qualitative data you need to take decisions. Wouldn’t you think it was worth it?
+            Based on the Actor Network Theory (ANT), this method helps us visualise and understand the communication issues in teams and organisations which are stopping them from maximising their potential and reaching their strategic goals.
+            The robustness of this approach is due to the fact that it goes beyond people to cover the factors in the environment."
+      testimonials:
+        title: "Testimonials"
+        name_one: 'Egwin Bovyn'
+        company_one: 'Konica Minolta'
+        content_one: "The training was completely focused on my business and even my marketing materials were used. 100% customized! Very involved and professional trainer, it is like getting training from a colleague you have known for years."
+        name_two: 'Jennemie Driesens'
+        company_two: 'Axa Assistance'
+        content_two: 'The training is the result of a permanent dialogue between trainer and participants. During the training, we were able to provide continuous feedback which helped guide the content and approach wherever we wanted.'
+        name_three: 'Marina Hautman'
+        company_three: 'Credendo'
+        content_three: 'Excellent practice-oriented training. The concept allows you to focus on a project rather than the language. As a result, we progressed without realizing it by using concepts, vocabulary and expressions directly related to our needs. This makes speaking with our colleagues feel more comfortable.'
+        name_four: 'Petra Beylemans'
+        company_four: 'Cofinimmo'
+        content_four: 'Focused on specific needs using simulations of real-life situations. Very good support via the online platform and teaching materials. I speak more fluently, and I am more confident and prepared for concrete situations in the workplace.'
   values:
     value_one:
       title: "Curious by nature"

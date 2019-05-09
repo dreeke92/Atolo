@@ -25,7 +25,9 @@
                     <p class="small-font"><%= t("welcome.intro.cards.engagement_content") %></p>
                   </div>
                   <div>
-                    <a href="" class="button primary small"><%= t("welcome.intro.cards.learn_more") %></a>
+                    <%= link_to solutions_path(:anchor => 'tabs-1'), :class => "button primary small" do %>
+                      <%= t("welcome.intro.cards.learn_more") %>
+                    <% end %>
                   </div>
                 </div>
               </div>
@@ -47,7 +49,9 @@
                     <p class="small-font"><%= t("welcome.intro.cards.communication_content") %></p>
                   </div>
                   <div>
-                    <a href="" class="button primary small"><%= t("welcome.intro.cards.learn_more") %></a>
+                    <%= link_to solutions_path(:anchor => 'tabs-2'), :class => "button primary small" do %>
+                      <%= t("welcome.intro.cards.learn_more") %>
+                    <% end %>
                   </div>
                 </div>
               </div>
@@ -66,10 +70,12 @@
                 <div class="card-back-container">
                   <div>
                     <h3><%= t("welcome.intro.cards.languages_title") %></h3>
-                    <p class="small-font"><%= t("welcome.intro.cards.communication_content") %></p>
+                    <p class="small-font"><%= t("welcome.intro.cards.languages_content") %></p>
                   </div>
                   <div>
-                    <a href="" class="button primary small"><%= t("welcome.intro.cards.learn_more") %></a>
+                    <%= link_to solutions_path(:anchor => 'tabs-3'), :class => "button primary small" do %>
+                      <%= t("welcome.intro.cards.learn_more") %>
+                    <% end %>
                   </div>
                 </div>
               </div>

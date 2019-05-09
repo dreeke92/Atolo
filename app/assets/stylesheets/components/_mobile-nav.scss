@@ -73,7 +73,7 @@
 }
 
 #mobile-nav ul li a:hover {
-  color: #6bd292;
+  color: $atolo-green;
 }
 
 #mobile-nav ul li li {
@@ -81,7 +81,7 @@
 }
 
 #mobile-nav ul li.menu-active a {
-  color: #6bd292;
+  color: $atolo-green;
 }
 
 #mobile-nav ul .menu-has-children i {
@@ -102,7 +102,7 @@
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #6bd292;
+  color: $atolo-green;
 }
 
 #mobile-body-overly {
@@ -142,3 +142,5 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: none;
  }
 }
+
+

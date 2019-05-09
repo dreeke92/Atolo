@@ -1,8 +1,8 @@
 <div id="solutions" class="solutions-max-width">
     <%= render 'shared/navbar-fixed' %>
     <%= render 'shared/solutions/offers' %>
-    <div class="offer-pages">
-      <div id="engagement-page" class="offer-page active" >
+    <div class="offer-pages tabs" id="tabs">
+      <div id="tabs-1" class="offer-page" style="display:none;">
         <div id="wrapper" class="divided">
           <%= render 'shared/solutions/engagement/spotlight' %>
           <%= render 'shared/solutions/engagement/products' %>
@@ -10,12 +10,20 @@
           <%= render 'shared/solutions/engagement/testimonials' %>
         </div>
       </div>
-      <div id="communication-page" class="offer-page">
+      <div id="tabs-2" class="offer-page" style="display:none;">
         <div id="wrapper" class="divided">
+          <%= render 'shared/solutions/communication/spotlight' %>
+          <%= render 'shared/solutions/communication/products' %>
+          <%= render 'shared/solutions/communication/approach' %>
+          <%= render 'shared/solutions/communication/testimonials' %>
         </div>
       </div>
-      <div id="languages-page" class="offer-page">
+      <div id="tabs-3" class="offer-page" style="display:none;">
         <div id="wrapper" class="divided">
+          <%= render 'shared/solutions/languages/spotlight' %>
+          <%= render 'shared/solutions/languages/products' %>
+          <%= render 'shared/solutions/languages/approach' %>
+          <%= render 'shared/solutions/languages/testimonials' %>
         </div>
       </div>
     </div>
