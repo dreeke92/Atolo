@@ -13,6 +13,7 @@ import { testimonialCarousel } from '../components/carousel';
 import { utilFeatures } from '../components/utilfeatures';
 import { productCardNavigation } from '../components/productcard';
 import { contentSelector } from '../components/contentselector';
+import { counter } from '../components/counter';
 
 // import { toTopButton } from '../components/topbutton';
 
@@ -29,11 +30,8 @@ testimonialCarousel();
 utilFeatures();
 productCardNavigation();
 contentSelector();
+counter();
 // toTopButton();
-
-
-
-
 
 
 

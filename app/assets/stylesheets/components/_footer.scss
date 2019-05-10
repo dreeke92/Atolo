@@ -4,7 +4,21 @@
 
 .footer-container{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
 }
+
+@media screen and (max-width: 1000px) {
+  .footer-address-large{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .footer-address-small{
+    display: none;
+  }
+}
+
 
 

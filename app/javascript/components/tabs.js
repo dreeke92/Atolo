@@ -80,8 +80,10 @@ function loadWindow(){
     $(languagesPage).fadeIn();
     languagesTab.classList.add("active");
   } else {
-    $(engagementPage).fadeIn();
-    engagementTab.classList.add("active");
+    if (engagementPage !== null) {
+      $(engagementPage).fadeIn();
+      engagementTab.classList.add("active");
+    }
   }
 }
 
