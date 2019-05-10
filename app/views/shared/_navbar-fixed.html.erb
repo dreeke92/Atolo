@@ -6,9 +6,7 @@
     <div class="container-fluid">
 
       <div id="logo" class="pull-left">
-        <%= link_to welcome_path, :class => "no-text-decoration" do %>
-          <h1><span class="atolo-green">A</span>TOLO</h1>
-        <% end %>
+        <a href="#intro"><%= image_tag("atolo-logo/atolo.png", :class => "atolo-logo", :alt => "atolo") %></a>
       </div>
 
       <%= render 'shared/navigation' %>
