@@ -1,0 +1,45 @@
+.chevron-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.chevron-holder{
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: 0s border;
+  transition: 0s color;
+  margin-top: 2rem;
+}
+
+a.chevron-holder {
+  text-decoration: none !important;
+}
+
+.chevron-banner{
+  border: 1px solid black;
+  margin-top: 3rem;
+}
+
+.chevron-banner:hover{
+  border: 1px solid $atolo-green;
+  color: $atolo-green;
+}
+
+.chevron-testimonials{
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.3);
+  margin-top: 1rem;
+}
+
+.chevron-testimonials:hover{
+  border: 1px solid $atolo-green;
+  color: $atolo-green;
+}
+
