@@ -15,77 +15,27 @@
 
         <div class="items style3 medium onscroll-fade-in">
           <section>
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front card-one">
-                  <div class="card-position">
-                    <h2><%= t("welcome.intro.cards.engagement_title") %></h2>
-                  </div>
+            <div class="flip-profile-card">
+              <div class="flip-profile-card-inner">
+                <div class="flip-profile-card-front">
+                  <%= image_tag("about/mieke.jpg", :alt => "image", :class => "avatar-large") %>
+                  <h3><span class="atolo-green"><%= t('about.team.member_one.first_name') %></span> <%= t('about.team.member_one.second_name') %></h3>
+                  <h4><%= t('about.team.member_one.role') %></h4>
+                  <p><%= t('about.team.member_one.location') %></p>
                 </div>
-                <div class="flip-card-back">
-                  <div class="card-back-container">
-                    <div>
-                      <h3><%= t("welcome.intro.cards.engagement_title") %></h3>
-                      <p class="small-font"><%= t("welcome.intro.cards.engagement_content") %></p>
-                    </div>
-                    <div>
-                      <%= link_to solutions_path(:anchor => 'tabs-1-anchor'), :class => "button primary small" do %>
-                        <%= t("welcome.intro.cards.learn_more") %>
-                      <% end %>
-                    </div>
-                  </div>
+                <div class="flip-profile-card-back">
+                  <h3><%= t('about.team.member_one.first_name') %> <%= t('about.team.member_one.second_name') %></h3>
+                  <p class="small-font profile-content-align"><%= t('about.team.member_one.text') %></p>
                 </div>
               </div>
             </div>
+            <ul class="icons">
+              <li><a href="" class="icon style2 fab fa-linkedin"><span class="label">LinkedIn</span></a>
+              </li>
+              <li><a href="#" class="icon style2 fab fa-envelope"><span class="label">Email</span></a></li>
+            </ul>
           </section>
-          <section>
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front card-two">
-                  <div class="card-position">
-                    <h2><%= t("welcome.intro.cards.communication_title") %></h2>
-                  </div>
-                </div>
-                <div class="flip-card-back">
-                  <div class="card-back-container">
-                    <div>
-                      <h3><%= t("welcome.intro.cards.communication_title") %></h3>
-                      <p class="small-font"><%= t("welcome.intro.cards.communication_content") %></p>
-                    </div>
-                    <div>
-                      <%= link_to solutions_path(:anchor => 'tabs-2-anchor'), :class => "button primary small" do %>
-                        <%= t("welcome.intro.cards.learn_more") %>
-                      <% end %>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section>
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front card-three">
-                  <div class="card-position">
-                    <h2><%= t("welcome.intro.cards.languages_title") %></h2>
-                  </div>
-                </div>
-                <div class="flip-card-back">
-                  <div class="card-back-container">
-                    <div>
-                      <h3><%= t("welcome.intro.cards.languages_title") %></h3>
-                      <p class="small-font"><%= t("welcome.intro.cards.languages_content") %></p>
-                    </div>
-                    <div>
-                      <%= link_to solutions_path(:anchor => 'tabs-3-anchor'), :class => "button primary small" do %>
-                        <%= t("welcome.intro.cards.learn_more") %>
-                      <% end %>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+
         </div>
         <div class="chevron-container">
           <a href="#testimonials-anchor" class="smooth-scroll chevron-holder chevron-grey">
