@@ -1,99 +1,221 @@
 <div id="welcome">
   <!-- Wrapper -->
   <div id="wrapper" class="divided">
-  <!-- Your world -->
-    <div id="yourworld-anchor" class="yourworld-anchor"></div>
-    <section id="yourworld" class="wrapper style1 align-center">
-      <div class="inner">
-        <h2><%= t("welcome.intro.title") %></h2>
-        <div>
-          <div class="align-center yourworld-intro">
-            <p><%= t("welcome.intro.text_one") %><br><%= t("welcome.intro.text_two") %></p>
-          </div>
-        </div>
+    <!-- Team -->
+  <section class="banner style1 orient-right content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+    <div class="content">
+      <h2 class="margin-top"><%= t('about.spotlight.title') %></h2>
+      <p class="major small-font"><%= t('about.spotlight.content') %></p>
+      <ul class="actions stacked">
+        <li><a href="#team-anchor" class="button large wide smooth-scroll">Meet the team</a></li>
+      </ul>
+    </div>
+    <div class="image">
+      <%= image_tag("about/spotlight02.jpg", :alt => "image") %>
+    </div>
+  </section>
 
-
-        <div class="items style3 medium onscroll-fade-in">
-          <div>
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front card-one">
-                  <div class="card-position">
-                    <h2><%= t("welcome.intro.cards.engagement_title") %></h2>
-                  </div>
-                </div>
-                <div class="flip-card-back">
-                  <div class="card-back-container">
-                    <div>
-                      <h3><%= t("welcome.intro.cards.engagement_title") %></h3>
-                      <p class="small-font"><%= t("welcome.intro.cards.engagement_content") %></p>
-                    </div>
-                    <div>
-                      <%= link_to solutions_path(:anchor => 'tabs-1-anchor'), :class => "button primary small" do %>
-                        <%= t("welcome.intro.cards.learn_more") %>
-                      <% end %>
-                    </div>
-                  </div>
-                </div>
+  <div id="team-anchor" class="team-anchor"></div>
+  <!-- Items team -->
+  <section class="wrapper style1 align-center">
+    <div class="inner">
+      <h2><%= t('about.team.title') %></h2>
+<!--       <p></p> -->
+      <div class="items style1 medium onscroll-fade-in">
+        <section>
+          <div class="flip-profile-card">
+            <div class="flip-profile-card-inner">
+              <div class="flip-profile-card-front">
+                <%= image_tag("about/mieke.jpg", :alt => "image", :class => "avatar-large") %>
+                <h3><span class="atolo-green"><%= t('about.team.member_one.first_name') %></span> <%= t('about.team.member_one.second_name') %></h3>
+                <h4><%= t('about.team.member_one.role') %></h4>
+                <p><%= t('about.team.member_one.location') %></p>
+              </div>
+              <div class="flip-profile-card-back">
+                <h3><%= t('about.team.member_one.first_name') %> <%= t('about.team.member_one.second_name') %></h3>
+                <p class="small-font profile-content-align"><%= t('about.team.member_one.text') %></p>
               </div>
             </div>
           </div>
-          <div>
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front card-two">
-                  <div class="card-position">
-                    <h2><%= t("welcome.intro.cards.communication_title") %></h2>
-                  </div>
-                </div>
-                <div class="flip-card-back">
-                  <div class="card-back-container">
-                    <div>
-                      <h3><%= t("welcome.intro.cards.communication_title") %></h3>
-                      <p class="small-font"><%= t("welcome.intro.cards.communication_content") %></p>
-                    </div>
-                    <div>
-                      <%= link_to solutions_path(:anchor => 'tabs-2-anchor'), :class => "button primary small" do %>
-                        <%= t("welcome.intro.cards.learn_more") %>
-                      <% end %>
-                    </div>
-                  </div>
-                </div>
+          <ul class="icons">
+            <li><a href="" class="icon style2 fab fa-linkedin"><span class="label">LinkedIn</span></a>
+            </li>
+            <li><a href="#" class="icon style2 fab fa-envelope"><span class="label">Email</span></a></li>
+          </ul>
+        </section>
+        <section>
+          <div class="flip-profile-card">
+            <div class="flip-profile-card-inner">
+              <div class="flip-profile-card-front">
+                <%= image_tag("about/david.jpg", :alt => "image", :class => "avatar-large") %>
+                <h3><span class="atolo-green"><%= t('about.team.member_two.first_name') %></span> <%= t('about.team.member_two.second_name') %></h3>
+                <h4><%= t('about.team.member_two.role') %></h4>
+                <p><%= t('about.team.member_two.location') %></p>
+              </div>
+              <div class="flip-profile-card-back">
+                <h3><%= t('about.team.member_two.first_name') %> <%= t('about.team.member_two.second_name') %></h3>
+                <p class="small-font profile-content-align"><%= t('about.team.member_two.text') %></p>
               </div>
             </div>
           </div>
-          <div>
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front card-three">
-                  <div class="card-position">
-                    <h2><%= t("welcome.intro.cards.languages_title") %></h2>
-                  </div>
-                </div>
-                <div class="flip-card-back">
-                  <div class="card-back-container">
-                    <div>
-                      <h3><%= t("welcome.intro.cards.languages_title") %></h3>
-                      <p class="small-font"><%= t("welcome.intro.cards.languages_content") %></p>
-                    </div>
-                    <div>
-                      <%= link_to solutions_path(:anchor => 'tabs-3-anchor'), :class => "button primary small" do %>
-                        <%= t("welcome.intro.cards.learn_more") %>
-                      <% end %>
-                    </div>
-                  </div>
-                </div>
+          <ul class="icons">
+            <li><a href="" class="icon style2 fab fa-linkedin"><span class="label">LinkedIn</span></a>
+            </li>
+            <li><a href="#" class="icon style2 fab fa-envelope"><span class="label">Email</span></a></li>
+          </ul>
+        </section>
+        <section>
+          <div class="flip-profile-card">
+            <div class="flip-profile-card-inner">
+              <div class="flip-profile-card-front">
+                <%= image_tag("about/oscar.jpg", :alt => "image", :class => "avatar-large") %>
+                <h3><span class="atolo-green"><%= t('about.team.member_three.first_name') %></span> <%= t('about.team.member_three.second_name') %></h3>
+                <h4><%= t('about.team.member_three.role') %></h4>
+                <p><%= t('about.team.member_three.location') %></p>
+              </div>
+              <div class="flip-profile-card-back">
+                <h3><%= t('about.team.member_three.first_name') %> <%= t('about.team.member_three.second_name') %></h3>
+                <p class="small-font profile-content-align"><%= t('about.team.member_three.text') %></p>
               </div>
             </div>
           </div>
-        </div>
-        <div class="chevron-container">
-          <a href="#testimonials-anchor" class="smooth-scroll chevron-holder chevron-grey">
-          <i class="fas fa-chevron-down"></i>
-          </a>
-        </div>
+          <ul class="icons">
+            <li><a href="" class="icon style2 fab fa-linkedin"><span class="label">LinkedIn</span></a>
+            </li>
+            <li><a href="#" class="icon style2 fab fa-envelope"><span class="label">Email</span></a></li>
+          </ul>
+        </section>
+        <section>
+          <div class="flip-profile-card">
+            <div class="flip-profile-card-inner">
+              <div class="flip-profile-card-front">
+                <%= image_tag("about/eva.jpg", :alt => "image", :class => "avatar-large") %>
+                <h3><span class="atolo-green"><%= t('about.team.member_four.first_name') %></span> <%= t('about.team.member_four.second_name') %></h3>
+                <h4><%= t('about.team.member_four.role') %></h4>
+                <p><%= t('about.team.member_four.location') %></p>
+              </div>
+              <div class="flip-profile-card-back">
+                <h3><%= t('about.team.member_four.first_name') %> <%= t('about.team.member_four.second_name') %></h3>
+                <p class="small-font profile-content-align"><%= t('about.team.member_four.text') %></p>
+              </div>
+            </div>
+          </div>
+          <ul class="icons">
+            <li><a href="" class="icon style2 fab fa-linkedin"><span class="label">LinkedIn</span></a>
+            </li>
+            <li><a href="#" class="icon style2 fab fa-envelope"><span class="label">Email</span></a></li>
+          </ul>
+        </section>
+        <section>
+          <div class="flip-profile-card">
+            <div class="flip-profile-card-inner">
+              <div class="flip-profile-card-front">
+                <%= image_tag("about/adeline.jpg", :alt => "image", :class => "avatar-large") %>
+                <h3><span class="atolo-green"><%= t('about.team.member_five.first_name') %></span> <%= t('about.team.member_five.second_name') %></h3>
+                <h4><%= t('about.team.member_five.role') %></h4>
+                <p><%= t('about.team.member_five.location') %></p>
+              </div>
+              <div class="flip-profile-card-back">
+                <h3><%= t('about.team.member_five.first_name') %> <%= t('about.team.member_five.second_name') %></h3>
+                <p class="small-font profile-content-align"><%= t('about.team.member_five.text') %></p>
+              </div>
+            </div>
+          </div>
+          <ul class="icons">
+            <li><a href="" class="icon style2 fab fa-linkedin"><span class="label">LinkedIn</span></a>
+            </li>
+            <li><a href="#" class="icon style2 fab fa-envelope"><span class="label">Email</span></a></li>
+          </ul>
+        </section>
+        <section>
+          <div class="flip-profile-card">
+            <div class="flip-profile-card-inner">
+              <div class="flip-profile-card-front">
+                <%= image_tag("about/maite.jpg", :alt => "image", :class => "avatar-large") %>
+                <h3><span class="atolo-green"><%= t('about.team.member_six.first_name') %></span> <%= t('about.team.member_six.second_name') %></h3>
+                <h4><%= t('about.team.member_six.role') %></h4>
+                <p><%= t('about.team.member_six.location') %></p>
+              </div>
+              <div class="flip-profile-card-back">
+                <h3><%= t('about.team.member_six.first_name') %> <%= t('about.team.member_six.second_name') %></h3>
+                <p class="small-font profile-content-align"><%= t('about.team.member_six.text') %></p>
+              </div>
+            </div>
+          </div>
+          <ul class="icons">
+            <li><a href="" class="icon style2 fab fa-linkedin"><span class="label">LinkedIn</span></a>
+            </li>
+            <li><a href="#" class="icon style2 fab fa-envelope"><span class="label">Email</span></a></li>
+          </ul>
+        </section>
+        <section>
+          <div class="flip-profile-card">
+            <div class="flip-profile-card-inner">
+              <div class="flip-profile-card-front">
+                <%= image_tag("about/sofie.jpg", :alt => "image", :class => "avatar-large") %>
+                <h3><span class="atolo-green"><%= t('about.team.member_seven.first_name') %></span> <%= t('about.team.member_seven.second_name') %></h3>
+                <h4><%= t('about.team.member_seven.role') %></h4>
+                <p><%= t('about.team.member_seven.location') %></p>
+              </div>
+              <div class="flip-profile-card-back">
+                <h3><%= t('about.team.member_seven.first_name') %> <%= t('about.team.member_seven.second_name') %></h3>
+                <p class="small-font profile-content-align"><%= t('about.team.member_seven.text') %></p>
+              </div>
+            </div>
+          </div>
+          <ul class="icons">
+            <li><a href="" class="icon style2 fab fa-linkedin"><span class="label">LinkedIn</span></a>
+            </li>
+            <li><a href="#" class="icon style2 fab fa-envelope"><span class="label">Email</span></a></li>
+          </ul>
+        </section>
+        <section>
+          <div class="flip-profile-card">
+            <div class="flip-profile-card-inner">
+              <div class="flip-profile-card-front">
+                <%= image_tag("about/celine.jpg", :alt => "image", :class => "avatar-large") %>
+                <h3><span class="atolo-green"><%= t('about.team.member_eight.first_name') %></span> <%= t('about.team.member_eight.second_name') %></h3>
+                <h4><%= t('about.team.member_eight.role') %></h4>
+                <p><%= t('about.team.member_eight.location') %></p>
+              </div>
+              <div class="flip-profile-card-back">
+                <h3><%= t('about.team.member_eight.first_name') %> <%= t('about.team.member_eight.second_name') %></h3>
+                <p class="small-font profile-content-align"><%= t('about.team.member_eight.text') %></p>
+              </div>
+            </div>
+          </div>
+          <ul class="icons">
+            <li><a href="" class="icon style2 fab fa-linkedin"><span class="label">LinkedIn</span></a>
+            </li>
+            <li><a href="#" class="icon style2 fab fa-envelope"><span class="label">Email</span></a></li>
+          </ul>
+        </section>
+        <section>
+          <div class="flip-profile-card">
+            <div class="flip-profile-card-inner">
+              <div class="flip-profile-card-front">
+                <%= image_tag("about/quentin.jpg", :alt => "image", :class => "avatar-large") %>
+                <h3><span class="atolo-green"><%= t('about.team.member_nine.first_name') %></span> <%= t('about.team.member_nine.second_name') %></h3>
+                <h4><%= t('about.team.member_nine.role') %></h4>
+                <p><%= t('about.team.member_nine.location') %></p>
+              </div>
+              <div class="flip-profile-card-back">
+                <h3><%= t('about.team.member_nine.first_name') %> <%= t('about.team.member_nine.second_name') %></h3>
+                <p class="small-font profile-content-align"><%= t('about.team.member_nine.text') %></p>
+              </div>
+            </div>
+          </div>
+          <ul class="icons">
+            <li><a href="" class="icon style2 fab fa-linkedin"><span class="label">LinkedIn</span></a>
+            </li>
+            <li><a href="#" class="icon style2 fab fa-envelope"><span class="label">Email</span></a></li>
+          </ul>
+        </section>
       </div>
-    </section>
+    </div>
+  </section>
   </div>
 </div>
+
+
 
