@@ -90,7 +90,7 @@
 .flip-card-back {
   // background-color: $atolo-green;
   // color: white;
-  transform: rotateY(180deg);
+  transform: rotateY(-180deg);
   border: solid 1px;
   border-color: rgba(0, 0, 0, 0.2);
   padding: 1.5em;
