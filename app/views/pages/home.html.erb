@@ -1,33 +1,39 @@
 <div id="welcome">
   <!-- Wrapper -->
   <div id="wrapper" class="divided">
-  <!-- Your world -->
-    <div id="yourworld-anchor" class="yourworld-anchor"></div>
-    <section id="yourworld" class="wrapper style1 align-center">
-        <h2><%= t("welcome.intro.title") %></h2>
-        <div>
-          <div class="align-center yourworld-intro">
-            <p><%= t("welcome.intro.text_one") %><br><%= t("welcome.intro.text_two") %></p>
-          </div>
-        </div>
 
+ <div id="team-anchor" class="team-anchor"></div>
+  <!-- Items team -->
+  <section class="wrapper style1 align-center">
+    <div class="inner">
+      <h2><%= t('about.team.title') %></h2>
 
-        <div class="items style1 medium onscroll-fade-in">
-          <section>
-            <div class="flip-profile-card">
-              <div class="flip-profile-card-inner">
-                <div class="flip-profile-card-front">
-                  <p>This is some random text</p>
-                </div>
-                <div class="flip-profile-card-back">
-                  <p>This is some other random text</p>
-                </div>
+      <div class="items style1 medium onscroll-fade-in">
+        <section>
+          <div class="flip-profile-card">
+            <div class="flip-profile-card-inner">
+              <div class="flip-profile-card-front">
+                <%= image_tag("about/mieke.jpg", :alt => "image", :class => "avatar-large") %>
+                <h3><span class="atolo-green"><%= t('about.team.member_one.first_name') %></span> <%= t('about.team.member_one.second_name') %></h3>
+                <h4><%= t('about.team.member_one.role') %></h4>
+                <p><%= t('about.team.member_one.location') %></p>
+              </div>
+              <div class="flip-profile-card-back">
+                <h3><%= t('about.team.member_one.first_name') %> <%= t('about.team.member_one.second_name') %></h3>
+                <p class="small-font profile-content-align"><%= t('about.team.member_one.text') %></p>
               </div>
             </div>
-          </section>
+          </div>
+          <ul class="icons">
+            <li><a href="" class="icon style2 fab fa-linkedin"><span class="label">LinkedIn</span></a>
+            </li>
+            <li><a href="#" class="icon style2 fab fa-envelope"><span class="label">Email</span></a></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </section>
 
-        </div>
-    </section>
   </div>
 </div>
 
