@@ -6,10 +6,14 @@ const clientCounter = document.getElementById('client-counter');
 const traineeCounter = document.getElementById('trainee-counter');
 
 function offset(el) {
+  if (el !== null){
     var rect = el.getBoundingClientRect(),
     scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
     scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
+  } else {
+    return 'nothing to return';
+  }
 }
 
 function checkHeight(pageHeight, divHeight){
