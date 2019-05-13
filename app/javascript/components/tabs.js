@@ -24,6 +24,16 @@ function activateCurrentTab(event){
   // console.log(event.currentTarget);
 }
 
+function activateCurrentTabFromNav(event){
+  if (event.currentTarget === engagementNav){
+    engagementTab.classList.add('active');
+  } else if (event.currentTarget === communicationNav){
+    communicationTab.classList.add('active');
+  } else if (event.currentTarget === languagesNav){
+    languagesTab.classList.add('active');
+  };
+};
+
 function hideAllPages(){
   allPages.forEach((page) => {
     page.style.display = "none";
@@ -60,23 +70,23 @@ function initTabs(){
 function initNavs(){
   allNavs.forEach((nav) => {
     nav.addEventListener('click', (event)=>{
+      removeActiveTabs();
+      activateCurrentTabFromNav(event);
       hideAllPages();
       showCurrentPage(event);
     });
   });
 };
 
-
-
 function loadWindow(){
   const hash = window.location.hash;
-  if (hash === '#tabs-1'){
+  if (hash === '#tabs-1-anchor'){
     $(engagementPage).fadeIn();
     engagementTab.classList.add("active");
-  } else if (hash === '#tabs-2'){
+  } else if (hash === '#tabs-2-anchor'){
     $(communicationPage).fadeIn();
     communicationTab.classList.add("active");
-  } else if (hash === '#tabs-3'){
+  } else if (hash === '#tabs-3-anchor'){
     $(languagesPage).fadeIn();
     languagesTab.classList.add("active");
   } else {

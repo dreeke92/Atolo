@@ -11,17 +11,17 @@
       <% end %>
       <ul class="nav-menu-drop-down">
         <li id="nav_engagement" class="offer-nav">
-          <%= link_to solutions_path(:anchor => 'tabs-1') do %>
+          <%= link_to solutions_path(:anchor => 'tabs-1-anchor') do %>
             <%= t("navbar.engagement_title") %>
           <% end %>
         </li>
         <li id="nav_communication" class="offer-nav">
-          <%= link_to solutions_path(:anchor => 'tabs-2') do %>
+          <%= link_to solutions_path(:anchor => 'tabs-2-anchor') do %>
             <%= t("navbar.communication_title") %>
           <% end %>
         </li>
         <li id="nav_languages" class="offer-nav">
-          <%= link_to solutions_path(:anchor => 'tabs-3') do %>
+          <%= link_to solutions_path(:anchor => 'tabs-3-anchor') do %>
             <%= t("navbar.languages_title") %>
           <% end %>
         </li>
@@ -36,6 +36,23 @@
       <%= link_to about_path do %>
         <%= t("navbar.about") %>
       <% end %>
+      <ul class="nav-menu-drop-down">
+        <li id="nav_team" class="about-nav">
+          <%= link_to about_path(:anchor => 'team-anchor') do %>
+            <%= t("navbar.team") %>
+          <% end %>
+        </li>
+        <li id="nav_whereto" class="about-nav">
+          <%= link_to about_path(:anchor => 'location-anchor') do %>
+            <%= t("navbar.whereto") %>
+          <% end %>
+        </li>
+        <li id="nav_probono" class="about-nav">
+          <%= link_to about_path(:anchor => 'probono-anchor') do %>
+            <%= t("navbar.probono") %>
+          <% end %>
+        </li>
+      </ul>
     </li>
     <li id="nav_contact">
       <%= link_to contact_path do %>

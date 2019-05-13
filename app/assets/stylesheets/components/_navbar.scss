@@ -259,3 +259,15 @@
 #nav_solutions #nav_languages a:hover {
   color: $atolo-green;
 }
+
+#nav_about #nav_team a,
+#nav_about #nav_whereto a,
+#nav_about #nav_probono a {
+  color: black;
+}
+
+#nav_about #nav_team a:hover,
+#nav_about #nav_whereto a:hover,
+#nav_about #nav_probono a:hover {
+  color: $atolo-green;
+}

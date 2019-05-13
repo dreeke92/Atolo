@@ -5,3 +5,20 @@
 .margin-top{
   margin-top: 2rem;
 }
+
+div.team-anchor,
+div.location-anchor,
+div.probono-anchor{
+  display: block;
+  position: relative;
+  top: -72px;
+  visibility: hidden;
+}
+
+.about-nav a{
+  color: black;
+}
+
+.about-nav a:hover {
+  color: $atolo-green;
+}

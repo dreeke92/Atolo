@@ -1,7 +1,9 @@
 import { CountUp } from '../packs/countUp.js';
 
-
-
+const trainerCounter = document.getElementById('trainer-counter');
+const trainingCounter = document.getElementById('training-counter');
+const clientCounter = document.getElementById('client-counter');
+const traineeCounter = document.getElementById('trainee-counter');
 
 function offset(el) {
     var rect = el.getBoundingClientRect(),
@@ -34,7 +36,7 @@ function counterUp(element, count){
   var fired = false;
   $(window).scroll(function(){
     const pageHeight = window.pageYOffset;
-    const divHeight = offset(element).top;
+    const divHeight = offset(trainerCounter).top;
     var check = checkHeight(pageHeight, divHeight);
     if(check === true){
       if(fired === false ){
@@ -44,11 +46,6 @@ function counterUp(element, count){
     };
   });
 };
-
-const trainerCounter = document.getElementById('trainer-counter');
-const trainingCounter = document.getElementById('training-counter');
-const clientCounter = document.getElementById('client-counter');
-const traineeCounter = document.getElementById('trainee-counter');
 
 function counter(){
   counterUp(trainerCounter, 124);
