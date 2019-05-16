@@ -10,11 +10,12 @@
       </div>
 
 
-      <div class="items style3 medium onscroll-fade-in">
+      <div id="yourworld-desktop" class="items style3 medium onscroll-fade-in">
+
         <div>
           <div class="flip-card">
             <div class="flip-card-inner">
-              <div id="engagement-front-card" class="flip-card-front card-one">
+              <div class="flip-card-front card-one">
                 <div class="card-position">
                   <h2><%= t("welcome.intro.cards.engagement_title") %></h2>
                 </div>
@@ -84,6 +85,46 @@
           </div>
         </div>
       </div>
+
+      <div id="yourworld-mobile" class="items style3 medium onscroll-fade-in">
+
+        <div>
+          <%= link_to solutions_path(:anchor => 'tabs-1-anchor') do %>
+            <div class="flip-card">
+              <div class="flip-card-front card-one">
+                <div class="card-position">
+                  <h2><%= t("welcome.intro.cards.engagement_title") %></h2>
+                </div>
+              </div>
+            </div>
+          <% end %>
+        </div>
+        <div>
+          <%= link_to solutions_path(:anchor => 'tabs-2-anchor') do %>
+            <div class="flip-card">
+              <div class="flip-card-front card-two">
+                <div class="card-position">
+                  <h2><%= t("welcome.intro.cards.communication_title") %></h2>
+                </div>
+              </div>
+            </div>
+          <% end %>
+        </div>
+        <div>
+          <%= link_to solutions_path(:anchor => 'tabs-3-anchor') do %>
+            <div class="flip-card">
+              <div class="flip-card-front card-three">
+                <div class="card-position">
+                  <h2><%= t("welcome.intro.cards.languages_title") %></h2>
+                </div>
+              </div>
+            </div>
+          <% end %>
+        </div>
+      </div>
+
+
+
       <div class="chevron-container">
         <a href="#testimonials-anchor" class="smooth-scroll chevron-holder chevron-grey">
         <i class="fas fa-chevron-down"></i>

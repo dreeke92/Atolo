@@ -16,7 +16,25 @@ function productForMobile(){
   };
   var checkMobile = isMobile();
 
+  const mobileWorld = document.getElementById('yourworld-mobile');
+  const desktopWorld = document.getElementById('yourworld-desktop');
 
+  if (mobileWorld !== null ){
+    mobileWorld.hidden = true;
+  }
+  if (desktopWorld !== null){
+    desktopWorld.hidden = true;
+  }
+
+  if (checkMobile === true){
+    if (mobileWorld !== null ){
+      mobileWorld.hidden = false;
+    }
+  } else if (checkMobile === false){
+    if (desktopWorld !== null ){
+      desktopWorld.hidden = false;
+    }
+  };
 };
 
 export { productForMobile };
