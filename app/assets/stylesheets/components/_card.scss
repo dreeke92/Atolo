@@ -85,12 +85,10 @@
   background-color: #bbb;
   color: black;
   overflow: hidden;
-  text-indent: -50%;
 }
 
-.flip-card-front img {
-  max-height: 100%;
-
+.card-front-title{
+  color: white;
 }
 
 /* Style the back side */
