@@ -1,5 +1,3 @@
-
-
 function productCardNavigation(){
   $('a.data-gallery').featherlightGallery({
     previousIcon: '<i class="fas fa-chevron-left"></i>',     /* Code that is used as previous icon */

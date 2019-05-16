@@ -3,6 +3,7 @@ import 'webpack-jquery-ui';
 import "bootstrap";
 
 import { execute } from '../packs/jqueries';
+import { productForMobile } from '../packs/detectswipe';
 import { templateFeatures } from '../components/templatefeatures';
 import { headerScroll } from '../components/navbar';
 import { loadWindow } from '../components/tabs';
@@ -20,6 +21,7 @@ import { counter } from '../components/counter';
 execute();
 
 /*Scripts*/
+productForMobile();
 templateFeatures();
 headerScroll();
 window.onload = loadWindow();
