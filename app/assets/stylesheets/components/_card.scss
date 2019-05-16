@@ -85,10 +85,7 @@
   background-color: #bbb;
   color: black;
   overflow: hidden;
-}
 
-.card-front-title{
-  color: white;
 }
 
 /* Style the back side */
@@ -116,6 +113,9 @@
 .card-position{
   height: 100%;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .card-position > h2 {
