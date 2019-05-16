@@ -84,6 +84,13 @@
 .flip-card-front {
   background-color: #bbb;
   color: black;
+  overflow: hidden;
+  text-indent: -50%;
+}
+
+.flip-card-front img {
+  max-height: 100%;
+
 }
 
 /* Style the back side */
@@ -136,5 +143,11 @@
   background-size:     cover;                      /* <------ */
   background-repeat:   no-repeat;
   background-position: center;
+}
+
+.image-profile{
+  // max-width: 100%;
+  // max-height: 100%;
+
 }
 
