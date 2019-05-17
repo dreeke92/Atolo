@@ -37,6 +37,12 @@
   // background: white;
 }
 
+.product-card-margin{
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  border-radius: 5px;
+}
+
 .product-card-buttons{
   display: flex;
   justify-content: space-between;
@@ -151,3 +157,4 @@ button .product-card-button{
   justify-content: space-between;
   padding: 1rem 3rem 1rem 3rem;
 }
+
