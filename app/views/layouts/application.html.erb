@@ -9,14 +9,12 @@
     <%= stylesheet_link_tag 'application', media: 'all' %>
     <%#= stylesheet_pack_tag 'application', media: 'all' %>
     <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"type='text/css'>
   </head>
   <body class="is-preload">
     <%= yield %>
     <%= render 'shared/footer' %>
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
-<!--     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap">
-    </script> -->
   </body>
 </html>
