@@ -36,8 +36,17 @@ function mobileNavigation() {
         }
       }
     });
+    const dropDown = document.querySelectorAll('.nav-menu-drop-down');
+    dropDown.forEach(element => {
+      element.hidden = true;
+    })
+
   } else if ($("#mobile-nav, #mobile-nav-toggle").length) {
     $("#mobile-nav, #mobile-nav-toggle").hide();
+    const dropDown = document.querySelectorAll('.nav-menu-drop-down');
+    dropDown.forEach(element => {
+      element.hidden = false;
+    })
   }
 };
 
