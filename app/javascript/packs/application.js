@@ -15,6 +15,7 @@ import { utilFeatures } from '../components/utilfeatures';
 import { productCardNavigation } from '../components/productcard';
 import { contentSelector } from '../components/contentselector';
 import { counter } from '../components/counter';
+import { dropDown } from '../components/dropdown';
 
 // import { toTopButton } from '../components/topbutton';
 
@@ -33,6 +34,7 @@ utilFeatures();
 productCardNavigation();
 contentSelector();
 counter();
+dropDown();
 // toTopButton();
 
 
