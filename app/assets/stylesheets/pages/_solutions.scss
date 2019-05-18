@@ -28,8 +28,12 @@ div.value-five-anchor{
 }
 
 #content-selector{
-  background: none;
   color: white;
+  background: none;
+}
+
+.selector-box{
+    // background: rgba(0,0,0, 0.2);
 }
 
 .mobile-content-selector{
@@ -67,8 +71,12 @@ div.value-five-anchor{
 }
 
 .selector.active h3{
-  color: $atolo-green;
+  // color: $atolo-green;
   font-weight: bold;
+}
+
+.selector.active i{
+  color: $atolo-green;
 }
 
 .mobile-selector.active {
@@ -99,4 +107,13 @@ div.value-five-anchor{
 
 .selector{
   cursor: pointer;
+}
+
+.selector h3{
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.selector i{
+  color: black;
 }

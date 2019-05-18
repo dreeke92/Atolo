@@ -3,6 +3,11 @@ const selectorOne = document.querySelector('.selector-one');
 const selectorTwo = document.querySelector('.selector-two');
 const selectorThree = document.querySelector('.selector-three');
 
+const allSelectorBubbles = document.querySelectorAll('.selector-bubble');
+const selectorBubbleOne = document.querySelector('.selector-bubble-one');
+const selectorBubbleTwo = document.querySelector('.selector-bubble-two');
+const selectorBubbleThree = document.querySelector('.selector-bubble-three');
+
 const allMobileSelectors = document.querySelectorAll('.mobile-selector');
 const mobileSelectorOne = document.querySelector('.mobile-selector-one');
 const mobileSelectorTwo = document.querySelector('.mobile-selector-two');
@@ -21,10 +26,24 @@ function removeActiveSelectors(){
   allMobileSelectors.forEach((selector) => {
     selector.classList.remove("active");
   });
+  allSelectorBubbles.forEach((selector) => {
+    selector.classList.remove('fas');
+    selector.classList.add('far');
+  })
 };
 
 function activateCurrentSelector(event){
   event.currentTarget.classList.add("active");
+  if (event.currentTarget === selectorOne){
+    selectorBubbleOne.classList.remove('far');
+    selectorBubbleOne.classList.add('fas');
+  } else if (event.currentTarget === selectorTwo){
+    selectorBubbleTwo.classList.remove('far');
+    selectorBubbleTwo.classList.add('fas');
+  } else if (event.currentTarget === selectorThree){
+    selectorBubbleThree.classList.remove('far');
+    selectorBubbleThree.classList.add('fas');
+  }
 }
 
 function hideAllApproaches(){
