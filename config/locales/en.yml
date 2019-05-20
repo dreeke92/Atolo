@@ -31,7 +31,9 @@ In today’s world, the workplace needs a different approach because what we exp
         languages_content: "Communication is interacting with people whatever the language.It’swhat ATOLO started doing many years ago and the truth is, we’re really good at it.Don’t learn a language, forget you’re speaking it!"
         learn_more: "learn more"
     testimonials:
-      title: "Testimonials"
+      name_one: 'Jennemie D'
+      company_one: 'AXA Assistance'
+      content_one: "The training is the result of a permanent dialogue between trainer and participants. During the training, we were able to provide continuous feedback which helped guide the content and approach wherever we wanted."
     contact_us:
   solutions:
     discover-button: "Discover our offer"
@@ -66,23 +68,24 @@ In today’s world, the workplace needs a different approach because what we exp
             The robustness of this approach is due to the fact that it goes beyond people to cover the factors in the environment."
       testimonials:
         title: "Testimonials"
-        name_one: 'Egwin Bovyn'
-        company_one: 'Konica Minolta'
-        content_one: "The training was completely focused on my business and even my marketing materials were used. 100% customized! Very involved and professional trainer, it is like getting training from a colleague you have known for years."
-        name_two: 'Jennemie Driesens'
-        company_two: 'Axa Assistance'
-        content_two: 'The training is the result of a permanent dialogue between trainer and participants. During the training, we were able to provide continuous feedback which helped guide the content and approach wherever we wanted.'
-        name_three: 'Marina Hautman'
-        company_three: 'Credendo'
-        content_three: 'Excellent practice-oriented training. The concept allows you to focus on a project rather than the language. As a result, we progressed without realizing it by using concepts, vocabulary and expressions directly related to our needs. This makes speaking with our colleagues feel more comfortable.'
-        name_four: 'Petra Beylemans'
-        company_four: 'Cofinimmo'
-        content_four: 'Focused on specific needs using simulations of real-life situations. Very good support via the online platform and teaching materials. I speak more fluently, and I am more confident and prepared for concrete situations in the workplace.'
+        name_one: 'Jennemie D'
+        company_one: 'AXA Assistance'
+        content_one: "The training is the result of a permanent dialogue between trainer and participants. During the training, we were able to provide continuous feedback which helped guide the content and approach wherever we wanted."
+        name_two: ''
+        company_two: ''
+        content_two: ''
+        name_three: ''
+        company_three: ''
+        content_three: ''
+        name_four: ''
+        company_four: ''
+        content_four: ''
     communication:
       title: "Communication"
       spotlight:
-        header: "Communication is all about Y"
-        content: "Communication is the lifeblood of the modern organisation. Daring to communicate when needed, delegating, giving feedback and communicating complexity, simply, are all skills that an engaged organisation needs to thrive."
+        header: "Great things happen when people communicate well!"
+        content: "Communication is the lifeblood of the modern organisation. Daring to communicate when needed, delegating, giving feedback and communicating complexity simply, are all skills that an engaged organisation needs to thrive!
+Our solutions combine coaching and training in an efficient way where individuals first connect to themselves and become more powerful connecting with others."
       products:
         title: "Our Communication Solutions"
         request: "Request more information"
@@ -107,18 +110,27 @@ In today’s world, the workplace needs a different approach because what we exp
             The robustness of this approach is due to the fact that it goes beyond people to cover the factors in the environment."
       testimonials:
         title: "Testimonials"
-        name_one: 'Egwin Bovyn'
-        company_one: 'Konica Minolta'
-        content_one: "The training was completely focused on my business and even my marketing materials were used. 100% customized! Very involved and professional trainer, it is like getting training from a colleague you have known for years."
-        name_two: 'Jennemie Driesens'
-        company_two: 'Axa Assistance'
-        content_two: 'The training is the result of a permanent dialogue between trainer and participants. During the training, we were able to provide continuous feedback which helped guide the content and approach wherever we wanted.'
-        name_three: 'Marina Hautman'
-        company_three: 'Credendo'
-        content_three: 'Excellent practice-oriented training. The concept allows you to focus on a project rather than the language. As a result, we progressed without realizing it by using concepts, vocabulary and expressions directly related to our needs. This makes speaking with our colleagues feel more comfortable.'
-        name_four: 'Petra Beylemans'
-        company_four: 'Cofinimmo'
-        content_four: 'Focused on specific needs using simulations of real-life situations. Very good support via the online platform and teaching materials. I speak more fluently, and I am more confident and prepared for concrete situations in the workplace.'
+        name_one: 'Nina S'
+        company_one: 'Deutsche Bank'
+        content_one: "What I appreciate the most is the attention payed to individual goals and focus, a very structured approach and a highly motivating attitude of coaching."
+        name_two: 'Luka V'
+        company_two: 'ATOS'
+        content_two: 'The trainer plunges into the heart of the subject. We were put at ease and challenged at the same time. The approach was completely personalized and we are now all convinced that progress is possible.'
+        name_three: 'Christine P'
+        company_three: 'Lhoist'
+        content_three: "Coach which builds confidence, stimulates, encourages but he doesn't let you get away with anything. He is able to give great advice!"
+        name_four: 'Jean-Marc D'
+        company_four: 'Schneider'
+        content_four: "Lively, targeted and effective!"
+        name_five: 'Ayo S'
+        company_five: 'Marsh'
+        content_five: "Since I followed this training, I now choose more consciously what I need to communicate. I especially follow the principle of putting myself in other's shoes. I even do that when communicating in writing. I now have to work on structuring my communicaton but thanks to this training and the combination of exercises and practice, I'm confident I'll get there!"
+        name_six: 'Michael E'
+        company_six: 'John Crane'
+        content_six: "I feel this course should be given to all managers wherever they work because it's a wonderful self-reflexion experience and a rethink of current and future presentations."
+        name_seven: 'Koen S'
+        company_seven: 'Wordline'
+        content_seven: "Thanks to this training, I feel less nervous and I am able to communicate more clearly."
     languages:
       title: "Languages"
       spotlight:
@@ -148,18 +160,27 @@ In today’s world, the workplace needs a different approach because what we exp
             The robustness of this approach is due to the fact that it goes beyond people to cover the factors in the environment."
       testimonials:
         title: "Testimonials"
-        name_one: 'Egwin Bovyn'
+        name_one: 'Egwin B'
         company_one: 'Konica Minolta'
-        content_one: "The training was completely focused on my business and even my marketing materials were used. 100% customized! Very involved and professional trainer, it is like getting training from a colleague you have known for years."
-        name_two: 'Jennemie Driesens'
-        company_two: 'Axa Assistance'
-        content_two: 'The training is the result of a permanent dialogue between trainer and participants. During the training, we were able to provide continuous feedback which helped guide the content and approach wherever we wanted.'
-        name_three: 'Marina Hautman'
-        company_three: 'Credendo'
-        content_three: 'Excellent practice-oriented training. The concept allows you to focus on a project rather than the language. As a result, we progressed without realizing it by using concepts, vocabulary and expressions directly related to our needs. This makes speaking with our colleagues feel more comfortable.'
-        name_four: 'Petra Beylemans'
-        company_four: 'Cofinimmo'
-        content_four: 'Focused on specific needs using simulations of real-life situations. Very good support via the online platform and teaching materials. I speak more fluently, and I am more confident and prepared for concrete situations in the workplace.'
+        content_one: "The training was completely focused on my business. Even my marketing materials were used. 100% customized! Very involved and professional trainer, it is like getting training from a colleague you have known for years."
+        name_two: 'Lorella Di C'
+        company_two: 'Bridgestone'
+        content_two: 'The trainer puts us at ease and allows us to express ourselves with confidence and to learn easily. The approach is adapted to our needs, modulated according to our knowledge and makes us evolve quickly.'
+        name_three: 'Petra B'
+        company_three: 'Cofinimmo'
+        content_three: 'Focused on specific needs using simulations of real-life situations. Very good online platform & teaching materials. I speak more fluently, and I am more confident and prepared for concrete situations in the workplace.'
+        name_four: 'Marina H'
+        company_four: 'Credendo'
+        content_four: 'Excellent practice-oriented training. The concept allows to focus on a project rather than the language. As a result, we progressed without realizing it by using concepts, vocabulary and expressions directly related to our needs. This makes speaking with colleagues more comfortable.'
+        name_five: 'Pauline G'
+        company_five: 'Triodos'
+        content_five: 'The writing skills formula was useful work at home combined with face to face sessions allowing to analyze painpoints, to review them and practice. All of this with a great trainer who was interested, knowledgeable and great in explaining things.'
+        name_six: 'Solange B'
+        company_six: 'TucRail'
+        content_six: 'A training as never seen before, was focused and concrete: the content of the program, the customized exercises online and the trainer were the best I ever had. This training allowed me to unlock completely, it gave me a boost. What I learned I can put directly and easily into practice.'
+        name_seven: 'Sarah D'
+        company_seven: 'Cofinimmo'
+        content_seven: 'What I appreciate the most is the work on skills (versus theory) and the immersive character of the training (German only!). The trainer manages to put all the participants in confidence which allows us to dare to make mistakes in order to progress.'
   values:
     value_one:
       title: "Curious by nature"

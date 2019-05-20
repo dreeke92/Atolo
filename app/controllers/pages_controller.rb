@@ -5,8 +5,8 @@ class PagesController < ApplicationController
   end
 
   def solutions
-    @languages_products = Product.all
-    @communication_products = Product.all
-    @engagement_products = Product.all
+    @languages_products = Product.where(group: "Languages")
+    @communication_products = Product.where(group: "Communication")
+    @engagement_products = Product.where(group: "Engagement")
   end
 end

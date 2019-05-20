@@ -78,6 +78,7 @@ function initNavs(){
   });
 };
 
+
 function loadWindow(){
   const hash = window.location.hash;
   if (hash === '#tabs-1-anchor'){
@@ -100,3 +101,4 @@ function loadWindow(){
 export { loadWindow };
 export { initTabs };
 export { initNavs };
+
