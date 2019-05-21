@@ -16,20 +16,40 @@ engagement_pic_one = "https://images.unsplash.com/photo-1534108728919-56412aa1e6
 engagement_pic_two = "https://images.unsplash.com/photo-1533284133567-0da9844151ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
 engagement_pic_three = "https://images.unsplash.com/photo-1521200379774-e541c236ea33?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
 
+languages_pic_one = "https://images.unsplash.com/photo-1532102522784-9e4d4d9a533c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+languages_pic_two = "https://images.unsplash.com/photo-1455885661740-29cbf08a42fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+languages_pic_three = "https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+languages_pic_four = "https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+languages_pic_five = "https://images.unsplash.com/photo-1488257907837-523fe2051fc3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+languages_pic_six = "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+languages_pic_seven = "https://images.unsplash.com/photo-1483739355414-f8e2eb7651f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+languages_pic_eight = "https://images.unsplash.com/photo-1534180888273-50e8cca7c1e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+languages_pic_nine = "https://images.unsplash.com/photo-1556740720-776b84291f8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80"
+
+
 puts "Creating records of products..."
 
-communication_one = Product.create!(name: "Presenting with impact", group: "Communication", description: "You wish to be comfortable and confident when you are at the front of the room performing in front of others. Obtaining buy-in and having impact are key for you.")
-communication_two = Product.create!(name: "Giving feedback", group: "Communication", description: "You wish to feel comfortable while giving feedback and want your message to come across whilst showing respect for the other. You want to inspire people and get buy-in even on the most difficult topics. You also want to be open to receiving feedback.")
-communication_three = Product.create!(name: "Communication for experts", group: "Communication", description: "As an expert in your field, you sometimes get lost when you need to communicate. You want to communicate in a clear and concise way, have an impact and feel confident whatever the circumstances.")
-communication_four = Product.create!(name: "Influencing and convincing", group: "Communication", description: "You wish to speak up more in meetings, feel more comfortable expressing what you think, listen better and interact better with the people around you.")
-communication_five = Product.create!(name: "Listening to understand", group: "Communication", description: "You wish to become more powerful in your communication by listening without judging or interfering with what is being said. You want to understand what motivates the speaker and make him feel heard.")
-communication_six = Product.create!(name: "Assertiveness", group: "Communication", description: "You want to have the confidence  to speak when you have something to say and to transmit your ideas decisively. You want to be able to clearly indicate your boundaries without infringing those of others.")
-communication_seven = Product.create!(name: "Delegating", group: "Communication", description: "You wish to delegate in a way which makes people feel trusted and that you are helping them grow, while at the same time being efficient and ensuring transparency so that objectives are met.")
+communication_one = Product.create!(name: "Listening to understand", group: "Communication", description: "You wish to become more powerful in your communication by listening without judging or interfering with what is being said. You want to understand what motivates the speaker and make him feel heard. Individual and group solutions. Formats adapted to your needs.")
+communication_two = Product.create!(name: "Presenting with Impact", group: "Communication", description: "You wish to be comfortable and confident when you are performing in front of others. Obtaining buy-in and having impact are key for you. Individual and group solutions. Formats adapted to your needs.")
+communication_three = Product.create!(name: "Giving feedback", group: "Communication", description: "You wish to feel comfortable while giving feedback and want your message to come across whilst showing respect for the other. You want to inspire people and get buy-in even on the most difficult topics. You want to be open to receiving feedback. Individual and group solutions. Formats adapted to your needs.")
+communication_four = Product.create!(name: "Communication for Experts", group: "Communication", description: "As an expert in your field, you sometimes get lost when you need to communicate. Your message needs to be clear and concise and you wish to have an impact and feel confident. Individual and group solutions. Formats adapted to your needs.")
+communication_five = Product.create!(name: "Delegating", group: "Communication", description: "You wish to delegate in a way which makes people feel trusted and that you are helping them grow, while at the same time being efficient and ensuring transparency so that objectives are met. Individual and group solutions. Formats adapted to your needs.")
+communication_six = Product.create!(name: "Assertiveness", group: "Communication", description: "You want to have the confidence  to speak when you have something to say and to transmit your ideas decisively. You want to be able to clearly indicate your boundaries without infringing those of others. Individual and group solutions. Formats adapted to your needs.")
+communication_seven = Product.create!(name: "Influencing & convincing", group: "Communication", description: "You wish to speak up more in meetings, feel more comfortable expressing what you think, listen better and interact better with the people around you. Individual and group solutions. Formats adapted to your needs.")
 
 engagement_one = Product.create!(name: "Activate Engagement", group: "Engagement", description: "We trigger the process of engagement and the connection to your organisation’s values. You now have the tools to continue the process and lead your people to action! A  four- hour workshop in which people identify what drives them, connect these drivers to the organisations values and identify how to contribute more to the common goal.")
 engagement_two = Product.create!(name: "Accelerate Engagement", group: "Engagement", description: "We convert the process of engagement into concrete actions and changes in behaviour. You prefer to handle the process of embedding this as your organisation’s DNA yourselves or at a later time. People connect their individual drivers to the collective. Collaboratively, the team defines the collective values they will need to allow engagement to flourish and identify the tangible actions and behaviours required for this to happen. Actions and behaviours which are connected to the organisation’s values and which drive the success of its mission. During this one and a half day journey, we support the team in the first phase of the execution of the action plan.")
 engagement_three = Product.create!(name: "Anchor Engagement", group: "Engagement", description: "We support your organisation during the process of embedding engagement as part of your DNA.")
 
+languages_one = Product.create!(name: "Work & learn", group: "Languages", description: "A language training embedded in your business project.")
+languages_two = Product.create!(name: "The Atolo Classic", group: "Languages", description: "Individual or group language courses. Duration and rhythms adapted to your reality. Like all classics, a learning journey your participants will never forget.")
+languages_three = Product.create!(name: "Collaborative learning", group: "Languages", description: "A dynamic team experience combining scrum meetings, individual coaching, group trainings.")
+languages_four = Product.create!(name: "Languages & communication skills: A perfect blend", group: "Languages", description: "Learning a language all the while developing a soft skill. The ideal combination.")
+languages_five = Product.create!(name: "On the field language training ", group: "Languages", description: "Languages learnt on the field. Master your language skills in your real work environment.")
+languages_six = Product.create!(name: "Writing skills", group: "Languages", description: "A tailored program focused on your writing where needed (reports, meeting minutes, customer care, audits…).")
+languages_seven = Product.create!(name: "Phone or Skype ", group: "Languages", description: "For those whose main line of communication isn't face to face or who simply need flexibility.")
+languages_eight = Product.create!(name: "Speak up and share", group: "Languages", description: "Conversation tables, interesting business topics, everyone is welcome. No rules except sharing ideas and thoughts in a target language.")
+languages_nine = Product.create!(name: "A credit full of languages", group: "Languages", description: "A line of credit covering a number of hours of training for those who have hectic agendas. No limits, pure flexibility, training when you need it.")
 
 puts "relating pictures to products..."
 
@@ -54,3 +74,22 @@ engagement_two.remote_photo_url = engagement_pic_two
 engagement_two.save
 engagement_three.remote_photo_url = engagement_pic_three
 engagement_three.save
+
+languages_one.remote_photo_url = languages_pic_one
+languages_one.save
+languages_two.remote_photo_url = languages_pic_two
+languages_two.save
+languages_three.remote_photo_url = languages_pic_three
+languages_three.save
+languages_four.remote_photo_url = languages_pic_four
+languages_four.save
+languages_five.remote_photo_url = languages_pic_five
+languages_five.save
+languages_six.remote_photo_url = languages_pic_six
+languages_six.save
+languages_seven.remote_photo_url = languages_pic_seven
+languages_seven.save
+languages_eight.remote_photo_url = languages_pic_eight
+languages_eight.save
+languages_nine.remote_photo_url = languages_pic_nine
+languages_nine.save

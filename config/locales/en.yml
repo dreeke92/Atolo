@@ -41,31 +41,26 @@ In today’s world, the workplace needs a different approach because what we exp
     engagement:
       title: "Engagement"
       spotlight:
-        header: "Engagement is all about X"
-        content: "Co-creating a culture where people feel motivated, enjoy a sense of belonging and have an impact.
-In today’s world, the workplace needs a different approach because what we expect from our people and what they expect from you is different."
+        header: "Inspiring company cultures where people drive success!"
+        content: "Creating a culture where people live their values, enjoy a sense of belonging and drive success. In today’s world, the workplace needs a different approach because what you expect from your people and what they expect from you has changed. A certified and experienced team of experts deliver powerful engagement workshops designed together with our Swedish partners at Selfleaders. Our modular approach and the use of digitalisation provides you with solutions no matter your size or needs. Engagement is now at the reach of all organisations!"
       products:
         title: "Our Engagement Solutions"
+        content: "Our proven and versatile approach provides you with solutions whether you need to trigger engagement, convert engagement into tangible actions or create the space where engagement can thrive."
         request: "Request more information"
       approach:
-        header_one: "Fundamentals of communication"
-        content_one: "Examples of training modules (individual coaching or group training)
-          - Presenting with impact
-          - Writing with impact
-          - Videoconferencing with impact
-          - Meetings with impact
-          Our training modules allow you to root your line of thought, to follow a creative process and master the necessary tools to overcome any difficulty encountered relating to presentations, writing, conferences or meetings. The objective is simple: Making an impact on your audience."
-        header_two: "Our experts"
-        content_two: "ATOLO coaches are highly competent, cross-curricilar and fully committed to overcoming the challenges poses through numerous business cases engaged over many years.
-          We believe diversity is a strength. Whether enjoying extensive managerial backgrounds and/or having multiple university degrees we are proud to closely work with experts in their field, recognized by their peers. A team which never hesitates to challenge the classical paths and confront the elephant in the room.
-          Our training solutions can be given in French, English, German, Dutch, Portuguese or Spanish."
-        header_three: "Impactful tools"
-        content_three: "Deepscan© : A process developed by ATOLO allowing our pedagogical teams to understand and value your uniqueness and the complexity of your personal professional reality. Deepscan leads to the identification of disrupters allowing us to fully integrate your world. With the trainees, we will target an understanding of the causal connections in terms of communication. We will then determine how to master the KCM©.
-            KCM© : A Key Communicative Moment© is a moment in which we can leave a lasting impression, motivate, inspire, show empathy, and defend your interests in order to engage.
-            It is actually quite simple: a KCM is an opportunity.
-            Communication mapping: Imagine having the possibility to take an X-ray when things are not going the way you would like them to go within your team or organisation and obtaining the qualitative data you need to take decisions. Wouldn’t you think it was worth it?
-            Based on the Actor Network Theory (ANT), this method helps us visualise and understand the communication issues in teams and organisations which are stopping them from maximising their potential and reaching their strategic goals.
-            The robustness of this approach is due to the fact that it goes beyond people to cover the factors in the environment."
+        header_one: "Why is engagement important?"
+        content_one: "Statistically, organisations where there is engagement perform better. The world is moving towards people who expect more from their work life. Organisations need people to step up, take more initiative and drive impact. There is a war on talent and organisations where people want to belong are winning. We provide the solutions you need."
+        header_two: "Why does our approach work?"
+        content_two_a_bullet: "Proven: "
+        content_two_a_text: "A robust approach which has been implemented for over 10 years in organisations such as Spotify, H&M, PWC, EY...and many more."
+        content_two_b_bullet: "Based on the latest research: "
+        content_two_b_text: "Motivational theory, organisational theory, systems design approaches from Harvard, MIT Sloane, the Stockholm school of economics among others."
+        content_two_c_bullet: "Versatile: "
+        content_two_c_text: "An approach which is easily adapted to your needs, goals, company culture, size, level of readiness..."
+        content_two_d_bullet: "Inclusive: "
+        content_two_d_text: "You are embedded throughout the rollout so that you can provide the context and influence the approach."
+        header_three: ""
+        content_three: ""
       testimonials:
         title: "Testimonials"
         name_one: 'Jennemie D'
@@ -90,24 +85,16 @@ Our solutions combine coaching and training in an efficient way where individual
         title: "Our Communication Solutions"
         request: "Request more information"
       approach:
-        header_one: "Fundamentals of communication"
-        content_one: "Examples of training modules (individual coaching or group training)
-          - Presenting with impact
-          - Writing with impact
-          - Videoconferencing with impact
-          - Meetings with impact
-          Our training modules allow you to root your line of thought, to follow a creative process and master the necessary tools to overcome any difficulty encountered relating to presentations, writing, conferences or meetings. The objective is simple: Making an impact on your audience."
-        header_two: "Our experts"
-        content_two: "ATOLO coaches are highly competent, cross-curricilar and fully committed to overcoming the challenges poses through numerous business cases engaged over many years.
-          We believe diversity is a strength. Whether enjoying extensive managerial backgrounds and/or having multiple university degrees we are proud to closely work with experts in their field, recognized by their peers. A team which never hesitates to challenge the classical paths and confront the elephant in the room.
-          Our training solutions can be given in French, English, German, Dutch, Portuguese or Spanish."
-        header_three: "Impactful tools"
-        content_three: "Deepscan© : A process developed by ATOLO allowing our pedagogical teams to understand and value your uniqueness and the complexity of your personal professional reality. Deepscan leads to the identification of disrupters allowing us to fully integrate your world. With the trainees, we will target an understanding of the causal connections in terms of communication. We will then determine how to master the KCM©.
-            KCM© : A Key Communicative Moment© is a moment in which we can leave a lasting impression, motivate, inspire, show empathy, and defend your interests in order to engage.
-            It is actually quite simple: a KCM is an opportunity.
-            Communication mapping: Imagine having the possibility to take an X-ray when things are not going the way you would like them to go within your team or organisation and obtaining the qualitative data you need to take decisions. Wouldn’t you think it was worth it?
-            Based on the Actor Network Theory (ANT), this method helps us visualise and understand the communication issues in teams and organisations which are stopping them from maximising their potential and reaching their strategic goals.
-            The robustness of this approach is due to the fact that it goes beyond people to cover the factors in the environment."
+        header_one: "The Deep Dive"
+        content_one: "Knowing your destination doesn't mean you have set objectives. Together, we analyze all the factors and stakeholders to understand where you need to go and how to get there."
+        header_two: "Embedding"
+        content_two: "Traininig is but part of the answer. To make your project a success, we go deep into your job. Everything is tailored to embed the content of your training into your real-life work. You are trained to perform better in the target language not only to speak the target language."
+        header_three: "Skills in Use"
+        content_three: "You never forget how to ride a bike! Do, redo and do again! We take you out of your comfort zone and you receive continuous feedback. You feel better and build up confidence on the field."
+        header_four: "Endorsing Success"
+        content_four: "You keep on growing, even after we have left. You now have a solid learning strategy, great reflexes and a concrete action plan for sustainable success."
+        header_five: "Our team of Trainers"
+        content_five: "TODO"
       testimonials:
         title: "Testimonials"
         name_one: 'Nina S'
@@ -134,8 +121,8 @@ Our solutions combine coaching and training in an efficient way where individual
     languages:
       title: "Languages"
       spotlight:
-        header: "Languages is all about Z"
-        content: "Communication is interacting with people whatever the language.It’swhat ATOLO started doing many years ago and the truth is, we’re really good at it.Don’t learn a language, forget you’re speaking it!"
+        header: "Feeling good and communicating with Impact. Whatever the language!"
+        content: "Communication is interacting with people whatever the language. It’s what Atolo started doing many years ago and the truth is, we’re really good at it. Don’t learn a language, forget you’re speaking it! Our solutions are designed for individual or group courses, for continuous learning paths or intensive language immersions. We deliver long term impact whatever the needs of your organisation & people."
       products:
         title: "Our Solutions in Languages"
         request: "Request more information"

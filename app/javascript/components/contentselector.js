@@ -2,21 +2,29 @@ const allSelectors = document.querySelectorAll('.selector');
 const selectorOne = document.querySelector('.selector-one');
 const selectorTwo = document.querySelector('.selector-two');
 const selectorThree = document.querySelector('.selector-three');
+const selectorFour = document.querySelector('.selector-four');
+const selectorFive = document.querySelector('.selector-five');
 
 const allSelectorBubbles = document.querySelectorAll('.selector-bubble');
 const selectorBubbleOne = document.querySelector('.selector-bubble-one');
 const selectorBubbleTwo = document.querySelector('.selector-bubble-two');
 const selectorBubbleThree = document.querySelector('.selector-bubble-three');
+const selectorBubbleFour = document.querySelector('.selector-bubble-four');
+const selectorBubbleFive = document.querySelector('.selector-bubble-five');
 
 const allMobileSelectors = document.querySelectorAll('.mobile-selector');
 const mobileSelectorOne = document.querySelector('.mobile-selector-one');
 const mobileSelectorTwo = document.querySelector('.mobile-selector-two');
 const mobileSelectorThree = document.querySelector('.mobile-selector-three');
+const mobileSelectorFour = document.querySelector('.mobile-selector-four');
+const mobileSelectorFive = document.querySelector('.mobile-selector-five');
 
 const allApproaches = document.querySelectorAll('.approach');
 const approachOne = document.querySelector('.approach-one');
 const approachTwo = document.querySelector('.approach-two');
 const approachThree = document.querySelector('.approach-three');
+const approachFour = document.querySelector('.approach-four');
+const approachFive = document.querySelector('.approach-five');
 
 function removeActiveSelectors(){
   allSelectors.forEach((selector) => {
@@ -43,6 +51,12 @@ function activateCurrentSelector(event){
   } else if (event.currentTarget === selectorThree){
     selectorBubbleThree.classList.remove('far');
     selectorBubbleThree.classList.add('fas');
+  } else if (event.currentTarget === selectorFour){
+    selectorBubbleFour.classList.remove('far');
+    selectorBubbleFour.classList.add('fas');
+  } else if (event.currentTarget === selectorFive){
+    selectorBubbleFive.classList.remove('far');
+    selectorBubbleFive.classList.add('fas');
   }
 }
 
@@ -66,7 +80,15 @@ function showCurrentApproach(event){
     // approachThree.hidden = false;
     $(approachThree).fadeIn();
 
-  };
+  } else if ((event.currentTarget === selectorFour) || (event.currentTarget === mobileSelectorFour)) {
+    // approachThree.hidden = false;
+    $(approachFour).fadeIn();
+
+  } else if ((event.currentTarget === selectorFive) || (event.currentTarget === mobileSelectorFive)) {
+    // approachThree.hidden = false;
+    $(approachFive).fadeIn();
+
+  }
 };
 
 
