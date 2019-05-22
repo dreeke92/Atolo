@@ -1,0 +1,135 @@
+.pyramid-container{
+  width: 50%;
+  padding: 2rem;
+  max-height: 80vh;
+}
+
+.pyramid-base-container{
+  display: flex;
+  height: 50%;
+}
+
+.pyramid-top-container{
+  height: 50%;
+  overflow: hidden;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ), image-url("communication/communication-pyramid01.jpg");
+  background-size: cover;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.pyramid-top-container:hover{
+  height: 50%;
+  overflow: hidden;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), image-url("communication/communication-pyramid01.jpg");
+  background-size: cover;
+}
+
+.pyramid-top-container.active{
+  height: 50%;
+  overflow: hidden;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), image-url("communication/communication-pyramid01.jpg");
+  background-size: cover;
+  h3{
+    color: $atolo-green;
+  }
+}
+
+.pyramid-base-element-one{
+  width: 50%;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ), image-url("communication/communication-pyramid02.jpg");
+  background-size: cover;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.pyramid-base-element-one:hover{
+  width: 50%;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), image-url("communication/communication-pyramid02.jpg");
+  background-size: cover;
+}
+
+.pyramid-base-element-one.active{
+  width: 50%;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), image-url("communication/communication-pyramid02.jpg");
+  background-size: cover;
+  h3{
+    color: $atolo-green;
+  }
+}
+
+.pyramid-base-element-two{
+  width: 50%;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ), image-url("communication/communication-pyramid03.jpg");
+  background-size: cover;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.pyramid-base-element-two:hover{
+  width: 50%;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), image-url("communication/communication-pyramid03.jpg");
+  background-size: cover;
+}
+
+.pyramid-base-element-two.active{
+  width: 50%;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), image-url("communication/communication-pyramid03.jpg");
+  background-size: cover;
+  h3{
+    color: $atolo-green;
+  }
+}
+
+.pyramid-title{
+  color: white;
+}
+

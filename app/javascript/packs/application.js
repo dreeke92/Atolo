@@ -18,6 +18,7 @@ import { contentCommunicationSelector } from '../components/contentselectorcommu
 import { contentLanguagesSelector } from '../components/contentselectorlanguages';
 import { counter } from '../components/counter';
 import { dropDown } from '../components/dropdown';
+import { pyramidSelector } from '../components/pyramidselector';
 
 // import { toTopButton } from '../components/topbutton';
 
@@ -39,6 +40,7 @@ contentCommunicationSelector();
 contentLanguagesSelector();
 counter();
 dropDown();
+pyramidSelector();
 // toTopButton();
 
 
