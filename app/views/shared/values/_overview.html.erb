@@ -1,9 +1,24 @@
 <!-- Values -->
 <section>
-  <div class="about-container">
+  <div class="">
+    <!-- <div id="value-one-anchor" class="value-one-anchor"></div> -->
+    <!-- Spotlight -->
+    <section class="banner style1 orient-right content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+      <div class="content">
+        <h2 class="margin-top"><%= t('values.introduction_title') %></h2>
+        <p class="major small-font"><%= t('values.introduction_text') %></p>
+        <ul class="actions stacked">
+          <li><a href="#value-one-anchor" class="button large wide smooth-scroll"><%= t('values.discover') %></a></li>
+        </ul>
+      </div>
+      <div class="image">
+        <%= image_tag("values/value_header.jpg", :alt => "image") %>
+      </div>
+    </section>
+
     <div id="value-one-anchor" class="value-one-anchor"></div>
     <!-- Spotlight -->
-    <section id="value-one" class="spotlight style1 orient-right content-align-left image-position-center  onload-image-fade-in onload-content-fade-left" id="first">
+    <section id="value-one" class="spotlight style1 orient-left content-align-left image-position-center  onload-image-fade-in onload-content-fade-right" id="first">
       <div class="content">
         <h2><%= t('values.value_one.title') %></h2>
         <p><%= t('values.value_one.content') %></p>
@@ -18,13 +33,14 @@
         </ul>
       </div>
       <div class="image">
+
         <%= image_tag("values/value_one.jpg", :alt => "image") %>
       </div>
     </section>
 
     <div id="value-two-anchor" class="value-two-anchor"></div>
     <!-- Spotlight -->
-    <section id="value-two" class="spotlight style1 orient-left content-align-left image-position-center  onload-image-fade-in onload-content-fade-right" id="first">
+    <section id="value-two" class="spotlight style1 orient-right content-align-left image-position-center  onload-image-fade-in onload-content-fade-left" id="first">
       <div class="content">
         <h2><%= t('values.value_two.title') %></h2>
         <p><%= t('values.value_two.content') %></p>
@@ -45,15 +61,15 @@
     </section>
 
     <div id="value-three-anchor" class="value-three-anchor"></div>
-    <!-- Spotlight -->
-    <section id="value-three" class="spotlight style1 orient-right content-align-left image-position-center  onload-image-fade-in onload-content-fade-left" id="first">
+      <!-- Spotlight -->
+    <section id="value-three" class="spotlight style1 orient-left content-align-left image-position-center  onload-image-fade-in onload-content-fade-right" id="first">
       <div class="content">
         <h2><%= t('values.value_three.title') %></h2>
         <p><%= t('values.value_three.content') %></p>
         <ul class="actions stacked text-align-center">
           <li>
             <div class="chevron-container">
-              <a href="#value-four-anchor" class="smooth-scroll chevron-holder chevron-grey">
+              <a href="#contact-anchor" class="smooth-scroll chevron-holder chevron-grey">
               <i class="fas fa-chevron-down"></i>
               </a>
             </div>
@@ -65,44 +81,5 @@
         <%= image_tag("values/value_three.jpg", :alt => "image") %>
       </div>
     </section>
-
-    <div id="value-four-anchor" class="value-four-anchor"></div>
-      <!-- Spotlight -->
-    <section id="value-four" class="spotlight style1 orient-left content-align-left image-position-center  onload-image-fade-in onload-content-fade-right" id="first">
-      <div class="content">
-        <h2><%= t('values.value_four.title') %></h2>
-        <p><%= t('values.value_four.content') %></p>
-        <ul class="actions stacked text-align-center">
-          <li>
-            <div class="chevron-container">
-              <a href="#value-five-anchor" class="smooth-scroll chevron-holder chevron-grey">
-              <i class="fas fa-chevron-down"></i>
-              </a>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class="image">
-
-        <%= image_tag("values/value_four.jpg", :alt => "image") %>
-      </div>
-    </section>
-
-    <div id="value-five-anchor" class="value-five-anchor"></div>
-          <!-- Spotlight -->
-    <section id="value-five" class="spotlight style1 orient-right content-align-left image-position-center  onload-image-fade-in onload-content-fade-left" id="first">
-      <div class="content">
-        <h2><%= t('values.value_five.title') %></h2>
-        <p><%= t('values.value_five.content') %></p>
-        <ul class="actions stacked text-align-center">
-          <li><a href="#contact" class="smooth-scroll"><i class="fas fa-chevron-down"></i></a></li>
-        </ul>
-      </div>
-      <div class="image">
-
-        <%= image_tag("template/spotlight01.jpg", :alt => "image") %>
-      </div>
-    </section>
-
   </div>
 </section>
