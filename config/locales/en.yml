@@ -85,16 +85,20 @@ Our solutions combine coaching and training in an efficient way where individual
         title: "Our Communication Solutions"
         request: "Request more information"
       approach:
-        header_one: "The Deep Dive"
-        content_one: "Knowing your destination doesn't mean you have set objectives. Together, we analyze all the factors and stakeholders to understand where you need to go and how to get there."
-        header_two: "Embedding"
-        content_two: "Traininig is but part of the answer. To make your project a success, we go deep into your job. Everything is tailored to embed the content of your training into your real-life work. You are trained to perform better in the target language not only to speak the target language."
-        header_three: "Skills in Use"
-        content_three: "You never forget how to ride a bike! Do, redo and do again! We take you out of your comfort zone and you receive continuous feedback. You feel better and build up confidence on the field."
-        header_four: "Endorsing Success"
-        content_four: "You keep on growing, even after we have left. You now have a solid learning strategy, great reflexes and a concrete action plan for sustainable success."
-        header_five: "Our team of Trainers"
-        content_five: "TODO"
+        introduction_title: "Why our approach works"
+        introduction_text: "Our communication solutions have a high-level of impact because they integrate work on key levers beyond just skills. This blend of coaching and training on the key levers and focus on application is what ensures we reach tangible outcomes."
+        header_one: "The person"
+        content_one_a: "'It’s difficult to dare to speak up, if you are saying to yourself that you are not up to the level.' "
+        content_one_b: "How do you communicate with yourself and what inner obstacles do you need to overcome in order to communicate better? Who do you want to be? This segment is the coaching part which is integrated into our solutions and encourages people throughout the process to define who they want to be."
+        header_two: "Key Communication Moments"
+        content_two_a: "'When the question is not who you want to be, but who you need to be.'"
+        content_two_b: "Giving feedback, inspiring a team or obtaining buy-in are just some of the moments we encounter in organisations on a daily basis. This segment focuses on people understanding what these moments require from them and how to maximise their potential."
+        header_three: "The skills"
+        content_three_a: "'Fundamentally, learning and growth comes from doing.'"
+        content_three_b: "Tools and skills which can help you perform. This segment focus on turning theory to application by putting the skills and tools into practise in their real-world cases."
+        header_four: "Our experts"
+        content_four_a: ""
+        content_four_b: ""
       testimonials:
         title: "Testimonials"
         name_one: 'Nina S'
@@ -127,24 +131,16 @@ Our solutions combine coaching and training in an efficient way where individual
         title: "Our Solutions in Languages"
         request: "Request more information"
       approach:
-        header_one: "Fundamentals of communication"
-        content_one: "Examples of training modules (individual coaching or group training)
-          - Presenting with impact
-          - Writing with impact
-          - Videoconferencing with impact
-          - Meetings with impact
-          Our training modules allow you to root your line of thought, to follow a creative process and master the necessary tools to overcome any difficulty encountered relating to presentations, writing, conferences or meetings. The objective is simple: Making an impact on your audience."
-        header_two: "Our experts"
-        content_two: "ATOLO coaches are highly competent, cross-curricilar and fully committed to overcoming the challenges poses through numerous business cases engaged over many years.
-          We believe diversity is a strength. Whether enjoying extensive managerial backgrounds and/or having multiple university degrees we are proud to closely work with experts in their field, recognized by their peers. A team which never hesitates to challenge the classical paths and confront the elephant in the room.
-          Our training solutions can be given in French, English, German, Dutch, Portuguese or Spanish."
-        header_three: "Impactful tools"
-        content_three: "Deepscan© : A process developed by ATOLO allowing our pedagogical teams to understand and value your uniqueness and the complexity of your personal professional reality. Deepscan leads to the identification of disrupters allowing us to fully integrate your world. With the trainees, we will target an understanding of the causal connections in terms of communication. We will then determine how to master the KCM©.
-            KCM© : A Key Communicative Moment© is a moment in which we can leave a lasting impression, motivate, inspire, show empathy, and defend your interests in order to engage.
-            It is actually quite simple: a KCM is an opportunity.
-            Communication mapping: Imagine having the possibility to take an X-ray when things are not going the way you would like them to go within your team or organisation and obtaining the qualitative data you need to take decisions. Wouldn’t you think it was worth it?
-            Based on the Actor Network Theory (ANT), this method helps us visualise and understand the communication issues in teams and organisations which are stopping them from maximising their potential and reaching their strategic goals.
-            The robustness of this approach is due to the fact that it goes beyond people to cover the factors in the environment."
+        header_one: "The Deep Dive"
+        content_one: "Knowing your destination doesn't mean you have set objectives. Together, we analyze all the factors and stakeholders to understand where you need to go and how to get there."
+        header_two: "Embedding"
+        content_two: "Traininig is but part of the answer. To make your project a success, we go deep into your job. Everything is tailored to embed the content of your training into your real-life work. You are trained to perform better in the target language not only to speak the target language."
+        header_three: "Skills in Use"
+        content_three: "You never forget how to ride a bike! Do, redo and do again! We take you out of your comfort zone and you receive continuous feedback. You feel better and build up confidence on the field."
+        header_four: "Endorsing Success"
+        content_four: "You keep on growing, even after we have left. You now have a solid learning strategy, great reflexes and a concrete action plan for sustainable success."
+        header_five: "Our team of Trainers"
+        content_five: "TODO"
       testimonials:
         title: "Testimonials"
         name_one: 'Egwin B'

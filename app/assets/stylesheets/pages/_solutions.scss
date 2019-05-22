@@ -70,20 +70,6 @@ div.value-five-anchor{
   font-weight: bold;
 }
 
-.selector.active h3{
-  // color: $atolo-green;
-  font-weight: bold;
-}
-
-.selector.active i{
-  color: $atolo-green;
-}
-
-.mobile-selector.active {
-  color: $atolo-green;
-  font-weight: bold;
-}
-
 .approaches{
   height: 80vh;
   margin-bottom: 0px !important;
@@ -105,15 +91,41 @@ div.value-five-anchor{
 
 }
 
-.selector{
+.engagement-selector.active h3,
+.communication-selector.active h3,
+.languages-selector.active h3{
+  // color: $atolo-green;
+  font-weight: bold;
+}
+
+.engagement-selector.active i,
+.communication-selector.active i,
+.languages-selector.active i{
+  color: $atolo-green;
+}
+
+.engagement-mobile-selector.active,
+.communication-mobile-selector.active,
+.languages-mobile-selector.active{
+  color: $atolo-green;
+  font-weight: bold;
+}
+
+.engagement-selector,
+.communication-selector,
+.languages-selector{
   cursor: pointer;
 }
 
-.selector h3{
+.engagement-selector h3,
+.communication-selector h3,
+.languages-selector h3{
     display: inline-block;
     margin-left: 1rem;
 }
 
-.selector i{
+.engagement-selector i,
+.communication-selector i,
+.languages-selector i{
   color: black;
 }
