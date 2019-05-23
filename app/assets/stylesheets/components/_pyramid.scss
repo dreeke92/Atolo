@@ -1,3 +1,15 @@
+@media screen and (max-width: 1000px) {
+  .pyramid-container{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .medium-pyramid-container{
+    display: none;
+  }
+}
+
 .pyramid-container{
   width: 50%;
   padding: 2rem;
@@ -135,5 +147,125 @@
 
 .pyramid-title{
   color: white;
+  margin: 1rem;
 }
 
+.medium-pyramid-container{
+  width: 50%;
+  padding: 2rem;
+  height: 60vh;
+}
+
+.medium-pyramid-element-one,
+.medium-pyramid-element-two,
+.medium-pyramid-element-three{
+  height: 30%;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.medium-pyramid-element-one.active,
+.medium-pyramid-element-two.active,
+.medium-pyramid-element-three.active{
+  h3{
+    color: $atolo-green;
+  }
+}
+
+.medium-pyramid-element-one{
+  overflow: hidden;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ), image-url("communication/communication-pyramid01.jpg");
+  background-size: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.medium-pyramid-element-two{
+  overflow: hidden;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ), image-url("communication/communication-pyramid02.jpg");
+  background-size: cover;
+}
+
+.medium-pyramid-element-three{
+  overflow: hidden;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ), image-url("communication/communication-pyramid03.jpg");
+  background-size: cover;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.medium-pyramid-element-one:hover{
+  overflow: hidden;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), image-url("communication/communication-pyramid01.jpg");
+  background-size: cover;
+}
+
+.medium-pyramid-element-two:hover{
+  overflow: hidden;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), image-url("communication/communication-pyramid02.jpg");
+  background-size: cover;
+}
+
+.medium-pyramid-element-three:hover{
+  overflow: hidden;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), image-url("communication/communication-pyramid03.jpg");
+  background-size: cover;
+}
+
+.medium-pyramid-element-one.active{
+  overflow: hidden;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), image-url("communication/communication-pyramid01.jpg");
+  background-size: cover;
+}
+
+.medium-pyramid-element-two.active{
+  overflow: hidden;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), image-url("communication/communication-pyramid02.jpg");
+  background-size: cover;
+}
+
+.medium-pyramid-element-three.active{
+  overflow: hidden;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), image-url("communication/communication-pyramid03.jpg");
+  background-size: cover;
+}
