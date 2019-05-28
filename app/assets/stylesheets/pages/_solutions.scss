@@ -143,5 +143,15 @@ div.contact-anchor{
   padding-bottom: 1rem;
 }
 
+@media (max-width: 680px) {
+  .communication-spotlight-desktop{
+    display: none;
+  }
+}
 
+@media (min-width: 680px) {
+  .communication-spotlight-mobile{
+    display: none;
+  }
+}
 
