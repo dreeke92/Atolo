@@ -1,0 +1,68 @@
+.quadrant-container{
+  display: flex;
+}
+
+.quadrant-visual-container{
+  width: 50%;
+  overflow: auto;
+  position: relative;
+}
+
+.quadrant-image{
+  width: 100%;
+}
+
+.quadrant-image-container{
+  width: 100%;
+  position: absolute;
+}
+
+.quadrant-image-overlay{
+  position: absolute;
+}
+
+.quadrant-text-container{
+  width: 50%;
+  padding: 2rem;
+}
+
+.quadrant-text{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+  list-style: none;
+}
+
+#languages-quadrant-selector-one.active{
+  color: #F9A704;
+}
+#languages-quadrant-selector-two.active{
+  color: #93C11A;
+}
+#languages-quadrant-selector-three.active{
+  color: #BB027D;
+}
+#languages-quadrant-selector-four.active{
+  color: #16AFD8;
+}
+
+.languages-quadrant-selector{
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 736px) {
+  .quadrant-container{
+    display: block;
+  }
+
+  .quadrant-visual-container{
+      width: 100%;
+  }
+
+  .quadrant-text-container{
+  width: 50%;
+  padding: 2rem;
+}
+}
