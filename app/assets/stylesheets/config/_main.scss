@@ -190,6 +190,10 @@ input, select, textarea {
       font-size: 1.25rem;
     }
 
+    p.major-medium {
+      font-size: 1.1rem;
+    }
+
   h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
     line-height: 1.375;
@@ -278,6 +282,10 @@ input, select, textarea {
       margin: 3.5rem 0;
     }
 
+    hr.major-medium {
+      margin: 2.5rem 0;
+    }
+
   .align-left {
     text-align: left;
   }
@@ -290,10 +298,18 @@ input, select, textarea {
     text-align: right;
   }
 
+  .small-margin{
+    margin-bottom: 1rem;
+  }
+
   @media screen and (max-width: 736px) {
 
     p.major {
       font-size: 1.1rem;
+    }
+
+    p.major-medium {
+      font-size: 1.0rem;
     }
 
     h1 {

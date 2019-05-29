@@ -68,28 +68,11 @@ div.contact-anchor{
 
 .atolo-green{
   font-color: $atolo-green;
-  font-weight: bold;
 }
 
 .approaches{
-  height: 80vh;
+  // height: 80vh;
   margin-bottom: 0px !important;
-}
-
-@media screen and (max-width: 1680px) {
-
-}
-
-@media screen and (max-width: 1280px) {
-
-}
-
-@media screen and (max-width: 980px) {
-
-}
-
-@media screen and (max-width: 736px) {
-
 }
 
 .engagement-selector.active h3,
@@ -155,3 +138,16 @@ div.contact-anchor{
   }
 }
 
+.engagement-small-margin{
+  margin-bottom: 1rem;
+}
+
+.engagement-approach-box{
+  height: 80vh;
+}
+
+.engagement-approach-flex-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

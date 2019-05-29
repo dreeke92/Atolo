@@ -1,34 +1,38 @@
 <!-- Spotlight -->
   <section class="spotlight style5 orient-center content-align-left image-position-center onscroll-image-fade-in color8">
-    <div id="content-selector" class="content">
+    <div id="content-selector" class="content engagement-approach-box">
       <ul style="list-style: none;" class="selector-box">
         <li class="engagement-selector-one engagement-selector active"><i class="engagement-selector-bubble engagement-selector-bubble-one fas fa-circle"></i><h3><%= t('solutions.engagement.approach.header_one') %></h3></li>
         <li class="engagement-selector-two engagement-selector"><i class="engagement-selector-bubble engagement-selector-bubble-two far fa-circle"></i><h3><%= t('solutions.engagement.approach.header_two') %></h3></li>
       </ul>
     </div>
     <div class="content small-font approaches">
-      <div class="engagement-approach engagement-approach-one active onscroll-content-fade-in">
-        <h2><%= t('solutions.engagement.approach.header_one') %></h2>
-        <div>
-          <p><%= t('solutions.engagement.approach.content_one') %></p>
+      <div class="engagement-approach-flex-box">
+        <div class="engagement-approach engagement-approach-one active onscroll-content-fade-in">
+          <h2><%= t('solutions.engagement.approach.header_one') %></h2>
+          <div>
+            <p><%= t('solutions.engagement.approach.content_one') %></p>
+          </div>
+        </div>
+        <div class="engagement-approach engagement-approach-two onscroll-content-fade-in" style="display: none;">
+          <h2><%= t('solutions.engagement.approach.header_two') %></h2>
+          <div>
+            <ul>
+              <li><p class="engagement-small-margin"><strong><%= t('solutions.engagement.approach.content_two_a_bullet') %></strong><%= t('solutions.engagement.approach.content_two_a_text') %></p></li>
+              <li><p class="engagement-small-margin"><strong><%= t('solutions.engagement.approach.content_two_b_bullet') %></strong><%= t('solutions.engagement.approach.content_two_b_text') %></p></li>
+              <li><p class="engagement-small-margin"><strong><%= t('solutions.engagement.approach.content_two_c_bullet') %></strong><%= t('solutions.engagement.approach.content_two_c_text') %></p></li>
+              <li><p class="engagement-small-margin"><strong><%= t('solutions.engagement.approach.content_two_d_bullet') %></strong><%= t('solutions.engagement.approach.content_two_d_text') %></p></li>
+            </ul>
+          </div>
         </div>
       </div>
-      <div class="engagement-approach engagement-approach-two onscroll-content-fade-in" style="display: none;">
-        <h2><%= t('solutions.engagement.approach.header_two') %></h2>
-        <div>
-          <ul>
-            <li><p><strong><%= t('solutions.engagement.approach.content_two_a_bullet') %></strong><%= t('solutions.engagement.approach.content_two_a_text') %></p></li>
-            <li><p><strong><%= t('solutions.engagement.approach.content_two_b_bullet') %></strong><%= t('solutions.engagement.approach.content_two_b_text') %></p></li>
-            <li><p><strong><%= t('solutions.engagement.approach.content_two_c_bullet') %></strong><%= t('solutions.engagement.approach.content_two_c_text') %></p></li>
-            <li><p><strong><%= t('solutions.engagement.approach.content_two_d_bullet') %></strong><%= t('solutions.engagement.approach.content_two_d_text') %></p></li>
-          </ul>
-        </div>
+      <div>
+        <ul class="mobile-content-selector" style="list-style: none;">
+          <li class="engagement-mobile-selector engagement-mobile-selector-one active"><i class="far fa-circle"></i></li>
+          <li class="engagement-mobile-selector engagement-mobile-selector-two"><i class="far fa-circle"></i></li>
+        </ul>
       </div>
-      <ul class="mobile-content-selector" style="list-style: none;">
-        <li class="engagement-mobile-selector engagement-mobile-selector-one active"><i class="far fa-circle"></i></li>
-        <li class="engagement-mobile-selector engagement-mobile-selector-two"><i class="far fa-circle"></i></li>
     </div>
-      </ul>
     <div class="image approach-background">
       <%= image_tag("engagement/engagement04.jpg", :alt => "image", :class => "approach-background") %>
     </div>

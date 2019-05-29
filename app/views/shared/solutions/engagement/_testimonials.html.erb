@@ -2,13 +2,25 @@
   <section id="testimonials" class="wrapper style1 align-center">
     <div class="inner">
       <h2><%= t('solutions.engagement.testimonials.title') %></h2>
-<!--       <div class="owl-carousel owl-theme testimonial-cards onload-fade-in"> -->
-          <section class="testimonial-card">
-            <%= image_tag("logos/axaassistance.png", :alt => "image", :class => "testimonial-logo") %>
-            <h3><%= t('solutions.engagement.testimonials.name_one') %></h3>
-            <h4><%= t('solutions.engagement.testimonials.company_one') %></h4>
-            <p class="small-font">"<%= t('solutions.engagement.testimonials.content_one') %>"</p>
-          </section>
-      <!-- </div> -->
+      <div class="owl-carousel owl-theme testimonial-cards onload-fade-in logo-carousel">
+        <section class="testimonial-card">
+          <%= image_tag("logos/axaassistance.png", :alt => "image", :class => "testimonial-logo-solo") %>
+        </section>
+        <section class="testimonial-card">
+          <%= image_tag("logos/bpost.png", :alt => "image", :class => "testimonial-logo-solo") %>
+        </section>
+        <section class="testimonial-card">
+          <%= image_tag("logos/spotify.png", :alt => "image", :class => "testimonial-logo-solo") %>
+        </section>
+        <section class="testimonial-card">
+          <%= image_tag("logos/ey.png", :alt => "image", :class => "testimonial-logo-solo") %>
+        </section>
+        <section class="testimonial-card">
+          <%= image_tag("logos/h&m.png", :alt => "image", :class => "testimonial-logo-solo") %>
+        </section>
+        <section class="testimonial-card">
+          <%= image_tag("logos/pwc.png", :alt => "image", :class => "testimonial-logo-solo") %>
+        </section>
+      </div>
     </div>
   </section>

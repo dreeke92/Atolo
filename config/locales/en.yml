@@ -31,9 +31,57 @@ In today’s world, the workplace needs a different approach because what we exp
         languages_content: "Communication is interacting with people whatever the language.It’swhat ATOLO started doing many years ago and the truth is, we’re really good at it.Don’t learn a language, forget you’re speaking it!"
         learn_more: "learn more"
     testimonials:
-      name_one: 'Jennemie D'
-      company_one: 'AXA Assistance'
-      content_one: "The training is the result of a permanent dialogue between trainer and participants. During the training, we were able to provide continuous feedback which helped guide the content and approach wherever we wanted."
+      name_one: 'Nina Schindler'
+      company_one: 'Deutsche Bank'
+      content_one: "What I appreciate the most is the attention payed to individual goals and focus, a very structured approach and a highly motivating attitude of coaching."
+      name_two: 'Luka Varenina'
+      company_two: 'ATOS'
+      content_two: 'The trainer plunges into the heart of the subject. We were put at ease and challenged at the same time. The approach was completely personalized and we are now all convinced that progress is possible.'
+      name_three: 'Christine Piront'
+      company_three: 'Lhoist'
+      content_three: "Coach which builds confidence, stimulates, encourages but he doesn't let you get away with anything. He is able to give great advice!"
+      name_four: 'Jean-Marc Deux'
+      company_four: 'Schneider'
+      content_four: "Lively, targeted and effective!"
+      name_five: 'Steven Peters'
+      company_five: 'BDO'
+      content_five: "I assumed theory and practice would be covered but it was really refreshing and ad hoc. Simply put, it exceeded my expectations."
+      name_six: 'Fabienne Jouan'
+      company_six: 'Galeria Inno'
+      content_six: "I was pulled out of my comfort zone. That's the best way to progress."
+      name_seven: 'Michael Evrard'
+      company_seven: 'John Crane'
+      content_seven: "I feel this course should be given to all managers wherever they work because it's a wonderful self-reflexion experience and a rethink of current and future presentations."
+      name_eight: 'Johan Dekempe'
+      company_eight: 'SPIE'
+      content_eight: "Even after 35 years experience with presentations, what I learned at Atolo is the depth at which I need to prepare the following two questions: What is your real goal and who is your audience?"
+      name_nine: 'Koen Smedts'
+      company_nine: 'Wordline'
+      content_nine: "Thanks to this training, I feel less nervous and I am able to communicate more clearly."
+      name_ten: 'Egwin Bovyn'
+      company_ten: 'Konica Minolta'
+      content_ten: "The training was completely focused on my business. Even my marketing materials were used. 100% customized! Very involved and professional trainer, it is like getting training from a colleague you have known for years."
+      name_eleven: 'LLorella Di Ciriaco'
+      company_eleven: 'Bridgestone'
+      content_eleven: 'The trainer puts us at ease and allows us to express ourselves with confidence and to learn easily. The approach is adapted to our needs, modulated according to our knowledge and makes us evolve quickly.'
+      name_twelve: 'Petra Beylemans'
+      company_twelve: 'Cofinimmo'
+      content_twelve: 'Focused on specific needs using simulations of real-life situations. Very good online platform & teaching materials. I speak more fluently, and I am more confident and prepared for concrete situations in the workplace.'
+      name_thirteen: 'Marina Hautman'
+      company_thirteen: 'Credendo'
+      content_thirteen: 'Excellent practice-oriented training. The concept allows to focus on a project rather than the language. As a result, we progressed without realizing it by using concepts, vocabulary and expressions directly related to our needs. This makes speaking with colleagues more comfortable.'
+      name_fourteen: 'Pauline Grégoire'
+      company_fourteen: 'Triodos'
+      content_fourteen: 'The writing skills formula was useful work at home combined with face to face sessions allowing to analyze painpoints, to review them and practice. All of this with a great trainer who was interested, knowledgeable and great in explaining things.'
+      name_fiveteen: 'Solange Baboy'
+      company_fiveteen: 'TucRail'
+      content_fiveteen: 'A training as never seen before, was focused and concrete: the content of the program, the customized exercises online and the trainer were the best I ever had. This training allowed me to unlock completely, it gave me a boost. What I learned I can put directly and easily into practice.'
+      name_sixteen: 'Sarah Deneef'
+      company_sixteen: 'Cofinimmo'
+      content_sixteen: 'What I appreciate the most is the work on skills (versus theory) and the immersive character of the training (German only!). The trainer manages to put all the participants in confidence which allows us to dare to make mistakes in order to progress.'
+      name_seventeen: 'Jennemie Driessens'
+      company_seventeen: 'AXA Assistance'
+      content_seventeen: "The training is the result of a permanent dialogue between trainer and participants. During the training, we were able to provide continuous feedback which helped guide the content and approach wherever we wanted."
     contact_us:
   solutions:
     discover-button: "Discover our offer"
@@ -62,8 +110,8 @@ In today’s world, the workplace needs a different approach because what we exp
         header_three: ""
         content_three: ""
       testimonials:
-        title: "Testimonials"
-        name_one: 'Jennemie D'
+        title: "Clients"
+        name_one: 'Jennemie Driessens'
         company_one: 'AXA Assistance'
         content_one: "The training is the result of a permanent dialogue between trainer and participants. During the training, we were able to provide continuous feedback which helped guide the content and approach wherever we wanted."
         name_two: ''
@@ -107,27 +155,33 @@ Our solutions combine coaching and training in an efficient way where individual
         content_four_b: ""
       testimonials:
         title: "Testimonials"
-        name_one: 'Nina S'
+        name_one: 'Nina Schindler'
         company_one: 'Deutsche Bank'
         content_one: "What I appreciate the most is the attention payed to individual goals and focus, a very structured approach and a highly motivating attitude of coaching."
-        name_two: 'Luka V'
+        name_two: 'Luka Varenina'
         company_two: 'ATOS'
         content_two: 'The trainer plunges into the heart of the subject. We were put at ease and challenged at the same time. The approach was completely personalized and we are now all convinced that progress is possible.'
-        name_three: 'Christine P'
+        name_three: 'Christine Piront'
         company_three: 'Lhoist'
         content_three: "Coach which builds confidence, stimulates, encourages but he doesn't let you get away with anything. He is able to give great advice!"
-        name_four: 'Jean-Marc D'
+        name_four: 'Jean-Marc Deux'
         company_four: 'Schneider'
         content_four: "Lively, targeted and effective!"
-        name_five: 'Ayo S'
-        company_five: 'Marsh'
-        content_five: "Since I followed this training, I now choose more consciously what I need to communicate. I especially follow the principle of putting myself in other's shoes. I even do that when communicating in writing. I now have to work on structuring my communicaton but thanks to this training and the combination of exercises and practice, I'm confident I'll get there!"
-        name_six: 'Michael E'
-        company_six: 'John Crane'
-        content_six: "I feel this course should be given to all managers wherever they work because it's a wonderful self-reflexion experience and a rethink of current and future presentations."
-        name_seven: 'Koen S'
-        company_seven: 'Wordline'
-        content_seven: "Thanks to this training, I feel less nervous and I am able to communicate more clearly."
+        name_five: 'Steven Peters'
+        company_five: 'BDO'
+        content_five: "I assumed theory and practice would be covered but it was really refreshing and ad hoc. Simply put, it exceeded my expectations."
+        name_six: 'Fabienne Jouan'
+        company_six: 'Galeria Inno'
+        content_six: "I was pulled out of my comfort zone. That's the best way to progress."
+        name_seven: 'Michael Evrard'
+        company_seven: 'John Crane'
+        content_seven: "I feel this course should be given to all managers wherever they work because it's a wonderful self-reflexion experience and a rethink of current and future presentations."
+        name_eight: 'Johan Dekempe'
+        company_eight: 'SPIE'
+        content_eight: "Even after 35 years experience with presentations, what I learned at Atolo is the depth at which I need to prepare the following two questions: What is your real goal and who is your audience?"
+        name_nine: 'Koen Smedts'
+        company_nine: 'Wordline'
+        content_nine: "Thanks to this training, I feel less nervous and I am able to communicate more clearly."
     languages:
       title: "Languages"
       spotlight:
@@ -138,36 +192,40 @@ Our solutions combine coaching and training in an efficient way where individual
         request: "Request more information"
       approach:
         header_one: "The Deep Dive"
-        content_one: "Knowing your destination doesn't mean you have set objectives. Together, we analyze all the factors and stakeholders to understand where you need to go and how to get there."
+        content_one_a: "'Knowing your destination doesn't mean you have set objectives.'"
+        content_one_b: "Together, we analyze all the factors and stakeholders to understand where you need to go and how to get there."
         header_two: "Embedding"
-        content_two: "Traininig is but part of the answer. To make your project a success, we go deep into your job. Everything is tailored to embed the content of your training into your real-life work. You are trained to perform better in the target language not only to speak the target language."
+        content_two_a: "'Traininig is but part of the answer.'"
+        content_two_b: "To make your project a success, we go deep into your job. Everything is tailored to embed the content of your training into your real-life work. You are trained to perform better in the target language not only to speak the target language."
         header_three: "Skills in Use"
-        content_three: "You never forget how to ride a bike! Do, redo and do again! We take you out of your comfort zone and you receive continuous feedback. You feel better and build up confidence on the field."
+        content_three_a: "'You never forget how to ride a bike!'"
+        content_three_b: "Do, redo and do again! We take you out of your comfort zone and you receive continuous feedback. You feel better and build up confidence on the field."
         header_four: "Endorsing Success"
-        content_four: "You keep on growing, even after we have left. You now have a solid learning strategy, great reflexes and a concrete action plan for sustainable success."
+        content_four_a: "'You keep on growing, even after we have left.'"
+        content_four_b: "You now have a solid learning strategy, great reflexes and a concrete action plan for sustainable success."
         header_five: "Our team of Trainers"
         content_five: "TODO"
       testimonials:
         title: "Testimonials"
-        name_one: 'Egwin B'
+        name_one: 'Egwin Bovyn'
         company_one: 'Konica Minolta'
         content_one: "The training was completely focused on my business. Even my marketing materials were used. 100% customized! Very involved and professional trainer, it is like getting training from a colleague you have known for years."
-        name_two: 'Lorella Di C'
+        name_two: 'LLorella Di Ciriaco'
         company_two: 'Bridgestone'
         content_two: 'The trainer puts us at ease and allows us to express ourselves with confidence and to learn easily. The approach is adapted to our needs, modulated according to our knowledge and makes us evolve quickly.'
-        name_three: 'Petra B'
+        name_three: 'Petra Beylemans'
         company_three: 'Cofinimmo'
         content_three: 'Focused on specific needs using simulations of real-life situations. Very good online platform & teaching materials. I speak more fluently, and I am more confident and prepared for concrete situations in the workplace.'
-        name_four: 'Marina H'
+        name_four: 'Marina Hautman'
         company_four: 'Credendo'
         content_four: 'Excellent practice-oriented training. The concept allows to focus on a project rather than the language. As a result, we progressed without realizing it by using concepts, vocabulary and expressions directly related to our needs. This makes speaking with colleagues more comfortable.'
-        name_five: 'Pauline G'
+        name_five: 'Pauline Grégoire'
         company_five: 'Triodos'
         content_five: 'The writing skills formula was useful work at home combined with face to face sessions allowing to analyze painpoints, to review them and practice. All of this with a great trainer who was interested, knowledgeable and great in explaining things.'
-        name_six: 'Solange B'
+        name_six: 'Solange Baboy'
         company_six: 'TucRail'
         content_six: 'A training as never seen before, was focused and concrete: the content of the program, the customized exercises online and the trainer were the best I ever had. This training allowed me to unlock completely, it gave me a boost. What I learned I can put directly and easily into practice.'
-        name_seven: 'Sarah D'
+        name_seven: 'Sarah Deneef'
         company_seven: 'Cofinimmo'
         content_seven: 'What I appreciate the most is the work on skills (versus theory) and the immersive character of the training (German only!). The trainer manages to put all the participants in confidence which allows us to dare to make mistakes in order to progress.'
   values:

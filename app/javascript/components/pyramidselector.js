@@ -60,7 +60,6 @@ function activateCurrentContent(event){
   };
 };
 
-
 function pyramidSelector(){
   allPyramidSelectors.forEach((selector) => {
     selector.addEventListener('click',(event) => {

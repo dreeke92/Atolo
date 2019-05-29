@@ -34,16 +34,16 @@
   list-style: none;
 }
 
-#languages-quadrant-selector-one.active{
-  color: #F9A704;
+#languages-quadrant-selector-one.active h3{
+    color: #F9A704;
 }
-#languages-quadrant-selector-two.active{
+#languages-quadrant-selector-two.active h3{
   color: #93C11A;
 }
-#languages-quadrant-selector-three.active{
+#languages-quadrant-selector-three.active h3{
   color: #BB027D;
 }
-#languages-quadrant-selector-four.active{
+#languages-quadrant-selector-four.active h3{
   color: #16AFD8;
 }
 
@@ -62,7 +62,23 @@
   }
 
   .quadrant-text-container{
-  width: 50%;
-  padding: 2rem;
+    width: 100%;
+    padding: 1rem;
+  }
 }
+
+p.small-font.major-medium{
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.quadrant-toggle-holder{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.quadrant-toggle-holder h3{
+  margin-bottom: 0;
+  margin-left: 1rem;
 }
