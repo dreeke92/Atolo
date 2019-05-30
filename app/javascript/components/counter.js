@@ -52,10 +52,10 @@ function counterUp(element, count){
 };
 
 function counter(){
-  counterUp(trainerCounter, 3540);
-  counterUp(trainingCounter, 159);
-  counterUp(clientCounter, 7581);
-  counterUp(traineeCounter, 9827);
+  counterUp(trainerCounter, 3500);
+  counterUp(trainingCounter, 160);
+  counterUp(clientCounter, 7500);
+  counterUp(traineeCounter, 10000);
 };
 
 export { counter };

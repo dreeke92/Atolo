@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   get 'values', to: "pages#values"
   get 'contact', to: "pages#contact"
   resources :products, only: [ :create, :new, :show, :update, :edit, :destroy, :index ]
+  resources :messages, only: [ :create, :index ]
 end

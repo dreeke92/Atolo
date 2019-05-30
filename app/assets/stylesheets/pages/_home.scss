@@ -1,1 +1,21 @@
 // Specific CSS for your home-page
+.card-holder{
+  height: 500px;
+  width: 500px;
+  border: 1px solid black;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-image{
+  object-fit: contain;
+  height: 100%;
+}
+
+.text-box{
+  border: 1px solid black;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: red;
+}
