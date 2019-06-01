@@ -233,14 +233,14 @@ Our solutions combine coaching and training in an efficient way where individual
     introduction_text: "Our values are what drives us from within and what defines how we behave towards the outside world. They were chosen with our soul as well as our head, by the whole team. They inspire us to live them and to make you live them too."
     discover: "Discover our values"
     value_one:
-      title: "Curious by nature"
-      content: "We cannot help our actions; they are dictated by our natural curiosity! Our curiosity to see how far we can push ourselves and how much we can grow, our curiosity to understand who our trainees are, the challenges they face, the wishes they have and to see how far we can take them, our curiosity to understand how your world works and how we can provide you with value within that world. It is even worse, we work hard to infect the people who come into contact with us. We infect our trainers and trainees so that they also ask themselves how they can develop! It is this curiosity which made us ask ourselves what values dictate how we act."
+      title: "Driven by people"
+      content: "We have been driven by people from the very start. From our humble beginnings in languages to where we are today. Experience, expertise, energy… are all reflections of the quality our people bring to work everyday. But being themselves and bringing all of themselves has always been the main focus. This is what allows our people to drive us forward and we are grateful in sharing that common vision. This vision leads us to you, our partners. Your people place their trust in us and we are committed to supporting you in reaching your goals. We are dedicated to surpassing the standards and, together with your people,  in doing whatever it takes to driving success for your organisation."
     value_two:
-      title: "Our people are our assets"
-      content: "Fundamentally, we are in the business of people and growth. We provide the right people to enable your people to overcome the language and communication obstacles that keep them from their goals. We choose people who will share and enforce our values as well as meet our high expectations. In return, we value them and nurture them and empower them by providing the support and training they need to continue growing. We treat them with the maximum respect and we always keep their best interests in mind."
+      title: "Committed to impact"
+      content: "Challenging the status quo is what makes us tick. Why settle for less? Everyone at Atolo is mobilized towards making a difference. What will have changed after our intervention? What can we do better? What impact will we have had? Can our level of impact be how we measure ourselves? Impact is an ambition and we are dedicated to targeting results which really matter. Results which really matter to your organisation. When you are in need of a tangible outcome, we challenge you in defining what success looks like and what you need to change in order to succeed."
     value_three:
-      title: 'Imperfections are opportunities for growth'
-      content: 'Our strength is more than our years of being active in the world of training, or the large number of sectors and profiles we have trained. It is our ability to be humble enough to recognize when we have reached an obstacle or a limit combined with our great weakness, curiosity! The curiosity which makes us hungry to discover how we can overcome that obstacle, push our limits and come out stronger.'
+      title: 'Dedicated to growth'
+      content: 'Curious by nature is part of our DNA. It allows us to be in a position to better understand the world organizations live in and the challenges they face. It underscores what we need to build up as expertise and identify how we can help you and be impactful. We believe impact and engagement lead to growth, your growth. And we are dedicated to it. The questions of who you are, who you want to become and who you need to become. These are our first questions to you. Your answers will scope your growth and we will provide you with the expertise to overcoming your inner obstacles, in increasing your skills and engaging your people.'
     value_four:
       title: 'Challenging the status quo'
       content: 'Is understood by us as challenging our limits, continuously looking for better ways to do things and feeling comfortable out of the box. This way of behaving energises us, is the only way we know to act and maintains our constant growth and innovation so that we can meet your specific needs and explains why no two courses are ever quite the same.'
@@ -254,6 +254,7 @@ Our solutions combine coaching and training in an efficient way where individual
       meet: "Meet the team"
     team:
       title: "Our team"
+      sub_title: "- We challenge the status quo -"
       member_one:
         first_name: "Mieke"
         second_name: "Van Oost"
@@ -264,13 +265,13 @@ Our solutions combine coaching and training in an efficient way where individual
         first_name: "David"
         second_name: "Michel"
         role: "Managing director Atolo Switzerland"
-        text:
+        text: "With over 20 years experience in management and learning & development programs, David is dedicated to bringing out the best in your teams and is committed, together with the experts at Atolo, in delivering impactful solutions to your organisation."
         location: "Lausanne & Brussels"
       member_three:
         first_name: "Oscar"
         second_name: "Vega"
         role: "Managing partner"
-        text: "Creative think tank, a waterfall of ideas. Oscar passionately builds the right products to help your trainees to communicate authentically, clearly, and in a goal oriented manner. This will help them to reach their ambitions"
+        text: "Creative think tank, a waterfall of ideas. Oscar passionately builds the right products to help your trainees to communicate authentically, clearly, and in a goal oriented manner. This will help them to reach their ambitions."
         location: "Lausanne & Brussels"
       member_four:
         first_name: "Eva"
@@ -309,9 +310,14 @@ Our solutions combine coaching and training in an efficient way where individual
         text: ""
         location: "Brussels"
       member_ten:
-        first_name:
-        second_name:
-        role:
+        first_name: "Karine"
+        second_name: "Plas"
+        role: "L&D Consultant"
+        text:
+      member_eleven:
+        first_name: "Claudia"
+        second_name: "Fortes"
+        role: "L&D Consultant"
         text:
     probono:
         title: "Atolo Pro Bono"

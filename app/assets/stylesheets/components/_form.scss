@@ -203,7 +203,10 @@
 
     input[type="checkbox"]:checked + label:before,
     input[type="radio"]:checked + label:before {
-      content: '\f00c';
+      // content: "\f00c";
+      font-family: "Font Awesome 5 Free";
+      font-style: normal;
+      font-weight: normal;
     }
 
   input[type="checkbox"] + label:before {
