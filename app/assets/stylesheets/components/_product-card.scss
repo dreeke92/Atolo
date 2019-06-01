@@ -118,8 +118,11 @@ button .product-card-button{
   border-top-right-radius: 5px;
 }
 
-.categorie-item .ci-text {
-  padding: 0.5rem 1.5rem  0.5rem 1.5rem;
+
+@media screen and (min-width: 700px) {
+  .categorie-item .ci-text {
+    padding: 0.5rem 1.5rem  0.5rem 1.5rem;
+  }
 }
 
 .categorie-item .ci-text span {
@@ -161,3 +164,14 @@ button .product-card-button{
   padding: 1rem 3rem 1rem 3rem;
 }
 
+@media screen and (max-width: 700px) {
+  .product-card-content{
+    padding: 1rem 1.5rem 1rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .product-card-content-margin{
+    font-size: 10px;
+  }
+}

@@ -5,7 +5,7 @@ class MessagesController < ApplicationController
     if @message.save
       send_mail(@message)
     end
-    redirect_back(fallback_location: root_path)
+    # redirect_back(fallback_location: root_path)
   end
 
   def index

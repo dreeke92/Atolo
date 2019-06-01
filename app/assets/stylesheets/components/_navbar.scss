@@ -65,47 +65,65 @@
 }
 
 /*--------------------------------------------------------------
-# Header-fixed
+# Header-fixxed
 --------------------------------------------------------------*/
 
-#header-fixed {
-  padding: 30px 0;
-  height: 92px;
+#header-fixxed {
+  height: 72px;
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
-  transition: all 0.5s;
   z-index: 997;
-  background: rgba(255, 255, 255, 0.95);
-  padding: 20px 0;
-  height: 72px;
-  transition: all 0.5s;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   width: 100%;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 20px 0 20px 0;
+  height: 72px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.075);
 }
 
-#header-fixed #logo {
+#header-fixxed.header-scrolled {
+
+}
+
+@media (max-width: 768px) {
+  #header-fixxed {
+    height: 72px;
+    padding: 30px 0;
+  }
+
+  #header-fixxed.header-scrolled{
+    padding: 30px 0;
+  }
+}
+
+#header-fixxed #logo {
   float: left;
 }
 
-#header-fixed #logo h1 {
+#header-fixxed #logo h1 {
   font-size: 34px;
   margin: 0;
   padding: 0;
   line-height: 1;
   font-weight: 700;
   letter-spacing: 3px;
+  text-decoration: none;
 }
 
-#header-fixed #logo h1 a,
-#header-fixed #logo h1 a:hover {
+.no-text-decoration{
+  text-decoration: none;
+}
+
+#header-fixxed #logo h1 a,
+#header-fixxed #logo h1 a:hover {
   color: #fff;
   padding-left: 10px;
   border-left: 4px solid #18d26e;
+  text-decoration: none;
 }
 
-#header-fixed #logo img {
+#header-fixxed #logo img {
   padding: 0;
   margin: 0;
 }

@@ -19,3 +19,18 @@
   }
 }
 
+.main-contact-form-container{
+  background: white;
+  padding: 2rem;
+  margin-top: 10rem;
+  border-radius: 0.5rem;
+}
+
+.background-gradient{
+  filter: grayscale(100%);
+}
+
+#main-contact-form{
+  background: linear-gradient(rgba(255,255,255,0.5), rgba(0,0,0,0.95)), image-url('people/people2.jpg') fixed center center;
+  background-size: cover;
+}

@@ -21,6 +21,7 @@ import { counter } from '../components/counter';
 import { dropDown } from '../components/dropdown';
 import { pyramidSelector } from '../components/pyramidselector';
 import { quadrantSelector } from '../components/quadrantselector';
+import { formAlert } from '../components/sweetalert';
 
 // import { toTopButton } from '../components/topbutton';
 
@@ -45,7 +46,11 @@ counter();
 dropDown();
 pyramidSelector();
 quadrantSelector();
+formAlert();
 // toTopButton();
+
+
+
 
 
 
