@@ -40,12 +40,27 @@
 
   .offer-box {
     // box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, 0.2);
+    a:link {
+      text-decoration: none;
+    }
   }
 
   .offer-box.active{
     color: $atolo-green;
     font-weight: 700;
     border-bottom: 2px solid $atolo-green;
+    a {
+      color: $atolo-green;
+      font-weight: 700;
+      border-bottom: 2px solid $atolo-green;
+    }
+  }
+
+  .offer-box:hover{
+    // border-bottom: 2px solid $atolo-green;
+    a, p {
+      color: $atolo-green;
+    }
   }
 
   .offer-pages{

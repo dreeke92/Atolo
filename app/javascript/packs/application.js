@@ -5,6 +5,7 @@ import "bootstrap";
 import { execute } from '../packs/jqueries';
 import { productForMobile } from '../packs/producttiles';
 import { templateFeatures } from '../components/templatefeatures';
+import { galleryEngagement } from '../components/galleryengagement';
 import { headerScroll } from '../components/navbar';
 import { loadWindow } from '../components/tabs';
 import { initTabs } from '../components/tabs';
@@ -28,6 +29,7 @@ execute();
 /*Scripts*/
 productForMobile();
 templateFeatures();
+galleryEngagement();
 headerScroll();
 window.onload = loadWindow();
 initTabs();
