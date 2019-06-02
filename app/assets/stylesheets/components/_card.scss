@@ -128,21 +128,33 @@
 }
 
 .card-one{
-  background: image-url('engagement/engagement01.jpg');
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)
+   ), url('https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473758/engagement09.jpg');
   background-size:     cover;                      /* <------ */
   background-repeat:   no-repeat;
   background-position: center;
 }
 
 .card-two{
-  background: image-url('communication/communication01.jpg');
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)
+   ), url('https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226266/communication01.jpg');
   background-size:     cover;                      /* <------ */
   background-repeat:   no-repeat;
   background-position: center;
 }
 
 .card-three{
-  background: image-url('languages/languages02.jpg');
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)
+   ), url('https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473799/languages02.jpg');
   background-size:     cover;                      /* <------ */
   background-repeat:   no-repeat;
   background-position: center;

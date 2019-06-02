@@ -28,7 +28,7 @@
     linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
-    ), image-url("communication/communication-pyramid01.jpg");
+    ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid01.jpg");
   background-size: cover;
   margin: 1rem;
   display: flex;
@@ -47,7 +47,7 @@
     linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
-    ), image-url("communication/communication-pyramid01.jpg");
+    ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid01.jpg");
   background-size: cover;
 }
 
@@ -58,7 +58,7 @@
     linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
-    ), image-url("communication/communication-pyramid01.jpg");
+    ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid01.jpg");
   background-size: cover;
   h3{
     color: $atolo-green;
@@ -71,7 +71,7 @@
     linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
-    ), image-url("communication/communication-pyramid02.jpg");
+    ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid02.jpg");
   background-size: cover;
   margin: 1rem;
   display: flex;
@@ -82,13 +82,23 @@
   border-bottom-left-radius: 1rem;
 }
 
+.pyramid-base-element-one:hover{
+  width: 50%;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid02.jpg");
+  background-size: cover;
+}
+
 .pyramid-base-element-one.active{
   width: 50%;
   background:
     linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
-    ), image-url("communication/communication-pyramid02.jpg");
+    ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid02.jpg");
   background-size: cover;
   h3{
     color: $atolo-green;
@@ -101,7 +111,7 @@
     linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
-    ), image-url("communication/communication-pyramid03.jpg");
+    ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid03.jpg");
   background-size: cover;
   margin: 1rem;
   display: flex;
@@ -118,7 +128,7 @@
     linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
-    ), image-url("communication/communication-pyramid03.jpg");
+    ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid03.jpg");
   background-size: cover;
 }
 
@@ -128,7 +138,7 @@
     linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
-    ), image-url("communication/communication-pyramid03.jpg");
+    ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid03.jpg");
   background-size: cover;
   h3{
     color: $atolo-green;
