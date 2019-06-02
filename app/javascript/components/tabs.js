@@ -81,13 +81,13 @@ function initNavs(){
 
 function loadWindow(){
   const hash = window.location.hash;
-  if (hash === '#tabs-1-anchor'){
+  if (hash === '#engagement-solutions'){
     $(engagementPage).fadeIn();
     engagementTab.classList.add("active");
-  } else if (hash === '#tabs-2-anchor'){
+  } else if (hash === '#communication-solutions'){
     $(communicationPage).fadeIn();
     communicationTab.classList.add("active");
-  } else if (hash === '#tabs-3-anchor'){
+  } else if (hash === '#languages-solutions'){
     $(languagesPage).fadeIn();
     languagesTab.classList.add("active");
   } else {
