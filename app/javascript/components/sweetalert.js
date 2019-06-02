@@ -3,8 +3,10 @@ import Swal from 'sweetalert2';
 function formAlert(){
 
   window.onload = function() {
-      var form = document.querySelector("form");
+    var form = document.querySelector("form");
+    if (form !== null) {
       form.onsubmit = submitted.bind(form);
+    }
   }
 
   function submitted(event) {
