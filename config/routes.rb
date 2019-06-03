@@ -51,6 +51,8 @@ Rails.application.routes.draw do
   get 'en/disclaimer', to: "pages#disclaimer"
   get 'en/cookies', to: "pages#cookies"
 
+  get 'test', to: redirect("http://www.webtrainer.be/ASP/Accent/company/cp135/")
+
   resources :products, only: [ :create, :new, :show, :update, :edit, :destroy, :index ]
   resources :messages, only: [ :create, :index ]
 
