@@ -94,7 +94,16 @@ button .product-card-button{
       width: 115vh;
       height: 80vh;
   }
+
+  .product-card-content-margin{
+    font-size: 0.8rem;
+  }
+
+  .overflow{
+    overflow-y: auto;
+  }
 }
+
 
 @media screen and (min-width: 1680px) {
   .categorie-item {
@@ -133,6 +142,7 @@ button .product-card-button{
 
 .product-card-content-margin {
   margin: 0px;
+  text-align: justify;
 }
 
 .categorie-item:hover {

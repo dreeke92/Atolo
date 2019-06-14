@@ -5,13 +5,13 @@
     <div id="my-lightbox-<%= product.id %>" class="product-card engagement-featherlight">
       <div class="categorie-item">
         <div class="ci-thumb">
-          <%= cl_image_tag product.photo, crop: :fill, :class => "product-image" %>
+          <%= cl_image_tag product.photo, crop: :fill, :class => "product-image center-picture" %>
         </div>
         <div class="product-card-content small-font align-center">
           <div class="ci-text">
-            <div>
+            <div class="overflow">
               <h3><%= product.name %></h3>
-              <p class="product-card-content-margin"><%= product.description %></p>
+              <p class="product-card-content-margin product-card-content-text"><%= product.description %></p>
             </div>
 <!--             <div class="align-center">
               <button id="get-in-touch" class="small product-card-button next-product-card" ><%#= t('solutions.engagement.products.request') %></button>
@@ -29,7 +29,7 @@
     <div id="my-lightbox-<%= product.id %>" class="product-card">
       <div class="categorie-item">
         <div class="ci-thumb">
-          <%= cl_image_tag product.photo, crop: :fill, :class => "product-image" %>
+          <%= cl_image_tag product.photo, crop: :fill, :class => "product-image center-picture" %>
         </div>
         <div class="product-card-content small-font align-center">
           <div class="ci-text">
@@ -55,7 +55,7 @@
     <div id="my-lightbox-<%= product.id %>" class="product-card">
       <div class="categorie-item">
         <div class="ci-thumb">
-          <%= cl_image_tag product.photo, crop: :fill, :class => "product-image" %>
+          <%= cl_image_tag product.photo, crop: :fill, :class => "product-image center-picture" %>
         </div>
         <div class="product-card-content small-font align-center">
           <div class="ci-text">

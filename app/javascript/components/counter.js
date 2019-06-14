@@ -53,7 +53,7 @@ function counterUp(element, count){
 
 function counter(){
   counterUp(trainerCounter, 3500);
-  counterUp(trainingCounter, 160);
+  counterUp(trainingCounter, 50);
   counterUp(clientCounter, 7500);
   counterUp(traineeCounter, 10000);
 };

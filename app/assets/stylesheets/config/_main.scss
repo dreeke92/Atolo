@@ -110,6 +110,28 @@ input, select, textarea {
     font-size: 18pt;
   }
 
+    @media screen and (max-width: 2200px) {
+
+      html {
+        font-size: 17pt;
+      }
+      .small-font{
+        font-size: 15pt;
+      }
+    }
+
+
+
+    @media screen and (max-width: 2000px) {
+
+      html {
+        font-size: 16pt;
+      }
+      .small-font{
+        font-size: 14pt;
+      }
+    }
+
     @media screen and (max-width: 1680px) {
 
       html {

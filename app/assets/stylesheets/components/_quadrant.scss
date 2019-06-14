@@ -35,7 +35,7 @@
 }
 
 #languages-quadrant-selector-one.active h3{
-    color: #F9A704;
+  color: #F9A704;
 }
 #languages-quadrant-selector-two.active h3{
   color: #93C11A;
@@ -44,6 +44,19 @@
   color: #BB027D;
 }
 #languages-quadrant-selector-four.active h3{
+  color: #16AFD8;
+}
+
+#languages-quadrant-selector-one:hover h3{
+  color: #F9A704;
+}
+#languages-quadrant-selector-two:hover h3{
+  color: #93C11A;
+}
+#languages-quadrant-selector-three:hover h3{
+  color: #BB027D;
+}
+#languages-quadrant-selector-four:hover h3{
   color: #16AFD8;
 }
 
