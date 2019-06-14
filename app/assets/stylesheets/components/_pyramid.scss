@@ -26,8 +26,8 @@
   overflow: hidden;
   background:
     linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
+      rgba(0, 0, 0, 0.61),
+      rgba(0, 0, 0, 0.61)
     ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid01.jpg");
   background-size: cover;
   margin: 1rem;
@@ -38,6 +38,7 @@
   flex-direction: column;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
+  cursor: pointer;
 }
 
 .pyramid-top-container:hover{
@@ -45,10 +46,14 @@
   overflow: hidden;
   background:
     linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
     ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid01.jpg");
   background-size: cover;
+  h3{
+    font-size: 2rem;
+    color: $atolo-green;
+  }
 }
 
 .pyramid-top-container.active{
@@ -56,12 +61,13 @@
   overflow: hidden;
   background:
     linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
     ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid01.jpg");
   background-size: cover;
   h3{
     color: $atolo-green;
+    font-size: 2rem;
   }
 }
 
@@ -69,8 +75,8 @@
   width: 50%;
   background:
     linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
+      rgba(0, 0, 0, 0.61),
+      rgba(0, 0, 0, 0.61)
     ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid02.jpg");
   background-size: cover;
   margin: 1rem;
@@ -80,28 +86,34 @@
   text-align: center;
   flex-direction: column;
   border-bottom-left-radius: 1rem;
+  cursor: pointer;
 }
 
 .pyramid-base-element-one:hover{
   width: 50%;
   background:
     linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
     ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid02.jpg");
   background-size: cover;
+  h3{
+    font-size: 2rem;
+    color: $atolo-green;
+  }
 }
 
 .pyramid-base-element-one.active{
   width: 50%;
   background:
     linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
     ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid02.jpg");
   background-size: cover;
   h3{
     color: $atolo-green;
+    font-size: 2rem;
   }
 }
 
@@ -109,8 +121,8 @@
   width: 50%;
   background:
     linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
+      rgba(0, 0, 0, 0.61),
+      rgba(0, 0, 0, 0.61)
     ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid03.jpg");
   background-size: cover;
   margin: 1rem;
@@ -120,28 +132,34 @@
   text-align: center;
   flex-direction: column;
   border-bottom-right-radius: 1rem;
+  cursor: pointer;
 }
 
 .pyramid-base-element-two:hover{
   width: 50%;
   background:
     linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
     ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid03.jpg");
   background-size: cover;
+  h3{
+    font-size: 2rem;
+    color: $atolo-green;
+  }
 }
 
 .pyramid-base-element-two.active{
   width: 50%;
   background:
     linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
     ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid03.jpg");
   background-size: cover;
   h3{
     color: $atolo-green;
+    font-size: 2rem;
   }
 }
 
@@ -180,8 +198,8 @@
   overflow: hidden;
   background:
     linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
+      rgba(0, 0, 0, 0.61),
+      rgba(0, 0, 0, 0.61)
     ), image-url("communication/communication-pyramid01.jpg");
   background-size: cover;
   border-top-left-radius: 1rem;
@@ -192,8 +210,8 @@
   overflow: hidden;
   background:
     linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
+      rgba(0, 0, 0, 0.61),
+      rgba(0, 0, 0, 0.61)
     ), image-url("communication/communication-pyramid02.jpg");
   background-size: cover;
 }
@@ -202,8 +220,8 @@
   overflow: hidden;
   background:
     linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
+      rgba(0, 0, 0, 0.61),
+      rgba(0, 0, 0, 0.61)
     ), image-url("communication/communication-pyramid03.jpg");
   background-size: cover;
   border-bottom-left-radius: 1rem;
@@ -214,8 +232,8 @@
   overflow: hidden;
   background:
     linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
     ), image-url("communication/communication-pyramid01.jpg");
   background-size: cover;
 }
@@ -224,8 +242,8 @@
   overflow: hidden;
   background:
     linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
     ), image-url("communication/communication-pyramid02.jpg");
   background-size: cover;
 }
@@ -234,8 +252,8 @@
   overflow: hidden;
   background:
     linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
     ), image-url("communication/communication-pyramid03.jpg");
   background-size: cover;
 }
@@ -244,8 +262,8 @@
   overflow: hidden;
   background:
     linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
     ), image-url("communication/communication-pyramid01.jpg");
   background-size: cover;
 }
@@ -254,8 +272,8 @@
   overflow: hidden;
   background:
     linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
     ), image-url("communication/communication-pyramid02.jpg");
   background-size: cover;
 }
@@ -264,8 +282,8 @@
   overflow: hidden;
   background:
     linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
     ), image-url("communication/communication-pyramid03.jpg");
   background-size: cover;
 }

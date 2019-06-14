@@ -12,6 +12,6 @@ class UserMailer < ApplicationMailer
     @content = params[:content]
     @copy = params[:copy]
 
-    mail to: "admin@atolo.global"
+    mail to: "mieke@atolo.eu"
   end
 end
