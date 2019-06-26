@@ -25,4 +25,3 @@ module Atolo
 end
 
 I18n.config.available_locales = :fr, :de, :nl, :en
-# I18n.config.default_locale = :en

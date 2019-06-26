@@ -1,6 +1,8 @@
 function dropDown(){
 
   const dropDown = document.querySelectorAll('.nav-menu-drop-down');
+  const languageDrops = document.querySelectorAll('.mobile_language_drops');
+
   function isMobile() {
       ///<summary>Detecting whether the browser is a mobile browser or desktop browser</summary>
       ///<returns>A boolean value indicating whether the browser is a mobile browser or not</returns>
@@ -22,11 +24,15 @@ function dropDown(){
     dropDown.forEach(element => {
       element.hidden = true;
     })
+    languageDrops.forEach(drop => {
+      drop.classList.add("mobile-drop-small-margin");
+    })
   } else {
     dropDown.forEach(element => {
       element.hidden = false;
     })
   }
+
 };
 
 export { dropDown };

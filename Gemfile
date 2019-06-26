@@ -24,7 +24,6 @@ gem 'geocoder'
 gem 'rails-assets-sweetalert2', '~> 5.1.1', source: 'https://rails-assets.org'
 gem 'sweet-alert2-rails'
 gem 'rails-i18n', '~> 5.1'
-gem 'devise-i18n', '~> 1.2'
 
 group :development do
   gem 'web-console', '>= 3.3.0'

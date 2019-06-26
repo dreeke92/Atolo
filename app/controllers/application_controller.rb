@@ -19,5 +19,4 @@ class ApplicationController < ActionController::Base
     I18n.locale = params.fetch(:locale, I18n.default_locale).to_sym
   end
 
-
 end
