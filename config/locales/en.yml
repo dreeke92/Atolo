@@ -352,3 +352,21 @@ Our solutions combine coaching and training in an efficient way where individual
     text_six: "You have the right to request access to, correction, or removal of your data. See our contact page. In order to prevent abuse, we can ask for proper identification. When it comes to access to personal data linked to a cookie, you must send a copy of the cookie in question. You can find it back in your browser settings."
     subtitle_seven: "Enable and disable cookies and delete them"
     text_seven: "More information about turning on and off and deleting cookies can be found in the instructions and / or using your browser's Help feature."
+  activerecord:
+    models:
+      message: "message"
+      product: "product"
+      user: "user"
+    attributes:
+      message:
+        name: "name"
+        company: "company"
+        email: "email"
+        content: "content"
+        copy: "copy"
+        robot: "robot"
+      product:
+        name: "name"
+        group: "group"
+        description: "description"
+        content: "content"
