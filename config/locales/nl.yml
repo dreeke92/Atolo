@@ -1,4 +1,4 @@
-en:
+nl:
   navbar:
     home: "Home"
     solutions: "Our solutions"
@@ -14,7 +14,7 @@ en:
   footer:
   welcome:
     banner:
-      engagement_caption: "Supporting organisations where people drive impact"
+      engagement_caption: "This is the Dutch banner"
       communication_caption: "Communication is key"
       languages_caption: "Everyone needs languages"
     intro:
@@ -253,7 +253,7 @@ Our solutions combine coaching and training in an efficient way where individual
       content: "Small is beautiful. It's true for our company as well. Beautiful, with big ideas! Our origins were in language training and this is where we forged our DNA, where we realised we would only be successful if our people were successful, if our solutions went further in the impact they bring and if we kept up to date on where the world is going. As well as languages we now deliver unique communication training solutions and co-create innovative programs on the subject of values and engagement within organisations. The future is bright! We look forward to supporting you in your success and the growth of your teams."
       meet: "Meet the team"
     team:
-      title: "Our team"
+      title: "Ons team"
       sub_title: "We challenge the status quo"
       member_one:
         first_name: "Mieke"

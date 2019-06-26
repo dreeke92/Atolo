@@ -9,7 +9,7 @@
     @media screen and (max-width: 2200px) {
       .flip-profile-card {
         // height: 55vh;
-        height: 27rem;
+        height: 28rem;
       }
     }
 
@@ -34,7 +34,7 @@
     @media screen and (max-width: 1680px) {
       .flip-profile-card {
         // height: 55vh;
-        height: 21rem;
+        height: 22rem;
       }
     }
 
@@ -48,37 +48,41 @@
     @media screen and (max-width: 900px) {
       .flip-profile-card {
         // height: 55vh;
-        height: 19rem;
+        height: 20rem;
       }
     }
 
     @media screen and (max-width: 736px) {
       .flip-profile-card {
         // height: 50vh;
-        height: 18rem;
+        height: 19rem;
       }
     }
 
     @media screen and (max-width: 600px) {
       .flip-profile-card {
         // height: 60vh;
-        height: 17rem;
+        height: 19rem;
       }
     }
 
     @media screen and (max-width: 500px) {
       .flip-profile-card {
         // height: 50vh;
-        height: 16rem;
+        height: 18rem;
       }
     }
 
     @media screen and (max-width: 360px) {
       .flip-profile-card {
         // height: 50vh;
-        height: 15rem;
+        height: 17rem;
       }
     }
+
+.margin-top-name {
+  margin-top: 1rem;
+}
 
 /* This container is needed to position the front and back side */
 .flip-profile-card-inner {

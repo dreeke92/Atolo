@@ -1,4 +1,4 @@
-en:
+de:
   navbar:
     home: "Home"
     solutions: "Our solutions"
@@ -14,7 +14,7 @@ en:
   footer:
   welcome:
     banner:
-      engagement_caption: "Supporting organisations where people drive impact"
+      engagement_caption: "This is the German banner"
       communication_caption: "Communication is key"
       languages_caption: "Everyone needs languages"
     intro:
