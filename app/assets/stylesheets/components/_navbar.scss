@@ -228,8 +228,25 @@
   outline: none;
 }
 
+.nav-menu .locale {
+  padding: 0 8px 10px 8px;
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  // font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  // font-size: 13px;
+  // text-transform: uppercase;
+  outline: none;
+}
+
 .nav-menu li:hover > a,
 .nav-menu > .menu-active > a {
+  color: $atolo-green;
+}
+
+.nav-menu li:hover > .locale,
+.nav-menu > .menu-active > .locale {
   color: $atolo-green;
 }
 
@@ -249,6 +266,15 @@
 }
 
 .nav-menu ul li a {
+  padding: 10px;
+  color: #333;
+  transition: 0.3s;
+  display: block;
+  font-size: 13px;
+  text-transform: none;
+}
+
+.nav-menu ul li .locale {
   padding: 10px;
   color: #333;
   transition: 0.3s;
@@ -277,6 +303,21 @@
   margin-top: 0px !important;
 }
 
+.language-drop-down{
+  margin-top: 0px !important;
+}
+
+
+.locale{
+  color: black;
+  overflow: hidden;
+  padding: 10px 22px 10px 15px;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  outline: none;
+}
 #nav_solutions #nav_engagement a,
 #nav_solutions #nav_communication a,
 #nav_solutions #nav_languages a {
@@ -299,4 +340,8 @@
 #nav_about #nav_whereto a:hover,
 #nav_about #nav_probono a:hover {
   color: $atolo-green;
+}
+
+.mobile-drop-small-margin a{
+  padding: 5px 22px 5px 15px !important;
 }

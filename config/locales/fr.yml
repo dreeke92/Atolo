@@ -1,4 +1,4 @@
-en:
+fr:
   navbar:
     home: "Home"
     solutions: "Our solutions"
@@ -14,7 +14,7 @@ en:
   footer:
   welcome:
     banner:
-      engagement_caption: "Supporting organisations where people drive impact"
+      engagement_caption: "This is the French banner"
       communication_caption: "Communication is key"
       languages_caption: "Everyone needs languages"
     intro:
@@ -89,7 +89,7 @@ In today’s world, the workplace needs a different approach because what we exp
     engagement:
       title: "Engagement"
       spotlight:
-        header: "Inspiring company cultures where people drive success!"
+        header: "Inspirer"
         content: "Creating a culture where people live their values, enjoy a sense of belonging and drive success. In today’s world, the workplace needs a different approach because what you expect from your people and what they expect from you has changed. A certified and experienced team of experts deliver powerful engagement workshops designed together with our Swedish partners at Selfleaders. Our modular approach and the use of digitalisation provides you with solutions no matter your size or needs. Engagement is now at the reach of all organisations!"
       products:
         title: "Our Engagement Solutions"
@@ -229,7 +229,7 @@ Our solutions combine coaching and training in an efficient way where individual
         company_seven: 'Cofinimmo'
         content_seven: 'What I appreciate the most is the work on skills (versus theory) and the immersive character of the training (German only!). The trainer manages to put all the participants in confidence which allows us to dare to make mistakes in order to progress.'
   values:
-    introduction_title: "Our values"
+    introduction_title: "Notre valuers"
     introduction_text: "Our values are what drives us from within and what defines how we behave towards the outside world. They were chosen with our soul as well as our head, by the whole team. They inspire us to live them and to make you live them too."
     discover: "Discover our values"
     value_one:
@@ -253,7 +253,7 @@ Our solutions combine coaching and training in an efficient way where individual
       content: "Small is beautiful. It's true for our company as well. Beautiful, with big ideas! Our origins were in language training and this is where we forged our DNA, where we realised we would only be successful if our people were successful, if our solutions went further in the impact they bring and if we kept up to date on where the world is going. As well as languages we now deliver unique communication training solutions and co-create innovative programs on the subject of values and engagement within organisations. The future is bright! We look forward to supporting you in your success and the growth of your teams."
       meet: "Meet the team"
     team:
-      title: "Our team"
+      title: "Notre equipe"
       sub_title: "We challenge the status quo"
       member_one:
         first_name: "Mieke"
@@ -355,18 +355,18 @@ Our solutions combine coaching and training in an efficient way where individual
   activerecord:
     models:
       message: "message"
-      product: "product"
+      product: "produit"
       user: "user"
     attributes:
       message:
-        name: "name"
-        company: "company"
+        name: "nom"
+        company: "entreprise"
         email: "email"
-        content: "content"
+        content: "contenu"
         copy: "copy"
         robot: "robot"
       product:
-        name: "name"
+        name: "nom"
         group: "group"
         description: "description"
-        content: "content"
+        content: "contenu"

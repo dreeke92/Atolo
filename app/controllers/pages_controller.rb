@@ -6,9 +6,9 @@ class PagesController < ApplicationController
   end
 
   def solutions
-    @languages_products = Product.where(group: "Languages")
-    @communication_products = Product.where(group: "Communication")
-    @engagement_products = Product.where(group: "Engagement")
+    @languages_products = Product.where(group: "Languages").sort_by { |k| -k[:ranking] }.reverse!
+    @communication_products = Product.where(group: "Communication").sort_by { |k| -k[:ranking] }.reverse!
+    @engagement_products = Product.where(group: "Engagement").sort_by { |k| -k[:ranking] }.reverse!
   end
 
   def redirect

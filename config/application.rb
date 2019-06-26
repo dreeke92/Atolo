@@ -23,3 +23,5 @@ module Atolo
     # the framework and any gems in your application.
   end
 end
+
+I18n.config.available_locales = :fr, :de, :nl, :en
