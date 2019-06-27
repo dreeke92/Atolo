@@ -24,7 +24,7 @@ engagement_pic_three = "https://images.unsplash.com/photo-1521200379774-e541c236
 languages_pic_one = "https://res.cloudinary.com/dr7ypsdyf/image/upload/v1561639283/Atolo-19.jpg"
 # languages_pic_two = "https://images.unsplash.com/photo-1455885661740-29cbf08a42fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
 languages_pic_two = "https://res.cloudinary.com/dr7ypsdyf/image/upload/v1561639272/Atolo-11.jpg"
-languages_pic_three = "https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+# languages_pic_three = "https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
 languages_pic_three = "https://res.cloudinary.com/dr7ypsdyf/image/upload/v1561639328/Atolo-62.jpg"
 languages_pic_four = "https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
 languages_pic_five = "https://images.unsplash.com/photo-1488257907837-523fe2051fc3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
