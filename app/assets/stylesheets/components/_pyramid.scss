@@ -28,7 +28,9 @@
     linear-gradient(
       rgba(0, 0, 0, 0.61),
       rgba(0, 0, 0, 0.61)
-    ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid01.jpg");
+    ),
+    // url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid01.jpg");
+    url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1561639285/Atolo-16.jpg");
   background-size: cover;
   margin: 1rem;
   display: flex;
@@ -48,7 +50,9 @@
     linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
-    ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid01.jpg");
+    ),
+    // url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid01.jpg");
+    url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1561639285/Atolo-16.jpg");
   background-size: cover;
   h3{
     // font-size: 2rem;
@@ -63,7 +67,9 @@
     linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
-    ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid01.jpg");
+    ),
+    // url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid01.jpg");
+    url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1561639285/Atolo-16.jpg");
   background-size: cover;
   h3{
     color: $atolo-green;
@@ -77,7 +83,9 @@
     linear-gradient(
       rgba(0, 0, 0, 0.61),
       rgba(0, 0, 0, 0.61)
-    ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid02.jpg");
+    ),
+    // url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid02.jpg");
+    url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1561639274/Atolo-8.jpg");
   background-size: cover;
   margin: 1rem;
   display: flex;
@@ -95,7 +103,9 @@
     linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
-    ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid02.jpg");
+    ),
+    // url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid02.jpg");
+    url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1561639274/Atolo-8.jpg");
   background-size: cover;
   h3{
     // font-size: 2rem;
@@ -109,7 +119,9 @@
     linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
-    ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid02.jpg");
+    ),
+    // url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid02.jpg");
+    url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1561639274/Atolo-8.jpg");
   background-size: cover;
   h3{
     color: $atolo-green;
@@ -123,7 +135,8 @@
     linear-gradient(
       rgba(0, 0, 0, 0.61),
       rgba(0, 0, 0, 0.61)
-    ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid03.jpg");
+    ),
+    url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid03.jpg");
   background-size: cover;
   margin: 1rem;
   display: flex;
@@ -141,7 +154,8 @@
     linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
-    ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid03.jpg");
+    ),
+    url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid03.jpg");
   background-size: cover;
   h3{
     // font-size: 2rem;
@@ -155,7 +169,8 @@
     linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
-    ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid03.jpg");
+    ),
+    url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid03.jpg");
   background-size: cover;
   h3{
     color: $atolo-green;
@@ -198,34 +213,14 @@
   overflow: hidden;
   background:
     linear-gradient(
-      rgba(0, 0, 0, 0.61),
-      rgba(0, 0, 0, 0.61)
-    ), image-url("communication/communication-pyramid01.jpg");
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    // url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid01.jpg");
+    url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1561639285/Atolo-16.jpg");
   background-size: cover;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
-}
-
-.medium-pyramid-element-two{
-  overflow: hidden;
-  background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.61),
-      rgba(0, 0, 0, 0.61)
-    ), image-url("communication/communication-pyramid02.jpg");
-  background-size: cover;
-}
-
-.medium-pyramid-element-three{
-  overflow: hidden;
-  background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.61),
-      rgba(0, 0, 0, 0.61)
-    ), image-url("communication/communication-pyramid03.jpg");
-  background-size: cover;
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
 }
 
 .medium-pyramid-element-one:hover{
@@ -234,27 +229,9 @@
     linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
-    ), image-url("communication/communication-pyramid01.jpg");
-  background-size: cover;
-}
-
-.medium-pyramid-element-two:hover{
-  overflow: hidden;
-  background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    ), image-url("communication/communication-pyramid02.jpg");
-  background-size: cover;
-}
-
-.medium-pyramid-element-three:hover{
-  overflow: hidden;
-  background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    ), image-url("communication/communication-pyramid03.jpg");
+    ),
+    // url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid01.jpg");
+    url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1561639285/Atolo-16.jpg");
   background-size: cover;
 }
 
@@ -264,7 +241,29 @@
     linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
-    ), image-url("communication/communication-pyramid01.jpg");
+    ),
+    // url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid01.jpg");
+    url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1561639285/Atolo-16.jpg");
+  background-size: cover;
+}
+
+.medium-pyramid-element-two{
+  overflow: hidden;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.61),
+      rgba(0, 0, 0, 0.61)
+    ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1561639274/Atolo-8.jpg");
+  background-size: cover;
+}
+
+.medium-pyramid-element-two:hover{
+  overflow: hidden;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1561639274/Atolo-8.jpg");
   background-size: cover;
 }
 
@@ -274,7 +273,29 @@
     linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
-    ), image-url("communication/communication-pyramid02.jpg");
+    ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1561639274/Atolo-8.jpg");
+  background-size: cover;
+}
+
+.medium-pyramid-element-three{
+  overflow: hidden;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.61),
+      rgba(0, 0, 0, 0.61)
+    ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid03.jpg");
+  background-size: cover;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.medium-pyramid-element-three:hover{
+  overflow: hidden;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid03.jpg");
   background-size: cover;
 }
 
@@ -284,6 +305,6 @@
     linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
-    ), image-url("communication/communication-pyramid03.jpg");
+    ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid03.jpg");
   background-size: cover;
 }
