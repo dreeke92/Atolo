@@ -282,31 +282,31 @@ Our solutions combine coaching and training in an efficient way where individual
       member_five:
         first_name: "Betina"
         second_name: "Geiken"
-        role: "Learning & Development Consultant"
+        role: "L&D Consultant"
         text: "A generous soul dedicated to the common good, we can always count on Bettina's extensive expertise and know-how. Always willing to share, help and shed light on complex human matters. A treasure chest of insights that we are grateful to rely upon when designing your solutions."
         location: "Brussels"
       member_six:
         first_name: "Maité"
         second_name: "Dantine"
-        role: "Learning & development coordinator"
+        role: "L&D coordinator"
         text: "A true people person able to manage anything that comes her way. Calm, empathetic and an expert in building relations, Maïté is always on the look out to see how we can continuously improve our service to our trainers and to our clients."
         location: "Brussels"
       member_seven:
         first_name: "Sofie"
         second_name: "Begine"
-        role: "Learning & Development specialist"
+        role: "L&D specialist"
         text: "A strong personality on whom we can always depend. People who know her recognize her ability to think outside the box, to challenge those around her for the greater good and to never accept anything less than high quality. A pillar in our team and a reference for your projects."
         location: "Brussels"
       member_eight:
         first_name: "Céline"
         second_name: "Zaghet"
-        role: "Learning & Development specialist"
+        role: "L&D specialist"
         text: "Dynamic in her approach to people, committed to highlighting strengths amongst others and engaged in the way she interacts with her environment. Our team of trainers are onboarded in the best of conditions thanks to Céline. A positive and vibrant personality bringing true added value internally and externally."
         location: "Brussels"
       member_nine:
         first_name: "Quentin"
         second_name: "Dubus"
-        role: "Learning & Development specialist"
+        role: "L&D specialist"
         text: "Courageous, dedicated, enthusiastic... Our team can always rely on Quentin to be the spark and the accelerator to many important projects. Engagement and commitment flow though him and that brings authentic added value to both our team and our clients."
         location: "Brussels"
       member_ten:
@@ -370,3 +370,8 @@ Our solutions combine coaching and training in an efficient way where individual
         group: "group"
         description: "description"
         content: "content"
+  counter:
+    missions: "Missions"
+    coaches: "Coaches"
+    participants: "Participants"
+    mission_participants: "Participants in missions"
