@@ -23,8 +23,7 @@ en:
       text_two: "A place where your teams are engaged and have the necessary skills to turn their engagement into impact for your organisation."
       cards:
         engagement_title: "Engagement"
-        engagement_content: "Co-creating a culture where people feel motivated, enjoy a sense of belonging and have an impact.
-In today’s world, the workplace needs a different approach because what we expect from our people and what they expect from you is different."
+        engagement_content: "Co-creating a culture where people feel motivated, enjoy a sense of belonging and have an impact. In today’s world, the workplace needs a different approach because what we expect from our people and what they expect from you is different."
         communication_title: "Communication"
         communication_content: "Communication is the lifeblood of the modern organisation. Daring to communicate when needed, delegating, giving feedback and communicating complexity, simply, are all skills that an engaged organisation needs to thrive."
         languages_title: "Languages"
@@ -280,7 +279,7 @@ Our solutions combine coaching and training in an efficient way where individual
         text: "Experienced, proactive and professional are but some of the words used by colleagues to describe Eva. As our office manager, Eva represents our backbone. We are lucky to be able to count on someone as vital as she. Rest assured, any project of yours overseen by Eva is in safe hands."
         location: "Brussels"
       member_five:
-        first_name: "Betina"
+        first_name: "Bettina"
         second_name: "Geiken"
         role: "L&D Consultant"
         text: "A generous soul dedicated to the common good, we can always count on Bettina's extensive expertise and know-how. Always willing to share, help and shed light on complex human matters. A treasure chest of insights that we are grateful to rely upon when designing your solutions."
@@ -319,6 +318,7 @@ Our solutions combine coaching and training in an efficient way where individual
         second_name: "Fortes"
         role: "L&D Consultant"
         text: "An international mindset combined with a luminous and kind spirit. Add to that structure and a very professional streak and you then discover Claudia, a ray of light and expertise who is able to add the essential twist to all our L&D designs which in turn make all the difference to your projects."
+    location: "Where to find us"
     probono:
         title: "Atolo Pro Bono"
         content: "We don’t give back because it is the right thing to do, we give back because it is what we want to do. Our pro-bono work is aimed at supporting social-entrepreneurs with their communication. We are servants to these very inspiring people who want to change the world for the better and empower them to tell their story authentically, clearly and powerfully. People like those at Ashoka."
@@ -375,3 +375,14 @@ Our solutions combine coaching and training in an efficient way where individual
     coaches: "Coaches"
     participants: "Participants"
     mission_participants: "Participants in missions"
+  form:
+    contact: "Contact us"
+    name: "Name"
+    company: "Company"
+    email: "Email"
+    message: "Message"
+    human: "I am a human and not a robot"
+    send: "Send message"
+
+
+

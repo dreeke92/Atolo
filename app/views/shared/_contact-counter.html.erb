@@ -17,10 +17,10 @@
             <h3 class="font600  white-text"><%= t("counter.participants") %></h3>
         </div>
 
-        <div class="mb30 wow fadeInUp display-flex" data-wow-delay="0.3s">
+<!--         <div class="mb30 wow fadeInUp display-flex" data-wow-delay="0.3s">
             <h1 class="green-text"><span id="trainee-counter" class="counter">0</span></h1>
-            <h3 class="font600  white-text"><%= t("counter.mission_participants") %></h3>
-        </div>
+            <h3 class="font600  white-text"><%#= t("counter.mission_participants") %></h3>
+        </div> -->
       </div>
     <!-- </div> -->
   </div>
@@ -28,7 +28,7 @@
   <section id="contact" class="wrapper style1 align-left contact-in-counter">
     <div class="inner">
       <header>
-        <h2 class="align-center">Contact us</h2>
+        <h2 class="align-center"><%= t('form.contact') %></h2>
       </header>
       <div class="content">
         <%= render 'shared/contact-form' %>

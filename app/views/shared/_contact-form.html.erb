@@ -2,19 +2,19 @@
     <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
     <div class="fields">
       <div class="field half">
-        <label for="name">Name</label>
+        <label for="name"><%= t('form.name') %></label>
         <input type="text" name="message[name]" id="name" value="" />
       </div>
       <div class="field half">
-        <label for="company">Company</label>
+        <label for="company"><%= t('form.company') %></label>
         <input type="text" name="message[company]" id="company" value="" />
       </div>
       <div class="field">
-        <label for="email">Email</label>
+        <label for="email"><%= t('form.email') %></label>
         <input type="email" required name="message[email]" id="email" value="" />
       </div>
       <div class="field">
-        <label for="message">Message</label>
+        <label for="message"><%= t('form.message') %></label>
         <textarea name="message[content]" id="message" rows=""></textarea>
       </div>
 <!--       <div class="field half">
@@ -23,10 +23,10 @@
       </div> -->
       <div class="field half">
         <input class="checkmark" type="checkbox" required id="human" name="message[robot]"/>
-        <label for="human">I am a human and not a robot</label>
+        <label for="human"><%= t('form.human') %></label>
       </div>
     </div>
     <ul class="actions align-center">
-      <li><input class="primary contact-form-submit" type="submit" name="submit" id="submit" value="Send Message" /></li>
+      <li><input class="primary contact-form-submit" type="submit" name="submit" id="submit" value="<%= t('form.send') %>" /></li>
     </ul>
   </form>
