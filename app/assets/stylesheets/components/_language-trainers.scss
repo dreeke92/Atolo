@@ -1,0 +1,149 @@
+// @media screen and (max-width: 1000px) {
+//   .languages-pyramid-container{
+//     display: none;
+//   }
+// }
+
+.languages-pyramid-container{
+  padding: 3rem;
+  height: 80vh;
+}
+
+@media screen and (min-width: 625px) {
+  .languages-pyramid-container{
+    width: 50%;
+  }
+}
+
+// @media screen and (min-width: 1000px) {
+//   .languages-medium-pyramid-container{
+//     display: none;
+//   }
+// }
+
+
+// .languages-medium-pyramid-container{
+//   width: 50%;
+//   padding: 1rem;
+//   height: 60vh;
+// }
+
+.languages-pyramid-base-container{
+  display: flex;
+  height: 50%;
+}
+
+.languages-pyramid-top-container{
+  height: 50%;
+  overflow: hidden;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
+    ),
+    // url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid01.jpg");
+    url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1564491375/trainers_3.jpg");
+  background-size: cover;
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  cursor: pointer;
+}
+
+.languages-pyramid-base-element-one{
+  width: 50%;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
+    ),
+    url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1564491065/trainers_1.jpg");
+    // url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1561639274/Atolo-8.jpg");
+  background-size: cover;
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  border-bottom-left-radius: 1rem;
+  cursor: pointer;
+}
+
+.languages-pyramid-base-element-two{
+  width: 50%;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
+    ),
+    url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1564490787/trainers_2.jpg");
+  background-size: cover;
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  border-bottom-right-radius: 1rem;
+  cursor: pointer;
+}
+
+.languages-pyramid-title{
+  color: white;
+  margin: 0.5rem;
+}
+
+// .languages-medium-pyramid-element-one,
+// .languages-medium-pyramid-element-two,
+// .languages-medium-pyramid-element-three{
+//   height: 30%;
+//   margin: 0.5rem;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   text-align: center;
+//   flex-direction: column;
+// }
+
+// .languages-medium-pyramid-element-one{
+//   overflow: hidden;
+//   background:
+//     linear-gradient(
+//       rgba(0, 0, 0, 0),
+//       rgba(0, 0, 0, 0)
+//     ),
+//     // url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226265/communication-pyramid01.jpg");
+//     url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1564491375/trainers_3.jpg");
+//   background-size: cover;
+//   border-top-left-radius: 1rem;
+//   border-top-right-radius: 1rem;
+// }
+
+// .languages-medium-pyramid-element-two{
+//   overflow: hidden;
+//   background:
+//     linear-gradient(
+//       rgba(0, 0, 0, 0),
+//       rgba(0, 0, 0, 0)
+//     ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1564491065/trainers_1.jpg");
+//   background-size: cover;
+// }
+
+
+// .languages-medium-pyramid-element-three{
+//   overflow: hidden;
+//   background:
+//     linear-gradient(
+//       rgba(0, 0, 0, 0),
+//       rgba(0, 0, 0, 0)
+//     ), url("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1564490787/trainers_2.jpg");
+//   background-size: cover;
+//   border-bottom-left-radius: 1rem;
+//   border-bottom-right-radius: 1rem;
+// }

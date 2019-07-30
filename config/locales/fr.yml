@@ -30,6 +30,7 @@ fr:
         languages_content: "Communiquer est le fait d'interagir avec autrui quelle que soit la langue. ATOLO s'y engage depuis de nombreuses années, avec succès, via ses formations impactantes. N'apprenez pas une langue étrangère, oubliez que vous la parlez !"
         learn_more: "en savoir plus"
     testimonials:
+      title: "Témoignages"
       name_one: 'Nina Schindler'
       company_one: 'Deutsche Bank'
       content_one: "What I appreciate the most is the attention payed to individual goals and focus, a very structured approach and a highly motivating attitude of coaching."
@@ -110,6 +111,7 @@ fr:
         content_three: ""
       testimonials:
         title: "Clients"
+        text: "Quelques entreprises partenaires ayant vécue notre solution d’engagement SelfLeaders avec succès."
         name_one: 'Jennemie Driessens'
         company_one: 'AXA Assistance'
         content_one: "The training is the result of a permanent dialogue between trainer and participants. During the training, we were able to provide continuous feedback which helped guide the content and approach wherever we wanted."
@@ -182,7 +184,7 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
         company_nine: 'Wordline'
         content_nine: "Thanks to this training, I feel less nervous and I am able to communicate more clearly."
     languages:
-      title: "Les Langues"
+      title: "Langues"
       spotlight:
         header: "Se sentir en confiance et communiquer avec impact. Quelle que soit la langue !"
         content: "Communiquer est le fait d'interagir avec autrui quelle que soit la langue. ATOLO s'y engage depuis de nombreuses années, avec succès, via ses formations générant de l’impact. N'apprenez pas une langue étrangère, oubliez que vous la parlez! Nos solutions sont conçues pour des besoins individuels ou en groupe. Les formats proposés prévoient des solutions de trajets courts ou longs ainsi que des approches plus intensives en immersion. Un impact durable est intégré dans nos objectifs fondamentaux."
@@ -218,7 +220,7 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
         name_four: 'Marina Hautman'
         company_four: 'Credendo'
         content_four: 'Excellent practice-oriented training. The concept allows to focus on a project rather than the language. As a result, we progressed without realizing it by using concepts, vocabulary and expressions directly related to our needs. This makes speaking with colleagues more comfortable.'
-        name_five: 'Pauline GrÃ©goire'
+        name_five: 'Pauline Grégoire'
         company_five: 'Triodos'
         content_five: 'The writing skills formula was useful work at home combined with face to face sessions allowing to analyze painpoints, to review them and practice. All of this with a great trainer who was interested, knowledgeable and great in explaining things.'
         name_six: 'Solange Baboy'
@@ -227,6 +229,9 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
         name_seven: 'Sarah Deneef'
         company_seven: 'Cofinimmo'
         content_seven: 'What I appreciate the most is the work on skills (versus theory) and the immersive character of the training (German only!). The trainer manages to put all the participants in confidence which allows us to dare to make mistakes in order to progress.'
+      trainers:
+        introduction_title: "Notre équipe de formateurs"
+        text: "Nous avons le privilège de travailler avec une équipe de formateurs hautement compétente et passionnée. Ce sont tous des experts dans leur domaine d’activité et ils sont engagés à faire ressortir le meilleur de leurs apprenants et d’atteindre des résultats tangibles et durables pour vous, nos partenaires. Motivés et dédiés, ils représentent le cœur de notre organisation. C’est grâce à eux que nous sommes devenus une référence dans la formation professionnelle. Nous leurs sommes reconnaissants et nous sommes fiers de pouvoir compter sur leur capacité à former, à inspirer et à mener vos équipes dans le cadre de leurs trajets de formations."
   values:
     introduction_title: "Nos valeurs"
     introduction_text: "Nos valeurs dirigent notre engagement en interne et définissent notre comportement envers le monde extérieur. Le choix de ces valeurs s’est fait tant avec notre tête qu’avec notre coeur et toute l’équipe y a participé. Elles nous inspirent à les vivre et à les faire vivre, avec vous."

@@ -30,6 +30,7 @@ en:
         languages_content: "Communication is interacting with people whatever the language.It’swhat ATOLO started doing many years ago and the truth is, we’re really good at it.Don’t learn a language, forget you’re speaking it!"
         learn_more: "learn more"
     testimonials:
+      title: "Testimonials"
       name_one: 'Nina Schindler'
       company_one: 'Deutsche Bank'
       content_one: "What I appreciate the most is the attention payed to individual goals and focus, a very structured approach and a highly motivating attitude of coaching."
@@ -110,6 +111,7 @@ en:
         content_three: ""
       testimonials:
         title: "Clients"
+        text: "Some of our partners having successfully experienced our SelfLeaders engagement solution."
         name_one: 'Jennemie Driessens'
         company_one: 'AXA Assistance'
         content_one: "The training is the result of a permanent dialogue between trainer and participants. During the training, we were able to provide continuous feedback which helped guide the content and approach wherever we wanted."
@@ -227,6 +229,9 @@ Our solutions combine coaching and training in an efficient way where individual
         name_seven: 'Sarah Deneef'
         company_seven: 'Cofinimmo'
         content_seven: 'What I appreciate the most is the work on skills (versus theory) and the immersive character of the training (German only!). The trainer manages to put all the participants in confidence which allows us to dare to make mistakes in order to progress.'
+      trainers:
+        introduction_title: "Our trainers"
+        text: "We are privileged to be working with a highly skilled and passionate team of trainers. They are all experts in their field and committed to bringing out the best in their trainees and reaching tangible and sustainable results for you, our partners. Engaged and dedicated to their work, they represent the core of what makes ATOLO the organization it is today. We are grateful to all of them and we are proud to be able to count on their capacity to train, inspire and lead your teams during the missions at your organization."
   values:
     introduction_title: "Our values"
     introduction_text: "Our values are what drives us from within and what defines how we behave towards the outside world. They were chosen with our soul as well as our head, by the whole team. They inspire us to live them and to make you live them too."
