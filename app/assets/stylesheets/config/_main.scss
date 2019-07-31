@@ -118,6 +118,9 @@ input, select, textarea {
       .small-font{
         font-size: 15pt;
       }
+      .x-small-font{
+        font-size: 12pt;
+      }
     }
 
 
@@ -130,6 +133,9 @@ input, select, textarea {
       .small-font{
         font-size: 14pt;
       }
+      .x-small-font{
+        font-size: 11pt;
+      }
     }
 
     @media screen and (max-width: 1680px) {
@@ -139,6 +145,9 @@ input, select, textarea {
       }
       .small-font{
         font-size: 13pt;
+      }
+      .x-small-font{
+        font-size: 10pt;
       }
     }
 
@@ -150,6 +159,9 @@ input, select, textarea {
       .small-font{
         font-size: 11pt;
       }
+      .x-small-font{
+        font-size: 9pt;
+      }
     }
 
     @media screen and (max-width: 736px) {
@@ -160,6 +172,10 @@ input, select, textarea {
       .small-font{
         font-size: 10pt;
       }
+      .x-small-font{
+        font-size: 9pt;
+        margin-bottom: 1rem;
+      }
     }
 
     @media screen and (max-width: 360px) {
@@ -169,6 +185,10 @@ input, select, textarea {
       }
       .small-font{
         font-size: 9pt;
+      }
+      .x-small-font{
+        font-size: 9pt;
+        margin-bottom: 1rem;
       }
     }
 

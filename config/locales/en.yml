@@ -15,8 +15,8 @@ en:
   welcome:
     banner:
       engagement_caption: "Supporting organisations where people drive impact"
-      communication_caption: "Communication is key"
-      languages_caption: "Everyone needs languages"
+      communication_caption: "Great things happen when people communicate well"
+      languages_caption: "Feeling good and communicating with impact. Whatever the language!"
     intro:
       title: "Your world"
       text_one: "Together, we help you create a culture where your people are the main drivers of success."
@@ -128,8 +128,7 @@ en:
       title: "Communication"
       spotlight:
         header: "Great things happen when people communicate well!"
-        content: "Communication is the lifeblood of the modern organisation. Daring to communicate when needed, delegating, giving feedback and communicating complexity simply, are all skills that an engaged organisation needs to thrive!
-Our solutions combine coaching and training in an efficient way where individuals first connect to themselves and become more powerful connecting with others."
+        content: "Communication is the lifeblood of the modern organisation. Daring to communicate when needed, delegating, giving feedback and communicating complexity simply, are all skills that an engaged organisation needs to thrive! Our solutions combine coaching and training in an efficient way where individuals first connect to themselves and become more powerful connecting with others."
       products:
         title: "Our Communication Solutions"
         request: "Request more information"
@@ -192,6 +191,7 @@ Our solutions combine coaching and training in an efficient way where individual
         title: "Our Solutions in Languages"
         request: "Request more information"
       approach:
+        title: "Our approach"
         header_one: "The Deep Dive"
         content_one_a: "'Knowing your destination doesn't mean you have set objectives.'"
         content_one_b: "Together, we analyze all the factors and stakeholders to understand where you need to go and how to get there."

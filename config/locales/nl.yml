@@ -1,119 +1,120 @@
 nl:
   navbar:
     home: "Home"
-    solutions: "Our solutions"
+    solutions: "Ons aanbod"
     engagement_title: "Engagement"
-    communication_title: "Communication"
-    languages_title: "Languages"
-    values: "Our values"
-    about: "About us"
-    team: "Our team"
-    whereto: "Find us"
+    communication_title: "Communicatie"
+    languages_title: "Talen"
+    values: "Onze waarden"
+    about: "Over ons"
+    team: "Ons team"
+    whereto: "Waar vind je ons?"
     probono: "Pro bono"
     contact: "Contact"
   footer:
   welcome:
     banner:
       engagement_caption: "Supporting organisations where people drive impact"
-      communication_caption: "Communication is key"
-      languages_caption: "Everyone needs languages"
+      communication_caption: "Great things happen when people communicate well"
+      languages_caption: "Feeling good and communicating with impact. Whatever the language!"
     intro:
-      title: "Your world"
-      text_one: "Together, we help you create a culture where your people are the main drivers of success."
-      text_two: "A place where your teams are engaged and have the necessary skills to turn their engagement into impact for your organisation."
+      title: "Jouw wereld"
+      text_one: "Samen creëren we een bedrijfscultuur waar het de mensen zelf zijn die zorgen voor succes."
+      text_two: "Een fijne plek waar teams geëngageerd zijn en mensen de nodige skills hebben om dat engagement om te zetten in impact."
       cards:
         engagement_title: "Engagement"
-        engagement_content: "Co-creating a culture where people feel motivated, enjoy a sense of belonging and have an impact.
-In today’s world, the workplace needs a different approach because what we expect from our people and what they expect from you is different."
-        communication_title: "Communication"
-        communication_content: "Communication is the lifeblood of the modern organisation. Daring to communicate when needed, delegating, giving feedback and communicating complexity, simply, are all skills that an engaged organisation needs to thrive."
-        languages_title: "Languages"
-        languages_content: "Communication is interacting with people whatever the language.It’swhat ATOLO started doing many years ago and the truth is, we’re really good at it.Don’t learn a language, forget you’re speaking it!"
-        learn_more: "learn more"
+        engagement_content: "Wij nodigen jullie  uit om een een bedrijfscultuur te creëren waar mensen gemotiveerd zijn, het gevoel hebben erbij te horen en waar ze impact kunnen realiseren. Daar zal een andere aanpak voor nodig zijn want de verwachtingen zijn in de wereld van vandaag van beide kanten veranderd."
+        communication_title: "Communicatie"
+        communication_content: "Goed communiceren is essentieel voor een moderne organisatie. Durven communiceren als het nodig is, kunnen delegeren, feedback geven, complexe dingen helder en op een relevante manier verwoorden, … het zijn allemaal skills die een geëngageerde organisatie doen groeien."
+        languages_title: "Talen"
+        languages_content: "Communicatie is interactie tussen mensen, in welke taal dan ook.  Atolo is daar al jaren geëngageerd mee bezig en, het mag gezegd worden, we zijn er ook echt goed in. Ons geheim? Wij leren je om niet te focussen op de taal maar op je boodschap. We helpen je te vergeten dat je een vreemde taal spreekt als je communiceert. Zo krijgt je boodschap meer impact !"
+        learn_more: "meer info"
     testimonials:
+      title: "Testimonials"
       name_one: 'Nina Schindler'
       company_one: 'Deutsche Bank'
-      content_one: "What I appreciate the most is the attention payed to individual goals and focus, a very structured approach and a highly motivating attitude of coaching."
+      content_one: "Wat ik het meeste apprecieer, is de aandacht voor de individuele doelstellingen, de focus, de bijzonder gestructureerde aanpak en een erg motiverende coachingstijl."
       name_two: 'Luka Varenina'
       company_two: 'ATOS'
-      content_two: 'The trainer plunges into the heart of the subject. We were put at ease and challenged at the same time. The approach was completely personalized and we are now all convinced that progress is possible.'
+      content_two: 'De trainer duikt meteen naar de kern van de zaak. Je wordt tegelijkertijd op je gemak gesteld en toch gechallenged. De aanpak is helemaal gepersonaliseerd. We zijn er nu allemaal van overtuigd dat er voor elk van ons vooruitgang mogelijk is.'
       name_three: 'Christine Piront'
       company_three: 'Lhoist'
-      content_three: "Coach which builds confidence, stimulates, encourages but he doesn't let you get away with anything. He is able to give great advice!"
+      content_three: "Een coach die je zelfvertrouwen helpt versterken, die stimuleert en aanmoedigt maar die ook strikt kan zijn, als het moet. Heel sterk in advies geven!"
       name_four: 'Jean-Marc Deux'
       company_four: 'Schneider'
-      content_four: "Lively, targeted and effective!"
+      content_four: "Levendig, doelgericht, doeltreffend!"
       name_five: 'Steven Peters'
       company_five: 'BDO'
-      content_five: "I assumed theory and practice would be covered but it was really refreshing and ad hoc. Simply put, it exceeded my expectations."
+      content_five: "Ik verwachtte mij aan een mix van theorie en praktijk maar het was heel vernieuwend en ad hoc. Kortom, het oversteeg al mijn verwachtingen."
       name_six: 'Fabienne Jouan'
       company_six: 'Galeria Inno'
-      content_six: "I was pulled out of my comfort zone. That's the best way to progress."
+      content_six: "Ik werd uit mijn comfortzone gehaald en dat is de beste manier om vooruitgang te boeken."
       name_seven: 'Michael Evrard'
       company_seven: 'John Crane'
-      content_seven: "I feel this course should be given to all managers wherever they work because it's a wonderful self-reflexion experience and a rethink of current and future presentations."
+      content_seven: "Alle managers, uit welke sector ook, zouden deze opleiding moeten volgen omdat het tot zelfreflectie aanzet.  Je zal zowel je huidige als toekomstige presentaties met nieuwe ogen bekijken."
       name_eight: 'Johan Dekempe'
       company_eight: 'SPIE'
-      content_eight: "Even after 35 years experience with presentations, what I learned at Atolo is the depth at which I need to prepare the following two questions: What is your real goal and who is your audience?"
+      content_eight: "Zelfs na 35 jaar ervaring met presentaties, heb ik bij Atolo geleerd om dieper te graven naar het antwoord op twee specifieke vragen: wat is nu écht je doelstelling en wie is je publiek?"
       name_nine: 'Koen Smedts'
       company_nine: 'Wordline'
-      content_nine: "Thanks to this training, I feel less nervous and I am able to communicate more clearly."
+      content_nine: "Dankzij deze training zijn de zenuwen een stuk minder en ben ik in staat om duidelijker te communiceren."
       name_ten: 'Egwin Bovyn'
       company_ten: 'Konica Minolta'
-      content_ten: "The training was completely focused on my business. Even my marketing materials were used. 100% customized! Very involved and professional trainer, it is like getting training from a colleague you have known for years."
+      content_ten: "100% gepersonaliseerd! De training was zo afgestemd op mijn business dat we voortdurend mijn eigen marketingmateriaal gebruikten. De trainer is heel betrokken en professioneel. Het lijkt wel of je getraind wordt door een collega die je al jaren kent."
       name_eleven: 'LLorella Di Ciriaco'
       company_eleven: 'Bridgestone'
-      content_eleven: 'The trainer puts us at ease and allows us to express ourselves with confidence and to learn easily. The approach is adapted to our needs, modulated according to our knowledge and makes us evolve quickly.'
+      content_eleven: 'De trainer stelt je zodanig op je gemak dat je met een gerust hart durft te spreken. De aanpak werd volledig aangepast aan onze behoeften en modulair opgebouwd volgens onze voorkennis. Daardoor evolueerden we heel snel.'
       name_twelve: 'Petra Beylemans'
       company_twelve: 'Cofinimmo'
-      content_twelve: 'Focused on specific needs using simulations of real-life situations. Very good online platform & teaching materials. I speak more fluently, and I am more confident and prepared for concrete situations in the workplace.'
+      content_twelve: 'Focus op onze specifieke behoeften met voortdurende simulatie van situaties uit het leven gegrepen. Heel goed online platform en ondersteunend materiaal. Ik spreek vlotter, voel me zelfverzekerder en ben voorbereid voor concrete werksituaties op de vloer.'
       name_thirteen: 'Marina Hautman'
       company_thirteen: 'Credendo'
-      content_thirteen: 'Excellent practice-oriented training. The concept allows to focus on a project rather than the language. As a result, we progressed without realizing it by using concepts, vocabulary and expressions directly related to our needs. This makes speaking with colleagues more comfortable.'
+      content_thirteen: "Uitstekende praktijkgerichte training. Ontworpen met een focus op het project, eerder dan op de taal zelf. Daardoor maakten we vooruitgang zonder het te beseffen en gebruikten we begrippen, woordenschat en uitdrukkingen die rechtstreeks met onze behoeften te maken hebben. Dat maakt het een stuk comfortabeler in gesprekken met collega's."
       name_fourteen: 'Pauline Grégoire'
       company_fourteen: 'Triodos'
-      content_fourteen: 'The writing skills formula was useful work at home combined with face to face sessions allowing to analyze painpoints, to review them and practice. All of this with a great trainer who was interested, knowledgeable and great in explaining things.'
+      content_fourteen: 'De formule schrijfvaardigheid was zinvol: thuiswerk gecombineerd met face to facesessies waarin knelpunten worden geanalyseerd, herzien en ingeoefend. Dat alles onder de begeleiding van een schitterende trainer die interesse en kennis aan boord brengt en fantastisch uitleg geeft.'
       name_fiveteen: 'Solange Baboy'
       company_fiveteen: 'TucRail'
-      content_fiveteen: 'A training as never seen before, was focused and concrete: the content of the program, the customized exercises online and the trainer were the best I ever had. This training allowed me to unlock completely, it gave me a boost. What I learned I can put directly and easily into practice.'
+      content_fiveteen: 'Een training als nooit tevoren, zo gefocused en concreet. De inhoud van het programma, de gepersonaliseerde online oefeningen en de trainer waren de beste ooit. Alle blokkages bij mij zijn weggewerkt en de training gaf me een enorme boost. Wat ik geleerd heb, kan ik meteen en gemakkelijk in de praktijk toepassen.'
       name_sixteen: 'Sarah Deneef'
       company_sixteen: 'Cofinimmo'
-      content_sixteen: 'What I appreciate the most is the work on skills (versus theory) and the immersive character of the training (German only!). The trainer manages to put all the participants in confidence which allows us to dare to make mistakes in order to progress.'
+      content_sixteen: 'Wat ik het meeste waardeer, is het werken rond skills (in plaats van theorie) en het gevoel van volledige immersie (alleen maar Duits!). De trainer slaagt erin om alle deelnemers op hun gemak te stellen. Daardoor zijn we niet bang om fouten te maken en kunnen we snel vooruitgang maken.'
       name_seventeen: 'Jennemie Driessens'
       company_seventeen: 'AXA Assistance'
-      content_seventeen: "The training is the result of a permanent dialogue between trainer and participants. During the training, we were able to provide continuous feedback which helped guide the content and approach wherever we wanted."
+      content_seventeen: "De training is het resultaat van een continue dialoog tussen trainer en deelnemers. De hele training lang konden we feedback geven en zo de inhoud en aanpak bijsturen."
     contact_us:
   solutions:
-    discover-button: "Discover our offer"
-    our-offer: "Our product offer"
+    discover-button: "Ontdek hoe we kunnen helpen"
+    our-offer: "Ons aanbod"
     engagement:
       title: "Engagement"
       spotlight:
         header: "Inspiring company cultures where people drive success!"
-        content: "Creating a culture where people live their values, enjoy a sense of belonging and drive success. In today’s world, the workplace needs a different approach because what you expect from your people and what they expect from you has changed. A certified and experienced team of experts deliver powerful engagement workshops designed together with our Swedish partners at Selfleaders. Our modular approach and the use of digitalisation provides you with solutions no matter your size or needs. Engagement is now at the reach of all organisations!"
+        content: "Wij nodigen jullie uit om een een bedrijfscultuur te creëren waar mensen gemotiveerd zijn, het gevoel hebben erbij te horen en waar ze impact kunnen hebben. Daar zal een andere aanpak voor nodig zijn want de verwachtingen zijn in de wereld van vandaag van beide kanten veranderd.Samen met onze Zweedse partner, SelfLeaders, ondersteunen wij jullie proces naar een geëngageerde organisatie. Onze gecertifieerde coaches faciliteren workshops die krachtig zijn, impactvol en digitaal geïntegreerd. Ze worden modulair opgebouwd en zijn volledig afgestemd op de realiteit van het bedrijf. Engagement van teams ligt nu voor alle organisaties binnen handbereik!"
       products:
-        title: "Our Engagement Solutions"
-        content: "Our proven and versatile approach provides you with solutions whether you need to trigger engagement, convert engagement into tangible actions or create the space where engagement can thrive."
-        request: "Request more information"
+        title: "Ons aanbod in Engagement"
+        content: "Onze aanpak heeft zichzelf al bewezen. Ze is allround: of je nu engagement wil activeren, engagement omzetten in concrete acties of een omgeving creëren waarin engagement kan groeien, we gaan ervoor met het traject dat het best aansluit bij jullie organisatie."
+        request: "meer info"
       approach:
-        header_one: "Why is engagement important?"
-        content_one: "Statistically, organisations where there is engagement perform better. The world is moving towards people who expect more from their work life. Organisations need people to step up, take more initiative and drive impact. There is a war on talent and organisations where people want to belong are winning. We provide the solutions you need."
-        header_two: "Why does our approach work?"
-        content_two_a_bullet: "Proven: "
-        content_two_a_text: "A robust approach which has been implemented for over 10 years in organisations such as Spotify, H&M, PWC, EY...and many more."
-        content_two_b_bullet: "Based on the latest research: "
-        content_two_b_text: "Motivational theory, organisational theory, systems design approaches from Harvard, MIT Sloane, the Stockholm school of economics among others."
-        content_two_c_bullet: "Versatile: "
-        content_two_c_text: "An approach which is easily adapted to your needs, goals, company culture, size, level of readiness..."
-        content_two_d_bullet: "Inclusive: "
-        content_two_d_text: "You are embedded throughout the rollout so that you can provide the context and influence the approach."
+        header_one: "Waarom is engagement zo belangrijk?"
+        content_one: "Organisaties met geëngageerde mensen presteren beter. Dat blijkt duidelijk uit statistieken. Inderdaad, mensen willen méér halen uit zichzelf en uit hun werk. Organisaties op hun beurt hebben dan weer mensen nodig die het heft in eigen handen nemen, meer initiatief tonen en dingen in beweging zetten. In de 'war on talent' zullen die organisaties  waar mensen' graag' willen deel van uitmaken, aan het langste eind trekken. Atolo helpt je met de oplossing die je nodig hebt. "
+        header_two: "Waarom werkt onze aanpak zo goed?"
+        content_two_a_bullet: "Bewezen: "
+        content_two_a_text: "Een stevige aanpak die al meer dan 10 jaar toegepast wordt in organisaties zoals Spotify, H&M, PWC, EY ... en nog veel meer."
+        content_two_b_bullet: "Gebaseerd op recente research: "
+        content_two_b_text: "Motivatietheorie, organisationele theorie, de systeemontwerpmatige aanpak van Harvard, MIT Sloane, the Stockholm School of Economics en andere."
+        content_two_c_bullet: "Veelzijdig: "
+        content_two_c_text: "De aanpak kan vlot aangepast worden aan behoeftes, doelstellingen, bedrijfscultuur, grootte, maturiteit, ..."
+        content_two_d_bullet: "Synergetisch: "
+        content_two_d_text: "Je wordt actief betrokken bij de implementatie zodat je context kan bieden en de aanpak mee helpt vormgeven."
         header_three: ""
         content_three: ""
       testimonials:
         title: "Clients"
+        text: "Deze bedrijven hebben het Selfleader programma al met succes toegepast."
         name_one: 'Jennemie Driessens'
         company_one: 'AXA Assistance'
-        content_one: "The training is the result of a permanent dialogue between trainer and participants. During the training, we were able to provide continuous feedback which helped guide the content and approach wherever we wanted."
+        content_one: " De Training is het resultaat van een continue dialoog tussen trainer en deelnemers. De hele training lang konden we feedback geven en zo de inhoud en aanpak bijsturen."
         name_two: ''
         company_two: ''
         content_two: ''
@@ -124,136 +125,139 @@ In today’s world, the workplace needs a different approach because what we exp
         company_four: ''
         content_four: ''
     communication:
-      title: "Communication"
+      title: "Communicatie"
       spotlight:
         header: "Great things happen when people communicate well!"
-        content: "Communication is the lifeblood of the modern organisation. Daring to communicate when needed, delegating, giving feedback and communicating complexity simply, are all skills that an engaged organisation needs to thrive!
-Our solutions combine coaching and training in an efficient way where individuals first connect to themselves and become more powerful connecting with others."
+        content: "Goed communiceren is essentieel voor een moderne organisatie. Durven communiceren als het nodig is, kunnen delegeren, feedback geven, complexe dingen helder en op een relevante manier verwoorden, … het zijn allemaal skills die een geëngageerde organisatie doen groeien. Wij combineren coaching en training op een efficiënte manier om individuen eerst met zichzelf in contact te laten komen om, van daaruit, beter met anderen te communiceren."
       products:
-        title: "Our Communication Solutions"
-        request: "Request more information"
+        title: "Ons aanbod voor Communicatie"
+        request: "meer info"
       approach:
-        introduction_title: "Why our approach works"
-        introduction_text: "Our communication solutions have a high-level of impact because they integrate work on key levers beyond just skills. This blend of coaching and training on the key levers and focus on application is what ensures we reach tangible outcomes."
+        introduction_title: "Waarom onze aanpak werkt?"
+        introduction_text: " Impact op lange termijn krijg je door een gedegen werk rond cruciale communicatie-elementen, beyond de skills. De blend tussen coaching en training rond die belangrijke hefbomen enerzijds en de focus op de praktijk anderzijds, zorgt voor tastbare resultaten."
         header_one: "The person"
-        content_one_a: "'It’s difficult to dare to speak up, if you are saying to yourself that you are not up to the level.' "
-        content_one_b: "How do you communicate with yourself and what inner obstacles do you need to overcome in order to communicate better? Who do you want to be? This segment is the coaching part which is integrated into our solutions and encourages people throughout the process to define who they want to be."
+        content_one_a: "Het is moeilijk om voor je mening uit te komen als je jezelf vertelt dat je niet goed genoeg bent.' "
+        content_one_b: "Hoe communiceer je met jezelf en welke innerlijke obstakels moet je overwinnen om beter te communiceren? Wie wil je zijn? Deze coaching integreren we in het traject. We moedigen mensen doorheen het hele proces aan op zoek te gaan naar wie ze willen zijn."
         pyramid_title_one: "The person"
-        pyramid_subtitle_one: "Real change starts internally"
+        pyramid_subtitle_one: "Le vrai changement a lieu en soi"
         header_two: "Key Communication Moments"
-        content_two_a: "'When the question is not who you want to be, but who you need to be.'"
-        content_two_b: "Giving feedback, inspiring a team or obtaining buy-in are just some of the moments we encounter in organisations on a daily basis. This segment focuses on people understanding what these moments require from them and how to maximise their potential."
+        content_two_a: "Als de vraag niet langer is 'wie wil ik zijn' maar eerder 'wie moet ik worden'"
+        content_two_b: "Feedback geven, een team inspireren, buy-in krijgen, ... het gebeurt dagdagelijks in organisaties. In dit deel van de training leren mensen zien wat van hen verwacht wordt in dit soort situaties en hoe ze hun potentieel maximaal kunnen inzetten."
         pyramid_title_two: "Key communication moments"
-        pyramid_subtitle_two: "When the question is who you need to be"
+        pyramid_subtitle_two: "Qui dois-je devenir ?"
         header_three: "The skills"
-        content_three_a: "'Fundamentally, learning and growth comes from doing.'"
-        content_three_b: "Tools and skills which can help you perform. This segment focus on turning theory to application by putting the skills and tools into practise in their real-world cases."
+        content_three_a: "Leren en groeien kan alleen maar door te doen."
+        content_three_b: "De focus van dit deel is theorie omzetten naar de concrete toepassing. Skills en tools worden in praktijk gebracht met real-world cases."
         pyramid_title_three: "The skills"
-        pyramid_subtitle_three: "Fundamentally, learning comes from doing"
+        pyramid_subtitle_three: "Leren = Doen"
         header_four: ""
         content_four_a: ""
         content_four_b: ""
       testimonials:
-        title: "Testimonials"
+        title: "Onze klanten aan het woord"
         name_one: 'Nina Schindler'
         company_one: 'Deutsche Bank'
-        content_one: "What I appreciate the most is the attention payed to individual goals and focus, a very structured approach and a highly motivating attitude of coaching."
+        content_one: " Wat ik het meeste apprecieer, is de aandacht voor de individuele doelstellingen, de focus, de bijzonder gestructureerde aanpak en een erg motiverende coachingstijl."
         name_two: 'Luka Varenina'
         company_two: 'ATOS'
-        content_two: 'The trainer plunges into the heart of the subject. We were put at ease and challenged at the same time. The approach was completely personalized and we are now all convinced that progress is possible.'
+        content_two: 'De trainer duikt meteen naar de kern van de zaak. Je wordt tegelijkertijd op je gemak gesteld en toch gechallenged. De aanpak is helemaal gepersonaliseerd. We zijn er nu allemaal van overtuigd dat er voor elk van ons vooruitgang mogelijk is.'
         name_three: 'Christine Piront'
         company_three: 'Lhoist'
-        content_three: "Coach which builds confidence, stimulates, encourages but he doesn't let you get away with anything. He is able to give great advice!"
+        content_three: " Een coach die je zelfvertrouwen helpt versterken, die stimuleert en aanmoedigt maar die ook strikt kan zijn, als het moet. Heel sterk in advies geven!"
         name_four: 'Jean-Marc Deux'
         company_four: 'Schneider'
-        content_four: "Lively, targeted and effective!"
+        content_four: " Levendig, doelgericht, doeltreffend!"
         name_five: 'Steven Peters'
         company_five: 'BDO'
-        content_five: "I assumed theory and practice would be covered but it was really refreshing and ad hoc. Simply put, it exceeded my expectations."
+        content_five: " Ik verwachtte mij aan een mix van theorie en praktijk maar het was heel vernieuwend en ad hoc. Kortom, het oversteeg al mijn verwachtingen."
         name_six: 'Fabienne Jouan'
         company_six: 'Galeria Inno'
-        content_six: "I was pulled out of my comfort zone. That's the best way to progress."
+        content_six: " Ik werd uit mijn comfortzone gehaald en dat is de beste manier om vooruitgang te boeken."
         name_seven: 'Michael Evrard'
         company_seven: 'John Crane'
-        content_seven: "I feel this course should be given to all managers wherever they work because it's a wonderful self-reflexion experience and a rethink of current and future presentations."
+        content_seven: " Alle managers, uit welke sector ook, zouden deze opleiding moeten volgen omdat het tot zelfreflectie aanzet.  Je zal zowel je huidige als toekomstige presentaties met nieuwe ogen bekijken."
         name_eight: 'Johan Dekempe'
         company_eight: 'SPIE'
-        content_eight: "Even after 35 years experience with presentations, what I learned at Atolo is the depth at which I need to prepare the following two questions: What is your real goal and who is your audience?"
+        content_eight: " Zelfs na 35 jaar ervaring met presentaties, heb ik bij Atolo geleerd om dieper te graven naar het antwoord op twee specifieke vragen: wat is nu écht je doelstelling en wie is je publiek?"
         name_nine: 'Koen Smedts'
-        company_nine: 'Wordline'
-        content_nine: "Thanks to this training, I feel less nervous and I am able to communicate more clearly."
+        company_nine: 'Worldline'
+        content_nine: " Dankzij deze training zijn de zenuwen een stuk minder en ben ik in staat om duidelijker te communiceren."
     languages:
-      title: "Languages"
+      title: "Talen"
       spotlight:
-        header: "Feeling good and communicating with Impact. Whatever the language!"
-        content: "Communication is interacting with people whatever the language. It’s what Atolo started doing many years ago and the truth is, we’re really good at it. Don’t learn a language, forget you’re speaking it! Our solutions are designed for individual or group courses, for continuous learning paths or intensive language immersions. We deliver long term impact whatever the needs of your organisation & people."
+        header: " Feeling good and communicating with Impact. Whatever the language !"
+        content: "Communicatie is interactie tussen mensen, in welke taal dan ook.  Atolo is daar al jaren geëngageerd mee bezig en, het mag gezegd worden, we zijn er ook echt goed in. Ons geheim? Wij leren je om niet te focussen op de taal maar op je boodschap. We helpen je te vergeten dat je een vreemde taal spreekt als je communiceert. Zo krijgt je boodschap meer impact! We hebben one-on-one formules en groepstrainingen. We kunnen korte en lange trajecten voorstellen, intensieve trainingen en taalbaden. Welke vorm ook, ons objectief is altijd een reële impact en duurzame resultaten!  "
       products:
-        title: "Our Solutions in Languages"
-        request: "Request more information"
+        title: "Ons aanbod voor taal"
+        request: "Ik wil graag meer weten"
       approach:
+        title: "Onze aanpak"
         header_one: "The Deep Dive"
-        content_one_a: "'Knowing your destination doesn't mean you have set objectives.'"
-        content_one_b: "Together, we analyze all the factors and stakeholders to understand where you need to go and how to get there."
+        content_one_a: "Knowing your destination doesn't mean you have set objectives.'"
+        content_one_b: "Samen analyseren we alle aspecten en alle betrokken partijen om een helder beeld te krijgen van waar je staat, waar  je heen wil en hoe je dat kan bereiken."
         header_two: "Embedding"
-        content_two_a: "'Traininig is but part of the answer.'"
-        content_two_b: "To make your project a success, we go deep into your job. Everything is tailored to embed the content of your training into your real-life work. You are trained to perform better in the target language not only to speak the target language."
+        content_two_a: "'Training is just a part of the answer.'"
+        content_two_b: "Om succes te verzekeren, laten we regelmatig de trainingsruimte voor wat ze is. We interageren binnen jouw leefwereld. Je wordt getraind om beter te presteren in de doeltaal, niet zomaar om de taal te spreken."
         header_three: "Skills in Use"
-        content_three_a: "'You never forget how to ride a bike!'"
-        content_three_b: "Do, redo and do again! We take you out of your comfort zone and you receive continuous feedback. You feel better and build up confidence on the field."
+        content_three_a: "'You learn to ride a bike by doing it !'"
+        content_three_b: "Do, redo and do again! Je breekt uit je comfortzone en je krijgt daarbij continue feedback van een expert. Je voelt je gegarandeerd steeds meer op je gemak in je rol op de werkvloer."
         header_four: "Endorsing Success"
-        content_four_a: "'You keep on growing, even after we have left.'"
-        content_four_b: "You now have a solid learning strategy, great reflexes and a concrete action plan for sustainable success."
-        header_five: "Our team of Trainers"
-        content_five: "TODO"
+        content_four_a: "'You keep on growing even after we have left.'"
+        content_four_b: "Je past nu een stevige leerstrategie toe, hebt de juiste reflexen en een concreet actieplan voor duurzaam succes."
+        header_five: "Ons trainersteam"
+        content_five: "Wat alle Atolo-trainers met elkaar gemeen hebben? Ze zijn geëngageerde trainers. Ze  delen dezelfde passie voor mensen. Ze zullen hun trainees zowel uitdagen als ondersteunen.  Ze zijn vastberaden om de  vooropgestelde doelstellingen te bereiken. Empathisch, toegewijd, professioneel, ervaren,... het zijn maar een paar woorden waarmee onze klanten dit fantastische team beschrijven."
       testimonials:
-        title: "Testimonials"
+        title: "Onze klanten aan het woord"
         name_one: 'Egwin Bovyn'
         company_one: 'Konica Minolta'
-        content_one: "The training was completely focused on my business. Even my marketing materials were used. 100% customized! Very involved and professional trainer, it is like getting training from a colleague you have known for years."
+        content_one: "100% gepersonaliseerd! De training was zo afgestemd op mijn business dat we voortdurend mijn eigen marketingmateriaal gebruikten. De trainer is heel betrokken en professioneel. Het lijkt wel of je getraind wordt door een collega die je al jaren kent."
         name_two: 'LLorella Di Ciriaco'
         company_two: 'Bridgestone'
-        content_two: 'The trainer puts us at ease and allows us to express ourselves with confidence and to learn easily. The approach is adapted to our needs, modulated according to our knowledge and makes us evolve quickly.'
+        content_two: 'De trainer stelt je zodanig op je gemak dat je met een gerust hart durft te spreken. De aanpak werd volledig aangepast aan onze behoeften en modulair opgebouwd volgens onze voorkennis. Daardoor evolueerden we heel snel.'
         name_three: 'Petra Beylemans'
         company_three: 'Cofinimmo'
-        content_three: 'Focused on specific needs using simulations of real-life situations. Very good online platform & teaching materials. I speak more fluently, and I am more confident and prepared for concrete situations in the workplace.'
+        content_three: 'Focus op onze specifieke behoeften met voortdurende simulatie van situaties uit het leven gegrepen. Heel goed online platform en ondersteunend materiaal. Ik spreek vlotter, voel me zelfverzekerder en ben voorbereid voor concrete werksituaties op de vloer '
         name_four: 'Marina Hautman'
         company_four: 'Credendo'
-        content_four: 'Excellent practice-oriented training. The concept allows to focus on a project rather than the language. As a result, we progressed without realizing it by using concepts, vocabulary and expressions directly related to our needs. This makes speaking with colleagues more comfortable.'
+        content_four: "Uitstekende praktijkgerichte training. Ontworpen met een focus op het project, eerder dan op de taal zelf. Daardoor maakten we vooruitgang zonder het te beseffen en gebruikten we begrippen, woordenschat en uitdrukkingen die rechtstreeks met onze behoeften te maken hebben. Dat maakt het een stuk comfortabeler in gesprekken met collega's."
         name_five: 'Pauline Grégoire'
         company_five: 'Triodos'
-        content_five: 'The writing skills formula was useful work at home combined with face to face sessions allowing to analyze painpoints, to review them and practice. All of this with a great trainer who was interested, knowledgeable and great in explaining things.'
+        content_five: 'De formule schrijfvaardigheid was zinvol: thuiswerk gecombineerd met face to facesessies waarin knelpunten worden geanalyseerd, herzien en ingeoefend. Dat alles onder de begeleiding van een schitterende trainer die interesse en kennis aan boord brengt en fantastisch uitleg geeft.'
         name_six: 'Solange Baboy'
         company_six: 'TucRail'
-        content_six: 'A training as never seen before, was focused and concrete: the content of the program, the customized exercises online and the trainer were the best I ever had. This training allowed me to unlock completely, it gave me a boost. What I learned I can put directly and easily into practice.'
+        content_six: 'Een training als nooit tevoren, zo gefocused en concreet. De inhoud van het programma, de gepersonaliseerde online oefeningen en de trainer waren de beste ooit. Alle blokkages bij mij zijn weggewerkt en de training gaf me een enorme boost. Wat ik geleerd heb, kan ik meteen en gemakkelijk in de praktijk toepassen.'
         name_seven: 'Sarah Deneef'
         company_seven: 'Cofinimmo'
-        content_seven: 'What I appreciate the most is the work on skills (versus theory) and the immersive character of the training (German only!). The trainer manages to put all the participants in confidence which allows us to dare to make mistakes in order to progress.'
+        content_seven: 'Wat ik het meeste waardeer, is het werken rond skills (in plaats van theorie) en het gevoel van volledige immersie (alleen maar Duits!). De trainer slaagt erin om alle deelnemers op hun gemak te stellen. Daardoor zijn we niet bang om fouten te maken en kunnen we snel vooruitgang maken.'
+      trainers:
+        introduction_title: "Onze trainers"
+        text: "We hebben het grote geluk te mogen werken met een professioneel en gepassioneerd trainersteam. Het zijn allemaal experts in hun vakgebied.  Maar bovenal zijn ze geëngageerd, enthousiast en toegewijd.  Ze halen het beste uit hun deelnemers naar boven. Ze gaan voor tastbare en duurzame resultaten voor jullie, onze partners. Zij maken Atolo tot wat Atolo vandaag is. We zijn elk van hen dankbaar en we zijn trots dat we mogen rekenen op hun vermogen om hun deelnemers te begeleiden, te motiveren en te inspireren tijdens hun missies in jullie organisaties."
   values:
-    introduction_title: "Our values"
-    introduction_text: "Our values are what drives us from within and what defines how we behave towards the outside world. They were chosen with our soul as well as our head, by the whole team. They inspire us to live them and to make you live them too."
-    discover: "Discover our values"
+    introduction_title: "Onze waarden"
+    introduction_text: "Onze waarden zijn ons kompas. Ze stimuleren ons engagement binnenshuis en zijn tegelijkertijd onze leidraad voor hoe we met de buitenwereld in interactie gaan. We kozen ze, samen met het hele team, met ons hoofd en met ons hart. Ze inspireren ons, ze nodigen ons uit om ernaar te leven en om ze samen met jullie te beleven."
+    discover: "Dit zijn onze waarden"
     value_one:
       title: "Driven by people"
-      content: "We have been driven by people from the very start. From our humble beginnings in languages to where we are today. Experience, expertise, energy… are all reflections of the quality our people bring to work everyday. But being themselves and bringing all of themselves has always been the main focus. This is what allows our people to drive us forward and we are grateful in sharing that common vision. This vision leads us to you, our partners. Your people place their trust in us and we are committed to supporting you in reaching your goals. We are dedicated to surpassing the standards and, together with your people,  in doing whatever it takes to driving success for your organisation."
+      content: "'People', dàt is onze inspiratiebron, al van bij het begin. Ervaring, expertise, energie, ....dat is waar onze mensen voor staan. Maar waar onze focus echt naar uitgaat is de eigenheid, de authenticiteit van elk van hen. Door de ruimte te creëren waarin zij zich volledig kunnen geven, slagen zij erin om ons te laten groeien. Het is in dezelfde geest en met dezelfde visie dat we met jullie, onze partners, samenwerken. Jullie mensen leggen hun vertrouwen in onze handen. Wij engageren ons hen te ondersteunen bij het bereiken van jullie doel. We willen resoluut standaards doorbreken en, samen met jullie en jullie mensen, alles op alles zetten om jullie organisatie succesvol te maken."
     value_two:
       title: "Committed to impact"
-      content: "Challenging the status quo is what makes us tick. Why settle for less? Everyone at Atolo is mobilized towards making a difference. What will have changed after our intervention? What can we do better? What impact will we have had? Can our level of impact be how we measure ourselves? Impact is an ambition and we are dedicated to targeting results which really matter. Results which really matter to your organisation. When you are in need of a tangible outcome, we challenge you in defining what success looks like and what you need to change in order to succeed."
+      content: "'Challenging the status quo', dàt is wat ons drijft. Waarom zouden we genoegen nemen met minder? Bij ons wordt iedereen gemobiliseerd om een reëel verschil te maken:  wat zal er veranderd zijn na onze tussenkomst? wat kan beter? welke impact zullen we gehad hebben? kunnen we onszelf beoordelen op basis van die impact? Impact is onze ambitie! We gaan resoluut voor resultaten die ertoe doen. Je wil tastbare resultaten? Een zichtbare uitkomst?  Daag ons uit en laat ons jou uitdagen. Vertel ons hoe succes er voor jou uitziet en wat er nodig is om dat te bereiken."
     value_three:
       title: 'Dedicated to growth'
-      content: 'Curious by nature is part of our DNA. It allows us to be in a position to better understand the world organizations live in and the challenges they face. It underscores what we need to build up as expertise and identify how we can help you and be impactful. We believe impact and engagement lead to growth, your growth. And we are dedicated to it. The questions of who you are, who you want to become and who you need to become. These are our first questions to you. Your answers will scope your growth and we will provide you with the expertise to overcoming your inner obstacles, in increasing your skills and engaging your people.'
+      content: "'Curious by nature', dàt zit in ons DNA. Het verruimt ons blikveld, het toont ons de wereld waarin organisaties zich bewegen. Het helpt ons hun uitdagingen te zien. Het is onze wegwijzer: waar moeten we onze expertise verder opbouwen? waar kunnen we ondersteunen? hoe kunnen we impact mogelijk maken? Impact en engagement leiden tot groei, jullie groei. En daar gaan we voor. De eerste stap is begrijpen waar jullie vandaag staan en waar jullie morgen naartoe willen of simpelweg naartoe moeten. We brengen jullie groeipotentieel in kaart. Met onze expertise kunnen we jullie  helpen innerlijke obstakels te overwinnen, skills aan te scherpen en jullie mensen te inspireren tot engagement."
     value_four:
       title: 'Challenging the status quo'
-      content: 'Is understood by us as challenging our limits, continuously looking for better ways to do things and feeling comfortable out of the box. This way of behaving energises us, is the only way we know to act and maintains our constant growth and innovation so that we can meet your specific needs and explains why no two courses are ever quite the same.'
+      content: 'Confronter nos limites, être orientés vers une progression continue et se sentir à l’aise hors des sentiers battus ; C’est ainsi que nous considérons le fait de mettre en cause le statu quo. Cette attitude génère l’énergie nécessaire pour agir au service d’une croissance et d’une innovation et cela nous permet de répondre à vos besoins propres et de ne jamais prendre un résultat pour acquis.'
     value_five:
       title:
       content:
   about:
     spotlight:
       title: "Great things happen when people communicate well!"
-      content: "Small is beautiful. It's true for our company as well. Beautiful, with big ideas! Our origins were in language training and this is where we forged our DNA, where we realised we would only be successful if our people were successful, if our solutions went further in the impact they bring and if we kept up to date on where the world is going. As well as languages we now deliver unique communication training solutions and co-create innovative programs on the subject of values and engagement within organisations. The future is bright! We look forward to supporting you in your success and the growth of your teams."
-      meet: "Meet the team"
+      content: "Small is beautiful, ook bij Atolo. En toch denken we groots! Onze roots liggen in de taaltrainingswereld. Het is daar dat we ons DNA vormgegeven hebben en dat we leerden dat we alleen maar succesvol kunnen zijn als onze mensen dat ook zijn; als we een stap verdergaan met ons aanbod; als we dicht blijven bij wat er in de bedrijfswereld aan het gebeuren is. Dankzij jullie bieden we nu ook unieke communicatietrainingen aan naast vernieuwende cocreatieve programma's rond waarden en engagement in organisaties. De toekomst ziet er rooskleurig uit! We kijken ernaar uit om jullie te ondersteunen bij jullie succesverhalen en bij de groei van jullie teams."
+      meet: "Laten we kennismaken"
     team:
-      title: "Our team"
+      title: "Ons team"
       sub_title: "We challenge the status quo"
       member_one:
         first_name: "Mieke"
@@ -280,7 +284,7 @@ Our solutions combine coaching and training in an efficient way where individual
         text: "Experienced, proactive and professional are but some of the words used by colleagues to describe Eva. As our office manager, Eva represents our backbone. We are lucky to be able to count on someone as vital as she. Rest assured, any project of yours overseen by Eva is in safe hands."
         location: "Brussels"
       member_five:
-        first_name: "Betina"
+        first_name: "Bettina"
         second_name: "Geiken"
         role: "L&D Consultant"
         text: "A generous soul dedicated to the common good, we can always count on Bettina's extensive expertise and know-how. Always willing to share, help and shed light on complex human matters. A treasure chest of insights that we are grateful to rely upon when designing your solutions."
@@ -319,9 +323,10 @@ Our solutions combine coaching and training in an efficient way where individual
         second_name: "Fortes"
         role: "L&D Consultant"
         text: "An international mindset combined with a luminous and kind spirit. Add to that structure and a very professional streak and you then discover Claudia, a ray of light and expertise who is able to add the essential twist to all our L&D designs which in turn make all the difference to your projects."
+    location: "Waar vind je ons?"
     probono:
         title: "Atolo Pro Bono"
-        content: "We don’t give back because it is the right thing to do, we give back because it is what we want to do. Our pro-bono work is aimed at supporting social-entrepreneurs with their communication. We are servants to these very inspiring people who want to change the world for the better and empower them to tell their story authentically, clearly and powerfully. People like those at Ashoka."
+        content: "Bij Atolo willen we iets terugdoen voor de maatschappij. Niet omdat het zo hoort maar gewoon omdat we het graag willen. Met ons probono-project ondersteunen we social entrepreneurs.  Deze ondernemers zijn inspirerende mensen die van de wereld een betere plek willen maken.  Het zijn change makers, zoals bij Ashoka. Wij helpen hen met hun communicatie met de buitenwereld. Wij geven hen tools om hun verhaal op een authentieke, duidelijke en krachtige manier te vertellen."
   disclaimer:
     title: "Disclaimer"
     subtitle_one: "Disclaimer for atolo.eu, atolo.ch and atolo.global"
@@ -371,7 +376,16 @@ Our solutions combine coaching and training in an efficient way where individual
         description: "description"
         content: "content"
   counter:
-    missions: "Missions"
+    missions: "Missies"
     coaches: "Coaches"
-    participants: "Participants"
-    mission_participants: "Participants in missions"
+    participants: "Trainees"
+    mission_participants: "Deelnemers in missies"
+  form:
+    contact: "Contacteer ons"
+    name: "Naam"
+    company: "Organisatie"
+    email: "Email"
+    message: "Bericht"
+    human: "Ik ben een mens en geen robot"
+    send: "Verstuur"
+
