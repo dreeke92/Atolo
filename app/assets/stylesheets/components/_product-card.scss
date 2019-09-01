@@ -82,6 +82,12 @@ button .product-card-button{
   // width: 100vh;
 }
 
+@media screen and (max-width: 736px) {
+  .categorie-item {
+    height: 90vh;
+  }
+}
+
 @media screen and (min-width: 736px) {
   .categorie-item {
       // width: 100vh;
