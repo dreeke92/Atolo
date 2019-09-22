@@ -1,35 +1,34 @@
 de:
   navbar:
-    home: "Home"
-    solutions: "Our solutions"
+    home: "Willkommen"
+    solutions: "Unsere Lösungen"
     engagement_title: "Engagement"
-    communication_title: "Communication"
-    languages_title: "Languages"
-    values: "Our values"
-    about: "About us"
-    team: "Our team"
-    whereto: "Find us"
+    communication_title: "Kommunikation"
+    languages_title: "Sprachen"
+    values: "Unsere Werte"
+    about: "Über uns"
+    team: "Unser Team"
+    whereto: "Unsere Büros"
     probono: "Pro bono"
-    contact: "Contact"
+    contact: "Kontakt"
   footer:
   welcome:
     banner:
-      engagement_caption: "Supporting organisations where people drive impact"
-      communication_caption: "Communication is key"
-      languages_caption: "Everyone needs languages"
+      engagement_caption: "Organisationen fördern, in denen Menschen Wirkung bestimmen"
+      communication_caption: "Grossartiges geschieht, wenn Menschen gut kommunizieren"
+      languages_caption: "Sich wohl fühlen und mit Wirkung kommunizieren. Unabhängig von der Sprache!"
     intro:
-      title: "Your world"
-      text_one: "Together, we help you create a culture where your people are the main drivers of success."
-      text_two: "A place where your teams are engaged and have the necessary skills to turn their engagement into impact for your organisation."
+      title: "Ihre Welt"
+      text_one: "Zusammen können wir eine Kultur schaffen, in der Ihre Mitarbeiter die wichtigsten Antriebskräfte für Erfolg sind."
+      text_two: "Eine Umgebung, in der sich Ihr Team engagiert und über die notwendigen Fähigkeiten verfügt, um Engagement in positive Wirkung für Ihre Organisation umzusetzen."
       cards:
         engagement_title: "Engagement"
-        engagement_content: "Co-creating a culture where people feel motivated, enjoy a sense of belonging and have an impact.
-In today’s world, the workplace needs a different approach because what we expect from our people and what they expect from you is different."
-        communication_title: "Communication"
-        communication_content: "Communication is the lifeblood of the modern organisation. Daring to communicate when needed, delegating, giving feedback and communicating complexity, simply, are all skills that an engaged organisation needs to thrive."
-        languages_title: "Languages"
-        languages_content: "Communication is interacting with people whatever the language.It’swhat ATOLO started doing many years ago and the truth is, we’re really good at it.Don’t learn a language, forget you’re speaking it!"
-        learn_more: "learn more"
+        engagement_content: "Gemeinsam eine Arbeitskultur gestalten, in der Menschen motiviert sind, ein Zusammengehörigkeitsgefühl haben und zugleich etwas bewirken könne. In der heutigen Welt brauchen wir eine neue Haltung gegenüber unserem Job und Arbeitsplatz, denn was wir von unseren Mitarbeitern erhoffen und was sie von Ihnen erwarten, ist nicht dasselbe."
+        communication_title: "Kommunikation"
+        communication_content: "Gute Kommunikation ist das A und O einer modernen Organisation. Sich trauen zu kommunizieren, wenn nötig, wissen wann und wie delegieren, Feedback geben und Kompliziertes ganz einfach vermitteln, all das sind Kompetenzen, die eine engagierte Organisation braucht, um zu gedeihen."
+        languages_title: "Sprachen"
+        languages_content: "Kommunikation bedeutet zu wissen, wie sich mit Menschen auszutauschen, unabhängig in welcher Sprache. Genau das machen wir bei ATOLO seit vielen Jahren, und ehrlich gesagt, wir sind gut darin. Lernen Sie keine Fremdsprache, vergessen Sie, dass es nicht 'Ihre' Sprache ist."
+        learn_more: "Mehr erfahren"
     testimonials:
       name_one: 'Nina Schindler'
       company_one: 'Deutsche Bank'
@@ -84,29 +83,31 @@ In today’s world, the workplace needs a different approach because what we exp
       content_seventeen: "The training is the result of a permanent dialogue between trainer and participants. During the training, we were able to provide continuous feedback which helped guide the content and approach wherever we wanted."
     contact_us:
   solutions:
-    discover-button: "Discover our offer"
-    our-offer: "Our product offer"
+    discover-button: "Unser Angebot entdecken"
+    our-offer: "Unser Produktangebot"
     engagement:
       title: "Engagement"
       spotlight:
-        header: "Inspiring company cultures where people drive success!"
-        content: "Creating a culture where people live their values, enjoy a sense of belonging and drive success. In today’s world, the workplace needs a different approach because what you expect from your people and what they expect from you has changed. A certified and experienced team of experts deliver powerful engagement workshops designed together with our Swedish partners at Selfleaders. Our modular approach and the use of digitalisation provides you with solutions no matter your size or needs. Engagement is now at the reach of all organisations!"
+        header: "Firmenkulturen inspirieren, in denen Menschen den Erfolg bestimmen!"
+        content: "Wir möchten Sie gerne ermutigen, eine Firmenkultur zu schaffen, in der Ihre Mitarbeiter nach ihren Werten leben, ein Zusammengehörigkeitsgefühl haben und der Motor des Erfolgs sind. In der heutigen Welt müssen wir unseren Job und Arbeitsalltag unter einem neuen Licht betrachten, denn was Ihre Mitarbeiter von Ihnen erwarten und was Sie von ihnen wünschen, hat sich geändert. Zusammen mit unserem Partner SelfLeaders in Schweden organisiert unser Team von erfahrenen Trainern diverse Workshops zum Thema Engagement. Unsere Lösungsansätze sind zugleich modular und flexible, digital integrierbar und so entwickelt, dass sie Ihrer spezifischen Situation entsprechen. Das Engagement Ihres Teams ist nun greifbar nah - ein einsatzfreudiges Team, welches die positiven Werte Ihrer Organisation mit Begeisterung vertritt."
       products:
-        title: "Our Engagement Solutions"
-        content: "Our proven and versatile approach provides you with solutions whether you need to trigger engagement, convert engagement into tangible actions or create the space where engagement can thrive."
-        request: "Request more information"
+        title: "Unsere Lösungen im Bereich Engagement"
+        content: "Unsere Lösungsansätze sind bewährt und vielseitig. Sie erlauben Ihnen das Gefühl des Engagements in Ihren Mitarbeiter zu wecken und dieses dann in konkrete Aktionen umzusetzen. Dies geschieht in einem Arbeitsumfeld, welches die aktive Beteiligung des ganzen Teams unterstützt und fördert."
+        request: "Mehr Informationen dazu erhalten"
       approach:
-        header_one: "Why is engagement important?"
-        content_one: "Statistically, organisations where there is engagement perform better. The world is moving towards people who expect more from their work life. Organisations need people to step up, take more initiative and drive impact. There is a war on talent and organisations where people want to belong are winning. We provide the solutions you need."
-        header_two: "Why does our approach work?"
-        content_two_a_bullet: "Proven: "
-        content_two_a_text: "A robust approach which has been implemented for over 10 years in organisations such as Spotify, H&M, PWC, EY...and many more."
-        content_two_b_bullet: "Based on the latest research: "
-        content_two_b_text: "Motivational theory, organisational theory, systems design approaches from Harvard, MIT Sloane, the Stockholm school of economics among others."
-        content_two_c_bullet: "Versatile: "
-        content_two_c_text: "An approach which is easily adapted to your needs, goals, company culture, size, level of readiness..."
-        content_two_d_bullet: "Inclusive: "
-        content_two_d_text: "You are embedded throughout the rollout so that you can provide the context and influence the approach."
+        header_one: "Weshalb ist Engagement wichtig?"
+        content_one: "Statistisch gesehen entwickeln sich Organisationen, in denen es ein Gefühl von Engagement gibt, besser. Unsere Welt bewegt sich in eine Richtung, in der Menschen mehr und besseres von Ihrem Berufsleben erwarten. Moderne Unternehmen brauchen Mitarbeiter, die Verantwortung übernehmen, Initiative ergreifen und eine spürbare Wirkung erzielen möchten. Firmen reissen sich um die besten Talente - und Unternehmen, welche die Bedeutung des Zugehörigkeitsgefühls verstehen, werden die grossen Gewinner sein. Wir bieten Ihnen Lösungen, die Sie dafür brauchen."
+        header_two: "Unsere Methode funktioniert. Aber warum?"
+        content_two_a_bullet: "Getestet und erwiesen: "
+        content_two_a_text: "Unser robuster Lösungsansatz wird seit über 10 Jahren in Organisationen wie Spotify, H&M, PWC, EY...und vielen mehr umgesetzt."
+        content_two_b_bullet: "Basierend auf den neusten Erkenntnissen:"
+        content_two_b_text: "Motivationstheorie, Organisationstheorie, Systemdesignmodelle von Harvard, Studien von MIT Sloane oder der Stockholm School of Economics...unsere Methode basiert auf wissenschaftlichen Erkenntnissen von anerkannten Instituten."
+        content_two_c_bullet: "Vielseitig einsetzbar:"
+        content_two_c_text: "Eine Methode, die sich leicht an Ihre Bedürfnisse, Ziele, Firmenkultur, Grösse, Bereitschaft und vieles mehr anpassen lässt."
+        content_two_d_bullet: "Integrativ:"
+        content_two_d_text: "Sie sind ein aktiver Bestandteil des Prozesses, von der Entwicklung Ihrer Lösung bis hin zu den Workshops. Ihre DNA ist ein integraler Bestandteil des Vorgehens und Sie beeinflussen somit das Resultat."
+        content_two_e_bullet: "Digital unterstützt:"
+        content_two_e_text: "Alle unsere Engagement-Workshops werden durch das digitale Tool SelfLeaders unterstützt. Individualisierung, Benutzerfreundlichkeit und digitale Abrufbarkeit der Daten sind gewährleistet."
         header_three: ""
         content_three: ""
       testimonials:
@@ -124,32 +125,31 @@ In today’s world, the workplace needs a different approach because what we exp
         company_four: ''
         content_four: ''
     communication:
-      title: "Communication"
+      title: "Kommunikation"
       spotlight:
-        header: "Great things happen when people communicate well!"
-        content: "Communication is the lifeblood of the modern organisation. Daring to communicate when needed, delegating, giving feedback and communicating complexity simply, are all skills that an engaged organisation needs to thrive!
-Our solutions combine coaching and training in an efficient way where individuals first connect to themselves and become more powerful connecting with others."
+        header: "Grossartiges geschieht, wenn Menschen gut kommunizieren!"
+        content: "Gute Kommunikation ist das A und O einer modernen Organisation. Sich trauen zu kommunizieren, wenn nötig, wissen wann und wie delegieren, Feedback geben und Kompliziertes ganz einfach vermitteln, all das sind Kompetenzen, die eine engagierte Organisation braucht, um zu gedeihen. Unsere Lösungsansätze kombinieren Coaching und Training auf effizienteste Art und Weise, damit jeder sich zuerst mit sich selbst verbunden fühlt, um dann stärker und besser mit anderen zusammen zu arbeiten."
       products:
-        title: "Our Communication Solutions"
-        request: "Request more information"
+        title: "Unsere Lösungen im Bereich Kommunikation"
+        request: "Mehr Informationen anfragen"
       approach:
-        introduction_title: "Why our approach works"
-        introduction_text: "Our communication solutions have a high-level of impact because they integrate work on key levers beyond just skills. This blend of coaching and training on the key levers and focus on application is what ensures we reach tangible outcomes."
-        header_one: "The person"
-        content_one_a: "'It’s difficult to dare to speak up, if you are saying to yourself that you are not up to the level.' "
-        content_one_b: "How do you communicate with yourself and what inner obstacles do you need to overcome in order to communicate better? Who do you want to be? This segment is the coaching part which is integrated into our solutions and encourages people throughout the process to define who they want to be."
-        pyramid_title_one: "The person"
-        pyramid_subtitle_one: "Real change starts internally"
-        header_two: "Key Communication Moments"
-        content_two_a: "'When the question is not who you want to be, but who you need to be.'"
-        content_two_b: "Giving feedback, inspiring a team or obtaining buy-in are just some of the moments we encounter in organisations on a daily basis. This segment focuses on people understanding what these moments require from them and how to maximise their potential."
-        pyramid_title_two: "Key communication moments"
-        pyramid_subtitle_two: "When the question is who you need to be"
-        header_three: "The skills"
-        content_three_a: "'Fundamentally, learning and growth comes from doing.'"
-        content_three_b: "Tools and skills which can help you perform. This segment focus on turning theory to application by putting the skills and tools into practise in their real-world cases."
-        pyramid_title_three: "The skills"
-        pyramid_subtitle_three: "Fundamentally, learning comes from doing"
+        introduction_title: "Unsere Methode funktioniert. Aber warum?"
+        introduction_text: "Unsere Lösungen im Bereich Kommunikation erzielen eine echte Wirkung, da sie mehr als nur Kompetenzen aktivieren. Die Kombination und Balance zwischen Coaching und Training, das auf die Praxis ausgerichtet ist, garantiert sichtbare Erfolgserlebnisse."
+        header_one: "Die Person"
+        content_one_a: "'Es ist nicht einfach den Mut zu finden, um sich vor anderen Menschen zu äussern, besonders, wenn man meint, das Talent dafür nicht zu besitzen.' "
+        content_one_b: "Wie kommunizieren wir mit uns selber und welche inneren Hindernisse müssen wir überwinden, um besser kommunizieren zu können? Wer willst du sein? Dies sind Fragen, welche im Bereich Coaching besprochen werden und in unseren Lösungsansätzen integriert sind."
+        pyramid_title_one: "Die Person"
+        pyramid_subtitle_one: "Echte Veränderung beginnt in uns drinnen"
+        header_two: "Wichtige Kommunikationsmomente"
+        content_two_a: "'Wenn die Frage nicht lautet wer Sie sein möchten, aber wer Sie sein müssen.'"
+        content_two_b: "Feedback geben, ein Team inspirieren oder Unterstützung erhalten sind Momente, die wir in Firmen täglich erleben. Dieser Teil des Trainings konzentriert sich darauf, zu verstehen, was in diesen Momenten von uns erwartet wird und wie wir unser Potenzial maximieren könne."
+        pyramid_title_two: "Wichtige Kommunikationsmomente"
+        pyramid_subtitle_two: "Wenn die Frage lautet, wer Sie sein müssen."
+        header_three: "Kompetenzen"
+        content_three_a: "'Grundsätzlich kommt Lernen und Weiterentwicklung durch praxisbezogenes Handeln.'"
+        content_three_b: "Kompetenzen und Fähigkeiten, die Ihnen helfen können sich weiterzuentwickeln. Dieser Teil des Trainings konzentriert sich auf die Umsetzung der Theorie in die Praxis, indem Sie Ihre Fähigkeiten und Kompetenzen in der Praxis gebrauchen."
+        pyramid_title_three: "Kompetenzen"
+        pyramid_subtitle_three: "Prinzipiell kommt das Lernen vom Tun."
         header_four: ""
         content_four_a: ""
         content_four_b: ""
@@ -183,27 +183,28 @@ Our solutions combine coaching and training in an efficient way where individual
         company_nine: 'Wordline'
         content_nine: "Thanks to this training, I feel less nervous and I am able to communicate more clearly."
     languages:
-      title: "Languages"
+      title: "Sprachen"
       spotlight:
-        header: "Feeling good and communicating with Impact. Whatever the language!"
-        content: "Communication is interacting with people whatever the language. It’s what Atolo started doing many years ago and the truth is, we’re really good at it. Don’t learn a language, forget you’re speaking it! Our solutions are designed for individual or group courses, for continuous learning paths or intensive language immersions. We deliver long term impact whatever the needs of your organisation & people."
+        header: "Sich wohl fühlen und mit Wirkung kommunizieren. Unabhängig von der Sprache!"
+        content: "Kommunikation bedeutet zu wissen, wie sich mit Menschen auszutauschen unabhängig in welcher Sprache. Genau das machen wir bei ATOLO seit vielen Jahren, und ehrlich gesagt, wir sind gut darin. Lernen Sie keine Fremdsprache, vergessen Sie, dass es nicht 'Ihre' Sprache ist. Unsere Lösungsansätze passen sich an Ihre Bedürfnisse an: Einzel- oder Kollektivkurse, kurze und intensive Sprachimmersion oder kontinuierliche und regelmässige Lerngewohnheiten. Wir entwickeln langfristige Erfolge, unabhängig von den Erwartungen und Wünschen Ihrer Organisation und Ihrer Mitarbeiter."
       products:
-        title: "Our Solutions in Languages"
-        request: "Request more information"
+        title: "Unsere Lösungen im Bereich Sprachen"
+        request: "Mehr Informationen anfragen"
       approach:
+        title: "Unser Konzept"
         header_one: "The Deep Dive"
-        content_one_a: "'Knowing your destination doesn't mean you have set objectives.'"
-        content_one_b: "Together, we analyze all the factors and stakeholders to understand where you need to go and how to get there."
+        content_one_a: "'Wissen, was Ihre Absicht ist, heisst nicht unbedingt, dass Sie Ihre Ziele kennen.'"
+        content_one_b: "Gemeinsam analysieren wir alle Faktoren und wichtigen Elemente, um zu verstehen was Ihr Ziel ist und wie Sie dieses erreichen können."
         header_two: "Embedding"
-        content_two_a: "'Traininig is but part of the answer.'"
-        content_two_b: "To make your project a success, we go deep into your job. Everything is tailored to embed the content of your training into your real-life work. You are trained to perform better in the target language not only to speak the target language."
+        content_two_a: "'Das Training ist nur ein Bestandteil der Lösung.'"
+        content_two_b: "Damit Ihr Projekt erfolgreich wird, tauchen wir gemeinsam tief in Ihre Arbeitswelt ein. Jeder Aspekt des Trainings ist massgeschneidert und darauf ausgerichtet den Inhalt der Kurse in Ihren Arbeitsalltag zu integrieren. Wir zeigen Ihnen, wie Sie eine Fremdsprache produktiv nutzen und nicht nur beherrschen können."
         header_three: "Skills in Use"
-        content_three_a: "'You never forget how to ride a bike!'"
-        content_three_b: "Do, redo and do again! We take you out of your comfort zone and you receive continuous feedback. You feel better and build up confidence on the field."
+        content_three_a: "'Es ist wie Fahrrad fahren!'"
+        content_three_b: "Do, redo and do again - Üben macht den Meister! Wir begleiten Sie aus Ihrer Komfortzone heraus und geben Ihnen kontinuierliches Feedback. Sie werden sich wohler fühlen und im Arbeitsumfeld an Selbstvertrauen gewinnen."
         header_four: "Endorsing Success"
-        content_four_a: "'You keep on growing, even after we have left.'"
-        content_four_b: "You now have a solid learning strategy, great reflexes and a concrete action plan for sustainable success."
-        header_five: "Our team of Trainers"
+        content_four_a: "'Ihre Entwicklung wächst weiter, auch nachdem wir weg sind.'"
+        content_four_b: "Sie haben nun eine solide Lernstrategie, grossartige Reflexe und einen konkreten Aktionsplan für nachhaltigen Erfolg."
+        header_five: "Unsere Trainer"
         content_five: "TODO"
       testimonials:
         title: "Testimonials"
@@ -228,100 +229,104 @@ Our solutions combine coaching and training in an efficient way where individual
         name_seven: 'Sarah Deneef'
         company_seven: 'Cofinimmo'
         content_seven: 'What I appreciate the most is the work on skills (versus theory) and the immersive character of the training (German only!). The trainer manages to put all the participants in confidence which allows us to dare to make mistakes in order to progress.'
+      trainers:
+        introduction_title: "Unsere Trainer"
+        text: "Wir haben das Glück mit einem hochqualifizierten und dynamischen Team von Trainern zusammenzuarbeiten. Alle sind Experten auf ihrem Gebiet und haben es sich zur Aufgabe gemacht, das Beste aus ihren Trainees herauszuholen und für Sie, unsere Partner, konkrete und nachhaltige Resultate zu erzielen. Mit ihrer Einsatzbereitschaft und ihrem Engagement repräsentieren sie den Kern dessen, was ATOLO heute ist und wofür wir stehen. Wir sind allen unseren Trainern dankbar und sind stolz darauf, mit ihren Kompetenzen rechnen zu können, welche es ihnen erlauben Ihre Mitarbeiter während des Projektes zu trainieren, zu inspirieren und zu motivieren."
   values:
-    introduction_title: "Our values"
-    introduction_text: "Our values are what drives us from within and what defines how we behave towards the outside world. They were chosen with our soul as well as our head, by the whole team. They inspire us to live them and to make you live them too."
-    discover: "Discover our values"
+    introduction_title: "Unsere Werte"
+    introduction_text: "Unsere Werte steuern unser Engagement von innen heraus und definieren zugleich unser Verhalten nach aussen. Wir haben unsere Werte mit Herz und Verstand gewählt - das ganze Team war mit dabei. Diese Werte inspirieren uns nach gewissen Prinzipien zu leben und Ihnen diese ebenfalls näher zu bringen."
+    discover: "Entdecken Sie unsere Werte"
     value_one:
       title: "Driven by people"
-      content: "We have been driven by people from the very start. From our humble beginnings in languages to where we are today. Experience, expertise, energy… are all reflections of the quality our people bring to work everyday. But being themselves and bringing all of themselves has always been the main focus. This is what allows our people to drive us forward and we are grateful in sharing that common vision. This vision leads us to you, our partners. Your people place their trust in us and we are committed to supporting you in reaching your goals. We are dedicated to surpassing the standards and, together with your people,  in doing whatever it takes to driving success for your organisation."
+      content: "Wir wurden von Anfang an von Menschen inspiriert. Von unseren bescheidenen ersten Sprachkursen bis heute. Erfahrung, Expertise, Energie...nur einige der Aspekte, welche unser Team täglich mit zur Arbeit bringt. Unsere Priorität war aber schon immer eine Atmosphäre zu schaffen, in der alle Mitglieder unseres Teams sich selbst sein können und dies in einem Arbeitsumfeld, das die Selbstentwicklung fördert. Unser Erfolg als Unternehmen verdanken wir vor allem ihrem Engagement. Wir teilen die gleiche Vision und diese Grundhaltung führt uns heute zu Ihnen, unseren Partnern. Ihre Teams wiederum vertrauen uns. Wir sind bestrebt, Sie zu unterstützen und Ihre Ziele zu erreichen. Wir sind bestrebt, Ihre Erwartungen zu übertreffen und gemeinsam mit Ihrem Team alles zu tun, um den Erfolg Ihres Unternehmens zu sichern."
     value_two:
       title: "Committed to impact"
-      content: "Challenging the status quo is what makes us tick. Why settle for less? Everyone at Atolo is mobilized towards making a difference. What will have changed after our intervention? What can we do better? What impact will we have had? Can our level of impact be how we measure ourselves? Impact is an ambition and we are dedicated to targeting results which really matter. Results which really matter to your organisation. When you are in need of a tangible outcome, we challenge you in defining what success looks like and what you need to change in order to succeed."
+      content: "Den Status quo in Frage stellen - das bewegt uns. Weshalb sollten wir uns auch mit weniger zufrieden geben? Alle bei Atolo sind motiviert, etwas zu bewirken. Was wird sich nach unserer Zusammenarbeit geändert haben? Was können wir verbessern? Welchen Effekt werden wir hinterlassen? Ist unsere Bilanz messbar? Wir wollen uns auf Ziele konzentrieren, die wirklich zählen und Resultate erzielen, die für Ihr Unternehmen von Bedeutung sind. Wie sieht Erfolg für Sie aus? Lassen Sie uns gemeinsam die nötigen Massnahmen ergreifen, um Ihren Erfolg zu erreichen. "
     value_three:
       title: 'Dedicated to growth'
-      content: 'Curious by nature is part of our DNA. It allows us to be in a position to better understand the world organizations live in and the challenges they face. It underscores what we need to build up as expertise and identify how we can help you and be impactful. We believe impact and engagement lead to growth, your growth. And we are dedicated to it. The questions of who you are, who you want to become and who you need to become. These are our first questions to you. Your answers will scope your growth and we will provide you with the expertise to overcoming your inner obstacles, in increasing your skills and engaging your people.'
+      content: 'Wir sind von Natur aus neugierig. Es ist ganz einfach Teil unserer DNA. Dies ermöglicht es uns, die Berufswelt und Herausforderungen, mit denen Sie konfrontiert sind, besser zu verstehen. Dies unterstreicht unsere Expertise, welche wir laufend weiterentwickeln, um Ihnen zielgerichtet helfen zu können. Wir glauben, dass Impact und Engagement zu Wachstum führt - zu Ihrem Wachstum. Wir sind diesem Ziel treu. Wer sind Sie? Wer wollen Sie sein? Wer müssen Sie werden? Ihre Antworten bestimmen das Ausmass Ihres Wachstums. Wir unterstützen Sie auf diesem Weg, indem wir mit Ihnen Ihre internen Hindernisse überwinden, Ihre Kompetenzen weiterentwickeln und das Engagement Ihres Teams stärken.'
     value_four:
       title: 'Challenging the status quo'
-      content: 'Is understood by us as challenging our limits, continuously looking for better ways to do things and feeling comfortable out of the box. This way of behaving energises us, is the only way we know to act and maintains our constant growth and innovation so that we can meet your specific needs and explains why no two courses are ever quite the same.'
+      content: 'Den Status quo in Frage stellen? Wir verstehen darunter, dass wir bestehende Grenzen zusammen überwinden und stetig nach neuen und besseren Wegen suchen. Diese Art zu leben gibt uns Energie und ermöglicht es uns ständig zu wachsen und Neues zu entdecken indem wir Innovation aufrechterhalten, so dass wir Ihre spezifischen Bedürfnisse erfüllen können. Dies erklärt auch weshalb keine zwei Kurse jemals gleich sind.'
     value_five:
       title:
       content:
   about:
     spotlight:
-      title: "Great things happen when people communicate well!"
-      content: "Small is beautiful. It's true for our company as well. Beautiful, with big ideas! Our origins were in language training and this is where we forged our DNA, where we realised we would only be successful if our people were successful, if our solutions went further in the impact they bring and if we kept up to date on where the world is going. As well as languages we now deliver unique communication training solutions and co-create innovative programs on the subject of values and engagement within organisations. The future is bright! We look forward to supporting you in your success and the growth of your teams."
-      meet: "Meet the team"
+      title: "Grossartiges geschieht, wenn Menschen gut kommunizieren!"
+      content: "Klein aber fein. Das gilt auch für Atolo. Klein und fein, aber mit grossen Ideen! Ursprünglich kommen wir aus dem Bereich Sprachtraining, dies bleibt in unserer DNA verankert. Damals haben wir auch erkannt, dass wir nur dann Erfolg haben würden, wenn unsere Mitarbeiter erfolgreich sind und wenn unsere Lösungsansätze weiterleben in Wirkungen, welche sie hinterlassen. Hinzu kommt unser Wunsch, etwas zu bewirken und so nah wie möglich an organisatorischen Veränderungen zu bleiben. Wir hatten somit den perfekten Cocktail zum Erfolg. Heute bieten wir auch einzigartige Lösungen in den Bereichen Kommunikation sowie innovative Programme rund um Wertvorstellungen und Engagement. Die Zukunft ist vielversprechend. Wir freuen uns darauf, Sie bei der Entwicklung und dem persönlichen Erfolg Ihrer Mitarbeiter und Ihres Unternehmens zu unterstützen!"
+      meet: "Lernen Sie unser Team kennen"
     team:
-      title: "Our team"
+      title: "Unser Team"
       sub_title: "We challenge the status quo"
       member_one:
         first_name: "Mieke"
         second_name: "Van Oost"
         role: "Managing director Atolo Group"
-        text: "Our North Star. Thanks to Mieke, fostering talent & encouraging individual growth form the bedrock of Atolo. Through compassion, kindness and understanding, she supports the team in going beyond. The search for innovation, proximity and quality is a constant for Mieke. As a modern leader, she actually walks the talk. That is inspiration for all of us wanting to bring as much impact as possible to your projects."
-        location: "Lausanne & Brussels"
+        text: "Unser Nordstern. Wegen Mieke arbeiten bei Atolo so viele Talente. Dank ihrem Mitgefühl, ihrer Aufrichtigkeit und ihrem Einfühlungsvermögen fühlen sich unsere Teams unterstützt und sind motiviert mehr als nur das nötigste zu tun. Innovation, Nähe und Qualität sind für Mieke nicht verhandelbare Grundlagen. Dies ist unsere Inspiration um bei der Durchführung Ihres Projektes uns selbst zu übertreffen."
+        location: "Lausanne & Brüssel"
       member_two:
         first_name: "David"
         second_name: "Michel"
         role: "Managing director Atolo Switzerland"
-        text: "David is at ease defining and implementing strategy, developing relationships based on trust or inspiring and challenging people to bring the best out of themselves. This ability to drive impact while never compromising the human relationship is what makes him so appreciated, valued and admired. This is not just within the team, that’s what our clients say about him too."
-        location: "Lausanne & Brussels"
+        text: "David versteht es, Strategien zu definieren und umzusetzen, Beziehungen basierend auf Vertrauen oder Inspiration zu entwickeln und Menschen zu motivieren, das Beste aus sich herauszuholen. Diese Fähigkeit Resultate zu erzielen ohne jemals zwischenmenschliche Beziehungen zu vernachlässigen, ist der Grund weshalb wir ihn so sehr schätzen und bewundern. Und das meint nicht nur unser Team, sondern das sagen auch unsere Kunden von ihm."
+        location: "Lausanne & Brüssel"
       member_three:
         first_name: "Oscar"
         second_name: "Vega"
         role: "Managing partner"
-        text: "Inspiring, human, committed, caring…spring to mind when our team talks about Oscar. A driving force to many solutions that Atolo brings to its clients, Oscar has always been one step ahead. Demanding of himself before others, his free spirit and generosity bring vision and healthy challenges to all the team. He is ours but we agree to share some of him with you."
-        location: "Lausanne & Brussels"
+        text: "Oscars Kollegen beschreiben einen Menschen, der uns inspiriert, menschlich und engagiert ist und sich immer um das Wohl aller kümmert. Eine geborene Naturkraft und gleichzeitig die Antriebskraft, die hinter den Lösungen, die Ihnen Atolo bietet, steckt - Oscar war schon immer seiner eigenen Zeit voraus. Sein freier Geist und seine Grosszügigkeit erzeugen positive Impulse im ganzen Team. Er ist anspruchsvoll anderen gegenüber, aber vor allem und zuerst sich selbst gegenüber. Wir würden ihn gerne für uns alleine behalten, aber wir teilen ihn auch gerne mit Ihnen."
+        location: "Lausanne & Brüssel"
       member_four:
         first_name: "Eva"
         second_name: "Vermeire"
         role: "Operations manager"
-        text: "Experienced, proactive and professional are but some of the words used by colleagues to describe Eva. As our office manager, Eva represents our backbone. We are lucky to be able to count on someone as vital as she. Rest assured, any project of yours overseen by Eva is in safe hands."
-        location: "Brussels"
+        text: "Eva's Arbeitskollegen beschreiben sie als proaktiv, professionell und kompetent. Als Büroleiterin ist Eva unser Rückgrat. Wir haben das Glück auf jemanden so wichtiges wie sie zählen zu können. Sie werden ruhig schlafen, sobald eines Ihrer Projekte in den sicheren Händen von Eva ist."
+        location: "Brüssel"
       member_five:
-        first_name: "Betina"
+        first_name: "Bettina"
         second_name: "Geiken"
         role: "L&D Consultant"
-        text: "A generous soul dedicated to the common good, we can always count on Bettina's extensive expertise and know-how. Always willing to share, help and shed light on complex human matters. A treasure chest of insights that we are grateful to rely upon when designing your solutions."
-        location: "Brussels"
+        text: "Bettina bringt Bescheidenheit, Know-how und Erfahrung in unser Team mit. Sie ist immer auf eine positive Wirkung für das Gemeinwohl ausgerichtet. Engagiert und selbstbewusst unterstützt Bettina das Team bei der Lösungssuche bezüglich komplexer menschlicher Beziehungen. Sie ist eine wahre Schatztruhe für innovative Ideen. Wir sind dankbar, dass wir uns bei der Entwicklung Ihrer Trainingslösungen auf Bettina verlassen können."
+        location: "Brüssel"
       member_six:
         first_name: "Maité"
         second_name: "Dantine"
         role: "L&D coordinator"
-        text: "A true people person able to manage anything that comes her way. Calm, empathetic and an expert in building relations, Maïté is always on the look out to see how we can continuously improve our service to our trainers and to our clients."
-        location: "Brussels"
+        text: "Eine wahre Menschenfreundin, in der Lage alles zu meistern, was ihr über den Weg läuft. Sie ist ruhig, einfühlsam und ausgezeichnet im Aufbau von Beziehungen und Kontakten. Maïté ist immer auf der Suche nach Verbesserungsmöglichkeiten, die im Interesse unserer Trainer und unserer Kundenpartner liegen."
+        location: "Brüssel"
       member_seven:
         first_name: "Sofie"
         second_name: "Begine"
         role: "L&D specialist"
-        text: "A strong personality on whom we can always depend. People who know her recognize her ability to think outside the box, to challenge those around her for the greater good and to never accept anything less than high quality. A pillar in our team and a reference for your projects."
-        location: "Brussels"
+        text: "Eine starke Persönlichkeit, auf die wir uns immer verlassen können. Ihre Kollegen loben vor allem ihre Kreativität und ihre Fähigkeit ihre Umgebung für das Gemeinwohl zu motivieren. Sie wird nie weniger als Perfektion für Ihre Projekte akzeptieren. Eine tragende Säule in unserem Team und ein Referenzpunkt für Ihre Projekte."
+        location: "Brüssel"
       member_eight:
         first_name: "Céline"
         second_name: "Zaghet"
         role: "L&D specialist"
-        text: "Dynamic in her approach to people, committed to highlighting strengths amongst others and engaged in the way she interacts with her environment. Our team of trainers are onboarded in the best of conditions thanks to Céline. A positive and vibrant personality bringing true added value internally and externally."
-        location: "Brussels"
+        text: "Dynamisch und motiviert im Umgang mit ihren Mitmenschen. Engagiert Ihre persönlichen Stärken hervorzuheben. Dank Célines hervorragender Unterstützung werden alle Trainer in unser Team bestmöglichst integriert. Eine positive und lebendige Persönlichkeit, die sowohl bei uns intern als auch für Sie einen wahren Mehrwert schafft."
+        location: "Brüssel"
       member_nine:
         first_name: "Quentin"
         second_name: "Dubus"
         role: "L&D specialist"
-        text: "Courageous, dedicated, enthusiastic... Our team can always rely on Quentin to be the spark and the accelerator to many important projects. Engagement and commitment flow though him and that brings authentic added value to both our team and our clients."
-        location: "Brussels"
+        text: "Mutig, engagiert und leidenschaftlich... Unser Team kann sich immer darauf verlassen, dass Quentin wichtige Projekte beschleunigt oder in Gang setzt. Sein Engagement ist ansteckend und seine Authentizität kommt allen im Team zugute."
+        location: "Brüssel"
       member_ten:
         first_name: "Karine"
         second_name: "Plas"
         role: "L&D Consultant"
-        text: "Imagine a mix of expertise, know-how, spontaneity and fun… That blend is what makes Karine such an important part of our team. Bold and true, she will always look out for what's best for her clients and the team. Give her the ingredients and Karine will come up with the perfect recipe for happiness and success."
+        text: "Stellen Sie sich eine Mischung aus Fachwissen, Know-how, Ungezwungenheit und Spass vor. Diese spezielle Mischung macht Karine zu einem so wichtigen Teil unseres Teams. Sie ist gewagt und ehrlich und wird sich immer für das Beste für ihre Kunden und ihr Team einsetzen. "
       member_eleven:
         first_name: "Claudia"
         second_name: "Fortes"
         role: "L&D Consultant"
-        text: "An international mindset combined with a luminous and kind spirit. Add to that structure and a very professional streak and you then discover Claudia, a ray of light and expertise who is able to add the essential twist to all our L&D designs which in turn make all the difference to your projects."
+        text: "Mit ihrer grosszügigen und leuchtenden Persönlichkeit bringt Claudia eine internationale Note ins Team mit. Ihre hohen Ansprüche, ihr Fachwissen und ihre positive Einstellung geben unseren Trainingsmöglichkeiten eine sehr persönliche und praxisrelevante Farbe. Darin liegt auch der entscheidende Unterschied bei der Umsetzung unserer Projekte mit Ihnen."
+    location: "Unsere Büros"
     probono:
         title: "Atolo Pro Bono"
-        content: "We don’t give back because it is the right thing to do, we give back because it is what we want to do. Our pro-bono work is aimed at supporting social-entrepreneurs with their communication. We are servants to these very inspiring people who want to change the world for the better and empower them to tell their story authentically, clearly and powerfully. People like those at Ashoka."
+        content: "Wir sind aus Überzeugung pro bono verpflichtet, nicht weil es das richtige ist, sondern weil wir daran glauben und etwas zurückgeben wollen. Unsere Pro-Bono-Arbeit möchte Unternehmer im sozialen Bereich in ihrer Kommunikation unterstützen. Wir stehen im Dienst jener, die uns inspirieren und die Welt verändern wollen. Wir helfen ihnen dabei ihre Geschichte authentisch, klar und kraftvoll zu vermitteln. Ashoka ist der perfekte Ort für solche Unternehmer."
   disclaimer:
     title: "Disclaimer"
     subtitle_one: "Disclaimer for atolo.eu, atolo.ch and atolo.global"
@@ -354,24 +359,32 @@ Our solutions combine coaching and training in an efficient way where individual
     text_seven: "More information about turning on and off and deleting cookies can be found in the instructions and / or using your browser's Help feature."
   activerecord:
     models:
-      message: "message"
-      product: "product"
-      user: "user"
+      message: "Mitteilung"
+      product: "Produkt"
+      user: "Benutzer"
     attributes:
       message:
-        name: "name"
-        company: "company"
-        email: "email"
-        content: "content"
-        copy: "copy"
-        robot: "robot"
+        name: "Name"
+        company: "Firma"
+        email: "E-Mail"
+        content: "Mitteilung"
+        copy: "Kopie"
+        robot: "Roboter"
       product:
-        name: "name"
-        group: "group"
-        description: "description"
-        content: "content"
+        name: "Name"
+        group: "Gruppe"
+        description: "Bezeichnung"
+        content: "Mitteilung"
   counter:
-    missions: "Missions"
-    coaches: "Coaches"
-    participants: "Participants"
-    mission_participants: "Participants in missions"
+    missions: "Mission"
+    coaches: "Trainer"
+    participants: "Teilnehmer"
+    mission_participants: "Teilnehmende in Einsatz"
+  form:
+    contact: "Mit uns Kontakt aufnehmen"
+    name: "Name"
+    company: "Firma"
+    email: "E-Mail"
+    message: "Mitteilung"
+    human: "Ich bin ein Mensch und kein Roboter"
+    send: "Mitteilung senden"
