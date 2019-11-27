@@ -17,7 +17,7 @@ Rails.application.routes.draw do
     get 'cookies', to: "pages#cookies"
 
     resources :products, only: [ :create, :new, :show, :update, :edit, :destroy, :index ]
-    resources :messages, only: [ :create, :index ]
+    resources :messages, only: [ :create ]
   end
 
   # get 'fr', to: "pages#welcome"
