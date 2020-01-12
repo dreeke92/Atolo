@@ -23,6 +23,7 @@ fr:
       text_two: "Un lieu où vos équipes sont engagées et où elles disposent des compétences nécessaires pour transformer cet engagement en impact pour votre organisation."
       cards:
         engagement_title: "Engagement"
+        engagement_sub_title: ""
         engagement_content: "Nous vous invitons à créer une culture d'entreprise dans laquelle vos collaborateurs ressentent de la motivation, bénéficient d'un sentiment d'appartenance et génèrent de l'impact. Dans le monde d'aujourd'hui, l'environnement de travail nécessite une approche différente car les attentes de part et d'autre ont changé."
         communication_title: "Communication"
         communication_content: "Une bonne communication est essentielle pour l'entreprise moderne. Oser communiquer quand cela est nécessaire, savoir déléguer, donner du feedback et communiquer des informations complexes de façon pertinente ne sont que quelques compétences permettant à une organisation engagée de croître."

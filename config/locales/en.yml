@@ -23,7 +23,8 @@ en:
       text_two: "A place where your teams are engaged and have the necessary skills to turn their engagement into impact for your organisation."
       cards:
         engagement_title: "Engagement"
-        engagement_content: "Co-creating a culture where people feel motivated, enjoy a sense of belonging and have an impact. In today’s world, the workplace needs a different approach because what we expect from our people and what they expect from you is different."
+        engagement_sub_title: "Values in action"
+        engagement_content: "Connecting people to their intrinsic values to create a culture where people feel motivated, enjoy a sense of belonging and have an impact."
         communication_title: "Communication"
         communication_content: "Communication is the lifeblood of the modern organisation. Daring to communicate when needed, delegating, giving feedback and communicating complexity, simply, are all skills that an engaged organisation needs to thrive."
         languages_title: "Languages"
@@ -90,10 +91,10 @@ en:
       title: "Engagement"
       spotlight:
         header: "Inspiring company cultures where people drive success!"
-        content: "Creating a culture where people live their values, enjoy a sense of belonging and drive success. In today’s world, the workplace needs a different approach because what you expect from your people and what they expect from you has changed. A certified and experienced team of experts deliver powerful engagement workshops designed together with our Swedish partners at Selfleaders. Our modular approach and the use of digitalisation provides you with solutions no matter your size or needs. Engagement is now at the reach of all organisations!"
+        content: "Imagine a world where your people know what drives them, are connected to their intrinsic strengths and contribute actively to your success."
       products:
         title: "Our Engagement Solutions"
-        content: "Our proven and versatile approach provides you with solutions whether you need to trigger engagement, convert engagement into tangible actions or create the space where engagement can thrive."
+        content: "Dynamic and inspiring workshops easily adaptable to all types of missions, teams and levels of your organisation."
         request: "Request more information"
       approach:
         header_one: "Why is engagement important?"
@@ -109,8 +110,13 @@ en:
         content_two_d_text: "You are embedded throughout the rollout so that you can provide the context and influence the approach."
         content_two_e_bullet: "Digitally supported: "
         content_two_e_text: "All our engagement workshops are supported by the SelfLeaders digital tool. Individualization, scalability and digital data retrieval are ensured."
-        header_three: ""
-        content_three: ""
+        header_three: "When are our solutions most effective?"
+        content_three: "Our solutions are most effective when you would like:"
+        content_three_a: "To increase the bond between your people and your organisation"
+        content_three_b: "Your people to take more initiative or accountability"
+        content_three_c: "To build trust and collaboration in teams which are new or need to work closer together (e.g. inter- generational)"
+        content_three_d: "To reconnect your people after a difficult process of change"
+        content_three_e: "Your people leaders to better deal with people"
       testimonials:
         title: "Clients"
         text: "Some of our partners having successfully experienced our SelfLeaders engagement solution."
@@ -325,6 +331,11 @@ en:
         second_name: "Fortes"
         role: "L&D Consultant"
         text: "An international mindset combined with a luminous and kind spirit. Add to that structure and a very professional streak and you then discover Claudia, a ray of light and expertise who is able to add the essential twist to all our L&D designs which in turn make all the difference to your projects."
+      member_twelve:
+        first_name: "Delia"
+        second_name: "Mensitieri"
+        role: "L&D Consultant"
+        text: ""
     location: "Where to find us"
     probono:
         title: "Atolo Pro Bono"

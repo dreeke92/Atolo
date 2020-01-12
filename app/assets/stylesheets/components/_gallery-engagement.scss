@@ -684,8 +684,13 @@
           pointer-events: auto;
         }
 
-        .gallery-engagement.style1 article .caption h2, .gallery-engagement.style1 article .caption h3, .gallery-engagement.style1 article .caption h4, .gallery-engagement.style1 article .caption h5, .gallery-engagement.style1 article .caption h6 {
+        .gallery-engagement.style1 article .caption h2, .gallery-engagement.style1 article .caption h3, .gallery-engagement.style1 article .caption h5, .gallery-engagement.style1 article .caption h6 {
           font-size: 1.5rem;
+          margin-bottom: 0.25rem;
+        }
+
+        .gallery-engagement.style1 article .caption h4 {
+          font-size: 1.0rem;
           margin-bottom: 0.25rem;
         }
 
@@ -1076,8 +1081,14 @@
           pointer-events: auto;
         }
 
-        .gallery-engagement.style2 article .caption h2, .gallery-engagement.style2 article .caption h3, .gallery-engagement.style2 article .caption h4, .gallery-engagement.style2 article .caption h5, .gallery-engagement.style2 article .caption h6 {
+        .gallery-engagement.style2 article .caption h2, .gallery-engagement.style2 article .caption h3, .gallery-engagement.style2 article .caption h5, .gallery-engagement.style2 article .caption h6 {
           font-size: 1.5rem;
+          margin-bottom: 0.25rem;
+          // background: rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery-engagement.style2 article .caption h4 {
+          font-size: 1.0rem;
           margin-bottom: 0.25rem;
           // background: rgba(0, 0, 0, 0.2);
         }

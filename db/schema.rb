@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_06_26_122948) do
+ActiveRecord::Schema.define(version: 2020_01_12_110848) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -44,6 +44,10 @@ ActiveRecord::Schema.define(version: 2019_06_26_122948) do
     t.string "description_de"
     t.string "description_fr"
     t.integer "ranking"
+    t.string "subtitle"
+    t.string "subtitle_nl"
+    t.string "subtitle_fr"
+    t.string "subtitle_de"
   end
 
   create_table "users", force: :cascade do |t|
