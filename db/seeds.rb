@@ -45,7 +45,7 @@ communication_six = Product.create!(name: "Assertiveness", ranking: 6, group: "C
 communication_seven = Product.create!(name: "Influencing & convincing", ranking: 7, group: "Communication", description: "You wish to speak up more in meetings, feel more comfortable expressing what you think, listen better and interact better with the people around you. Individual and group solutions. Formats adapted to your needs.")
 
 engagement_one = Product.create!(name: "The engaged individual", subtitle: "Ignite engagement", ranking: 1, group: "Engagement", description: "A positive approach! Dynamic workshops which through values, connect individuals to self leadership and their intrinsic strengths so that they can become more impactful when contributing to others and to your organisation.")
-engagement_two = Product.create!(name: "The connected team", subtitle: "Acting through engagement", ranking: 2, group: "Engagement", description: "Impactful workshops where individuals are facilitated in using their inner drivers to contribute towards the success of the  team. The outcome will be alignment in purpose and a clear action plan, a roadmap to success! Very valuable for new teams, remote teams, inter-generational teams and any scenario where building trsut and collaboration are key.")
+engagement_two = Product.create!(name: "The connected team", subtitle: "Acting through engagement", ranking: 2, group: "Engagement", description: "Impactful workshops where individuals are facilitated in using their inner drivers to contribute towards the success of the  team. The outcome will be alignment in purpose and a clear action plan, a roadmap to success! Very valuable for new teams, remote teams, inter-generational teams and any scenario where building trust and collaboration are key.")
 engagement_three = Product.create!(name: "The connected organisation", subtitle: "Amplify engagement", ranking: 3, group: "Engagement", description: "Workshops for larger organisations in which we train your people to become facilitators of our Values in Action workshops.")
 
 languages_one = Product.create!(name: "Work & learn", ranking: 1, group: "Languages", description: "A language training embedded in your business project.")
@@ -68,9 +68,9 @@ communication_five.update(name_fr: "Déléguer")
 communication_six.update(name_fr: "Faire preuve d’assertivité")
 communication_seven.update(name_fr: "Influencer et convaincre")
 
-engagement_one.update(name_fr: "Activer l’Engagement")
-engagement_two.update(name_fr: "Accélérer l‘Engagement")
-engagement_three.update(name_fr: "Ancrer l’Engagement")
+engagement_one.update(name_fr: "L'Individu Engagé")
+engagement_two.update(name_fr: "L'Équipe Engagée")
+engagement_three.update(name_fr: "L'Organisation Engagée")
 
 languages_one.update(name_fr: "Apprendre en travaillant")
 languages_two.update(name_fr: "Le Classic")
@@ -82,6 +82,12 @@ languages_seven.update(name_fr: "L’apprentissage par téléphone ou par Skype 
 languages_eight.update(name_fr: "Partager ses opinions avec d’autres")
 languages_nine.update(name_fr: "Un crédit langues")
 
+puts "Adding french to subtitles..."
+
+engagement_one.update(subtitle_fr: "Inspirer l’Engagement")
+engagement_two.update(subtitle_fr: "Agir sur l‘Engagement")
+engagement_three.update(subtitle_fr: "Amplifier l’Engagement")
+
 puts "Adding french to product descriptions..."
 
 communication_one.update(description_fr: "Vous souhaitez développer votre capacité d’écoute active. Cela, sans faire preuve de jugement, sans interrompre et afin de véritablement comprendre le processus de réflexion de vos interlocuteurs. Votre propre communication deviendra plus impactante. Nos solutions sont modulaires et adaptées à vos besoins.")
@@ -92,9 +98,9 @@ communication_five.update(description_fr: "Vous souhaitez déléguer de façon e
 communication_six.update(description_fr: "Votre communication se veut assertive et claire. La confiance en soi se ressent. Vous souhaitez établir le cadre de votre message simplement et en confiance tout en respectant le cadre défini de vos interlocuteurs. Nos solutions sont modulaires et adaptées à vos besoins.")
 communication_seven.update(description_fr: "Vous souhaitez prendre la parole plus fréquemment lors de réunions et communiquer clairement vos pensées en convictions. Tout en écoutant attentivement vos interlocuteurs, vous arrivez à structurer votre message de façon à convaincre et à maintenir l’attention de vos collègues et supérieurs. Nos solutions sont modulaires et adaptées à vos besoins.")
 
-engagement_one.update(description_fr: "Lors de ce workshop d’une demi-journée, nous vous faisons prendre conscience de ce qui vous anime, ce qui vous motive et ce qui constitue votre échelle de valeurs. Nous créons un cadre bienveillant où il est possible d’échanger avec vos collègues et où le lien est établi avec votre organisation. Cette plateforme vous permettra de définir votre propre axe d’engagement et d’identifier les améliorations nécessaires au sein de votre environnement pour accélérer et ancrer un sentiment d’appartenance durable.")
-engagement_two.update(description_fr: "Ce workshop planifié sur un jour et demi permet de faire le pont entre  'moi' et 'nous'. Il s’agit de la clé menant à des adaptations comportementales ciblées. Cette étape accélère le processus d’engagement en établissant des plans d’actions concrets, propres aux besoins de votre réalité professionnelle. Ce processus, inclusif et agile, délivrera un ensemble de valeurs collectif où chacun apportera sa pierre à l’édifice. Les actions définies auront pour but de soutenir le niveau d’engagement souhaité et seront au service des missions et de la vision définies par l’organisation et ses équipes. Des résultats tangibles en découleront et auront un impact positif, tant sur les résultats de l’organisation que sur le bien-être de ses collaborateurs.")
-engagement_three.update(description_fr: "Dédiés à un impact durable au sein de nos organisations partenaires et engagés à ancrer l’engagement au sein de votre culture d’entreprise, nous vous soutiendrons dans les démarches ad-hoc assurant cet engagement au sein de vos équipes. Plans de formations, stratégies de monitoring, conseils sur les priorités de développements individuels… nos experts sont à vos côtés pour définir la solution durable adaptée à vos besoins.")
+engagement_one.update(description_fr: "Une approche positive! Des workshops dynamiques, conçus autour des valeurs personnelles, permettant à chaque participant de faire le lien avec ses forces intrinsèques et sa capacité de ‘self leadership’. Ceci, afin que chaque individu puisse générer davantage d’impact lorsqu’il contribue à d’autres et à son entreprise.")
+engagement_two.update(description_fr: "Des workshops qui génèrent de l’impact ! Nous facilitons la transition du ‘Je’ vers ‘Nous’ en puisant dans les éléments moteurs de la motivation personnelle au service du bien commun de l’équipe. L’issue est un alignement clair sur les objectifs communs et un plan d’action limpide menant vers la réussite du groupe. ")
+engagement_three.update(description_fr: "Nous formons vos collaborateurs afin qu’ils facilitent, en interne, les workshops Valeurs en Action.")
 
 languages_one.update(description_fr: "Nous vous invitons à développer vos compétences linguistiques en appliquant des méthodologies d’apprentissage au sein d’un business case réel, propre à votre métier. Individuel ou en groupe. Format et nombre d’heures à définir avec votre conseiller selon vos vrais besoins.")
 languages_two.update(description_fr: "Une formation linguistique pour un ou plusieurs participants. La durée et le rythme sont établis selon les objectifs définis. Un trajet de formation court, ciblé et impactant.")

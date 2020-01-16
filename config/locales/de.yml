@@ -324,6 +324,11 @@ de:
         second_name: "Fortes"
         role: "L&D Consultant"
         text: "Mit ihrer grosszügigen und leuchtenden Persönlichkeit bringt Claudia eine internationale Note ins Team mit. Ihre hohen Ansprüche, ihr Fachwissen und ihre positive Einstellung geben unseren Trainingsmöglichkeiten eine sehr persönliche und praxisrelevante Farbe. Darin liegt auch der entscheidende Unterschied bei der Umsetzung unserer Projekte mit Ihnen."
+      member_twelve:
+        first_name: "Delia"
+        second_name: "Mensitieri"
+        role: "L&D Consultant"
+        text: ""
     location: "Unsere Büros"
     probono:
         title: "Atolo Pro Bono"

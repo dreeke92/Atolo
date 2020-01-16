@@ -12,6 +12,7 @@
             <div class="overflow">
               <% if I18n.locale == :fr %>
                 <h3 class=""><%= product.name_fr %></h3>
+                <strong><h4 class="green-text" style="font-weight: 500;"><%= product.subtitle_fr %></h4></strong>
                 <p class="product-card-content-margin"><%= product.description_fr %></p>
               <% elsif I18n.locale == :de %>
                 <h3 class=""><%= product.name %></h3>

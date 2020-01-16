@@ -326,6 +326,11 @@ nl:
         second_name: "Fortes"
         role: "L&D Consultant"
         text: "Een gulle en stralende persoonlijkheid met een onmiskenbare internationale twist. Doe daar een flinke dosis professionalisme bij en dan ontdek je Claudia, genereus en boordevol ervaring. Zij geeft dat extra-vleugje  aan al onze L&D-ontwerpen en zorgt zo voor de authentieke touch van uw projecten."
+      member_twelve:
+        first_name: "Delia"
+        second_name: "Mensitieri"
+        role: "L&D Consultant"
+        text: ""
     location: "Waar vind je ons?"
     probono:
         title: "Atolo Pro Bono"

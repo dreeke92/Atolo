@@ -23,8 +23,8 @@ fr:
       text_two: "Un lieu où vos équipes sont engagées et où elles disposent des compétences nécessaires pour transformer cet engagement en impact pour votre organisation."
       cards:
         engagement_title: "Engagement"
-        engagement_sub_title: ""
-        engagement_content: "Nous vous invitons à créer une culture d'entreprise dans laquelle vos collaborateurs ressentent de la motivation, bénéficient d'un sentiment d'appartenance et génèrent de l'impact. Dans le monde d'aujourd'hui, l'environnement de travail nécessite une approche différente car les attentes de part et d'autre ont changé."
+        engagement_sub_title: "Valeurs en Action"
+        engagement_content: "Nous facilitons le lien entre les individus et leurs valeurs intrinsèques permettant de soutenir une culture d’entreprise dans laquelle vos équipes sont motivées, bénéficient d’un sentiment d’appartenance et génèrent de l’impact."
         communication_title: "Communication"
         communication_content: "Une bonne communication est essentielle pour l'entreprise moderne. Oser communiquer quand cela est nécessaire, savoir déléguer, donner du feedback et communiquer des informations complexes de façon pertinente ne sont que quelques compétences permettant à une organisation engagée de croître."
         languages_title: "Langues"
@@ -94,7 +94,7 @@ fr:
         content: "Nous vous invitons à créer une culture d'entreprise dans laquelle vos collaborateurs ressentent de la motivation, bénéficient d'un sentiment d'appartenance et génèrent de l'impact. Dans le monde d'aujourd'hui, l'environnement de travail nécessite une approche différente car les attentes de part et d'autre ont changé. Avec notre partenaire suédois, SelfLeaders, notre équipe de coachs certifiés facilite des workshops autour de l'engagement. Puissants et impactants à la fois, nos solutions sont modulaires, digitalement intégrées et conçues pour répondre à votre réalité. L'engagement de vos équipes est dès à présent à votre portée!"
       products:
         title: "Nos Solutions en Engagement"
-        content: "Notre approche est éprouvée et versatile. Elle vous permet de déclencher le sentiment d'engagement et ensuite de convertir cet engagement en actions tangibles. Ceci, dans un environnement de travail qui soutient activement l'implication de vos équipes."
+        content: "Nos workshops, dynamiques et inspirants, sont modulables selon la typologie des participants, les niveaux de responsabilités et la maturité de votre organisation."
         request: "Je veux en savoir plus"
       approach:
         header_one: "Pourquoi l'engagement est-il important?"
@@ -110,8 +110,13 @@ fr:
         content_two_d_text: "Vous faites partie active du processus, depuis la conception de votre solution jusqu'aux workshops. Votre ADN fait partie intégrante de l'approche et de la solution."
         content_two_e_bullet: "Digitalisation: "
         content_two_e_text: "Tous nos workshops intègrent l’utilisation de l’outil digital SelfLeaders. La personalisation, la scalabilité et la digitalisation des données sont assurées."
-        header_three: ""
-        content_three: ""
+        header_three: "Quand nos solutions sont-elles les plus efficaces?"
+        content_three: "Une solution idéale permettant de:"
+        content_three_a: "Renforcer le lien entre vos équipes et votre entreprise"
+        content_three_b: "Soutenir la prise d’initiative et de responsabilité"
+        content_three_c: "Créer un environnement de confiance dans lequel vos équipes travaillent ensemble de façon plus rapprochée et collaborative (notamment dans le contexte intergénérationnel)"
+        content_three_d: "Vous rapprocher de vos équipes après une période de transformation"
+        content_three_e: "Soutenir vos équipes dirigeantes dans la gestion de leurs équipes"
       testimonials:
         title: "Clients"
         text: "Quelques entreprises partenaires ayant vécue notre solution d’engagement SelfLeaders avec succès."
@@ -327,6 +332,11 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
         second_name: "Fortes"
         role: "L&D Consultant"
         text: "Dotée d'une personnalité généreuse et lumineuse, Claudia apporte une dimension internationale. Son niveau d'exigence, son expertise et son attitude positive apportent une couleur très personnelle et pertinente à la création de nos solutions de formations. Ceci fait toute la différence lors de l'exécution de nos mandats chez vous."
+      member_twelve:
+        first_name: "Delia"
+        second_name: "Mensitieri"
+        role: "L&D Consultant"
+        text: ""
     location: "Où nous trouver"
     probono:
         title: "Atolo Pro Bono"
