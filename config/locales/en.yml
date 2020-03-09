@@ -319,7 +319,7 @@ en:
         first_name: "Quentin"
         second_name: "Dubus"
         role: "L&D specialist"
-        text: "Courageous, dedicated, enthusiastic... Our team can always rely on Quentin to be the spark and the accelerator to many important projects. Engagement and commitment flow though him and that brings authentic added value to both our team and our clients."
+        text: "Courageous, dedicated, enthusiastic... Our team can always rely on Quentin to be the spark and the accelerator to many important projects. Engagement and commitment flow through him and that brings authentic added value to both our team and our clients."
         location: "Brussels"
       member_ten:
         first_name: "Karine"
@@ -335,7 +335,7 @@ en:
         first_name: "Delia"
         second_name: "Mensitieri"
         role: "L&D Consultant"
-        text: ""
+        text: "Delia’s creativity, enthusiasm and determination allow her to take on any challenge. She doesn’t hesitate to challenge the status quo to design impactful solutions. Dedicated to her partners and committed to the greater good, Delia is your trusted advisor."
     location: "Where to find us"
     probono:
         title: "Atolo Pro Bono"
