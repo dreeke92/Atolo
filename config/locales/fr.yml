@@ -92,6 +92,8 @@ fr:
       spotlight:
         header: "Inspiring company cultures where people drive success!"
         content: "Nous vous invitons à créer une culture d'entreprise dans laquelle vos collaborateurs ressentent de la motivation, bénéficient d'un sentiment d'appartenance et génèrent de l'impact. Dans le monde d'aujourd'hui, l'environnement de travail nécessite une approche différente car les attentes de part et d'autre ont changé. Avec notre partenaire suédois, SelfLeaders, notre équipe de coachs certifiés facilite des workshops autour de l'engagement. Puissants et impactants à la fois, nos solutions sont modulaires, digitalement intégrées et conçues pour répondre à votre réalité. L'engagement de vos équipes est dès à présent à votre portée!"
+        online_text: "Contactez-nous pour en savoir plus sur nos solutions en ligne!"
+        contact_button: "Contactez-nous"
       products:
         title: "Nos Solutions en Engagement"
         content: "Nos workshops, dynamiques et inspirants, sont modulables selon la typologie des participants, les niveaux de responsabilités et la maturité de votre organisation."
@@ -138,6 +140,8 @@ fr:
         header: "Great things happen when people communicate well!"
         content: "Une bonne communication est essentielle pour l'entreprise moderne. Oser communiquer quand cela est nécessaire, savoir déléguer, donner du feedback et communiquer des informations complexes de façon pertinente ne sont que quelques compétences permettant à une organisation engagée de croître.
 Nos solutions combinent coaching et formation dans un espace où les individus se reconnaissent d'abord pour ensuite mieux connecter avec autrui."
+        online_text: "Contactez-nous pour en savoir plus sur nos solutions en ligne!"
+        contact_button: "Contactez-nous"
       products:
         title: "Nos Solutions en Communication"
         request: "Je veux en savoir plus"
@@ -196,6 +200,8 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
       spotlight:
         header: "Se sentir en confiance et communiquer avec impact. Quelle que soit la langue !"
         content: "Communiquer est le fait d'interagir avec autrui quelle que soit la langue. ATOLO s'y engage depuis de nombreuses années, avec succès, via ses formations générant de l’impact. N'apprenez pas une langue étrangère, oubliez que vous la parlez! Nos solutions sont conçues pour des besoins individuels ou en groupe. Les formats proposés prévoient des solutions de trajets courts ou longs ainsi que des approches plus intensives en immersion. Un impact durable est intégré dans nos objectifs fondamentaux."
+        online_text: "Contactez-nous pour en savoir plus sur nos solutions en ligne!"
+        contact_button: "Contactez-nous"
       products:
         title: "Nos Solutions en Langues"
         request: "Je veux en savoir plus"
