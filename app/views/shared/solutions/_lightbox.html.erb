@@ -65,6 +65,11 @@
               <button id="get-in-touch" class="small product-card-button next-product-card" ><%#= t('solutions.engagement.products.request') %></button>
             </div> -->
           </div>
+          <% if product.name == "Presenting with Impact" %>
+            <div style="display: flex; justify-content: flex-end;">
+              <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1586939151/saq.png", :alt => "image", :class => "", :style => "height: 200px;") %>
+            </div>
+          <% end %>
         </div>
       </div>
     </div>
