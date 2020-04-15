@@ -92,7 +92,7 @@ fr:
       spotlight:
         header: "Inspiring company cultures where people drive success!"
         content: "Nous vous invitons à créer une culture d'entreprise dans laquelle vos collaborateurs ressentent de la motivation, bénéficient d'un sentiment d'appartenance et génèrent de l'impact. Dans le monde d'aujourd'hui, l'environnement de travail nécessite une approche différente car les attentes de part et d'autre ont changé. Avec notre partenaire suédois, SelfLeaders, notre équipe de coachs certifiés facilite des workshops autour de l'engagement. Puissants et impactants à la fois, nos solutions sont modulaires, digitalement intégrées et conçues pour répondre à votre réalité. L'engagement de vos équipes est dès à présent à votre portée!"
-        online_text: "Contactez-nous pour en savoir plus sur nos solutions en ligne!"
+        online_text: "Contactez-nous pour en savoir plus sur nos solutions en ligne"
         contact_button: "Contactez-nous"
       products:
         title: "Nos Solutions en Engagement"
@@ -140,7 +140,7 @@ fr:
         header: "Great things happen when people communicate well!"
         content: "Une bonne communication est essentielle pour l'entreprise moderne. Oser communiquer quand cela est nécessaire, savoir déléguer, donner du feedback et communiquer des informations complexes de façon pertinente ne sont que quelques compétences permettant à une organisation engagée de croître.
 Nos solutions combinent coaching et formation dans un espace où les individus se reconnaissent d'abord pour ensuite mieux connecter avec autrui."
-        online_text: "Contactez-nous pour en savoir plus sur nos solutions en ligne!"
+        online_text: "Contactez-nous pour en savoir plus sur nos solutions en ligne"
         contact_button: "Contactez-nous"
       products:
         title: "Nos Solutions en Communication"
