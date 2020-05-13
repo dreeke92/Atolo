@@ -15,6 +15,7 @@ Rails.application.routes.draw do
     get 'training', to: "pages#solutions"
     get 'consultancy', to: "pages#solutions"
     get 'cookies', to: "pages#cookies"
+    get 'online', to: "pages#online"
 
     resources :products, only: [ :create, :new, :show, :update, :edit, :destroy, :index ]
     resources :messages, only: [ :create ]
