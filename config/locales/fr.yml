@@ -2,6 +2,7 @@ fr:
   navbar:
     home: "Accueil"
     solutions: "Nos solutions"
+    promotions: "Nos promotions"
     engagement_title: "Engagement"
     communication_title: "Communication"
     languages_title: "Langues"
@@ -15,6 +16,10 @@ fr:
   welcome:
     banner:
       engagement_caption: "Supporting organisations where people drive impact"
+      subtitle: "Continuons à apprendre cet été!"
+      subtitle_two_a: "Offrez des moments inspirants à vos collaborateurs"
+      subtitle_two_b: "Des trajets de développement en ligne et des bons cadeaux sont à votre disposition!"
+      call_to_action: "Découvrir"
       communication_caption: "Bien communiquer est fondamental"
       languages_caption: "Les compétences linguistiques: Une nécessité croissante"
     intro:
@@ -247,6 +252,17 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
       trainers:
         introduction_title: "Notre équipe de formateurs"
         text: "Nous avons le privilège de travailler avec une équipe de formateurs hautement compétente et passionnée. Ce sont tous des experts dans leur domaine d’activité et ils sont engagés à faire ressortir le meilleur de leurs apprenants et d’atteindre des résultats tangibles et durables pour vous, nos partenaires. Motivés et dédiés, ils représentent le cœur de notre organisation. C’est grâce à eux que nous sommes devenus une référence dans la formation professionnelle. Nous leurs sommes reconnaissants et nous sommes fiers de pouvoir compter sur leur capacité à former, à inspirer et à mener vos équipes dans le cadre de leurs trajets de formations."
+  promotions:
+    title: "Souhaitez-vous soutenir le développement de compétences au sein de vos équipes?"
+    subtitle: "Pourquoi ne pas leur offrir des moments d’apprentissages percutants cet été!"
+    content: "Tout le monde a fait preuve de résilience ces derniers mois et cet été risque de ne pas être comme les autres. Soutenons-les en proposant des solutions d’apprentissages courts, impactants et inspirants. Comment?"
+    solution_one:
+      content: "En les invitant à participer aux ‘Atolo Summer Classics’ (100% en ligne)"
+      call_to_action: "En savoir plus"
+    solution_two:
+      content: "En les surprenant avec un bon cadeau personnalisé"
+      call_to_action: "En savoir plus"
+    or: "Où"
   values:
     introduction_title: "Nos valeurs"
     introduction_text: "Nos valeurs dirigent notre engagement en interne et définissent notre comportement envers le monde extérieur. Le choix de ces valeurs s’est fait tant avec notre tête qu’avec notre coeur et toute l’équipe y a participé. Elles nous inspirent à les vivre et à les faire vivre, avec vous."

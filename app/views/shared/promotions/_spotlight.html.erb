@@ -1,0 +1,28 @@
+<section class="spotlight style2 orient-right content-align-left fullscreen onload-image-fade-in onload-content-fade-right">
+  <div class="content">
+    <h2 class="margin-top"><%= t("promotions.title") %></h2>
+    <h3 class="margin-top"><%= t("promotions.subtitle") %></h3>
+    <p class="major small-font  align-justify"><%= t("promotions.content") %></p>
+    <div class="solutions-box">
+      <div>
+        <p><%= t("promotions.solution_one.content") %></p>
+        <ul class="actions stacked">
+          <li><%= link_to t("promotions.solution_one.call_to_action"), asset_path(@classic, skip_pipeline: true), :class => "button primary wide" %></li>
+        </ul>
+      </div>
+      <div class="or-box">
+        <h3><%= t("promotions.or") %></h3>
+      </div>
+      <div>
+        <p><%= t("promotions.solution_two.content") %></p>
+        <ul class="actions stacked">
+          <li><%= link_to t("promotions.solution_two.call_to_action"), asset_path(@voucher, skip_pipeline: true), :class => "button primary wide" %></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="image">
+    <%#= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473839/people11.jpg", :alt => "image") %>
+    <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1589790836/Digital_2.jpg", :alt => "image") %>
+  </div>
+</section>

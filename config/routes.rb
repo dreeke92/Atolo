@@ -15,8 +15,8 @@ Rails.application.routes.draw do
     get 'training', to: "pages#solutions"
     get 'consultancy', to: "pages#solutions"
     get 'cookies', to: "pages#cookies"
-    get 'online', to: "pages#online"
-    get 'mockup', to: "pages#mock-up"
+    get 'promotions', to: "pages#promotions"
+    # get 'mockup', to: "pages#mock-up"
 
     resources :products, only: [ :create, :new, :show, :update, :edit, :destroy, :index ]
     resources :messages, only: [ :create ]

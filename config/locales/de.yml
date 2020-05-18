@@ -2,6 +2,7 @@ de:
   navbar:
     home: "Willkommen"
     solutions: "Unsere Lösungen"
+    promotions: "Unsere Aktionen"
     engagement_title: "Engagement"
     communication_title: "Kommunikation"
     languages_title: "Sprachen"
@@ -15,6 +16,10 @@ de:
   welcome:
     banner:
       engagement_caption: "Organisationen fördern, in denen Menschen Wirkung bestimmen"
+      subtitle: "Keep on learning this summer!"
+      subtitle_two_a: "How about offering your teams inspirational learning moments?"
+      subtitle_two_b: "From Online learning paths to Gift Vouchers to recognize and encourage your teams!"
+      call_to_action: "Discover our summer offer"
       communication_caption: "Grossartiges geschieht, wenn Menschen gut kommunizieren"
       languages_caption: "Sich wohl fühlen und mit Wirkung kommunizieren. Unabhängig von der Sprache!"
     intro:
@@ -239,6 +244,17 @@ de:
       trainers:
         introduction_title: "Unsere Trainer"
         text: "Wir haben das Glück mit einem hochqualifizierten und dynamischen Team von Trainern zusammenzuarbeiten. Alle sind Experten auf ihrem Gebiet und haben es sich zur Aufgabe gemacht, das Beste aus ihren Trainees herauszuholen und für Sie, unsere Partner, konkrete und nachhaltige Resultate zu erzielen. Mit ihrer Einsatzbereitschaft und ihrem Engagement repräsentieren sie den Kern dessen, was ATOLO heute ist und wofür wir stehen. Wir sind allen unseren Trainern dankbar und sind stolz darauf, mit ihren Kompetenzen rechnen zu können, welche es ihnen erlauben Ihre Mitarbeiter während des Projektes zu trainieren, zu inspirieren und zu motivieren."
+  promotions:
+    title: "In need of Summertime inspiration for your teams?"
+    subtitle: "How about offering inspirational learning moments?"
+    content: "Everyone has made huge efforts these past months. We recognize this at Atolo and wish to support your teams by offering short, impactful and inspiring learning solutions this Summer. How?"
+    solution_one:
+      content: "By inviting them to take part in the Atolo Summer Classics (fully online)"
+      call_to_action: "Learn more"
+    solution_two:
+      content: "By surprising them with a gift voucher for a personalized learning moment"
+      call_to_action: "Learn more"
+    or: "OR"
   values:
     introduction_title: "Unsere Werte"
     introduction_text: "Unsere Werte steuern unser Engagement von innen heraus und definieren zugleich unser Verhalten nach aussen. Wir haben unsere Werte mit Herz und Verstand gewählt - das ganze Team war mit dabei. Diese Werte inspirieren uns nach gewissen Prinzipien zu leben und Ihnen diese ebenfalls näher zu bringen."

@@ -2,6 +2,7 @@ en:
   navbar:
     home: "Home"
     solutions: "Our solutions"
+    promotions: "Our promotions"
     engagement_title: "Engagement"
     communication_title: "Communication"
     languages_title: "Languages"
@@ -15,6 +16,10 @@ en:
   welcome:
     banner:
       engagement_caption: "Supporting organisations where people drive impact"
+      subtitle: "Keep on learning this summer!"
+      subtitle_two_a: "How about offering your teams inspirational learning moments?"
+      subtitle_two_b: "From Online learning paths to Gift Vouchers to recognize and encourage your teams!"
+      call_to_action: "Discover our summer offer"
       communication_caption: "Great things happen when people communicate well"
       languages_caption: "Feeling good and communicating with impact. Whatever the language!"
     intro:
@@ -246,6 +251,17 @@ en:
       trainers:
         introduction_title: "Our trainers"
         text: "We are privileged to be working with a highly skilled and passionate team of trainers. They are all experts in their field and committed to bringing out the best in their trainees and reaching tangible and sustainable results for you, our partners. Engaged and dedicated to their work, they represent the core of what makes ATOLO the organization it is today. We are grateful to all of them and we are proud to be able to count on their capacity to train, inspire and lead your teams during the missions at your organization."
+  promotions:
+    title: "In need of Summertime inspiration for your teams?"
+    subtitle: "How about offering inspirational learning moments?"
+    content: "Everyone has made huge efforts these past months. We recognize this at Atolo and wish to support your teams by offering short, impactful and inspiring learning solutions this Summer. How?"
+    solution_one:
+      content: "By inviting them to take part in the Atolo Summer Classics (fully online)"
+      call_to_action: "Learn more"
+    solution_two:
+      content: "By surprising them with a gift voucher for a personalized learning moment"
+      call_to_action: "Learn more"
+    or: "OR"
   values:
     introduction_title: "Our values"
     introduction_text: "Our values are what drives us from within and what defines how we behave towards the outside world. They were chosen with our soul as well as our head, by the whole team. They inspire us to live them and to make you live them too."

@@ -2,6 +2,7 @@ nl:
   navbar:
     home: "Home"
     solutions: "Ons aanbod"
+    promotions: "Onze promoties"
     engagement_title: "Engagement"
     communication_title: "Communicatie"
     languages_title: "Talen"
@@ -15,6 +16,10 @@ nl:
   welcome:
     banner:
       engagement_caption: "Supporting organisations where people drive impact"
+      subtitle: "Blijf ook deze zomer leren!"
+      subtitle_two_a: "Bied jou team inspirerende leermomenten aan"
+      subtitle_two_b: "Van online leertrajecten tot Gift vouchers om jou team te erkennen en aan te moedigen"
+      call_to_action: "Ontdek ons zomeraanbod"
       communication_caption: "Great things happen when people communicate well"
       languages_caption: "Feeling good and communicating with impact. Whatever the language!"
     intro:
@@ -241,6 +246,17 @@ nl:
       trainers:
         introduction_title: "Onze trainers"
         text: "We hebben het grote geluk te mogen werken met een professioneel en gepassioneerd trainersteam. Het zijn allemaal experts in hun vakgebied.  Maar bovenal zijn ze geëngageerd, enthousiast en toegewijd.  Ze halen het beste uit hun deelnemers naar boven. Ze gaan voor tastbare en duurzame resultaten voor jullie, onze partners. Zij maken Atolo tot wat Atolo vandaag is. We zijn elk van hen dankbaar en we zijn trots dat we mogen rekenen op hun vermogen om hun deelnemers te begeleiden, te motiveren en te inspireren tijdens hun missies in jullie organisaties."
+  promotions:
+    title: "Heeft jouw team nood aan inspiratie deze zomer?"
+    subtitle: "Bied hen inspirerende leermomenten aan!"
+    content: "Iedereen heeft zijn steentje bijgedragen deze laatste maanden. Wij erkennen deze inzet bij Atolo and hopen jouw team deze zomer te kunnen ondersteunen met korte, krachtige en inspirerende oplossingen. Hoe?"
+    solution_one:
+      content: "Door hen uit te nodigen voor de Atolo Zomer Classics (volledig online)"
+      call_to_action: "Ontdek meer"
+    solution_two:
+      content: "Door hen te verrassen met een persoonlijke gift voucher for een gepersonaliseerd leertraject"
+      call_to_action: "Ontdek meer"
+    or: "OF"
   values:
     introduction_title: "Onze waarden"
     introduction_text: "Onze waarden zijn ons kompas. Ze stimuleren ons engagement binnenshuis en zijn tegelijkertijd onze leidraad voor hoe we met de buitenwereld in interactie gaan. We kozen ze, samen met het hele team, met ons hoofd en met ons hart. Ze inspireren ons, ze nodigen ons uit om ernaar te leven en om ze samen met jullie te beleven."

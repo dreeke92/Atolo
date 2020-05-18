@@ -15,4 +15,22 @@ class PagesController < ApplicationController
     redirect_to root_path, notice: "Sorry, this route does not exist."
   end
 
+  def promotions
+    if locale == :en
+      @voucher = "voucher_en.pdf"
+      @classic = "classic_en.pdf"
+    elsif locale == :fr
+      @voucher = "voucher_fr.pdf"
+      @classic = "classic_fr.pdf"
+    elsif locale == :nl
+      @voucher = "voucher_nl.pdf"
+      @classic = "classic_nl.pdf"
+    elsif locale == :de
+      @voucher = "voucher_de.pdf"
+      @classic = "classic_de.pdf"
+    else
+      @voucher == "voucher_en.pdf"
+      @classic = "classic_en.pdf"
+    end
+  end
 end
