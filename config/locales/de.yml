@@ -16,10 +16,10 @@ de:
   welcome:
     banner:
       engagement_caption: "Organisationen fördern, in denen Menschen Wirkung bestimmen"
-      subtitle: "Keep on learning this summer!"
-      subtitle_two_a: "How about offering your teams inspirational learning moments?"
-      subtitle_two_b: "From Online learning paths to Gift Vouchers to recognize and encourage your teams!"
-      call_to_action: "Discover our summer offer"
+      subtitle: "Lassen Sie uns diesen Sommer weiter lernen!"
+      subtitle_two_a: "Bieten Sie Ihren Mitarbeitern inspirierende Momente"
+      subtitle_two_b: "Online-Entwicklungsmöglichkeiten und Geschenkgutscheine stehen Ihnen zur Verfügung"
+      call_to_action: "Erfahren Sie mehr"
       communication_caption: "Grossartiges geschieht, wenn Menschen gut kommunizieren"
       languages_caption: "Sich wohl fühlen und mit Wirkung kommunizieren. Unabhängig von der Sprache!"
     intro:
@@ -245,15 +245,15 @@ de:
         introduction_title: "Unsere Trainer"
         text: "Wir haben das Glück mit einem hochqualifizierten und dynamischen Team von Trainern zusammenzuarbeiten. Alle sind Experten auf ihrem Gebiet und haben es sich zur Aufgabe gemacht, das Beste aus ihren Trainees herauszuholen und für Sie, unsere Partner, konkrete und nachhaltige Resultate zu erzielen. Mit ihrer Einsatzbereitschaft und ihrem Engagement repräsentieren sie den Kern dessen, was ATOLO heute ist und wofür wir stehen. Wir sind allen unseren Trainern dankbar und sind stolz darauf, mit ihren Kompetenzen rechnen zu können, welche es ihnen erlauben Ihre Mitarbeiter während des Projektes zu trainieren, zu inspirieren und zu motivieren."
   promotions:
-    title: "In need of Summertime inspiration for your teams?"
-    subtitle: "How about offering inspirational learning moments?"
-    content: "Everyone has made huge efforts these past months. We recognize this at Atolo and wish to support your teams by offering short, impactful and inspiring learning solutions this Summer. How?"
+    title: "Möchten Sie die Kompetenzentwicklung innerhalb Ihrer Teams unterstützen?"
+    subtitle: "Bieten Sie ihnen doch diesen Sommer wirkungsvolle Lernmomente!"
+    content: "In den vergangenen Monaten haben wir alle Resilienz gezeigt, und dieser Sommer wird wahrscheinlich nicht wie die anderen verlaufen. Lassen Sie uns Ihre Teams mit kurzen, wirkungsvollen und inspirierenden Lernlösungen unterstützen. Und wie funktioniert das?"
     solution_one:
-      content: "By inviting them to take part in the Atolo Summer Classics (fully online)"
-      call_to_action: "Learn more"
+      content: "Indem Sie Ihre Teams zur Teilnahme an den 'Atolo Summer Classics' (100% online) einladen."
+      call_to_action: "Mehr darüber erfahren"
     solution_two:
-      content: "By surprising them with a gift voucher for a personalized learning moment"
-      call_to_action: "Learn more"
+      content: "Indem Sie sie mit einem personalisierten Geschenkgutschein überraschen"
+      call_to_action: "Mehr darüber erfahren"
     or: "OR"
   values:
     introduction_title: "Unsere Werte"
