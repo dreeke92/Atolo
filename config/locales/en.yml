@@ -3,7 +3,7 @@ en:
     home: "Home"
     solutions: "Our solutions"
     promotions: "Our promotions"
-    engagement_title: "Engagement"
+    engagement_title: "Self-Leadership"
     communication_title: "Communication"
     languages_title: "Languages"
     values: "Our values"
@@ -27,7 +27,7 @@ en:
       text_one: "Together, we help you create a culture where your people are the main drivers of success."
       text_two: "A place where your teams are engaged and have the necessary skills to turn their engagement into impact for your organisation."
       cards:
-        engagement_title: "Engagement"
+        engagement_title: "Self-Leadership"
         engagement_sub_title: "Values in action"
         engagement_content: "Connecting people to their intrinsic values to create a culture where people feel motivated, enjoy a sense of belonging and have an impact."
         communication_title: "Communication"
@@ -93,7 +93,7 @@ en:
     discover-button: "Discover our offer"
     our-offer: "Our product offer"
     engagement:
-      title: "Engagement"
+      title: "Self-Leadership"
       spotlight:
         header: "Inspiring company cultures where people drive success!"
         content: "Creating a culture where people live their values, enjoy a sense of belonging and drive success. In today’s world, the workplace needs a different approach because what you expect from your people and what they expect from you has changed. A certified and experienced team of experts deliver powerful engagement workshops designed together with our Swedish partners at Selfleaders. Our modular approach and the use of digitalisation provides you with solutions no matter your size or needs. Engagement is now at the reach of all organisations!"
