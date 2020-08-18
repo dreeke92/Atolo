@@ -3,7 +3,7 @@ fr:
     home: "Accueil"
     solutions: "Nos solutions"
     promotions: "Nos promotions"
-    engagement_title: "Self-Leadership"
+    engagement_title: "Engagement"
     communication_title: "Communication"
     languages_title: "Langues"
     values: "Nos valeurs"
@@ -27,7 +27,7 @@ fr:
       text_one: "Ensemble, nous instillons une culture d'entreprise où les individus sont les principaux vecteurs de votre succès."
       text_two: "Un lieu où vos équipes sont engagées et où elles disposent des compétences nécessaires pour transformer cet engagement en impact pour votre organisation."
       cards:
-        engagement_title: "Self-Leadership"
+        engagement_title: "Engagement"
         engagement_sub_title: "Valeurs en Action"
         engagement_content: "Nous facilitons le lien entre les individus et leurs valeurs intrinsèques permettant de soutenir une culture d’entreprise dans laquelle vos équipes sont motivées, bénéficient d’un sentiment d’appartenance et génèrent de l’impact."
         communication_title: "Communication"
@@ -93,7 +93,7 @@ fr:
     discover-button: "Discover our offer"
     our-offer: "Nos solutions"
     engagement:
-      title: "Self-Leadership"
+      title: "Engagement"
       spotlight:
         header: "Inspiring company cultures where people drive success!"
         content: "Nous vous invitons à créer une culture d'entreprise dans laquelle vos collaborateurs ressentent de la motivation, bénéficient d'un sentiment d'appartenance et génèrent de l'impact. Dans le monde d'aujourd'hui, l'environnement de travail nécessite une approche différente car les attentes de part et d'autre ont changé. Avec notre partenaire suédois, SelfLeaders, notre équipe de coachs certifiés facilite des workshops autour de l'engagement. Puissants et impactants à la fois, nos solutions sont modulaires, digitalement intégrées et conçues pour répondre à votre réalité. L'engagement de vos équipes est dès à présent à votre portée!"
