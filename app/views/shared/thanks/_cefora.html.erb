@@ -1,14 +1,17 @@
 <section class="spotlight style2 orient-right content-align-left fullscreen onload-image-fade-in onload-content-fade-right">
   <div class="content">
-      <h2 class="margin-top">Thank you Cefora</h2>
-      <p>This is gonna be text</p>
-
-      <% if mobile_device == "mobile" %>
-        <%= get_vimeo_iframe('https://vimeo.com/149171749', '280px' , '158px') %>
-      <% elsif mobile_device == "tablet" %>
-        <%= get_vimeo_iframe('https://vimeo.com/149171749', '560px' , '316px') %>
-      <% else %>
-        <%= get_vimeo_iframe('https://vimeo.com/149171749', '1120px' , '632px') %>
-      <% end %>
+      <div style="text-align: center;">
+        <div>
+          <h2 class="margin-top">Thank you Cefora</h2>
+          <p>This is gonna be text</p>
+        </div>
+        <% if mobile_device == "mobile" %>
+          <%= get_vimeo_iframe('https://vimeo.com/149171749', '280px' , '158px') %>
+        <% elsif mobile_device == "tablet" %>
+          <%= get_vimeo_iframe('https://vimeo.com/149171749', '560px' , '316px') %>
+        <% else %>
+          <%= get_vimeo_iframe('https://vimeo.com/149171749', '712px' , '402px') %>
+        <% end %>
+      </div>
   </div>
 </section>
