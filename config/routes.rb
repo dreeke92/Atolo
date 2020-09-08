@@ -16,7 +16,7 @@ Rails.application.routes.draw do
     get 'consultancy', to: "pages#solutions"
     get 'cookies', to: "pages#cookies"
     get 'promotions', to: "pages#promotions"
-    # get 'thank_you', to: "pages#thank_you"
+    get 'thank_you', to: "pages#thank_you"
     # get 'mockup', to: "pages#mock-up"
 
     resources :products, only: [ :create, :new, :show, :update, :edit, :destroy, :index ]
