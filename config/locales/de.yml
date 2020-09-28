@@ -416,3 +416,53 @@ de:
     message: "Mitteilung"
     human: "Ich bin ein Mensch und kein Roboter"
     send: "Mitteilung senden"
+  events:
+    event_one:
+      title: "The virtual communicator"
+      paragraph_one: "Does most of your communication take place online? Feel that it lacks dynamism? Been told that your voice is too monotonous? Find it difficult to connect at the human level? To motivate, inspire or obtain buy-in?"
+      paragraph_two: "Receive tips from deep experts in communication with many years of experience on the field during a dynamic webinar! During this webinar, you will:"
+      bullet_one: "Explore how it all starts with mindset, focus and attitude. Although the medium is digital, communication will always remain 100% human."
+      bullet_two: "Work on your Virtual Presence: get tips and tricks on how to transmit your message and be present in the moment."
+      bullet_three: "Discover techniques to increase interaction and add dynamism to your meetings, presentations and webinars."
+      info:
+        title_one: "when"
+        content_one: "27/10/2020 from 12.00 to 13.30"
+        title_two: "where"
+        content_two: "Zoom"
+        title_three: "language"
+        content_three: "English"
+        title_four: "cost"
+        content_four: "Free (if more than two individuals from the same company would like to join, contact us)"
+    event_two:
+      title: "Strengths in action"
+      paragraph_one: "Ready to experience during your lunchtime an activity to help you increase Resilience and Self- Leadership in your people? Would you like to see how it can create a positive team environment? Where people are giving each other constructive feedback?"
+      paragraph_two: "During this one-hour session, you will experience a simple and practical exercise that helps you to achieve these goals."
+      bullet_one:
+      bullet_two:
+      bullet_three:
+      info:
+        title_one: "when"
+        content_one: "20/11/2020 from 12.00 to 13.00"
+        title_two: "where"
+        content_two: "Zoom"
+        title_three: "language"
+        content_three: "English"
+        title_four: "cost"
+        content_four: "Free (if more than two individuals from the same company would like to join, contact us)"
+    event_three:
+      title: "Talking business to business"
+      paragraph_one: "Finding it hard getting buy in from senior management? Are you being told that you get lost in the details or that you cannot translate what you have done into their language?"
+      paragraph_two: "During this this dynamic 90 minute webinar, you will learn about and apply our 4 step approach to increase the impact of your communication strategy."
+      bullet_one:
+      bullet_two:
+      bullet_three:
+      info:
+        title_one: "when"
+        content_one: "04/12/2020 from 12.00 to 13.30"
+        title_two: "where"
+        content_two: "Zoom"
+        title_three: "language"
+        content_three: "English"
+        title_four: "cost"
+        content_four: "Free (if more than two individuals from the same company would like to join, contact us)"
+    register: "Register here"

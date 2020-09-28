@@ -66,3 +66,72 @@
   .offer-pages{
     box-shadow: inset 0 0 0 0 rgba(255, 255, 255, 0.125);
   }
+
+
+/* Tabs for events */
+
+.event-container{
+  margin-top: 72px;
+}
+
+.event-tabs{
+  display: flex;
+  max-width: 100%;
+}
+
+.event-tab{
+  cursor: pointer;
+}
+
+/* Offer Box */
+
+  .event-box {
+
+    margin-bottom: 0rem;
+    padding: 0.5rem;
+    width: calc(100%  /3);
+    // border-left: 1px solid rgba(0, 0, 0, 0.075);
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  }
+
+    .event-box > :last-child,
+    .event-box > :last-child > :last-child,
+    .event-box > :last-child > :last-child > :last-child {
+      margin-bottom: 0;
+    }
+
+    .event-box.alt {
+      border: 0;
+      border-radius: 0;
+      padding: 0;
+    }
+
+  .event-box {
+    // box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, 0.2);
+    a:link {
+      text-decoration: none;
+    }
+  }
+
+  .event-box.active{
+    color: $atolo-green;
+    font-weight: 700;
+    border-bottom: 2px solid $atolo-green;
+    a {
+      color: $atolo-green;
+      font-weight: 700;
+      border-bottom: 2px solid $atolo-green;
+    }
+  }
+
+  .event-box:hover{
+    // border-bottom: 2px solid $atolo-green;
+    a, p {
+      color: $atolo-green;
+    }
+  }
+
+  .event-pages{
+    box-shadow: inset 0 0 0 0 rgba(255, 255, 255, 0.125);
+  }

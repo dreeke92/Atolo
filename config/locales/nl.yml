@@ -418,4 +418,53 @@ nl:
     message: "Bericht"
     human: "Ik ben een mens en geen robot"
     send: "Verstuur"
-
+  events:
+    event_one:
+      title: "The virtual communicator"
+      paragraph_one: "Gaat je communicatie nu vooral online door? Voel je dat je minder dynamisch bent? Krijg je de feedback dat je stem te monotoon klinkt? Vind je het moeilijk om gewoon jezelf te zijn online? Om te motiveren, te inspireren?"
+      paragraph_two: "Krijg tips van onze communicatie experts gedurende deze dynamische webinar hoe je virtueel met impact kan communiceren. Wat je alvast kan verwachten:"
+      bullet_one: "Ontdek hoe het allemaal rond mindset, focus en attitude draait. Hoewel het medium virtueel is, communiceren blijft 100% menselijk."
+      bullet_two: "Werk op je virtuele aanwezigheid: krijg tips en tricks hoe je best je boodschap overbrengt."
+      bullet_three: "•  Leer verschillende technieken die dynamiek en interactie toevoegen aan je meetings, presentaties en webinars."
+      info:
+        title_one: "Wanneer"
+        content_one: "27/10/2020 van 12.00 tot 13.30"
+        title_two: "Waar"
+        content_two: "Zoom"
+        title_three: "Taal"
+        content_three: "Engels"
+        title_four: "Kostprijs"
+        content_four: "Gratis (indien meer dan 2 werknemers van hetzelfde bedrijf willen deelnemen, contacteer ons)"
+    event_two:
+      title: "Strengths in action"
+      paragraph_one: "Klaar om tijdens je lunchpauze te ontdekken hoe je veerkracht en zelfleiderschap kan ontwikkelen in je team via een praktische oefening? Zou je graag zelf meemaken hoe je een positieve teamomgeving creëert? Waar mensen elkaar constructieve feedback geven?"
+      paragraph_two: "Ontdek het in onze lunchworkshop Strenghts in Action. "
+      bullet_one:
+      bullet_two:
+      bullet_three:
+      info:
+        title_one: "Wanneer"
+        content_one: "20/11/2020 van 12.00 tot 13.00"
+        title_two: "Waar"
+        content_two: "Zoom"
+        title_three: "Taal"
+        content_three: "Engels"
+        title_four: "Kostprijs"
+        content_four: "Gratis (indien meer dan 2 werknemers van hetzelfde bedrijf willen deelnemen, contacteer ons)"
+    event_three:
+      title: "Talking business to business"
+      paragraph_one: "Vind je het moeilijk om buy-in te verkrijgen bij je management? Kreeg je de feedback dat je te veel opgaat in de details? Hebje het gevoel dat je je werk niet vertaald krijgt naar de business?"
+      paragraph_two: "Gedurende deze dynamische webinar van 90 minuten, leer en pas je onze 4-delige stappenplan toe om zo de impact van je communicatie te verhogen."
+      bullet_one:
+      bullet_two:
+      bullet_three:
+      info:
+        title_one: "Wanneer"
+        content_one: "04/12/2020 van 12.00 tot 13.30"
+        title_two: "Waar"
+        content_two: "Zoom"
+        title_three: "Taal"
+        content_three: "Engels"
+        title_four: "Kostprijs"
+        content_four: "Gratis (indien meer dan 2 werknemers van hetzelfde bedrijf willen deelnemen, contacteer ons)"
+    register: "Schrijf je hier in"
