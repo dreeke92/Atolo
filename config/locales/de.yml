@@ -12,6 +12,7 @@ de:
     whereto: "Unsere Büros"
     probono: "Pro bono"
     contact: "Kontakt"
+    events: "Our events"
   footer:
   welcome:
     banner:
@@ -22,6 +23,8 @@ de:
       call_to_action: "Erfahren Sie mehr"
       communication_caption: "Grossartiges geschieht, wenn Menschen gut kommunizieren"
       languages_caption: "Sich wohl fühlen und mit Wirkung kommunizieren. Unabhängig von der Sprache!"
+      discover_text: "Entdecken Sie unsere kommenden Veranstaltungen und melden Sie sich an!"
+      discover_button: "Entdecken"
     intro:
       title: "Ihre Welt"
       text_one: "Zusammen können wir eine Kultur schaffen, in der Ihre Mitarbeiter die wichtigsten Antriebskräfte für Erfolg sind."

@@ -12,6 +12,7 @@ nl:
     whereto: "Waar vind je ons?"
     probono: "Pro bono"
     contact: "Contact"
+    events: "Our events"
   footer:
   welcome:
     banner:
@@ -22,6 +23,8 @@ nl:
       call_to_action: "Ontdek ons zomeraanbod"
       communication_caption: "Great things happen when people communicate well"
       languages_caption: "Feeling good and communicating with impact. Whatever the language!"
+      discover_text: "Ontdek onze evenementen en schrijf u in!"
+      discover_button: "Ontdek"
     intro:
       title: "Jouw wereld"
       text_one: "Samen creëren we een bedrijfscultuur waar het de mensen zelf zijn die zorgen voor succes."
@@ -425,7 +428,7 @@ nl:
       paragraph_two: "Krijg tips van onze communicatie experts gedurende deze dynamische webinar hoe je virtueel met impact kan communiceren. Wat je alvast kan verwachten:"
       bullet_one: "Ontdek hoe het allemaal rond mindset, focus en attitude draait. Hoewel het medium virtueel is, communiceren blijft 100% menselijk."
       bullet_two: "Werk op je virtuele aanwezigheid: krijg tips en tricks hoe je best je boodschap overbrengt."
-      bullet_three: "•  Leer verschillende technieken die dynamiek en interactie toevoegen aan je meetings, presentaties en webinars."
+      bullet_three: "Leer verschillende technieken die dynamiek en interactie toevoegen aan je meetings, presentaties en webinars."
       info:
         title_one: "Wanneer"
         content_one: "27/10/2020 van 12.00 tot 13.30"

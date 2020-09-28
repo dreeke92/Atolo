@@ -12,6 +12,7 @@ fr:
     whereto: "Où nous trouver"
     probono: "Pro bono"
     contact: "Contact"
+    events: "Our events"
   footer:
   welcome:
     banner:
@@ -22,6 +23,8 @@ fr:
       call_to_action: "Découvrir"
       communication_caption: "Bien communiquer est fondamental"
       languages_caption: "Les compétences linguistiques: Une nécessité croissante"
+      discover_text: "Découvrez nos prochains événements et inscrivez-vous!"
+      discover_button: "Décrouvez"
     intro:
       title: "Votre monde"
       text_one: "Ensemble, nous instillons une culture d'entreprise où les individus sont les principaux vecteurs de votre succès."
