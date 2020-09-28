@@ -5,19 +5,19 @@
     <div class="offer-tabs">
       <div id="offer-engagement" class="offer-box offer-tab">
         <a href="#the-virtual-communicator" class="smooth-scroll">
-          <p>The virtual communicator</p>
+          <p><%= t('events.event_one.title') %></p>
         </a>
       </div>
 
       <div id="offer-communication" class="offer-box offer-tab">
         <a href="#strengths-in-action" class="smooth-scroll">
-          <p>Strengths in action</p>
+          <p><%= t('events.event_two.title') %></p>
         </a>
       </div>
 
       <div id="offer-languages" class="offer-box offer-tab">
         <a href="#talking-business-to-business" class="smooth-scroll">
-          <p>Talking business to business</p>
+          <p><%= t('events.event_three.title') %></p>
         </a>
       </div>
     </div>
@@ -27,70 +27,82 @@
 <div id="wrapper" class="divided">
   <section id="the-virtual-communicator"class="spotlight style2 orient-right content-align-left fullscreen onload-image-fade-in onload-content-fade-right">
     <div class="content">
-      <h2 class="margin-top">The virtual communicator</h2>
-      <p class="align-justify">Does most of your communication take place online? Feel that it lacks dynamism? Been told that your voice is too monotonous? Find it difficult to connect at the human level? To motivate, inspire or obtain buy-in?</br>
-      Receive tips from deep experts in communication with many years of experience on the field during a dynamic webinar! During this webinar, you will:</p>
-      <ul>
-        <li>Explore how it all starts with mindset, focus and attitude. Although the medium is digital, communication will always remain 100% human.</li>
-        <li>Work on your Virtual Presence: get tips and tricks on how to transmit your message and be present in the moment.</li>
-        <li>Discover techniques to increase interaction and add dynamism to your meetings, presentations and webinars</li>
-      </ul>
-      <p><strong>when</strong>: 27/10/2020 from 12 to 13.30 </br>
-      <strong>where</strong>: Zoom </br>
-      <strong>language</strong>: English </br>
-      <strong>cost</strong>: Free (if more than two individuals from the same company would like to join, contact us)
+      <h2 class="margin-top"><%= t('events.event_one.title') %></h2>
+      <p class="align-justify">
+        <%= t('events.event_one.paragraph_one') %>
+      </br>
+        <%= t('events.event_one.paragraph_two') %>
       </p>
-      <%= link_to 'Register here', contact_path, :class => "button primary" %>
+      <ul>
+        <li><%= t('events.event_one.bullet_one') %></li>
+        <li><%= t('events.event_one.bullet_two') %></li>
+        <li><%= t('events.event_one.bullet_three') %></li>
+      </ul>
+      <p>
+        <strong><%= t('events.event_one.info.title_one') %></strong>: <%= t('events.event_one.info.content_one') %>
+      </br>
+        <strong><%= t('events.event_one.info.title_two') %></strong>: <%= t('events.event_one.info.content_two') %>
+      </br>
+        <strong><%= t('events.event_one.info.title_three') %></strong>: <%= t('events.event_one.info.content_three') %>
+      </br>
+        <strong><%= t('events.event_one.info.title_four') %></strong>: <%= t('events.event_one.info.content_four') %>
+      </br>
+      </p>
+      <%= link_to t('events.register'), contact_path, :class => "button primary" %>
     </div>
     <div class="image">
       <%#= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473839/people11.jpg", :alt => "image") %>
-      <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1601282650/event_1.jpg", :alt => "image") %>
+      <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1601282649/event_4.jpg", :alt => "image") %>
     </div>
   </section>
   <section id="strengths-in-action" class="spotlight style2 orient-left content-align-left fullscreen onload-image-fade-in onload-content-fade-right">
-  <div class="content">
-    <h2 class="margin-top">The virtual communicator</h2>
-    <p class="align-justify">Does most of your communication take place online? Feel that it lacks dynamism? Been told that your voice is too monotonous? Find it difficult to connect at the human level? To motivate, inspire or obtain buy-in?</br>
-    Receive tips from deep experts in communication with many years of experience on the field during a dynamic webinar! During this webinar, you will:</p>
-    <ul>
-      <li>Explore how it all starts with mindset, focus and attitude. Although the medium is digital, communication will always remain 100% human.</li>
-      <li>Work on your Virtual Presence: get tips and tricks on how to transmit your message and be present in the moment.</li>
-      <li>Discover techniques to increase interaction and add dynamism to your meetings, presentations and webinars</li>
-    </ul>
-    <p><strong>when</strong>: 27/10/2020 from 12 to 13.30 </br>
-    <strong>where</strong>: Zoom </br>
-    <strong>language</strong>: English </br>
-    <strong>cost</strong>: Free (if more than two individuals from the same company would like to join, contact us)
-    </p>
-    <%= link_to 'Register here', contact_path, :class => "button primary" %>
-  </div>
+    <div class="content">
+      <h2 class="margin-top"><%= t('events.event_two.title') %></h2>
+      <p class="align-justify">
+        <%= t('events.event_two.paragraph_one') %>
+      </br>
+        <%= t('events.event_two.paragraph_two') %>
+      </p>
+      <p>
+        <strong><%= t('events.event_two.info.title_one') %></strong>: <%= t('events.event_two.info.content_one') %>
+      </br>
+        <strong><%= t('events.event_two.info.title_two') %></strong>: <%= t('events.event_two.info.content_two') %>
+      </br>
+        <strong><%= t('events.event_two.info.title_three') %></strong>: <%= t('events.event_two.info.content_three') %>
+      </br>
+        <strong><%= t('events.event_two.info.title_four') %></strong>: <%= t('events.event_two.info.content_four') %>
+      </br>
+      </p>
+      <%= link_to t('events.register'), contact_path, :class => "button primary" %>
+    </div>
   <div class="image">
     <%#= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473839/people11.jpg", :alt => "image") %>
-    <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1601282649/event_3.jpg", :alt => "image") %>
+    <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1601282650/event_1.jpg", :alt => "image") %>
   </div>
 </section>
   <section id="talking-business-to-business" class="spotlight style2 orient-right content-align-left fullscreen onload-image-fade-in onload-content-fade-right">
-  <div class="content">
-    <h2 class="margin-top">The virtual communicator</h2>
-    <p class="align-justify">Does most of your communication take place online? Feel that it lacks dynamism? Been told that your voice is too monotonous? Find it difficult to connect at the human level? To motivate, inspire or obtain buy-in?</br>
-    Receive tips from deep experts in communication with many years of experience on the field during a dynamic webinar! During this webinar, you will:</p>
-    <ul>
-      <li>Explore how it all starts with mindset, focus and attitude. Although the medium is digital, communication will always remain 100% human.</li>
-      <li>Work on your Virtual Presence: get tips and tricks on how to transmit your message and be present in the moment.</li>
-      <li>Discover techniques to increase interaction and add dynamism to your meetings, presentations and webinars</li>
-    </ul>
-    <p><strong>when</strong>: 27/10/2020 from 12 to 13.30 </br>
-    <strong>where</strong>: Zoom </br>
-    <strong>language</strong>: English </br>
-    <strong>cost</strong>: Free (if more than two individuals from the same company would like to join, contact us)
-    </p>
-    <%= link_to 'Register here', contact_path, :class => "button primary" %>
-  </div>
+    <div class="content">
+      <h2 class="margin-top"><%= t('events.event_three.title') %></h2>
+      <p class="align-justify">
+        <%= t('events.event_three.paragraph_one') %>
+      </br>
+        <%= t('events.event_three.paragraph_two') %>
+      </p>
+      <p>
+        <strong><%= t('events.event_three.info.title_one') %></strong>: <%= t('events.event_three.info.content_one') %>
+      </br>
+        <strong><%= t('events.event_three.info.title_two') %></strong>: <%= t('events.event_three.info.content_two') %>
+      </br>
+        <strong><%= t('events.event_three.info.title_three') %></strong>: <%= t('events.event_three.info.content_three') %>
+      </br>
+        <strong><%= t('events.event_three.info.title_four') %></strong>: <%= t('events.event_three.info.content_four') %>
+      </br>
+      </p>
+      <%= link_to t('events.register'), contact_path, :class => "button primary" %>
+    </div>
   <div class="image">
     <%#= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473839/people11.jpg", :alt => "image") %>
-    <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1601282649/event_4.jpg", :alt => "image") %>
+    <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1601286743/yellow_dude.jpg", :alt => "image") %>
   </div>
 </section>
 </div>
-
-
