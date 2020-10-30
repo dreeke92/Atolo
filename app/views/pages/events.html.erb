@@ -3,11 +3,7 @@
 <section>
   <div class="content event-container align-center">
     <div class="event-tabs">
-      <div id="" class="event-box event-tab">
-        <a href="#the-virtual-communicator" class="smooth-scroll">
-          <p><%= t('events.event_one.title') %></p>
-        </a>
-      </div>
+
 
       <div id="" class="event-box event-tab">
         <a href="#strengths-in-action" class="smooth-scroll">
@@ -20,12 +16,69 @@
           <p><%= t('events.event_three.title') %></p>
         </a>
       </div>
+
+      <div id="" class="event-box event-tab">
+        <a href="#the-virtual-communicator" class="smooth-scroll">
+          <p><%= t('events.event_one.title') %></p>
+        </a>
+      </div>
+
     </div>
   </div>
 </section>
 
 <div id="wrapper" class="divided">
-  <section id="the-virtual-communicator"class="spotlight style2 orient-right content-align-left fullscreen onload-image-fade-in onload-content-fade-right">
+  <section id="strengths-in-action" class="spotlight style2 orient-right content-align-left fullscreen onload-image-fade-in onload-content-fade-right">
+    <div class="content">
+      <h2 class="margin-top"><%= t('events.event_two.title') %></h2>
+      <p class="align-justify">
+        <%= t('events.event_two.paragraph_one') %>
+      </br>
+        <%= t('events.event_two.paragraph_two') %>
+      </p>
+      <p>
+        <strong><%= t('events.event_two.info.title_one') %></strong>: <%= t('events.event_two.info.content_one') %>
+      </br>
+        <strong><%= t('events.event_two.info.title_two') %></strong>: <%= t('events.event_two.info.content_two') %>
+      </br>
+        <strong><%= t('events.event_two.info.title_three') %></strong>: <%= t('events.event_two.info.content_three') %>
+      </br>
+        <strong><%= t('events.event_two.info.title_four') %></strong>: <%= t('events.event_two.info.content_four') %>
+      </br>
+      </p>
+      <%= link_to t('events.register'), "https://www.eventbrite.be/e/strenghts-in-action-registration-122225274085?ref=elink", :class => "button primary", target: '_blank' %>
+    </div>
+  <div class="image">
+    <%#= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473839/people11.jpg", :alt => "image") %>
+    <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1601282650/event_1.jpg", :alt => "image") %>
+  </div>
+</section>
+  <section id="talking-business-to-business" class="spotlight style2 orient-left content-align-left fullscreen onload-image-fade-in onload-content-fade-right">
+    <div class="content">
+      <h2 class="margin-top"><%= t('events.event_three.title') %></h2>
+      <p class="align-justify">
+        <%= t('events.event_three.paragraph_one') %>
+      </br>
+        <%= t('events.event_three.paragraph_two') %>
+      </p>
+      <p>
+        <strong><%= t('events.event_three.info.title_one') %></strong>: <%= t('events.event_three.info.content_one') %>
+      </br>
+        <strong><%= t('events.event_three.info.title_two') %></strong>: <%= t('events.event_three.info.content_two') %>
+      </br>
+        <strong><%= t('events.event_three.info.title_three') %></strong>: <%= t('events.event_three.info.content_three') %>
+      </br>
+        <strong><%= t('events.event_three.info.title_four') %></strong>: <%= t('events.event_three.info.content_four') %>
+      </br>
+      </p>
+      <%= link_to t('events.register'), "https://www.eventbrite.be/e/talking-business-to-the-business-registration-122241715261?ref=elink", :class => "button primary", target: '_blank' %>
+    </div>
+  <div class="image">
+    <%#= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473839/people11.jpg", :alt => "image") %>
+    <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1601286743/yellow_dude.jpg", :alt => "image") %>
+  </div>
+</section>
+<section id="the-virtual-communicator"class="spotlight style2 orient-right content-align-left fullscreen onload-image-fade-in onload-content-fade-right">
     <div class="content">
       <h2 class="margin-top"><%= t('events.event_one.title') %></h2>
       <p class="align-justify">
@@ -55,54 +108,4 @@
       <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1601282649/event_4.jpg", :alt => "image") %>
     </div>
   </section>
-  <section id="strengths-in-action" class="spotlight style2 orient-left content-align-left fullscreen onload-image-fade-in onload-content-fade-right">
-    <div class="content">
-      <h2 class="margin-top"><%= t('events.event_two.title') %></h2>
-      <p class="align-justify">
-        <%= t('events.event_two.paragraph_one') %>
-      </br>
-        <%= t('events.event_two.paragraph_two') %>
-      </p>
-      <p>
-        <strong><%= t('events.event_two.info.title_one') %></strong>: <%= t('events.event_two.info.content_one') %>
-      </br>
-        <strong><%= t('events.event_two.info.title_two') %></strong>: <%= t('events.event_two.info.content_two') %>
-      </br>
-        <strong><%= t('events.event_two.info.title_three') %></strong>: <%= t('events.event_two.info.content_three') %>
-      </br>
-        <strong><%= t('events.event_two.info.title_four') %></strong>: <%= t('events.event_two.info.content_four') %>
-      </br>
-      </p>
-      <%= link_to t('events.register'), "https://www.eventbrite.be/e/strenghts-in-action-registration-122225274085?ref=elink", :class => "button primary", target: '_blank' %>
-    </div>
-  <div class="image">
-    <%#= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473839/people11.jpg", :alt => "image") %>
-    <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1601282650/event_1.jpg", :alt => "image") %>
-  </div>
-</section>
-  <section id="talking-business-to-business" class="spotlight style2 orient-right content-align-left fullscreen onload-image-fade-in onload-content-fade-right">
-    <div class="content">
-      <h2 class="margin-top"><%= t('events.event_three.title') %></h2>
-      <p class="align-justify">
-        <%= t('events.event_three.paragraph_one') %>
-      </br>
-        <%= t('events.event_three.paragraph_two') %>
-      </p>
-      <p>
-        <strong><%= t('events.event_three.info.title_one') %></strong>: <%= t('events.event_three.info.content_one') %>
-      </br>
-        <strong><%= t('events.event_three.info.title_two') %></strong>: <%= t('events.event_three.info.content_two') %>
-      </br>
-        <strong><%= t('events.event_three.info.title_three') %></strong>: <%= t('events.event_three.info.content_three') %>
-      </br>
-        <strong><%= t('events.event_three.info.title_four') %></strong>: <%= t('events.event_three.info.content_four') %>
-      </br>
-      </p>
-      <%= link_to t('events.register'), "https://www.eventbrite.be/e/talking-business-to-the-business-registration-122241715261?ref=elink", :class => "button primary", target: '_blank' %>
-    </div>
-  <div class="image">
-    <%#= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473839/people11.jpg", :alt => "image") %>
-    <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1601286743/yellow_dude.jpg", :alt => "image") %>
-  </div>
-</section>
 </div>
