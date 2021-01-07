@@ -434,7 +434,7 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
     send: "Envoyer le message"
   events:
     event_one:
-      title: "The virtual communicator"
+      title: "The online communicator"
       paragraph_one: "Vos échanges se déroulent-ils principalement en ligne ? Soupçonnez-vous un manque de dynamisme dans votre communication ? Avez-vous un sentiment de monotonie dans vos échanges ? Ou manquez-vous de l’impact nécessaire pour motiver, inspirer ou créer l’engagement souhaité?"
       paragraph_two: "Nos experts vous transmettront des conseils pratiques lors d’un webinar dynamique auquel vous êtes invité!"
       bullet_one: "Vous recevrez des conseils sur votre ‘présence virtuelle’."
@@ -442,7 +442,7 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
       bullet_three: "Le tout centré sur l’humain. Le canal a beau être virtuel, l’individu restera toujours central."
       info:
         title_one: "Quand"
-        content_one: "Le 27 octobre 2020 de 12h00 à 13h30"
+        content_one: "02/02/2021 de 12h00 à 13h30"
         title_two: "Où"
         content_two: "Via Zoom"
         title_three: "Langue"
@@ -450,7 +450,7 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
         title_four: "Coût"
         content_four: "C’est gratuit (votre invitation, le cas échéant, est valable pour deux personnes de votre entreprise)"
     event_two:
-      title: "Managing remote teams"
+      title: "Staying connected remotely"
       paragraph_one: "Souhaitez-vous vivre une expérience permettant d’augmenter le niveau de résilience et de Self-Leadership auprès de vos équipes ? Découvrez une méthode impactante qui génère un effet positif sur l’esprit d’équipe. Un moment où chacun est en mesure de partager du feedback positif."
       paragraph_two: "D’une durée d’une heure, vous bénéficierez d’exercices pratiques vous permettant d’atteindre ces objectifs."
       bullet_one:
@@ -458,7 +458,7 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
       bullet_three:
       info:
         title_one: "Quand"
-        content_one: "Le 20 octobre 2020 de 12h00 à 13h00"
+        content_one: "05/03/2021 de 12h00 à 13h00"
         title_two: "Où"
         content_two: "Via Zoom"
         title_three: "Langue"
@@ -466,7 +466,7 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
         title_four: "Coût"
         content_four: "C’est gratuit (votre invitation, le cas échéant, est valable pour deux personnes de votre entreprise)"
     event_three:
-      title: "Talking business to business"
+      title: "Talking Business to the Business"
       paragraph_one: "À la peine pour obtenir l’aval de décideurs pour vos projets ? S’agit-il d’une question de communication ? Il est possible que vous vous perdiez dans les détails ou que votre message ne soit pas pertinent au regard des attentes de vos interlocuteurs."
       paragraph_two: "D’une durée d’une heure et demie, ce webinar vous transmettra les informations et la mise en pratique d’une approche en quatre étapes vous permettant de générer de l’impact dans votre communication stratégique."
       bullet_one:
@@ -474,7 +474,7 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
       bullet_three:
       info:
         title_one: "Quand"
-        content_one: "Le 4 décembre 2020 de 12h00 à 13h30"
+        content_one: "20/04/2021 de 12h00 à 13h30"
         title_two: "Où"
         content_two: "Via Zoom"
         title_three: "Langue"
