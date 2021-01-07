@@ -435,11 +435,11 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
   events:
     event_one:
       title: "The online communicator"
-      paragraph_one: "Vos échanges se déroulent-ils principalement en ligne ? Soupçonnez-vous un manque de dynamisme dans votre communication ? Avez-vous un sentiment de monotonie dans vos échanges ? Ou manquez-vous de l’impact nécessaire pour motiver, inspirer ou créer l’engagement souhaité?"
-      paragraph_two: "Nos experts vous transmettront des conseils pratiques lors d’un webinar dynamique auquel vous êtes invité!"
-      bullet_one: "Vous recevrez des conseils sur votre ‘présence virtuelle’."
-      bullet_two: "Vous découvrirez des techniques d’interactions ajoutant du dynamisme à vos présentations, vos réunions et webinars."
-      bullet_three: "Le tout centré sur l’humain. Le canal a beau être virtuel, l’individu restera toujours central."
+      paragraph_one: "Does most of your communication take place online? Feel that it lacks dynamism? Been told that your voice is too monotonous? Find it difficult to connect at the human level? To motivate, inspire or obtain buy-in?"
+      paragraph_two: "Receive tips from deep experts in communication with many years of experience on the field during a dynamic webinar! During this webinar, you will:"
+      bullet_one: "Explore how it all starts with mindset, focus and attitude. Although the medium is digital, communication will always remain 100% human."
+      bullet_two: "Work on your Virtual Presence: get tips and tricks on how to transmit your message and be present in the moment."
+      bullet_three: "Discover techniques to increase interaction and add dynamism to your meetings, presentations and webinars."
       info:
         title_one: "Quand"
         content_one: "02/02/2021 de 12h00 à 13h30"
@@ -451,11 +451,11 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
         content_four: "C’est gratuit (votre invitation, le cas échéant, est valable pour deux personnes de votre entreprise)"
     event_two:
       title: "Staying connected remotely"
-      paragraph_one: "Souhaitez-vous vivre une expérience permettant d’augmenter le niveau de résilience et de Self-Leadership auprès de vos équipes ? Découvrez une méthode impactante qui génère un effet positif sur l’esprit d’équipe. Un moment où chacun est en mesure de partager du feedback positif."
-      paragraph_two: "D’une durée d’une heure, vous bénéficierez d’exercices pratiques vous permettant d’atteindre ces objectifs."
-      bullet_one:
-      bullet_two:
-      bullet_three:
+      paragraph_one: "Are you ready to experience during your lunchtime an activity to help you maintain trust, team spirit and the human touch in remote times? Would you like to see how you can create a positive team environment? Where your people feel that they belong, valued and appreciated?"
+      paragraph_two: "During this session, you will experience a simple and practical exercise and tool that help you to achieve these goals. This is a webinar aimed for people managers."
+      bullet_one: "1h30 session"
+      bullet_two: "For professionals only"
+      bullet_three: "Please register with your professional email adress"
       info:
         title_one: "Quand"
         content_one: "05/03/2021 de 12h00 à 13h00"
@@ -467,8 +467,8 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
         content_four: "C’est gratuit (votre invitation, le cas échéant, est valable pour deux personnes de votre entreprise)"
     event_three:
       title: "Talking Business to the Business"
-      paragraph_one: "À la peine pour obtenir l’aval de décideurs pour vos projets ? S’agit-il d’une question de communication ? Il est possible que vous vous perdiez dans les détails ou que votre message ne soit pas pertinent au regard des attentes de vos interlocuteurs."
-      paragraph_two: "D’une durée d’une heure et demie, ce webinar vous transmettra les informations et la mise en pratique d’une approche en quatre étapes vous permettant de générer de l’impact dans votre communication stratégique."
+      paragraph_one: "Finding it hard getting buy in from senior management? Are you being told that you get lost in the details or that you cannot translate what you have done into their language?"
+      paragraph_two: "During this this dynamic 90 minute webinar, you will learn about and apply our 4 step approach to increase the impact of your communication strategy."
       bullet_one:
       bullet_two:
       bullet_three:
