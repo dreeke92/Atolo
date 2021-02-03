@@ -18,6 +18,7 @@ Rails.application.routes.draw do
     get 'promotions', to: "pages#promotions"
     get 'thank_you', to: "pages#thank_you"
     get 'events', to: "pages#events"
+    get 'eval', to: "pages#eval"
     # get 'mockup', to: "pages#mock-up"
 
     resources :products, only: [ :create, :new, :show, :update, :edit, :destroy, :index ]
