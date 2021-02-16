@@ -5,6 +5,7 @@ de:
     promotions: "Unsere Aktionen"
     engagement_title: "Engagement"
     communication_title: "Kommunikation"
+    eval_title: "Sprachbewertungs-plattform"
     languages_title: "Sprachen"
     values: "Unsere Werte"
     about: "Über uns"
@@ -474,3 +475,48 @@ de:
         title_four: "cost"
         content_four: "Free (if more than two individuals from the same company would like to join, contact us)"
     register: "Register here"
+  eval:
+    title: "Ihre ganz Eigene Sprachbewertungs-Plattform"
+    subtitle: "Präzise & einfach zu bedienen"
+    paragraph_one:
+      title: "Für welche Zwecke?"
+      bullet_one: "Auswahl & Einstellung von Personal"
+      bullet_two: "Lern- & Entwicklungsprogramme"
+      bullet_three: "Unternehmensweites Sprachniveau-Benchmarking"
+      bullet_four: "Interne Richtlinien für die Feststellung und Anerkennung von Sprachniveaus"
+    paragraph_two:
+      title: "Einfache Bedienung!"
+      bullet_one: "Die Plattformen sind webbasiert & benutzerfreundlich"
+      bullet_two: "Die Plattformen funktionieren reibungslos auf Chrome, Safari und Firefox. "
+      bullet_two_strong: "Flexibel und unkompliziert "
+    button: "Entdecken Sie Atolo Eval"
+    paragraph_three:
+      title: "Für mehrere Sprachen verfügbar"
+      text_one: "English, Französisch, Deutsch & Niederländisch."
+      text_two: "Weitere Sprachen können auf Anfrage angeboten werden."
+    paragraph_four:
+      title: "Ein hochwertiges Management-Tool & völlig eigenständige Handhabung"
+      bullet_one: "Die Verwaltung von großen Projekten ist einfach und nahtlos."
+      bullet_two: "Überblick über alle Testergebnisse im Handumdrehen. Live-Status zu den Tests mit einem einzigen Klick."
+      bullet_three: "Sie haben volle Autonomie!"
+      bullet_three_a: "Sie legen Ihre eigenen Administratoren (Benutzerkonten) an."
+      bullet_three_b: "Sie versenden die Test-Einladungen an Ihre Teilnehmer mit Hilfe von standardisierten oder personalisierten Benachrichtigungsoptionen in der Sprache Ihrer Wahl."
+      bullet_four: "Die Bedienung der Plattform ist intuitiv. Sie beherrschen die wesentlichen Schritte in nur wenigen Minuten."
+    paragraph_five:
+      title: "Objektiv, präzise und zuverlässig"
+      text_one: "Ein internationales Team von Sprachexperten hat den Test so konzipiert, dass er klare und präzise Ergebnisse der jeweiligen Sprachniveaus liefert. Mehr als 700 verschiedene Fragen erfassen passives und aktives Wissen, schriftliche Fertigkeiten und Verständnis. Die adaptive Intelligenz und ein erprobter Algorithmus sorgen zusätzlich für Genauigkeit."
+    paragraph_six:
+      title: "Die Ergebnisse sind sofort verfügbar!"
+      text_one: "Die Ergebnisse werden auf einer Skala sowohl in Prozent als auch entsprechend der GERS*-Richtlinien dargestellt. Neben der sofortigen Ergebnisanzeige wird nach Abschluss des Tests automatisch ein Endbericht und ein ATOLO-Zertifikat erstellt."
+    paragraph_seven:
+      title: "Positive Erfahrung für die Testteilnehmer/innen"
+      text_one_strong: ""
+      text_one: "Benutzerfreundlich & ohne umfangreiche Einweisungen einsatzbereit. Vom Anklicken des per Mail erhaltenen Testlinks bis zur Durchführung des Tests läuft alles reibungslos und intuitiv. Die Testteilnehmer/innen benötigen kaum 35 bis 40 Minuten, um den Test abzuschließen. Die Testteilnehmer/innen können auch ihre bevorzugte Sprache für die Benutzeroberfläche wählen (Englisch, Französisch, Deutsch oder Niederländisch)."
+    paragraph_eight:
+      title: "Firmeneigenes Branding"
+      text_one: "Die Unternehmensidentität ist klar zu erkennen, während sie die Teilnehmer/innen den Test machen. Ihr Firmenlogo und Farbschema kann in die Plattform eingebettet werden."
+    eval_footer:
+      title: "Die einfachen Werkzeuge sind oft die wirksamsten"
+      text_one: "*Gemeinsamer Europäischer Referenzrahmen für Sprachen: "
+      text_two: "Wir haben ein A0-Niveau und 4 Abstufungen pro Niveau hinzugefügt (zum Beispiel: A1(0), A1(25), A1(50) und A1(75)) für einen zusätzlichen Grad der Genauigkeit"
+      contact_us: "Kontaktieren Sie uns"

@@ -6,6 +6,7 @@ nl:
     engagement_title: "Engagement"
     communication_title: "Communicatie"
     languages_title: "Talen"
+    eval_title: "Language assessment platform"
     values: "Onze waarden"
     about: "Over ons"
     team: "Ons team"
@@ -476,3 +477,48 @@ nl:
         title_four: "Kostprijs"
         content_four: "Gratis (indien meer dan 2 werknemers van hetzelfde bedrijf willen deelnemen, contacteer ons)"
     register: "Schrijf je hier in"
+  eval:
+    title: "Your very own language assessment platform"
+    subtitle: "Easy to use & accurate"
+    paragraph_one:
+      title: "Voor welke doeleinden?"
+      bullet_one: "Rekrutering en selectie"
+      bullet_two: "Learning & development programma’s"
+      bullet_three: "Benchmarking op taalcompetenties binnen het hele bedrijf"
+      bullet_four: "Interne certifiëring en erkenning van medewerkers"
+    paragraph_two:
+      title: "Gemakkelijk toegankelijk!"
+      bullet_one: "Het platform is web based. Gemakkelijk!"
+      bullet_two: "•  Het platform werkt op de meest gebruikte webbrowsers Chrome, Safari en Firefox. • Het platform werkt op de meest gebruikte webbrowsers Chrome, Safari en Firefox."
+      bullet_two_strong: " Flexibel en toegankelijk!"
+    button: "Ontdek Atolo Eval"
+    paragraph_three:
+      title: "Voor welke talen?"
+      text_one: "Nederlands – Frans -  Engels – Duits "
+      text_two: "Extra talen kunnen op verzoek worden ontwikkeld."
+    paragraph_four:
+      title: "Gebruiksvriendelijke managementtool voor maximale autonomie"
+      bullet_one: "De managementtool helpt je om grote projecten te beheren"
+      bullet_two: "De resultaten zijn snel consulteerbaar en worden overzichtelijk voorgesteld"
+      bullet_three: "Je bent volledig autonoom in je beheer:"
+      bullet_three_a: "met een paar klikken creëer je je eigen gebruikersaccounts"
+      bullet_three_b: "je kan gestandaardiseerde -maar ook gepersonaliseerde- uitnodigingen sturen in een taal naar keuze (Nederlands, Frans, Engels, Duits)"
+      bullet_four: "De tool is bijzonder gebruiksvriendelijk en intuitief. Je hebt het op minder dan 10min onder de knie."
+    paragraph_five:
+      title: "Betrouwbaar, objectief en accuraat"
+      text_one: "De test is ontwikkeld door een internationaal team van taalexperten. Uit een database van 700 vragen worden ad random vragen gekozen om de kandidaat te testen op algemene en zakelijke kennis, zowel passief als actief, en op luistervaardigheid. De adaptieve intelligentie en een beproefd algoritme dat de vragen aanstuurt, garanderen betrouwbare en nauwkeurige resultaten."
+    paragraph_six:
+      title: "Testresultaten onmiddellijk beschikbaar!"
+      text_one: "Het taalniveau wordt uitgedrukt in een percentage en volgens de ERK (CEFR*) niveauschaal. Kandidaten krijgen meteen inzicht in wat ze al kunnen en waar ze nog moeten op werken. Ze kunnen hun verslag en een ATOLO-certificaat afdrukken en opslaan."
+    paragraph_seven:
+      title: "Optimale user experience voor jouw kandidaten"
+      text_one_strong: ""
+      text_one: "De test is gebruiksvriendelijk en intuïtief. Eén klik op de gepersonaliseerde link brengt de kandidaten naar de start en vanaf daar worden ze doorheen de test geloodst, vlot en instinctief.Kandidaten hebben amper 35 à 40 minuten nodig om de test af te leggen. Ze kiezen hun interfacetaal zelf (Engels, Frans, Duits en Nederlands zijn beschikbaar)."
+    paragraph_eight:
+      title: "Employer branding voor het bedrijf"
+      text_one: "Je wil graag een herkenbare bedrijfsidentiteit voor je kandidaten?  Dat kan! Jullie logo en kleurenpalet zorgen voor een extra employer branding."
+    eval_footer:
+      title: "The simplest of tools are often the most powerful"
+      text_one: "*ERK (Europees ReferentieKader) of CERF (Common European Framework of Reference for Languages): "
+      text_two: "Om nog nauwkeuriger te kunnen werken, hebben we het niveau A0 toegevoegd en telkens 4 tussenniveaus (vb A1(0), A1(25), A1(50) en A1(75),….)"
+      contact_us: "Contacteer ons voor meer info"

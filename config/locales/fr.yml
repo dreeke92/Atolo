@@ -6,6 +6,7 @@ fr:
     engagement_title: "Engagement"
     communication_title: "Communication"
     languages_title: "Langues"
+    eval_title: "Plateforme d’évaluation en langues"
     values: "Nos valeurs"
     about: "À propos"
     team: "Notre équipe"
@@ -482,3 +483,48 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
         title_four: "Coût"
         content_four: "C’est gratuit (votre invitation, le cas échéant, est valable pour deux personnes de votre entreprise)"
     register: "Je m’inscris!"
+  eval:
+    title: "Votre propre platforme d’évaluation en langues"
+    subtitle: "Facilité d’utilisation & précision"
+    paragraph_one:
+      title: "À quelles fins professionnelles?"
+      bullet_one: "Pré-sélection & recrutement de candidats"
+      bullet_two: "Programmes de formations"
+      bullet_three: "Benchmarking’ des niveaux de compétences linguistiques dans votre entreprise"
+      bullet_four: "Politiques internes de reconnaissance des niveaux de langues"
+    paragraph_two:
+      title: "Facile à utiliser!"
+      bullet_one: "La plateforme s’utilise directement sur le web. Facile."
+      bullet_two: "La plateforme fonctionne parfaitement sur Chrome, Safari et Firefox. "
+      bullet_two_strong: "Flexible & accessible."
+    button: "Décrouvez Atolo Eval"
+    paragraph_three:
+      title: "Quatre langues disponibles!"
+      text_one: "Anglais, français, néerlandais et allemand."
+      text_two: "D’autres langues peuvent être développées sur demande."
+    paragraph_four:
+      title: "Un outil de gestion performant & une autonomie complète"
+      bullet_one: "La gestion de projets d’envergure est facile et rapide."
+      bullet_two: "Une vision complète et en temps réel des résultats. En un clic."
+      bullet_three: "Vous êtes autonome!"
+      bullet_three_a: "Créez vos propres administrateurs (comptes utilisateurs)."
+      bullet_three_b: "Envoyez des invitations à vos participants pour leur évaluation en intégrant un message standard ou personnalisé. Dans la langue de votre choix."
+      bullet_four: "La plateforme est intuitive à l’utilisation. Vous maîtrisez celle-ci en quelques minutes."
+    paragraph_five:
+      title: "Des résultats objectifs, précis et fiables"
+      text_one: "Une équipe internationale d'experts en langues a conçu l’évaluation de manière à obtenir des résultats clairs et précis sur le niveau de langue de chacun. Plus de 700 questions différentes couvrent les connaissances passives et actives, les compétences écrites et la compréhension. L'intelligence adaptative et l'algorithme garantissent une grande précision des résultats."
+    paragraph_six:
+      title: "Votre résultat disponible immédiatement!"
+      text_one: "Les résultats sont indiqués sur une échelle sous forme d’un pourcentage atteint et selon les critères définis par le CECR (CEFR)*. Un rapport final et un certificat ATOLO sont également disponibles immédiatement à la fin de l’évaluation."
+    paragraph_seven:
+      title: "Une excellente expérience utilisateur"
+      text_one_strong: ""
+      text_one: "La plateforme est conviviale et facile à utiliser. Les utilisateurs reçoivent les instructions via l’outil. Du clic sur le lien reçu par mail et menant à l’évaluation au test en soi, tout est fluide et instinctif. L’évaluation est réalisée en 35 à 40 minutes. Les utilisateurs peuvent choisir une langue servant d’interface pour les instructions (anglais, français, allemand et néerlandais disponibles)."
+    paragraph_eight:
+      title: "La marque employeur"
+      text_one: "Les participants reconnaîtront votre entreprise lors de l’évaluation. La plateforme peut arborer votre logo et vos couleurs."
+    eval_footer:
+      title: "La puissance de la simplicité"
+      text_one: "*Cadre européen commun de référence pour les langues :"
+      text_two: "Nous avons ajouté un niveau A0 et 4 paliers par niveau (par exemple : A1(0), A1(25), A1(50), A1(75)) pour un plus grand niveau de précision."
+      contact_us: "Contactez-nous maintenant"

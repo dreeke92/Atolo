@@ -6,6 +6,7 @@ en:
     engagement_title: "Engagement"
     communication_title: "Communication"
     languages_title: "Languages"
+    eval_title: "Language assessment platform"
     values: "Our values"
     about: "About us"
     team: "Our team"
@@ -483,3 +484,50 @@ en:
         title_four: "cost"
         content_four: "Free (if more than two individuals from the same company would like to join, contact us)"
     register: "Register here"
+  eval:
+    title: "Your very own language assessment platform"
+    subtitle: "Easy to use & accurate"
+    paragraph_one:
+      title: "For what purpose?"
+      bullet_one: "Selection & recruitment"
+      bullet_two: "Learning & development programs"
+      bullet_three: "Companywide language level benchmarking"
+      bullet_four: "Internal language level recognition policies"
+    paragraph_two:
+      title: "Easy to use!"
+      bullet_one: "The platform is web based & user friendly"
+      bullet_two: "The platform works seamlessly on Chrome, Safari and Firefox. "
+      bullet_two_strong: "Flexible & accessible."
+    button: "Discover Atolo Eval"
+    paragraph_three:
+      title: "Multiple languages available!"
+      text_one: "English, French, German & Dutch"
+      text_two: "Extra languages can be developed to meet your needs"
+    paragraph_four:
+      title: "A great management tool & complete autonomy"
+      bullet_one: "Administration of large projects is easy and seamless"
+      bullet_two: "Overview of all test results in an instant. Live status on tests in a single click"
+      bullet_three: "Autonomy is yours!"
+      bullet_three_a: "Create your own administrators (user accounts)"
+      bullet_three_b: "Send out test invitations to your participants with standardised or personalised messaging options in the language of your choice"
+      bullet_four: "The use of the platform is intuitive. You master the essentials in a few minutes"
+    paragraph_five:
+      title: "Objective, accurate and reliable"
+      text_one: "An international team of language experts designed the test so as to reach clear and accurate language level results. More than 700 different questions cover passive and active knowledge, written skills and comprehension. The adaptive intelligence and the proven algorithm further ensure accuracy."
+    paragraph_six:
+      title: "Scores are available instantly!"
+      text_one: "Results are presented on a scale both in terms of percentage and following the CEFR* guidelines. As well as immediate result consultation, an end report and an ATOLO certificate are automatically generated upon test completion."
+    paragraph_seven:
+      title: "Great test taker experience"
+      text_one_strong: "User friendly and ready to go."
+      text_one: "From clicking on the test link received by mail to taking the test, everything is smooth and intuitive. Test takers barely need 35 to 40 min to complete the test. They can also choose a preferred interface language (English, French, German & Dutch available)."
+    paragraph_eight:
+      title: "Employer branding"
+      text_one: "Participants will recognize your company identity when taking the test. The platform can be embedded with your company logo and colour scheme."
+    eval_footer:
+      title: "The simplest of tools are often the most powerful"
+      text_one: "*Common European Framework of Reference for Languages: "
+      text_two: "We have added an A0 level and 4 increments per level (for example: A1(0), A1(25), A1(50) and A1(75)) for an additional degree of accuracy"
+      contact_us: "Contact us to know more"
+
+
