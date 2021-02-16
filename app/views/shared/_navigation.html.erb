@@ -25,12 +25,17 @@
             <%= t("navbar.languages_title") %>
           <% end %>
         </li>
-        <li id="nav_languages" class="offer-nav">
+        <li id="nav_eval" class="offer-nav">
           <%= link_to eval_path do %>
             <%= t("navbar.eval_title") %>
           <% end %>
         </li>
       </ul>
+    </li>
+    <li id="nav_eval" class="offer-nav eval_visible">
+      <%= link_to eval_path do %>
+        <%= t("navbar.eval_title") %>
+      <% end %>
     </li>
     <li id="nav_events">
       <%= link_to events_path do %>
