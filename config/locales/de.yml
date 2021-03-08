@@ -24,8 +24,8 @@ de:
       call_to_action: "Erfahren Sie mehr"
       communication_caption: "Grossartiges geschieht, wenn Menschen gut kommunizieren"
       languages_caption: "Sich wohl fühlen und mit Wirkung kommunizieren. Unabhängig von der Sprache!"
-      discover_text: "Entdecken Sie unsere kommenden Veranstaltungen und melden Sie sich an!"
-      discover_button: "Entdecken"
+      discover_text: "Discover your own language assessment tool"
+      discover_button: "Free demo"
     intro:
       title: "Ihre Welt"
       text_one: "Zusammen können wir eine Kultur schaffen, in der Ihre Mitarbeiter die wichtigsten Antriebskräfte für Erfolg sind."
@@ -476,7 +476,7 @@ de:
         content_four: "Free (if more than two individuals from the same company would like to join, contact us)"
     register: "Register here"
   eval:
-    title: "Ihre ganz Eigene Sprachbewertungs-Plattform"
+    title: "Ihre ganz eigene Sprachbewertungs-Plattform"
     subtitle: "Präzise & einfach zu bedienen"
     paragraph_one:
       title: "Für welche Zwecke?"
@@ -514,7 +514,7 @@ de:
       text_one: "Benutzerfreundlich & ohne umfangreiche Einweisungen einsatzbereit. Vom Anklicken des per Mail erhaltenen Testlinks bis zur Durchführung des Tests läuft alles reibungslos und intuitiv. Die Testteilnehmer/innen benötigen kaum 35 bis 40 Minuten, um den Test abzuschließen. Die Testteilnehmer/innen können auch ihre bevorzugte Sprache für die Benutzeroberfläche wählen (Englisch, Französisch, Deutsch oder Niederländisch)."
     paragraph_eight:
       title: "Firmeneigenes Branding"
-      text_one: "Die Unternehmensidentität ist klar zu erkennen, während sie die Teilnehmer/innen den Test machen. Ihr Firmenlogo und Farbschema kann in die Plattform eingebettet werden."
+      text_one: "Die Unternehmensidentität ist klar zu erkennen, während die Teilnehmer/innen den Test machen. Ihr Firmenlogo und Farbschema kann in die Plattform eingebettet werden."
     eval_footer:
       title: "Die einfachen Werkzeuge sind oft die wirksamsten"
       text_one: "*Gemeinsamer Europäischer Referenzrahmen für Sprachen: "
