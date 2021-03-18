@@ -484,7 +484,7 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
         content_four: "C’est gratuit (votre invitation, le cas échéant, est valable pour deux personnes de votre entreprise)"
     register: "Je m’inscris!"
   eval:
-    title: "Votre propre platforme d’évaluation en langues"
+    title: "Votre propre plateforme d’évaluation en langues"
     subtitle: "Facilité d’utilisation & précision"
     paragraph_one:
       title: "À quelles fins professionnelles?"
@@ -497,7 +497,7 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
       bullet_one: "La plateforme s’utilise directement sur le web. Facile."
       bullet_two: "La plateforme fonctionne parfaitement sur Chrome, Safari et Firefox. "
       bullet_two_strong: "Flexible & accessible."
-    button: "Décrouvez Atolo Eval"
+    button: "Decouvrez Atolo Eval"
     paragraph_three:
       title: "Quatre langues disponibles!"
       text_one: "Anglais, français, néerlandais et allemand."
@@ -519,7 +519,7 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
     paragraph_seven:
       title: "Une excellente expérience utilisateur"
       text_one_strong: ""
-      text_one: "La plateforme est conviviale et facile à utiliser. Les utilisateurs reçoivent les instructions via l’outil. Du clic sur le lien reçu par mail et menant à l’évaluation au test en soi, tout est fluide et instinctif. L’évaluation est réalisée en 35 à 40 minutes. Les utilisateurs peuvent choisir une langue servant d’interface pour les instructions (anglais, français, allemand et néerlandais disponibles)."
+      text_one: "La plateforme est conviviale et facile à utiliser. Les utilisateurs reçoivent les instructions via l’outil. Du clic sur le lien reçu par mail et menant au test en soi, tout est fluide et instinctif. L’évaluation est réalisée en 35 à 40 minutes. Les utilisateurs peuvent choisir une langue servant d’interface pour les instructions (anglais, français, allemand et néerlandais disponibles)."
     paragraph_eight:
       title: "La marque employeur"
       text_one: "Les participants reconnaîtront votre entreprise lors de l’évaluation. La plateforme peut arborer votre logo et vos couleurs."
