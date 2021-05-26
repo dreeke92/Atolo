@@ -24,8 +24,8 @@ nl:
       call_to_action: "Ontdek ons zomeraanbod"
       communication_caption: "Great things happen when people communicate well"
       languages_caption: "Feeling good and communicating with impact. Whatever the language!"
-      discover_text: "Discover your own language assessment tool"
-      discover_button: "Free demo"
+      discover_text: "Discover our Summer Training Solutions"
+      discover_button: "Discover"
     intro:
       title: "Jouw wereld"
       text_one: "Samen creëren we een bedrijfscultuur waar het de mensen zelf zijn die zorgen voor succes."
@@ -428,55 +428,91 @@ nl:
     human: "Ik ben een mens en geen robot"
     send: "Verstuur"
   events:
+    communication_offer: "Communication offer"
+    language_offer: "Language offer"
     event_one:
-      title: "The online communicator"
-      paragraph_one: "Does most of your communication take place online? Feel that it lacks dynamism? Been told that your voice is too monotonous? Find it difficult to connect at the human level? To motivate, inspire or obtain buy-in?"
-      paragraph_two: "Receive tips from deep experts in communication with many years of experience on the field during a dynamic webinar! During this webinar, you will:"
-      bullet_one: "Explore how it all starts with mindset, focus and attitude. Although the medium is digital, communication will always remain 100% human."
-      bullet_two: "Work on your Virtual Presence: get tips and tricks on how to transmit your message and be present in the moment."
-      bullet_three: "Discover techniques to increase interaction and add dynamism to your meetings, presentations and webinars."
-      info:
-        title_one: "Wanneer"
-        content_one: "02/02/2021 van 12.00 tot 13.30"
-        title_two: "Waar"
-        content_two: "Zoom"
-        title_three: "Taal"
-        content_three: "Engels"
-        title_four: "Kostprijs"
-        content_four: "Gratis (indien meer dan 2 werknemers van hetzelfde bedrijf willen deelnemen, contacteer ons)"
+      title: "Summer splash"
+      title_two: "Freshen up these 3 'must-have' skills"
+      paragraph_one: "Discover our dynamic and interactive 2-hour online webinar workshops."
+      paragraph_two: "Choose more than 1 webinar workshop and benefit from our summer discounts!"
+      webinar_one:
+        title: "Webinar 'The Online communicator'"
+        bullet_one: "Increase your online impact both when communicating with your team or key stakeholders."
+        bullet_two: "You will work on developing your online presence, keeping your communication interactive and transmitting confidence."
+        bullet_three:
+        date:
+          text: "Dates"
+          bullet_one: "English: July 6th (from 10-12 am)"
+          bullet_two: "French: July 12th (from 10-12 am)"
+          bullet_three:
+      webinar_two:
+        title: "Webinar “The Inclusive workspace”"
+        bullet_one: "A deep dive into what it takes to motivate your team, even when working remotely"
+        bullet_two: "Gain insights into what the research says about people and motivation and share and receive good practices to apply these insights with your teams"
+        bullet_three:
+        date:
+          text: "Dates"
+          bullet_one: "English: July 13th (from 10-12 am)"
+          bullet_two: "French: July 20th (from 10-12 am)"
+          bullet_three:
+      webinar_three:
+        title: "Webinar “People and Motivation”"
+        bullet_one: "You will experience an inclusive environment and deep dive into the benefits you can obtain from it and what you need to create it"
+        bullet_two: "Acquire the insights and skills needed to create an inclusive environment where people can bring their unique selves and diversity is appreciated"
+        bullet_three:
+        date:
+          text: "Dates"
+          bullet_one: "Dutch: July 15th (from 10-12 am)"
+          bullet_two: "French: July 16th (from 10-12 am)"
+          bullet_three: "English: July 20th (from 10-12 am)"
+      practice:
+        text: "In practice"
+        bullet_one: "Fully online (zoom)"
+        bullet_two: "Each webinar workshop is 2 hours"
+        bullet_three: "Languages: NL, FR, EN"
+      pricing:
+        text: "Pricing"
+        bullet_one: "1 webinar: € 200 per participant (VAT excl.)"
+        bullet_two: "2 webinars: € 190 per participant (VAT excl.)"
+        bullet_three: "3 webinars: € 175 per participant (VAT excl.)"
     event_two:
-      title: "Staying connected remotely"
-      paragraph_one: "Are you ready to experience during your lunchtime an activity to help you maintain trust, team spirit and the human touch in remote times? Would you like to see how you can create a positive team environment? Where your people feel that they belong, valued and appreciated?"
-      paragraph_two: "During this session, you will experience a simple and practical exercise and tool that help you to achieve these goals. This is a webinar aimed for people managers."
-      bullet_one: "1h30 session"
-      bullet_two: "For professionals only"
-      bullet_three: "Please register with your professional email adress"
-      info:
-        title_one: "Wanneer"
-        content_one: "05/03/2021 van 12.00 tot 13.30"
-        title_two: "Waar"
-        content_two: "Zoom"
-        title_three: "Taal"
-        content_three: "Engels"
-        title_four: "Kostprijs"
-        content_four: "Gratis (indien meer dan 2 werknemers van hetzelfde bedrijf willen deelnemen, contacteer ons)"
-    event_three:
-      title: "Talking Business to the Business"
-      paragraph_one: "Finding it hard getting buy in from senior management? Are you being told that you get lost in the details or that you cannot translate what you have done into their language?"
-      paragraph_two: "During this this dynamic 90 minute webinar, you will learn about and apply our 4 step approach to increase the impact of your communication strategy."
-      bullet_one:
-      bullet_two:
-      bullet_three:
-      info:
-        title_one: "Wanneer"
-        content_one: "20/04/2021 van 12.00 tot 13.30"
-        title_two: "Waar"
-        content_two: "Zoom"
-        title_three: "Taal"
-        content_three: "Engels"
-        title_four: "Kostprijs"
-        content_four: "Gratis (indien meer dan 2 werknemers van hetzelfde bedrijf willen deelnemen, contacteer ons)"
-    register: "Schrijf je hier in"
+      title: "Need summertime Inspiration for people?"
+      title_two: "Invite them to take part in the Summer Deep Dive"
+      title_three: "Open course in Languages (fully online)"
+      paragraph_one: "A perfect blend of individual and group sessions covering a 5 day learning journey"
+      paragraph_two: "Online group sessions of 3 hours per day (9.00-12.00)"
+      formula:
+        text: "Why this formula?"
+        bullet_one: "Develop the language skills needed to be able to focus 100% on the task"
+        bullet_two: "100% working on the trainees' reality"
+        bullet_three: "Reach measurable results: skills are immediately put into practice"
+      agenda:
+        text: "Agenda"
+        bullet_one:
+          text: "Individual take"
+          a: "30 min to understand your needs and reality"
+          b: "First week of July"
+        bullet_two:
+          text: "Group Training"
+          a: "5 to 9 July 2021"
+          b: "9.00-12.00"
+        bullet_three:
+          text: "Individual wrap-up"
+          a: "30 min to create an action plan for your future"
+          b: "9th of July in the afternoon"
+      practice:
+        text: "In practice"
+        bullet_one: "Fully online (zoom)"
+        bullet_two: "Maximum 6 participants"
+        bullet_three: "Total training hours per trainee: 16 hours"
+        bullet_four: "Languages: NL, FR, EN, DE"
+        bullet_five: "Different groups available depending on level"
+      pricing:
+        text: "Pricing"
+      contact:
+        contact_one: "We look forward to seeing you and learning cool things this hot summer!"
+        contact_two: "Do you need more information?  "
+        contact_three: "Reach out to your contact person at ATOLO or email us welcome@atolo.eu"
   eval:
     title: "Your very own language assessment platform"
     subtitle: "Easy to use & accurate"
