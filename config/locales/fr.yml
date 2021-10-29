@@ -437,89 +437,33 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
     communication_offer: "Communication offer"
     language_offer: "Language offer"
     event_one:
-      title: "Summer splash"
-      title_two: "Rafraissez-vous avec ces 3 compétences incoutournables!"
-      paragraph_one: "Découvrez nos 3 webinaires-workshops de 2 heures, dynamiques et interactifs."
-      paragraph_two: "Et si vous en suivez plus d’un, vous bénéficierez de nos réductions estivales!"
+      title: "Webinars"
       webinar_one:
-        title: "Webinaire “The Online communicator”"
-        bullet_one: "Augmenter votre impact en ligne, quand vous communiquer avec votre équipe, vos clients ou face à des personnes-clés"
-        bullet_two: "Vous développerez votre présence en ligne, vous travaillerez à garder une communication interactive et assurée"
-        bullet_three:
-        date:
-          text: "Dates"
-          bullet_one: "Anglais: 6 juillet (10-12h)"
-          bullet_two: "Français: 12 juillet (10-12h)"
-          bullet_three:
+        text: "Would you like to get to know how companies are using values to:"
+        title: "Values as a strategic tool"
+        bullet_one: "Recruit more efficiently?"
+        bullet_two: "Increase the performance of their people?"
+        bullet_three: "Increase engagement and retention?"
+        text_two: "During this free webinar you will be introduced to examples of how organisations are leveraging values to meet strategic goals. Thomas Van Eeckhout, CEO of EASI, will talk about the impact of values, why happiness at work is a shared responsibility and what managers can put into practice immediately."
+        practicalities:
+          text: "Practicalities"
+          bullet_one: "When: 7th of December from 12:00 until 13:30"
+          bullet_two: "Language: English"
+          bullet_three: "Where: Zoom"
+          bullet_three: "Pricing: Free"
       webinar_two:
-        title: "Webinaire “People and Motivation”"
-        bullet_one: "Une plongée profonde dans ce qui est nécessaire pour motiver votre équipe, surtout en télétravail"
-        bullet_two: "Enrichissez-vous des derniers résultats issus de la recherche en termes de motivation et partagez de bonnes pratiques pour les mettre en place avec vos équipes"
-        bullet_three:
-        date:
-          text: "Dates"
-          bullet_one: "Anglais : 13 juillet (10-12h)"
-          bullet_two: "Français : 20 juillet (10-12h)"
-          bullet_three:
-      webinar_three:
-        title: "Webinaire « Le lieu de travail inclusif »"
-        bullet_one: "Faites l'expérience d'un environnement inclusif, découvrez ce dont vous avez besoin pour le créer et tirez-en tous les avantages"
-        bullet_two: "Imprégnez-vous des connaissances et les compétences nécessaires pour créer un environnement inclusif, où la diversité est appréciée et dans lequel chacun peut contribuer grâce à sa personnalité unique"
-        bullet_three:
-        date:
-          text: "Dates"
-          bullet_one: "Néerlandais : 15 juillet (10-12h)"
-          bullet_two: "Français : 16 juillet (10-12h)"
-          bullet_three: "Anglais : 20 juillet (10-12h)"
-      practice:
-        text: "En pratique "
-        bullet_one: "En ligne (zoom)"
-        bullet_two: "Chaque webinaire-workshop dure 2 heures"
-        bullet_three: "Langues: NL, FR, EN"
-      pricing:
-        text: "Tarif"
-        bullet_one: "1 webinaire  € 200 par participant (VAT excl.)"
-        bullet_two: "2 webinaires €380 per participant (VAT excl.)"
-        bullet_three: "3 webinars € 525 per participant (VAT excl.)"
-    event_two:
-      title: "Besoin d'inspiration pour votre été?"
-      title_two: "Participez au Summer Deep Dive"
-      title_three: "Et rejoignez nos “Cours ouverts en langues” (en ligne)"
-      paragraph_one: "Un parfait mélange entre sessions individuelles et en groupe réparties sur 5 jours de trajet d’apprentissage."
-      paragraph_two: "Session de groupe en ligne – 3 heures par jour (9.00-12.00)."
-      formula:
-        text: "Pourquoi choisir cette formule ?"
-        bullet_one: "Développez uniquement les compétences de langues dont vous avez besoin pour vous concentrer à 100% sur votre travail"
-        bullet_two: "100% adapté à votre réalité professionnelle"
-        bullet_three: "Atteignez des résultats rapidement visibles : les compétences sont directement mises en pratique"
-      agenda:
-        text: "Programme"
-        bullet_one:
-          text: "Intake individuel"
-          a: "30 min pour comprendre votre réalité, vos objectifs et vos besoins"
-          b: "Première semaine de juillet"
-        bullet_two:
-          text: "Formation en groupe"
-          a: "5 au 9 juillet 2021"
-          b: "9.00-12.00"
-        bullet_three:
-          text: "Bilan Individuel"
-          a: "30 min pour créer un plan d’actions pour votre futur"
-          b: "9 juillet après-midi"
-      practice:
-        text: "En pratique"
-        bullet_one: "En ligne (zoom)"
-        bullet_two: "Maximum 6 participants"
-        bullet_three: "Total des heures de formation par participant : 16 heures"
-        bullet_four: "Langues : NL, FR, EN, DE"
-        bullet_five: "Différents groupes disponibles selon votre niveau"
-      pricing:
-        text: "Prix"
-        text_two: "Test et plateforme d’exercice en ligne inclus. Prix: € 450 par participant (HTVA excl.). "
-      contact:
-        contact_one: "Nous sommes impatients de vous rencontrer et de faire de « cool » activités pendant ce bel été !"
-        contact_two: "Vous avez besoin de plus d'informations ?"
-        contact_three: "Contactez votre personne de contact chez ATOLO ou envoyez-nous un courriel à welcome@atolo.eu"
+        text: "Do you want to start with diversity, equity, and inclusion (DEI) in your organisation:"
+        title: "Diversity, Equity and Inclusion: Where do you start?"
+        bullet_one: "But you do not know where to start?"
+        bullet_two: "Want to hear some do and don’ts from other organisations"
+        bullet_three: "Learn the latest evidence-based practices?"
+        text_two: "Join us for this this free webinar where you will be introduced to examples of how organisations implementing DEI strategies and practices."
+        practicalities:
+          text: "Practicalities"
+          bullet_one: "When: End of January, exact date will be announced soon"
+          bullet_two: "Language: English"
+          bullet_three: "Where: Zoom"
+          bullet_three: "Pricing: Free"
   eval:
     title: "Votre propre plateforme d’évaluation en langues"
     subtitle: "Facilité d’utilisation & précision"

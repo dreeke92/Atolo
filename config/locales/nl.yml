@@ -431,88 +431,33 @@ nl:
     communication_offer: "Communication offer"
     language_offer: "Language offer"
     event_one:
-      title: "Summer splash"
-      title_two: "Freshen up these 3 'must-have' skills"
-      paragraph_one: "Discover our dynamic and interactive 2-hour online webinar workshops."
-      paragraph_two: "Choose more than 1 webinar workshop and benefit from our summer discounts!"
+      title: "Webinars"
       webinar_one:
-        title: "Webinar 'The Online communicator'"
-        bullet_one: "Increase your online impact both when communicating with your team or key stakeholders."
-        bullet_two: "You will work on developing your online presence, keeping your communication interactive and transmitting confidence."
-        bullet_three:
-        date:
-          text: "Dates"
-          bullet_one: "English: July 6th (from 10-12 am)"
-          bullet_two: "French: July 12th (from 10-12 am)"
-          bullet_three:
+        text: "Would you like to get to know how companies are using values to:"
+        title: "Values as a strategic tool"
+        bullet_one: "Recruit more efficiently?"
+        bullet_two: "Increase the performance of their people?"
+        bullet_three: "Increase engagement and retention?"
+        text_two: "During this free webinar you will be introduced to examples of how organisations are leveraging values to meet strategic goals. Thomas Van Eeckhout, CEO of EASI, will talk about the impact of values, why happiness at work is a shared responsibility and what managers can put into practice immediately."
+        practicalities:
+          text: "Practicalities"
+          bullet_one: "When: 7th of December from 12:00 until 13:30"
+          bullet_two: "Language: English"
+          bullet_three: "Where: Zoom"
+          bullet_three: "Pricing: Free"
       webinar_two:
-        title: "Webinar “The Inclusive workspace”"
-        bullet_one: "A deep dive into what it takes to motivate your team, even when working remotely"
-        bullet_two: "Gain insights into what the research says about people and motivation and share and receive good practices to apply these insights with your teams"
-        bullet_three:
-        date:
-          text: "Dates"
-          bullet_one: "English: July 13th (from 10-12 am)"
-          bullet_two: "French: July 20th (from 10-12 am)"
-          bullet_three:
-      webinar_three:
-        title: "Webinar “People and Motivation”"
-        bullet_one: "You will experience an inclusive environment and deep dive into the benefits you can obtain from it and what you need to create it"
-        bullet_two: "Acquire the insights and skills needed to create an inclusive environment where people can bring their unique selves and diversity is appreciated"
-        bullet_three:
-        date:
-          text: "Dates"
-          bullet_one: "Dutch: July 15th (from 10-12 am)"
-          bullet_two: "French: July 16th (from 10-12 am)"
-          bullet_three: "English: July 20th (from 10-12 am)"
-      practice:
-        text: "In practice"
-        bullet_one: "Fully online (zoom)"
-        bullet_two: "Each webinar workshop is 2 hours"
-        bullet_three: "Languages: NL, FR, EN"
-      pricing:
-        text: "Pricing"
-        bullet_one: "1 webinar: € 200 per participant (VAT excl.)"
-        bullet_two: "2 webinars: € 190 per participant (VAT excl.)"
-        bullet_three: "3 webinars: € 175 per participant (VAT excl.)"
-    event_two:
-      title: "Need summertime Inspiration for people?"
-      title_two: "Invite them to take part in the Summer Deep Dive"
-      title_three: "Open course in Languages (fully online)"
-      paragraph_one: "A perfect blend of individual and group sessions covering a 5 day learning journey"
-      paragraph_two: "Online group sessions of 3 hours per day (9.00-12.00)"
-      formula:
-        text: "Why this formula?"
-        bullet_one: "Develop the language skills needed to be able to focus 100% on the task"
-        bullet_two: "100% working on the trainees' reality"
-        bullet_three: "Reach measurable results: skills are immediately put into practice"
-      agenda:
-        text: "Agenda"
-        bullet_one:
-          text: "Individual take"
-          a: "30 min to understand your needs and reality"
-          b: "First week of July"
-        bullet_two:
-          text: "Group Training"
-          a: "5 to 9 July 2021"
-          b: "9.00-12.00"
-        bullet_three:
-          text: "Individual wrap-up"
-          a: "30 min to create an action plan for your future"
-          b: "9th of July in the afternoon"
-      practice:
-        text: "In practice"
-        bullet_one: "Fully online (zoom)"
-        bullet_two: "Maximum 6 participants"
-        bullet_three: "Total training hours per trainee: 16 hours"
-        bullet_four: "Languages: NL, FR, EN, DE"
-        bullet_five: "Different groups available depending on level"
-      pricing:
-        text: "Pricing"
-      contact:
-        contact_one: "We look forward to seeing you and learning cool things this hot summer!"
-        contact_two: "Do you need more information?  "
-        contact_three: "Reach out to your contact person at ATOLO or email us welcome@atolo.eu"
+        text: "Do you want to start with diversity, equity, and inclusion (DEI) in your organisation:"
+        title: "Diversity, Equity and Inclusion: Where do you start?"
+        bullet_one: "But you do not know where to start?"
+        bullet_two: "Want to hear some do and don’ts from other organisations"
+        bullet_three: "Learn the latest evidence-based practices?"
+        text_two: "Join us for this this free webinar where you will be introduced to examples of how organisations implementing DEI strategies and practices."
+        practicalities:
+          text: "Practicalities"
+          bullet_one: "When: End of January, exact date will be announced soon"
+          bullet_two: "Language: English"
+          bullet_three: "Where: Zoom"
+          bullet_three: "Pricing: Free"
   eval:
     title: "Your very own language assessment platform"
     subtitle: "Easy to use & accurate"
