@@ -1,19 +1,19 @@
 en:
   navbar:
-    home: "Home"
-    solutions: "Our solutions"
+    home: "HOME"
+    solutions: "Training Solutions"
     promotions: "Our promotions"
-    engagement_title: "Engagement"
+    engagement_title: "People and culture"
     communication_title: "Communication"
     languages_title: "Languages"
     eval_title: "Language assessment platform"
-    values: "Our values"
+    values: "Our Values"
     about: "About us"
-    team: "Our team"
+    team: "Team"
     whereto: "Find us"
     probono: "Pro bono"
     contact: "Contact"
-    events: "Our events"
+    events: "Events"
   footer:
   welcome:
     banner:

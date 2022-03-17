@@ -1,19 +1,19 @@
 nl:
   navbar:
-    home: "Home"
-    solutions: "Ons aanbod"
+    home: "HOME"
+    solutions: "Trainingen"
     promotions: "Onze promoties"
-    engagement_title: "Engagement"
+    engagement_title: "People and culture"
     communication_title: "Communicatie"
-    languages_title: "Talen"
-    eval_title: "Language assessment platform"
+    languages_title: "Taaltrainingen"
+    eval_title: "Online Taaltest"
     values: "Onze waarden"
     about: "Over ons"
     team: "Ons team"
     whereto: "Waar vind je ons?"
     probono: "Pro bono"
     contact: "Contact"
-    events: "Onze evenementen"
+    events: "Events"
   footer:
   welcome:
     banner:
@@ -108,7 +108,7 @@ nl:
     engagement:
       title: "Engagement"
       spotlight:
-        header: "Inspiring company cultures where people drive success!"
+        header: "Inspirerende bedrijfsculturen waar mensen het succes bepalen!"
         content: "Wij nodigen jullie uit om een een bedrijfscultuur te creëren waar mensen gemotiveerd zijn, het gevoel hebben erbij te horen en waar ze impact kunnen hebben. Daar zal een andere aanpak voor nodig zijn want de verwachtingen zijn in de wereld van vandaag van beide kanten veranderd. Samen met onze Zweedse partner, SelfLeaders, ondersteunen wij jullie proces naar een geëngageerde organisatie. Onze gecertifieerde coaches faciliteren workshops die krachtig zijn, impactvol en digitaal geïntegreerd. Ze worden modulair opgebouwd en zijn volledig afgestemd op de realiteit van het bedrijf. Engagement van teams ligt nu voor alle organisaties binnen handbereik!"
         online_text: "Contacteer ons voor meer informatie over ons online aanbod"
         contact_button: "Contacteer"
