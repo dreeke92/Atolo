@@ -17,6 +17,15 @@ nl:
   footer:
   welcome:
     banner:
+      title_1: "TRAINING  EN COACHING"
+      sentence_1: "Taal, Communicatie en People and Culture"
+      button_1: "Ons aanbod"
+      title_2: "WEBINARS EN WORKSHOPS"
+      sentence_2: "Over bedrijfscultuur en -dynamiek"
+      button_2: "Ontdek onze events"
+      title_3: "IN DE SCHIJNWERPERS"
+      sentence_3: "Gepersonaliseerde/Maatgemaakte taaltrainingen Online Niveaubepaling"
+      button_3: "Gratis Demo"
       engagement_caption: "Supporting organisations where people drive impact"
       subtitle: "De zomer geeft dubbel zoveel zin om te leren!"
       subtitle_two_a: "Dus waarom zou je je teams geen boost geven?"

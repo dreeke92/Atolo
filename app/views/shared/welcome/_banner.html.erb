@@ -1,8 +1,7 @@
 <!-- Banner -->
   <section class="banner style5 orient-left content-align-center image-position-center fullscreen onload-image-fade-in onload-content-fade-right">
     <div class="content">
-      <h2><%= t("welcome.banner.engagement_caption") %></h2>
-      </br>
+
       <!-- Keep on learning -->
 <!--       <h3>Keep on learning!</h3> -->
 <!--       <h3><%#= t('solutions.communication.spotlight.online_text') %></h3>
@@ -13,12 +12,38 @@
       </ul> -->
       <!-- end -->
       <!-- Discover our events -->
-      <h3><%= t("welcome.banner.discover_text") %></h3>
-      <ul class="actions stacked text-align-center">
-        <li>
-          <%= link_to t('welcome.banner.discover_button'), events_path, :class => "button primary" %>
-        </li>
-      </ul>
+      <div class="owl-carousel banner-home-carousel">
+        <section>
+          <h2><%= t("welcome.banner.title_1") %></h2>
+          </br>
+          <h3><%= t("welcome.banner.sentence_1") %></h3>
+          <ul class="actions stacked text-align-center">
+            <li>
+              <%= link_to t('welcome.banner.button_1'), events_path, :class => "button primary" %>
+            </li>
+          </ul>
+        </section>
+         <section>
+          <h2><%= t("welcome.banner.title_2") %></h2>
+          </br>
+          <h3><%= t("welcome.banner.sentence_2") %></h3>
+          <ul class="actions stacked text-align-center">
+            <li>
+              <%= link_to t('welcome.banner.button_2'), events_path, :class => "button primary" %>
+            </li>
+          </ul>
+        </section>
+         <section>
+          <h2><%= t("welcome.banner.title_3") %></h2>
+          </br>
+          <h3><%= t("welcome.banner.sentence_3") %></h3>
+          <ul class="actions stacked text-align-center">
+            <li>
+              <%= link_to t('welcome.banner.button_3'), events_path, :class => "button primary" %>
+            </li>
+          </ul>
+        </section>
+      </div>
       <!-- end -->
       <div class="chevron-container">
         <a href="#yourworld-anchor" class="smooth-scroll chevron-holder chevron-banner">
