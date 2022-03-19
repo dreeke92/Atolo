@@ -36,11 +36,15 @@ de:
       discover_text: "Discover our Summer Training Solutions"
       discover_button: "Discover"
     intro:
-      title: "Ihre Welt"
-      text_one: "Zusammen können wir eine Kultur schaffen, in der Ihre Mitarbeiter die wichtigsten Antriebskräfte für Erfolg sind."
-      text_two: "Eine Umgebung, in der sich Ihr Team engagiert und über die notwendigen Fähigkeiten verfügt, um Engagement in positive Wirkung für Ihre Organisation umzusetzen."
+      section_1:
+        title: "Was wir für Sie tun"
+        text_one: "Nachhaltige Wirkung für Ihren Lern- und Entwicklungsbedarf."
+        text_two: "Als anerkanntes Schulungsunternehmen mit Partnern in den Benelux-Ländern und der Schweiz ist unser Expertenteam stets bestrebt, Ihnen einen realen Mehrwert für organisatorisches und persönliches Wachstums zu bieten."
+      section_2:
+        title: "Was wir tun"
+        text: "Wir bieten Trainingsprogramme, Workshops, Coaching und Online-Lernen an. "
       cards:
-        engagement_title: "Engagement"
+        engagement_title: "People and culture"
         engagement_sub_title: ""
         engagement_content: "Gemeinsam eine Arbeitskultur gestalten, in der Menschen motiviert sind, ein Zusammengehörigkeitsgefühl haben und zugleich etwas bewirken könne. In der heutigen Welt brauchen wir eine neue Haltung gegenüber unserem Job und Arbeitsplatz, denn was wir von unseren Mitarbeitern erhoffen und was sie von Ihnen erwarten, ist nicht dasselbe."
         communication_title: "Kommunikation"
@@ -100,6 +104,9 @@ de:
       name_seventeen: 'Jennemie Driessens'
       company_seventeen: 'AXA Assistance'
       content_seventeen: "The training is the result of a permanent dialogue between trainer and participants. During the training, we were able to provide continuous feedback which helped guide the content and approach wherever we wanted."
+    partners:
+      title: "Partner und Akkreditierungen"
+      text_html: "Partner von Febelfin und Cefora/ Cevora für Sprachtrainings. <br> Zertifiziert / Akkreditiert von: FSMA, FSEA and SAQ."
     contact_us:
   solutions:
     discover-button: "Unser Angebot entdecken"

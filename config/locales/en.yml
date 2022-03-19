@@ -36,11 +36,15 @@ en:
       discover_text: "Discover our Summer Training Solutions"
       discover_button: "Discover"
     intro:
-      title: "Your world"
-      text_one: "Together, we help you create a culture where your people are the main drivers of success."
-      text_two: "A place where your teams are engaged and have the necessary skills to turn their engagement into impact for your organisation."
+      section_1:
+        title: "What we do for You"
+        text_one: "Bringing sustainable impact to your learning and development needs."
+        text_two: "As a recognized training company with partners in Benelux and Switzerland, our team of experts strive to bring you true added value at the service of your organizational and personal growth."
+      section_2:
+        title: "What We Do"
+        text: "We deliver training programs, workshops, coaching, and online learning."
       cards:
-        engagement_title: "Engagement"
+        engagement_title: "People and culture"
         engagement_sub_title: "Values in action"
         engagement_content: "Connecting people to their intrinsic values to create a culture where people feel motivated, enjoy a sense of belonging and have an impact."
         communication_title: "Communication"
@@ -101,6 +105,9 @@ en:
       name_seventeen: 'Jennemie Driessens'
       company_seventeen: 'AXA Assistance'
       content_seventeen: "The training is the result of a permanent dialogue between trainer and participants. During the training, we were able to provide continuous feedback which helped guide the content and approach wherever we wanted."
+    partners:
+      title: "Partners and Accreditation"
+      text_html: "Partner with Febelfin and Cefora/ Cevora for language training. <br> Certified/ Accredited by: FSMA, FSEA and SAQ"
     contact_us:
   solutions:
     discover-button: "Discover our offer"
