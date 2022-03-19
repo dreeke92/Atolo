@@ -57,5 +57,23 @@ function testimonialCarousel() {
       })
    });
 };
+function homepageCarousel() {
+  $(document).ready(function(){
+    $('.banner-home-carousel').owlCarousel({
+        merge: true,
+        items: 1,
+        smartSpeed: 1000,
+        loop:true,
+        margin:10,
+        nav:true,
+        navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true,
+        center: false,
+        dots: true,
+      })
+   });
+};
 
-export { testimonialCarousel };
+export { testimonialCarousel, homepageCarousel };

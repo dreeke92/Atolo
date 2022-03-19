@@ -1,22 +1,31 @@
 de:
   navbar:
-    home: "Willkommen"
-    solutions: "Unsere Lösungen"
+    home: "HOME"
+    solutions: "Training- und Weiterbildungsangebote"
     promotions: "Unsere Aktionen"
-    engagement_title: "Engagement"
+    engagement_title: "People and culture"
     communication_title: "Kommunikation"
-    eval_title: "Sprachbewertungs-plattform"
+    eval_title: "Plattform zur Sprachbewertung"
     languages_title: "Sprachen"
-    values: "Unsere Werte"
+    values: "Unternehmenswerte"
     about: "Über uns"
-    team: "Unser Team"
+    team: "Das Team"
     whereto: "Unsere Büros"
     probono: "Pro bono"
     contact: "Kontakt"
-    events: "Unsere Veranstaltungen"
+    events: "Events"
   footer:
   welcome:
     banner:
+      title_1: "TRAINING  UND COACHING"
+      sentence_1: "Für Sprachen, Kommunikation sowie zu People and culture"
+      button_1: "Unsere Trainings"
+      title_2: "WEBINARE UND WORKSHOPS"
+      sentence_2: "zu \"People and culture\""
+      button_2: "Unsere Veranstaltungen/Events"
+      title_3: "IM FOKUS"
+      sentence_3: "Maßgeschneiderte Sprachtrainings und Einstufung des Sprachniveaus"
+      button_3: "Kostenlose Demo"
       engagement_caption: "Organisationen fördern, in denen Menschen Wirkung bestimmen"
       subtitle: "Lassen Sie uns diesen Sommer weiter lernen!"
       subtitle_two_a: "Bieten Sie Ihren Mitarbeitern inspirierende Momente"
@@ -27,11 +36,15 @@ de:
       discover_text: "Discover our Summer Training Solutions"
       discover_button: "Discover"
     intro:
-      title: "Ihre Welt"
-      text_one: "Zusammen können wir eine Kultur schaffen, in der Ihre Mitarbeiter die wichtigsten Antriebskräfte für Erfolg sind."
-      text_two: "Eine Umgebung, in der sich Ihr Team engagiert und über die notwendigen Fähigkeiten verfügt, um Engagement in positive Wirkung für Ihre Organisation umzusetzen."
+      section_1:
+        title: "Was wir für Sie tun"
+        text_one: "Nachhaltige Wirkung für Ihren Lern- und Entwicklungsbedarf."
+        text_two: "Als anerkanntes Schulungsunternehmen mit Partnern in den Benelux-Ländern und der Schweiz ist unser Expertenteam stets bestrebt, Ihnen einen realen Mehrwert für organisatorisches und persönliches Wachstums zu bieten."
+      section_2:
+        title: "Was wir tun"
+        text: "Wir bieten Trainingsprogramme, Workshops, Coaching und Online-Lernen an. "
       cards:
-        engagement_title: "Engagement"
+        engagement_title: "People and culture"
         engagement_sub_title: ""
         engagement_content: "Gemeinsam eine Arbeitskultur gestalten, in der Menschen motiviert sind, ein Zusammengehörigkeitsgefühl haben und zugleich etwas bewirken könne. In der heutigen Welt brauchen wir eine neue Haltung gegenüber unserem Job und Arbeitsplatz, denn was wir von unseren Mitarbeitern erhoffen und was sie von Ihnen erwarten, ist nicht dasselbe."
         communication_title: "Kommunikation"
@@ -91,6 +104,9 @@ de:
       name_seventeen: 'Jennemie Driessens'
       company_seventeen: 'AXA Assistance'
       content_seventeen: "The training is the result of a permanent dialogue between trainer and participants. During the training, we were able to provide continuous feedback which helped guide the content and approach wherever we wanted."
+    partners:
+      title: "Partner und Akkreditierungen"
+      text_html: "Partner von Febelfin und Cefora/ Cevora für Sprachtrainings. <br> Zertifiziert / Akkreditiert von: FSMA, FSEA and SAQ."
     contact_us:
   solutions:
     discover-button: "Unser Angebot entdecken"
@@ -429,7 +445,7 @@ de:
     communication_offer: "Communication offer"
     language_offer: "Language offer"
     event_one:
-      title: "Webinars"
+      title: "Webinare und Workshops"
       webinar_one:
         title: "Inclusion: Where do you start?"
         bullet_one: "Do you want to drive diversity, equity and inclusion (DE&I) forward in your company but don't know where to start?"

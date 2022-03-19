@@ -10,16 +10,6 @@
         <%= t("navbar.solutions") %>
       <% end %>
       <ul class="nav-menu-drop-down">
-        <li id="nav_engagement" class="offer-nav">
-          <%= link_to solutions_path(:anchor => 'engagement-solutions') do %>
-            <%= t("navbar.engagement_title") %>
-          <% end %>
-        </li>
-        <li id="nav_communication" class="offer-nav">
-          <%= link_to solutions_path(:anchor => 'communication-solutions') do %>
-            <%= t("navbar.communication_title") %>
-          <% end %>
-        </li>
         <li id="nav_languages" class="offer-nav">
           <%= link_to solutions_path(:anchor => 'languages-solutions') do %>
             <%= t("navbar.languages_title") %>
@@ -28,6 +18,16 @@
         <li id="nav_eval" class="offer-nav">
           <%= link_to eval_path do %>
             <%= t("navbar.eval_title") %>
+          <% end %>
+        </li>
+        <li id="nav_communication" class="offer-nav">
+          <%= link_to solutions_path(:anchor => 'communication-solutions') do %>
+            <%= t("navbar.communication_title") %>
+          <% end %>
+        </li>
+        <li id="nav_engagement" class="offer-nav">
+          <%= link_to solutions_path(:anchor => 'engagement-solutions') do %>
+            <%= t("navbar.engagement_title") %>
           <% end %>
         </li>
       </ul>
@@ -42,11 +42,6 @@
         <%= t("navbar.events") %>
       <% end %>
     </li>
-    <li id="nav_values">
-      <%= link_to values_path do %>
-        <%= t("navbar.values") %>
-      <% end %>
-    </li>
     <li id="nav_about">
       <%= link_to about_path do %>
         <%= t("navbar.about") %>
@@ -57,7 +52,7 @@
             <%= t("navbar.team") %>
           <% end %>
         </li>
-        <li id="nav_whereto" class="about-nav">
+        <li id="nav_whereto" class="about-nav d-none">
           <%= link_to about_path(:anchor => 'location-anchor') do %>
             <%= t("navbar.whereto") %>
           <% end %>
@@ -68,6 +63,11 @@
           <% end %>
         </li>
       </ul>
+    </li>
+    <li id="nav_values">
+      <%= link_to values_path do %>
+        <%= t("navbar.values") %>
+      <% end %>
     </li>
     <li id="nav_contact">
       <%= link_to contact_path do %>

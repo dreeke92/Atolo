@@ -1,22 +1,31 @@
 nl:
   navbar:
-    home: "Home"
-    solutions: "Ons aanbod"
+    home: "HOME"
+    solutions: "Trainingen"
     promotions: "Onze promoties"
-    engagement_title: "Engagement"
+    engagement_title: "People and culture"
     communication_title: "Communicatie"
-    languages_title: "Talen"
-    eval_title: "Language assessment platform"
+    languages_title: "Taaltrainingen"
+    eval_title: "Online Taaltest"
     values: "Onze waarden"
     about: "Over ons"
     team: "Ons team"
     whereto: "Waar vind je ons?"
     probono: "Pro bono"
     contact: "Contact"
-    events: "Onze evenementen"
+    events: "Events"
   footer:
   welcome:
     banner:
+      title_1: "TRAINING  EN COACHING"
+      sentence_1: "Taal, Communicatie en People and Culture"
+      button_1: "Ons aanbod"
+      title_2: "WEBINARS EN WORKSHOPS"
+      sentence_2: "Over bedrijfscultuur en -dynamiek"
+      button_2: "Ontdek onze events"
+      title_3: "IN DE SCHIJNWERPERS"
+      sentence_3: "Gepersonaliseerde/Maatgemaakte taaltrainingen Online Niveaubepaling"
+      button_3: "Gratis Demo"
       engagement_caption: "Supporting organisations where people drive impact"
       subtitle: "De zomer geeft dubbel zoveel zin om te leren!"
       subtitle_two_a: "Dus waarom zou je je teams geen boost geven?"
@@ -27,11 +36,15 @@ nl:
       discover_text: "Discover our Summer Training Solutions"
       discover_button: "Discover"
     intro:
-      title: "Jouw wereld"
-      text_one: "Samen creëren we een bedrijfscultuur waar het de mensen zelf zijn die zorgen voor succes."
-      text_two: "Een fijne plek waar teams geëngageerd zijn en mensen de nodige skills hebben om dat engagement om te zetten in impact."
+      section_1:
+        title: "Wat wij voor jou doen"
+        text_one: "Wij brengen oplossingen met een duurzame impact als antwoord op leer- en ontwikkelingsbehoeften. Een veelzijdig team van experten zorgt voor een reële meerwaarde bij persoonlijke groei en voor jullie organisatieontwikkeling."
+        text_two: "ATOLO is een erkende trainingsprovider met partners in Zwitserland en de Benelux."
+      section_2:
+        title: "Wat wij doen"
+        text: "Je kan bij ons terecht voor trainingen, workshops, coaching en online oplossingen."
       cards:
-        engagement_title: "Engagement"
+        engagement_title: "People and culture"
         engagement_sub_title: ""
         engagement_content: "Wij nodigen jullie  uit om een een bedrijfscultuur te creëren waar mensen gemotiveerd zijn, het gevoel hebben erbij te horen en waar ze impact kunnen realiseren. Daar zal een andere aanpak voor nodig zijn want de verwachtingen zijn in de wereld van vandaag van beide kanten veranderd."
         communication_title: "Communicatie"
@@ -92,6 +105,9 @@ nl:
       name_seventeen: 'Jennemie Driessens'
       company_seventeen: 'AXA Assistance'
       content_seventeen: "De training is het resultaat van een continue dialoog tussen trainer en deelnemers. De hele training lang konden we feedback geven en zo de inhoud en aanpak bijsturen."
+    partners:
+      title: "Partners en Erkenningen"
+      text_html: "Partner van Cevora en Febelfin. <br> Gecertificeerd/Geaccrediteerd door: FSMA, FSEA en SAQ."
     contact_us:
   solutions:
     discover-button: "Ontdek hoe we kunnen helpen"
@@ -99,7 +115,7 @@ nl:
     engagement:
       title: "Engagement"
       spotlight:
-        header: "Inspiring company cultures where people drive success!"
+        header: "Inspirerende bedrijfsculturen waar mensen het succes bepalen!"
         content: "Wij nodigen jullie uit om een een bedrijfscultuur te creëren waar mensen gemotiveerd zijn, het gevoel hebben erbij te horen en waar ze impact kunnen hebben. Daar zal een andere aanpak voor nodig zijn want de verwachtingen zijn in de wereld van vandaag van beide kanten veranderd. Samen met onze Zweedse partner, SelfLeaders, ondersteunen wij jullie proces naar een geëngageerde organisatie. Onze gecertifieerde coaches faciliteren workshops die krachtig zijn, impactvol en digitaal geïntegreerd. Ze worden modulair opgebouwd en zijn volledig afgestemd op de realiteit van het bedrijf. Engagement van teams ligt nu voor alle organisaties binnen handbereik!"
         online_text: "Contacteer ons voor meer informatie over ons online aanbod"
         contact_button: "Contacteer"

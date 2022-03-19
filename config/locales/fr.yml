@@ -1,22 +1,31 @@
 fr:
   navbar:
-    home: "Accueil"
-    solutions: "Nos solutions"
+    home: "ACCUEIL"
+    solutions: "Solutions de formation"
     promotions: "Nos promotions"
-    engagement_title: "Engagement"
+    engagement_title: "People and culture"
     communication_title: "Communication"
     languages_title: "Langues"
-    eval_title: "Plateforme d’évaluation en langues"
+    eval_title: "Plateforme d’évaluation linguistique"
     values: "Nos valeurs"
     about: "À propos"
     team: "Notre équipe"
     whereto: "Où nous trouver"
     probono: "Pro bono"
     contact: "Contact"
-    events: "Nos événements"
+    events: "Événements"
   footer:
   welcome:
     banner:
+      title_1: "FORMATION & COACHING"
+      sentence_1: "En langues, communication, et \"people and culture\""
+      button_1: "Solutions de formation"
+      title_2: "WEBINARS ET WORKSHOPS"
+      sentence_2: "sur \"people and culture\""
+      button_2: "Découvrez nos événements"
+      title_3: "A LA UNE"
+      sentence_3: "Formation en langues personnalisée ainsi que l’évaluation de niveau"
+      button_3: "Démo  gratuite"
       engagement_caption: "Supporting organisations where people drive impact"
       subtitle: "Continuons à apprendre cet été!"
       subtitle_two_a: "Offrez des moments inspirants à vos collaborateurs"
@@ -27,11 +36,15 @@ fr:
       discover_text: "Discover our Summer Training Solutions"
       discover_button: "Discover"
     intro:
-      title: "Votre monde"
-      text_one: "Ensemble, nous instillons une culture d'entreprise où les individus sont les principaux vecteurs de votre succès."
-      text_two: "Un lieu où vos équipes sont engagées et où elles disposent des compétences nécessaires pour transformer cet engagement en impact pour votre organisation."
+      section_1:
+        title: "Ce que nous vous offrons"
+        text_one: "Nous imprimons un impact durable à vos besoins d’apprentissage et de développement."
+        text_two: "Nous sommes une société de formation reconnue, avec des partenaires dans le Benelux et en Suisse. L’ambition de notre équipe d’experts est d’apporter une réelle valeur ajoutée à votre développement personnel et en organisation."
+      section_2:
+        title: "Ce que nous faisons"
+        text: "Nous dispensons des programmes de formation, workshops, coaching et apprentissage en ligne."
       cards:
-        engagement_title: "Engagement"
+        engagement_title: "People and culture"
         engagement_sub_title: "Valeurs en Action"
         engagement_content: "Nous facilitons le lien entre les individus et leurs valeurs intrinsèques permettant de soutenir une culture d’entreprise dans laquelle vos équipes sont motivées, bénéficient d’un sentiment d’appartenance et génèrent de l’impact."
         communication_title: "Communication"
@@ -92,6 +105,9 @@ fr:
       name_seventeen: 'Jennemie Driessens'
       company_seventeen: 'AXA Assistance'
       content_seventeen: "The training is the result of a permanent dialogue between trainer and participants. During the training, we were able to provide continuous feedback which helped guide the content and approach wherever we wanted."
+    partners:
+      title: "Partenaires et Accréditation"
+      text_html: "En partenariat avec Febelfin et Cefora/Cevora pour la formation linguistique. <br> Certification/ Accréditation: FSMA, FSEA and SAQ."
     contact_us:
   solutions:
     discover-button: "Discover our offer"
@@ -99,7 +115,7 @@ fr:
     engagement:
       title: "Engagement"
       spotlight:
-        header: "Inspiring company cultures where people drive success!"
+        header: "Des cultures d'entreprise inspirantes où les personnes sont le moteur du succès !"
         content: "Nous vous invitons à créer une culture d'entreprise dans laquelle vos collaborateurs ressentent de la motivation, bénéficient d'un sentiment d'appartenance et génèrent de l'impact. Dans le monde d'aujourd'hui, l'environnement de travail nécessite une approche différente car les attentes de part et d'autre ont changé. Avec notre partenaire suédois, SelfLeaders, notre équipe de coachs certifiés facilite des workshops autour de l'engagement. Puissants et impactants à la fois, nos solutions sont modulaires, digitalement intégrées et conçues pour répondre à votre réalité. L'engagement de vos équipes est dès à présent à votre portée!"
         online_text: "Contactez-nous pour en savoir plus sur nos solutions en ligne"
         contact_button: "Contactez-nous"

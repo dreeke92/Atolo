@@ -1,22 +1,31 @@
 en:
   navbar:
-    home: "Home"
-    solutions: "Our solutions"
+    home: "HOME"
+    solutions: "Training Solutions"
     promotions: "Our promotions"
-    engagement_title: "Engagement"
+    engagement_title: "People and culture"
     communication_title: "Communication"
     languages_title: "Languages"
     eval_title: "Language assessment platform"
-    values: "Our values"
+    values: "Our Values"
     about: "About us"
-    team: "Our team"
+    team: "Team"
     whereto: "Find us"
     probono: "Pro bono"
     contact: "Contact"
-    events: "Our events"
+    events: "Events"
   footer:
   welcome:
     banner:
+      title_1: "TRAINING  AND COACHING"
+      sentence_1: "In language, communication, and people and culture solutions"
+      button_1: "Training solutions"
+      title_2: "WEBINARS AND WORKSHOPS"
+      sentence_2: "On people and culture"
+      button_2: "Discover our events"
+      title_3: "IN THE SPOTLIGHT"
+      sentence_3: "Personalized training in languages and  also language level assessments"
+      button_3: "Free Demo"
       engagement_caption: "Supporting organisations where people drive impact"
       subtitle: "Keep on learning this summer!"
       subtitle_two_a: "How about offering your teams inspirational learning moments?"
@@ -27,11 +36,15 @@ en:
       discover_text: "Discover our Summer Training Solutions"
       discover_button: "Discover"
     intro:
-      title: "Your world"
-      text_one: "Together, we help you create a culture where your people are the main drivers of success."
-      text_two: "A place where your teams are engaged and have the necessary skills to turn their engagement into impact for your organisation."
+      section_1:
+        title: "What we do for You"
+        text_one: "Bringing sustainable impact to your learning and development needs."
+        text_two: "As a recognized training company with partners in Benelux and Switzerland, our team of experts strive to bring you true added value at the service of your organizational and personal growth."
+      section_2:
+        title: "What We Do"
+        text: "We deliver training programs, workshops, coaching, and online learning."
       cards:
-        engagement_title: "Engagement"
+        engagement_title: "People and culture"
         engagement_sub_title: "Values in action"
         engagement_content: "Connecting people to their intrinsic values to create a culture where people feel motivated, enjoy a sense of belonging and have an impact."
         communication_title: "Communication"
@@ -92,6 +105,9 @@ en:
       name_seventeen: 'Jennemie Driessens'
       company_seventeen: 'AXA Assistance'
       content_seventeen: "The training is the result of a permanent dialogue between trainer and participants. During the training, we were able to provide continuous feedback which helped guide the content and approach wherever we wanted."
+    partners:
+      title: "Partners and Accreditation"
+      text_html: "Partner with Febelfin and Cefora/ Cevora for language training. <br> Certified/ Accredited by: FSMA, FSEA and SAQ"
     contact_us:
   solutions:
     discover-button: "Discover our offer"
