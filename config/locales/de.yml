@@ -39,7 +39,7 @@ de:
       section_1:
         title: "Was wir für Sie tun"
         text_one: "Nachhaltige Wirkung für Ihren Lern- und Entwicklungsbedarf."
-        text_two: "Als anerkanntes Schulungsunternehmen mit Partnern in den Benelux-Ländern und der Schweiz ist unser Expertenteam stets bestrebt, Ihnen einen realen Mehrwert für organisatorisches und persönliches Wachstums zu bieten."
+        text_two_html: "Als anerkanntes Schulungsunternehmen mit Partnern in den Benelux-Ländern und der Schweiz ist unser Expertenteam stets bestrebt, Ihnen einen realen Mehrwert für organisatorisches und persönliches Wachstums zu bieten."
       section_2:
         title: "Was wir tun"
         text: "Wir bieten Trainingsprogramme, Workshops, Coaching und Online-Lernen an. "

@@ -39,7 +39,7 @@ nl:
       section_1:
         title: "Wat wij voor jou doen"
         text_one: "Wij brengen oplossingen met een duurzame impact als antwoord op leer- en ontwikkelingsbehoeften. Een veelzijdig team van experten zorgt voor een reële meerwaarde bij persoonlijke groei en voor jullie organisatieontwikkeling."
-        text_two: "ATOLO is een erkende trainingsprovider met partners in Zwitserland en de Benelux."
+        text_two_html: "ATOLO is een erkende trainingsprovider met partners in Zwitserland en de Benelux."
       section_2:
         title: "Wat wij doen"
         text: "Je kan bij ons terecht voor trainingen, workshops, coaching en online oplossingen."

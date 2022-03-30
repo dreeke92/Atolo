@@ -20,11 +20,11 @@ fr:
       title_1: "FORMATION & COACHING"
       sentence_1: "En langues, communication, et \"people and culture\""
       button_1: "Solutions de formation"
-      title_2: "WEBINARS ET WORKSHOPS"
-      sentence_2: "sur \"people and culture\""
+      title_2: "WEBINARS & WORKSHOPS"
+      sentence_2: "en \"people and culture\""
       button_2: "Découvrez nos événements"
       title_3: "A LA UNE"
-      sentence_3: "Formation en langues personnalisée ainsi que l’évaluation de niveau"
+      sentence_3: "Plateforme d’évaluation en langues"
       button_3: "Démo  gratuite"
       engagement_caption: "Supporting organisations where people drive impact"
       subtitle: "Continuons à apprendre cet été!"
@@ -39,10 +39,10 @@ fr:
       section_1:
         title: "Ce que nous vous offrons"
         text_one: "Nous imprimons un impact durable à vos besoins d’apprentissage et de développement."
-        text_two: "Nous sommes une société de formation reconnue, avec des partenaires dans le Benelux et en Suisse. L’ambition de notre équipe d’experts est d’apporter une réelle valeur ajoutée à votre développement personnel et en organisation."
+        text_two_html: "L’expérience d’un centre de formation reconnu et fort de ses partenaires au Benelux et en Suisse. <br>Un impact durable à votre développement et de vos apprentissages. <br>Une réelle valeur ajoutée à votre croissance personnelle et professionnelle grâce à notre équipe d’experts. "
       section_2:
         title: "Ce que nous faisons"
-        text: "Nous dispensons des programmes de formation, workshops, coaching et apprentissage en ligne."
+        text: "De la conception à la mise en place de programmes de formations, workshops et coaching, en ligne et en présentiel."
       cards:
         engagement_title: "People and culture"
         engagement_sub_title: "Valeurs en Action"
