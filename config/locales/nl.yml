@@ -446,10 +446,10 @@ nl:
     send: "Verstuur"
   events:
     title: "Let your skills bloom"
-    subtitle_html: "Nodig je mensen uit om deel te nemen aan onze open zomeropleidingen <br> Neem deel aan onze open zomeropleidingen"
+    subtitle_html: "Neem deel aan onze open zomeropleidingen"
     communication_offer: "Communication offer"
     language_offer: "Language offer"
-    cta: "Register"
+    cta: "INSCHRIJVEN"
     summer_event_one:
       title: "Optie 1: Open taalopleidingen"
       subtitle: "\"3 dagen dynamisch en intensief de taal beleven in een real-life omgeving\""
@@ -465,7 +465,7 @@ nl:
         bullet_three_html: "Planning: <br> • Engels: 4, 5, 6/07 <br> • Nederlands: 11, 12, 13/07 <br> • Duits: 11, 12, 13/07 <br> • Frans: 13, 14, 15/07"
         bullet_four: "Maximum 6 deelnemers"
         bullet_five: "Totaal aantal uren training per trainee: 18 uur."
-        bullet_six_html: "<strong>Online Alternatief</strong> voor de 4 talen: week van 22/08 – 9.00 tot 12:30"
+        bullet_six_html: "<strong>Online alternatief</strong> voor de 4 talen: week van 22/08 – 9.00 tot 12:30"
     summer_event_two:
       title: "Optie 2: Individuele taalcoaching"
       subtitle: "\"Jij en je coach, gedurende 10 uur volledig op maat\""
