@@ -20,8 +20,8 @@ nl:
       title_1: "TRAINING  EN COACHING"
       sentence_1: "Taal, Communicatie en People and Culture"
       button_1: "Ons aanbod"
-      title_2: "WEBINARS EN WORKSHOPS"
-      sentence_2: "Over bedrijfscultuur en -dynamiek"
+      title_2: "OPEN ZOMEROPLEIDINGEN"
+      sentence_2: "Voor taal en communicatie"
       button_2: "Ontdek onze events"
       title_3: "IN DE SCHIJNWERPERS"
       sentence_3: "Gepersonaliseerde/Maatgemaakte taaltrainingen Online Niveaubepaling"
@@ -371,7 +371,7 @@ nl:
       member_twelve:
         first_name: "Delia"
         second_name: "Mensitieri"
-        role: "L&D Consultant"
+        role: "Academic Expert"
         text: "Delia’s creativiteit, enthousiasme en vastberadenheid maken van haar iemand die geen uitdaging uit de weg gaat. In haar zoektocht naar impactvolle oplossingen aarzelt ze niet om kritische vragen te stellen. Met haar stille kracht en toewijding aan haar partners en het creëren van meerwaarde voor iedereen, is zij iemand bij wie we altijd terecht kunnen voor het beste advies."
       member_thirteen:
         first_name: "Adeline"
@@ -440,12 +440,60 @@ nl:
     name: "Naam"
     company: "Organisatie"
     email: "Email"
+    phone: "Telefoonnummer"
     message: "Bericht"
     human: "Ik ben een mens en geen robot"
     send: "Verstuur"
   events:
+    title: "Let your skills bloom"
+    subtitle_html: "Nodig je mensen uit om deel te nemen aan onze open zomeropleidingen <br> Neem deel aan onze open zomeropleidingen"
     communication_offer: "Communication offer"
     language_offer: "Language offer"
+    cta: "Register"
+    summer_event_one:
+      title: "Optie 1: Open taalopleidingen"
+      subtitle: "\"3 dagen dynamisch en intensief de taal beleven in een real-life omgeving\""
+      part_one:
+        title: "Waarom deze formule?"
+        bullet_one: "Je bouwt aan de nodige taalvaardigheden om je 100% te kunnen focussen op de taken die je dagelijks uitvoert."
+        bullet_two: "Je werkt 100% binnen jouw leefwereld."
+        bullet_three: "Je boekt meetbare resultaten: wat je leert, kan je meteen in de praktijk omzetten."
+      part_two:
+        title: "Praktisch:"
+        bullet_one: "Face-to-face: Atolo - Avenue de Tervurenlaan 36/18, 1040 Brussels"
+        bullet_two: "3 volle dagen van 9.00 tot 16.00"
+        bullet_three_html: "Planning: <br> • Engels: 4, 5, 6/07 <br> • Nederlands: 11, 12, 13/07 <br> • Duits: 11, 12, 13/07 <br> • Frans: 13, 14, 15/07"
+        bullet_four: "Maximum 6 deelnemers"
+        bullet_five: "Totaal aantal uren training per trainee: 18 uur."
+        bullet_six_html: "<strong>Online Alternatief</strong> voor de 4 talen: week van 22/08 – 9.00 tot 12:30"
+    summer_event_two:
+      title: "Optie 2: Individuele taalcoaching"
+      subtitle: "\"Jij en je coach, gedurende 10 uur volledig op maat\""
+      part_one:
+        title: "Waarom deze formule?"
+        bullet_one: "Je wil een volledig gepersonaliseerde ervaring."
+        bullet_two: "Je wil je vaardigheden snel en tastbaar maximaliseren in een one-on-one training."
+        bullet_three: "Je boekt meetbare resultaten: wat je leert, kan je meteen in de praktijk omzetten."
+      part_two:
+        title: "Praktisch:"
+        bullet_one: "Online "
+        bullet_two: "Flexibel: Je plant de sessies rechtstreeks met de trainer, de sessies gaan door tussen 13/06 en 30/09/22"
+        bullet_three: "Talen: EN – FR – DE – NL"
+        bullet_four: "Totaal aantal uren training: 10 uur"
+    summer_event_three:
+      title: "Optie 3: Communicatietraining"
+      subtitle: "\"Communiceer met Impact!\""
+      part_one:
+        title: "Waarom deze formule?"
+        bullet_one: "Je bouwt zelfvertrouwen op."
+        bullet_two: "Je verwerft de tools om buy-in te verkrijgen."
+        bullet_three: "Je brengt tools in de praktijk om de dynamiek en interactie te vergroten."
+      part_two:
+        title: "Praktisch:"
+        bullet_one: "Online traject van 2 halve dagen - 9.00-13.00"
+        bullet_two: "Planning: 5 en 8/07 of 23 en 25/08"
+        bullet_three: "Maximum 5 deelnemers"
+        bullet_four: "Totaal aantal uren training: 8 uur"
     event_one:
       title: "Webinars"
       webinar_one:

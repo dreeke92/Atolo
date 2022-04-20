@@ -6,12 +6,15 @@
 </head>
 <body aria-readonly="false">Hello Atolo Sales team,&nbsp;<br />
 <br />
-<span style="color:#008000"><strong><%= @name %></strong></span> from <span style="color:#008000"><strong><%= @company %></strong>&nbsp;</span>has contacted you through the contact form on the Atolo Website.<br />
+<span style="color:#008000"><strong><%= @message.name %></strong></span> from <span style="color:#008000"><strong><%= @message.company %></strong>&nbsp;</span>has contacted you through the contact form on the Atolo Website.<br />
 <br />
 He/She has sent you the following message:<br />
 <br />
-<span style="color:#008000"><strong><%= @content %></strong></span><br />
+<span style="color:#008000"><strong><%= @message.content %></strong></span><br />
 <br />
 You can get back in contact with him/her through the following email address:<br />
 <br />
-<span style="color:#008000"><strong><%= @email %></strong></span></body>
+<span style="color:#008000"><strong><%= @message.email %></strong></span></body>
+And phone :<br />
+<br />
+<span style="color:#008000"><strong><%= @message.phone %></strong></span></body>

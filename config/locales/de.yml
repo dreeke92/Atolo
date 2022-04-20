@@ -20,8 +20,8 @@ de:
       title_1: "TRAINING  UND COACHING"
       sentence_1: "Für Sprachen, Kommunikation sowie zu People and culture"
       button_1: "Unsere Trainings"
-      title_2: "WEBINARE UND WORKSHOPS"
-      sentence_2: "zu \"People and culture\""
+      title_2: "OFFENE SOMMER-TRAININGS"
+      sentence_2: "In Sprachen und Kommunikation"
       button_2: "Unsere Veranstaltungen/Events"
       title_3: "IM FOKUS"
       sentence_3: "Maßgeschneiderte Sprachtrainings und Einstufung des Sprachniveaus"
@@ -369,7 +369,7 @@ de:
       member_twelve:
         first_name: "Delia"
         second_name: "Mensitieri"
-        role: "L&D Consultant"
+        role: "Academic Expert"
         text: "Delias Kreativität, Enthusiasmus und Entschlossenheit machen sie zu einer Person, die sich jeder Herausforderung stellen kann. Sie wird nicht zögern, die kritischen Fragen zu stellen, um die Lösungen zu finden, die die größte Wirkung haben. Delia ist als Ruhepol, der sich dem Wohl aller widmet, eine besondere Gesprächspartnerin."
       member_thirteen:
         first_name: "Adeline"
@@ -438,12 +438,60 @@ de:
     name: "Name"
     company: "Firma"
     email: "E-Mail"
+    phone: "Rufnummer"
     message: "Mitteilung"
     human: "Ich bin ein Mensch und kein Roboter"
     send: "Mitteilung senden"
   events:
+    title: "Let your skills bloom"
+    subtitle_html: "Take part in our summer open trainings"
     communication_offer: "Communication offer"
     language_offer: "Language offer"
+    cta: "Register here"
+    summer_event_one:
+      title: "Option 1: Open courses in Languages"
+      subtitle: "\"3 days living the language dynamically and intensely in a real-life environment\""
+      part_one:
+        title: "Why this formula?"
+        bullet_one: "You develop the language skills needed for you to be able to focus 100% on the task."
+        bullet_two: "You will be 100% working on your reality."
+        bullet_three: "You will reach measurable results: skills are immediately put into practice."
+      part_two:
+        title: "In practice"
+        bullet_one: "Face-to-face : Atolo - Avenue de Tervurenlaan 36/18, 1040 Brussels"
+        bullet_two: "3 full days from 9.00 to 16.00"
+        bullet_three_html: "Weeks for enrollment : <br> • English : 4, 5, 6/07 <br> • Dutch : 11, 12, 13/07 <br> • German : 11, 12, 13/07 <br> • French : 13, 14, 15/07"
+        bullet_four: "Max. 6 participants"
+        bullet_five: "Total training hours: 18 hours"
+        bullet_six_html: "<strong>Online alternative</strong> for 4 languages: week of 22/08 - 9 to 12:30 am"
+    summer_event_two:
+      title: "Option 2: Language Individual coaching"
+      subtitle: "\"Just you and your coach for 10 tailormade hours\""
+      part_one:
+        title: "Why this formula?"
+        bullet_one: "You wish to benefit from a fully personalised experience."
+        bullet_two: "You wish to maximise your skills swiftly and tangibly in one-on-one training."
+        bullet_three: "You will reach measurable results: skills are immediately put into practice."
+      part_two:
+        title: "In practice"
+        bullet_one: "Online"
+        bullet_two: "Flexible: You schedule the sessions with your coach, between 13/06 and 30/09/22."
+        bullet_three: "Languages: EN – FR – DE – NL"
+        bullet_four: "Total training hours: 10 hours"
+    summer_event_three:
+      title: "Option 3: Communication training"
+      subtitle: "\"Communicate with Impact!\""
+      part_one:
+        title: "Why this formula?"
+        bullet_one: "You will build up your confidence."
+        bullet_two: "You will acquire the tools to obtain buy-in."
+        bullet_three: "You will put into practice tools to increase dynamism and interaction."
+      part_two:
+        title: "In practice"
+        bullet_one: "Online journey covering 2 half days - 9.00-13.00"
+        bullet_two: "Weeks available for enrollment: 5 and 8/07 or 23 and 25/08"
+        bullet_three: "Maximum 5 participants"
+        bullet_four: "Total training hours: 8 hours"
     event_one:
       title: "Webinare und Workshops"
       webinar_one:
