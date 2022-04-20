@@ -451,8 +451,55 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
     human: "Je suis un humain et pas un robot"
     send: "Envoyer le message"
   events:
+    title: "Let your skills bloom"
+    subtitle_html: "Participez à nos formations ouvertes cet été"
     communication_offer: "Communication offer"
     language_offer: "Language offer"
+    cta: "S'inscrire"
+    summer_event_one:
+      title: "Option 1: Cours ouverts en langues"
+      subtitle: "\"3 jours pour vivre la langue de manière dynamique et intense dans un environnement plus que réaliste\""
+      part_one:
+        title: "Pourquoi cette formule ?"
+        bullet_one: "Vous développez les compétences linguistiques nécessaires à votre travail et vous concentrez uniquement sur vos tâches."
+        bullet_two: "Vous travaillez à 100% sur votre réalité."
+        bullet_three: "Vous atteindrez des résultats tangibles, les compétences étant immédiatement mises en pratique."
+      part_two:
+        title: "En pratique"
+        bullet_one: "Face-à-face : Atolo - Avenue de Tervurenlaan 36/18, 1040 Brussels"
+        bullet_two: "3 jours de 9:00 à 16:00"
+        bullet_three_html: "Semaines proposées : <br> • Anglais : 4, 5, 6/07 <br> • Néerlandais : 11, 12, 13/07 <br> • Allemand : 11, 12, 13/07 <br> • Français : 13, 14, 15/07"
+        bullet_four: "Max. 6 participants"
+        bullet_five: "Durée totale de la formation : 18 heures"
+        bullet_six_html: "<strong>Alternative en ligne</strong> pour les 4 langues : Semaine du 22/08 de 9:00 à 12:00"
+    summer_event_two:
+      title: "Option 2: Coaching linguistique individuel"
+      subtitle: "\"Juste vous et votre coach pour 10 heures très personnalisées\""
+      part_one:
+        title: "Pourquoi cette formule ?"
+        bullet_one: "Vous souhaitez bénéficier d’une expérience sur mesure."
+        bullet_two: "Vous maximisez vos compétences rapidement et très concrètement."
+        bullet_three: "Vous atteindrez des résultats tangibles, les compétences étant immédiatement mises en pratique."
+      part_two:
+        title: "En pratique"
+        bullet_one: "En ligne"
+        bullet_two: "Flexible : Vous planifiez les sessions avec votre coach, entre le 13/06 et le 30/09/22."
+        bullet_three: "Langues : EN – FR – DE – NL"
+        bullet_four: "Durée totale de la formation : 10 heures"
+    summer_event_three:
+      title: "Option 3: Formation en Communication"
+      subtitle: "\"Communiquez avec impact!\""
+      part_one:
+        title: "Pourquoi cette formule ?"
+        bullet_one: "Vous vous sentirez plus en confiance."
+        bullet_two: "Vous acquerrez les outils nécessaires pour obtenir l’adhésion de votre public."
+        bullet_three: "Vous mettrez en pratique les techniques visant à accroître le dynamisme et l’interaction."
+      part_two:
+        title: "En pratique"
+        bullet_one: "En ligne sur 2 demi-journées – 9:00-13:00"
+        bullet_two: "Semaines proposées : 5 et 8/07 ou 23 et 25/08"
+        bullet_three: "Maximum 5 participants"
+        bullet_four: "Durée totale de la formation : 8 heures"
     event_one:
       title: "Webinars"
       webinar_one:
