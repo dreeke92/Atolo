@@ -11,11 +11,11 @@ class MessagesController < ApplicationController
   private
 
   def message_params
-    params.require(:message).permit(:name, :company, :email, :content, :copy, :robot)
+    params.require(:message).permit(:name, :company, :email, :content, :phone, :copy, :robot)
   end
 
   def send_mail(message)
-    UserMailer.with(name: message.name, company: message.company, email: message.email, content: message.content).inbound.deliver_now
+    UserMailer.inbound(message.id).deliver_now
   end
 
 end

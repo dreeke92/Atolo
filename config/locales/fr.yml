@@ -446,6 +446,7 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
     name: "Nom"
     company: "Organisation"
     email: "Email"
+    phone: "Numéro de téléphone"
     message: "Message"
     human: "Je suis un humain et pas un robot"
     send: "Envoyer le message"

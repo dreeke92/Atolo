@@ -447,6 +447,7 @@ en:
     name: "Name"
     company: "Company"
     email: "Email"
+    phone: "Phone number"
     message: "Message"
     human: "I am a human and not a robot"
     send: "Send message"

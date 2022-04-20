@@ -440,6 +440,7 @@ nl:
     name: "Naam"
     company: "Organisatie"
     email: "Email"
+    phone: "Telefoonnummer"
     message: "Bericht"
     human: "Ik ben een mens en geen robot"
     send: "Verstuur"

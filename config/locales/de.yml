@@ -438,6 +438,7 @@ de:
     name: "Name"
     company: "Firma"
     email: "E-Mail"
+    phone: "Rufnummer"
     message: "Mitteilung"
     human: "Ich bin ein Mensch und kein Roboter"
     send: "Mitteilung senden"

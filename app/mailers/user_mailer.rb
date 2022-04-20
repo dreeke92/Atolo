@@ -5,12 +5,8 @@ class UserMailer < ApplicationMailer
   #
   #   en.user_mailer.inbound.subject
   #
-  def inbound
-    @name = params[:name]
-    @company = params[:company]
-    @email = params[:email]
-    @content = params[:content]
-    @copy = params[:copy]
+  def inbound(message_id)
+    @message =  Message.find(message_id)
 
     mail to: "admin@atolo.global"
   end
