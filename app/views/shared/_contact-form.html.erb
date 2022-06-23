@@ -1,4 +1,4 @@
-  <form method="post" action="/messages">
+  <form method="post" action="/messages" id="contact-form">
     <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
     <div class="fields">
       <div class="field half">
@@ -26,15 +26,59 @@
         <label for="copy">Email me a copy of this message</label>
       </div> -->
       <div class="field d-none">
-        <input class="checkmark" type="checkbox" required id="human" name="message[robot]"/>
+        <input class="checkmark" type="checkbox" id="human" name="message[robot]"/>
         <label for="human"><%= t('form.human') %></label>
       </div>
       <div class="field">
-        <div class="g-recaptcha" data-sitekey="6Leq-ZYgAAAAAGFXLTnAWjkwonj4qbyyTlJ2ytVv"></div>
+        <div class="g-recaptcha" data-sitekey="6Leq-ZYgAAAAAGFXLTnAWjkwonj4qbyyTlJ2ytVv" data-callback="onRecaptchaSuccess"
+        data-expired-callback="onRecaptchaResponseExpiry"
+        data-error-callback="onRecaptchaError"></div>
       </div>
 
     </div>
     <ul class="actions align-center">
-      <li><input class="primary contact-form-submit" type="submit" name="submit" id="submit" value="<%= t('form.send') %>" /></li>
+      <li><input class="primary contact-form-submit" type="submit" name="submit" id="submit" value="<%= t('form.send') %>" disabled /></li>
     </ul>
   </form>
+
+  <script>
+    let isRecaptchaValidated = false;
+
+    function toggleRecaptchaFormMessage(type = "error", hide = false) {
+      document.getElementById(`contact-form-${type}`).style.display = hide
+        ? "none"
+        : "inherit";
+    }
+
+    function onRecaptchaSuccess() {
+      isRecaptchaValidated = true;
+      document.getElementById("submit").disabled = false;
+    }
+
+    function onRecaptchaError() {
+      // toggleRecaptchaFormMessage("error");
+      // toggleRecaptchaFormMessage("success", true);
+    }
+
+    function onRecaptchaResponseExpiry() {
+      // onRecaptchaError();
+    }
+
+    // window.onload = function () {
+    //   const recaptchaForm = document.getElementById("contact-form");
+    //   recaptchaForm.addEventListener("submit", function (e) {
+    //     e.preventDefault();
+
+    //     // failure
+    //     if (!isRecaptchaValidated) {
+    //       toggleRecaptchaFormMessage("error");
+    //       toggleRecaptchaFormMessage("success", true);
+    //       return;
+    //     }
+
+    //     // success
+    //     toggleRecaptchaFormMessage("error", true);
+    //     toggleRecaptchaFormMessage("success");
+    //   });
+    // };
+  </script>
