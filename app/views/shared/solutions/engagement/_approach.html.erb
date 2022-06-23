@@ -1,6 +1,6 @@
 <!-- Spotlight -->
   <section class="spotlight style5 orient-center content-align-left image-position-center onscroll-image-fade-in color8">
-    <div id="content-selector" class="content engagement-approach-box">
+    <div id="content-selector" class="content engagement-approach-box  d-none">
       <ul style="list-style: none;" class="selector-box">
         <li class="engagement-selector-one engagement-selector active"><i class="engagement-selector-bubble engagement-selector-bubble-one fas fa-circle"></i><h3><%= t('solutions.engagement.approach.header_one') %></h3></li>
         <li class="engagement-selector-two engagement-selector"><i class="engagement-selector-bubble engagement-selector-bubble-two far fa-circle"></i><h3><%= t('solutions.engagement.approach.header_two') %></h3></li>
@@ -11,21 +11,32 @@
     </div>
     <div class="content small-font approaches">
       <div class="engagement-approach-flex-box">
-        <div class="engagement-approach engagement-approach-one active onscroll-content-fade-in">
+        <div class="engagement-approach engagement-approach-one active onscroll-content-fade-in d-none">
           <h2><%= t('solutions.engagement.approach.header_one') %></h2>
           <div>
             <p class="align-justify"><%= t('solutions.engagement.approach.content_one') %></p>
           </div>
         </div>
-        <div class="engagement-approach engagement-approach-two onscroll-content-fade-in" style="display: none;">
-          <h2><%= t('solutions.engagement.approach.header_two') %></h2>
+        <div class="engagement-approach engagement-approach-two onscroll-content-fade-in">
+          <h2>A comprehensive approach</h2>
           <div>
             <ul>
-              <li><p class="engagement-small-margin align-justify"><strong><%= t('solutions.engagement.approach.content_two_a_bullet') %></strong><%= t('solutions.engagement.approach.content_two_a_text') %></p></li>
-              <li><p class="engagement-small-margin align-justify"><strong><%= t('solutions.engagement.approach.content_two_b_bullet') %></strong><%= t('solutions.engagement.approach.content_two_b_text') %></p></li>
-              <li><p class="engagement-small-margin align-justify"><strong><%= t('solutions.engagement.approach.content_two_c_bullet') %></strong><%= t('solutions.engagement.approach.content_two_c_text') %></p></li>
-              <li><p class="engagement-small-margin align-justify"><strong><%= t('solutions.engagement.approach.content_two_d_bullet') %></strong><%= t('solutions.engagement.approach.content_two_d_text') %></p></li>
-              <li><p class="engagement-small-margin align-justify"><strong><%= t('solutions.engagement.approach.content_two_e_bullet') %></strong><%= t('solutions.engagement.approach.content_two_e_text') %></p></li>
+              <li><p class="engagement-small-margin align-justify">
+                <strong style="color:#48E27C;">Super hands-on</strong><br>
+                You put all insights into practice and go beyond knowing to doing.
+              </p></li>
+              <li><p class="engagement-small-margin align-justify">
+                <strong style="color:#48E27C;">Access to experienced coaches</strong><br>
+                You are able to go deep into your topic and have access to a sparring partner who challenges you to grow.
+              </p></li>
+              <li><p class="engagement-small-margin align-justify">
+                <strong style="color:#48E27C;">Personalised</strong><br>
+                We keep these groups small so you are able to work on your unique needs without getting lost in the group.
+              </p></li>
+              <li><p class="engagement-small-margin align-justify">
+                <strong style="color:#48E27C;">Future-proof</strong><br>
+                You receive methodologies and frameworks which will continue to support you once we are gone.
+              </p></li>
             </ul>
           </div>
         </div>
