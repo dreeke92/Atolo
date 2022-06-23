@@ -26,6 +26,9 @@ nl:
       title_3: "IN DE SCHIJNWERPERS"
       sentence_3: "Gepersonaliseerde/Maatgemaakte taaltrainingen Online Niveaubepaling"
       button_3: "Gratis Demo"
+      title_4: "ATOLO IS 10 YEARS OLD!"
+      sentence_4_html: "A moment of celebration, but above all gratitude. <br>To our partners who trusted us and challenged us to grow and be better.<br>To our trainers who translate, inspire and enrich our vision.<br>To the people who came and went, but always left their mark on us.<br>To the people who provide us with the services we need to do our work.<br><br><strong>You have all made us what we are and we thank you!</strong>"
+      button_4: ""
       engagement_caption: "Supporting organisations where people drive impact"
       subtitle: "De zomer geeft dubbel zoveel zin om te leren!"
       subtitle_two_a: "Dus waarom zou je je teams geen boost geven?"
@@ -113,14 +116,14 @@ nl:
     discover-button: "Ontdek hoe we kunnen helpen"
     our-offer: "Ons aanbod"
     engagement:
-      title: "Engagement"
+      title: "People and culture"
       spotlight:
         header: "Inspirerende bedrijfsculturen waar mensen het succes bepalen!"
         content: "Wij nodigen jullie uit om een een bedrijfscultuur te creëren waar mensen gemotiveerd zijn, het gevoel hebben erbij te horen en waar ze impact kunnen hebben. Daar zal een andere aanpak voor nodig zijn want de verwachtingen zijn in de wereld van vandaag van beide kanten veranderd. Samen met onze Zweedse partner, SelfLeaders, ondersteunen wij jullie proces naar een geëngageerde organisatie. Onze gecertifieerde coaches faciliteren workshops die krachtig zijn, impactvol en digitaal geïntegreerd. Ze worden modulair opgebouwd en zijn volledig afgestemd op de realiteit van het bedrijf. Engagement van teams ligt nu voor alle organisaties binnen handbereik!"
         online_text: "Contacteer ons voor meer informatie over ons online aanbod"
         contact_button: "Contacteer"
       products:
-        title: "Ons aanbod in Engagement"
+        title: "Ons aanbod in People and culture"
         content: "Onze aanpak heeft zichzelf al bewezen. Ze is allround: of je nu engagement wil activeren, engagement omzetten in concrete acties of een omgeving creëren waarin engagement kan groeien, we gaan ervoor met het traject dat het best aansluit bij jullie organisatie."
         request: "meer info"
       approach:
@@ -378,6 +381,11 @@ nl:
         second_name: "Leguillier"
         role: "L&D Consultant"
         text: "Barstensvol energie slaagt Adeline er altijd weer in om grenzen te verleggen en de ‘fun’ naar boven te halen bij elke uitdaging. Met hetzelfde enthousiasme en met haar enorme ervaring zet ze zich in voor al jullie projecten. Ze analyseert noden, formuleert het juiste consult en doet al je projecten slagen. Adeline laat je ten volle de Atolo-ervaring beleven."
+      member_fourteen:
+        first_name: "Jan"
+        second_name: "Vandenborre"
+        role: "L&D Consultant"
+        text: "Als ervaren trainer die graag out-of-the-box denkt, vindt Jan creatieve oplossingen voor jouw professionele uitdagingen op het gebied van taalverwerving en communicatie. Zijn luisterend oor en aanstekelijke energie maken hem de ideale sparringpartner om mee samen te werken aan uw L&D projecten."
     location: "Waar vind je ons?"
     probono:
         title: "Atolo Pro Bono"

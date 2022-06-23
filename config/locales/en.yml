@@ -26,6 +26,9 @@ en:
       title_3: "IN THE SPOTLIGHT"
       sentence_3: "Personalized training in languages and  also language level assessments"
       button_3: "Free Demo"
+      title_4: "ATOLO IS 10 YEARS OLD!"
+      sentence_4_html: "A moment of celebration, but above all gratitude. <br>To our partners who trusted us and challenged us to grow and be better.<br>To our trainers who translate, inspire and enrich our vision.<br>To the people who came and went, but always left their mark on us.<br>To the people who provide us with the services we need to do our work.<br><br><strong>You have all made us what we are and we thank you!</strong>"
+      button_4: ""
       engagement_caption: "Supporting organisations where people drive impact"
       subtitle: "Keep on learning this summer!"
       subtitle_two_a: "How about offering your teams inspirational learning moments?"
@@ -113,14 +116,14 @@ en:
     discover-button: "Discover our offer"
     our-offer: "Our product offer"
     engagement:
-      title: "Engagement"
+      title: "People and culture"
       spotlight:
         header: "Inspiring company cultures where people drive success!"
         content: "Creating a culture where people live their values, enjoy a sense of belonging and drive success. In today’s world, the workplace needs a different approach because what you expect from your people and what they expect from you has changed. A certified and experienced team of experts deliver powerful engagement workshops designed together with our Swedish partners at Selfleaders. Our modular approach and the use of digitalisation provides you with solutions no matter your size or needs. Engagement is now at the reach of all organisations!"
         online_text: "Contact us to know more about our online solutions"
         contact_button: "Get in touch"
       products:
-        title: "Our Engagement Solutions"
+        title: "Our People and Culture Solutions"
         content: "Dynamic and inspiring workshops easily adaptable to all types of missions, teams and levels of your organisation."
         request: "Request more information"
       approach:
@@ -385,6 +388,11 @@ en:
         second_name: "Leguillier"
         role: "L&D Consultant"
         text: "Full of energy, Adeline knows how to make challenges feel like fun and motivates everyone around her to push their boundaries. You will benefit from her expertise in experential learning and translating people development into impact for your organisation."
+      member_fourteen:
+        first_name: "Jan"
+        second_name: "Vandenborre"
+        role: "L&D Consultant"
+        text: "As a seasoned trainer and out-of-the box thinker, Jan finds creative solutions to your professional challenges in terms of language acquisition and communication. His listening ear and contagious energy make him the ideal sparring partner to work with on your L&D projects."
     location: "Where to find us"
     probono:
         title: "Atolo Pro Bono"

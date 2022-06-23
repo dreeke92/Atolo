@@ -26,6 +26,9 @@ fr:
       title_3: "A LA UNE"
       sentence_3: "Plateforme d’évaluation en langues"
       button_3: "Démo  gratuite"
+      title_4: "ATOLO IS 10 YEARS OLD!"
+      sentence_4_html: "A moment of celebration, but above all gratitude. <br>To our partners who trusted us and challenged us to grow and be better.<br>To our trainers who translate, inspire and enrich our vision.<br>To the people who came and went, but always left their mark on us.<br>To the people who provide us with the services we need to do our work.<br><br><strong>You have all made us what we are and we thank you!</strong>"
+      button_4: ""
       engagement_caption: "Supporting organisations where people drive impact"
       subtitle: "Continuons à apprendre cet été!"
       subtitle_two_a: "Offrez des moments inspirants à vos collaborateurs"
@@ -113,14 +116,14 @@ fr:
     discover-button: "Discover our offer"
     our-offer: "Nos solutions"
     engagement:
-      title: "Engagement"
+      title: "People and culture"
       spotlight:
         header: "Des cultures d'entreprise inspirantes où les personnes sont le moteur du succès !"
         content: "Nous vous invitons à créer une culture d'entreprise dans laquelle vos collaborateurs ressentent de la motivation, bénéficient d'un sentiment d'appartenance et génèrent de l'impact. Dans le monde d'aujourd'hui, l'environnement de travail nécessite une approche différente car les attentes de part et d'autre ont changé. Avec notre partenaire suédois, SelfLeaders, notre équipe de coachs certifiés facilite des workshops autour de l'engagement. Puissants et impactants à la fois, nos solutions sont modulaires, digitalement intégrées et conçues pour répondre à votre réalité. L'engagement de vos équipes est dès à présent à votre portée!"
         online_text: "Contactez-nous pour en savoir plus sur nos solutions en ligne"
         contact_button: "Contactez-nous"
       products:
-        title: "Nos Solutions en Engagement"
+        title: "Nos Solutions People et Culture"
         content: "Nos workshops, dynamiques et inspirants, sont modulables selon la typologie des participants, les niveaux de responsabilités et la maturité de votre organisation."
         request: "Je veux en savoir plus"
       approach:
@@ -384,6 +387,11 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
         second_name: "Leguillier"
         role: "L&D Consultant"
         text: "Source inépuisable d’énergie, Adeline adore relever les défis ! Grâce à son expertise, elle rend l’expérience d’apprentissage enrichissante et amusante. Passionnée par le développement personnel, elle n’hésite pas à soutenir ses interlocuteurs dans le dépassement de leurs limites et à imaginer des solutions pertinentes et impactantes pour votre organisation."
+      member_fourteen:
+        first_name: "Jan"
+        second_name: "Vandenborre"
+        role: "L&D Consultant"
+        text: "En tant que formateur expérimenté et grâce à ses idées novatrices, Jan trouve des solutions créatives à vos défis professionnels, aussi bien en termes de performances linguistiques que de communication. Son sens de l'écoute et son énergie contagieuse font de lui l’interlocuteur idéal pour vos projets de formation et de perfectionnement."
     location: "Où nous trouver"
     probono:
         title: "Atolo Pro Bono"

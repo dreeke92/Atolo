@@ -26,6 +26,9 @@ de:
       title_3: "IM FOKUS"
       sentence_3: "Maßgeschneiderte Sprachtrainings und Einstufung des Sprachniveaus"
       button_3: "Kostenlose Demo"
+      title_4: "ATOLO IS 10 YEARS OLD!"
+      sentence_4_html: "A moment of celebration, but above all gratitude. <br>To our partners who trusted us and challenged us to grow and be better.<br>To our trainers who translate, inspire and enrich our vision.<br>To the people who came and went, but always left their mark on us.<br>To the people who provide us with the services we need to do our work.<br><br><strong>You have all made us what we are and we thank you!</strong>"
+      button_4: ""
       engagement_caption: "Organisationen fördern, in denen Menschen Wirkung bestimmen"
       subtitle: "Lassen Sie uns diesen Sommer weiter lernen!"
       subtitle_two_a: "Bieten Sie Ihren Mitarbeitern inspirierende Momente"
@@ -112,14 +115,14 @@ de:
     discover-button: "Unser Angebot entdecken"
     our-offer: "Unser Produktangebot"
     engagement:
-      title: "Engagement"
+      title: "People and culture"
       spotlight:
         header: "Firmenkulturen inspirieren, in denen Menschen den Erfolg bestimmen!"
         content: "Wir möchten Sie gerne ermutigen, eine Firmenkultur zu schaffen, in der Ihre Mitarbeiter nach ihren Werten leben, ein Zusammengehörigkeitsgefühl haben und der Motor des Erfolgs sind. In der heutigen Welt müssen wir unseren Job und Arbeitsalltag unter einem neuen Licht betrachten, denn was Ihre Mitarbeiter von Ihnen erwarten und was Sie von ihnen wünschen, hat sich geändert. Zusammen mit unserem Partner SelfLeaders in Schweden organisiert unser Team von erfahrenen Trainern diverse Workshops zum Thema Engagement. Unsere Lösungsansätze sind zugleich modular und flexible, digital integrierbar und so entwickelt, dass sie Ihrer spezifischen Situation entsprechen. Das Engagement Ihres Teams ist nun greifbar nah - ein einsatzfreudiges Team, welches die positiven Werte Ihrer Organisation mit Begeisterung vertritt."
         online_text: "Kontaktieren Sie uns für weitere Informationen zu unserem Online-Angebot"
         contact_button: "Kontakt"
       products:
-        title: "Unsere Lösungen im Bereich Engagement"
+        title: "Our People and Culture Solutions"
         content: "Unsere Lösungsansätze sind bewährt und vielseitig. Sie erlauben Ihnen das Gefühl des Engagements in Ihren Mitarbeiter zu wecken und dieses dann in konkrete Aktionen umzusetzen. Dies geschieht in einem Arbeitsumfeld, welches die aktive Beteiligung des ganzen Teams unterstützt und fördert."
         request: "Mehr Informationen dazu erhalten"
       approach:
@@ -376,6 +379,11 @@ de:
         second_name: "Leguillier"
         role: "L&D Consultant"
         text: "Full of energy, Adeline knows how to make challenges feel like fun and motivates everyone around her to push their boundaries. You will benefit from her expertise in experential learning and translating people development into impact for your organisation."
+      member_fourteen:
+        first_name: "Jan"
+        second_name: "Vandenborre"
+        role: "L&D Consultant"
+        text: "As a seasoned trainer and out-of-the box thinker, Jan finds creative solutions to your professional challenges in terms of language acquisition and communication. His listening ear and contagious energy make him the ideal sparring partner to work with on your L&D projects."
     location: "Unsere Büros"
     probono:
         title: "Atolo Pro Bono"
