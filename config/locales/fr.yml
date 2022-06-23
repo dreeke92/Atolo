@@ -387,6 +387,11 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
         second_name: "Leguillier"
         role: "L&D Consultant"
         text: "Source inépuisable d’énergie, Adeline adore relever les défis ! Grâce à son expertise, elle rend l’expérience d’apprentissage enrichissante et amusante. Passionnée par le développement personnel, elle n’hésite pas à soutenir ses interlocuteurs dans le dépassement de leurs limites et à imaginer des solutions pertinentes et impactantes pour votre organisation."
+      member_fourteen:
+        first_name: "Jan"
+        second_name: "Vandenborre"
+        role: "L&D Consultant"
+        text: "En tant que formateur expérimenté et grâce à ses idées novatrices, Jan trouve des solutions créatives à vos défis professionnels, aussi bien en termes de performances linguistiques que de communication. Son sens de l'écoute et son énergie contagieuse font de lui l’interlocuteur idéal pour vos projets de formation et de perfectionnement."
     location: "Où nous trouver"
     probono:
         title: "Atolo Pro Bono"
