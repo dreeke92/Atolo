@@ -25,10 +25,14 @@
         <input type="checkbox" id="copy" name="message[copy]" checked/>
         <label for="copy">Email me a copy of this message</label>
       </div> -->
-      <div class="field half">
+      <div class="field d-none">
         <input class="checkmark" type="checkbox" required id="human" name="message[robot]"/>
         <label for="human"><%= t('form.human') %></label>
       </div>
+      <div class="field">
+        <div class="g-recaptcha" data-sitekey="6Leq-ZYgAAAAAGFXLTnAWjkwonj4qbyyTlJ2ytVv"></div>
+      </div>
+
     </div>
     <ul class="actions align-center">
       <li><input class="primary contact-form-submit" type="submit" name="submit" id="submit" value="<%= t('form.send') %>" /></li>
