@@ -26,6 +26,10 @@
         <label for="copy">Email me a copy of this message</label>
       </div> -->
       <div class="field d-none">
+        <input class="checkbot" id="checkbot" name="message[checkbot]" value="" />
+        <label for="human"><%= t('form.human') %></label>
+      </div>
+      <div class="field d-none">
         <input class="checkmark" type="checkbox" id="human" name="message[robot]"/>
         <label for="human"><%= t('form.human') %></label>
       </div>
@@ -37,9 +41,11 @@
 
     </div>
     <ul class="actions align-center">
-      <li><input class="primary contact-form-submit" type="submit" name="submit" id="submit" value="<%= t('form.send') %>" disabled /></li>
+      <li><input class="primary contact-form-submit" type="submit" name="btnsubmit" id="btnsubmit" value="<%= t('form.send') %>" disabled /></li>
     </ul>
   </form>
+
+
 
   <script>
     let isRecaptchaValidated = false;
@@ -52,7 +58,8 @@
 
     function onRecaptchaSuccess() {
       isRecaptchaValidated = true;
-      document.getElementById("submit").disabled = false;
+      document.getElementById("btnsubmit").disabled = false;
+      document.getElementById("checkbot").value = "okay";
     }
 
     function onRecaptchaError() {
@@ -64,21 +71,20 @@
       // onRecaptchaError();
     }
 
-    // window.onload = function () {
-    //   const recaptchaForm = document.getElementById("contact-form");
-    //   recaptchaForm.addEventListener("submit", function (e) {
-    //     e.preventDefault();
+    const recaptchaForm = document.getElementById("contact-form");
+    recaptchaForm.addEventListener("submit", function (e) {
+      console.log("toto");
+      e.preventDefault();
 
-    //     // failure
-    //     if (!isRecaptchaValidated) {
-    //       toggleRecaptchaFormMessage("error");
-    //       toggleRecaptchaFormMessage("success", true);
-    //       return;
-    //     }
+      // failure
+      if (!isRecaptchaValidated) {
+        console.log('bot');
+        // toggleRecaptchaFormMessage("error");
+        // toggleRecaptchaFormMessage("success", true);
+        return;
+      }
 
-    //     // success
-    //     toggleRecaptchaFormMessage("error", true);
-    //     toggleRecaptchaFormMessage("success");
-    //   });
-    // };
+      // success
+      document.getElementById("contact-form").submit();
+    });
   </script>
