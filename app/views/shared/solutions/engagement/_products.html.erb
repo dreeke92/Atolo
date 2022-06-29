@@ -8,7 +8,7 @@
 
     <!-- Gallery -->
       <div id="product-gallery" class="gallery-engagement style2 large lightbox onscroll-fade-in">
-        <% @engagement_products. each do |product| %>
+        <% @engagement_products.each do |product| %>
 
           <article class="product-card-margin">
             <div class="lightbox-link" id="lightbox-link-engagement">
@@ -17,16 +17,15 @@
               </a>
             </div>
             <div class="caption">
-              <% if I18n.locale == :fr %>
+              <% if false && I18n.locale == :fr %>
                 <h3 class=""><%= product.name_fr %></h3>
                 <h4 class=""><%= product.subtitle_fr %></h4>
-              <% elsif I18n.locale == :de %>
+              <% elsif false &&  I18n.locale == :de %>
                 <h3 class=""><%= product.name %></h3>
-              <% elsif I18n.locale == :nl %>
+              <% elsif false &&  I18n.locale == :nl %>
                 <h3 class=""><%= product.name_nl %></h3>
               <% else%>
                 <h3 class=""><%= product.name %></h3>
-                <h4 class=""><%= product.subtitle %></h4>
               <% end %>
             </div>
           </article>
