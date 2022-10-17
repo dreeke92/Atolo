@@ -89,3 +89,19 @@
 
 button:focus {outline:0;}
 
+.partners{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  flex-wrap: wrap;
+
+  img{
+    max-width: 150px;
+    max-height: 100px;
+  }
+
+}
+
