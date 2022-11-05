@@ -15,6 +15,10 @@ class PagesController < ApplicationController
     redirect_to root_path, notice: "Sorry, this route does not exist."
   end
 
+  def events
+    @products = Product.take(3)
+  end
+
   def promotions
     if locale == :en
       @voucher = "voucher_en.pdf"

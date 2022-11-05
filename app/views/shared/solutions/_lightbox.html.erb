@@ -15,14 +15,14 @@
                 <strong><h4 class="green-text" style="font-weight: 500;"><%= product.subtitle_fr %></h4></strong>
                 <p class="product-card-content-margin"><%= product.description_fr %></p>
               <% elsif false && I18n.locale == :de %>
-                <h3 class=""><%= product.name %></h3>
-                <p class="product-card-content-margin"><%= product.description %></p>
+                <h3 class=""><%= product.name_en %></h3>
+                <p class="product-card-content-margin"><%= product.description_en %></p>
               <% elsif false && I18n.locale == :nl %>
                 <h3 class=""><%= product.name_nl %></h3>
                 <p class="product-card-content-margin"><%= product.description_nl %></p>
               <% else%>
-                <h3 class=""><%= product.name %></h3>
-                <p class="product-card-content-margin"><%= simple_format(product.description) %></p>
+                <h3 class=""><%= product.name_en %></h3>
+                <p class="product-card-content-margin"><%= simple_format(product.description_en) %></p>
               <% end %>
             </div>
 <!--             <div class="align-center">
@@ -50,21 +50,21 @@
                 <h3 class=""><%= product.name_fr %></h3>
                 <p class="product-card-content-margin"><%= product.description_fr %></p>
               <% elsif I18n.locale == :de %>
-                <h3 class=""><%= product.name %></h3>
-                <p class="product-card-content-margin"><%= product.description %></p>
+                <h3 class=""><%= product.name_en %></h3>
+                <p class="product-card-content-margin"><%= product.description_en %></p>
               <% elsif I18n.locale == :nl %>
                 <h3 class=""><%= product.name_nl %></h3>
                 <p class="product-card-content-margin"><%= product.description_nl %></p>
               <% else%>
-                <h3 class=""><%= product.name %></h3>
-                <p class="product-card-content-margin"><%= product.description %></p>
+                <h3 class=""><%= product.name_en %></h3>
+                <p class="product-card-content-margin"><%= product.description_en %></p>
               <% end %>
             </div>
 <!--             <div class="align-center">
               <button id="get-in-touch" class="small product-card-button next-product-card" ><%#= t('solutions.engagement.products.request') %></button>
             </div> -->
           </div>
-          <% if product.name == "Presenting with Impact" %>
+          <% if product.name_en == "Presenting with Impact" %>
             <div style="display: flex; justify-content: flex-end;">
               <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1586939151/saq.png", :alt => "image", :class => "", :style => "height: 200px;") %>
             </div>
@@ -92,14 +92,14 @@
                 <h3 class=""><%= product.name_fr %></h3>
                 <p class="product-card-content-margin"><%= product.description_fr %></p>
               <% elsif I18n.locale == :de %>
-                <h3 class=""><%= product.name %></h3>
-                <p class="product-card-content-margin"><%= product.description %></p>
+                <h3 class=""><%= product.name_en %></h3>
+                <p class="product-card-content-margin"><%= product.description_en %></p>
               <% elsif I18n.locale == :nl %>
                 <h3 class=""><%= product.name_nl %></h3>
                 <p class="product-card-content-margin"><%= product.description_nl %></p>
               <% else%>
-                <h3 class=""><%= product.name %></h3>
-                <p class="product-card-content-margin"><%= product.description %></p>
+                <h3 class=""><%= product.name_en %></h3>
+                <p class="product-card-content-margin"><%= product.description_en %></p>
               <% end %>
             </div>
 <!--             <div class="align-center">

@@ -29,6 +29,22 @@ function testimonialCarousel() {
       })
    });
   $(document).ready(function(){
+    $('.card-carousel-solo').owlCarousel({
+        merge: true,
+        items: 1,
+        smartSpeed: 1000,
+        loop:true,
+        margin:10,
+        nav:true,
+        navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true,
+        center: false,
+        dots: true,
+      })
+   });
+  $(document).ready(function(){
     $('.logo-carousel').owlCarousel({
         merge: true,
         smartSpeed: 1000,

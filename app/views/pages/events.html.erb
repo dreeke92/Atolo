@@ -1,188 +1,46 @@
 <%= render 'shared/navbar-fixed' %>
+<div  class="wrapper banner-title">
+  <h3>
+    <%= t ('events.title_html') %>
 
-<!-- <section>
-  <div class="content event-container align-center">
-    <div class="event-tabs">
-
-      <div id="" class="event-box event-tab">
-        <a href="#tab-one" class="smooth-scroll">
-          <p><%= t('events.communication_offer') %></p>
-        </a>
+  </h3>
+</div>
+<div class="events">
+  <% @products.each do |product| %>
+    <div class="event">
+      <div style="background-image: url(<%= product.photo_url %>)" class="bg-image">
+      </div>
+      <div class="title">
+        <%= eval("product.name_#{locale}") %>
+      </div>
+      <div class="description">
+        <%= eval("product.description_#{locale}") %>
       </div>
 
-      <div id="" class="event-box event-tab">
-        <a href="#tab-two" class="smooth-scroll">
-          <p><%= t('events.language_offer') %></p>
-        </a>
-      </div>
+    </div>
+  <% end %>
+</div>
 
+<!-- Items -->
+<section id="testimonials" class="wrapper style1 align-center">
+  <div class="inner">
+    <h3><%= t('events.testimonials_title_html') %></h3>
+    <div class="owl-carousel owl-theme testimonial-cards onload-fade-in card-carousel-solo">
+        <section class="testimonial-card">
+          <p class="small-font">
+            "Although our agents were at first unsure about the added value of the training, the trainer managed to capture their attention within the first few minutes. The agents came out of the Teams in Action session with a big smile on their faces and their feedback is that they feel closer to each other and more united than ever. " - <span style="font-weight:bold">Virginie Lefèvre I Head of section RB KSD & Alliances CDM Local Worldline</span>
+          </p>
+        </section>
+        <section class="testimonial-card">
+          <p class="small-font">
+            "By working in small groups, senior leaders are really coached 121 and cross-functional peer learning is leveraged at the same time. The approach is truly hands-on, as participants use their own cases, increasing the relevance of the learnings and facilitating application afterwards. Five-star ratings given by our participants!" – <span style="font-weight:bold">Nele Van Hooste, Talent & Development Lead, Galapagos</span>
+          </p>
+        </section>
+        <section class="testimonial-card">
+          <p class="small-font">
+            "What great progress I have made! My English has improved considerably. I can now say goodbye to the stress that troubled me before every meeting! Mostly thanks to the trainer who has a perfect command of her subject, knows how to manage a group of 8 people and makes us feel at ease in all situations. She has the art of making her lessons come alive and is very pedagogical. You can also feel that she is passionate about her work. In short, I recommend Atolo courses. So much more rewarding than any other language training I followed in the past." - <span style="font-weight:bold">Participant – Tailor-made language course</span>
+          </p>
+        </section>
     </div>
   </div>
-</section> -->
-<div class="wrapper banner-title">
-  <h1><%= t ('events.title') %></h1>
-  <h2><%= t ('events.subtitle_html') %></h2>
-</div>
-<div id="wrapper" class="divided">
-  <section id="tab-one"class="spotlight style1 orient-right content-align-left fullscreen onload-image-fade-in onload-content-fade-right">
-    <div class="content">
-      <!-- start content -->
-      <h2 class="margin-top title-center"><%= t('events.summer_event_one.title') %></h2>
-      <!-- webinar 1 -->
-      <h4 class="webinar-title title-center">
-        <%= t('events.summer_event_one.subtitle') %>
-      </h4>
-      <p class="font-weight-bold"><%= t('events.summer_event_one.part_one.title') %></p>
-      <ul>
-        <li><%= t('events.summer_event_one.part_one.bullet_one') %></li>
-        <li><%= t('events.summer_event_one.part_one.bullet_two') %></li>
-        <li><%= t('events.summer_event_one.part_one.bullet_three') %></li>
-      </ul>
-      <p class="font-weight-bold"><%= t('events.summer_event_one.part_two.title') %></p>
-      <ul>
-        <li><%= t('events.summer_event_one.part_two.bullet_one') %></li>
-        <li><%= t('events.summer_event_one.part_two.bullet_two') %></li>
-        <li><%= t('events.summer_event_one.part_two.bullet_three_html') %></li>
-        <li><%= t('events.summer_event_one.part_two.bullet_four') %></li>
-        <li><%= t('events.summer_event_one.part_two.bullet_five') %></li>
-        <br>
-        <li><%= t('events.summer_event_one.part_two.bullet_six_html') %></li>
-      </ul>
-      <!-- Button -->
-      <div class="title-center">
-        <%= link_to t('events.cta'), "https://forms.gle/gkrSmzaAhsRAJks79", :class => "button primary", target: '_blank' %>
-      </div>
-      </br>
-    </div>
-    <div class="image">
-      <%= image_tag("flowers.jpg", :alt => "image") %>
-    </div>
-  </section>
-  <section id="tab-one"class="spotlight style1 orient-right content-align-left fullscreen onload-image-fade-in onload-content-fade-right">
-    <div class="image">
-      <%= image_tag("people.jpg", :alt => "image") %>
-    </div>
-    <div class="content">
-      <!-- start content -->
-      <h2 class="margin-top title-center"><%= t('events.summer_event_two.title') %></h2>
-      <!-- webinar 1 -->
-      <h4 class="webinar-title title-center">
-        <%= t('events.summer_event_two.subtitle') %>
-      </h4>
-      <p class="font-weight-bold"><%= t('events.summer_event_two.part_one.title') %></p>
-      <ul>
-        <li><%= t('events.summer_event_two.part_one.bullet_one') %></li>
-        <li><%= t('events.summer_event_two.part_one.bullet_two') %></li>
-        <li><%= t('events.summer_event_two.part_one.bullet_three') %></li>
-      </ul>
-      <p class="font-weight-bold"><%= t('events.summer_event_two.part_two.title') %></p>
-      <ul>
-        <li><%= t('events.summer_event_two.part_two.bullet_one') %></li>
-        <li><%= t('events.summer_event_two.part_two.bullet_two') %></li>
-        <li><%= t('events.summer_event_two.part_two.bullet_three') %></li>
-        <li><%= t('events.summer_event_two.part_two.bullet_four') %></li>
-      </ul>
-      <!-- Button -->
-      <div class="title-center">
-        <%= link_to t('events.cta'), "https://forms.gle/gkrSmzaAhsRAJks79", :class => "button primary", target: '_blank' %>
-      </div>
-      </br>
-    </div>
-  </section>
-  <section id="tab-one"class="spotlight style1 orient-right content-align-left fullscreen onload-image-fade-in onload-content-fade-right">
-    <div class="content">
-      <!-- start content -->
-      <h2 class="margin-top title-center"><%= t('events.summer_event_three.title') %></h2>
-      <!-- webinar 1 -->
-      <h4 class="webinar-title title-center">
-        <%= t('events.summer_event_three.subtitle') %>
-      </h4>
-      <p class="font-weight-bold"><%= t('events.summer_event_three.part_one.title') %></p>
-      <ul>
-        <li><%= t('events.summer_event_three.part_one.bullet_one') %></li>
-        <li><%= t('events.summer_event_three.part_one.bullet_two') %></li>
-        <li><%= t('events.summer_event_three.part_one.bullet_three') %></li>
-      </ul>
-      <p class="font-weight-bold"><%= t('events.summer_event_three.part_two.title') %></p>
-      <ul>
-        <li><%= t('events.summer_event_three.part_two.bullet_one') %></li>
-        <li><%= t('events.summer_event_three.part_two.bullet_two') %></li>
-        <li><%= t('events.summer_event_three.part_two.bullet_three') %></li>
-        <li><%= t('events.summer_event_three.part_two.bullet_four') %></li>
-      </ul>
-      <!-- Button -->
-      <div class="title-center">
-        <%= link_to t('events.cta'), "https://forms.gle/gkrSmzaAhsRAJks79", :class => "button primary", target: '_blank' %>
-      </div>
-      </br>
-    </div>
-    <div class="image">
-      <%= image_tag("meeting.jpg", :alt => "image") %>
-    </div>
-  </section>
-  <section id="tab-one"class="d-none spotlight style1 orient-right content-align-left fullscreen onload-image-fade-in onload-content-fade-right">
-    <div class="content">
-      <!-- start content -->
-      <h2 class="margin-top title-center"><%= t('events.event_one.title') %></h2>
-      <!-- webinar 1 -->
-      <h4 class="webinar-title">
-        <%= t('events.event_one.webinar_one.title') %>
-      </h4>
-      <ul>
-        <li><%= t('events.event_one.webinar_one.bullet_one') %></li>
-        <li><%= t('events.event_one.webinar_one.bullet_two') %></li>
-      </ul>
-      <p><%= t('events.event_one.webinar_one.text') %></p>
-      <p><%= t('events.event_one.webinar_one.text_two') %></p>
-      <p><%= t('events.event_one.webinar_one.program.text') %></p>
-      <ul>
-        <li><%= t('events.event_one.webinar_one.program.bullet_one') %></li>
-        <li><%= t('events.event_one.webinar_one.program.bullet_two') %></li>
-        <li><%= t('events.event_one.webinar_one.program.bullet_three') %></li>
-        <li><%= t('events.event_one.webinar_one.program.bullet_four') %></li>
-        <li><%= t('events.event_one.webinar_one.program.bullet_five') %></li>
-        <li><%= t('events.event_one.webinar_one.program.bullet_six') %></li>
-      </ul>
-      <p><%= t('events.event_one.webinar_one.practicalities.text') %></p>
-      <ul>
-        <li><%= t('events.event_one.webinar_one.practicalities.bullet_one') %></li>
-        <li><%= t('events.event_one.webinar_one.practicalities.bullet_two') %></li>
-        <li><%= t('events.event_one.webinar_one.practicalities.bullet_three') %></li>
-        <li><%= t('events.event_one.webinar_one.practicalities.bullet_four') %></li>
-      </ul>
-      <!-- Button -->
-      <div class="title-center">
-        <%= link_to t('events.cta'), "https://www.eventbrite.be/e/webinar-inclusion-where-do-you-start-registration-242715106417", :class => "button primary", target: '_blank' %>
-      </div>
-      </br>
-    </div>
-    <div class="image">
-      <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1643121007/g1i7m_diff.jpg", :alt => "image") %>
-    </div>
-  </section>
-<!--   <section id="talking-business-to-business" class="spotlight style2 orient-right content-align-left fullscreen onload-image-fade-in onload-content-fade-right">
-    <div class="content">
-      <h2 class="margin-top"><%= t('events.event_three.title') %></h2>
-      <p class="align-justify">
-        <%= t('events.event_three.paragraph_one') %>
-      </br>
-        <%= t('events.event_three.paragraph_two') %>
-      </p>
-      <p>
-        <strong><%= t('events.event_three.info.title_one') %></strong>: <%= t('events.event_three.info.content_one') %>
-      </br>
-        <strong><%= t('events.event_three.info.title_two') %></strong>: <%= t('events.event_three.info.content_two') %>
-      </br>
-        <strong><%= t('events.event_three.info.title_three') %></strong>: <%= t('events.event_three.info.content_three') %>
-      </br>
-        <strong><%= t('events.event_three.info.title_four') %></strong>: <%= t('events.event_three.info.content_four') %>
-      </br>
-      </p>
-      <%= link_to t('events.register'), "https://www.eventbrite.be/e/copy-of-talking-business-to-the-business-registration-135827837719", :class => "button primary", target: '_blank' %>
-    </div>
-  <div class="image">
-    <%#= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473839/people11.jpg", :alt => "image") %>
-    <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1601286743/yellow_dude.jpg", :alt => "image") %>
-  </div>
-</section> -->
-</div>
+</section>

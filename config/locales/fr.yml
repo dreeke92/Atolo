@@ -20,10 +20,10 @@ fr:
       title_1: "FORMATION & COACHING"
       sentence_1: "En langues, communication, et \"people and culture\""
       button_1: "Solutions de formation"
-      title_2: "FORMATIONS OUVERTES DE L’ETE"
-      sentence_2: "En langues et communication"
-      button_2: "Découvrez nos événements"
-      title_3: "A LA UNE"
+      title_2: "Nouveautés 2023"
+      sentence_2: "De nouvelles opportunités pour votre développement s’offrent à vous !"
+      button_2: "Découvrez-les"
+      title_3: "Scan linguistique"
       sentence_3: "Plateforme d’évaluation en langues"
       button_3: "Démo  gratuite"
       title_4: "ATOLO IS 10 YEARS OLD!"
@@ -109,7 +109,7 @@ fr:
       company_seventeen: 'AXA Assistance'
       content_seventeen: "The training is the result of a permanent dialogue between trainer and participants. During the training, we were able to provide continuous feedback which helped guide the content and approach wherever we wanted."
     partners:
-      title: "Partenaires et Accréditation"
+      title: "Partenaires et Accréditations"
       text_html: "En partenariat avec Febelfin et Cefora/Cevora pour la formation linguistique. <br> Certification/ Accréditation: FSMA, FSEA and SAQ."
     contact_us:
   solutions:
@@ -459,6 +459,9 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
     human: "Je suis un humain et pas un robot"
     send: "Envoyer le message"
   events:
+    title_html: "Tout droit sorties du laboratoire ATOLO pour 2023, ces nouvelles formules ont déjà suscité un grand enthousiasme auprès de certaines sociétés de pointe. Curieux d’en savoir plus ? <br> Découvrez-les ici."
+    testimonials_title_html: "Trop occupé pour suivre une formation sans impact ? Nous sommes bien d’accord, et c’est pourquoi notre approche unique est si appréciée."
+  old_events:
     title: "Let your skills bloom"
     subtitle_html: "Participez à nos formations ouvertes cet été"
     communication_offer: "Communication offer"

@@ -20,10 +20,10 @@ en:
       title_1: "TRAINING  AND COACHING"
       sentence_1: "In language, communication, and people & culture solutions"
       button_1: "Training solutions"
-      title_2: "SUMMER OPEN TRAININGS"
-      sentence_2: "In languages and communication"
-      button_2: "Discover our events"
-      title_3: "IN THE SPOTLIGHT"
+      title_2: "Newbies 2023"
+      sentence_2: "New opportunities to grow coming your way!"
+      button_2: "Discover them here"
+      title_3: "Language scan"
       sentence_3: "Personalized training in languages and  also language level assessments"
       button_3: "Free Demo"
       title_4: "ATOLO IS 10 YEARS OLD!"
@@ -109,7 +109,7 @@ en:
       company_seventeen: 'AXA Assistance'
       content_seventeen: "The training is the result of a permanent dialogue between trainer and participants. During the training, we were able to provide continuous feedback which helped guide the content and approach wherever we wanted."
     partners:
-      title: "Partners and Accreditation"
+      title: "Partners and Accreditations"
       text_html: "Partner with Febelfin and Cefora/ Cevora for language training. <br> Certified/ Accredited by: FSMA, FSEA and SAQ"
     contact_us:
   solutions:
@@ -460,6 +460,9 @@ en:
     human: "I am a human and not a robot"
     send: "Send message"
   events:
+    title_html: "Straight out of the ATOLO laboratory for 2023, these new training courses have been a big hit in some leading organisations. Do you want to know what they are? <br>Find out more here."
+    testimonials_title_html: "Too busy to train if there is no value, right? That’s why the key ingredients we bring are so appreciated."
+  old_events:
     title: "Let your skills bloom"
     subtitle_html: "Take part in our summer open trainings"
     communication_offer: "Communication offer"

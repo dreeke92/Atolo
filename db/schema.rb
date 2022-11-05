@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_04_20_090749) do
+ActiveRecord::Schema.define(version: 2022_11_05_145516) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -28,9 +28,9 @@ ActiveRecord::Schema.define(version: 2022_04_20_090749) do
   end
 
   create_table "products", force: :cascade do |t|
-    t.string "name"
+    t.string "name_en"
     t.string "group"
-    t.string "description"
+    t.string "description_en"
     t.string "content"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -45,10 +45,18 @@ ActiveRecord::Schema.define(version: 2022_04_20_090749) do
     t.string "description_de"
     t.string "description_fr"
     t.integer "ranking"
-    t.string "subtitle"
+    t.string "subtitle_en"
     t.string "subtitle_nl"
     t.string "subtitle_fr"
     t.string "subtitle_de"
+    t.text "learnings_en"
+    t.text "learnings_fr"
+    t.text "learnings_nl"
+    t.text "learnings_de"
+    t.text "practice_en"
+    t.text "practice_fr"
+    t.text "practice_nl"
+    t.text "practice_de"
   end
 
   create_table "users", force: :cascade do |t|

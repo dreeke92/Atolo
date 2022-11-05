@@ -14,7 +14,7 @@
       <!-- Discover our events -->
       <div class="owl-carousel banner-home-carousel">
         <section>
-          <h2><%= t("welcome.banner.title_1") %></h2>
+          <h2><%= t("welcome.banner.title_1").upcase %></h2>
           </br>
           <h3><%= t("welcome.banner.sentence_1") %></h3>
           <ul class="actions stacked text-align-center">
@@ -23,18 +23,8 @@
             </li>
           </ul>
         </section>
-         <!-- <section>
-          <h2><%= t("welcome.banner.title_2") %></h2>
-          </br>
-          <h3><%= t("welcome.banner.sentence_2") %></h3>
-          <ul class="actions stacked text-align-center">
-            <li>
-              <%= link_to t('welcome.banner.button_2'), events_path, :class => "button primary" %>
-            </li>
-          </ul>
-        </section> -->
          <section>
-          <h2><%= t("welcome.banner.title_3") %></h2>
+          <h2><%= t("welcome.banner.title_3").upcase %></h2>
           </br>
           <h3><%= t("welcome.banner.sentence_3") %></h3>
           <ul class="actions stacked text-align-center">
@@ -44,9 +34,19 @@
           </ul>
         </section>
         <section>
-          <h2><%= t("welcome.banner.title_4") %></h2>
+          <h2><%= t("welcome.banner.title_4").upcase %></h2>
           </br>
           <h4><%= t("welcome.banner.sentence_4_html") %></h4>
+        </section>
+        <section>
+          <h2><%= t("welcome.banner.title_2").upcase %></h2>
+          </br>
+          <h3><%= t("welcome.banner.sentence_2") %></h3>
+          <ul class="actions stacked text-align-center">
+            <li>
+              <%= link_to t('welcome.banner.button_2'), events_path, :class => "button primary" %>
+            </li>
+          </ul>
         </section>
       </div>
       <!-- end -->

@@ -21,11 +21,11 @@
                 <h3 class=""><%= product.name_fr %></h3>
                 <h4 class=""><%= product.subtitle_fr %></h4>
               <% elsif false &&  I18n.locale == :de %>
-                <h3 class=""><%= product.name %></h3>
+                <h3 class=""><%= product.name_en %></h3>
               <% elsif false &&  I18n.locale == :nl %>
                 <h3 class=""><%= product.name_nl %></h3>
               <% else%>
-                <h3 class=""><%= product.name %></h3>
+                <h3 class=""><%= product.name_en %></h3>
               <% end %>
             </div>
           </article>
