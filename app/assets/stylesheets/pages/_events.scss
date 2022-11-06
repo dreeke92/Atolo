@@ -42,14 +42,16 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 60px 0px 110px 0px;
+    padding: 60px 24px 110px 24px;
     background-color: #44d274;
+    flex-wrap: wrap;
 
     .event{
       width: 400px;
       height: 550px;
       background-color: white;
       border-radius: 8px;
+      margin-bottom: 24px;
       .bg-image{
         height: 150px;
         background-position: center;
@@ -71,6 +73,7 @@
         -webkit-line-clamp: 8;
         -webkit-box-orient: vertical;
         white-space: normal;
+        font-size: 12px;
       }
       .cta{
         transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -84,11 +87,8 @@
         text-transform: uppercase;
         white-space: nowrap;
         font-size: 0.75rem;
-        max-width: 20rem;
-        height: 3.75em;
-        line-height: 3.75em;
         border-radius: 0.75em;
-        padding: 0 2.5em;
+        padding: 12px;
         text-overflow: ellipsis;
         overflow: hidden;
         background-color: #44d273;

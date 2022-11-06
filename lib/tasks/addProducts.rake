@@ -137,7 +137,7 @@ Webinaires : courts webinaires interactifs, ouverts à de larges groupes.\n
 • 1 journée : Renforcer les méthodes de travail\n
 • 2 jours : Pour répondre à un besoin important.\n
 - Disponible en anglais, français, néerlandais et allemand.
- ",
+",
  learnings_nl: "Dit mag je verwachten:\n
 - een inspirerende ervaring waarbij jouw team zich dieper en hechter gaat verbinden.\n
 - vaardigheden die nodig zijn om psychologische veiligheid in het team te creëren.\n
@@ -156,7 +156,7 @@ practice_nl: "- Verschillende opties mogelijk:\n
 
 Product.create(p1)
 Product.create(p2)
-team_in_action = Product.where("name_en iLike 'Team in action %'").take
+team_in_action = Product.where("name_en iLike 'Teams in action%'").take
 if team_in_action
   p "On a trouvé #{team_in_action}"
   team_in_action.update!(p3)

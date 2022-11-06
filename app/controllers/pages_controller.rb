@@ -16,7 +16,8 @@ class PagesController < ApplicationController
   end
 
   def events
-    @products = Product.take(3)
+    @products = Product.where("id in (218,219,206)")
+    # @products = Product.take(3)
   end
 
   def promotions
