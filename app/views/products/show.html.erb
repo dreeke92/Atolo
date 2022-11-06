@@ -1,5 +1,20 @@
-<section class="product-card">
-  <h3><%= @product.name %></h3>
-  <h4><%= @product.group %></h4>
-  <p class="small-font"><%= @product.description %></p>
-</section>
+<%= render 'shared/navbar-fixed' %>
+<% locale = I18n.locale %>
+<% locale = 'en' if locale == 'nl' || locale == 'de' %>
+<div class="wrapper" style="background-image: url(<%= @product.photo_url %>)">
+  <h1><%= eval("@product.name_#{locale}") %></h1>
+</div>
+<div class="container">
+  <div class="description">
+    <%= eval("@product.description_#{locale}") %>
+  </div>
+  <h3><%= t('products.key_takeways') %></h3>
+  <div>
+    <%= eval("@product.learnings_#{locale}") %>
+  </div>
+  <h3><%= t('products.practicalities') %></h3>
+  <div>
+    <%= eval("@product.practice_#{locale}")%>
+  </div>
+</div>
+<%= render 'shared/contact' %>

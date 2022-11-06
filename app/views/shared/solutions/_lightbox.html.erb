@@ -10,16 +10,15 @@
         <div class="product-card-content small-font align-center">
           <div class="ci-text">
             <div class="overflow" style="text-align:left;">
-              <% if false && I18n.locale == :fr %>
-                <h3 class=""><%= product.name_fr %></h3>
-                <strong><h4 class="green-text" style="font-weight: 500;"><%= product.subtitle_fr %></h4></strong>
-                <p class="product-card-content-margin"><%= product.description_fr %></p>
-              <% elsif false && I18n.locale == :de %>
+              <% if I18n.locale == :fr %>
+                <h3 class=""><%= product.name_fr ? product.name_fr : product.name_en  %></h3>
+                <p class="product-card-content-margin"><%= product.description_fr.nil? ? simple_format(product.description_en) : simple_format(product.description_fr) %></p>
+              <% elsif I18n.locale == :de %>
                 <h3 class=""><%= product.name_en %></h3>
-                <p class="product-card-content-margin"><%= product.description_en %></p>
-              <% elsif false && I18n.locale == :nl %>
-                <h3 class=""><%= product.name_nl %></h3>
-                <p class="product-card-content-margin"><%= product.description_nl %></p>
+                <p class="product-card-content-margin"><%= product.description_de.nil? ? simple_format(product.description_en) : simple_format(product.description_de) %></p>
+              <% elsif I18n.locale == :nl %>
+                <h3 class=""><%= product.name_nl ? product.name_nl : product.name_en %></h3>
+                <p class="product-card-content-margin"><%= product.description_nl.nil? ? simple_format(product.description_en) : simple_format(product.description_nl) %></p>
               <% else%>
                 <h3 class=""><%= product.name_en %></h3>
                 <p class="product-card-content-margin"><%= simple_format(product.description_en) %></p>
@@ -47,17 +46,17 @@
           <div class="ci-text">
             <div>
               <% if I18n.locale == :fr %>
-                <h3 class=""><%= product.name_fr %></h3>
-                <p class="product-card-content-margin"><%= product.description_fr %></p>
+                <h3 class=""><%= product.name_fr ? product.name_fr : product.name_en  %></h3>
+                <p class="product-card-content-margin"><%= product.description_fr.nil? ? simple_format(product.description_en) : simple_format(product.description_fr) %></p>
               <% elsif I18n.locale == :de %>
                 <h3 class=""><%= product.name_en %></h3>
-                <p class="product-card-content-margin"><%= product.description_en %></p>
+                <p class="product-card-content-margin"><%= product.description_de.nil? ? simple_format(product.description_en) : simple_format(product.description_de) %></p>
               <% elsif I18n.locale == :nl %>
-                <h3 class=""><%= product.name_nl %></h3>
-                <p class="product-card-content-margin"><%= product.description_nl %></p>
+                <h3 class=""><%= product.name_nl ? product.name_nl : product.name_en %></h3>
+                <p class="product-card-content-margin"><%= product.description_nl.nil? ? simple_format(product.description_en) : simple_format(product.description_nl) %></p>
               <% else%>
                 <h3 class=""><%= product.name_en %></h3>
-                <p class="product-card-content-margin"><%= product.description_en %></p>
+                <p class="product-card-content-margin"><%= simple_format(product.description_en) %></p>
               <% end %>
             </div>
 <!--             <div class="align-center">
@@ -89,17 +88,17 @@
           <div class="ci-text">
             <div>
               <% if I18n.locale == :fr %>
-                <h3 class=""><%= product.name_fr %></h3>
-                <p class="product-card-content-margin"><%= product.description_fr %></p>
+                <h3 class=""><%= product.name_fr ? product.name_fr : product.name_en  %></h3>
+                <p class="product-card-content-margin"><%= product.description_fr.nil? ? simple_format(product.description_en) : simple_format(product.description_fr) %></p>
               <% elsif I18n.locale == :de %>
                 <h3 class=""><%= product.name_en %></h3>
-                <p class="product-card-content-margin"><%= product.description_en %></p>
+                <p class="product-card-content-margin"><%= product.description_de.nil? ? simple_format(product.description_en) : simple_format(product.description_de) %></p>
               <% elsif I18n.locale == :nl %>
-                <h3 class=""><%= product.name_nl %></h3>
-                <p class="product-card-content-margin"><%= product.description_nl %></p>
+                <h3 class=""><%= product.name_nl ? product.name_nl : product.name_en %></h3>
+                <p class="product-card-content-margin"><%= product.description_nl.nil? ? simple_format(product.description_en) : simple_format(product.description_nl) %></p>
               <% else%>
                 <h3 class=""><%= product.name_en %></h3>
-                <p class="product-card-content-margin"><%= product.description_en %></p>
+                <p class="product-card-content-margin"><%= simple_format(product.description_en) %></p>
               <% end %>
             </div>
 <!--             <div class="align-center">

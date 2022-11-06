@@ -453,6 +453,10 @@ de:
   events:
     title_html: "Straight out of the ATOLO laboratory for 2023, these new training courses have been a big hit in some leading organisations. Do you want to know what they are? <br> Find out more here."
     testimonials_title_html: "Too busy to train if there is no value, right? That’s why the key ingredients we bring are so appreciated."
+    see_more: "See more"
+    products:
+      key_takeways: "Key takeaways"
+      practicalities: "Practicalities"
   old_events:
     title: "Let your skills bloom"
     subtitle_html: "Take part in our summer open trainings"

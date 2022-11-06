@@ -461,6 +461,10 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
   events:
     title_html: "Tout droit sorties du laboratoire ATOLO pour 2023, ces nouvelles formules ont déjà suscité un grand enthousiasme auprès de certaines sociétés de pointe. Curieux d’en savoir plus ? <br> Découvrez-les ici."
     testimonials_title_html: "Trop occupé pour suivre une formation sans impact ? Nous sommes bien d’accord, et c’est pourquoi notre approche unique est si appréciée."
+    see_more: "Voir plus"
+    products:
+      key_takeways: "Apprentissages clés"
+      practicalities: "En pratique"
   old_events:
     title: "Let your skills bloom"
     subtitle_html: "Participez à nos formations ouvertes cet été"

@@ -16,7 +16,7 @@
       <div class="description">
         <%= eval("product.description_#{locale}") %>
       </div>
-
+      <%= link_to t('events.see_more'), product_path(product.id), class:"cta" %>
     </div>
   <% end %>
 </div>
