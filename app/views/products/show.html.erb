@@ -6,15 +6,15 @@
 </div>
 <div class="container">
   <div class="description">
-    <%= eval("@product.description_#{locale}") %>
+    <%= simple_format(eval("@product.description_#{locale}")) %>
   </div>
   <h3><%= t('products.key_takeways') %></h3>
   <div>
-    <%= eval("@product.learnings_#{locale}") %>
+    <%= simple_format(eval("@product.learnings_#{locale}")) %>
   </div>
   <h3><%= t('products.practicalities') %></h3>
   <div>
-    <%= eval("@product.practice_#{locale}")%>
+    <%= simple_format(eval("@product.practice_#{locale}"))%>
   </div>
 </div>
 <%= render 'shared/contact' %>
