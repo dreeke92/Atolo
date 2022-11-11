@@ -1,6 +1,6 @@
 <%= render 'shared/navbar-fixed' %>
 <% locale = I18n.locale %>
-<% locale = 'en' if locale == 'nl' || locale == 'de' %>
+<% locale = :en if locale == :de %>
 <div class="wrapper" style="background-image: url(<%= @product.photo_url %>)">
   <h1><%= eval("@product.name_#{locale}") %></h1>
 </div>
@@ -17,4 +17,13 @@
     <%= simple_format(eval("@product.practice_#{locale}"))%>
   </div>
 </div>
-<%= render 'shared/contact' %>
+<section id="main-contact-form" class="banner style5 orient-right content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+  <div class="content main-contact-form-container">
+    <h3><%= simple_format(eval("@product.long_cta_#{locale}"))%></h3>
+    <%= render 'shared/contact-form' %>
+  </div>
+  <div class="image image-lel">
+    <%#= image_tag("people/people2.jpg", :alt => "image background-gradient") %>
+  </div>
+</section>
+

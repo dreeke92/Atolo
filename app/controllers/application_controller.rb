@@ -2,6 +2,7 @@ class ApplicationController < ActionController::Base
   # protect_from_forgery with: :exception
   # before_action :authenticate_user!
   before_action :set_locale
+  after_action :has_seen_intro
   protect_from_forgery with: :null_session
 
   rescue_from ActionController::RoutingError do |exception|
@@ -17,6 +18,10 @@ class ApplicationController < ActionController::Base
 
   def set_locale
     I18n.locale = params.fetch(:locale, I18n.default_locale).to_sym
+  end
+
+  def has_seen_intro
+    session[:has_seen_intro] = true
   end
 
 end

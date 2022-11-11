@@ -13,7 +13,7 @@ fr:
     whereto: "Où nous trouver"
     probono: "Pro bono"
     contact: "Contact"
-    events: "Événements"
+    events: "Nouveautés"
   footer:
   welcome:
     banner:
@@ -459,7 +459,8 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
     human: "Je suis un humain et pas un robot"
     send: "Envoyer le message"
   events:
-    title_html: "Tout droit sorties du laboratoire ATOLO pour 2023, ces nouvelles formules ont déjà suscité un grand enthousiasme auprès de certaines sociétés de pointe. Curieux d’en savoir plus ? <br> Découvrez-les ici."
+    title_html: "Tout droit sorties du laboratoire ATOLO !"
+    sub_title_html: "Tout droit sorties du laboratoire ATOLO pour 2023, ces nouvelles formules ont déjà suscité un grand enthousiasme auprès de certaines sociétés de pointe. Curieux d’en savoir plus ? <br> Découvrez-les ici."
     testimonials_title_html: "Trop occupé pour suivre une formation sans impact ? Nous sommes bien d’accord, et c’est pourquoi notre approche unique est si appréciée."
     see_more: "Voir plus"
     products:

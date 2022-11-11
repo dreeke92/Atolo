@@ -13,7 +13,7 @@ en:
     whereto: "Find us"
     probono: "Pro bono"
     contact: "Contact"
-    events: "Events"
+    events: "Newbies"
   footer:
   welcome:
     banner:
@@ -460,7 +460,8 @@ en:
     human: "I am a human and not a robot"
     send: "Send message"
   events:
-    title_html: "Straight out of the ATOLO laboratory for 2023, these new training courses have been a big hit in some leading organisations. Do you want to know what they are? <br>Find out more here."
+    title_html: "Straight out of the ATOLO laboratory"
+    sub_title_html: "Straight out of the ATOLO laboratory for 2023, these new training courses have been a big hit in some leading organisations. Do you want to know what they are? <br>Find out more here."
     testimonials_title_html: "Too busy to train if there is no value, right? That’s why the key ingredients we bring are so appreciated."
     see_more: "See more"
     products:

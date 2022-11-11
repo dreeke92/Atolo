@@ -1,9 +1,15 @@
 <%= render 'shared/navbar-fixed' %>
+<% if locale == :de %>
+  <% locale = :en %>
+<% end %>
 <div  class="wrapper banner-title">
-  <h3>
+  <h2>
     <%= t ('events.title_html') %>
 
-  </h3>
+  </h2>
+</div>
+<div class="wrapper-second">
+  <%= t ('events.sub_title_html') %>
 </div>
 <div class="events">
   <% @products.each do |product| %>
@@ -16,7 +22,8 @@
       <div class="description">
         <%= eval("product.description_#{locale}") %>
       </div>
-      <%= link_to t('events.see_more'), product_path(product.id), class:"cta" %>
+      <% cta = eval("product.cta_#{locale}") %>
+      <%= link_to cta.nil? ? "See more" : cta, product_path(product.id), class:"cta" %>
     </div>
   <% end %>
 </div>
@@ -38,7 +45,7 @@
         </section>
         <section class="testimonial-card">
           <p class="small-font">
-            "What great progress I have made! My English has improved considerably. I can now say goodbye to the stress that troubled me before every meeting! Mostly thanks to the trainer who has a perfect command of her subject, knows how to manage a group of 8 people and makes us feel at ease in all situations. She has the art of making her lessons come alive and is very pedagogical. You can also feel that she is passionate about her work. In short, I recommend Atolo courses. So much more rewarding than any other language training I followed in the past." - <span style="font-weight:bold">Participant – Tailor-made language course</span>
+            "What great progress I have made! My English has improved considerably. I can now say goodbye to the stress that troubled me before every meeting! Mostly thanks to the trainer who has a perfect command of her subject, knows how to manage a group of 8 people and makes us feel at ease in all situations. She has the art of making her lessons come alive and is very pedagogical. You can also feel that she is passionate about her work. In short, I recommend ATOLO courses. So much more rewarding than any other language training I followed in the past." - <span style="font-weight:bold">Participant – Tailor-made language course</span>
           </p>
         </section>
     </div>
