@@ -142,7 +142,6 @@ long_cta_nl:"Ben jij de new generation leidinggevende? Contacteer ons"
 p3 = {
   name_fr: "Equipes en action",
   name_nl: "Teams in actie",
-  name_en: "Teams in action",
   ranking:0,
   group: "Engagement",
   long_description_en: "“Creating teams which are connected, have the skills to interact better and are driving performance.¨”
