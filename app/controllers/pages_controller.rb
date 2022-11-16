@@ -17,7 +17,10 @@ class PagesController < ApplicationController
 
   def events
     # @products = Product.where("id in (218,219,206)")
-    @products = Product.where("name_en in ('Reinforce multilingualism in your teams','Communication for Leaders','Teams In Action')")
+    @products = []
+    @products << Product.find_by(name_en: 'Reinforce multilingualism in your teams')
+    @products << Product.find_by(name_en: 'Communication for Leaders')
+    @products << Product.find_by(name_en: 'Teams In Action')
     # @products = Product.take(3)
   end
 
