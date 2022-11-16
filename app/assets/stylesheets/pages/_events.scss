@@ -71,12 +71,12 @@
       }
       .description{
         padding: 0px 12px;
-        height: 300px;
+        height: 295px;
         text-overflow:ellipsis;
         overflow:hidden;
         // Addition lines for 2 line or multiline ellipsis
         display: -webkit-box !important;
-        -webkit-line-clamp: 8;
+        -webkit-line-clamp: 11;
         -webkit-box-orient: vertical;
         white-space: normal;
         font-size: 16px;
