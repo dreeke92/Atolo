@@ -12,7 +12,7 @@ gem 'jquery'
 gem 'jquery-ui-rails'
 gem 'simple_form'
 gem 'postmark-rails'
-gem 'rails_admin'
+gem 'rails_admin', '3.0'
 
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.6.1'
@@ -25,6 +25,7 @@ gem 'geocoder'
 gem 'rails-assets-sweetalert2', '~> 5.1.1', source: 'https://rails-assets.org'
 gem 'sweet-alert2-rails'
 gem 'rails-i18n'
+gem "sprockets-rails", :require => 'sprockets/railtie'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
