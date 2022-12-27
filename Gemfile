@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
-ruby '2.7.0'
+ruby '3.1.2'
 
 gem 'bootsnap', require: false
 gem 'devise'
 gem 'jbuilder', '~> 2.0'
 gem 'pg'
 gem 'puma'
-gem 'rails', '~> 6.0', '>= 6.0.5'
+gem 'rails', '~> 6.1'
 gem 'redis'
 gem 'jquery'
 gem 'jquery-ui-rails'
