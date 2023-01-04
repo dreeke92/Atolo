@@ -1,6 +1,5 @@
 <%= render 'shared/navbar-fixed' %>
 <% locale = I18n.locale %>
-<% locale = :en %>
 <div class="wrapper" style="background-image: url(<%= @product.photo_url %>)">
   <h1><%= eval("@product.name_#{locale}") %></h1>
 </div>
