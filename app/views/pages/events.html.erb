@@ -1,8 +1,5 @@
 <%= render 'shared/navbar-fixed' %>
 <% locale = I18n.locale %>
-<% if locale == :de %>
-  <% locale = :en %>
-<% end %>
 <div  class="wrapper banner-title">
   <h2>
     <%= t ('events.title_html') %>
