@@ -12,8 +12,8 @@
               <% if false && I18n.locale == :fr %>
                 <h3 class=""><%= product.name_fr ? product.name_fr : product.name_en  %></h3>
                 <p class="product-card-content-margin"><%= product.description_fr.nil? ? simple_format(product.description_en) : simple_format(product.description_fr) %></p>
-              <% elsif false && I18n.locale == :de %>
-                <h3 class=""><%= product.name_en %></h3>
+              <% elsif I18n.locale == :de %>
+                <h3 class=""><%= product.name_de ? product.name_de : product.name_en %></h3>
                 <p class="product-card-content-margin"><%= product.description_de.nil? ? simple_format(product.description_en) : simple_format(product.description_de) %></p>
               <% elsif false && I18n.locale == :nl %>
                 <h3 class=""><%= product.name_nl ? product.name_nl : product.name_en %></h3>
@@ -47,7 +47,7 @@
                 <h3 class=""><%= product.name_fr ? product.name_fr : product.name_en  %></h3>
                 <p class="product-card-content-margin"><%= product.description_fr.nil? ? simple_format(product.description_en) : simple_format(product.description_fr) %></p>
               <% elsif I18n.locale == :de %>
-                <h3 class=""><%= product.name_en %></h3>
+                <h3 class=""><%= product.name_de ? product.name_de : product.name_en  %></h3>
                 <p class="product-card-content-margin"><%= product.description_de.nil? ? simple_format(product.description_en) : simple_format(product.description_de) %></p>
               <% elsif I18n.locale == :nl %>
                 <h3 class=""><%= product.name_nl ? product.name_nl : product.name_en %></h3>

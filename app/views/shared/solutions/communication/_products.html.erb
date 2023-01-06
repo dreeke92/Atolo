@@ -19,7 +19,7 @@
               <% if I18n.locale == :fr %>
                 <h3 class=""><%= product.name_fr %></h3>
               <% elsif I18n.locale == :de %>
-                <h3 class=""><%= product.name_en %></h3>
+                <h3 class=""><%= product.name_de ? product.name_de : product.name_en %></h3>
               <% elsif I18n.locale == :nl %>
                 <h3 class=""><%= product.name_nl %></h3>
               <% else%>
