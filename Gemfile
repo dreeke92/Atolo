@@ -13,6 +13,7 @@ gem 'jquery-ui-rails'
 gem 'simple_form'
 gem 'postmark-rails'
 gem 'rails_admin', '3.0'
+gem 'sass-rails', '>= 6'
 
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.6.1'

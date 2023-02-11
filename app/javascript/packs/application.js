@@ -59,3 +59,6 @@ formAlert();
 
 
 
+
+require("trix")
+require("@rails/actiontext")

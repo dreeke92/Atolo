@@ -250,6 +250,8 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
+    sass-rails (6.0.0)
+      sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.4.0)
       ffi (~> 1.9)
     sassc-rails (2.1.2)
@@ -333,6 +335,7 @@ DEPENDENCIES
   rails-i18n
   rails_admin (= 3.0)
   redis
+  sass-rails (>= 6)
   sassc-rails
   simple_form
   spring

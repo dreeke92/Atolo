@@ -5,15 +5,15 @@
 </div>
 <div class="container">
   <div class="description">
-    <%= simple_format(eval("@product.long_description_#{locale}")) %>
+    <%= eval("@product.rich_long_description_#{locale}") %>
   </div>
   <h3><%= t('events.products.key_takeaways') %></h3>
   <div>
-    <%= simple_format(eval("@product.learnings_#{locale}")) %>
+    <%= eval("@product.rich_learnings_#{locale}") %>
   </div>
   <h3><%= t('events.products.practicalities') %></h3>
   <div>
-    <%= simple_format(eval("@product.practice_#{locale}"))%>
+    <%= eval("@product.rich_practice_#{locale}")%>
   </div>
 </div>
 <section id="main-contact-form" class="banner style5 orient-right content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
