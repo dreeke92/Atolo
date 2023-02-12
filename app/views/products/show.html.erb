@@ -4,15 +4,15 @@
   <h1><%= eval("@product.name_#{locale}") %></h1>
 </div>
 <div class="container">
-  <div class="description">
+  <div class="description content">
     <%= eval("@product.rich_long_description_#{locale}") %>
   </div>
   <h3><%= t('events.products.key_takeaways') %></h3>
-  <div>
+  <div class="content">
     <%= eval("@product.rich_learnings_#{locale}") %>
   </div>
   <h3><%= t('events.products.practicalities') %></h3>
-  <div>
+  <div class="content">
     <%= eval("@product.rich_practice_#{locale}")%>
   </div>
 </div>
