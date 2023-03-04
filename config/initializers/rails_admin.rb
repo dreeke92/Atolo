@@ -1,3 +1,7 @@
+
+ActionText::ContentHelper.allowed_tags += ["span"]
+ActionText::ContentHelper.allowed_attributes += ['style']
+
 RailsAdmin.config do |config|
   config.asset_source = :webpacker
 
