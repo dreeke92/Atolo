@@ -2,6 +2,7 @@
     <%= render 'shared/navbar-fixed' %>
     <section class="wrapper style1 align-left">
       <div class="inner">
+        <br>
         <%= eval("LegalPage.find_by_name('General terms and conditions')&.content_#{I18n.locale}") %>
       </div>
     <section>

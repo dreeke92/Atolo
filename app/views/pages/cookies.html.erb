@@ -1,8 +1,9 @@
 <div id="disclaimer">
     <%= render 'shared/navbar-fixed' %>
     <section class="wrapper style1 align-left">
+      <br>
       <div class="inner">
-        <%= eval("LegalPage.find_by_name('cookies')&.content_#{I18n.locale}") %>
+        <%= eval("LegalPage.find_by_name('Cookies')&.content_#{I18n.locale}") %>
       </div>
     <section>
 </div>
