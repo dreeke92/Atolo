@@ -13,6 +13,7 @@ Rails.application.routes.draw do
     get 'values', to: "pages#values"
     get 'contact', to: "pages#contact"
     get 'disclaimer', to: "pages#disclaimer"
+    get 'cgv', to: "pages#cgv"
     get 'home', to: "pages#welcome"
     get 'atolo', to: "pages#welcome"
     get 'training', to: "pages#solutions"
@@ -26,6 +27,7 @@ Rails.application.routes.draw do
 
     resources :products, only: [ :create, :new, :show, :update, :edit, :destroy, :index ]
     resources :messages, only: [ :create ]
+    resources :legal_pages
   end
 
   # get 'fr', to: "pages#welcome"
