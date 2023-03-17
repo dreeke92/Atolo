@@ -6,10 +6,13 @@ trix-toolbar {
 }
 
 trix-toolbar {
-  .trix-dialog--heading { max-width: 160px; }
+  .trix-dialog--heading { max-width: 180px; }
 
+  .trix-dialog{
+    border-top: none !important;
+  }
   .trix-dialog--color {
-    max-width: 265px;
+    max-width: 60px;
 
     .trix-dialog__link-fields { flex-direction: column; }
 
@@ -22,7 +25,7 @@ trix-toolbar {
         &.trix-active::after { content: "✓"; }
       }
 
-      [data-trix-attribute=fgColor1] { color: rgb(136, 118, 38) }
+      [data-trix-attribute=fgColor1] { color: #48E27C }
       [data-trix-attribute=fgColor2] { color: rgb(136, 118, 38) }
       [data-trix-attribute=fgColor3] { color: rgb(207, 0, 0) }
       [data-trix-attribute=fgColor4] { color: rgb(216, 28, 170) }

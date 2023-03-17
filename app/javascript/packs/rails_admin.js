@@ -29,6 +29,7 @@ addEventListener("trix-initialize", function(event) {
 // addBackgroundColorAttributes()
 
 // addEventListener("trix-initialize", function (event) {
+//     console.log('yo');
 //     new RichText(event.target)
 // })
 
@@ -103,7 +104,7 @@ addEventListener("trix-initialize", function(event) {
 //   }
 
 //   get colorButtonTemplate() {
-//     return '<button type="button" class="trix-button trix-button--icon trix-button--icon-color" data-trix-action="x-color" title="Color" tabindex="-1">Color</button>'
+//     return '<button type="button" class="trix-button" data-trix-action="x-color" title="Color" tabindex="-1">Color</button>'
 //   }
 
 //   get dialogHeadingTemplate() {
@@ -156,6 +157,7 @@ addEventListener("trix-initialize", function(event) {
 //     `
 //   }
 // }
+
 
 // function addHeadingAttributes() {
 //   Array.from(["h1", "h2", "h3", "h4", "h5", "h6"]).forEach((tagName, i) => {

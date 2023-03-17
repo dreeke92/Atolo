@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_03_15_204249) do
+ActiveRecord::Schema.define(version: 2023_03_16_092155) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -61,6 +61,7 @@ ActiveRecord::Schema.define(version: 2023_03_15_204249) do
     t.string "title_fr"
     t.string "title_de"
     t.string "title_nl"
+    t.string "slug"
   end
 
   create_table "messages", force: :cascade do |t|
