@@ -1,0 +1,9 @@
+<div id="disclaimer">
+    <%= render 'shared/navbar-fixed' %>
+    <section class="wrapper style1 align-left">
+      <div class="inner">
+        <br>
+        <%= eval("@legal_page&.content_#{I18n.locale}") %>
+      </div>
+    <section>
+</div>

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  # get '/legal_pages'
   authenticate :user, ->(user) { user.admin? } do
     mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   end
@@ -6,6 +7,7 @@ Rails.application.routes.draw do
 
   scope '(:locale)', locale: /fr|nl|de/ do
     root to: 'pages#welcome'
+    resources :legal_pages, only: [:show], param: :slug
     # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
     get 'welcome', to: "pages#welcome"
     get 'solutions', to: "pages#solutions"
@@ -27,7 +29,7 @@ Rails.application.routes.draw do
 
     resources :products, only: [ :create, :new, :show, :update, :edit, :destroy, :index ]
     resources :messages, only: [ :create ]
-    resources :legal_pages
+
   end
 
   # get 'fr', to: "pages#welcome"

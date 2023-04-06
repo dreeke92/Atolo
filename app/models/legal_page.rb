@@ -7,6 +7,10 @@ class LegalPage < ApplicationRecord
 
 
   def generate_path
-    slug = self.name.dup.parameterize
+    self.slug = self.name.dup.parameterize
+  end
+
+  def translate_title(locale)
+    eval("self.title_#{locale}") ? eval("self.title_#{locale}") : (self.title_en ? self.title_en : self.name)
   end
 end
