@@ -21,234 +21,29 @@
       <h2><%= t('about.team.title') %></h2>
       <h4><%= t('about.team.sub_title') %></h4>
       <div class="items style1 medium onscroll-fade-in">
-        <section>
-          <div class="flip-profile-card">
-            <div class="flip-profile-card-inner">
-              <div class="flip-profile-card-front">
-                <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1561648844/mieke.jpg", :alt => "image", :class => "avatar-large") %>
-                <h3 class="margin-top-name"><span class="atolo-green"><%= t('about.team.member_one.first_name') %></span> <%= t('about.team.member_one.second_name') %></h3>
-                <h4><%= t('about.team.member_one.role') %></h4>
-              </div>
-              <div class="flip-profile-card-back">
-                <h3><%= t('about.team.member_one.first_name') %> <%= t('about.team.member_one.second_name') %></h3>
-                <p class="xm-small-font profile-content-align"><%= t('about.team.member_one.text') %></p>
-              </div>
-            </div>
-          </div>
-          <ul class="icons">
-            <li><a class ="icon style2" href="https://www.linkedin.com/in/mieke-van-oost-5b6669a/" target="blank"><i class="fab fa-linkedin"></i></a></li>
-            <li><a class ="icon style2" href="mailto:mieke@atolo.eu"><i class="fas fa-envelope"></i></a></li>
-          </ul>
-        </section>
-        <section>
-          <div class="flip-profile-card">
-            <div class="flip-profile-card-inner">
-              <div class="flip-profile-card-front">
-                <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1569145586/david.jpg", :alt => "image", :class => "avatar-large") %>
-                <h3 class="margin-top-name"><span class="atolo-green"><%= t('about.team.member_two.first_name') %></span> <%= t('about.team.member_two.second_name') %></h3>
-                <h4><%= t('about.team.member_two.role') %></h4>
-              </div>
-              <div class="flip-profile-card-back">
-                <h3><%= t('about.team.member_two.first_name') %> <%= t('about.team.member_two.second_name') %></h3>
-                <p class="xm-small-font profile-content-align"><%= t('about.team.member_two.text') %></p>
+        <% Member.all.each do |member| %>
+          <section>
+            <div class="flip-profile-card">
+              <div class="flip-profile-card-inner">
+                <div class="flip-profile-card-front">
+                  <% if member.photo_url %>
+                    <%= image_tag(member.photo_url, :alt => "image", :class => "avatar-large") %>
+                  <% end %>
+                  <h3 class="margin-top-name"><span class="atolo-green"><%= member.first_name %></span> <%= member.last_name %></h3>
+                  <h4><%= member.role %></h4>
+                </div>
+                <div class="flip-profile-card-back">
+                  <h3><%= member.first_name %> <%= member.last_name %></h3>
+                  <div class="xm-small-font profile-content-align"><%= eval("member.description_#{I18n.locale}") %></div>
+                </div>
               </div>
             </div>
-          </div>
-          <ul class="icons">
-            <li><a class ="icon style2" href="https://www.linkedin.com/in/davidmichel1/" target="blank"><i class="fab fa-linkedin"></i></a></li>
-            <li><a class ="icon style2" href="mailto:david@atolo.ch"><i class="fas fa-envelope"></i></a></li>
-          </ul>
-        </section>
-        <section>
-          <div class="flip-profile-card">
-            <div class="flip-profile-card-inner">
-              <div class="flip-profile-card-front">
-                <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1561648844/oscar.jpg", :alt => "image", :class => "avatar-large") %>
-                <h3 class="margin-top-name"><span class="atolo-green"><%= t('about.team.member_three.first_name') %></span> <%= t('about.team.member_three.second_name') %></h3>
-                <h4><%= t('about.team.member_three.role') %></h4>
-              </div>
-              <div class="flip-profile-card-back">
-                <h3><%= t('about.team.member_three.first_name') %> <%= t('about.team.member_three.second_name') %></h3>
-                <p class="xm-small-font profile-content-align"><%= t('about.team.member_three.text') %></p>
-              </div>
-            </div>
-          </div>
-          <ul class="icons">
-            <li><a class ="icon style2" href="https://www.linkedin.com/in/oscar-vega-2806207/" target="blank"><i class="fab fa-linkedin"></i></a></li>
-            <li><a class ="icon style2" href="mailto:oscar@atolo.eu"><i class="fas fa-envelope"></i></a></li>
-          </ul>
-        </section>
-        <section>
-          <div class="flip-profile-card">
-            <div class="flip-profile-card-inner">
-              <div class="flip-profile-card-front">
-                <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1608302285/Adeline_2.png", :alt => "image", :class => "avatar-large") %>
-                <h3 class="margin-top-name"><span class="atolo-green"><%= t('about.team.member_thirteen.first_name') %></span> <%= t('about.team.member_thirteen.second_name') %></h3>
-                <h4><%= t('about.team.member_thirteen.role') %></h4>
-              </div>
-              <div class="flip-profile-card-back">
-                <h3><%= t('about.team.member_thirteen.first_name') %> <%= t('about.team.member_thirteen.second_name') %></h3>
-                <p class="xm-small-font profile-content-align"><%= t('about.team.member_thirteen.text') %></p>
-              </div>
-            </div>
-          </div>
-          <ul class="icons">
-            <li><a class ="icon style2" href="https://www.linkedin.com/in/adeline-leguillier-bab31361/" target="blank"><i class="fab fa-linkedin"></i></a></li>
-            <li><a class ="icon style2" href="mailto:adeline@atolo.eu"><i class="fas fa-envelope"></i></a></li>
-          </ul>
-        </section>
-        <section>
-          <div class="flip-profile-card">
-            <div class="flip-profile-card-inner">
-              <div class="flip-profile-card-front">
-                <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1569145397/eva.jpg", :alt => "image", :class => "avatar-large") %>
-                <h3 class="margin-top-name"><span class="atolo-green"><%= t('about.team.member_four.first_name') %></span> <%= t('about.team.member_four.second_name') %></h3>
-                <h4><%= t('about.team.member_four.role') %></h4>
-              </div>
-              <div class="flip-profile-card-back">
-                <h3><%= t('about.team.member_four.first_name') %> <%= t('about.team.member_four.second_name') %></h3>
-                <p class="xm-small-font profile-content-align"><%= t('about.team.member_four.text') %></p>
-              </div>
-            </div>
-          </div>
-          <ul class="icons">
-            <li><a class ="icon style2" href="https://www.linkedin.com/in/eva-vermeire-503a02a3/" target="blank"><i class="fab fa-linkedin"></i></a></li>
-            <li><a class ="icon style2" href="mailto:eva@atolo.eu"><i class="fas fa-envelope"></i></a></li>
-          </ul>
-        </section>
-        <section>
-          <div class="flip-profile-card">
-            <div class="flip-profile-card-inner">
-              <div class="flip-profile-card-front">
-                <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1561648843/maite.jpg", :alt => "image", :class => "avatar-large") %>
-                <h3 class="margin-top-name"><span class="atolo-green"><%= t('about.team.member_six.first_name') %></span> <%= t('about.team.member_six.second_name') %></h3>
-                <h4><%= t('about.team.member_six.role') %></h4>
-              </div>
-              <div class="flip-profile-card-back">
-                <h3><%= t('about.team.member_six.first_name') %> <%= t('about.team.member_six.second_name') %></h3>
-                <p class="xm-small-font profile-content-align"><%= t('about.team.member_six.text') %></p>
-              </div>
-            </div>
-          </div>
-          <ul class="icons">
-            <li><a class ="icon style2" href="https://www.linkedin.com/in/ma%C3%AFt%C3%A9-dantine-62160431/" target="blank"><i class="fab fa-linkedin"></i></a></li>
-            <li><a class ="icon style2" href="mailto:maite@atolo.eu"><i class="fas fa-envelope"></i></a></li>
-          </ul>
-        </section>
-        <section>
-          <div class="flip-profile-card">
-            <div class="flip-profile-card-inner">
-              <div class="flip-profile-card-front">
-                <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1561648844/sophie.jpg", :alt => "image", :class => "avatar-large") %>
-                <h3 class="margin-top-name"><span class="atolo-green"><%= t('about.team.member_seven.first_name') %></span> <%= t('about.team.member_seven.second_name') %></h3>
-                <h4><%= t('about.team.member_seven.role') %></h4>
-              </div>
-              <div class="flip-profile-card-back">
-                <h3><%= t('about.team.member_seven.first_name') %> <%= t('about.team.member_seven.second_name') %></h3>
-                <p class="xm-small-font profile-content-align"><%= t('about.team.member_seven.text') %></p>
-              </div>
-            </div>
-          </div>
-          <ul class="icons">
-            <li><a class ="icon style2" href="https://www.linkedin.com/in/sofie-begine/" target="blank"><i class="fab fa-linkedin"></i></a></li>
-            <li><a class ="icon style2" href="mailto:sofie@atolo.eu"><i class="fas fa-envelope"></i></a></li>
-          </ul>
-        </section>
-        <section>
-          <div class="flip-profile-card">
-            <div class="flip-profile-card-inner">
-              <div class="flip-profile-card-front">
-                <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1561648843/celine.jpg", :alt => "image", :class => "avatar-large") %>
-                <h3 class="margin-top-name"><span class="atolo-green"><%= t('about.team.member_eight.first_name') %></span> <%= t('about.team.member_eight.second_name') %></h3>
-                <h4><%= t('about.team.member_eight.role') %></h4>
-              </div>
-              <div class="flip-profile-card-back">
-                <h3><%= t('about.team.member_eight.first_name') %> <%= t('about.team.member_eight.second_name') %></h3>
-                <p class="xm-small-font profile-content-align"><%= t('about.team.member_eight.text') %></p>
-              </div>
-            </div>
-          </div>
-          <ul class="icons">
-            <li><a class ="icon style2" href="https://www.linkedin.com/in/c%C3%A9line-zaghet/" target="blank"><i class="fab fa-linkedin"></i></a></li>
-            <li><a class ="icon style2" href="mailto:celine@atolo.eu"><i class="fas fa-envelope"></i></a></li>
-          </ul>
-        </section>
-        <section>
-          <div class="flip-profile-card">
-            <div class="flip-profile-card-inner">
-              <div class="flip-profile-card-front">
-                <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1569145191/quentin2.jpg", :alt => "image", :class => "avatar-large") %>
-                <h3 class="margin-top-name"><span class="atolo-green"><%= t('about.team.member_nine.first_name') %></span> <%= t('about.team.member_nine.second_name') %></h3>
-                <h4><%= t('about.team.member_nine.role') %></h4>
-              </div>
-              <div class="flip-profile-card-back">
-                <h3><%= t('about.team.member_nine.first_name') %> <%= t('about.team.member_nine.second_name') %></h3>
-                <p class="xm-small-font profile-content-align"><%= t('about.team.member_nine.text') %></p>
-              </div>
-            </div>
-          </div>
-          <ul class="icons">
-            <li><a class ="icon style2" href="https://www.linkedin.com/in/quentin-dubus-129b178b/" target="blank"><i class="fab fa-linkedin"></i></a></li>
-            <li><a class ="icon style2" href="mailto:quentin@atolo.eu"><i class="fas fa-envelope"></i></a></li>
-          </ul>
-        </section>
-        <section>
-          <div class="flip-profile-card">
-            <div class="flip-profile-card-inner">
-              <div class="flip-profile-card-front">
-                <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1561648843/claudia.jpg", :alt => "image", :class => "avatar-large") %>
-                <h3 class="margin-top-name"><span class="atolo-green"><%= t('about.team.member_eleven.first_name') %></span> <%= t('about.team.member_eleven.second_name') %></h3>
-                <h4><%= t('about.team.member_eleven.role') %></h4>
-              </div>
-              <div class="flip-profile-card-back">
-                <h3><%= t('about.team.member_eleven.first_name') %> <%= t('about.team.member_eleven.second_name') %></h3>
-                <p class="xm-small-font profile-content-align"><%= t('about.team.member_eleven.text') %></p>
-              </div>
-            </div>
-          </div>
-          <ul class="icons">
-            <li><a class ="icon style2" href="https://www.linkedin.com/in/claudiafortes/" target="blank"><i class="fab fa-linkedin"></i></a></li>
-            <li><a class ="icon style2" href="mailto:claudia@atolo.eu"><i class="fas fa-envelope"></i></a></li>
-          </ul>
-        </section>
-        <section>
-          <div class="flip-profile-card">
-            <div class="flip-profile-card-inner">
-              <div class="flip-profile-card-front">
-                <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1584706299/delia2.png", :alt => "image", :class => "avatar-large") %>
-                <h3 class="margin-top-name"><span class="atolo-green"><%= t('about.team.member_twelve.first_name') %></span> <%= t('about.team.member_twelve.second_name') %></h3>
-                <h4><%= t('about.team.member_twelve.role') %></h4>
-              </div>
-              <div class="flip-profile-card-back">
-                <h3><%= t('about.team.member_twelve.first_name') %> <%= t('about.team.member_twelve.second_name') %></h3>
-                <p class="xm-small-font profile-content-align"><%= t('about.team.member_twelve.text') %></p>
-              </div>
-            </div>
-          </div>
-          <ul class="icons">
-            <li><a class ="icon style2" href="https://www.linkedin.com/in/delia-mensitieri" target="blank"><i class="fab fa-linkedin"></i></a></li>
-            <li><a class ="icon style2" href="mailto:delia@atolo.eu"><i class="fas fa-envelope"></i></a></li>
-          </ul>
-        </section>
-        <section>
-          <div class="flip-profile-card">
-            <div class="flip-profile-card-inner">
-              <div class="flip-profile-card-front">
-                <%= image_tag("team/jan.jpg", :alt => "image", :class => "avatar-large") %>
-                <h3 class="margin-top-name"><span class="atolo-green"><%= t('about.team.member_fourteen.first_name') %></span> <%= t('about.team.member_fourteen.second_name') %></h3>
-                <h4><%= t('about.team.member_fourteen.role') %></h4>
-              </div>
-              <div class="flip-profile-card-back">
-                <h3><%= t('about.team.member_fourteen.first_name') %> <%= t('about.team.member_fourteen.second_name') %></h3>
-                <p class="xm-small-font profile-content-align"><%= t('about.team.member_fourteen.text') %></p>
-              </div>
-            </div>
-          </div>
-          <ul class="icons">
-            <li><a class ="icon style2" href="https://www.linkedin.com/in/jan-vandenborre-154565206/" target="blank"><i class="fab fa-linkedin"></i></a></li>
-            <li><a class ="icon style2" href="mailto:jan@atolo.eu"><i class="fas fa-envelope"></i></a></li>
-          </ul>
-        </section>
+            <ul class="icons">
+              <li><a class ="icon style2" href=<% member.linkedin %> target="blank"><i class="fab fa-linkedin"></i></a></li>
+              <li><a class ="icon style2" href="mailto:<%= member.email %>"><i class="fas fa-envelope"></i></a></li>
+            </ul>
+          </section>
+        <% end %>
       </div>
     </div>
   </section>

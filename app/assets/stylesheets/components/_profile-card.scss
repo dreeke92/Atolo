@@ -128,6 +128,9 @@
 }
 
 .profile-content-align{
-  text-align: justify !important;
+  .trix-content{
+    text-align: justify !important;
+    font-size: 11pt;
+  }
 }
 
