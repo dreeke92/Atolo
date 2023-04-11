@@ -21,7 +21,7 @@
       <h2><%= t('about.team.title') %></h2>
       <h4><%= t('about.team.sub_title') %></h4>
       <div class="items style1 medium onscroll-fade-in">
-        <% Member.all.each do |member| %>
+        <% Member.all.order(first_name: :asc).each do |member| %>
           <section>
             <div class="flip-profile-card">
               <div class="flip-profile-card-inner">
