@@ -3,7 +3,7 @@ class Product < ApplicationRecord
 
   validates :name_en, presence: true, uniqueness: true
   validates :group, presence: true
-  validates :description_en, presence: true
+  # validates :description_en, presence: true
   # validates :image, presence: true, uniqueness: true
   has_rich_text :rich_description_en
   has_rich_text :rich_description_de
