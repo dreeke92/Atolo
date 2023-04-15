@@ -112,6 +112,8 @@ fr:
       title: "Partenaires et Accréditations"
       text_html: "En partenariat avec Febelfin et Cefora/Cevora pour la formation linguistique. <br> Certification/ Accréditation: FSMA, FSEA and SAQ."
     contact_us:
+  summer_class:
+    title:
   solutions:
     discover-button: "Discover our offer"
     our-offer: "Nos solutions"
