@@ -32,7 +32,7 @@
           <%= eval("product.name_#{locale}") %>
         </div>
         <div class="description">
-          <%= eval("product.description_#{locale}") %>
+          <%= eval("product.rich_description_#{locale}") %>
         </div>
         <% cta = eval("product.cta_#{locale}") %>
         <%= link_to product_path(product.id), class:"cta pink-cta" do %>
@@ -48,7 +48,7 @@
           <%= eval("product.name_#{locale}") %>
         </div>
         <div class="description">
-          <%= eval("product.description_#{locale}") %>
+          <%= eval("product.rich_description_#{locale}") %>
         </div>
         <% cta = eval("product.cta_#{locale}") %>
         <%= link_to product_path(product.id), class:"cta" do %>
