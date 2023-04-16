@@ -24,11 +24,12 @@
 }
 
 #pages_events, #pages_summer_class {
+
   .wrapper{
     background-position: center;
 
     h1{
-      margin-top: 300px;
+      margin-top: 240px;
     }
 
     .dates{
@@ -81,6 +82,7 @@
 
   }
 
+
   .banner-title{
     h3{
         max-width: 600px;
@@ -100,13 +102,15 @@
       margin: auto;
     }
   }
-
+  .container > .events {
+    padding: 0;
+  }
   .events{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 60px 24px 60px 24px;
-    background-color: #44d274;
+    // background-color: #44d274;
     flex-wrap: wrap;
 
     .event{
@@ -115,6 +119,7 @@
       background-color: white;
       border-radius: 15px;
       margin-bottom: 24px;
+      box-shadow: 6px 6px 12px #0000000D;
       .bg-image{
         height: 225px;
         background-position: center;
@@ -125,9 +130,13 @@
       .title{
         padding: 32px 25px;
         font-weight: bold;
-        color: #DB0B5B;
         font: normal normal medium 26px/34px Source Sans 3;
+        color: #01B27B;
+        &.title-pink{
+          color: #DB0B5B;
+        }
       }
+
       .description{
         padding: 0px 25px;
         height: 200px;
@@ -156,7 +165,7 @@
         padding: 12px;
         text-overflow: ellipsis;
         overflow: hidden;
-        background-color: #44d273;
+        background-color: #01B27B;
 
         display: block;
         color: white;
@@ -170,11 +179,26 @@
           align-items: center;
           img{
             margin-left: 10px;
+            transition: all 0.3s ease-in-out;
           }
         }
         &:hover{
-          background-color: #2d934f;
+          img{
+            margin-left: 15px;
+          }
         }
+      &.pink-cta{
+        background-color: #DB0B5B;
+        }
+        &:hover{
+          img{
+            margin-left: 15px;
+          }
+        }
+      }
+
+      &.large{
+        width: 487px;
       }
     }
   }

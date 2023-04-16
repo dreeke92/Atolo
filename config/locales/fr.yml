@@ -113,7 +113,14 @@ fr:
       text_html: "En partenariat avec Febelfin et Cefora/Cevora pour la formation linguistique. <br> Certification/ Accréditation: FSMA, FSEA and SAQ."
     contact_us:
   summer_class:
-    title:
+    title: "SUMMER CLASSES"
+    start_on: "15 JUIN"
+    end_on: "15 SEPTEMBRE"
+    sub_title: "Vous cherchez à maximiser vos compétences linguistiques ou de leadership ou celles de votre équipe ? Rendez-vous l’été prochain parmi nous !"
+    discover: "Découvrez-le ici"
+    concept: "ATOLO Summer classes 2023: Rejoignez-nous !"
+    concept_text_html: "Nos cours d’été représentent une occasion idéale de découvrir l’impact d’un coaching en situation réelle. Choisissez la langue ou la formation en leadership et la formule à adopter.<br><br>🍸 Nos afterworks viendront clore en beauté votre formation et vous feront profiter de l’ambiance estivale en compagnie de l’équipe d’ATOLO.<br><br>Apprêtez-vous à acquérir de nouvelles compétences, à profiter d’un coaching d’experts, à rencontrer de nouvelles personnes dans une atmosphère conviviale et à redynamiser votre carrière. <span>Mettez la période estivale à profit de votre apprentissage grâce à l'expertise d'ATOLO !</span>"
+    testimonials_title_html: "Pensez-vous aussi que l’été est une période propice à l’apprentissage ? Découvrez pourquoi nos formations sont si appréciées."
   solutions:
     discover-button: "Discover our offer"
     our-offer: "Nos solutions"
