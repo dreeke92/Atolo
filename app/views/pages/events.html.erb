@@ -9,26 +9,25 @@
 <div class="wrapper-second">
   <%= t ('events.sub_title_html') %>
 </div>
-<div class="container">
-  <div class="events">
-    <% @products.each do |product| %>
-      <div class="event">
-        <div style="background-image: url(<%= product.photo_url %>)" class="bg-image">
-        </div>
-        <div class="title">
-          <%= eval("product.name_#{locale}") %>
-        </div>
-        <div class="description">
-          <%= eval("product.description_#{locale}") %>
-        </div>
-        <% cta = eval("product.cta_#{locale}") %>
-        <%= link_to product_path(product.id), class:"cta" do %>
-          <span> More info <%= image_tag 'icons/arrow-right-circle-2.svg' %></span>
-        <% end %>
+<div class="events">
+  <% @products.each do |product| %>
+    <div class="event">
+      <div style="background-image: url(<%= product.photo_url %>)" class="bg-image">
       </div>
-    <% end %>
-  </div>
+      <div class="title">
+        <%= eval("product.name_#{locale}") %>
+      </div>
+      <div class="description">
+        <%= eval("product.description_#{locale}") %>
+      </div>
+      <% cta = eval("product.cta_#{locale}") %>
+      <%= link_to product_path(product.id), class:"cta" do %>
+        <span> More info <%= image_tag 'icons/arrow-right-circle-2.svg' %></span>
+      <% end %>
+    </div>
+  <% end %>
 </div>
+
 <!-- Items -->
 <section id="testimonials" class="wrapper style1 align-center">
   <div class="inner">
