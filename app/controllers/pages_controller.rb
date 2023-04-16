@@ -22,7 +22,7 @@ class PagesController < ApplicationController
     @products << Product.find_by(name_en: 'Communication for Leaders')
     @products << Product.find_by(name_en: 'Teams In Action')
 
-    # @products = Product.take(3)
+    @products = Product.take(3)
   end
 
   def summer_class

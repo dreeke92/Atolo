@@ -16,7 +16,7 @@
   <div class="subtitle">
     <%= t ('summer_class.sub_title') %>
   </div>
-  <a href="#products" class="cta"><span> Discover it here <%= image_tag 'icons/arrow-down-circle' %></span></a>
+  <a href="#products" class="cta"><span> Discover it here <%= image_tag 'icons/arrow-down-circle.svg' %></span></a>
 </div>
 <div class="container">
   <div class="concept">
@@ -36,7 +36,7 @@
         </div>
         <% cta = eval("product.cta_#{locale}") %>
         <%= link_to product_path(product.id), class:"cta pink-cta" do %>
-          <span> More info <%= image_tag 'icons/arrow-right-circle-2' %></span>
+          <span> More info <%= image_tag 'icons/arrow-right-circle-2.svg' %></span>
         <% end %>
       </div>
     <% end %>
@@ -52,7 +52,7 @@
         </div>
         <% cta = eval("product.cta_#{locale}") %>
         <%= link_to product_path(product.id), class:"cta" do %>
-          <span> More info <%= image_tag 'icons/arrow-right-circle-2' %></span>
+          <span> More info <%= image_tag 'icons/arrow-right-circle-2.svg' %></span>
         <% end %>
       </div>
     <% end %>
