@@ -21,7 +21,14 @@ class PagesController < ApplicationController
     @products << Product.find_by(name_en: 'Reinforce multilingualism in your teams')
     @products << Product.find_by(name_en: 'Communication for Leaders')
     @products << Product.find_by(name_en: 'Teams In Action')
+
     # @products = Product.take(3)
+  end
+
+  def summer_class
+    # @products = Product.take(3)
+    @products_1 = Product.where("id in (221, 222)")
+    @products_2 = Product.where("id in (223, 224)")
   end
 
   def promotions

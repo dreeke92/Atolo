@@ -1,0 +1,98 @@
+<%= render 'shared/navbar-fixed' %>
+<% locale = I18n.locale %>
+<div  class="wrapper banner-title" style="background-image: url(<%= image_url 'bg_summerclass.jpg' %>)">
+  <h1>
+    <%= t ('summer_class.title') %>
+  </h1>
+  <div class="dates">
+    <div>
+      <%= t ('summer_class.start_on') %>
+    </div>
+    <%= image_tag "icons/green-arrow" %>
+    <div>
+       <%= t ('summer_class.end_on') %>
+    </div>
+  </div>
+  <div class="subtitle">
+    <%= t ('summer_class.sub_title') %>
+  </div>
+  <a href="#products" class="cta"><span> Discover it here <%= image_tag 'icons/arrow-down-circle' %></span></a>
+</div>
+<div class="container">
+  <div class="concept">
+    <h2><%= t ('summer_class.concept') %></h2>
+    <div class="concept_text"><%= t ('summer_class.concept_text_html') %></div>
+  </div>
+  <div class="events" id="products">
+    <% @products_1.each do |product| %>
+      <div class="event large">
+        <div style="background-image: url(<%= product.photo_url %>)" class="bg-image">
+        </div>
+        <div class="title title-pink">
+          <%= eval("product.name_#{locale}") %>
+        </div>
+        <div class="description">
+          <%= eval("product.description_#{locale}") %>
+        </div>
+        <% cta = eval("product.cta_#{locale}") %>
+        <%= link_to product_path(product.id), class:"cta pink-cta" do %>
+          <span> More info <%= image_tag 'icons/arrow-right-circle-2' %></span>
+        <% end %>
+      </div>
+    <% end %>
+    <% @products_2.each do |product| %>
+      <div class="event large">
+        <div style="background-image: url(<%= product.photo_url %>)" class="bg-image">
+        </div>
+        <div class="title">
+          <%= eval("product.name_#{locale}") %>
+        </div>
+        <div class="description">
+          <%= eval("product.description_#{locale}") %>
+        </div>
+        <% cta = eval("product.cta_#{locale}") %>
+        <%= link_to product_path(product.id), class:"cta" do %>
+          <span> More info <%= image_tag 'icons/arrow-right-circle-2' %></span>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+<!-- Items -->
+<section id="testimonials" class="wrapper style1 align-center">
+  <div class="inner">
+    <h3><%= t('summer_class.testimonials_title_html') %></h3>
+    <div class="owl-carousel owl-theme testimonial-cards onload-fade-in card-carousel-solo">
+        <section class="testimonial-card">
+          <p class="small-font">
+            "What progress have I made! My English has improved considerably: I can say goodbye now to the
+            stress that troubled me before every meeting! Mostly thanks to the trainer who has a perfect
+            command of her subject, knows how to manage a group of 8 people and makes us feel at ease in all
+            situations. She has the art of making her lessons come alive and is very pedagogical. You can feel
+            that she is passionate about her work. In short, I recommend ATOLO courses. So much more
+            rewarding than any other language training I followed in the past. " - <span style="font-weight:bold">Participant, Language group session</span>
+          </p>
+        </section>
+        <section class="testimonial-card">
+          <p class="small-font">
+            "By working in small groups, they really coach senior leaders 121 and leverages cross-functional peer
+learning at the same time. They adopt an empowering and supporting style, and are highly
+knowledgeable and respectful. Their approach is truly hands-on, as participants use their own cases,
+increasing the relevance of the learnings and facilitating application afterwards. Five-star ratings
+given by our participants!" – <span style="font-weight:bold">Nele Van Hooste, Talent &amp; Development Lead, Galapagos</span>
+          </p>
+        </section>
+        <section class="testimonial-card">
+          <p class="small-font">
+            "Appraisals and reviews are challenging moments for a manager /team leader and also for the
+employee. Knowing how to be well prepared and how to deliver impactful constructive feedback can
+make all the difference in these moments. It can ensure that the work relation continues to develop
+well, and that those involved feel motivated to further in their work. By focusing on the key insights,
+methodologies and the applicable know-how, you can succeed in your feedback moments in
+appraisals and mid-reviews." - <span style="font-weight:bold">Claudia Fortes, Trainer</span>
+          </p>
+        </section>
+    </div>
+  </div>
+</section>
