@@ -3,7 +3,7 @@
 <div class="wrapper" style="background-image: url(<%= @product.photo_url %>)">
   <h1><%= eval("@product.name_#{locale}") %></h1>
 </div>
-<div class="container">
+<div class="container <%= 'pink-container' if [222, 221].include?(@product.id) %>" >
   <div class="description content">
     <%= eval("@product.rich_long_description_#{locale}") %>
   </div>
@@ -17,7 +17,7 @@
   </div>
 </div>
 <section id="main-contact-form" class="banner style5 orient-right content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
-  <div class="content main-contact-form-container">
+  <div class="content main-contact-form-container  <%= 'pink-container' if [222, 221].include?(@product.id)%>">
     <h3><%= simple_format(eval("@product.long_cta_#{locale}"))%></h3>
     <%= render 'shared/contact-form' %>
   </div>

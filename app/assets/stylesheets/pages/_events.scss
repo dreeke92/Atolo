@@ -77,6 +77,7 @@
       max-width: 748px;
       span{
         color: $atolo-green;
+        font-weight: bold;
       }
     }
 
@@ -100,6 +101,7 @@
     h3{
       max-width: 600px;
       margin: auto;
+      font-weight: bold;
     }
   }
   .container > .events {
@@ -112,10 +114,11 @@
     padding: 60px 24px 60px 24px;
     // background-color: #44d274;
     flex-wrap: wrap;
+    position: relative;
 
     .event{
       width: 400px;
-      height: 600px;
+      height: 525px;
       background-color: white;
       border-radius: 15px;
       margin-bottom: 24px;
@@ -139,7 +142,7 @@
 
       .description{
         padding: 0px 25px;
-        height: 200px;
+        height: 112px;
         text-overflow:ellipsis;
         overflow:hidden;
         // Addition lines for 2 line or multiline ellipsis
@@ -174,6 +177,10 @@
         color: white;
         margin-left: 25px;
         margin-right: 25px;
+        position: absolute;
+        bottom: 25px;
+        left: 0px;
+        right: 0px;
         span{
           display: inline-flex;
           align-items: center;
