@@ -28,6 +28,9 @@
       <div class="event large">
         <div style="background-image: url(<%= product.photo_url %>)" class="bg-image">
         </div>
+        <div class="subtitle">
+          <%= eval("product.subtitle_#{locale}") %>
+        </div>
         <div class="title title-pink">
           <%= eval("product.name_#{locale}") %>
         </div>

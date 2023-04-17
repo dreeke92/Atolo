@@ -26,9 +26,14 @@ class PagesController < ApplicationController
   end
 
   def summer_class
+    if Rails.env.production?
     # @products = Product.take(3)
     @products_1 = Product.where("id in (221, 222)")
     @products_2 = Product.where("id in (223, 224)")
+    else
+      @products_1 = Product.take(2)
+      @products_2 = Product.take(2)
+    end
   end
 
   def promotions
