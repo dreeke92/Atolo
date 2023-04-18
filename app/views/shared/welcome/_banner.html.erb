@@ -61,16 +61,3 @@
       <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1561640681/people1.jpg", :alt => "image") %>
     </div>
   </section>
-  <% unless session[:has_seen_intro] %>
-    <div id="overlay-10-years" class="overlay-10-years maxi">
-      <%= image_tag("atolo-logo/Atolo_10_years.gif", :alt => "atolo 10 years", style:"max-height:100%;max-width:800px;display:block;margin:auto;") %>
-    </div>
-
-    <script>
-      const myTimeout = setTimeout(removeOverlay, 5500);
-
-      function removeOverlay() {
-        document.getElementById("overlay-10-years").classList.remove("maxi");
-      }
-    </script>
-  <% end %>

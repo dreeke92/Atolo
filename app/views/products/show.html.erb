@@ -1,6 +1,7 @@
 <%= render 'shared/navbar-fixed' %>
 <% locale = I18n.locale %>
 <div class="wrapper" style="background-image: url(<%= @product.photo_url %>)">
+  <h2 class="<%= 'pink-title' if [222, 221].include?(@product.id) %>"><%= eval("@product.subtitle_#{locale}") %></h2>
   <h1><%= eval("@product.name_#{locale}") %></h1>
 </div>
 <div class="container <%= 'pink-container' if [222, 221].include?(@product.id) %>" >

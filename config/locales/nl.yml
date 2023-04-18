@@ -14,15 +14,16 @@ nl:
     probono: "Pro bono"
     contact: "Contact"
     events: "Nieuw"
+    summer_class: "Summer Classes"
   footer:
   welcome:
     banner:
       title_1: "TRAINING  EN COACHING"
       sentence_1: "Taal, Communicatie en People and Culture"
       button_1: "Ons aanbod"
-      title_2: "Nieuw 2023"
-      sentence_2: "Werken aan je persoonlijke groei? Klaar voor een nieuwe en verfrissende aanpak?"
-      button_2: "Ontdek hier hoe het kan!"
+      title_2: "Summer Classes 2023"
+      sentence_2: "Scherp je taal- en leadershipskills aan!"
+      button_2: "Doe mee"
       title_3: "Taalscan"
       sentence_3: "Gepersonaliseerde/Maatgemaakte taaltrainingen Online Niveaubepaling"
       button_3: "Gratis Demo"

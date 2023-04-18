@@ -28,8 +28,8 @@ class PagesController < ApplicationController
   def summer_class
     if Rails.env.production?
     # @products = Product.take(3)
-    @products_1 = Product.where("id in (221, 222)")
-    @products_2 = Product.where("id in (223, 224)")
+    @products_1 = Product.where("id in (221, 222)").order(:id)
+    @products_2 = Product.where("id in (223, 224)").order(:id)
     else
       @products_1 = Product.take(2)
       @products_2 = Product.take(2)
