@@ -58,7 +58,7 @@
         </div>
         <% cta = eval("product.cta_#{locale}") %>
         <%= link_to product_path(product.id), class:"cta" do %>
-          <span> More info <%= image_tag 'icons/arrow-right-circle-2.svg' %></span>
+          <span> <%= cta.nil? ? "More info" : cta %> <%= image_tag 'icons/arrow-right-circle-2.svg' %></span>
         <% end %>
       </div>
     <% end %>
