@@ -30,6 +30,7 @@ RailsAdmin.config do |config|
   # config.show_gravatar = true
   config.model 'Product' do
     list do
+      field :id
       field :name_en
       field :name_de
       field :name_fr
@@ -39,26 +40,12 @@ RailsAdmin.config do |config|
 
       field :photo
       field :ranking
-
-      field :subtitle_en
-      field :subtitle_de
-      field :subtitle_fr
-      field :subtitle_nl
-
-      field :cta_en
-      field :cta_de
-      field :cta_fr
-      field :cta_nl
-
-      field :long_cta_en
-      field :long_cta_de
-      field :long_cta_fr
-      field :long_cta_nl
 
       field :created_at
     end
 
     show do
+      field :id
       field :name_en
       field :name_de
       field :name_fr
@@ -69,43 +56,60 @@ RailsAdmin.config do |config|
       field :photo
       field :ranking
 
-      field :subtitle_en
-      field :subtitle_de
-      field :subtitle_fr
-      field :subtitle_nl
-
-      field :cta_en
-      field :cta_de
-      field :cta_fr
-      field :cta_nl
-
-      field :long_cta_en
-      field :long_cta_de
-      field :long_cta_fr
-      field :long_cta_nl
+      field :quote
+      field :quote_author
 
       field :rich_description_en
       field :rich_description_de
       field :rich_description_fr
       field :rich_description_nl
 
-      field :rich_long_description_en
-      field :rich_long_description_de
-      field :rich_long_description_fr
-      field :rich_long_description_nl
+      field :practicality_1_en
+      field :practicality_2_en
+      field :practicality_3_en
+      field :practicality_4_en
+      field :practicality_5_en
+      field :practicality_6_en
+      field :practicality_1_fr
+      field :practicality_2_fr
+      field :practicality_3_fr
+      field :practicality_4_fr
+      field :practicality_5_fr
+      field :practicality_6_fr
+      field :practicality_1_nl
+      field :practicality_2_nl
+      field :practicality_3_nl
+      field :practicality_4_nl
+      field :practicality_5_nl
+      field :practicality_6_nl
+      field :practicality_1_de
+      field :practicality_2_de
+      field :practicality_3_de
+      field :practicality_4_de
+      field :practicality_5_de
+      field :practicality_6_de
 
-      field :rich_learnings_en
-      field :rich_learnings_de
-      field :rich_learnings_fr
-      field :rich_learnings_nl
+      field :target_group_en
+      field :target_group_fr
+      field :target_group_nl
+      field :target_group_de
 
-      field :rich_practice_en
-      field :rich_practice_de
-      field :rich_practice_fr
-      field :rich_practice_nl
+      field :format_en
+      field :format_fr
+      field :format_nl
+      field :format_de
+
+      field :languages_en
+      field :languages_fr
+      field :languages_nl
+      field :languages_de
+
+
+
     end
 
     edit do
+      field :id
       field :name_en
       field :name_de
       field :name_fr
@@ -116,40 +120,53 @@ RailsAdmin.config do |config|
       field :photo
       field :ranking
 
-      field :subtitle_en
-      field :subtitle_de
-      field :subtitle_fr
-      field :subtitle_nl
-
-      field :cta_en
-      field :cta_de
-      field :cta_fr
-      field :cta_nl
-
-      field :long_cta_en
-      field :long_cta_de
-      field :long_cta_fr
-      field :long_cta_nl
+      field :quote
+      field :quote_author
 
       field :rich_description_en
       field :rich_description_de
       field :rich_description_fr
       field :rich_description_nl
 
-      field :rich_long_description_en
-      field :rich_long_description_de
-      field :rich_long_description_fr
-      field :rich_long_description_nl
+      field :practicality_1_en
+      field :practicality_2_en
+      field :practicality_3_en
+      field :practicality_4_en
+      field :practicality_5_en
+      field :practicality_6_en
+      field :practicality_1_fr
+      field :practicality_2_fr
+      field :practicality_3_fr
+      field :practicality_4_fr
+      field :practicality_5_fr
+      field :practicality_6_fr
+      field :practicality_1_nl
+      field :practicality_2_nl
+      field :practicality_3_nl
+      field :practicality_4_nl
+      field :practicality_5_nl
+      field :practicality_6_nl
+      field :practicality_1_de
+      field :practicality_2_de
+      field :practicality_3_de
+      field :practicality_4_de
+      field :practicality_5_de
+      field :practicality_6_de
 
-      field :rich_learnings_en
-      field :rich_learnings_de
-      field :rich_learnings_fr
-      field :rich_learnings_nl
+      field :target_group_en
+      field :target_group_fr
+      field :target_group_nl
+      field :target_group_de
 
-      field :rich_practice_en
-      field :rich_practice_de
-      field :rich_practice_fr
-      field :rich_practice_nl
+      field :format_en
+      field :format_fr
+      field :format_nl
+      field :format_de
+
+      field :languages_en
+      field :languages_fr
+      field :languages_nl
+      field :languages_de
     end
   end
 
