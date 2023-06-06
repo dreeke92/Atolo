@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_04_05_145030) do
+ActiveRecord::Schema.define(version: 2023_06_06_154753) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -130,6 +130,44 @@ ActiveRecord::Schema.define(version: 2023_04_05_145030) do
     t.string "long_cta_fr"
     t.string "long_cta_nl"
     t.string "long_cta_de"
+    t.text "quote"
+    t.string "quote_author"
+    t.string "practicality_1_en"
+    t.string "practicality_2_en"
+    t.string "practicality_3_en"
+    t.string "practicality_4_en"
+    t.string "practicality_5_en"
+    t.string "practicality_6_en"
+    t.string "practicality_1_fr"
+    t.string "practicality_2_fr"
+    t.string "practicality_3_fr"
+    t.string "practicality_4_fr"
+    t.string "practicality_5_fr"
+    t.string "practicality_6_fr"
+    t.string "practicality_1_nl"
+    t.string "practicality_2_nl"
+    t.string "practicality_3_nl"
+    t.string "practicality_4_nl"
+    t.string "practicality_5_nl"
+    t.string "practicality_6_nl"
+    t.string "practicality_1_de"
+    t.string "practicality_2_de"
+    t.string "practicality_3_de"
+    t.string "practicality_4_de"
+    t.string "practicality_5_de"
+    t.string "practicality_6_de"
+    t.string "target_group_en"
+    t.string "target_group_fr"
+    t.string "target_group_nl"
+    t.string "target_group_de"
+    t.string "format_en"
+    t.string "format_fr"
+    t.string "format_nl"
+    t.string "format_de"
+    t.string "languages_en"
+    t.string "languages_fr"
+    t.string "languages_nl"
+    t.string "languages_de"
   end
 
   create_table "users", force: :cascade do |t|
