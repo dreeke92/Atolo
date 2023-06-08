@@ -28,7 +28,12 @@ Rails.application.routes.draw do
     get 'eval', to: "pages#eval"
     # get 'mockup', to: "pages#mock-up"
 
-    resources :products, only: [ :create, :new, :show, :update, :edit, :destroy, :index ]
+    resources :products, only: [ :create, :new, :show, :update, :edit, :destroy, :index ] do
+      member do
+        get :preview
+      end
+    end
+
     resources :messages, only: [ :create ]
 
   end
