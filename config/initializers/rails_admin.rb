@@ -56,8 +56,14 @@ RailsAdmin.config do |config|
       field :photo
       field :ranking
 
-      field :quote
-      field :quote_author
+      field :quote_en
+      field :quote_fr
+      field :quote_nl
+      field :quote_de
+      field :quote_author_en
+      field :quote_author_fr
+      field :quote_author_nl
+      field :quote_author_de
 
       field :rich_description_en
       field :rich_description_de
@@ -120,8 +126,14 @@ RailsAdmin.config do |config|
       field :photo
       field :ranking
 
-      field :quote
-      field :quote_author
+      field :quote_en
+      field :quote_fr
+      field :quote_nl
+      field :quote_de
+      field :quote_author_en
+      field :quote_author_fr
+      field :quote_author_nl
+      field :quote_author_de
 
       field :rich_description_en
       field :rich_description_de
