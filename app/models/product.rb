@@ -25,5 +25,20 @@ class Product < ApplicationRecord
   has_rich_text :rich_practice_fr
   has_rich_text :rich_practice_nl
 
+  has_rich_text :target_group_en
+  has_rich_text :target_group_fr
+  has_rich_text :target_group_nl
+  has_rich_text :target_group_de
+
+  has_rich_text :format_en
+  has_rich_text :format_fr
+  has_rich_text :format_nl
+  has_rich_text :format_de
+
+  has_rich_text :languages_en
+  has_rich_text :languages_fr
+  has_rich_text :languages_nl
+  has_rich_text :languages_de
+
 
 end
