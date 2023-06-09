@@ -180,6 +180,8 @@ RailsAdmin.config do |config|
       field :languages_nl
       field :languages_de
     end
+
+
   end
 
 
