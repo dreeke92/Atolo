@@ -1,10 +1,10 @@
 // Import Google fonts
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i&Barlow:300,400,500,600,700');
 
 
 // Define fonts for body and headers
-$body-font: "Source Sans Pro", "Helvetica", "sans-serif";
-$headers-font: "Source Sans Pro", "Helvetica", "sans-serif";
+$body-font: "Barlow", "Helvetica", "sans-serif";
+$headers-font: "Barlow", "Helvetica", "sans-serif";
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
@@ -15,3 +15,24 @@ $headers-font: "Source Sans Pro", "Helvetica", "sans-serif";
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+
+body {
+      font-family: $body-font;
+      -webkit-font-smoothing: antialiased;
+  }
+
+  h1 {
+      font-family: $headers-font;
+      font-weight: 800;
+  }
+
+  h2 {
+      font-family: $headers-font;
+      font-weight: 700;
+  }
+
+
+  h3 {
+      font-family: $headers-font;
+      font-weight: 600;
+  }
