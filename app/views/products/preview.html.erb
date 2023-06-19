@@ -1,58 +1,84 @@
 <%= render 'shared/navbar-fixed' %>
 <% locale = I18n.locale %>
 
-<div class="container" style="margin-top: 120px;">
-  <div class="row">
+<div class="container communication" style="margin-top: 120px;">
+  <div class="first-section">
+    <div class="row">
 
-    <div class="col-md-8 col-xs-12">
-      <h1><%= eval("@product.name_#{locale}") %></h1>
-      <p><%= eval("@product.rich_description_#{locale}") %></p>
-    </div>
-    <div class="col-md-8 col-xs-12">
-      <div><%= eval("@product.quote_#{locale}") %></div>
-      <div><%= eval("@product.quote_author_#{locale}") %></div>
+      <div class="col-md-6 col-xs-12">
+        <h1><%= eval("@product.name_#{locale}") %></h1>
+        <%= eval("@product.rich_description_#{locale}") %>
+      </div>
+      <div class="offset-md-2 col-md-4 col-xs-12">
+        <div class="quote">
+          <%= render 'shared/svg/quote' %>
+          <%= eval("@product.quote_#{locale}") ? eval("@product.quote_#{locale}") : "If you can’t explain it simply, you don’t understand it well enough." %></div>
+        <div class="quote-author"><%= eval("@product.quote_author_#{locale}") ? eval("@product.quote_author_#{locale}") : "Paul J Meyer" %></div>
+      </div>
     </div>
   </div>
-  <div class="row">
-    <%= image_tag @product.photo_url, style:"max-width: 100%;" %>
-  </div>
+</div>
+<div class="second-section">
 
-  <div class="row">
-    <h2 style="margin: auto;">Key take-aways & practicalities</h2>
+   <div class="container communication">
+    <%= image_tag @product.photo_url, class:"product-image" %>
+     <div class="row practicalities-title">
+       <h2>Key take-aways & praticalities</h2>
+     </div>
+     <% col = @product.divisible_by_3?(locale) ? "col-md-4" : "col-md-6"  %>
+     <div class="row practicalities">
+      <% [1, 2, 3, 4, 5, 6].each do |number| %>
+        <% if eval("@product.practicality_#{number}_#{locale}") %>
+          <div class="<%= col %>">
+            <div class="practicalities-card">
+              <%= eval("@product.practicality_#{number}_#{locale}") %>
+              <% if false %>
+                Improve understanding of your audience’s needs.
+              <% end %>
+            </div>
+          </div>
+        <% end %>
+       <% end %>
+     </div>
+     <div class="relative-content">
+      <div class="row practicalities absolute">
+        <div class="col-md-4  text-center">
+          <div class="target-card">
+          <div class="icon">
+            <%= render 'shared/svg/target' %>
+          </div>
+          <h3>Target Group</h3>
+          <div><%= eval("@product.target_group_#{locale}") %></div>
+        </div>
+       </div>
+       <div class="col-md-4 text-center">
+        <div class="target-card">
+          <div class="icon">
+            <%= render 'shared/svg/writing' %>
+          </div>
+          <h3>Format</h3>
+          <div><%= eval("@product.format_#{locale}") %></div>
+        </div>
+       </div>
+       <div class="col-md-4 text-center">
+         <div class="target-card">
+          <div class="icon">
+            <%= render 'shared/svg/languages' %>
+          </div>
+          <h3>Languages</h3>
+          <div><%= eval("@product.languages_#{locale}") %></div>
+        </div>
+       </div>
+     </div>
+    </div>
   </div>
-  <div class="row">
-    <div class="col-md-6 col-xs-12">
-      <%= eval("@product.practicality_1_#{locale}") %>
-    </div>
-    <div class="col-md-6 col-xs-12">
-      <%= eval("@product.practicality_2_#{locale}") %>
-    </div>
-    <div class="col-md-6 col-xs-12">
-      <%= eval("@product.practicality_3_#{locale}") %>
-    </div>
-    <div class="col-md-6 col-xs-12">
-      <%= eval("@product.practicality_4_#{locale}") %>
-    </div>
-    <div class="col-md-6 col-xs-12">
-      <%= eval("@product.practicality_5_#{locale}") %>
-    </div>
-    <div class="col-md-6 col-xs-12">
-      <%= eval("@product.practicality_6_#{locale}") %>
-    </div>
+</div>
+<div class="third-section">
+  <div class="contact-us-text">
+    Curious to know more?
   </div>
-  <div class="row">
-    <div class="col-md-4  text-center">
-      <div>Target Group</div>
-      <div><%= eval("@product.target_group_#{locale}") %></div>
-    </div>
-    <div class="col-md-4 text-center">
-      <div>Format</div>
-      <div><%= eval("@product.format_#{locale}") %></div>
-    </div>
-    <div class="col-md-4 text-center">
-      <div>Languages</div>
-      <div><%= eval("@product.languages_#{locale}") %></div>
-    </div>
-
+  <div class="contact-us-btn">
+    Contact us
+    <%= render 'shared/svg/arrow-right-circle' %>
   </div>
 </div>

@@ -40,5 +40,20 @@ class Product < ApplicationRecord
   has_rich_text :languages_nl
   has_rich_text :languages_de
 
+  def practicalities_count(locale)
+    count = 0
+    [1, 2, 3, 4, 5, 6].each do |number|
+      if eval("self.practicality_#{number}_#{locale}")
+        count += 1
+      end
+    end
+    return count
+  end
+
+  def divisible_by_3? (locale)
+    practicalities_count(locale) % 3 == 0
+  end
+
+
 
 end
