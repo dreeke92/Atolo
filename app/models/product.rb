@@ -54,6 +54,18 @@ class Product < ApplicationRecord
     practicalities_count(locale) % 3 == 0
   end
 
+  def category_color
+    if self.group.downcase.include?("languages")
+      "red"
+    elsif self.group.downcase.include?("people")
+      "yellow"
+    elsif self.group.downcase.include?("communication")
+      "blue"
+    else
+      "green"
+    end
+  end
+
 
 
 end

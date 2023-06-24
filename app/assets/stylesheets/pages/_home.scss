@@ -30,3 +30,142 @@
     }
   }
 }
+
+#pages_home{
+  .first-section{
+    margin-top: 70px;
+    text-align: center;
+    padding: 3rem;
+    background-color: #44d274;
+    color: white;
+    height: 80vh;
+
+    h1{
+      font-size: 48px;
+      font-weight: 400;
+      color: white;
+      max-width: 650px;
+      margin: auto;
+      margin-bottom: 64px;
+    }
+  }
+
+  .second-section{
+    position: relative;
+    min-height: 30vh;
+
+    .categories{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      max-width: 1240px;
+      margin: auto;
+      position: absolute;
+      top: -109px;
+      left: 0px;
+      right: 0px;
+
+      .category{
+        padding: 21px 24px;
+        background-color: green;
+        width: 281px;
+        border-radius: 12px;
+        color: white;
+        margin: 12px;
+        height: 190px;
+        position: relative;
+        .title{
+          font-weight: 400;
+          font-size: 24px;
+        }
+        .learn-more{
+          color: white;
+          position: absolute;
+          bottom: 24px;
+          left: 24px;
+          font-size: 16px;
+          svg{
+            margin-right: 12px;
+            height: 20px;
+            width: 20px;
+            g,circle, path {
+              stroke: #8D073B;
+            }
+          }
+        }
+      }
+      .category.green{
+        background-color: $green;
+        .learn-more{
+          svg{
+            g,circle, path {
+              stroke: $green-darker;
+            }
+          }
+        }
+      }
+      .category.red{
+        background-color: $red;
+        .learn-more{
+          svg{
+            g,circle, path {
+              stroke: $red-darker;
+            }
+          }
+        }
+      }
+      .category.yellow{
+        background-color: $yellow;
+        .learn-more{
+          svg{
+            g,circle, path {
+              stroke: $yellow-darker;
+            }
+          }
+        }
+      }
+      .category.green-2{
+        background-color: $green-2;
+        .learn-more{
+          svg{
+            g,circle, path {
+              stroke: $green-2-darker;
+            }
+          }
+        }
+      }
+      .category.green{
+        background-color: $green;
+        .learn-more{
+          svg{
+            g,circle, path {
+              stroke: $green-darker;
+            }
+          }
+        }
+      }
+      .category.grey{
+        background-color: $black-grey;
+        .learn-more{
+          svg{
+            g,circle, path {
+              stroke: $black-grey-lighter;
+            }
+          }
+        }
+      }
+      .category.blue{
+        background-color: $blue;
+        .learn-more{
+          svg{
+            g,circle, path {
+              stroke: $blue-darker;
+            }
+          }
+        }
+      }
+    }
+  }
+}

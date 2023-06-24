@@ -1,84 +1,86 @@
 <%= render 'shared/navbar-fixed' %>
 <% locale = I18n.locale %>
+<div class="<%= @category_color %>">
+  <div class="container" style="margin-top: 120px;">
+    <div class="first-section">
+      <div class="row">
 
-<div class="container communication" style="margin-top: 120px;">
-  <div class="first-section">
-    <div class="row">
-
-      <div class="col-md-6 col-xs-12">
-        <h1><%= eval("@product.name_#{locale}") %></h1>
-        <%= eval("@product.rich_description_#{locale}") %>
-      </div>
-      <div class="offset-md-2 col-md-4 col-xs-12">
-        <div class="quote">
-          <%= render 'shared/svg/quote' %>
-          <%= eval("@product.quote_#{locale}") ? eval("@product.quote_#{locale}") : "If you can’t explain it simply, you don’t understand it well enough." %></div>
-        <div class="quote-author"><%= eval("@product.quote_author_#{locale}") ? eval("@product.quote_author_#{locale}") : "Paul J Meyer" %></div>
+        <div class="col-md-6 col-xs-12">
+          <h1><%= eval("@product.name_#{locale}") %></h1>
+          <%= eval("@product.rich_description_#{locale}") %>
+        </div>
+        <div class="offset-md-2 col-md-4 col-xs-12">
+          <div class="quote">
+            <%= render 'shared/svg/quote' %>
+            <%= eval("@product.quote_#{locale}") ? eval("@product.quote_#{locale}") : "If you can’t explain it simply, you don’t understand it well enough." %></div>
+          <div class="quote-author"><%= eval("@product.quote_author_#{locale}") ? eval("@product.quote_author_#{locale}") : "Paul J Meyer" %></div>
+        </div>
       </div>
     </div>
   </div>
-</div>
-<div class="second-section">
+  <div class="second-section">
 
-   <div class="container communication">
-    <%= image_tag @product.photo_url, class:"product-image" %>
-     <div class="row practicalities-title">
-       <h2>Key take-aways & praticalities</h2>
-     </div>
-     <% col = @product.divisible_by_3?(locale) ? "col-md-4" : "col-md-6"  %>
-     <div class="row practicalities">
-      <% [1, 2, 3, 4, 5, 6].each do |number| %>
-        <% if eval("@product.practicality_#{number}_#{locale}") %>
-          <div class="<%= col %>">
-            <div class="practicalities-card">
-              <%= eval("@product.practicality_#{number}_#{locale}") %>
-              <% if false %>
-                Improve understanding of your audience’s needs.
-              <% end %>
+     <div class="container communication">
+      <%= image_tag @product.photo_url, class:"product-image" %>
+       <div class="row practicalities-title">
+         <h2>Key take-aways & praticalities</h2>
+       </div>
+       <% practicalities_count = @product.practicalities_count(locale).zero? ? 5 : @product.practicalities_count(locale) %>
+       <% col = @product.divisible_by_3?(locale) ? "col-md-4" : "col-md-6"  %>
+       <div class="row practicalities">
+        <% (1..practicalities_count).each do |number| %>
+          <% if eval("@product.practicality_#{number}_#{locale}").nil? %>
+            <div class="<%= (number == practicalities_count && number == 5) ? "offset-md-3 #{col}" : col %>">
+              <div class="practicalities-card">
+                <%= eval("@product.practicality_#{number}_#{locale}") %>
+                <% if true %>
+                  Improve understanding of your audience’s needs.
+                <% end %>
+              </div>
             </div>
+          <% end %>
+         <% end %>
+       </div>
+       <div class="relative-content">
+        <div class="row practicalities absolute">
+          <div class="col-md-4  text-center">
+            <div class="target-card">
+            <div class="icon">
+              <%= render 'shared/svg/target' %>
+            </div>
+            <h3>Target Group</h3>
+            <div class="target-card-content"><%= eval("@product.target_group_#{locale}") %></div>
           </div>
-        <% end %>
-       <% end %>
-     </div>
-     <div class="relative-content">
-      <div class="row practicalities absolute">
-        <div class="col-md-4  text-center">
+         </div>
+         <div class="col-md-4 text-center">
           <div class="target-card">
-          <div class="icon">
-            <%= render 'shared/svg/target' %>
+            <div class="icon">
+              <%= render 'shared/svg/writing' %>
+            </div>
+            <h3>Format</h3>
+            <div class="target-card-content"><%= eval("@product.format_#{locale}") %></div>
           </div>
-          <h3>Target Group</h3>
-          <div><%= eval("@product.target_group_#{locale}") %></div>
-        </div>
-       </div>
-       <div class="col-md-4 text-center">
-        <div class="target-card">
-          <div class="icon">
-            <%= render 'shared/svg/writing' %>
+         </div>
+         <div class="col-md-4 text-center">
+           <div class="target-card">
+            <div class="icon">
+              <%= render 'shared/svg/languages' %>
+            </div>
+            <h3>Languages</h3>
+            <div class="target-card-content"><%= eval("@product.languages_#{locale}") %></div>
           </div>
-          <h3>Format</h3>
-          <div><%= eval("@product.format_#{locale}") %></div>
-        </div>
+         </div>
        </div>
-       <div class="col-md-4 text-center">
-         <div class="target-card">
-          <div class="icon">
-            <%= render 'shared/svg/languages' %>
-          </div>
-          <h3>Languages</h3>
-          <div><%= eval("@product.languages_#{locale}") %></div>
-        </div>
-       </div>
-     </div>
+      </div>
     </div>
   </div>
-</div>
-<div class="third-section">
-  <div class="contact-us-text">
-    Curious to know more?
-  </div>
-  <div class="contact-us-btn">
-    Contact us
-    <%= render 'shared/svg/arrow-right-circle' %>
+  <div class="third-section">
+    <div class="contact-us-text">
+      Curious to know more?
+    </div>
+    <div class="contact-us-btn">
+      Contact us
+      <%= render 'shared/svg/arrow-right-circle' %>
+    </div>
   </div>
 </div>

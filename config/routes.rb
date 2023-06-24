@@ -17,6 +17,7 @@ Rails.application.routes.draw do
     get 'disclaimer', to: "pages#disclaimer"
     get 'cgv', to: "pages#cgv"
     get 'home', to: "pages#welcome"
+    get 'new-home', to: "pages#home"
     get 'atolo', to: "pages#welcome"
     get 'training', to: "pages#solutions"
     get 'consultancy', to: "pages#solutions"

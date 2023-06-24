@@ -196,4 +196,22 @@
   color: #fff;
 }
 
+.regular{
+  background-color: $green;
+  color: white;
+  border-radius: 100px;
+  padding: 25px 22px;
+  text-decoration: none;
+  &:hover{
+    color: white;
+  }
+  span{
+    display: inline-flex;
+    align-items: center;
+    img{
+      margin-left: 20px;
+    }
+  }
+}
+
 

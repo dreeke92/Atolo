@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_06_07_155538) do
+ActiveRecord::Schema.define(version: 2023_06_24_145314) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -51,6 +51,12 @@ ActiveRecord::Schema.define(version: 2023_06_07_155538) do
     t.bigint "blob_id", null: false
     t.string "variation_digest", null: false
     t.index ["blob_id", "variation_digest"], name: "index_active_storage_variant_records_uniqueness", unique: true
+  end
+
+  create_table "contents", force: :cascade do |t|
+    t.string "page"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "legal_pages", force: :cascade do |t|
@@ -162,6 +168,16 @@ ActiveRecord::Schema.define(version: 2023_06_07_155538) do
     t.string "quote_author_fr"
     t.string "quote_author_nl"
     t.string "quote_author_de"
+  end
+
+  create_table "titles", force: :cascade do |t|
+    t.string "page"
+    t.string "title_en"
+    t.string "title_de"
+    t.string "title_nl"
+    t.string "title_fr"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "users", force: :cascade do |t|
