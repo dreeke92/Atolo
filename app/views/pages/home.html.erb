@@ -66,14 +66,69 @@
   </div>
 </div>
 <div class="third-section">
-
+  <h2>How can we help you?</h2>
+  <div class="third-section-content">
+    As a training company in heart and soul, ATOLO supports organisations in creating thriving workplaces. Since our foundation in 2012, you can rely on in-depth Language and Communication training. Today, you can also request for impactful solutions in People & Culture and Leadership. Headquartered in Belgium with a subsidiary in Switzerland, our team of experts is here to help you and your teams grow.
+  </div>
+  <a href="#products" class="regular"><span>About us <%= render 'shared/svg/arrow-right-circle' %></span></a>
+</div>
+<div class="fourth-section">
+  <h2>What's new</h2>
+  <div  class="wrapper banner-title" style="background-image: url(<%= image_url 'bg_summerclass.jpg' %>)">
+    <h1>
+      <%= t ('summer_class.title') %>
+    </h1>
+    <div class="dates">
+      <div>
+        <%= t ('summer_class.start_on') %>
+      </div>
+      <%= image_tag "icons/green-arrow.svg" %>
+      <div>
+         <%= t ('summer_class.end_on') %>
+      </div>
+    </div>
+    <div class="subtitle">
+      <%= t ('summer_class.sub_title') %>
+    </div>
+    <a href="#products" class="regular"><span> <%= t('summer_class.discover') %> <%= image_tag 'icons/arrow-down-circle.svg' %></span></a>
+  </div>
 </div>
 <div class="key-figures">
+  <h2>Key figures</h2>
+  <div class="figures">
+    <div class="figure-card">
+      <div class="figure-card-number">
+        6,100
+      </div>
+      <div class="figure-card-title">
+        Missions
+      </div>
+    </div>
+    <div class="figure-card">
+      <div class="figure-card-number">
+        80
+      </div>
+      <div class="figure-card-title">
+        Coaches
+      </div>
+    </div>
+    <div class="figure-card">
+      <div class="figure-card-number">
+        13,071
+      </div>
+      <div class="figure-card-title">
+        Trainees
+      </div>
+    </div>
+    <div class="figure-card">
+      <div class="figure-card-number">
+        99,8%
+      </div>
+      <div class="figure-card-title">
+        Client satisfaction
+      </div>
+    </div>
+  </div>
 
 </div>
-<div class="testimonials">
-
-</div>
-<div class="partners">
-
-</div>
+<%= render 'shared/new_testimonials' %>
