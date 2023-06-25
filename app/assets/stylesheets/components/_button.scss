@@ -196,4 +196,31 @@
   color: #fff;
 }
 
+.regular{
+  background-color: $green;
+  color: white;
+  border-radius: 100px;
+  padding: 16px 22px;
+  text-decoration: none;
+  display: inline-block;
+  &:hover{
+    color: white;
+  }
+  span{
+    display: inline-flex;
+    align-items: center;
+    img{
+      margin-left: 20px;
+    }
+    svg{
+      margin-left: 20px;
+      height: 22px;
+      width: 22px;
+      g,circle, path {
+        stroke: white;
+      }
+    }
+  }
+}
+
 

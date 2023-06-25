@@ -6,6 +6,7 @@ class ProductsController < ApplicationController
 
   def preview
     @product = Product.find(params[:id])
+    @category_color = @product.category_color
   end
 
   def index

@@ -72,7 +72,7 @@
 
 #products_preview, #products_show{
 
-  .container.communication{
+  .container{
     .first-section{
       margin-top: 210px;
       padding-bottom: 350px;
@@ -81,7 +81,6 @@
 
     h1{
       font-size: 48px;
-      color: $blue;
     }
     .trix-content{
       font-size: 18px;
@@ -94,14 +93,10 @@
         position: absolute;
         top: -16px;
         left: -13px;
-        path{
-          fill: #41748D;
-        }
       }
 
       font-size: 36px;
       line-height: 40px;
-      color: $blue;
       position: relative;
     }
     .quote-author{
@@ -110,6 +105,7 @@
       margin-top: 20px;
     }
   }
+
   .second-section{
     background-color: #F5F5F5;
 
@@ -132,7 +128,6 @@
           margin-bottom: 64px;
           font-size: 32px;
           font-weight: 400;
-          color: #41748D;
         }
 
       }
@@ -152,8 +147,8 @@
         right: 0px;
         left: 0px;
       }
+
       .practicalities-card{
-        background-color: #41748D;
         color: white;
         font-size: 18px;
         text-align: center;
@@ -163,6 +158,7 @@
         margin-right: 8px;
         margin-bottom: 16px;
         box-shadow: 6px 6px 12px #0000000D;
+        height: 90%;
       }
 
       .target-card{
@@ -196,6 +192,9 @@
           font-size: 24px;
           color:  #41748D;
         }
+        &-content{
+          text-align: start;
+        }
       }
     }
   }
@@ -223,8 +222,186 @@
       justify-content: space-between;
       font-size: 32px;
       font-weight: 400;
-      svg{
+    }
+  }
 
+  .blue{
+    .first-section{
+      h1{
+        color: $blue;
+      }
+
+      .quote > svg > path {
+        fill: $blue;
+      }
+      .quote{
+        color: $blue;
+      }
+    }
+
+    .second-section{
+      h2, h3 {
+        color: $blue;
+      }
+
+      .practicalities-card{
+        background-color: $blue;
+      }
+
+      .target-card > svg > g > path {
+        fill: $blue;
+      }
+    }
+
+    .third-section{
+      background-color: $blue;
+
+      .contact-us-btn{
+        background-color: #1E4050;
+      }
+
+      svg > #arrow-right-circle{
+        circle, line, path{
+          stroke: $blue;
+        }
+      }
+    }
+  }
+  .yellow{
+    .first-section{
+      h1{
+        color: $yellow;
+      }
+
+      .quote > svg > path {
+        fill: $yellow;
+      }
+      .quote{
+        color: $yellow;
+      }
+    }
+
+    .second-section{
+      h2, h3 {
+        color: $yellow;
+      }
+
+      .practicalities-card{
+        background-color: $yellow;
+      }
+
+      .target-card > .icon > svg {
+        path {
+        fill: $yellow;
+        }
+      }
+      .target-card > h3{
+        color: $yellow;
+      }
+    }
+
+    .third-section{
+      background-color: $yellow;
+      .contact-us-btn{
+        background-color: #A27816;
+      }
+
+      svg > #arrow-right-circle{
+        circle, line, path{
+          stroke: $yellow;
+        }
+      }
+    }
+  }
+  .red{
+    .first-section{
+      h1{
+        color: $red;
+      }
+
+      .quote > svg > path {
+        fill: $red;
+      }
+      .quote{
+        color: $red;
+      }
+    }
+
+    .second-section{
+      h2, h3 {
+        color: $red;
+      }
+
+      .practicalities-card{
+        background-color: $red;
+      }
+
+      .target-card > .icon > svg {
+        path {
+        fill: $red;
+        }
+      }
+      .target-card > h3{
+        color: $red;
+      }
+    }
+
+    .third-section{
+      background-color: $red;
+      .contact-us-btn{
+        background-color: #8D073B;
+      }
+
+      svg > #arrow-right-circle{
+        circle, line, path{
+          stroke: $red;
+        }
+      }
+    }
+  }
+  .green{
+    .first-section{
+      h1{
+        color: $green-2;
+      }
+
+      .quote > svg > path {
+        fill: $green-2;
+      }
+      .quote{
+        color: $green-2;
+      }
+    }
+
+    .second-section{
+      h2, h3 {
+        color: $green-2;
+      }
+
+      .practicalities-card{
+        background-color: $green-2;
+      }
+
+      .target-card > .icon > svg {
+        path {
+        fill: $green-2;
+        }
+      }
+      .target-card > h3{
+        color: $green-2;
+      }
+    }
+
+    .third-section{
+      background-color: $green-2;
+      .contact-us-btn{
+        background-color: #007B55;
+      }
+
+      svg > #arrow-right-circle{
+        circle, line, path{
+          stroke: $green-2;
+        }
       }
     }
   }
