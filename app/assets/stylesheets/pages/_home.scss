@@ -39,6 +39,8 @@
     background-color: #44d274;
     color: white;
     height: 80vh;
+    position: relative;
+    padding-top: 140px;
 
     h1{
       font-size: 48px;
@@ -47,12 +49,30 @@
       max-width: 650px;
       margin: auto;
       margin-bottom: 64px;
+      position: relative;
+      z-index: 2;
+    }
+    .overlay{
+      display: block;
+      position: absolute;
+      background-image: linear-gradient(90deg,  #01B27B 0%, #41748D 35%, #DB0B5B 100%);
+      bottom: 0px;
+      top: 0px;
+      right: 0px;
+      left: 0px;
+      opacity: 0.6;
+      z-index: 1;
+    }
+    .regular{
+      position: relative;
+      z-index: 2;
     }
   }
 
   .second-section{
     position: relative;
     min-height: 400px;
+    z-index: 2;
 
     .categories{
       display: flex;

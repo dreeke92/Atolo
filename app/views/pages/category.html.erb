@@ -1,0 +1,81 @@
+<%= render 'shared/navbar-fixed' %>
+
+<div class="<%= @class %>">
+  <div class="first-section">
+    <div class="container flex">
+      <div class="first-bloc">
+        <h1>Communication</h1>
+        <h2>Great things happen when people communicate well!</h2>
+
+        <div>
+          Communication is the lifeblood of the future-proof organisation. Daring to communicate when needed, delegating, giving feedback, obtaining buy-in and simply communicating complexities, are all skills that an engaged organisation needs to thrive!
+        </div>
+      </div>
+    </div>
+    <%= image_tag 'default_category' %>
+  </div>
+  <% if @class == "green" %>
+    <div class="second-section green">
+      <div class="categories">
+        <div class="big-category">
+          <div class="header">
+            Strategic communication
+          </div>
+          <% Product.where("name_en IS NOT NULL").take(3).each do |product| %>
+            <%= link_to product_path(product.id), class: "category-link" do %>
+              <div class="title">
+                <%= eval("product.name_#{locale}") %>
+              </div>
+              <%= render 'shared/svg/arrow-right-circle' %>
+            <% end %>
+
+          <% end %>
+
+        </div>
+
+        <div class="big-category">
+          <div class="header">
+            Strategic communication
+          </div>
+          <% Product.take(3).each do |product| %>
+            <%= link_to product_path(product.id), class: "category-link" do %>
+              <div class="title">
+                <%= eval("product.name_#{locale}") %>
+              </div>
+              <%= render 'shared/svg/arrow-right-circle' %>
+            <% end %>
+
+          <% end %>
+
+        </div>
+      </div>
+    </div>
+  <% end %>
+  <%= render 'shared/solutions/communication/approach_new' %>
+  <div class="trainers">
+    <div class="container">
+      <div class="trainers-flex">
+        <div class="content">
+          <h3>Our trainers</h3>
+          <div class="description">
+            We are privileged to be working with a highly skilled and passionate team of trainers. They are all experts in their field and committed to bringing out the best in their trainees and reaching tangible and sustainable results for you, our partners. Engaged and dedicated to their work, they represent the core of what makes ATOLO the organization it is today. We are grateful to all of them and we are proud to be able to count on their capacity to train, inspire and lead your teams during the missions at your organization.
+          </div>
+          <div class="btn-div">
+            <a href="#products" class="regular blue"><span>Join our team <%= render 'shared/svg/arrow-right-circle' %></span></a>
+          </div>
+        </div>
+        <%= image_tag 'trainers' %>
+      </div>
+    </div>
+  </div>
+  <%= render 'shared/new_testimonials' %>
+  <div class="third-section">
+    <div class="contact-us-text">
+      Curious to know more?
+    </div>
+    <div class="contact-us-btn">
+      Contact us
+      <%= render 'shared/svg/arrow-right-circle' %>
+    </div>
+  </div>
+</div>

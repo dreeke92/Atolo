@@ -54,4 +54,17 @@ class PagesController < ApplicationController
       @classic = "classic_en.pdf"
     end
   end
+
+  def category
+    path = request.path
+    if  path.include?("leadership")
+      @class = 'green'
+    elsif  path.include?("communication")
+      @class = 'blue'
+    elsif  path.include?("people")
+      @class = 'yellow'
+    elsif  path.include?("languages")
+      @class = 'red'
+    end
+  end
 end
