@@ -29,11 +29,11 @@
        <% col = @product.divisible_by_3?(locale) ? "col-md-4" : "col-md-6"  %>
        <div class="row practicalities">
         <% (1..practicalities_count).each do |number| %>
-          <% if eval("@product.practicality_#{number}_#{locale}").nil? %>
+          <% if eval("@product.practicality_#{number}_#{locale}") %>
             <div class="<%= (number == practicalities_count && number == 5) ? "offset-md-3 #{col}" : col %>">
               <div class="practicalities-card">
                 <%= eval("@product.practicality_#{number}_#{locale}") %>
-                <% if true %>
+                <% if false %>
                   Improve understanding of your audience’s needs.
                 <% end %>
               </div>
