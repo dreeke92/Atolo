@@ -27,6 +27,7 @@ Rails.application.routes.draw do
     get 'events', to: "pages#events"
     get 'summer_class', to: "pages#summer_class"
     get 'eval', to: "pages#eval"
+    get 'leadership', to: "pages#category"
     # get 'mockup', to: "pages#mock-up"
 
     resources :products, only: [ :create, :new, :show, :update, :edit, :destroy, :index ] do

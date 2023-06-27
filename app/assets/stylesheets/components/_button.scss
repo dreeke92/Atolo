@@ -221,6 +221,18 @@
       }
     }
   }
+
+  &.blue{
+    background-color: $blue;
+    svg{
+      margin-left: 20px;
+      height: 22px;
+      width: 22px;
+      g,circle, path {
+        stroke: $blue-darker;
+      }
+    }
+  }
 }
 
 

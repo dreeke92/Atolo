@@ -13,7 +13,7 @@
           <div class="quote">
             <%= render 'shared/svg/quote' %>
             <%= eval("@product.quote_#{locale}") ? eval("@product.quote_#{locale}") : "If you can’t explain it simply, you don’t understand it well enough." %></div>
-          <div class="quote-author"><%= eval("@product.quote_author_#{locale}") ? eval("@product.quote_author_#{locale}") : "Paul J Meyer" %></div>
+          <div class="quote-author"><%= eval("@product.quote_author_#{locale}") ? eval("@product.quote_author_#{locale}") : "" %></div>
         </div>
       </div>
     </div>
