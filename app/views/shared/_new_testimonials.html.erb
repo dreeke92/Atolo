@@ -2,7 +2,7 @@
 <div id="testimonials-anchor" class="testimonials-anchor"></div>
 <section id="testimonials" class="wrapper style1 align-center">
   <div class="inner">
-    <h2><%= t('welcome.testimonials.title') %></h2>
+    <h2><%= Title.find_by_unique_key("testimonials_title")&.translate(locale) %></h2>
     <div class="owl-carousel owl-theme testimonial-cards onload-fade-in card-carousel">
         <section class="testimonial-card">
           <div class="testimonial-card-logo">

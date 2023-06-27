@@ -48,6 +48,12 @@ task addContentTitle: :environment do
   )
 
   Title.find_or_create_by(
+    unique_key: "home_page_languages_title",
+    page: "home_page",
+    title_en: "Language trainings"
+  )
+
+  Title.find_or_create_by(
     unique_key: "home_page_communication_title",
     page: "home_page",
     title_en: "Communication solutions"
@@ -63,12 +69,6 @@ task addContentTitle: :environment do
     unique_key: "home_page_leader_title",
     page: "home_page",
     title_en: "Leadership programmes"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "home_page_p_c_title",
-    page: "home_page",
-    title_en: "People and company culture development"
   )
 
   Title.find_or_create_by(
@@ -93,6 +93,12 @@ task addContentTitle: :environment do
     unique_key: "home_page_section_3_how_can_we_help_you",
     page: "home_page",
     title_en: "How can we help you?"
+  )
+
+  Title.find_or_create_by(
+    unique_key: "home_page_section_3_how_can_we_help_you_description",
+    page: "home_page",
+    title_en: "As a training company in heart and soul, ATOLO supports organisations in creating thriving workplaces. Since our foundation in 2012, you can rely on in-depth Language and Communication training. Today, you can also request for impactful solutions in People & Culture and Leadership. Headquartered in Belgium with a subsidiary in Switzerland, our team of experts is here to help you and your teams grow."
   )
 
   Title.find_or_create_by(

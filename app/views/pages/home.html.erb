@@ -6,103 +6,104 @@
   <h1>
     <%= "Great things happen when people communicate well" %>
   </h1>
-  <a href="#products" class="regular"><span>How can we help you <%= image_tag 'icons/arrow-down-circle.svg' %></span></a>
+  <a href="#products" class="regular"><span>
+    <%= Title.find_by_unique_key("shared_btn_how_can_we_help_you")&.translate(locale) %> <%= image_tag 'icons/arrow-down-circle.svg' %></span></a>
 </div>
 <div class="second-section">
   <div class="categories">
     <div class="category red">
       <div class="title">
-        Language trainings
+        <%= Title.find_by_unique_key("home_page_languages_title")&.translate(locale) %>
       </div>
       <div class="learn-more">
         <%= render 'shared/svg/arrow-right-circle' %>
-        Learn more
+        <%= Title.find_by_unique_key("home_page_learn_more")&.translate(locale) %>
       </div>
     </div>
     <div class="category blue">
       <div class="title">
-        Communication solutions
+        <%= Title.find_by_unique_key("home_page_communication_title")&.translate(locale) %>
       </div>
       <div class="learn-more">
         <%= render 'shared/svg/arrow-right-circle' %>
-        Learn more
+        <%= Title.find_by_unique_key("home_page_learn_more")&.translate(locale) %>
       </div>
     </div>
     <div class="category yellow">
       <div class="title">
-        People and company culture development
+        <%= Title.find_by_unique_key("home_page_p_c_title")&.translate(locale) %>
       </div>
       <div class="learn-more">
         <%= render 'shared/svg/arrow-right-circle' %>
-        Learn more
+        <%= Title.find_by_unique_key("home_page_learn_more")&.translate(locale) %>
       </div>
     </div>
     <div class="category green-2">
       <div class="title">
-        Leadership programmes
+        <%= Title.find_by_unique_key("home_page_leader_title")&.translate(locale) %>
       </div>
       <div class="learn-more">
         <%= render 'shared/svg/arrow-right-circle' %>
-        Learn more
+        <%= Title.find_by_unique_key("home_page_learn_more")&.translate(locale) %>
       </div>
     </div>
     <div class="category grey">
       <div class="title">
-        Language scan
+        <%= Title.find_by_unique_key("home_page_language_scan_title")&.translate(locale) %>
       </div>
       <div class="learn-more">
         <%= render 'shared/svg/arrow-right-circle' %>
-        Learn more
+        <%= Title.find_by_unique_key("home_page_learn_more")&.translate(locale) %>
       </div>
     </div>
     <div class="category green">
       <div class="title">
-        Contact us
+        <%= Title.find_by_unique_key("home_page_contact_title")&.translate(locale) %>
       </div>
       <div class="learn-more">
         <%= render 'shared/svg/arrow-right-circle' %>
-        Learn more
+        <%= Title.find_by_unique_key("home_page_learn_more")&.translate(locale) %>
       </div>
     </div>
   </div>
 </div>
 <div class="third-section">
-  <h2>How can we help you?</h2>
+  <h2><%= Title.find_by_unique_key("home_page_section_3_how_can_we_help_you")&.translate(locale) %></h2>
   <div class="third-section-content">
-    As a training company in heart and soul, ATOLO supports organisations in creating thriving workplaces. Since our foundation in 2012, you can rely on in-depth Language and Communication training. Today, you can also request for impactful solutions in People & Culture and Leadership. Headquartered in Belgium with a subsidiary in Switzerland, our team of experts is here to help you and your teams grow.
+    <%= Title.find_by_unique_key("home_page_section_3_how_can_we_help_you_description")&.translate(locale) %>
   </div>
-  <a href="#products" class="regular"><span>About us <%= render 'shared/svg/arrow-right-circle' %></span></a>
+  <a href="#products" class="regular"><span><%= Title.find_by_unique_key("home_page_btn_about_us")&.translate(locale) %> <%= render 'shared/svg/arrow-right-circle' %></span></a>
 </div>
 <div class="fourth-section">
-  <h2>What's new</h2>
+  <h2><%= Title.find_by_unique_key("home_page_section_4_whats_new")&.translate(locale) %></h2>
   <div  class="wrapper banner-title" style="background-image: url(<%= image_url 'bg_summerclass.jpg' %>)">
     <h1>
-      <%= t ('summer_class.title') %>
+      <%= Title.find_by_unique_key("summer_classes_title")&.translate(locale) %>
     </h1>
     <div class="dates">
       <div>
-        <%= t ('summer_class.start_on') %>
+        <%= Title.find_by_unique_key("summer_classes_start_date")&.translate(locale) %>
       </div>
       <%= image_tag "icons/green-arrow.svg" %>
       <div>
-         <%= t ('summer_class.end_on') %>
+         <%= Title.find_by_unique_key("summer_classes_end_date")&.translate(locale) %>
       </div>
     </div>
     <div class="subtitle">
-      <%= t ('summer_class.sub_title') %>
+      <%= Title.find_by_unique_key("summer_classes_description")&.translate(locale) %>
     </div>
-    <a href="#products" class="regular"><span> <%= t('summer_class.discover') %> <%= image_tag 'icons/arrow-down-circle.svg' %></span></a>
+    <a href="#products" class="regular"><span> <%= Title.find_by_unique_key("summer_classes_btn_discover_it")&.translate(locale) %> <%= image_tag 'icons/arrow-down-circle.svg' %></span></a>
   </div>
 </div>
 <div class="key-figures">
-  <h2>Key figures</h2>
+  <h2><%= Title.find_by_unique_key("home_pages_key_figures")&.translate(locale) %></h2>
   <div class="figures">
     <div class="figure-card">
       <div class="figure-card-number">
         6,100
       </div>
       <div class="figure-card-title">
-        Missions
+        <%= Title.find_by_unique_key("home_pages_key_figures_missions")&.translate(locale) %>
       </div>
     </div>
     <div class="figure-card">
@@ -110,7 +111,7 @@
         80
       </div>
       <div class="figure-card-title">
-        Coaches
+        <%= Title.find_by_unique_key("home_pages_key_figures_coaches")&.translate(locale) %>
       </div>
     </div>
     <div class="figure-card">
@@ -118,7 +119,7 @@
         13,071
       </div>
       <div class="figure-card-title">
-        Trainees
+        <%= Title.find_by_unique_key("home_pages_key_figures_trainees")&.translate(locale) %>
       </div>
     </div>
     <div class="figure-card">
@@ -126,7 +127,7 @@
         99,8%
       </div>
       <div class="figure-card-title">
-        Client satisfaction
+        <%= Title.find_by_unique_key("home_pages_key_figures_satisfaction")&.translate(locale) %>
       </div>
     </div>
   </div>

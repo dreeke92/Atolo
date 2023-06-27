@@ -1,6 +1,6 @@
 <section id="partners" class="wrapper style1 align-center">
   <div class="inner">
-    <h2><%= t("welcome.partners.title") %></h2>
+    <h2><%= Title.find_by_unique_key("partners_title")&.translate(locale) %></h2>
     <div class="partners">
       <div class="partner">
         <%= image_tag("partners/Febelfin.png", :alt => "image", :class => "") %>
