@@ -179,6 +179,11 @@ RailsAdmin.config do |config|
       field :languages_fr
       field :languages_nl
       field :languages_de
+
+      field :rich_practice_en
+      field :rich_practice_nl
+      field :rich_practice_de
+      field :rich_practice_fr
     end
 
 

@@ -12,7 +12,15 @@
         </div>
       </div>
     </div>
-    <%= image_tag 'default_category' %>
+    <% if @class == "green" %>
+      <%= image_tag 'pillar_leader.png' %>
+    <% elsif @class == "blue" %>
+      <%= image_tag 'pillar_comm.png' %>
+    <% elsif @class == "red" %>
+      <%= image_tag 'pillar_languages.png' %>
+    <% elsif @class == "yellow" %>
+      <%= image_tag 'pillar_p-c.png' %>
+    <% end %>
   </div>
   <% if @class == "green" %>
     <div class="second-section green">
@@ -64,7 +72,15 @@
             <a href="#products" class="regular blue"><span>Join our team <%= render 'shared/svg/arrow-right-circle' %></span></a>
           </div>
         </div>
-        <%= image_tag 'trainers' %>
+        <% if @class == "green" %>
+          <%= image_tag 'coach_leader.png' %>
+        <% elsif @class == "blue" %>
+          <%= image_tag 'coach_comm.png' %>
+        <% elsif @class == "red" %>
+          <%= image_tag 'coach_languages.png' %>
+        <% elsif @class == "yellow" %>
+          <%= image_tag 'coach_p-c.png' %>
+        <% end %>
       </div>
     </div>
   </div>

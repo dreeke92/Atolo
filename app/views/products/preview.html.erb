@@ -23,7 +23,8 @@
      <div class="container communication">
       <%= image_tag @product.photo_url, class:"product-image" %>
        <div class="row practicalities-title">
-         <h2>Key take-aways & praticalities</h2>
+        <% title = Title.find_by_unique_key("product_key_take_away") %>
+         <h2><%= title&.translate(locale) %></h2>
        </div>
        <% practicalities_count = @product.practicalities_count(locale).zero? ? 5 : @product.practicalities_count(locale) %>
        <% col = @product.divisible_by_3?(locale) ? "col-md-4" : "col-md-6"  %>
@@ -48,7 +49,8 @@
             <div class="icon">
               <%= render 'shared/svg/target' %>
             </div>
-            <h3>Target Group</h3>
+            <% target = Title.find_by_unique_key("product_target_group") %>
+            <h3><%= target&.translate(locale) %></h3>
             <div class="target-card-content"><%= eval("@product.target_group_#{locale}") %></div>
           </div>
          </div>
@@ -57,7 +59,8 @@
             <div class="icon">
               <%= render 'shared/svg/writing' %>
             </div>
-            <h3>Format</h3>
+            <% format = Title.find_by_unique_key("product_format") %>
+            <h3><%= format&.translate(locale) %></h3>
             <div class="target-card-content"><%= eval("@product.format_#{locale}") %></div>
           </div>
          </div>
@@ -66,7 +69,8 @@
             <div class="icon">
               <%= render 'shared/svg/languages' %>
             </div>
-            <h3>Languages</h3>
+            <% languages = Title.find_by_unique_key("product_languages") %>
+            <h3><%= languages&.translate(locale) %></h3>
             <div class="target-card-content"><%= eval("@product.languages_#{locale}") %></div>
           </div>
          </div>
@@ -76,10 +80,10 @@
   </div>
   <div class="third-section">
     <div class="contact-us-text">
-      Curious to know more?
+      <%= Title.find_by_unique_key("shared_curious_to_know_more")&.translate(locale) %>
     </div>
     <div class="contact-us-btn">
-      Contact us
+      <%= Title.find_by_unique_key("shared_btn_contact_us")&.translate(locale) %>
       <%= render 'shared/svg/arrow-right-circle' %>
     </div>
   </div>
