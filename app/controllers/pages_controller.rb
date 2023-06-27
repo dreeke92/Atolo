@@ -3,6 +3,7 @@ class PagesController < ApplicationController
 
   def home
     # redirect_to root_path
+    @testimonials = Testimonial.where(category: "home_page").order(id: :asc)
   end
 
   def solutions
@@ -59,12 +60,13 @@ class PagesController < ApplicationController
     path = request.path
     if  path.include?("leadership")
       @class = 'green'
+      @testimonials = Testimonial.where(category: "leadership").order(id: :asc)
     elsif  path.include?("communication")
-      @class = 'blue'
+      @testimonials = Testimonial.where(category: "communication").order(id: :asc)
     elsif  path.include?("people")
-      @class = 'yellow'
+      @testimonials = Testimonial.where(category: "people_and_culture").order(id: :asc)
     elsif  path.include?("languages")
-      @class = 'red'
+      @testimonials = Testimonial.where(category: "languages").order(id: :asc)
     end
   end
 end

@@ -4,192 +4,19 @@
   <div class="inner">
     <h2><%= Title.find_by_unique_key("testimonials_title")&.translate(locale) %></h2>
     <div class="owl-carousel owl-theme testimonial-cards onload-fade-in card-carousel">
+      <% @testimonials.each do |testimonial| %>
         <section class="testimonial-card">
           <div class="testimonial-card-logo">
-            <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473814/deutsche.png", :alt => "image", :class => "testimonial-logo") %>
+            <%= image_tag(testimonial.logo_url, :alt => "image", :class => "testimonial-logo") %>
           </div>
 
-          <p class="small-font">"<%= t('welcome.testimonials.content_one') %>"</p>
+          <p class="small-font"><%= eval("testimonial.content_#{locale}") %></p>
           <div class="testimonial-footer">
-            <h3><%= t('welcome.testimonials.name_one') %></h3>
-            <h4><%= t('welcome.testimonials.company_one') %></h4>
+            <h3><%= testimonial.author %></h3>
+            <h4><%= testimonial.company_name %></h4>
           </div>
         </section>
-        <section class="testimonial-card">
-          <div class="testimonial-card-logo">
-            <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473814/atos.png", :alt => "image", :class => "testimonial-logo") %>
-          </div>
-
-          <p class="small-font">"<%= t('welcome.testimonials.content_two') %>"</p>
-          <div class="testimonial-footer">
-            <h3><%= t('welcome.testimonials.name_two') %></h3>
-            <h4><%= t('welcome.testimonials.company_two') %></h4>
-          </div>
-        </section>
-        <section class="testimonial-card">
-          <div class="testimonial-card-logo">
-            <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473814/lhoist.png", :alt => "image", :class => "testimonial-logo") %>
-          </div>
-
-          <p class="small-font">"<%= t('welcome.testimonials.content_three') %>"</p>
-          <div class="testimonial-footer">
-            <h3><%= t('welcome.testimonials.name_three') %></h3>
-            <h4><%= t('welcome.testimonials.company_three') %></h4>
-          </div>
-        </section>
-        <section class="testimonial-card">
-          <div class="testimonial-card-logo">
-            <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473815/schneider.png", :alt => "image", :class => "testimonial-logo") %>
-          </div>
-
-          <p class="small-font">"<%= t('welcome.testimonials.content_four') %>"</p>
-          <div class="testimonial-footer">
-            <h3><%= t('welcome.testimonials.name_four') %></h3>
-            <h4><%= t('welcome.testimonials.company_four') %></h4>
-          </div>
-        </section>
-        <section class="testimonial-card">
-          <div class="testimonial-card-logo">
-            <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473814/bdo.png", :alt => "image", :class => "testimonial-logo") %>
-          </div>
-
-          <p class="small-font">"<%= t('welcome.testimonials.content_five') %>"</p>
-          <div class="testimonial-footer">
-            <h3><%= t('welcome.testimonials.name_five') %></h3>
-            <h4><%= t('welcome.testimonials.company_five') %></h4>
-          </div>
-        </section>
-        <section class="testimonial-card">
-          <div class="testimonial-card-logo">
-            <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473814/galerio.png", :alt => "image", :class => "testimonial-logo") %>
-          </div>
-
-          <p class="small-font">"<%= t('welcome.testimonials.content_six') %>"</p>
-          <div class="testimonial-footer">
-            <h3><%= t('welcome.testimonials.name_six') %></h3>
-            <h4><%= t('welcome.testimonials.company_six') %></h4>
-          </div>
-        </section>
-        <section class="testimonial-card">
-          <div class="testimonial-card-logo">
-            <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473814/johncrane.png", :alt => "image", :class => "testimonial-logo") %>
-          </div>
-
-          <p class="small-font">"<%= t('welcome.testimonials.content_seven') %>"</p>
-          <div class="testimonial-footer">
-            <h3><%= t('welcome.testimonials.name_seven') %></h3>
-            <h4><%= t('welcome.testimonials.company_seven') %></h4>
-          </div>
-        </section>
-        <section class="testimonial-card">
-          <div class="testimonial-card-logo">
-            <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473815/spie.jpg", :alt => "image", :class => "testimonial-logo") %>
-          </div>
-
-          <p class="small-font">"<%= t('welcome.testimonials.content_eight') %>"</p>
-          <div class="testimonial-footer">
-            <h3><%= t('welcome.testimonials.name_eight') %></h3>
-            <h4><%= t('welcome.testimonials.company_eight') %></h4>
-          </div>
-        </section>
-        <section class="testimonial-card">
-          <div class="testimonial-card-logo">
-            <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473815/worldline.png", :alt => "image", :class => "testimonial-logo") %>
-          </div>
-
-          <p class="small-font">"<%= t('welcome.testimonials.content_nine') %>"</p>
-          <div class="testimonial-footer">
-            <h3><%= t('welcome.testimonials.name_nine') %></h3>
-            <h4><%= t('welcome.testimonials.company_nine') %></h4>
-          </div>
-        </section>
-        <section class="testimonial-card">
-          <div class="testimonial-card-logo">
-            <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473814/konica.jpg", :alt => "image", :class => "testimonial-logo") %>
-          </div>
-
-          <p class="small-font">"<%= t('welcome.testimonials.content_ten') %>"</p>
-          <div class="testimonial-footer">
-            <h3><%= t('welcome.testimonials.name_ten') %></h3>
-            <h4><%= t('welcome.testimonials.company_ten') %></h4>
-          </div>
-        </section>
-        <section class="testimonial-card">
-          <div class="testimonial-card-logo">
-            <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473814/bridgestone.png", :alt => "image", :class => "testimonial-logo") %>
-          </div>
-
-          <p class="small-font">"<%= t('welcome.testimonials.content_eleven') %>"</p>
-          <div class="testimonial-footer">
-            <h3><%= t('welcome.testimonials.name_eleven') %></h3>
-            <h4><%= t('welcome.testimonials.company_eleven') %></h4>
-          </div>
-        </section>
-        <section class="testimonial-card">
-          <div class="testimonial-card-logo">
-            <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473814/cofinimmo.png", :alt => "image", :class => "testimonial-logo") %>
-          </div>
-
-          <p class="small-font">"<%= t('welcome.testimonials.content_twelve') %>"</p>
-          <div class="testimonial-footer">
-            <h3><%= t('welcome.testimonials.name_twelve') %></h3>
-            <h4><%= t('welcome.testimonials.company_twelve') %></h4>
-          </div>
-        </section>
-        <section class="testimonial-card">
-          <div class="testimonial-card-logo">
-            <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473814/credendo.png", :alt => "image", :class => "testimonial-logo") %>
-          </div>
-
-          <p class="small-font">"<%= t('welcome.testimonials.content_thirteen') %>"</p>
-          <div class="testimonial-footer">
-            <h3><%= t('welcome.testimonials.name_thirteen') %></h3>
-            <h4><%= t('welcome.testimonials.company_thirteen') %></h4>
-          </div>
-        </section>
-        <section class="testimonial-card">
-          <div class="testimonial-card-logo">
-            <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473815/triodos.png", :alt => "image", :class => "testimonial-logo") %>
-          </div>
-          <p class="small-font">"<%= t('welcome.testimonials.content_fourteen') %>"</p>
-          <div class="testimonial-footer">
-            <h3><%= t('welcome.testimonials.name_fourteen') %></h3>
-            <h4><%= t('welcome.testimonials.company_fourteen') %></h4>
-          </div>
-        </section>
-        <section class="testimonial-card">
-          <div class="testimonial-card-logo">
-            <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473815/tucrail.png", :alt => "image", :class => "testimonial-logo") %>
-          </div>
-
-          <p class="small-font">"<%= t('welcome.testimonials.content_fiveteen') %>"</p>
-          <div class="testimonial-footer">
-            <h3><%= t('welcome.testimonials.name_fiveteen') %></h3>
-            <h4><%= t('welcome.testimonials.company_fiveteen') %></h4>
-          </div>
-        </section>
-        <section class="testimonial-card">
-          <div class="testimonial-card-logo">
-            <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473814/cofinimmo.png", :alt => "image", :class => "testimonial-logo") %>
-          </div>
-
-          <p class="small-font">"<%= t('welcome.testimonials.content_sixteen') %>"</p>
-          <div class="testimonial-footer">
-            <h3><%= t('welcome.testimonials.name_sixteen') %></h3>
-            <h4><%= t('welcome.testimonials.company_sixteen') %></h4>
-          </div>
-        </section>
-        <section class="testimonial-card">
-          <div class="testimonial-card-logo">
-            <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473814/axaassistance.png", :alt => "image", :class => "testimonial-logo") %>
-          </div>
-
-          <p class="small-font">"<%= t('welcome.testimonials.content_seventeen') %>"</p>
-          <div class="testimonial-footer">
-            <h3><%= t('welcome.testimonials.name_seventeen') %></h3>
-            <h4><%= t('welcome.testimonials.company_seventeen') %></h4>
-          </div>
-        </section>
+      <% end %>
     </div>
   </div>
 </section>
