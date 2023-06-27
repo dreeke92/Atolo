@@ -63,4 +63,15 @@ formAlert();
 require("trix")
 require("@rails/actiontext")
 
+import Typed from 'typed.js';
+
+const typed = new Typed('#typed-home', {
+  strings: ['communicate', 'collaborate', 'connect'],
+  typeSpeed: 50,
+  loop: true,
+  loopCount: Infinity,
+  showCursor: false,
+});
+
+console.log("kikou");
 

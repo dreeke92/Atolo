@@ -51,17 +51,28 @@
       margin-bottom: 64px;
       position: relative;
       z-index: 2;
+
+      #typed-home{
+        color: $green;
+      }
     }
     .overlay{
       display: block;
       position: absolute;
-      background-image: linear-gradient(90deg,  #01B27B 0%, #41748D 35%, #DB0B5B 100%);
+      background: #000000 0% 0% no-repeat padding-box;
+      transition: background 0.5s ease-in-out;
       bottom: 0px;
       top: 0px;
       right: 0px;
       left: 0px;
       opacity: 0.6;
       z-index: 1;
+
+      &:hover{
+
+        background-image: linear-gradient(90deg,  #01B27B 0%, #41748D 35%, #DB0B5B 100%);
+        opacity: 0.6;
+      }
     }
     .regular{
       position: relative;
@@ -340,6 +351,7 @@
   }
   #partners{
     padding-top: 100px;
+    padding-bottom: 100px;
     h2{
       color: $green;
       font-weight:400;

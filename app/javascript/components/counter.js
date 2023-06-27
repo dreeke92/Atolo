@@ -1,6 +1,9 @@
 import { CountUp } from '../packs/countUp.js';
 
 const trainerCounter = document.getElementById('trainer-counter');
+const coachesCounter = document.getElementById('coaches-counter');
+const traineesCounter = document.getElementById('trainees-counter');
+const satisfactionCounter = document.getElementById('satisfaction-counter');
 const trainingCounter = document.getElementById('training-counter');
 const clientCounter = document.getElementById('client-counter');
 const traineeCounter = document.getElementById('trainee-counter');
@@ -52,7 +55,10 @@ function counterUp(element, count){
 };
 
 function counter(){
-  counterUp(trainerCounter, 3500);
+  counterUp(trainerCounter, 6100);
+  counterUp(coachesCounter, 80);
+  counterUp(traineesCounter, 13071);
+  counterUp(satisfactionCounter, 99);
   counterUp(trainingCounter, 50);
   counterUp(clientCounter, 10000);
   // counterUp(traineeCounter, 10000);
