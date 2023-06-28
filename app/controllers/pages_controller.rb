@@ -57,23 +57,25 @@ class PagesController < ApplicationController
   end
 
   def category
-    path = request.path
-    if  path.include?("leadership")
+    category = params[:category]
+    if  category.include?("leadership")
       @class = 'green'
       @key = 'leadership'
       @testimonials = Testimonial.where(category: "leadership").order(id: :asc)
-    elsif  path.include?("communication")
+    elsif  category.include?("communication")
       @class = 'blue'
       @key = "communication"
       @testimonials = Testimonial.where(category: "communication").order(id: :asc)
-    elsif  path.include?("people")
+    elsif  category.include?("people")
       @class = 'yellow'
-      @key = "communication"
+      @key = "people"
       @testimonials = Testimonial.where(category: "people_and_culture").order(id: :asc)
-    elsif  path.include?("languages")
+    elsif  category.include?("languages")
       @class = 'red'
       @key = "languages"
       @testimonials = Testimonial.where(category: "languages").order(id: :asc)
+    else
+      redirect_to root_path
     end
   end
 end

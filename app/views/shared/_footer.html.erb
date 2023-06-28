@@ -8,34 +8,34 @@
           <% end %>
           <div class="row">
             <div class="col-md-6">
-              <%= link_to "Languages", languages_path, class:"footer-link" %>
+              <%= link_to "Languages", category_path(category: "languages"), class:"footer-link" %>
             </div>
             <div class="col-md-6">
-              <%= link_to "Language Scan", languages_path, class:"footer-link" %>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <%= link_to "Communication", languages_path, class:"footer-link" %>
-            </div>
-            <div class="col-md-6">
-              <%= link_to "About us", languages_path, class:"footer-link" %>
+              <%= link_to "Language Scan", eval_path, class:"footer-link" %>
             </div>
           </div>
           <div class="row">
             <div class="col-md-6">
-              <%= link_to "People & Culture", languages_path, class:"footer-link" %>
+              <%= link_to "Communication", category_path(category: "communication"), class:"footer-link" %>
             </div>
             <div class="col-md-6">
-              <%= link_to "What's new", languages_path, class:"footer-link" %>
+              <%= link_to "About us", about_path(), class:"footer-link" %>
             </div>
           </div>
           <div class="row">
             <div class="col-md-6">
-              <%= link_to "Leadership", languages_path, class:"footer-link" %>
+              <%= link_to "People & Culture", category_path(category: "people_and_culture"), class:"footer-link" %>
             </div>
             <div class="col-md-6">
-              <%= link_to "Contact", languages_path, class:"footer-link" %>
+              <%= link_to "What's new", summer_class_path, class:"footer-link" %>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <%= link_to "Leadership", category_path(category: "leadership"), class:"footer-link" %>
+            </div>
+            <div class="col-md-6">
+              <%= link_to "Contact", contact_path, class:"footer-link" %>
             </div>
           </div>
         </div>

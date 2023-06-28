@@ -11,7 +11,7 @@
 </div>
 <div class="second-section">
   <div class="categories">
-    <%= link_to languages_path, class:"category red" do %>
+    <%= link_to category_path(category: "languages"), class:"category red" do %>
       <div class="title">
         <%= Title.find_by_unique_key("home_page_languages_title")&.translate(locale) %>
       </div>
@@ -20,7 +20,7 @@
         <%= Title.find_by_unique_key("home_page_learn_more")&.translate(locale) %>
       </div>
     <% end %>
-    <%= link_to communication_path, class:"category blue" do %>
+    <%= link_to category_path(category: "communication"), class:"category blue" do %>
       <div class="title">
         <%= Title.find_by_unique_key("home_page_communication_title")&.translate(locale) %>
       </div>
@@ -29,7 +29,7 @@
         <%= Title.find_by_unique_key("home_page_learn_more")&.translate(locale) %>
       </div>
     <% end %>
-    <%= link_to people_and_culture_path, class:"category yellow" do %>
+    <%= link_to category_path(category: "people_and_culture"), class:"category yellow" do %>
       <div class="title">
         <%= Title.find_by_unique_key("home_page_p_c_title")&.translate(locale) %>
       </div>
@@ -38,7 +38,7 @@
         <%= Title.find_by_unique_key("home_page_learn_more")&.translate(locale) %>
       </div>
     <% end %>
-    <%= link_to leadership_path, class:"category green-2" do %>
+    <%= link_to category_path(category: "leadership"), class:"category green-2" do %>
       <div class="title">
         <%= Title.find_by_unique_key("home_page_leader_title")&.translate(locale) %>
       </div>
