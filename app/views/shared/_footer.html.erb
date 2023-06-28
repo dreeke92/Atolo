@@ -1,51 +1,91 @@
 <!-- Footer -->
-  <footer class="wrapper style1 align-center footer-border">
-    <div class="inner footer-container">
-      <div class="align-left small-font footer-address-large">
-        <p>
-          Atolo SA/NV<br>
-          Avenue de Tervurenlaan 36/18, 1040 Brussels</br>
-          Tel: +32 2 609 50 90
-        </p>
-      </div>
-      <div>
-        <ul class="icons">
+  <footer class="wrapper style1 footer-border">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-left small-font footer-address-large">
+          <%= link_to welcome_path, :class => 'no-text-decoration' do %>
+            <%= image_tag("atolo-logo/atolo.png", :class => "atolo-logo", :alt => "atolo") %>
+          <% end %>
+          <div class="row">
+            <div class="col-md-6">
+              <%= link_to "Languages", languages_path, class:"footer-link" %>
+            </div>
+            <div class="col-md-6">
+              <%= link_to "Language Scan", languages_path, class:"footer-link" %>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <%= link_to "Communication", languages_path, class:"footer-link" %>
+            </div>
+            <div class="col-md-6">
+              <%= link_to "About us", languages_path, class:"footer-link" %>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <%= link_to "People & Culture", languages_path, class:"footer-link" %>
+            </div>
+            <div class="col-md-6">
+              <%= link_to "What's new", languages_path, class:"footer-link" %>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <%= link_to "Leadership", languages_path, class:"footer-link" %>
+            </div>
+            <div class="col-md-6">
+              <%= link_to "Contact", languages_path, class:"footer-link" %>
+            </div>
+          </div>
+        </div>
+
+        <!-- <ul class="icons">
           <li><a class ="icon style2" href="https://www.linkedin.com/company/atolo/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
           <li><a class ="icon style2" href="https://www.youtube.com/channel/UC9REEUoHZGDhSXGscOjSe8A" target="_blank"><i class="fab fa-youtube"></i></a></li>
           <li><a class ="icon style2" href="https://www.facebook.com/atololounge/" target="_blank"><i class="fab fa-facebook"></i></a></li>
           <li><a class ="icon style2" href="mailto:welcome@atolo.eu"><i class="fas fa-envelope"></i></a></li>
-        </ul>
+        </ul> -->
         <!-- <p>&copy; Terms of use.</p> -->
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="adress-title">ATOLO SA/NV</div>
+           Avenue de Tervurenlaan 36/18</br>
+           1040 Brussels
+        </div>
+        <div class="col-md-6">
+          <div class="adress-title">Atolo Sàrl</div>
+          Rue du Petit-Chêne 18ter</br>
+          1003 Lausanne
+        </div>
       </div>
-      <div class="align-right small-font footer-address-large">
-        <p>
-          Atolo Sàrl<br>
-          Rue du Petit-Chêne 18ter, 1003 Lausanne</br>
-          Tel: +41 21 806 55 55 | +41 78 736 92 58
-        </p>
+      <div class="row contact">
+        <div class="col-md-6">
+          T. +32 2 609 50 90 </br>E. welcome@atolo.eu
+        </div>
+        <div class="col-md-6">
+          T. +41 21 806 55 55 </br>T. +41 78 736 92 58
+        </div>
       </div>
     </div>
-    <div class="align-center small-font footer-address-small">
-      <p>
-        Atolo SA/NV<br>
-        Avenue de Tervurenlaan 36/18, 1040 Brussels</br>
-        Tel: +32 2 609 50 90
-      </p>
+  </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="copywrite">
+          © 2023 Atolo |
+          <% LegalPage.all.each do |page| %>
+            <%= link_to page.translate_title(I18n.locale).capitalize, legal_page_path(page.slug) %> |
+          <% end %>
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+      <div class="col-md-4">
+        <div class="network-link">
+          <a class ="icon" href="https://www.linkedin.com/company/atolo/" target="_blank">Follow us <i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
     </div>
-    <div class="align-center small-font footer-address-small">
-      <p>
-        Atolo Sàrl<br>
-        Rue du Petit-Chêne 18ter, 1003 Lausanne</br>
-        Tel: +41 21 806 55 55 | +41 78 736 92 58
-      </p>
-    </div>
-    <div class="disclaimer-container">
-      <% LegalPage.all.each do |page| %>
-        <%= link_to page.translate_title(I18n.locale).capitalize, legal_page_path(page.slug) %>
-      <% end %>
-      <% link_to "Disclaimer", disclaimer_path %>
-      <% link_to "Cookies", cookies_path %>
-      <% link_to "General terms and conditions", cgv_path %>
-    </div>
-  </footer>
+  </div>
+</footer>
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>

@@ -49,7 +49,7 @@
     right: 0px;
 
     .big-category{
-      background-color: $green-2;
+      background-color: $blue;
       padding: 70px 35px;
       max-width: 587px;
       color: white;
@@ -57,6 +57,7 @@
       border-radius: 24px;
       margin: 12px;
       width: 50%;
+      min-width: 340px;
 
       .header{
         font-size: 24px;
@@ -74,33 +75,36 @@
           height: 20px;
           width: 20px;
           g,circle, path {
-            stroke: $green-2-darker;
+            stroke: $blue-darker;
           }
         }
       }
     }
 
-    .category{
-      padding: 21px 24px;
-      background-color: green;
-      width: 281px;
-      border-radius: 12px;
+    .category-block{
+      background-color: $green-2;
+      padding: 70px 35px;
+      max-width: 587px;
       color: white;
+      box-shadow: 6px 6px 12px #0000000D;
+      border-radius: 24px;
       margin: 12px;
-      height: 190px;
-      position: relative;
+      width: 23%;
+      min-width: 250px;
+      text-decoration: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 170px;
       .title{
-        font-weight: 400;
-        font-size: 24px;
+        width: 200px;
       }
-      .learn-more{
-        svg{
-          margin-right: 12px;
-          height: 20px;
-          width: 20px;
-          g,circle, path {
-            stroke: #8D073B;
-          }
+      svg{
+        margin-left: 12px;
+        height: 20px;
+        width: 20px;
+        g,circle, path {
+          stroke: $green-2-darker;
         }
       }
     }
@@ -145,7 +149,7 @@
     }
     .btn-div{
       margin-top: 24px;
-      .blue{
+      .regular{
         background-color: $green-2;
       }
     }
@@ -199,5 +203,81 @@
       }
 
     }
+  }
+
+  .green{
+    .second-section{
+      height: 235px;
+    }
+  }
+
+  .yellow{
+    h2, h3{
+      color: $yellow;
+    }
+    #testimonials{
+      h2{
+        color: $yellow;
+      }
+    }
+
+    .second-section{
+      height: 235px;
+    }
+    .btn-div >.regular{
+      background-color: $yellow;
+    }
+
+    .category-block{
+      background-color: $yellow;
+
+      svg{
+        g,circle, path {
+          stroke: $yellow-darker;
+        }
+      }
+    }
+  }
+
+  .blue{
+    h2, h3{
+      color: $blue;
+    }
+    #testimonials{
+      h2{
+        color: $blue;
+      }
+    }
+    .btn-div >.regular{
+      background-color: $blue;
+    }
+
+  }
+
+  .red{
+    h2, h3{
+      color: $red;
+    }
+    #testimonials{
+      h2{
+        color: $red;
+      }
+    }
+    .btn-div >.regular{
+      background-color: $red;
+    }
+
+    .big-category{
+      width: 30%;
+      background-color: $red;
+      .category-link{
+        svg{
+          g,circle, path {
+            stroke: $red-darker;
+          }
+        }
+      }
+    }
+
   }
 }

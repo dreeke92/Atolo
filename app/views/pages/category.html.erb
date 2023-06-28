@@ -4,11 +4,11 @@
   <div class="first-section">
     <div class="container flex">
       <div class="first-bloc">
-        <h1>Communication</h1>
-        <h2>Great things happen when people communicate well!</h2>
+        <h1><%= Title.find_by_unique_key("pillar_#{@key}_title")&.translate(locale) %></h1>
+        <h2><%= Title.find_by_unique_key("pillar_#{@key}_subtitle_1")&.translate(locale) %></h2>
 
         <div>
-          Communication is the lifeblood of the future-proof organisation. Daring to communicate when needed, delegating, giving feedback, obtaining buy-in and simply communicating complexities, are all skills that an engaged organisation needs to thrive!
+          <%= Title.find_by_unique_key("pillar_#{@key}_description_1")&.translate(locale) %>
         </div>
       </div>
     </div>
@@ -22,12 +22,12 @@
       <%= image_tag 'pillar_p-c.png' %>
     <% end %>
   </div>
-  <% if @class == "green" %>
+  <% if @class == "blue" %>
     <div class="second-section green">
       <div class="categories">
         <div class="big-category">
           <div class="header">
-            Strategic communication
+            <%= Title.find_by_unique_key("pillar_communication_category_header_1")&.translate(locale) %>
           </div>
           <% Product.where("name_en IS NOT NULL").take(3).each do |product| %>
             <%= link_to product_path(product.id), class: "category-link" do %>
@@ -43,7 +43,7 @@
 
         <div class="big-category">
           <div class="header">
-            Strategic communication
+            <%= Title.find_by_unique_key("pillar_communication_category_header_2")&.translate(locale) %>
           </div>
           <% Product.take(3).each do |product| %>
             <%= link_to product_path(product.id), class: "category-link" do %>
@@ -58,18 +58,97 @@
         </div>
       </div>
     </div>
+  <% elsif @class == "red" %>
+    <div class="second-section red">
+      <div class="categories">
+        <div class="big-category">
+          <div class="header">
+            <%= Title.find_by_unique_key("pillar_languages_category_header_1")&.translate(locale) %>
+          </div>
+          <% Product.where("name_en IS NOT NULL").take(3).each do |product| %>
+            <%= link_to product_path(product.id), class: "category-link" do %>
+              <div class="title">
+                <%= eval("product.name_#{locale}") %>
+              </div>
+              <%= render 'shared/svg/arrow-right-circle' %>
+            <% end %>
+
+          <% end %>
+
+        </div>
+
+        <div class="big-category">
+          <div class="header">
+            <%= Title.find_by_unique_key("pillar_languages_category_header_2")&.translate(locale) %>
+          </div>
+          <% Product.take(3).each do |product| %>
+            <%= link_to product_path(product.id), class: "category-link" do %>
+              <div class="title">
+                <%= eval("product.name_#{locale}") %>
+              </div>
+              <%= render 'shared/svg/arrow-right-circle' %>
+            <% end %>
+
+          <% end %>
+
+        </div>
+        <div class="big-category">
+          <div class="header">
+            <%= Title.find_by_unique_key("pillar_languages_category_header_3")&.translate(locale) %>
+          </div>
+          <% Product.take(3).each do |product| %>
+            <%= link_to product_path(product.id), class: "category-link" do %>
+              <div class="title">
+                <%= eval("product.name_#{locale}") %>
+              </div>
+              <%= render 'shared/svg/arrow-right-circle' %>
+            <% end %>
+
+          <% end %>
+
+        </div>
+      </div>
+    </div>
+  <% elsif @class == "yellow" %>
+    <div class="second-section red">
+      <div class="categories">
+          <% Product.where("name_en IS NOT NULL").take(4).each do |product| %>
+            <%= link_to product_path(product.id), class: "category-block" do %>
+              <div class="title">
+                <%= eval("product.name_#{locale}") %>
+              </div>
+              <%= render 'shared/svg/arrow-right-circle' %>
+            <% end %>
+
+          <% end %>
+      </div>
+    </div>
+  <% elsif @class == "green" %>
+    <div class="second-section red">
+      <div class="categories">
+          <% Product.where("name_en IS NOT NULL").take(4).each do |product| %>
+            <%= link_to product_path(product.id), class: "category-block" do %>
+              <div class="title">
+                <%= eval("product.name_#{locale}") %>
+              </div>
+              <%= render 'shared/svg/arrow-right-circle' %>
+            <% end %>
+
+          <% end %>
+      </div>
+    </div>
   <% end %>
   <%= render 'shared/solutions/communication/approach_new' %>
   <div class="trainers">
     <div class="container">
       <div class="trainers-flex">
         <div class="content">
-          <h3>Our trainers</h3>
+          <h3><%= Title.find_by_unique_key("pillar_trainers_title")&.translate(locale) %></h3>
           <div class="description">
-            We are privileged to be working with a highly skilled and passionate team of trainers. They are all experts in their field and committed to bringing out the best in their trainees and reaching tangible and sustainable results for you, our partners. Engaged and dedicated to their work, they represent the core of what makes ATOLO the organization it is today. We are grateful to all of them and we are proud to be able to count on their capacity to train, inspire and lead your teams during the missions at your organization.
+            <%= Title.find_by_unique_key("pillar_trainers_description")&.translate(locale) %>
           </div>
           <div class="btn-div">
-            <a href="#products" class="regular blue"><span>Join our team <%= render 'shared/svg/arrow-right-circle' %></span></a>
+            <a href="#products" class="regular"><span><%= Title.find_by_unique_key("pillar_trainers_cta")&.translate(locale) %> <%= render 'shared/svg/arrow-right-circle' %></span></a>
           </div>
         </div>
         <% if @class == "green" %>
