@@ -1,5 +1,19 @@
 .quadrant-container{
   display: flex;
+  align-items: center;
+  .quadrant-content{
+    font-size: 18px;
+    .sentence{
+      color: $black-grey-lighter;
+      font-style: italic;
+      margin-bottom: 8px;
+
+    }
+    p{
+      margin-bottom: 1rem;
+    }
+  }
+
 }
 
 .quadrant-visual-container{
@@ -88,7 +102,7 @@ p.small-font.major-medium{
 .quadrant-toggle-holder{
   display: flex;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 0.25rem;
 }
 
 .quadrant-toggle-holder h3{

@@ -29,6 +29,32 @@ function testimonialCarousel() {
       })
    });
   $(document).ready(function(){
+    $('.two-card-carousel').owlCarousel({
+        merge: true,
+        items: 2,
+        smartSpeed: 1000,
+        loop:true,
+        margin:10,
+        nav:true,
+        navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true,
+        animateOut: 'slideOutDown',
+        animateIn: 'flipInX',
+        center: false,
+        dots: true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            }
+          }
+      })
+   });
+  $(document).ready(function(){
     $('.card-carousel-solo').owlCarousel({
         merge: true,
         items: 1,
@@ -82,6 +108,24 @@ function homepageCarousel() {
         loop:true,
         margin:10,
         nav:true,
+        navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true,
+        center: false,
+        dots: true,
+      })
+   });
+};
+function categoryCarousel() {
+  $(document).ready(function(){
+    $('.category-carousel').owlCarousel({
+        merge: true,
+        items: 2,
+        smartSpeed: 1000,
+        loop:true,
+        margin:10,
+        nav:false,
         navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
         autoplay:true,
         autoplayTimeout:5000,

@@ -203,8 +203,11 @@
   padding: 16px 22px;
   text-decoration: none;
   display: inline-block;
+  transition: 250ms ease;
+
   &:hover{
     color: white;
+    background-color: #578a19;
   }
   span{
     display: inline-flex;
@@ -234,5 +237,6 @@
     }
   }
 }
+
 
 

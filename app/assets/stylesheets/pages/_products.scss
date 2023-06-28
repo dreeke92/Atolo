@@ -222,6 +222,17 @@
       justify-content: space-between;
       font-size: 32px;
       font-weight: 400;
+      text-decoration: none;
+
+      svg{
+        transition: 250ms;
+      }
+
+      &:hover{
+        svg{
+          margin-right: 30px
+        }
+      }
     }
   }
 
@@ -257,7 +268,7 @@
       background-color: $blue;
 
       .contact-us-btn{
-        background-color: #1E4050;
+        background-color: $blue-darker;
       }
 
       svg > #arrow-right-circle{
@@ -303,7 +314,7 @@
     .third-section{
       background-color: $yellow;
       .contact-us-btn{
-        background-color: #A27816;
+        background-color: $yellow-darker;
       }
 
       svg > #arrow-right-circle{

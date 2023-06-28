@@ -62,19 +62,72 @@ class PagesController < ApplicationController
       @class = 'green'
       @key = 'leadership'
       @testimonials = Testimonial.where(category: "leadership").order(id: :asc)
+      if Rails.env == "production"
+        @products = []
+        @products << Product.find(237)
+        @products << Product.find(239)
+        @products << Product.find(241)
+        @products << Product.find(240)
+      else
+        @products = Product.where("name_en IS NOT NULL").take(4)
+      end
     elsif  category.include?("communication")
       @class = 'blue'
       @key = "communication"
       @testimonials = Testimonial.where(category: "communication").order(id: :asc)
+      if Rails.env == "production"
+        @products_1 = []
+        @products_2 = []
+        @products_1 << Product.find(225)
+        @products_1 << Product.find(226)
+        @products_1 << Product.find(227)
+        @products_1 << Product.find(228)
+        @products_2 << Product.find(229)
+        @products_2 << Product.find(230)
+        @products_2 << Product.find(231)
+        @products_2 << Product.find(232)
+      else
+        @products_1 = Product.where("name_en IS NOT NULL").take(4)
+        @products_2 = Product.where("name_en IS NOT NULL").take(4)
+      end
     elsif  category.include?("people")
       @class = 'yellow'
       @key = "people"
       @testimonials = Testimonial.where(category: "people_and_culture").order(id: :asc)
+      if Rails.env == "production"
+        @products = []
+        @products << Product.find(233)
+        @products << Product.find(234)
+        @products << Product.find(235)
+        @products << Product.find(236)
+      else
+        @products = Product.where("name_en IS NOT NULL").take(4)
+      end
     elsif  category.include?("languages")
       @class = 'red'
       @key = "languages"
       @testimonials = Testimonial.where(category: "languages").order(id: :asc)
+      if Rails.env == "production"
+        @products_1 = []
+        @products_2 = []
+        @products_3 = []
+        @products_1 << Product.find(241)
+        @products_1 << Product.find(242)
+        @products_1 << Product.find(243)
+        @products_2 << Product.find(244)
+        @products_2 << Product.find(245)
+        @products_2 << Product.find(246)
+        @products_2 << Product.find(247)
+        @products_3 << Product.find(248)
+        @products_3 << Product.find(249)
+        @products_3 << Product.find(245)
+      else
+        @products_1 = Product.where("name_en IS NOT NULL").take(4)
+        @products_2 = Product.where("name_en IS NOT NULL").take(4)
+        @products_3 = Product.where("name_en IS NOT NULL").take(4)
+      end
     else
+      binding.pry
       redirect_to root_path
     end
   end

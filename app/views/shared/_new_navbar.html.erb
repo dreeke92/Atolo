@@ -1,0 +1,81 @@
+<header id="new-header-fixed">
+  <div class="container-fluid">
+
+    <div id="logo" class="pull-left">
+      <%= link_to welcome_path, :class => 'no-text-decoration' do %>
+        <% image_tag("atolo-logo/atolo-new.png", :class => "atolo-logo", :alt => "atolo") %>
+        <%= image_tag("atolo-logo/atolo.png", :class => "atolo-logo", :alt => "atolo") %>
+      <% end %>
+    </div>
+
+    <nav id="nav-menu-container">
+      <ul class="nav-menu">
+        <li id="nav_red" class="">
+          <%= link_to "#{Title.find_by_unique_key("navigation_languages")&.translate(locale)}", category_path(category: "languages"), class:"nav-link" %>
+        </li>
+        <li id="nav_blue" >
+          <%= link_to "#{Title.find_by_unique_key("navigation_communication")&.translate(locale)}", category_path(category: "communication"), class:"nav-link" %>
+        </li>
+        <li id="nav_yellow" >
+          <%= link_to "#{Title.find_by_unique_key("navigation_people")&.translate(locale)}", category_path(category: "people_and_culture"), class:"nav-link" %>
+        </li>
+        <li id="nav_green" >
+          <%= link_to "#{Title.find_by_unique_key("navigation_leadership")&.translate(locale)}", category_path(category: "leadership"), class:"nav-link" %>
+        </li>
+        <li id="nav_eval" class="offer-nav eval_visible">
+          <%= link_to "#{Title.find_by_unique_key("navigation_language_scan")&.translate(locale)}", eval_path, class:"nav-link" %>
+        </li>
+
+        <li id="nav_about">
+          <%= link_to about_path do %>
+            <%= t("navbar.about") %>
+          <% end %>
+          <ul class="nav-menu-drop-down">
+            <li id="nav_team" class="about-nav">
+              <%= link_to about_path(:anchor => 'team-anchor') do %>
+                <%= t("navbar.team") %>
+              <% end %>
+            </li>
+            <li id="nav_whereto" class="about-nav d-none">
+              <%= link_to about_path(:anchor => 'location-anchor') do %>
+                <%= t("navbar.whereto") %>
+              <% end %>
+            </li>
+            <li id="nav_probono" class="about-nav">
+              <%= link_to about_path(:anchor => 'probono-anchor') do %>
+                <%= t("navbar.probono") %>
+              <% end %>
+            </li>
+          </ul>
+        </li>
+        <li id="nav_events">
+          <%= link_to "#{Title.find_by_unique_key("navigation_whats_new")&.translate(locale)}", summer_class_path, class:"nav-link" %>
+        </li>
+        <li id="nav_contact">
+          <%= link_to "#{Title.find_by_unique_key("navigation_contact")&.translate(locale)}", contact_path, class:"regular" %>
+        </li>
+        <li id="nav_internationalization">
+          <div class="locale">
+            <%= I18n.locale.upcase %>
+          </div>
+          <ul class="language-drop-down">
+            <li class="mobile_language_drops">
+              <%= link_to "English", url_for( :locale => 'en' ) %>
+            </li>
+            <li class="mobile_language_drops">
+              <%= link_to "Français", url_for( :locale => 'fr' ) %>
+            </li>
+            <li class="mobile_language_drops">
+              <%= link_to "Nederlands", url_for( :locale => 'nl' ) %>
+            </li>
+            <li class="mobile_language_drops">
+              <%= link_to "Deutsch", url_for( :locale => 'de' ) %>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+  </div>
+
+</header>

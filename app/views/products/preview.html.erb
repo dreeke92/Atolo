@@ -1,4 +1,4 @@
-<%= render 'shared/navbar-fixed' %>
+<%= render 'shared/new_navbar' %>
 <% locale = I18n.locale %>
 <div class="<%= @category_color %>">
   <div class="container" style="margin-top: 120px;">
@@ -82,9 +82,9 @@
     <div class="contact-us-text">
       <%= Title.find_by_unique_key("shared_curious_to_know_more")&.translate(locale) %>
     </div>
-    <div class="contact-us-btn">
+    <%= link_to contact_path, class:"contact-us-btn" do %>
       <%= Title.find_by_unique_key("shared_btn_contact_us")&.translate(locale) %>
       <%= render 'shared/svg/arrow-right-circle' %>
-    </div>
+    <% end %>
   </div>
 </div>

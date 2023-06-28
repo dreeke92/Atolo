@@ -3,7 +3,8 @@
 <section id="testimonials" class="wrapper style1 align-center">
   <div class="inner">
     <h2><%= Title.find_by_unique_key("testimonials_title")&.translate(locale) %></h2>
-    <div class="owl-carousel owl-theme testimonial-cards onload-fade-in card-carousel">
+    <% classCarousel = @testimonials.count > 2 ? "card-carousel" : "two-card-carousel" %>
+    <div class="owl-carousel owl-theme testimonial-cards onload-fade-in <%= classCarousel %>">
       <% @testimonials.each do |testimonial| %>
         <section class="testimonial-card">
           <div class="testimonial-card-logo">

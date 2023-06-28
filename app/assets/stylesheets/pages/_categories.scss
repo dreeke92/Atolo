@@ -16,19 +16,21 @@
   }
 
   .first-bloc{
-    max-width: 587px;
+    max-width: 550px;
+
+    h1{
+      font-size: 48px;
+      font-weight: 400;
+      color: $green-2;
+
+    }
+    h2{
+      font-size: 28px;
+      color: $green-2;
+    }
 
   }
-  h1{
-    font-size: 48px;
-    font-weight: 400;
-    color: $green-2;
 
-  }
-  h2{
-    font-size: 28px;
-    color: $green-2;
-  }
 
   .second-section{
     position: relative;
@@ -110,6 +112,21 @@
     }
   }
   #approach{
+    h2{
+      font-weight: 400;
+      font-size: 36px;
+      color: $green-2;
+    }
+
+    h3{
+      font-size: 24px;
+    }
+    .quadrant-text{
+      h3{
+        color: $gray;
+        font-size: 22px;
+      }
+    }
     .description{
       margin-bottom: 24px;
     }
@@ -151,6 +168,9 @@
       margin-top: 24px;
       .regular{
         background-color: $green-2;
+        &:hover{
+          background-color: $green-2-darker;
+        }
       }
     }
   }
@@ -209,11 +229,41 @@
     .second-section{
       height: 235px;
     }
+
+    #approach{
+      #quadrant-selector-one.active h3{
+        color: $yellow;
+      }
+      #quadrant-selector-two.active h3{
+        color: $red;
+      }
+      #quadrant-selector-three.active h3{
+        color: $blue-light;
+      }
+      #quadrant-selector-four.active h3{
+        color: $purple;
+      }
+    }
   }
 
   .yellow{
     h2, h3{
       color: $yellow;
+    }
+
+    #approach{
+      h2{
+        color: $yellow;
+      }
+      #quadrant-selector-one.active h3{
+        color: $yellow;
+      }
+      #quadrant-selector-two.active h3{
+        color: $red;
+      }
+      #quadrant-selector-three.active h3{
+        color: $blue-light;
+      }
     }
     #testimonials{
       h2{
@@ -226,6 +276,9 @@
     }
     .btn-div >.regular{
       background-color: $yellow;
+      &:hover{
+        background-color: $yellow-darker;
+      }
     }
 
     .category-block{
@@ -243,6 +296,21 @@
     h2, h3{
       color: $blue;
     }
+
+    #approach{
+       h2{
+        color: $blue;
+      }
+      #quadrant-selector-one.active h3{
+        color: $yellow;
+      }
+      #quadrant-selector-two.active h3{
+        color: $blue-light;
+      }
+      #quadrant-selector-three.active h3{
+        color: $purple;
+      }
+    }
     #testimonials{
       h2{
         color: $blue;
@@ -250,6 +318,9 @@
     }
     .btn-div >.regular{
       background-color: $blue;
+      &:hover{
+        background-color: $blue-darker;
+      }
     }
 
   }
@@ -258,6 +329,25 @@
     h2, h3{
       color: $red;
     }
+
+    #approach{
+      h2{
+        color: $red;
+      }
+      #quadrant-selector-one.active h3{
+        color: $yellow;
+      }
+      #quadrant-selector-two.active h3{
+        color: $green;
+      }
+      #quadrant-selector-three.active h3{
+        color: $purple;
+      }
+      #quadrant-selector-four.active h3{
+        color: $blue-light;
+      }
+    }
+
     #testimonials{
       h2{
         color: $red;
@@ -265,6 +355,9 @@
     }
     .btn-div >.regular{
       background-color: $red;
+      &:hover{
+        background-color:$red-darker;
+      }
     }
 
     .big-category{

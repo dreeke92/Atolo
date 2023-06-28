@@ -1,20 +1,27 @@
-const allQuadrantSelectors = document.querySelectorAll('.languages-quadrant-selector');
-const quadrantSelectorOne = document.getElementById('languages-quadrant-selector-one');
-const quadrantSelectorTwo = document.getElementById('languages-quadrant-selector-two');
-const quadrantSelectorThree = document.getElementById('languages-quadrant-selector-three');
-const quadrantSelectorFour = document.getElementById('languages-quadrant-selector-four');
+// const allQuadrantSelectors = document.querySelectorAll('.languages-quadrant-selector');
+// const quadrantSelectorOne = document.getElementById('languages-quadrant-selector-one');
+// const quadrantSelectorTwo = document.getElementById('languages-quadrant-selector-two');
+// const quadrantSelectorThree = document.getElementById('languages-quadrant-selector-three');
+// const quadrantSelectorFour = document.getElementById('languages-quadrant-selector-four');
 
-const allQuadrantContents = document.querySelectorAll('.languages-quadrant-content');
-const quadrantContentOne = document.getElementById('languages-quadrant-content-one');
-const quadrantContentTwo = document.getElementById('languages-quadrant-content-two');
-const quadrantContentThree = document.getElementById('languages-quadrant-content-three');
-const quadrantContentFour = document.getElementById('languages-quadrant-content-four');
+
+const allQuadrantSelectors = document.querySelectorAll('.quadrant-selector');
+const quadrantSelectorOne = document.getElementById('quadrant-selector-one');
+const quadrantSelectorTwo = document.getElementById('quadrant-selector-two');
+const quadrantSelectorThree = document.getElementById('quadrant-selector-three');
+const quadrantSelectorFour = document.getElementById('quadrant-selector-four');
+
+const allQuadrantContents = document.querySelectorAll('.quadrant-content');
+const quadrantContentOne = document.getElementById('quadrant-content-one');
+const quadrantContentTwo = document.getElementById('quadrant-content-two');
+const quadrantContentThree = document.getElementById('quadrant-content-three');
+const quadrantContentFour = document.getElementById('quadrant-content-four');
 
 const allToggles = document.querySelectorAll('.quadrant-toggle');
-const toggleOne = document.getElementById('langauges-quadrant-toggle-one');
-const toggleTwo = document.getElementById('langauges-quadrant-toggle-two');
-const toggleThree = document.getElementById('langauges-quadrant-toggle-three');
-const toggleFour = document.getElementById('langauges-quadrant-toggle-four');
+const toggleOne = document.getElementById('quadrant-toggle-one');
+const toggleTwo = document.getElementById('quadrant-toggle-two');
+const toggleThree = document.getElementById('quadrant-toggle-three');
+const toggleFour = document.getElementById('quadrant-toggle-four');
 
 
 function removeActiveSelectors(){
