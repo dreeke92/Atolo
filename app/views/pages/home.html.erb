@@ -6,12 +6,12 @@
   <h1>
     Great things happen when people <span id="typed-home">communicate</span> well!
   </h1>
-  <a href="#products" class="regular"><span>
+  <a href="#how-can-we-help-you" class="regular"><span>
     <%= Title.find_by_unique_key("shared_btn_how_can_we_help_you")&.translate(locale) %> <%= image_tag 'icons/arrow-down-circle.svg' %></span></a>
 </div>
 <div class="second-section">
   <div class="categories">
-    <div class="category red">
+    <%= link_to languages_path, class:"category red" do %>
       <div class="title">
         <%= Title.find_by_unique_key("home_page_languages_title")&.translate(locale) %>
       </div>
@@ -19,8 +19,8 @@
         <%= render 'shared/svg/arrow-right-circle' %>
         <%= Title.find_by_unique_key("home_page_learn_more")&.translate(locale) %>
       </div>
-    </div>
-    <div class="category blue">
+    <% end %>
+    <%= link_to communication_path, class:"category blue" do %>
       <div class="title">
         <%= Title.find_by_unique_key("home_page_communication_title")&.translate(locale) %>
       </div>
@@ -28,8 +28,8 @@
         <%= render 'shared/svg/arrow-right-circle' %>
         <%= Title.find_by_unique_key("home_page_learn_more")&.translate(locale) %>
       </div>
-    </div>
-    <div class="category yellow">
+    <% end %>
+    <%= link_to people_and_culture_path, class:"category yellow" do %>
       <div class="title">
         <%= Title.find_by_unique_key("home_page_p_c_title")&.translate(locale) %>
       </div>
@@ -37,8 +37,8 @@
         <%= render 'shared/svg/arrow-right-circle' %>
         <%= Title.find_by_unique_key("home_page_learn_more")&.translate(locale) %>
       </div>
-    </div>
-    <div class="category green-2">
+    <% end %>
+    <%= link_to leadership_path, class:"category green-2" do %>
       <div class="title">
         <%= Title.find_by_unique_key("home_page_leader_title")&.translate(locale) %>
       </div>
@@ -46,8 +46,8 @@
         <%= render 'shared/svg/arrow-right-circle' %>
         <%= Title.find_by_unique_key("home_page_learn_more")&.translate(locale) %>
       </div>
-    </div>
-    <div class="category grey">
+    <% end %>
+    <%= link_to eval_path, class:"category grey" do %>
       <div class="title">
         <%= Title.find_by_unique_key("home_page_language_scan_title")&.translate(locale) %>
       </div>
@@ -55,8 +55,8 @@
         <%= render 'shared/svg/arrow-right-circle' %>
         <%= Title.find_by_unique_key("home_page_learn_more")&.translate(locale) %>
       </div>
-    </div>
-    <div class="category green">
+    <% end %>
+    <%= link_to contact_path, class:"category green" do %>
       <div class="title">
         <%= Title.find_by_unique_key("home_page_contact_title")&.translate(locale) %>
       </div>
@@ -64,15 +64,15 @@
         <%= render 'shared/svg/arrow-right-circle' %>
         <%= Title.find_by_unique_key("home_page_learn_more")&.translate(locale) %>
       </div>
-    </div>
+    <% end %>
   </div>
 </div>
-<div class="third-section">
+<div id="how-can-we-help-you" class="third-section">
   <h2><%= Title.find_by_unique_key("home_page_section_3_how_can_we_help_you")&.translate(locale) %></h2>
   <div class="third-section-content">
     <%= Title.find_by_unique_key("home_page_section_3_how_can_we_help_you_description")&.translate(locale) %>
   </div>
-  <a href="#products" class="regular"><span><%= Title.find_by_unique_key("home_page_btn_about_us")&.translate(locale) %> <%= render 'shared/svg/arrow-right-circle' %></span></a>
+  <a href="/about" class="regular"><span><%= Title.find_by_unique_key("home_page_btn_about_us")&.translate(locale) %> <%= render 'shared/svg/arrow-right-circle' %></span></a>
 </div>
 <div class="fourth-section">
   <h2><%= Title.find_by_unique_key("home_page_section_4_whats_new")&.translate(locale) %></h2>
@@ -92,7 +92,7 @@
     <div class="subtitle">
       <%= Title.find_by_unique_key("summer_classes_description")&.translate(locale) %>
     </div>
-    <a href="#products" class="regular"><span> <%= Title.find_by_unique_key("summer_classes_btn_discover_it")&.translate(locale) %> <%= image_tag 'icons/arrow-down-circle.svg' %></span></a>
+    <a href="/summer_class" class="regular"><span> <%= Title.find_by_unique_key("summer_classes_btn_discover_it")&.translate(locale) %> <%= image_tag 'icons/arrow-right-circle.svg' %></span></a>
   </div>
 </div>
 <div class="key-figures">

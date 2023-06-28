@@ -1,24 +1,27 @@
 <section id="partners" class="wrapper style1 align-center">
   <h2><%= Title.find_by_unique_key("partners_title")&.translate(locale) %></h2>
   <div class="partners">
-    <div class="partner">
+    <a href="https://www.alimento.be/" class="partner" target="_blank">
+      <%= image_tag("partners/Alimento.png", :alt => "image", :class => "") %>
+    </a>
+    <a href="https://www.febelfin-academy.be/" class="partner" target="_blank">
       <%= image_tag("partners/Febelfin.png", :alt => "image", :class => "") %>
-    </div>
-    <div class="partner">
+    </a>
+    <a href="https://www.fsma.be/" class="partner" target="_blank">
       <%= image_tag("partners/FSMA.jpg", :alt => "image", :class => "") %>
-    </div>
-    <div class="partner">
+    </a>
+    <a href="https://qfor.org/" class="partner" target="_blank">
       <%= image_tag("partners/Qfor.png", :alt => "image", :class => "") %>
-    </div>
-    <div class="partner">
+    </a>
+    <a href="https://saq.ch/" class="partner" target="_blank">
       <%= image_tag("partners/SAQ.png", :alt => "image", :class => "") %>
-    </div>
-    <div class="partner">
+    </a>
+    <a href="https://alice.ch/" class="partner" target="_blank">
       <%= image_tag("partners/FSEA.png", :alt => "image", :class => "") %>
-    </div>
-    <div class="partner">
+    </a>
+    <a href="https://www.vlaanderen.be/departement-werk-sociale-economie" class="partner" target="_blank">
       <%= image_tag("partners/WSE.png", :alt => "image", :class => "") %>
-    </div>
+    </a>
 
 
 

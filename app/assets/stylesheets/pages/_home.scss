@@ -41,6 +41,7 @@
     height: 80vh;
     position: relative;
     padding-top: 140px;
+    background-attachment: fixed;
 
     h1{
       font-size: 48px;
@@ -51,6 +52,7 @@
       margin-bottom: 64px;
       position: relative;
       z-index: 2;
+
 
       #typed-home{
         color: $green;
@@ -107,6 +109,8 @@
         margin: 12px;
         height: 190px;
         position: relative;
+        text-decoration: none;
+
         .title{
           font-weight: 400;
           font-size: 24px;
@@ -202,7 +206,7 @@
 
   .third-section, .fourth-section{
     text-align: center;
-
+    padding-top: 110px;
     h2{
       font-size: 36px;
       color: $green;
@@ -253,9 +257,6 @@
       }
 
     }
-  }
-  .fourth-section{
-    padding-top: 110px;
   }
 }
 .key-figures{
