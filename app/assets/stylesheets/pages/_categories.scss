@@ -369,6 +369,9 @@
       background-color: $red;
       height: 320px;
       .category-link{
+        .title{
+          width: 279px;
+        }
         svg{
           g,circle, path {
             stroke: $red-darker;
