@@ -28,22 +28,22 @@
 
         <li id="nav_about">
           <%= link_to about_path do %>
-            <%= t("navbar.about") %>
+            <%= Title.find_by_unique_key("navigation_about_us")&.translate(locale) %>
           <% end %>
           <ul class="nav-menu-drop-down">
             <li id="nav_team" class="about-nav">
               <%= link_to about_path(:anchor => 'team-anchor') do %>
-                <%= t("navbar.team") %>
+                <%= Title.find_by_unique_key("navigation_team")&.translate(locale) %>
               <% end %>
             </li>
             <li id="nav_whereto" class="about-nav d-none">
-              <%= link_to about_path(:anchor => 'location-anchor') do %>
-                <%= t("navbar.whereto") %>
+              <%= link_to values_path(:anchor => 'location-anchor') do %>
+                <%= Title.find_by_unique_key("navigation_our_values")&.translate(locale) %>
               <% end %>
             </li>
             <li id="nav_probono" class="about-nav">
-              <%= link_to about_path(:anchor => 'probono-anchor') do %>
-                <%= t("navbar.probono") %>
+              <%= link_to values_path(:anchor => 'location-anchor') do %>
+                <%= Title.find_by_unique_key("navigation_our_values")&.translate(locale) %>
               <% end %>
             </li>
           </ul>

@@ -65,9 +65,9 @@ class PagesController < ApplicationController
       if Rails.env == "production"
         @products = []
         @products << Product.find(237)
-        @products << Product.find(239)
-        @products << Product.find(241)
+        @products << Product.find(238)
         @products << Product.find(240)
+        @products << Product.find(239)
       else
         @products = Product.where("name_en IS NOT NULL").take(4)
       end
@@ -120,7 +120,7 @@ class PagesController < ApplicationController
         @products_2 << Product.find(247)
         @products_3 << Product.find(248)
         @products_3 << Product.find(249)
-        @products_3 << Product.find(245)
+        @products_3 << Product.find(250)
       else
         @products_1 = Product.where("name_en IS NOT NULL").take(4)
         @products_2 = Product.where("name_en IS NOT NULL").take(4)

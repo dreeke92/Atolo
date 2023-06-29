@@ -600,45 +600,61 @@ task addContentTitle: :environment do
 
 # navigation
 
- Title.find_or_create_by(
-    unique_key: "navigation_languages",
-    page: "all",
-    title_en: "Languages"
-  )
- Title.find_or_create_by(
-    unique_key: "navigation_communication",
-    page: "all",
-    title_en: "Communication"
-  )
- Title.find_or_create_by(
-    unique_key: "navigation_people",
-    page: "all",
-    title_en: "People & Culture"
-  )
- Title.find_or_create_by(
-    unique_key: "navigation_leadership",
-    page: "all",
-    title_en: "Leadership"
-  )
-  Title.find_or_create_by(
-    unique_key: "navigation_language_scan",
-    page: "all",
-    title_en: "Language Scan"
-  )
-  Title.find_or_create_by(
+ # Title.find_or_create_by(
+ #    unique_key: "navigation_languages",
+ #    page: "all",
+ #    title_en: "Languages"
+ #  )
+ # Title.find_or_create_by(
+ #    unique_key: "navigation_communication",
+ #    page: "all",
+ #    title_en: "Communication"
+ #  )
+ # Title.find_or_create_by(
+ #    unique_key: "navigation_people",
+ #    page: "all",
+ #    title_en: "People & Culture"
+ #  )
+ # Title.find_or_create_by(
+ #    unique_key: "navigation_leadership",
+ #    page: "all",
+ #    title_en: "Leadership"
+ #  )
+ #  Title.find_or_create_by(
+ #    unique_key: "navigation_language_scan",
+ #    page: "all",
+ #    title_en: "Language Scan"
+ #  )
+ #  Title.find_or_create_by(
+ #    unique_key: "navigation_about_us",
+ #    page: "all",
+ #    title_en: "About us"
+ #  )
+ #  Title.find_or_create_by(
+ #    unique_key: "navigation_whats_new",
+ #    page: "all",
+ #    title_en: "What's new"
+ #  )
+ #  Title.find_or_create_by(
+ #    unique_key: "navigation_contact",
+ #    page: "all",
+ #    title_en: "Contact"
+ #  )
+
+
+Title.find_or_create_by(
     unique_key: "navigation_about_us",
     page: "all",
     title_en: "About us"
   )
-  Title.find_or_create_by(
-    unique_key: "navigation_whats_new",
+ Title.find_or_create_by(
+    unique_key: "navigation_navigation_team",
     page: "all",
-    title_en: "What's new"
+    title_en: "Team"
   )
-  Title.find_or_create_by(
-    unique_key: "navigation_contact",
+ Title.find_or_create_by(
+    unique_key: "navigation_our_values",
     page: "all",
-    title_en: "Contact"
+    title_en: "Our values"
   )
-
 end

@@ -148,7 +148,7 @@
             <%= Title.find_by_unique_key("pillar_trainers_description")&.translate(locale) %>
           </div>
           <div class="btn-div">
-            <%= link_to about_path, class:"regular" do %><span><%= Title.find_by_unique_key("pillar_trainers_cta")&.translate(locale) %> <%= render 'shared/svg/arrow-right-circle' %></span>
+            <%= link_to contact_path, class:"regular" do %><span><%= Title.find_by_unique_key("pillar_trainers_cta")&.translate(locale) %> <%= render 'shared/svg/arrow-right-circle' %></span>
             <% end %>
           </div>
         </div>

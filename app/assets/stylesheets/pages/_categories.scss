@@ -323,6 +323,10 @@
       }
     }
 
+    .big_category{
+      height: 350px;
+    }
+
   }
 
   .red{
@@ -363,6 +367,7 @@
     .big-category{
       width: 30%;
       background-color: $red;
+      height: 320px;
       .category-link{
         svg{
           g,circle, path {
