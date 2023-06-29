@@ -325,6 +325,11 @@
 
     .big-category{
       height: 350px;
+      .category-link{
+        .title{
+          width: 490px;
+        }
+      }
     }
 
   }
