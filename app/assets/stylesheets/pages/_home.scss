@@ -395,4 +395,32 @@
       margin-bottom: 20px;
     }
   }
+
+  @media (max-width: 768px) {
+
+    .second-section{
+      min-height: 200px;
+
+      .categories{
+        display: flex;
+        width: auto;
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        position: relative;
+
+        .category{
+          min-width: 281px;
+        }
+      }
+    }
+
+    .key-figures .figures .figure-card {
+        border-right: none;
+    }
+
+    .third-section{
+      padding-top: 90px;
+    }
+  }
 }

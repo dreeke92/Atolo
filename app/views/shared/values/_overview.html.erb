@@ -1,80 +1,76 @@
-<section class="banner style1 orient-right content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
-  <div class="content">
-    <h2 class="margin-top"><%= t('values.introduction_title') %></h2>
-    <p class="major small-font  align-justify"><%= t('values.introduction_text') %></p>
-    <ul class="actions stacked">
-      <li><a href="#value-one-anchor" class="button large wide smooth-scroll"><%= t('values.discover') %></a></li>
-    </ul>
-  </div>
-  <div class="image">
-    <%#= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473839/people11.jpg", :alt => "image") %>
-    <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1561639310/Atolo-46.jpg", :alt => "image") %>
+<section class="container">
+  <div class="first-section">
+    <div class="image">
+    <%= image_tag("about_values.png", :alt => "image") %>
+    </div>
+    <div class="content">
+      <h2 class="margin-top"><%= t('values.introduction_title') %></h2>
+      <p class="align-justify"><%= t('values.introduction_text') %></p>
+      <ul class="actions stacked">
+        <li><a href="#value-one-anchor" class="regular"><span><%= t('values.discover') %> <%= image_tag 'icons/arrow-down-circle.svg' %></span></a></li>
+      </ul>
+    </div>
   </div>
 </section>
 
+
+
 <div id="value-one-anchor" class="value-one-anchor"></div>
 <!-- Spotlight -->
-<section id="value-one" class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in onload-content-fade-right" id="first">
+<section id="value-one" class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in onload-content-fade-right">
   <div class="content">
     <h2><%= t('values.value_one.title') %></h2>
     <p class="align-justify"><%= t('values.value_one.content') %></p>
-    <ul class="actions stacked text-align-center">
-      <li>
-        <div class="chevron-container">
-          <a href="#value-two-anchor" class="smooth-scroll chevron-holder chevron-grey">
-          <i class="fas fa-chevron-down"></i>
-          </a>
-        </div>
-      </li>
-    </ul>
   </div>
   <div class="image">
 
-    <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1569150484/value_nine.jpg", :alt => "image") %>
+    <%= image_tag("about_driven_by_people.png", :alt => "image") %>
   </div>
 </section>
 
 <div id="value-two-anchor" class="value-two-anchor"></div>
 <!-- Spotlight -->
-<section id="value-two" class="spotlight style1 orient-right content-align-left image-position-center  onscroll-image-fade-in onscroll-content-fade-left" id="first">
+<section id="value-two" class="spotlight style1 orient-right content-align-left image-position-center  onscroll-image-fade-in onscroll-content-fade-left">
   <div class="content">
     <h2><%= t('values.value_two.title') %></h2>
     <p class="align-justify"><%= t('values.value_two.content') %></p>
-    <ul class="actions stacked text-align-center">
-      <li>
-        <div class="chevron-container">
-          <a href="#value-three-anchor" class="smooth-scroll chevron-holder chevron-grey">
-          <i class="fas fa-chevron-down"></i>
-          </a>
-        </div>
-      </li>
-    </ul>
   </div>
   <div class="image">
-
-    <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473861/value_five.jpg", :alt => "image") %>
+    <%= image_tag("about_committed_to_impact.png", :alt => "image") %>
   </div>
 </section>
 
 <div id="value-three-anchor" class="value-three-anchor"></div>
   <!-- Spotlight -->
-<section id="value-three" class="spotlight style1 orient-left content-align-left image-position-center  onscroll-image-fade-in onscroll-content-fade-right" id="first">
+<section id="value-three" class="spotlight style1 orient-left content-align-left image-position-center  onscroll-image-fade-in onscroll-content-fade-right">
   <div class="content">
     <h2><%= t('values.value_three.title') %></h2>
     <p class="align-justify"><%= t('values.value_three.content') %></p>
-    <ul class="actions stacked text-align-center">
-      <li>
-        <div class="chevron-container">
-          <a href="#contact-anchor" class="smooth-scroll chevron-holder chevron-grey">
-          <i class="fas fa-chevron-down"></i>
-          </a>
-        </div>
-      </li>
-    </ul>
   </div>
   <div class="image">
 
-    <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559473861/value_four.jpg", :alt => "image") %>
+    <%= image_tag("about_dedicated_to_growth.png", :alt => "image") %>
   </div>
 </section>
 
+<div id="value-four-anchor" class="value-two-anchor"></div>
+<!-- Spotlight -->
+<section id="value-four" class="spotlight style1 orient-right content-align-left image-position-center  onscroll-image-fade-in onscroll-content-fade-left">
+  <div class="content">
+    <h2><%= "Pro Bono" %></h2>
+    <p class="align-justify"><%= t('values.value_two.content') %></p>
+  </div>
+  <div class="image">
+    <%= image_tag("about_pro_bono.png", :alt => "image") %>
+  </div>
+</section>
+
+<div class="contact-banner">
+  <div class="contact-us-text">
+    <%= Title.find_by_unique_key("shared_curious_to_know_more")&.translate(locale) %>
+  </div>
+  <%= link_to contact_path, class:"contact-us-btn" do %>
+    <%= Title.find_by_unique_key("shared_btn_contact_us")&.translate(locale) %>
+    <%= render 'shared/svg/arrow-right-circle' %>
+  <% end %>
+</div>

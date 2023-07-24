@@ -146,6 +146,8 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-wrap: wrap-reverse;
+
       .content{
         display: flex;
         flex-direction: column;
@@ -388,4 +390,50 @@
     }
 
   }
+
+
+  @media (max-width: 768px) {
+
+    .second-section, .yellow .second-section, .green .second-section{
+      height: auto;
+
+      .categories{
+        position: relative;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        top: auto;
+      }
+    }
+    .first-section{
+      padding-bottom: 0px;
+    }
+
+    .first-section img {
+      position: relative;
+      width: 100%;
+      margin-top: 50px;
+
+    }
+
+    .quadrant-text-container{
+      margin-top: 40px;
+    }
+
+    .quadrant-visual-container{
+      img{
+        max-width: 100%;
+      }
+    }
+    .trainers .trainers-flex img{
+      width: 100%;
+      margin-bottom: 60px;
+    }
+
+    .trainers .btn-div .regular {
+      display:block;
+      text-align: center;
+    }
+
+  }
 }
+

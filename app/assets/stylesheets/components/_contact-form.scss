@@ -6,7 +6,7 @@
 }
 
 #contact-us {
-  background: linear-gradient(rgba(255,255,255,0), rgba(0,0,0,0.7)), url('https://res.cloudinary.com/dr7ypsdyf/image/upload/v1561640930/Atolo.jpg') fixed center center;
+  background: url('contact_background.png') fixed center center;
   background-size: cover;
   text-align: center;
   display: flex;
@@ -31,6 +31,133 @@
 }
 
 #main-contact-form{
-  background: linear-gradient(rgba(255,255,255,0.3), rgba(0,0,0,0.7)), url('https://res.cloudinary.com/dr7ypsdyf/image/upload/v1561640930/Atolo.jpg') fixed center center;
+  background: url('contact_background.png');
   background-size: cover;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  position: relative;
+  padding: 5rem 5rem 3rem 5rem;
+  text-align: left;
+
+  .content{
+    position: relative;
+    width: 30rem;
+    max-width: 100%;
+    margin-bottom: 2rem;
+    z-index: 1;
+    margin-top: 110px;
+
+    #contact-form{
+      h2{
+        color: $green;
+      }
+    }
+  }
+
+  .informations{
+    margin-top: 110px;
+    color: white;
+    font-size: 18px;
+    width: 40%;
+
+    .description{
+      margin-bottom: 35px;
+    }
+
+    h2{
+      font-size: 40px;
+      color: white;
+      font-weight: 400;
+    }
+
+    h3{
+      color: white;
+      font-size: 26px;
+      margin-top: 70px;
+      font-weight: 400;
+    }
+  }
+  .row{
+    margin-bottom: 35px;
+  }
+
+  .network-link{
+    a{
+      color: white;
+      .fab{
+        background-color: white;
+        color: #362D40;
+        font-size: 15px;
+        padding: 8px;
+        border-radius: 100%;
+      }
+    }
+    &:hover{
+      .fab{
+        background-color: $green;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+    padding: 3rem 3rem 1rem 3rem;
+
+    .content{
+      width: 100%;
+    }
+
+    .informations{
+      width: 100%;
+    }
+  }
+}
+
+
+.contact-banner{
+  background-color: #41748D;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+    .contact-us-text{
+      margin-bottom: 50px;
+    }
+  }
+
+  .contact-us-text{
+    font-size: 52px;
+    font-weight: 400;
+    color: white;
+  }
+  .contact-us-btn{
+    background-color: #1E4050;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    border-radius: 100px;
+    width: 375px;
+    justify-content: space-between;
+    font-size: 32px;
+    font-weight: 400;
+    text-decoration: none;
+
+    svg{
+      transition: 250ms;
+    }
+
+    &:hover{
+      svg{
+        margin-right: 30px
+      }
+    }
+  }
 }

@@ -70,7 +70,7 @@
  }
 }
 
-#products_preview, #products_show, #pages_category{
+#products_preview, #products_show, #pages_category {
 
   .container{
     .first-section{
@@ -198,43 +198,7 @@
       }
     }
   }
-  .third-section{
-    background-color: #41748D;
-    padding-top: 96px;
-    padding-bottom: 96px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 
-    .contact-us-text{
-      font-size: 52px;
-      font-weight: 400;
-      color: white;
-    }
-    .contact-us-btn{
-      background-color: #1E4050;
-      color: white;
-      display: flex;
-      align-items: center;
-      padding: 30px;
-      border-radius: 100px;
-      width: 375px;
-      justify-content: space-between;
-      font-size: 32px;
-      font-weight: 400;
-      text-decoration: none;
-
-      svg{
-        transition: 250ms;
-      }
-
-      &:hover{
-        svg{
-          margin-right: 30px
-        }
-      }
-    }
-  }
 
   .blue{
     .first-section{
@@ -264,7 +228,7 @@
       }
     }
 
-    .third-section{
+    .contact-banner{
       background-color: $blue;
 
       .contact-us-btn{
@@ -311,7 +275,7 @@
       }
     }
 
-    .third-section{
+    .contact-banner{
       background-color: $yellow;
       .contact-us-btn{
         background-color: $yellow-darker;
@@ -357,7 +321,7 @@
       }
     }
 
-    .third-section{
+    .contact-banner{
       background-color: $red;
       .contact-us-btn{
         background-color: #8D073B;
@@ -403,7 +367,7 @@
       }
     }
 
-    .third-section{
+    .contact-banner{
       background-color: $green-2;
       .contact-us-btn{
         background-color: #007B55;
@@ -414,6 +378,20 @@
           stroke: $green-2;
         }
       }
+    }
+  }
+  @media (max-width: 768px) {
+    .first-section .quote, .first-section .quote-author{
+      display: none;
+    }
+
+    .second-section .container .relative-content{
+      height: auto;
+      margin-bottom: 0px;
+      padding-bottom: 100px;
+    }
+    .second-section .container .practicalities.absolute{
+      position: relative;
     }
   }
 }

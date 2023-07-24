@@ -642,19 +642,55 @@ task addContentTitle: :environment do
  #  )
 
 
-Title.find_or_create_by(
-    unique_key: "navigation_about_us",
-    page: "all",
-    title_en: "About us"
-  )
- Title.find_or_create_by(
-    unique_key: "navigation_navigation_team",
-    page: "all",
-    title_en: "Team"
-  )
- Title.find_or_create_by(
-    unique_key: "navigation_our_values",
-    page: "all",
-    title_en: "Our values"
-  )
+# Title.find_or_create_by(
+#     unique_key: "navigation_about_us",
+#     page: "all",
+#     title_en: "About us"
+#   )
+#  Title.find_or_create_by(
+#     unique_key: "navigation_navigation_team",
+#     page: "all",
+#     title_en: "Team"
+#   )
+#  Title.find_or_create_by(
+#     unique_key: "navigation_our_values",
+#     page: "all",
+#     title_en: "Our values"
+#   )
+#####################################################################################################
+  # Title.find_or_create_by(
+  #   unique_key: "values_title",
+  #   page: "values",
+  #   title_en: I18n.t('values.introduction_title', locale: :en),
+  #   title_fr: I18n.t('values.introduction_title', locale: :fr),
+  #   title_nl: I18n.t('values.introduction_title', locale: :nl),
+  #   title_de: I18n.t('values.introduction_title', locale: :de)
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "values_introduction",
+  #   page: "values",
+  #   title_en: I18n.t('values.introduction_text', locale: :en),
+  #   title_fr: I18n.t('values.introduction_text', locale: :fr),
+  #   title_nl: I18n.t('values.introduction_text', locale: :nl),
+  #   title_de: I18n.t('values.introduction_text', locale: :de)
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "values_discover_btn",
+  #   page: "values",
+  #   title_en: I18n.t('values.discover', locale: :en),
+  #   title_fr: I18n.t('values.discover', locale: :fr),
+  #   title_nl: I18n.t('values.discover', locale: :nl),
+  #   title_de: I18n.t('values.discover', locale: :de)
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "values_discover_btn",
+  #   page: "values",
+  #   title_en: I18n.t('values.discover', locale: :en),
+  #   title_fr: I18n.t('values.discover', locale: :fr),
+  #   title_nl: I18n.t('values.discover', locale: :nl),
+  #   title_de: I18n.t('values.discover', locale: :de)
+  # )
 end

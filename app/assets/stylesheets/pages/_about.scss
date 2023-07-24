@@ -40,3 +40,223 @@ div.probono-anchor{
     font-size: 1.25rem;
   }
 }
+
+#pages_values{
+
+  h2{
+    font-size: 36px;
+    color: $green;
+    font-weight:400;
+    margin-bottom: 25px;
+  }
+
+  section.container:first-of-type{
+    // margin-top: 79px;
+  }
+  .first-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .image{
+      max-width: 38%;
+
+      img{
+        max-width: 100%;
+      }
+    }
+    .content{
+      max-width: 50%;
+      font-weight: 400;
+    }
+
+    @media (max-width: 768px) {
+      .image{
+        width: 80%;
+        max-width: 100%;
+        margin: auto;
+        margin-top: 130px;
+
+        img{
+          max-width: 100%;
+        }
+      }
+
+
+      .content{
+        min-width: 100%;
+        padding-top: 40px;
+      }
+
+    }
+  }
+
+  section#value-one{
+    background-color: $light-gray;
+    box-shadow: none;
+
+    h2{
+      color: $yellow;
+    }
+  }
+
+  section#value-two{
+    h2{
+      color: $red;
+    }
+  }
+
+  section#value-three{
+    h2{
+      color: $blue-light;
+    }
+  }
+
+  .content{
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  .content > p{
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .contact-banner{
+    background-color: $green;
+    .contact-us-btn{
+      background-color: $green-darker;
+    }
+
+    svg > #arrow-right-circle{
+      circle, line, path{
+        stroke: $green;
+      }
+    }
+  }
+}
+
+#pages_about{
+  section.banner.style1:first-of-type{
+    margin-top: 79px;
+
+    .image{
+      width: 40%;
+    }
+
+    h2{
+      font-size: 54px;
+      font-weight: 500;
+      color: $green;
+      margin-bottom: 30px;
+    }
+
+    ul.actions.stacked{
+      margin-top: 80px;
+      margin-bottom: 40px;
+    }
+  }
+
+  .content{
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  .content > p{
+    font-size: 18px;
+    font-weight: 400;
+  }
+  #members-section{
+    background-color: $light-gray;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    h2{
+      color: $green;
+    }
+  }
+
+  .members{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .profile-card{
+    width: 350px;
+    text-align: center;
+    margin-bottom: 50px;
+
+
+    .avatar-large{
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      box-shadow: 3px 3px 6px #0000001A;
+      border-radius: 15px;
+      height: 149px;
+      width: 149px;
+    }
+    &-description{
+      margin-bottom: 30px;
+      .trix-content{
+        font-size: 16px;
+        height: 225px;
+      }
+    }
+    &-author{
+      margin-bottom: 30px;
+      h3, h4{
+        font-size: 18px;
+        color: $green;
+        font-weight: 400;
+        margin-bottom: 8px;
+      }
+    }
+    .icons{
+      .icon{
+        margin-top: 42px;
+        font-size: 14px;
+        margin-right: 8px;
+        margin-left: 8px;
+
+        color: $green;
+        .fab, .fas {
+          background-color: lightgray;
+          color: white;
+          font-size: 19px;
+          padding: 8px;
+          border-radius: 100%;
+        }
+        &:hover{
+          .fab, .fas {
+            background-color: $green;
+          }
+        }
+      }
+    }
+  }
+
+  .contact-banner{
+    background-color: $green;
+    .contact-us-btn{
+      background-color: $green-darker;
+    }
+
+    svg > #arrow-right-circle{
+      circle, line, path{
+        stroke: $green;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    .banner.style1.fullscreen .image {
+      display: none;
+    }
+
+    .members{
+      justify-content:center
+    }
+  }
+}

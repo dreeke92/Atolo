@@ -1,50 +1,52 @@
 <!-- Team -->
-  <section class="banner style1 orient-right content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
-    <div class="content no-padding">
-      <h2 class="margin-top"><%= t('about.spotlight.title') %></h2>
-      <p class="small-font align-justify"><%= t('about.spotlight.content') %></p>
-      <ul class="actions stacked">
-        <li><a href="#team-anchor" class="button large wide smooth-scroll"><%= t('about.spotlight.meet') %></a></li>
-      </ul>
-    </div>
-    <div class="image">
-      <%#= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1559226230/spotlight02.jpg", :alt => "image") %>
-      <%#= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1561639319/Atolo-48.jpg", :alt => "image") %>
-      <%= image_tag("https://res.cloudinary.com/dr7ypsdyf/image/upload/v1569148428/team2.jpg", :alt => "image", :style => "object-position: center;") %>
-    </div>
-  </section>
+<section class="banner style1 orient-right content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+  <div class="content no-padding">
+    <h2 class="margin-top"><%= t('about.spotlight.title') %></h2>
+    <p class="small-font align-justify"><%= t('about.spotlight.content') %></p>
+    <ul class="actions stacked">
+      <li><a href="#team-anchor" class="regular"><span><%= t('about.spotlight.meet') %> <%= image_tag 'icons/arrow-down-circle.svg' %></span></a></li>
+    </ul>
+  </div>
+  <div class="image">
+    <%= image_tag("about_team.png", :alt => "image", :style => "object-position: center;") %>
+  </div>
+</section>
 
-  <div id="team-anchor" class="team-anchor"></div>
-  <!-- Items team -->
-  <section class="wrapper style1 align-center">
-    <div class="inner">
-      <h2><%= t('about.team.title') %></h2>
-      <h4><%= t('about.team.sub_title') %></h4>
-      <div class="items style1 medium onscroll-fade-in">
-        <% Member.all.order(first_name: :asc).each do |member| %>
-          <section>
-            <div class="flip-profile-card">
-              <div class="flip-profile-card-inner">
-                <div class="flip-profile-card-front">
-                  <% if member.photo_url %>
-                    <%= image_tag(member.photo_url, :alt => "image", :class => "avatar-large") %>
-                  <% end %>
-                  <h3 class="margin-top-name"><span class="atolo-green"><%= member.first_name %></span> <%= member.last_name %></h3>
-                  <h4><%= member.role %></h4>
-                </div>
-                <div class="flip-profile-card-back">
-                  <h3><%= member.first_name %> <%= member.last_name %></h3>
-                  <div class="xm-small-font profile-content-align"><%= eval("member.description_#{I18n.locale}") %></div>
-                </div>
-              </div>
-            </div>
-            <ul class="icons">
-              <li><a class ="icon style2" href=<% member.linkedin %> target="blank"><i class="fab fa-linkedin"></i></a></li>
-              <li><a class ="icon style2" href="mailto:<%= member.email %>"><i class="fas fa-envelope"></i></a></li>
-            </ul>
-          </section>
-        <% end %>
-      </div>
+<div id="team-anchor" class="team-anchor"></div>
+<!-- Items team -->
+<section id="members-section" class="wrapper style1 align-center">
+  <div class="inner">
+    <h2><%= t('about.team.title') %></h2>
+    <h4><%= t('about.team.sub_title') %></h4>
+    <div class="members">
+      <% Member.all.order(first_name: :asc).each do |member| %>
+        <section class="profile-card">
+          <% if member.photo_url %>
+            <%= image_tag(member.photo_url, :alt => "image", :class => "avatar-large") %>
+          <% end %>
+          <div class="profile-card-description">
+            <%= eval("member.description_#{I18n.locale}") %>
+          </div>
+          <div class="profile-card-author">
+            <h3><%= "#{member.first_name} #{member.last_name}" %></h3>
+            <h4><%= member.role %></h4>
+          </div>
+          <div class="icons">
+            <a class ="icon" href=<% member.linkedin %> target="blank"><i class="fab fa-linkedin-in"></i></a>
+            <a class ="icon" href="mailto:<%= member.email %>"><i class="fas fa-envelope"></i></a>
+          </div>
+        </section>
+      <% end %>
     </div>
-  </section>
+  </div>
+</section>
 
+<div class="contact-banner">
+  <div class="contact-us-text">
+    <%= Title.find_by_unique_key("shared_curious_to_know_more")&.translate(locale) %>
+  </div>
+  <%= link_to contact_path, class:"contact-us-btn" do %>
+    <%= Title.find_by_unique_key("shared_btn_contact_us")&.translate(locale) %>
+    <%= render 'shared/svg/arrow-right-circle' %>
+  <% end %>
+</div>
