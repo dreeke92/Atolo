@@ -183,12 +183,13 @@ div.probono-anchor{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .profile-card{
     width: 350px;
     text-align: center;
     margin-bottom: 50px;
+    padding: 0px 15px;
 
 
     .avatar-large{
@@ -197,6 +198,11 @@ div.probono-anchor{
       border-radius: 15px;
       height: 149px;
       width: 149px;
+      display: block;
+      margin: auto;
+      margin-bottom: 30px;
+      background-position: center;
+      background-size: cover;
     }
     &-description{
       margin-bottom: 30px;

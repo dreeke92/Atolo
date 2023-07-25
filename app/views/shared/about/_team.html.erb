@@ -22,7 +22,8 @@
       <% Member.all.order(first_name: :asc).each do |member| %>
         <section class="profile-card">
           <% if member.photo_url %>
-            <%= image_tag(member.photo_url, :alt => "image", :class => "avatar-large") %>
+            <div class="avatar-large" style="background-image: url(<%= image_url(member.photo_url) %>)">
+            </div>
           <% end %>
           <div class="profile-card-description">
             <%= eval("member.description_#{I18n.locale}") %>

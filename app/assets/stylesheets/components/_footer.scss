@@ -63,12 +63,18 @@ footer{
   .footer-address-large{
     display: none;
   }
+
+  .col-xs-12 {
+    width: 90%;
+  }
 }
 
 @media screen and (min-width: 1000px) {
   .footer-address-small{
     display: none;
   }
+
+
 }
 
 .disclaimer-container{

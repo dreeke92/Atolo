@@ -31,7 +31,6 @@ function testimonialCarousel() {
   $(document).ready(function(){
     $('.two-card-carousel').owlCarousel({
         merge: true,
-        items: 2,
         smartSpeed: 1000,
         loop:true,
         margin:10,

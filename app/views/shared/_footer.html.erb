@@ -2,15 +2,15 @@
   <footer class="wrapper style1 footer-border">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 align-left small-font footer-address-large">
+        <div class="col-xs-12 col-md-6 align-left small-font footer-address-large">
           <%= link_to welcome_path, :class => 'no-text-decoration' do %>
             <%= image_tag("atolo-logo/atolo.png", :class => "atolo-logo", :alt => "atolo") %>
           <% end %>
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-xs-12 col-md-6">
               <%= link_to "#{Title.find_by_unique_key("navigation_languages")&.translate(locale)}", category_path(category: "languages"), class:"footer-link" %>
             </div>
-            <div class="col-md-6">
+            <div class="col-xs-12 col-md-6">
               <%= link_to "#{Title.find_by_unique_key("navigation_language_scan")&.translate(locale)}", eval_path, class:"footer-link" %>
             </div>
           </div>
@@ -23,18 +23,18 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-xs-12 col-md-6">
               <%= link_to "#{Title.find_by_unique_key("navigation_people")&.translate(locale)}", category_path(category: "people_and_culture"), class:"footer-link" %>
             </div>
-            <div class="col-md-6">
+            <div class="col-xs-12 col-md-6">
               <%= link_to "#{Title.find_by_unique_key("navigation_whats_new")&.translate(locale)}", summer_class_path, class:"footer-link" %>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-6">
+            <div class=" col-xs-12 col-md-6">
               <%= link_to "#{Title.find_by_unique_key("navigation_leadership")&.translate(locale)}", category_path(category: "leadership"), class:"footer-link" %>
             </div>
-            <div class="col-md-6">
+            <div class="col-xs-12 col-md-6">
               <%= link_to "#{Title.find_by_unique_key("navigation_contact")&.translate(locale)}", contact_path, class:"footer-link" %>
             </div>
           </div>
@@ -47,31 +47,31 @@
           <li><a class ="icon style2" href="mailto:welcome@atolo.eu"><i class="fas fa-envelope"></i></a></li>
         </ul> -->
         <!-- <p>&copy; Terms of use.</p> -->
-    <div class="col-md-6">
+    <div class="col-xs-12 col-md-6">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-xs-12 col-md-6">
           <div class="adress-title">ATOLO SA/NV</div>
            Avenue de Tervurenlaan 36/18</br>
            1040 Brussels
         </div>
-        <div class="col-md-6">
+        <div class="col-xs-12 col-md-6">
           <div class="adress-title">Atolo Sàrl</div>
           Rue du Petit-Chêne 18ter</br>
           1003 Lausanne
         </div>
       </div>
       <div class="row contact">
-        <div class="col-md-6">
+        <div class="col-xs-12 col-md-6">
           T. +32 2 609 50 90 </br>E. welcome@atolo.eu
         </div>
-        <div class="col-md-6">
+        <div class="col-xs-12 col-md-6">
           T. +41 21 806 55 55 </br>T. +41 78 736 92 58
         </div>
       </div>
     </div>
   </div>
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-xs-12 col-md-6">
         <div class="copywrite">
           © 2023 Atolo |
           <% LegalPage.all.each do |page| %>

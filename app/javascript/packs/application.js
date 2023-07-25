@@ -67,7 +67,10 @@ import Typed from 'typed.js';
 
 const typed = new Typed('#typed-home', {
   strings: ['communicate', 'collaborate', 'connect'],
-  typeSpeed: 100,
+  typeSpeed: 80,
+  backSpeed: 80,
+  backDelay: 1000,
+  startDelay: 1000,
   loop: true,
   loopCount: Infinity,
   showCursor: false,
