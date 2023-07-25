@@ -45,6 +45,57 @@
   width: 260px;
   overflow-y: auto;
   transition: 0.4s;
+
+    li{
+      border-top: 5px solid transparent;
+
+      .nav-link{
+        // height: 75px;
+        display: flex;
+        align-items: center;
+      }
+      &#nav_red{
+        a{
+          color: $red;
+        }
+        &:hover, &:active{
+          border-top: 5px solid $red;
+        }
+      }
+      &#nav_blue{
+        a{
+          color: $blue;
+        }
+        &:hover, &:active{
+          border-top: 5px solid $blue;
+        }
+      }
+      &#nav_yellow{
+        a{
+          color: $yellow;
+        }
+        &:hover, &:active{
+          border-top: 5px solid $yellow;
+        }
+      }
+      &#nav_green{
+        a{
+          color: $green-2;
+        }
+        &:hover, &:active{
+          border-top: 5px solid $green-2;
+        }
+      }
+      &#nav_about, &#nav_eval, &#nav_events{
+        a{
+          color: #373A36;
+        }
+        &:hover, &:active{
+          border-top: 5px solid $green;
+        }
+      }
+    }
+
 }
 
 #mobile-nav ul {
@@ -68,8 +119,16 @@
   width: 100%;
   display: block;
   outline: none;
+
+  font-weight: 600;
   // font-weight: 700;
   // font-family: "Montserrat", sans-serif;
+
+  &.regular{
+    display:inline-block;
+    width: auto;
+    color: white;
+  }
 }
 
 #mobile-nav ul li a:hover {
