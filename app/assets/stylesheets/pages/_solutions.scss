@@ -155,3 +155,74 @@ div.contact-anchor{
 .trainers {
   border-top: solid 1px rgba(0, 0, 0, 0.075);
 }
+
+#pages_eval{
+  section.banner.style1{
+    h2{
+      font-size: 48px;
+      font-weight: 400;
+      color: $green;
+    }
+
+    h3{
+      font-size: 28px;
+      font-weight: 400;
+      color: $green;
+      margin-bottom: 37px;
+    }
+    .content{
+      .trix-content{
+        margin-bottom: 48px;
+        font-size: 18px;
+        color: #373A36;
+      }
+    }
+    .image{
+      width: 40%;
+    }
+    .regular{
+      margin-right: 30px;
+    }
+  }
+  section#value-one, section#value-two {
+    .content{
+      padding-top: 140px;
+      padding-bottom: 140px;
+    }
+
+    h3{
+      font-size: 32px;
+      font-weight: 400;
+      color: $green;
+    }
+    .trix-content{
+      margin-bottom: 48px;
+      font-size: 18px;
+      color: #373A36;
+    }
+  }
+  section#value-one{
+    background-color: $light-gray;
+    box-shadow: none;
+  }
+
+  .contact-banner{
+    background-color: $green;
+    flex-direction: column;
+
+    .contact-us-text{
+      max-width: 650px;
+      margin-bottom: 60px;
+    }
+    .contact-us-btn{
+      background-color: $green-darker;
+      width: 520px;
+    }
+
+    svg > #arrow-right-circle{
+      circle, line, path{
+        stroke: $green;
+      }
+    }
+  }
+}

@@ -855,7 +855,7 @@ task addContentTitle: :environment do
   Title.find_or_create_by(
     unique_key: "language_scan_btn_eval",
     page: "language_scan",
-    title_en: "I want a free demo"
+    title_en: "Discover Atolo eval"
   )
 
   Title.find_or_create_by(

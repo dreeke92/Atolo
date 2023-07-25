@@ -22,7 +22,7 @@
         <li id="nav_green" >
           <%= link_to "#{Title.find_by_unique_key("navigation_leadership")&.translate(locale)}", category_path(category: "leadership"), class:"nav-link" %>
         </li>
-        <li id="nav_eval" class="offer-nav eval_visible">
+        <li id="nav_eval">
           <%= link_to "#{Title.find_by_unique_key("navigation_language_scan")&.translate(locale)}", eval_path, class:"nav-link" %>
         </li>
 

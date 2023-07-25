@@ -100,17 +100,29 @@ div.probono-anchor{
     h2{
       color: $yellow;
     }
+    .content{
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
   }
 
   section#value-two{
     h2{
       color: $red;
     }
+    .content{
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
   }
 
   section#value-three{
     h2{
       color: $blue-light;
+    }
+    .content{
+      padding-top: 100px;
+      padding-bottom: 100px;
     }
   }
 

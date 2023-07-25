@@ -1,8 +1,86 @@
 <div id="solutions">
-  <div id="wrapper" class="divided">
+  <div id="wrapper" class="">
     <%= render 'shared/new_navbar' %>
-    <%= render 'shared/eval/overview' %>
-    <div id="contact-anchor" class="contact-anchor"></div>
-    <%= render 'shared/contact-counter' %>
+    <section class="banner style1 orient-right content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+      <div class="content">
+
+        <h2 class="margin-top"><%= Title.find_by_unique_key("language_scan_title")&.translate(locale) %></h2>
+        <h3><%= Title.find_by_unique_key("language_scan_subtitle")&.translate(locale) %></h3>
+
+        <div>
+          <%= Content.find_by_unique_key("language_scan_content_1")&.translate(locale) %>
+        </div>
+        <div>
+          <%= Content.find_by_unique_key("language_scan_content_2")&.translate(locale) %>
+        </div>
+
+        <div class="actions">
+          <%= link_to contact_path, :class => "regular" do %>
+            <span><%= Title.find_by_unique_key("language_scan_btn_demo")&.translate(locale) %> <%= image_tag 'icons/arrow-right-circle.svg' %></span>
+          <% end %>
+          <a href="#value-one-anchor" class="regular opposite">
+            <span><%= Title.find_by_unique_key("language_scan_btn_eval")&.translate(locale) %> <%= render 'shared/svg/arrow-right-circle' %></span>
+          </a>
+        </div>
+      </div>
+      <div class="image">
+        <%= image_tag("language_scan_intro.png", :alt => "image") %>
+      </div>
+    </section>
+
+    <div id="value-one-anchor" class="value-one-anchor"></div>
+    <!-- Spotlight -->
+    <section id="value-one" class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in onload-content-fade-right" id="first">
+      <div class="content">
+        <h3><%= Title.find_by_unique_key("language_scan_section_2_title_1")&.translate(locale) %></h3>
+        <div>
+          <%= Content.find_by_unique_key("language_scan_section_2_content_1")&.translate(locale) %>
+        </div>
+        <h3><%= Title.find_by_unique_key("language_scan_section_2_title_2")&.translate(locale) %></h3>
+        <div>
+          <%= Content.find_by_unique_key("language_scan_section_2_content_2")&.translate(locale) %>
+        </div>
+        <h3><%= Title.find_by_unique_key("language_scan_section_2_title_3")&.translate(locale) %></h3>
+        <div>
+          <%= Content.find_by_unique_key("language_scan_section_2_content_3")&.translate(locale) %>
+        </div>
+      </div>
+      <div class="image">
+
+        <%= image_tag("language_scan_section_2.png", :alt => "image") %>
+      </div>
+    </section>
+
+    <div id="value-two-anchor" class="value-two-anchor"></div>
+    <!-- Spotlight -->
+    <section id="value-two" class="spotlight style1 orient-right content-align-left image-position-center  onscroll-image-fade-in onscroll-content-fade-left" id="first">
+      <div class="content">
+        <h3><%= Title.find_by_unique_key("language_scan_section_3_title_1")&.translate(locale) %></h3>
+        <div>
+          <%= Content.find_by_unique_key("language_scan_section_3_content_1")&.translate(locale) %>
+        </div>
+        <h3><%= Title.find_by_unique_key("language_scan_section_3_title_2")&.translate(locale) %></h3>
+        <div>
+          <%= Content.find_by_unique_key("language_scan_section_3_content_2")&.translate(locale) %>
+        </div>
+        <h3><%= Title.find_by_unique_key("language_scan_section_3_title_3")&.translate(locale) %></h3>
+        <div>
+          <%= Content.find_by_unique_key("language_scan_section_3_content_3")&.translate(locale) %>
+        </div>
+      </div>
+      <div class="image">
+
+        <%= image_tag("language_scan_section_3.png", :alt => "image") %>
+      </div>
+    </section>
+  </div>
+  <div class="contact-banner">
+    <div class="contact-us-text">
+      <%= Title.find_by_unique_key("language_scan_curious_to_know_more")&.translate(locale) %>
+    </div>
+    <%= link_to contact_path, class:"contact-us-btn" do %>
+      <%= Title.find_by_unique_key("language_scan_contact_us")&.translate(locale) %>
+      <%= render 'shared/svg/arrow-right-circle' %>
+    <% end %>
   </div>
 </div>

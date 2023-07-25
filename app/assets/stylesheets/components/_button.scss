@@ -236,6 +236,18 @@
       }
     }
   }
+  &.opposite{
+    background-color: white;
+    color: $green;
+    border: 1px solid $green;
+    span{
+      svg{
+        g,circle, path {
+          stroke: $green;
+        }
+      }
+    }
+  }
 }
 
 
