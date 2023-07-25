@@ -836,17 +836,15 @@ task addContentTitle: :environment do
     title_en: "ATOLO Eval: Get started with your own language assessment platform"
   )
 
-  Content.find_or_create_by(
+  c = Content.find_or_create_by(
     unique_key: "language_scan_content_1",
-    page: "language_scan",
-    content_en: "For what purpose? Selection & recruitment. Learning & development programs. Companywide language level benchmarking. Internal language level recognition policies."
-  )
+    page: "language_scan")
+  c.content_en.update(body: "For what purpose? Selection & recruitment. Learning & development programs. Companywide language level benchmarking. Internal language level recognition policies.")
 
-  Content.find_or_create_by(
+  c = Content.find_or_create_by(
     unique_key: "language_scan_content_2",
-    page: "language_scan",
-    content_en: "Easy to use The platform is web based & user friendly The platform works seamlessly on Chrome, Safari and Firefox. Flexible & accessible."
-  )
+    page: "language_scan")
+  c.content_en.update(body: "Easy to use The platform is web based & user friendly The platform works seamlessly on Chrome, Safari and Firefox. Flexible & accessible.")
 
   Title.find_or_create_by(
     unique_key: "language_scan_btn_demo",
@@ -866,11 +864,10 @@ task addContentTitle: :environment do
     title_en: "Multiple languages available"
   )
 
-  Content.find_or_create_by(
+  c = Content.find_or_create_by(
     unique_key: "language_scan_section_2_content_1",
     page: "language_scan",
-    content_en: "Easy to use The platform is web based & user friendly The platform works seamlessly on Chrome, Safari and Firefox. Flexible & accessible."
-  )
+  c.content_en.update(body: "Easy to use The platform is web based & user friendly The platform works seamlessly on Chrome, Safari and Firefox. Flexible & accessible.")
 
   Title.find_or_create_by(
     unique_key: "language_scan_section_2_title_2",
@@ -878,22 +875,22 @@ task addContentTitle: :environment do
     title_en: "A great management tool"
   )
 
-  Content.find_or_create_by(
+  c = Content.find_or_create_by(
     unique_key: "language_scan_section_2_content_2",
-    page: "language_scan",
-    content_en: "Administration of large projects is easy and seamless. Overview of all test results in an instant. Live status on tests in a single click. Autonomy is yours! Create your own administrators (user accounts). Send out test invitations to your participants with standardised or personalised messaging options in the language of your choice. The use of the platform is intuitive. You master the essentials in a few minutes."
-  )
+    page: "language_scan")
+  c.content_en.update(body: "Administration of large projects is easy and seamless. Overview of all test results in an instant. Live status on tests in a single click. Autonomy is yours! Create your own administrators (user accounts). Send out test invitations to your participants with standardised or personalised messaging options in the language of your choice. The use of the platform is intuitive. You master the essentials in a few minutes.")
+
   Title.find_or_create_by(
     unique_key: "language_scan_section_2_title_3",
     page: "language_scan",
     title_en: "Objective, accurate and reliable"
   )
 
-  Content.find_or_create_by(
+  c = Content.find_or_create_by(
     unique_key: "language_scan_section_2_content_3",
-    page: "language_scan",
-    content_en: "An international team of language experts designed the test so as to reach clear and accurate language level results. More than 700 different questions cover passive and active knowledge, written skills and comprehension. The adaptive intelligence and the proven algorithm further ensure accuracy."
-  )
+    page: "language_scan")
+
+  c.content_en.update(body: "An international team of language experts designed the test so as to reach clear and accurate language level results. More than 700 different questions cover passive and active knowledge, written skills and comprehension. The adaptive intelligence and the proven algorithm further ensure accuracy.")
 
   Title.find_or_create_by(
     unique_key: "language_scan_section_3_title_1",
@@ -901,11 +898,11 @@ task addContentTitle: :environment do
     title_en: "Scores instantly available"
   )
 
-  Content.find_or_create_by(
+  c = Content.find_or_create_by(
     unique_key: "language_scan_section_3_content_1",
-    page: "language_scan",
-    content_en: "Results are presented on a scale both in terms of percentage and following the CEFR* guidelines. As well as immediate result consultation, an end report and an ATOLO certificate are automatically generated upon test completion."
-  )
+    page: "language_scan")
+
+  c.content_en.update(body: "Results are presented on a scale both in terms of percentage and following the CEFR* guidelines. As well as immediate result consultation, an end report and an ATOLO certificate are automatically generated upon test completion.")
 
   Title.find_or_create_by(
     unique_key: "language_scan_section_3_title_2",
@@ -913,22 +910,22 @@ task addContentTitle: :environment do
     title_en: "Great user experience"
   )
 
-  Content.find_or_create_by(
+  c = Content.find_or_create_by(
     unique_key: "language_scan_section_3_content_2",
-    page: "language_scan",
-    content_en: "User friendly and ready to go. From clicking on the test link received by mail to taking the test, everything is smooth and intuitive. Test takers barely need 35 to 40 min to complete the test. They can also choose a preferred interface language (English, French, German & Dutch available)."
-  )
+    page: "language_scan")
+  c.content_en.update(body: "User friendly and ready to go. From clicking on the test link received by mail to taking the test, everything is smooth and intuitive. Test takers barely need 35 to 40 min to complete the test. They can also choose a preferred interface language (English, French, German & Dutch available).")
+
   Title.find_or_create_by(
     unique_key: "language_scan_section_3_title_3",
     page: "language_scan",
     title_en: "Employer branding"
   )
 
-  Content.find_or_create_by(
+  c = Content.find_or_create_by(
     unique_key: "language_scan_section_3_content_3",
-    page: "language_scan",
-    content_en: "Participants will recognize your company identity when taking the test. The platform can be embedded with your company logo and colour scheme."
-  )
+    page: "language_scan")
+
+  c.content_en.update(body: "Participants will recognize your company identity when taking the test. The platform can be embedded with your company logo and colour scheme.")
 
   Title.find_or_create_by(
     unique_key: "language_scan_curious_to_know_more",
