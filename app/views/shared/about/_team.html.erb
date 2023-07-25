@@ -1,10 +1,10 @@
 <!-- Team -->
 <section class="banner style1 orient-right content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
   <div class="content no-padding">
-    <h2 class="margin-top"><%= t('about.spotlight.title') %></h2>
-    <p class="small-font align-justify"><%= t('about.spotlight.content') %></p>
+    <h2 class="margin-top"><%= Title.find_by_unique_key("team_title")&.translate(locale) %></h2>
+    <p class="small-font align-justify"><%= Title.find_by_unique_key("team_desription")&.translate(locale) %></p>
     <ul class="actions stacked">
-      <li><a href="#team-anchor" class="regular"><span><%= t('about.spotlight.meet') %> <%= image_tag 'icons/arrow-down-circle.svg' %></span></a></li>
+      <li><a href="#team-anchor" class="regular"><span><%= Title.find_by_unique_key("team_page_btn")&.translate(locale) %> <%= image_tag 'icons/arrow-down-circle.svg' %></span></a></li>
     </ul>
   </div>
   <div class="image">
@@ -16,8 +16,8 @@
 <!-- Items team -->
 <section id="members-section" class="wrapper style1 align-center">
   <div class="inner">
-    <h2><%= t('about.team.title') %></h2>
-    <h4><%= t('about.team.sub_title') %></h4>
+    <h2><%= Title.find_by_unique_key("team_members_title")&.translate(locale) %></h2>
+    <h4><%= Title.find_by_unique_key("team_members_subtitle")&.translate(locale) %></h4>
     <div class="members">
       <% Member.all.order(first_name: :asc).each do |member| %>
         <section class="profile-card">
@@ -33,7 +33,7 @@
             <h4><%= member.role %></h4>
           </div>
           <div class="icons">
-            <a class ="icon" href=<% member.linkedin %> target="blank"><i class="fab fa-linkedin-in"></i></a>
+            <a class ="icon" href=<%= member.linkedin %> target="blank"><i class="fab fa-linkedin-in"></i></a>
             <a class ="icon" href="mailto:<%= member.email %>"><i class="fas fa-envelope"></i></a>
           </div>
         </section>

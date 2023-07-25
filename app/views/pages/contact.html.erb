@@ -6,15 +6,15 @@
         <%= render 'shared/contact-form' %>
       </div>
       <div class="informations">
-        <h2>Let's get in touch</h2>
+        <h2><%= Title.find_by_unique_key("contact_title")&.translate(locale) %></h2>
         <div class="description">
-          A question about our training offer? Looking for a customised learning solution? Interested in working with us? Don’t hesitate to give us a call, to leave us a message or to meet up. We’d love to hear from you!
+          <%= Title.find_by_unique_key("contact_description")&.translate(locale) %>
         </div>
         <div class="network-link">
           <a class ="icon" href="https://www.linkedin.com/company/atolo/" target="_blank">Follow us <i class="fab fa-linkedin-in"></i></a>
         </div>
 
-        <h3>Give us a call</h3>
+        <h3><%= Title.find_by_unique_key("contact_give_us_a_call")&.translate(locale) %></h3>
         <div class="row">
           <div class="col-sm-6">
             ATOLO Belgium
@@ -31,7 +31,7 @@
             +41 21 806 55 55 +41 78 736 92 58
           </div>
         </div>
-        <h3>Find us here</h3>
+        <h3><%= Title.find_by_unique_key("contact_find_us_here")&.translate(locale) %></h3>
         <div class="row">
           <div class="col-sm-6">
             ATOLO Belgium

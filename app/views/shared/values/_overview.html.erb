@@ -4,10 +4,10 @@
     <%= image_tag("about_values.png", :alt => "image") %>
     </div>
     <div class="content">
-      <h2 class="margin-top"><%= t('values.introduction_title') %></h2>
-      <p class="align-justify"><%= t('values.introduction_text') %></p>
+      <h2 class="margin-top"><%= Title.find_by_unique_key("values_title")&.translate(locale) %></h2>
+      <p class="align-justify"><%= Title.find_by_unique_key("values_introduction")&.translate(locale) %></p>
       <ul class="actions stacked">
-        <li><a href="#value-one-anchor" class="regular"><span><%= t('values.discover') %> <%= image_tag 'icons/arrow-down-circle.svg' %></span></a></li>
+        <li><a href="#value-one-anchor" class="regular"><span><%= Title.find_by_unique_key("values_discover_btn")&.translate(locale) %> <%= image_tag 'icons/arrow-down-circle.svg' %></span></a></li>
       </ul>
     </div>
   </div>
@@ -19,8 +19,8 @@
 <!-- Spotlight -->
 <section id="value-one" class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in onload-content-fade-right">
   <div class="content">
-    <h2><%= t('values.value_one.title') %></h2>
-    <p class="align-justify"><%= t('values.value_one.content') %></p>
+    <h2><%= Title.find_by_unique_key("values_driven_by_people_title")&.translate(locale) %></h2>
+    <p class="align-justify"><%= Title.find_by_unique_key("values_driven_by_people_description")&.translate(locale) %></p>
   </div>
   <div class="image">
 
@@ -32,8 +32,8 @@
 <!-- Spotlight -->
 <section id="value-two" class="spotlight style1 orient-right content-align-left image-position-center  onscroll-image-fade-in onscroll-content-fade-left">
   <div class="content">
-    <h2><%= t('values.value_two.title') %></h2>
-    <p class="align-justify"><%= t('values.value_two.content') %></p>
+    <h2><%= Title.find_by_unique_key("values_committed_to_impact_title")&.translate(locale) %></h2>
+    <p class="align-justify"><%= Title.find_by_unique_key("values_committed_to_impact_description")&.translate(locale) %></p>
   </div>
   <div class="image">
     <%= image_tag("about_committed_to_impact.png", :alt => "image") %>
@@ -44,8 +44,8 @@
   <!-- Spotlight -->
 <section id="value-three" class="spotlight style1 orient-left content-align-left image-position-center  onscroll-image-fade-in onscroll-content-fade-right">
   <div class="content">
-    <h2><%= t('values.value_three.title') %></h2>
-    <p class="align-justify"><%= t('values.value_three.content') %></p>
+    <h2><%= Title.find_by_unique_key("values_dedicated_to_growth_title")&.translate(locale) %></h2>
+    <p class="align-justify"><%= Title.find_by_unique_key("values_dedicated_to_growth_description")&.translate(locale) %></p>
   </div>
   <div class="image">
 
@@ -57,8 +57,8 @@
 <!-- Spotlight -->
 <section id="value-four" class="spotlight style1 orient-right content-align-left image-position-center  onscroll-image-fade-in onscroll-content-fade-left">
   <div class="content">
-    <h2><%= "Pro Bono" %></h2>
-    <p class="align-justify"><%= t('values.value_two.content') %></p>
+    <h2><%= Title.find_by_unique_key("values_pro_bono_title")&.translate(locale) %></h2>
+    <p class="align-justify"><%= Title.find_by_unique_key("values_pro_bono_description")&.translate(locale) %></p>
   </div>
   <div class="image">
     <%= image_tag("about_pro_bono.png", :alt => "image") %>
