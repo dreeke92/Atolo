@@ -866,7 +866,7 @@ task addContentTitle: :environment do
 
   c = Content.find_or_create_by(
     unique_key: "language_scan_section_2_content_1",
-    page: "language_scan",
+    page: "language_scan")
   c.content_en.update(body: "Easy to use The platform is web based & user friendly The platform works seamlessly on Chrome, Safari and Firefox. Flexible & accessible.")
 
   Title.find_or_create_by(
