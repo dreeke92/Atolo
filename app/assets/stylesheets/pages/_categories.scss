@@ -31,6 +31,18 @@
       color: $green-2;
     }
 
+    .category-description{
+      background-color: white;
+    }
+
+    .owl-theme .owl-dots{
+      text-align: start;
+
+      .owl-dot.active{
+        color: $green-2 !important;
+      }
+    }
+
   }
 
 
@@ -230,6 +242,13 @@
   }
 
   .green{
+    .first-bloc .owl-theme .owl-dots .owl-dot.active, .first-bloc .owl-theme .owl-dots .owl-dot:hover {
+      color: $green-2 !important;
+
+      span{
+        background-color: $green-2;
+      }
+    }
     .second-section{
       height: 235px;
     }
@@ -251,6 +270,13 @@
   }
 
   .yellow{
+
+    .first-bloc .owl-theme .owl-dots .owl-dot.active, .first-bloc .owl-theme .owl-dots .owl-dot:hover{
+      color: $yellow !important;
+      span{
+        background-color: $yellow;
+      }
+    }
     h2, h3{
       color: $yellow;
     }
@@ -297,6 +323,13 @@
   }
 
   .blue{
+
+    .first-bloc .owl-theme .owl-dots .owl-dot.active, .first-bloc .owl-theme .owl-dots .owl-dot:hover {
+      color: $blue !important;
+      span{
+        background-color: $blue;
+      }
+    }
     h2, h3{
       color: $blue;
     }
@@ -339,6 +372,14 @@
   }
 
   .red{
+
+    .first-bloc .owl-theme .owl-dots .owl-dot.active, .first-bloc .owl-theme .owl-dots .owl-dot:hover{
+      color: $red !important;
+      span{
+        background-color: $red;
+      }
+    }
+
     h2, h3{
       color: $red;
     }

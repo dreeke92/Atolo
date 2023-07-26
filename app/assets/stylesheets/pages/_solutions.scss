@@ -208,15 +208,12 @@ div.contact-anchor{
 
   .contact-banner{
     background-color: $green;
-    flex-direction: column;
 
     .contact-us-text{
       max-width: 650px;
-      margin-bottom: 60px;
     }
     .contact-us-btn{
       background-color: $green-darker;
-      width: 520px;
     }
 
     svg > #arrow-right-circle{

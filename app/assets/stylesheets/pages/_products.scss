@@ -381,6 +381,20 @@
     }
   }
   @media (max-width: 768px) {
+
+    .container .first-section{
+      padding-bottom: 60px;
+    }
+
+    .second-section .container .practicalities-title{
+      padding-top: 90px;
+    }
+
+    .second-section .container .product-image{
+      position: relative;
+      top: inherit;
+    }
+
     .first-section .quote, .first-section .quote-author{
       display: none;
     }

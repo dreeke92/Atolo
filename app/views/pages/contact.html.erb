@@ -11,41 +11,56 @@
           <%= Title.find_by_unique_key("contact_description")&.translate(locale) %>
         </div>
         <div class="network-link">
-          <a class ="icon" href="https://www.linkedin.com/company/atolo/" target="_blank">Follow us <i class="fab fa-linkedin-in"></i></a>
+          <a class ="icon" href="https://www.linkedin.com/company/atolo/" target="_blank"><%= Title.find_by_unique_key("follow_us")&.translate(locale) %> <i class="fab fa-linkedin-in"></i></a>
         </div>
 
         <h3><%= Title.find_by_unique_key("contact_give_us_a_call")&.translate(locale) %></h3>
         <div class="row">
           <div class="col-sm-6">
-            ATOLO Belgium
+            <%= Title.find_by_unique_key("atolo_belgium")&.translate(locale) %>
           </div>
           <div class="col-sm-6">
-            +32 2 609 50 90
+            <%= Title.find_by_unique_key("atolo_belgium_phone")&.translate(locale) %>
           </div>
         </div>
         <div class="row">
           <div class="col-sm-6">
-            ATOLO Switzerland
+            <%= Title.find_by_unique_key("atolo_switzerland")&.translate(locale) %>
           </div>
           <div class="col-sm-6">
-            +41 21 806 55 55 +41 78 736 92 58
+            <div>
+              <%= Title.find_by_unique_key("atolo_switzerland_phone_1")&.translate(locale) %>
+            </div>
+            <div>
+              <%= Title.find_by_unique_key("atolo_switzerland_phone_2")&.translate(locale) %>
+            </div>
           </div>
         </div>
         <h3><%= Title.find_by_unique_key("contact_find_us_here")&.translate(locale) %></h3>
         <div class="row">
           <div class="col-sm-6">
-            ATOLO Belgium
+            <%= Title.find_by_unique_key("atolo_belgium")&.translate(locale) %>
           </div>
           <div class="col-sm-6">
-            Avenue de Tervurenlaan 36/18<br>1040 Brussels, Belgium
+            <div>
+              <%= Title.find_by_unique_key("atolo_belgium_address_1")&.translate(locale) %>
+            </div>
+            <div>
+              <%= Title.find_by_unique_key("atolo_belgium_address_2")&.translate(locale) %>
+            </div>
           </div>
         </div>
         <div class="row">
           <div class="col-sm-6">
-            ATOLO Switzerland
+            <%= Title.find_by_unique_key("atolo_switzerland")&.translate(locale) %>
           </div>
           <div class="col-sm-6">
-            Rue du Petit-Chêne 18ter <br>1003 Lausanne, Switzerland
+            <div>
+              <%= Title.find_by_unique_key("atolo_switzerland_address_1")&.translate(locale) %>
+            </div>
+            <div>
+              <%= Title.find_by_unique_key("atolo_switzerland_address_2")&.translate(locale) %>
+            </div>
           </div>
         </div>
       </div>

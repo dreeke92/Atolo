@@ -658,284 +658,344 @@ task addContentTitle: :environment do
 #     title_en: "Our values"
 #   )
 #####################################################################################################
-  Title.find_or_create_by(
-    unique_key: "values_title",
-    page: "values",
-    title_en: I18n.t('values.introduction_title', locale: :en),
-    title_fr: I18n.t('values.introduction_title', locale: :fr),
-    title_nl: I18n.t('values.introduction_title', locale: :nl),
-    title_de: I18n.t('values.introduction_title', locale: :de)
-  )
+  # Title.find_or_create_by(
+  #   unique_key: "values_title",
+  #   page: "values",
+  #   title_en: I18n.t('values.introduction_title', locale: :en),
+  #   title_fr: I18n.t('values.introduction_title', locale: :fr),
+  #   title_nl: I18n.t('values.introduction_title', locale: :nl),
+  #   title_de: I18n.t('values.introduction_title', locale: :de)
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "values_introduction",
+  #   page: "values",
+  #   title_en: I18n.t('values.introduction_text', locale: :en),
+  #   title_fr: I18n.t('values.introduction_text', locale: :fr),
+  #   title_nl: I18n.t('values.introduction_text', locale: :nl),
+  #   title_de: I18n.t('values.introduction_text', locale: :de)
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "values_discover_btn",
+  #   page: "values",
+  #   title_en: I18n.t('values.discover', locale: :en),
+  #   title_fr: I18n.t('values.discover', locale: :fr),
+  #   title_nl: I18n.t('values.discover', locale: :nl),
+  #   title_de: I18n.t('values.discover', locale: :de)
+  # )
+
+
+  # Title.find_or_create_by(
+  #   unique_key: "values_driven_by_people_title",
+  #   page: "values",
+  #   title_en: I18n.t('values.value_one.title', locale: :en),
+  #   title_fr: I18n.t('values.value_one.title', locale: :fr),
+  #   title_nl: I18n.t('values.value_one.title', locale: :nl),
+  #   title_de: I18n.t('values.value_one.title', locale: :de)
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "values_driven_by_people_description",
+  #   page: "values",
+  #   title_en: I18n.t('values.value_one.content', locale: :en),
+  #   title_fr: I18n.t('values.value_one.content', locale: :fr),
+  #   title_nl: I18n.t('values.value_one.content', locale: :nl),
+  #   title_de: I18n.t('values.value_one.content', locale: :de)
+  # )
+
+  #  Title.find_or_create_by(
+  #   unique_key: "values_committed_to_impact_title",
+  #   page: "values",
+  #   title_en: I18n.t('values.value_two.title', locale: :en),
+  #   title_fr: I18n.t('values.value_two.title', locale: :fr),
+  #   title_nl: I18n.t('values.value_two.title', locale: :nl),
+  #   title_de: I18n.t('values.value_two.title', locale: :de)
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "values_committed_to_impact_description",
+  #   page: "values",
+  #   title_en: I18n.t('values.value_two.content', locale: :en),
+  #   title_fr: I18n.t('values.value_two.content', locale: :fr),
+  #   title_nl: I18n.t('values.value_two.content', locale: :nl),
+  #   title_de: I18n.t('values.value_two.content', locale: :de)
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "values_dedicated_to_growth_title",
+  #   page: "values",
+  #   title_en: I18n.t('values.value_three.title', locale: :en),
+  #   title_fr: I18n.t('values.value_three.title', locale: :fr),
+  #   title_nl: I18n.t('values.value_three.title', locale: :nl),
+  #   title_de: I18n.t('values.value_three.title', locale: :de)
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "values_dedicated_to_growth_description",
+  #   page: "values",
+  #   title_en: I18n.t('values.value_three.content', locale: :en),
+  #   title_fr: I18n.t('values.value_three.content', locale: :fr),
+  #   title_nl: I18n.t('values.value_three.content', locale: :nl),
+  #   title_de: I18n.t('values.value_three.content', locale: :de)
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "values_pro_bono_title",
+  #   page: "values",
+  #   title_en: "Pro Bono"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "values_pro_bono_description",
+  #   page: "values",
+  #   title_en: "We don’t give back because it is the right thing to do, we give back because it is what we want to do. Our pro-bono work is aimed at supporting social-entrepreneurs with their communication. We are servants to these very inspiring people who want to change the world for the better and empower them to tell their story authentically, clearly and powerfully. People like those at Ashoka."
+  # )
+
+  # ### page Team
+  # Title.find_or_create_by(
+  #   unique_key: "team_title",
+  #   page: "team",
+  #   title_en: I18n.t('about.spotlight.title', locale: :en),
+  #   title_fr: I18n.t('about.spotlight.title', locale: :fr),
+  #   title_nl: I18n.t('about.spotlight.title', locale: :nl),
+  #   title_de: I18n.t('about.spotlight.title', locale: :de)
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "team_desription",
+  #   page: "team",
+  #   title_en: I18n.t('about.spotlight.content', locale: :en),
+  #   title_fr: I18n.t('about.spotlight.content', locale: :fr),
+  #   title_nl: I18n.t('about.spotlight.content', locale: :nl),
+  #   title_de: I18n.t('about.spotlight.content', locale: :de)
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "team_page_btn",
+  #   page: "team",
+  #   title_en: I18n.t('about.spotlight.meet', locale: :en),
+  #   title_fr: I18n.t('about.spotlight.meet', locale: :fr),
+  #   title_nl: I18n.t('about.spotlight.meet', locale: :nl),
+  #   title_de: I18n.t('about.spotlight.meet', locale: :de)
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "team_members_title",
+  #   page: "team",
+  #   title_en: I18n.t('about.team.title', locale: :en),
+  #   title_fr: I18n.t('about.team.title', locale: :fr),
+  #   title_nl: I18n.t('about.team.title', locale: :nl),
+  #   title_de: I18n.t('about.team.title', locale: :de)
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "team_members_subtitle",
+  #   page: "team",
+  #   title_en: I18n.t('about.team.sub_title', locale: :en),
+  #   title_fr: I18n.t('about.team.sub_title', locale: :fr),
+  #   title_nl: I18n.t('about.team.sub_title', locale: :nl),
+  #   title_de: I18n.t('about.team.sub_title', locale: :de)
+  # )
+
+  # ## contact page
+  # Title.find_or_create_by(
+  #   unique_key: "contact_title",
+  #   page: "contact",
+  #   title_en: "Let’s get in touch"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "contact_description",
+  #   page: "contact",
+  #   title_en: "A question about our training offer? Looking for a customised learning solution? Interested in working with us? Don’t hesitate to give us a call, to leave us a message or to meet up. We’d love to hear from you!"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "contact_give_us_a_call",
+  #   page: "contact",
+  #   title_en: "Give us a call"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "contact_find_us_here",
+  #   page: "contact",
+  #   title_en: "Find us here"
+  # )
+
+  # ## Laguage Scan
+  # Title.find_or_create_by(
+  #   unique_key: "language_scan_title",
+  #   page: "language_scan",
+  #   title_en: "Do the language scan"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "language_scan_subtitle",
+  #   page: "language_scan",
+  #   title_en: "ATOLO Eval: Get started with your own language assessment platform"
+  # )
+
+  # c = Content.find_or_create_by(
+  #   unique_key: "language_scan_content_1",
+  #   page: "language_scan")
+  # c.content_en.update(body: "For what purpose? Selection & recruitment. Learning & development programs. Companywide language level benchmarking. Internal language level recognition policies.")
+
+  # c = Content.find_or_create_by(
+  #   unique_key: "language_scan_content_2",
+  #   page: "language_scan")
+  # c.content_en.update(body: "Easy to use The platform is web based & user friendly The platform works seamlessly on Chrome, Safari and Firefox. Flexible & accessible.")
+
+  # Title.find_or_create_by(
+  #   unique_key: "language_scan_btn_demo",
+  #   page: "language_scan",
+  #   title_en: "I want a free demo"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "language_scan_btn_eval",
+  #   page: "language_scan",
+  #   title_en: "Discover Atolo eval"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "language_scan_section_2_title_1",
+  #   page: "language_scan",
+  #   title_en: "Multiple languages available"
+  # )
+
+  # c = Content.find_or_create_by(
+  #   unique_key: "language_scan_section_2_content_1",
+  #   page: "language_scan")
+  # c.content_en.update(body: "Easy to use The platform is web based & user friendly The platform works seamlessly on Chrome, Safari and Firefox. Flexible & accessible.")
+
+  # Title.find_or_create_by(
+  #   unique_key: "language_scan_section_2_title_2",
+  #   page: "language_scan",
+  #   title_en: "A great management tool"
+  # )
+
+  # c = Content.find_or_create_by(
+  #   unique_key: "language_scan_section_2_content_2",
+  #   page: "language_scan")
+  # c.content_en.update(body: "Administration of large projects is easy and seamless. Overview of all test results in an instant. Live status on tests in a single click. Autonomy is yours! Create your own administrators (user accounts). Send out test invitations to your participants with standardised or personalised messaging options in the language of your choice. The use of the platform is intuitive. You master the essentials in a few minutes.")
+
+  # Title.find_or_create_by(
+  #   unique_key: "language_scan_section_2_title_3",
+  #   page: "language_scan",
+  #   title_en: "Objective, accurate and reliable"
+  # )
+
+  # c = Content.find_or_create_by(
+  #   unique_key: "language_scan_section_2_content_3",
+  #   page: "language_scan")
+
+  # c.content_en.update(body: "An international team of language experts designed the test so as to reach clear and accurate language level results. More than 700 different questions cover passive and active knowledge, written skills and comprehension. The adaptive intelligence and the proven algorithm further ensure accuracy.")
+
+  # Title.find_or_create_by(
+  #   unique_key: "language_scan_section_3_title_1",
+  #   page: "language_scan",
+  #   title_en: "Scores instantly available"
+  # )
+
+  # c = Content.find_or_create_by(
+  #   unique_key: "language_scan_section_3_content_1",
+  #   page: "language_scan")
+
+  # c.content_en.update(body: "Results are presented on a scale both in terms of percentage and following the CEFR* guidelines. As well as immediate result consultation, an end report and an ATOLO certificate are automatically generated upon test completion.")
+
+  # Title.find_or_create_by(
+  #   unique_key: "language_scan_section_3_title_2",
+  #   page: "language_scan",
+  #   title_en: "Great user experience"
+  # )
+
+  # c = Content.find_or_create_by(
+  #   unique_key: "language_scan_section_3_content_2",
+  #   page: "language_scan")
+  # c.content_en.update(body: "User friendly and ready to go. From clicking on the test link received by mail to taking the test, everything is smooth and intuitive. Test takers barely need 35 to 40 min to complete the test. They can also choose a preferred interface language (English, French, German & Dutch available).")
+
+  # Title.find_or_create_by(
+  #   unique_key: "language_scan_section_3_title_3",
+  #   page: "language_scan",
+  #   title_en: "Employer branding"
+  # )
+
+  # c = Content.find_or_create_by(
+  #   unique_key: "language_scan_section_3_content_3",
+  #   page: "language_scan")
+
+  # c.content_en.update(body: "Participants will recognize your company identity when taking the test. The platform can be embedded with your company logo and colour scheme.")
+
+  # Title.find_or_create_by(
+  #   unique_key: "language_scan_curious_to_know_more",
+  #   page: "language_scan",
+  #   title_en: "The simplest of tools are often the most powerful"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "language_scan_contact_us",
+  #   page: "language_scan",
+  #   title_en: "Contact us to know more"
+  # )
 
   Title.find_or_create_by(
-    unique_key: "values_introduction",
-    page: "values",
-    title_en: I18n.t('values.introduction_text', locale: :en),
-    title_fr: I18n.t('values.introduction_text', locale: :fr),
-    title_nl: I18n.t('values.introduction_text', locale: :nl),
-    title_de: I18n.t('values.introduction_text', locale: :de)
-  )
-
-  Title.find_or_create_by(
-    unique_key: "values_discover_btn",
-    page: "values",
-    title_en: I18n.t('values.discover', locale: :en),
-    title_fr: I18n.t('values.discover', locale: :fr),
-    title_nl: I18n.t('values.discover', locale: :nl),
-    title_de: I18n.t('values.discover', locale: :de)
-  )
-
-
-  Title.find_or_create_by(
-    unique_key: "values_driven_by_people_title",
-    page: "values",
-    title_en: I18n.t('values.value_one.title', locale: :en),
-    title_fr: I18n.t('values.value_one.title', locale: :fr),
-    title_nl: I18n.t('values.value_one.title', locale: :nl),
-    title_de: I18n.t('values.value_one.title', locale: :de)
-  )
-
-  Title.find_or_create_by(
-    unique_key: "values_driven_by_people_description",
-    page: "values",
-    title_en: I18n.t('values.value_one.content', locale: :en),
-    title_fr: I18n.t('values.value_one.content', locale: :fr),
-    title_nl: I18n.t('values.value_one.content', locale: :nl),
-    title_de: I18n.t('values.value_one.content', locale: :de)
-  )
-
-   Title.find_or_create_by(
-    unique_key: "values_committed_to_impact_title",
-    page: "values",
-    title_en: I18n.t('values.value_two.title', locale: :en),
-    title_fr: I18n.t('values.value_two.title', locale: :fr),
-    title_nl: I18n.t('values.value_two.title', locale: :nl),
-    title_de: I18n.t('values.value_two.title', locale: :de)
-  )
-
-  Title.find_or_create_by(
-    unique_key: "values_committed_to_impact_description",
-    page: "values",
-    title_en: I18n.t('values.value_two.content', locale: :en),
-    title_fr: I18n.t('values.value_two.content', locale: :fr),
-    title_nl: I18n.t('values.value_two.content', locale: :nl),
-    title_de: I18n.t('values.value_two.content', locale: :de)
-  )
-
-  Title.find_or_create_by(
-    unique_key: "values_dedicated_to_growth_title",
-    page: "values",
-    title_en: I18n.t('values.value_three.title', locale: :en),
-    title_fr: I18n.t('values.value_three.title', locale: :fr),
-    title_nl: I18n.t('values.value_three.title', locale: :nl),
-    title_de: I18n.t('values.value_three.title', locale: :de)
-  )
-
-  Title.find_or_create_by(
-    unique_key: "values_dedicated_to_growth_description",
-    page: "values",
-    title_en: I18n.t('values.value_three.content', locale: :en),
-    title_fr: I18n.t('values.value_three.content', locale: :fr),
-    title_nl: I18n.t('values.value_three.content', locale: :nl),
-    title_de: I18n.t('values.value_three.content', locale: :de)
-  )
-
-  Title.find_or_create_by(
-    unique_key: "values_pro_bono_title",
-    page: "values",
-    title_en: "Pro Bono"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "values_pro_bono_description",
-    page: "values",
-    title_en: "We don’t give back because it is the right thing to do, we give back because it is what we want to do. Our pro-bono work is aimed at supporting social-entrepreneurs with their communication. We are servants to these very inspiring people who want to change the world for the better and empower them to tell their story authentically, clearly and powerfully. People like those at Ashoka."
-  )
-
-  ### page Team
-  Title.find_or_create_by(
-    unique_key: "team_title",
-    page: "team",
-    title_en: I18n.t('about.spotlight.title', locale: :en),
-    title_fr: I18n.t('about.spotlight.title', locale: :fr),
-    title_nl: I18n.t('about.spotlight.title', locale: :nl),
-    title_de: I18n.t('about.spotlight.title', locale: :de)
-  )
-
-  Title.find_or_create_by(
-    unique_key: "team_desription",
-    page: "team",
-    title_en: I18n.t('about.spotlight.content', locale: :en),
-    title_fr: I18n.t('about.spotlight.content', locale: :fr),
-    title_nl: I18n.t('about.spotlight.content', locale: :nl),
-    title_de: I18n.t('about.spotlight.content', locale: :de)
-  )
-
-  Title.find_or_create_by(
-    unique_key: "team_page_btn",
-    page: "team",
-    title_en: I18n.t('about.spotlight.meet', locale: :en),
-    title_fr: I18n.t('about.spotlight.meet', locale: :fr),
-    title_nl: I18n.t('about.spotlight.meet', locale: :nl),
-    title_de: I18n.t('about.spotlight.meet', locale: :de)
-  )
-
-  Title.find_or_create_by(
-    unique_key: "team_members_title",
-    page: "team",
-    title_en: I18n.t('about.team.title', locale: :en),
-    title_fr: I18n.t('about.team.title', locale: :fr),
-    title_nl: I18n.t('about.team.title', locale: :nl),
-    title_de: I18n.t('about.team.title', locale: :de)
-  )
-
-  Title.find_or_create_by(
-    unique_key: "team_members_subtitle",
-    page: "team",
-    title_en: I18n.t('about.team.sub_title', locale: :en),
-    title_fr: I18n.t('about.team.sub_title', locale: :fr),
-    title_nl: I18n.t('about.team.sub_title', locale: :nl),
-    title_de: I18n.t('about.team.sub_title', locale: :de)
-  )
-
-  ## contact page
-  Title.find_or_create_by(
-    unique_key: "contact_title",
+    unique_key: "contact_form_title",
     page: "contact",
-    title_en: "Let’s get in touch"
+    title_en: "Contact us"
   )
 
   Title.find_or_create_by(
-    unique_key: "contact_description",
-    page: "contact",
-    title_en: "A question about our training offer? Looking for a customised learning solution? Interested in working with us? Don’t hesitate to give us a call, to leave us a message or to meet up. We’d love to hear from you!"
+    unique_key: "follow_us",
+    page: "shared, contact",
+    title_en: "Follow us"
   )
 
   Title.find_or_create_by(
-    unique_key: "contact_give_us_a_call",
-    page: "contact",
-    title_en: "Give us a call"
+    unique_key: "atolo_belgium",
+    page: "shared, contact",
+    title_en: "ATOLO Belgium"
+  )
+  Title.find_or_create_by(
+    unique_key: "atolo_belgium_phone",
+    page: "shared, contact",
+    title_en: "+32 2 609 50 90"
   )
 
   Title.find_or_create_by(
-    unique_key: "contact_find_us_here",
-    page: "contact",
-    title_en: "Find us here"
+    unique_key: "atolo_belgium_address_1",
+    page: "shared, contact",
+    title_en: "Avenue de Tervurenlaan 36/18"
   )
-
-  ## Laguage Scan
   Title.find_or_create_by(
-    unique_key: "language_scan_title",
-    page: "language_scan",
-    title_en: "Do the language scan"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "language_scan_subtitle",
-    page: "language_scan",
-    title_en: "ATOLO Eval: Get started with your own language assessment platform"
-  )
-
-  c = Content.find_or_create_by(
-    unique_key: "language_scan_content_1",
-    page: "language_scan")
-  c.content_en.update(body: "For what purpose? Selection & recruitment. Learning & development programs. Companywide language level benchmarking. Internal language level recognition policies.")
-
-  c = Content.find_or_create_by(
-    unique_key: "language_scan_content_2",
-    page: "language_scan")
-  c.content_en.update(body: "Easy to use The platform is web based & user friendly The platform works seamlessly on Chrome, Safari and Firefox. Flexible & accessible.")
-
-  Title.find_or_create_by(
-    unique_key: "language_scan_btn_demo",
-    page: "language_scan",
-    title_en: "I want a free demo"
+    unique_key: "atolo_belgium_address_2",
+    page: "shared, contact",
+    title_en: "1040 Brussels, Belgium"
   )
 
   Title.find_or_create_by(
-    unique_key: "language_scan_btn_eval",
-    page: "language_scan",
-    title_en: "Discover Atolo eval"
+    unique_key: "atolo_switzerland",
+    page: "shared, contact",
+    title_en: "ATOLO Switzerland"
   )
-
   Title.find_or_create_by(
-    unique_key: "language_scan_section_2_title_1",
-    page: "language_scan",
-    title_en: "Multiple languages available"
+    unique_key: "atolo_switzerland_phone_1",
+    page: "shared, contact",
+    title_en: "+41 21 806 55 55"
   )
-
-  c = Content.find_or_create_by(
-    unique_key: "language_scan_section_2_content_1",
-    page: "language_scan")
-  c.content_en.update(body: "Easy to use The platform is web based & user friendly The platform works seamlessly on Chrome, Safari and Firefox. Flexible & accessible.")
-
   Title.find_or_create_by(
-    unique_key: "language_scan_section_2_title_2",
-    page: "language_scan",
-    title_en: "A great management tool"
+    unique_key: "atolo_switzerland_phone_2",
+    page: "shared, contact",
+    title_en: "+41 78 736 92 58"
   )
-
-  c = Content.find_or_create_by(
-    unique_key: "language_scan_section_2_content_2",
-    page: "language_scan")
-  c.content_en.update(body: "Administration of large projects is easy and seamless. Overview of all test results in an instant. Live status on tests in a single click. Autonomy is yours! Create your own administrators (user accounts). Send out test invitations to your participants with standardised or personalised messaging options in the language of your choice. The use of the platform is intuitive. You master the essentials in a few minutes.")
-
   Title.find_or_create_by(
-    unique_key: "language_scan_section_2_title_3",
-    page: "language_scan",
-    title_en: "Objective, accurate and reliable"
+    unique_key: "atolo_switzerland_address_1",
+    page: "shared, contact",
+    title_en: "Rue du Petit-Chêne 18ter"
   )
-
-  c = Content.find_or_create_by(
-    unique_key: "language_scan_section_2_content_3",
-    page: "language_scan")
-
-  c.content_en.update(body: "An international team of language experts designed the test so as to reach clear and accurate language level results. More than 700 different questions cover passive and active knowledge, written skills and comprehension. The adaptive intelligence and the proven algorithm further ensure accuracy.")
-
   Title.find_or_create_by(
-    unique_key: "language_scan_section_3_title_1",
-    page: "language_scan",
-    title_en: "Scores instantly available"
-  )
-
-  c = Content.find_or_create_by(
-    unique_key: "language_scan_section_3_content_1",
-    page: "language_scan")
-
-  c.content_en.update(body: "Results are presented on a scale both in terms of percentage and following the CEFR* guidelines. As well as immediate result consultation, an end report and an ATOLO certificate are automatically generated upon test completion.")
-
-  Title.find_or_create_by(
-    unique_key: "language_scan_section_3_title_2",
-    page: "language_scan",
-    title_en: "Great user experience"
-  )
-
-  c = Content.find_or_create_by(
-    unique_key: "language_scan_section_3_content_2",
-    page: "language_scan")
-  c.content_en.update(body: "User friendly and ready to go. From clicking on the test link received by mail to taking the test, everything is smooth and intuitive. Test takers barely need 35 to 40 min to complete the test. They can also choose a preferred interface language (English, French, German & Dutch available).")
-
-  Title.find_or_create_by(
-    unique_key: "language_scan_section_3_title_3",
-    page: "language_scan",
-    title_en: "Employer branding"
-  )
-
-  c = Content.find_or_create_by(
-    unique_key: "language_scan_section_3_content_3",
-    page: "language_scan")
-
-  c.content_en.update(body: "Participants will recognize your company identity when taking the test. The platform can be embedded with your company logo and colour scheme.")
-
-  Title.find_or_create_by(
-    unique_key: "language_scan_curious_to_know_more",
-    page: "language_scan",
-    title_en: "The simplest of tools are often the most powerful"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "language_scan_contact_us",
-    page: "language_scan",
-    title_en: "Contact us to know more"
+    unique_key: "atolo_switzerland_address_2",
+    page: "shared, contact",
+    title_en: "1003 Lausanne, Switzerland"
   )
 end
