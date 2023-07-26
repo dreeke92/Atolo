@@ -1,6 +1,6 @@
   <form method="post" action="/messages" id="contact-form">
     <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
-    <h2>Contact us</h2>
+    <h2><%= Title.find_by_unique_key("contact_form_title")&.translate(locale) %></h2>
     <div class="fields">
       <div class="field">
         <label for="name"><%= t('form.name') %></label>

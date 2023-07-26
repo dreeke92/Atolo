@@ -2,11 +2,11 @@
 function testimonialCarousel() {
   $(document).ready(function(){
     $('.category-carousel').owlCarousel({
-        merge: true,
         smartSpeed: 1000,
-        loop:true,
+        rewind:true,
         margin:10,
         nav:false,
+        items: 1,
         navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
         autoplay:true,
         autoplayTimeout:5000,
@@ -15,11 +15,6 @@ function testimonialCarousel() {
         animateIn: 'flipInX',
         center: false,
         dots: true,
-        responsive:{
-            0:{
-                items:1
-            }
-          }
       })
    });
   $(document).ready(function(){

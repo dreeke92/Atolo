@@ -5,7 +5,7 @@
     <div class="container flex">
       <div class="first-bloc">
         <h1><%= Title.find_by_unique_key("pillar_#{@key}_title")&.translate(locale) %></h1>
-        <div class="owl-carousel owl-theme testimonial-cards onload-fade-in category-carousel">
+        <div class="owl-carousel owl-theme onload-fade-in category-carousel">
           <section class="category-description">
             <h2><%= Title.find_by_unique_key("pillar_#{@key}_subtitle_1")&.translate(locale) %></h2>
 
