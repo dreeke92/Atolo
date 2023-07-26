@@ -3,7 +3,8 @@ function testimonialCarousel() {
   $(document).ready(function(){
     $('.category-carousel').owlCarousel({
         smartSpeed: 1000,
-        rewind:true,
+        // rewind:true,
+        loop: true,
         margin:10,
         nav:false,
         items: 1,
@@ -11,8 +12,8 @@ function testimonialCarousel() {
         autoplay:true,
         autoplayTimeout:5000,
         autoplayHoverPause:true,
-        animateOut: 'slideOutDown',
-        animateIn: 'flipInX',
+        // animateOut: 'slideOutDown',
+        // animateIn: 'flipInX',
         center: false,
         dots: true,
       })
