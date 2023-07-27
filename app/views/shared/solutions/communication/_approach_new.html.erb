@@ -17,8 +17,8 @@
                 <h3><%= Title.find_by_unique_key("pillar_#{@key}_approach_title_1")&.translate(locale) %></h3>
               </div>
               <div id="quadrant-content-one" class="quadrant-content">
-                <p class="sentence"><%= t('solutions.languages.approach.content_one_a') %></p>
-                <p><%= t('solutions.languages.approach.content_one_b') %></p>
+                <p class="sentence"><%= Title.find_by_unique_key("pillar_#{@key}_approach_sentence_1")&.translate(locale) %></p>
+                <p><%= Title.find_by_unique_key("pillar_#{@key}_approach_description_1")&.translate(locale) %></p>
               </div>
             </li>
             <li>
@@ -26,7 +26,7 @@
                 <h3><%= Title.find_by_unique_key("pillar_#{@key}_approach_title_2")&.translate(locale) %></h3>
               </div>
               <div id="quadrant-content-two" class="quadrant-content" style="display:none;">
-                <p class="sentence"><%= t('solutions.languages.approach.content_two_a') %></p><p><%= t('solutions.languages.approach.content_two_b') %></p>
+                <p class="sentence"><%= Title.find_by_unique_key("pillar_#{@key}_approach_sentence_2")&.translate(locale) %></p><p><%= Title.find_by_unique_key("pillar_#{@key}_approach_description_2")&.translate(locale) %></p>
               </div>
             </li>
             <li>
@@ -34,7 +34,7 @@
                 <h3><%= Title.find_by_unique_key("pillar_#{@key}_approach_title_3")&.translate(locale) %></h3>
               </div>
               <div id="quadrant-content-three" class="quadrant-content" style="display:none;">
-                <p class="sentence"><%= t('solutions.languages.approach.content_three_a') %></p><p><%= t('solutions.languages.approach.content_three_b') %></p>
+                <p class="sentence"><%= Title.find_by_unique_key("pillar_#{@key}_approach_sentence_3")&.translate(locale) %></p><p><%= Title.find_by_unique_key("pillar_#{@key}_approach_description_3")&.translate(locale) %></p>
               </div>
             </li>
             <% if Title.find_by_unique_key("pillar_#{@key}_approach_title_4") %>
@@ -43,7 +43,7 @@
                   <h3><%= Title.find_by_unique_key("pillar_#{@key}_approach_title_4")&.translate(locale) %></h3>
                 </div>
                 <div id="quadrant-content-four" class="quadrant-content" style="display:none;">
-                  <p class="sentence"><%= t('solutions.languages.approach.content_four_a') %></p><p><%= t('solutions.languages.approach.content_four_b') %></p>
+                  <p class="sentence"><%= Title.find_by_unique_key("pillar_#{@key}_approach_sentence_4")&.translate(locale) %></p><p><%= Title.find_by_unique_key("pillar_#{@key}_approach_description_4")&.translate(locale) %></p>
                 </div>
               </li>
             <% end %>
