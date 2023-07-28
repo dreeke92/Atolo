@@ -466,6 +466,7 @@ Nos solutions combinent coaching et formation dans un espace où les individus s
     email: "Email"
     phone: "Numéro de téléphone"
     message: "Message"
+    attachment: "Pièce jointe"
     human: "Je suis un humain et pas un robot"
     send: "Envoyer le message"
   events:

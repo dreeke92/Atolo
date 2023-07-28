@@ -458,6 +458,7 @@ de:
     email: "E-Mail"
     phone: "Rufnummer"
     message: "Mitteilung"
+    attachment: "Anhang"
     human: "Ich bin ein Mensch und kein Roboter"
     send: "Mitteilung senden"
   events:

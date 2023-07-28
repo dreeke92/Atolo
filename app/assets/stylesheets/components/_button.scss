@@ -204,7 +204,9 @@
   text-decoration: none;
   display: inline-block;
   transition: 250ms ease;
-
+  &:active{
+    color: $red;
+  }
   &:hover{
     color: white;
     background-color: #578a19;

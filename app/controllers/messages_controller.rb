@@ -12,7 +12,7 @@ class MessagesController < ApplicationController
   private
 
   def message_params
-    params.require(:message).permit(:name, :company, :email, :content, :phone, :copy, :robot)
+    params.require(:message).permit(:name, :company, :email, :content, :phone, :copy, :robot, :attachment)
   end
 
   def send_mail(message)

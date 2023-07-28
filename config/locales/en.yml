@@ -467,6 +467,7 @@ en:
     email: "Email"
     phone: "Phone number"
     message: "Message"
+    attachment: "Attachment"
     human: "I am a human and not a robot"
     send: "Send message"
   events:

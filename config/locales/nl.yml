@@ -460,6 +460,7 @@ nl:
     email: "Email"
     phone: "Telefoonnummer"
     message: "Bericht"
+    attachment: "Bijlage"
     human: "Ik ben een mens en geen robot"
     send: "Verstuur"
   events:
