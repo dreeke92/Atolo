@@ -939,63 +939,121 @@ task addContentTitle: :environment do
   #   title_en: "Contact us to know more"
   # )
 
+  # Title.find_or_create_by(
+  #   unique_key: "contact_form_title",
+  #   page: "contact",
+  #   title_en: "Contact us"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "follow_us",
+  #   page: "shared, contact",
+  #   title_en: "Follow us"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "atolo_belgium",
+  #   page: "shared, contact",
+  #   title_en: "ATOLO Belgium"
+  # )
+  # Title.find_or_create_by(
+  #   unique_key: "atolo_belgium_phone",
+  #   page: "shared, contact",
+  #   title_en: "+32 2 609 50 90"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "atolo_belgium_address_1",
+  #   page: "shared, contact",
+  #   title_en: "Avenue de Tervurenlaan 36/18"
+  # )
+  # Title.find_or_create_by(
+  #   unique_key: "atolo_belgium_address_2",
+  #   page: "shared, contact",
+  #   title_en: "1040 Brussels, Belgium"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "atolo_switzerland",
+  #   page: "shared, contact",
+  #   title_en: "ATOLO Switzerland"
+  # )
+  # Title.find_or_create_by(
+  #   unique_key: "atolo_switzerland_phone_1",
+  #   page: "shared, contact",
+  #   title_en: "+41 21 806 55 55"
+  # )
+  # Title.find_or_create_by(
+  #   unique_key: "atolo_switzerland_phone_2",
+  #   page: "shared, contact",
+  #   title_en: "+41 78 736 92 58"
+  # )
+  # Title.find_or_create_by(
+  #   unique_key: "atolo_switzerland_address_1",
+  #   page: "shared, contact",
+  #   title_en: "Rue du Petit-Chêne 18ter"
+  # )
+  # Title.find_or_create_by(
+  #   unique_key: "atolo_switzerland_address_2",
+  #   page: "shared, contact",
+  #   title_en: "1003 Lausanne, Switzerland"
+  # )
+
   Title.find_or_create_by(
-    unique_key: "contact_form_title",
+    unique_key: "contact_form_name",
     page: "contact",
-    title_en: "Contact us"
+    title_en: I18n.t('form.name', locale: :en),
+    title_fr: I18n.t('form.name', locale: :fr),
+    title_nl: I18n.t('form.name', locale: :nl),
+    title_de: I18n.t('form.name', locale: :de)
   )
 
   Title.find_or_create_by(
-    unique_key: "follow_us",
-    page: "shared, contact",
-    title_en: "Follow us"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "atolo_belgium",
-    page: "shared, contact",
-    title_en: "ATOLO Belgium"
+    unique_key: "contact_form_company",
+    page: "contact",
+    title_en: I18n.t('form.company', locale: :en),
+    title_fr: I18n.t('form.company', locale: :fr),
+    title_nl: I18n.t('form.company', locale: :nl),
+    title_de: I18n.t('form.company', locale: :de)
   )
   Title.find_or_create_by(
-    unique_key: "atolo_belgium_phone",
-    page: "shared, contact",
-    title_en: "+32 2 609 50 90"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "atolo_belgium_address_1",
-    page: "shared, contact",
-    title_en: "Avenue de Tervurenlaan 36/18"
+    unique_key: "contact_form_email",
+    page: "contact",
+    title_en: I18n.t('form.email', locale: :en),
+    title_fr: I18n.t('form.email', locale: :fr),
+    title_nl: I18n.t('form.email', locale: :nl),
+    title_de: I18n.t('form.email', locale: :de)
   )
   Title.find_or_create_by(
-    unique_key: "atolo_belgium_address_2",
-    page: "shared, contact",
-    title_en: "1040 Brussels, Belgium"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "atolo_switzerland",
-    page: "shared, contact",
-    title_en: "ATOLO Switzerland"
+    unique_key: "contact_form_phone",
+    page: "contact",
+    title_en: I18n.t('form.phone', locale: :en),
+    title_fr: I18n.t('form.phone', locale: :fr),
+    title_nl: I18n.t('form.phone', locale: :nl),
+    title_de: I18n.t('form.phone', locale: :de)
   )
   Title.find_or_create_by(
-    unique_key: "atolo_switzerland_phone_1",
-    page: "shared, contact",
-    title_en: "+41 21 806 55 55"
+    unique_key: "contact_form_attachment",
+    page: "contact",
+    title_en: I18n.t('form.attachment', locale: :en),
+    title_fr: I18n.t('form.attachment', locale: :fr),
+    title_nl: I18n.t('form.attachment', locale: :nl),
+    title_de: I18n.t('form.attachment', locale: :de)
   )
   Title.find_or_create_by(
-    unique_key: "atolo_switzerland_phone_2",
-    page: "shared, contact",
-    title_en: "+41 78 736 92 58"
+    unique_key: "contact_form_message",
+    page: "contact",
+    title_en: I18n.t('form.message', locale: :en),
+    title_fr: I18n.t('form.message', locale: :fr),
+    title_nl: I18n.t('form.message', locale: :nl),
+    title_de: I18n.t('form.message', locale: :de)
   )
   Title.find_or_create_by(
-    unique_key: "atolo_switzerland_address_1",
-    page: "shared, contact",
-    title_en: "Rue du Petit-Chêne 18ter"
-  )
-  Title.find_or_create_by(
-    unique_key: "atolo_switzerland_address_2",
-    page: "shared, contact",
-    title_en: "1003 Lausanne, Switzerland"
+    unique_key: "contact_form_send",
+    page: "contact",
+    title_en: I18n.t('form.send', locale: :en),
+    title_fr: I18n.t('form.send', locale: :fr),
+    title_nl: I18n.t('form.send', locale: :nl),
+    title_de: I18n.t('form.send', locale: :de)
   )
 end

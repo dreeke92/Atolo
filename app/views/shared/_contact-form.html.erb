@@ -1,11 +1,11 @@
 <%= simple_form_for Message.new do |f| %>
   <h2><%= Title.find_by_unique_key("contact_form_title")&.translate(locale) %></h2>
-  <%= f.input :name, label:t('form.name') %>
-  <%= f.input :company,  label:t('form.company') %>
-  <%= f.input :email,  label:t('form.email') %>
-  <%= f.input :phone,  label:t('form.phone') %>
-  <%= f.input :attachment, as: :file, label:t('form.attachment') %>
-  <%= f.input :content, label:t('form.message'), as: :text %>
+  <%= f.input :name, label:Title.find_by_unique_key("contact_form_name")&.translate(locale)%>
+  <%= f.input :company,  label:Title.find_by_unique_key("contact_form_company")&.translate(locale) %>
+  <%= f.input :email,  label:Title.find_by_unique_key("contact_form_email")&.translate(locale) %>
+  <%= f.input :phone,  label:Title.find_by_unique_key("contact_form_phone")&.translate(locale) %>
+  <%= f.input :attachment, as: :file, label:Title.find_by_unique_key("contact_form_attachment")&.translate(locale) %>
+  <%= f.input :content, label:Title.find_by_unique_key("contact_form_message")&.translate(locale), as: :text %>
   <div class="field d-none">
     <input class="checkbot" id="checkbot" name="message[checkbot]" value="" />
     <label for="human"><%= t('form.human') %></label>
@@ -19,7 +19,7 @@
     data-expired-callback="onRecaptchaResponseExpiry"
     data-error-callback="onRecaptchaError"></div>
   </div>
-  <%= f.submit t('form.send'), class:"primary contact-form-submit", id:"btnsubmit" , disabled: true%>
+  <%= f.submit Title.find_by_unique_key("contact_form_send")&.translate(locale), class:"primary contact-form-submit", id:"btnsubmit" , disabled: true%>
 <% end %>
 
 <script>

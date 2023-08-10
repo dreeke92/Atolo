@@ -5,6 +5,10 @@
   margin-top: 25vh;
 }
 
+.required > abbr{
+  display:none;
+}
+
 #contact-us {
   background: url('contact_background.png') fixed center center;
   background-size: cover;
