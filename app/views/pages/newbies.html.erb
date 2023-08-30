@@ -24,164 +24,102 @@
   </div>
 </div>
 <div class="grey-bg">
-  <div class="container">
-    <div class="newbies_events" id="products">
-      <% product_1 = @products_1.first %>
-      <% product_2 = @products_1.last %>
-      <% product_3 = @products_2.first %>
-        <div class="newbies_event large">
-          <div class="header">
-            <div class="title">
-              <%= Title.find_by_unique_key("newbies_product_1_header_title")&.translate(locale) %>
-            </div>
-            <div class="description">
-              <%= Title.find_by_unique_key("newbies_product_1_header_description")&.translate(locale) %>
-            </div>
+  <div class="newbies_events" id="products">
+    <div class="newbies_event large">
+      <div class="header">
+        <div class="title">
+          <%= Title.find_by_unique_key("newbies_product_1_header_title")&.translate(locale) %>
+        </div>
+        <div class="description">
+          <%= Title.find_by_unique_key("newbies_product_1_header_description")&.translate(locale) %>
+        </div>
+      </div>
+      <%= link_to product_path(@product_1.id)do %>
+        <div style="background-image: url(<%= image_url('newbies_Intercultural-team-collaboration.png') %>)" class="bg-image">
+          <div class="category">
+            <%= Title.find_by_unique_key("newbies_product_1_picture_category")&.translate(locale) %>
           </div>
-          <%= link_to product_path(product_1.id)do %>
-            <div style="background-image: url(<%= image_url('newbies_Intercultural-team-collaboration.png') %>)" class="bg-image">
-              <div class="category">
-                <%= Title.find_by_unique_key("newbies_product_1_picture_category")&.translate(locale) %>
-              </div>
-              <div class="picture-title">
-                <%= Title.find_by_unique_key("newbies_product_1_picture_title")&.translate(locale) %>
-              </div>
-              <span> <%= Title.find_by_unique_key("newbies_product_cta")&.translate(locale) %> <%= image_tag 'icons/arrow-right-circle-2.svg' %></span>
-            </div>
-
-          <% end %>
+          <div class="picture-title">
+            <%= Title.find_by_unique_key("newbies_product_1_picture_title")&.translate(locale) %>
+          </div>
+          <span> <%= Title.find_by_unique_key("newbies_product_cta")&.translate(locale) %> <%= image_tag 'icons/arrow-right-circle-2.svg' %></span>
         </div>
 
-        <div class="newbies_event large">
-          <div class="header">
-            <div class="title title-red">
-              <%= Title.find_by_unique_key("newbies_product_2_header_title")&.translate(locale) %>
-            </div>
-            <div class="description">
-              <%= Title.find_by_unique_key("newbies_product_2_header_description")&.translate(locale) %>
-            </div>
+      <% end %>
+    </div>
+
+    <div class="newbies_event large">
+      <div class="header">
+        <div class="title title-red">
+          <%= Title.find_by_unique_key("newbies_product_2_header_title")&.translate(locale) %>
+        </div>
+        <div class="description">
+          <%= Title.find_by_unique_key("newbies_product_2_header_description")&.translate(locale) %>
+        </div>
+      </div>
+
+      <%= link_to product_path(@product_2.id)do %>
+        <div style="background-image: url(<%= image_url('newbies_Team-immersion.png') %>)" class="bg-image">
+          <div class="category">
+            <%= Title.find_by_unique_key("newbies_product_2_picture_category")&.translate(locale) %>
           </div>
-
-          <%= link_to product_path(product_2.id)do %>
-            <div style="background-image: url(<%= image_url('newbies_Team-immersion.png') %>)" class="bg-image">
-              <div class="category">
-                <%= Title.find_by_unique_key("newbies_product_2_picture_category")&.translate(locale) %>
-              </div>
-              <div class="picture-title">
-                <%= Title.find_by_unique_key("newbies_product_2_picture_title")&.translate(locale) %>
-              </div>
-              <span> <%= Title.find_by_unique_key("newbies_product_cta")&.translate(locale) %> <%= image_tag 'icons/arrow-right-circle-2.svg' %></span>
-            </div>
-
-          <% end %>
+          <div class="picture-title">
+            <%= Title.find_by_unique_key("newbies_product_2_picture_title")&.translate(locale) %>
+          </div>
+          <span> <%= Title.find_by_unique_key("newbies_product_cta")&.translate(locale) %> <%= image_tag 'icons/arrow-right-circle-2.svg' %></span>
         </div>
 
-        <div class="newbies_event large">
-          <div class="header">
-            <div class="title">
-              <%= Title.find_by_unique_key("newbies_product_3_header_title")&.translate(locale) %>
-            </div>
-            <div class="description">
-              <%= Title.find_by_unique_key("newbies_product_3_header_description")&.translate(locale) %>
-            </div>
-          </div>
-          <%= link_to product_path(product_3.id)do %>
-            <div style="background-image: url(<%= image_url('newbies_Cross-team-collaboration.png') %>)" class="bg-image">
-              <div class="category">
-                <%= Title.find_by_unique_key("newbies_product_3_picture_category")&.translate(locale) %>
-              </div>
-              <div class="picture-title">
-                <%= Title.find_by_unique_key("newbies_product_3_picture_title")&.translate(locale) %>
-              </div>
-              <span> <%= Title.find_by_unique_key("newbies_product_cta")&.translate(locale) %> <%= image_tag 'icons/arrow-right-circle-2.svg' %></span>
-            </div>
+      <% end %>
+    </div>
 
-          <% end %>
+    <div class="newbies_event large">
+      <div class="header">
+        <div class="title">
+          <%= Title.find_by_unique_key("newbies_product_3_header_title")&.translate(locale) %>
         </div>
+        <div class="description">
+          <%= Title.find_by_unique_key("newbies_product_3_header_description")&.translate(locale) %>
+        </div>
+      </div>
+      <%= link_to product_path(@product_3.id)do %>
+        <div style="background-image: url(<%= image_url('newbies_Cross-team-collaboration.png') %>)" class="bg-image">
+          <div class="category">
+            <%= Title.find_by_unique_key("newbies_product_3_picture_category")&.translate(locale) %>
+          </div>
+          <div class="picture-title">
+            <%= Title.find_by_unique_key("newbies_product_3_picture_title")&.translate(locale) %>
+          </div>
+          <span> <%= Title.find_by_unique_key("newbies_product_cta")&.translate(locale) %> <%= image_tag 'icons/arrow-right-circle-2.svg' %></span>
+        </div>
+
+      <% end %>
     </div>
   </div>
-</div>
-<div class="container">
-  <div class="concept">
-    <h2><%= t ('summer_class.concept') %></h2>
-    <div class="concept_text"><%= t ('summer_class.concept_text_html') %></div>
-  </div>
-  <div class="events" id="products">
-    <% @products_1.each do |product| %>
-      <div class="event large">
-        <div style="background-image: url(<%= product.photo_url %>)" class="bg-image">
+  <div class="newbies_tips_section">
+    <h3><%= Title.find_by_unique_key("newbies_tips_title")&.translate(locale) %></h3>
+    <div class="newbies_tips">
+      <div class="newbies_tip">
+        <div class="number">1</div>
+        <div class="text">
+          <%= Title.find_by_unique_key("newbies_tip_1")&.translate(locale) %>
         </div>
-        <div class="subtitle">
-          <%= eval("product.subtitle_#{locale}") %>
-        </div>
-        <div class="title title-pink">
-          <%= eval("product.name_#{locale}") %>
-        </div>
-        <div class="description">
-          <%= eval("product.rich_description_#{locale}") %>
-        </div>
-        <% cta = eval("product.cta_#{locale}") %>
-        <%= link_to product_path(product.id), class:"cta pink-cta" do %>
-          <span> <%= cta.nil? ? "More info" : cta %> <%= image_tag 'icons/arrow-right-circle-2.svg' %></span>
-        <% end %>
       </div>
-    <% end %>
-    <% @products_2.each do |product| %>
-      <div class="event large">
-        <div style="background-image: url(<%= product.photo_url %>)" class="bg-image">
+      <div class="newbies_tip">
+        <div class="number">2</div>
+        <div class="text">
+          <%= Title.find_by_unique_key("newbies_tip_2")&.translate(locale) %>
         </div>
-        <div class="subtitle">
-          <%= eval("product.subtitle_#{locale}") %>
-        </div>
-        <div class="title">
-          <%= eval("product.name_#{locale}") %>
-        </div>
-        <div class="description">
-          <%= eval("product.rich_description_#{locale}") %>
-        </div>
-        <% cta = eval("product.cta_#{locale}") %>
-        <%= link_to product_path(product.id), class:"cta" do %>
-          <span> <%= cta.nil? ? "More info" : cta %> <%= image_tag 'icons/arrow-right-circle-2.svg' %></span>
-        <% end %>
       </div>
-    <% end %>
+      <div class="newbies_tip">
+        <div class="number">3</div>
+        <div class="text">
+          <%= Title.find_by_unique_key("newbies_tip_3")&.translate(locale) %>
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>
 
 <!-- Items -->
-<section id="testimonials" class="wrapper style1 align-center">
-  <div class="inner">
-    <h3><%= t('summer_class.testimonials_title_html') %></h3>
-    <div class="owl-carousel owl-theme testimonial-cards onload-fade-in card-carousel-solo">
-        <section class="testimonial-card">
-          <p class="small-font">
-            "What progress have I made! My English has improved considerably: I can say goodbye now to the
-            stress that troubled me before every meeting! Mostly thanks to the trainer who has a perfect
-            command of her subject, knows how to manage a group of 8 people and makes us feel at ease in all
-            situations. She has the art of making her lessons come alive and is very pedagogical. You can feel
-            that she is passionate about her work. In short, I recommend ATOLO courses. So much more
-            rewarding than any other language training I followed in the past. " - <span style="font-weight:bold">Participant, Language group session</span>
-          </p>
-        </section>
-        <section class="testimonial-card">
-          <p class="small-font">
-            "By working in small groups, they really coach senior leaders 121 and leverages cross-functional peer
-learning at the same time. They adopt an empowering and supporting style, and are highly
-knowledgeable and respectful. Their approach is truly hands-on, as participants use their own cases,
-increasing the relevance of the learnings and facilitating application afterwards. Five-star ratings
-given by our participants!" – <span style="font-weight:bold">Nele Van Hooste, Talent &amp; Development Lead, Galapagos</span>
-          </p>
-        </section>
-        <section class="testimonial-card">
-          <p class="small-font">
-            "Appraisals and reviews are challenging moments for a manager /team leader and also for the
-employee. Knowing how to be well prepared and how to deliver impactful constructive feedback can
-make all the difference in these moments. It can ensure that the work relation continues to develop
-well, and that those involved feel motivated to further in their work. By focusing on the key insights,
-methodologies and the applicable know-how, you can succeed in your feedback moments in
-appraisals and mid-reviews." - <span style="font-weight:bold">Claudia Fortes, Trainer</span>
-          </p>
-        </section>
-    </div>
-  </div>
-</section>
+<%= render 'shared/new_testimonials' %>

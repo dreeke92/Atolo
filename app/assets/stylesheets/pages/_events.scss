@@ -284,12 +284,14 @@
 
   .grey-bg{
     background-color: $light-gray;
+    position: relative;
   }
 
   .newbies_events{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
 
     .newbies_event{
       max-width: 383px;
@@ -360,4 +362,72 @@
       }
     }
   }
+  .newbies_tips_section{
+    h3{
+      font-size: 2.2rem;
+      max-width: 500px;
+      text-align: center;
+      margin: auto;
+      margin-bottom: 38px;
+      font-weight: 400;
+      color: $green;
+    }
+  }
+  .newbies_tips{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .newbies_tip{
+    max-width: 383px;
+    border-radius: 15px;
+    box-shadow: 6px 6px 12px #0000000D;
+    margin: 0.8rem;
+    background-color: $green;
+    color: white;
+    display: flex;
+    padding: 32px 32px;
+    align-items: center;
+    height: 260px;
+
+    .number{
+      background-color: $green-darker;
+      padding: 6px 16px;
+      border-radius: 30px;
+      margin-right: 15px;
+      flex: 1;
+      font-weight: 400;
+    }
+
+    .text{
+      font-size: 0.9rem;
+    }
+
+  }
+  @media (min-width: 768px) {
+
+    .concept{
+      padding-bottom: 280px;
+    }
+
+    .grey-bg{
+      min-height: 900px;
+    }
+
+    .newbies_events{
+      position: absolute;
+      top: -220px;
+      right: 0px;
+      left: 0px;
+    }
+
+    .newbies_tips_section{
+      bottom: -145px;
+      right: 0px;
+      left: 0px;
+      position: absolute;
+    }
+  }
+
 }

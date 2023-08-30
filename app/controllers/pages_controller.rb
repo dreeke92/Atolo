@@ -40,12 +40,15 @@ class PagesController < ApplicationController
   def newbies
     if Rails.env.production?
     # @products = Product.take(3)
-    @products_1 = Product.where("id in (221, 222)").order(:id)
-    @products_2 = Product.where("id in (223, 224)").order(:id)
+      @product_1 = Product.find(236)
+      @product_2 = Product.find(248)
+      @product_3 = Product.find(248)
     else
-      @products_1 = Product.take(2)
-      @products_2 = Product.take(2)
+      @product_1 = Product.take(2).first
+      @product_2 = Product.take(2).last
+      @product_3 = Product.take(3).last
     end
+    @testimonials = Testimonial.where(category: "home_page").order(id: :asc)
   end
 
   def promotions

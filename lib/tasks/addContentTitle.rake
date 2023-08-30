@@ -1177,6 +1177,30 @@ task addContentTitle: :environment do
     title_en: "Cross-team collaboration"
   )
 
+  Title.find_or_create_by(
+    unique_key: "newbies_tips_title",
+    page: "newbies",
+    title_en: "3 tips to strengthen your team collaboration right away!"
+  )
+
+  Title.find_or_create_by(
+    unique_key: "newbies_tip_1",
+    page: "newbies",
+    title_en: "Start by creating an environment of psychological safety so that great communication can take place in a constructive way."
+  )
+
+  Title.find_or_create_by(
+    unique_key: "newbies_tip_2",
+    page: "newbies",
+    title_en: "Lay the foundation on how to better collaborate will provide the transparency needed for a stronger and smoother daily collaboration."
+  )
+
+  Title.find_or_create_by(
+    unique_key: "newbies_tip_3",
+    page: "newbies",
+    title_en: "Communication is key! Learn how to execute your key communication moments with ease and impact: giving instructions, providing feedback, supporting and coaching, and delegating."
+  )
+
 
 
 end
