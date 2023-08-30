@@ -25,12 +25,12 @@
             <div class="avatar-large" style="background-image: url(<%= image_url(member.photo_url) %>)">
             </div>
           <% end %>
-          <div class="profile-card-description">
-            <%= eval("member.description_#{I18n.locale}") %>
-          </div>
           <div class="profile-card-author">
             <h3><%= "#{member.first_name} #{member.last_name}" %></h3>
             <h4><%= member.role %></h4>
+          </div>
+          <div class="profile-card-description">
+            <%= eval("member.description_#{I18n.locale}") %>
           </div>
           <div class="icons">
             <a class ="icon" href=<%= member.linkedin %> target="blank"><i class="fab fa-linkedin-in"></i></a>

@@ -26,6 +26,7 @@ Rails.application.routes.draw do
     get 'thank_you', to: "pages#thank_you"
     get 'events', to: "pages#events"
     get 'summer_class', to: "pages#summer_class"
+    get 'newbies', to: "pages#newbies"
     get 'eval', to: "pages#eval"
     get 'category/*category', to: "pages#category", as:'category'
     # get 'mockup', to: "pages#mock-up"
