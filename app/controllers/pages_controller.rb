@@ -42,13 +42,13 @@ class PagesController < ApplicationController
     # @products = Product.take(3)
       @product_1 = Product.find(236)
       @product_2 = Product.find(248)
-      @product_3 = Product.find(248)
+      @product_3 = Product.find(251)
     else
       @product_1 = Product.take(2).first
       @product_2 = Product.take(2).last
       @product_3 = Product.take(3).last
     end
-    @testimonials = Testimonial.where(category: "leadership").order(id: :asc)
+    @testimonials = Testimonial.where(category: "newbies").order(id: :asc)
   end
 
   def promotions
