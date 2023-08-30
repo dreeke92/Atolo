@@ -1057,148 +1057,160 @@ task addContentTitle: :environment do
   #   title_de: I18n.t('form.send', locale: :de)
   # )
 
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_title",
+  #   page: "newbies",
+  #   title_en: "NEWBIES"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_title_subtitle",
+  #   page: "newbies",
+  #   title_en: "FALL EDITION 2023"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_title_description",
+  #   page: "newbies",
+  #   title_en: "Building high-performing teams. Breaking down silos. Creating great workplaces. How to get there? The answer is to focus on team collaboration!"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_get_started",
+  #   page: "newbies",
+  #   title_en: "Get started"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_section_1_title",
+  #   page: "newbies",
+  #   title_en: "Teamwork makes the dream work"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_section_1_description",
+  #   page: "newbies",
+  #   title_en: "Building a solid team is the foundation for any successful organisation. How can our trainings help you to strengthen teams, forge your organisation ahead and provide collaborative skills for your colleagues?"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_section_1_subtitle",
+  #   page: "newbies",
+  #   title_en: "Go into action with our team-focused solutions!"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_product_1_header_title",
+  #   page: "newbies",
+  #   title_en: "Intercultural collaboration"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_product_1_header_description",
+  #   page: "newbies",
+  #   title_en: "Confronted to different points of views within your teams? Embrace cultural diversity as a strength, turning different opinions and ways of doing into innovation and high performance."
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_product_1_picture_category",
+  #   page: "newbies",
+  #   title_en: "People&Culture"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_product_1_picture_title",
+  #   page: "newbies",
+  #   title_en: "Intercultural team collaboration"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_product_cta",
+  #   page: "newbies",
+  #   title_en: "More info"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_product_2_header_title",
+  #   page: "newbies",
+  #   title_en: "Multilingual collaboration"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_product_2_header_description",
+  #   page: "newbies",
+  #   title_en: "Looking for high-performing teams in a multilingual environment? Invest in the collaboration and communication between your teams by giving them a full immersive experience."
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_product_2_picture_category",
+  #   page: "newbies",
+  #   title_en: "Languages"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_product_2_picture_title",
+  #   page: "newbies",
+  #   title_en: "Team immersion"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_product_3_header_title",
+  #   page: "newbies",
+  #   title_en: "Cross-team collaboration"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_product_3_header_description",
+  #   page: "newbies",
+  #   title_en: "Seeking a better cross-team connection? Avoid silos and create an open environment with constructive conversations so your teams can reach great results together."
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_product_3_picture_category",
+  #   page: "newbies",
+  #   title_en: "People&Culture"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_product_3_picture_title",
+  #   page: "newbies",
+  #   title_en: "Cross-team collaboration"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_tips_title",
+  #   page: "newbies",
+  #   title_en: "3 tips to strengthen your team collaboration right away!"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_tip_1",
+  #   page: "newbies",
+  #   title_en: "Start by creating an environment of psychological safety so that great communication can take place in a constructive way."
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_tip_2",
+  #   page: "newbies",
+  #   title_en: "Lay the foundation on how to better collaborate will provide the transparency needed for a stronger and smoother daily collaboration."
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_tip_3",
+  #   page: "newbies",
+  #   title_en: "Communication is key! Learn how to execute your key communication moments with ease and impact: giving instructions, providing feedback, supporting and coaching, and delegating."
+  # )
+
   Title.find_or_create_by(
-    unique_key: "newbies_title",
+    unique_key: "newbies_contact_banner_title",
     page: "newbies",
-    title_en: "NEWBIES"
+    title_en: "Too busy to train if there is no value, right?"
   )
 
   Title.find_or_create_by(
-    unique_key: "newbies_title_subtitle",
+    unique_key: "newbies_contact_banner_content",
     page: "newbies",
-    title_en: "FALL EDITION 2023"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "newbies_title_description",
-    page: "newbies",
-    title_en: "Building high-performing teams. Breaking down silos. Creating great workplaces. How to get there? The answer is to focus on team collaboration!"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "newbies_get_started",
-    page: "newbies",
-    title_en: "Get started"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "newbies_section_1_title",
-    page: "newbies",
-    title_en: "Teamwork makes the dream work"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "newbies_section_1_description",
-    page: "newbies",
-    title_en: "Building a solid team is the foundation for any successful organisation. How can our trainings help you to strengthen teams, forge your organisation ahead and provide collaborative skills for your colleagues?"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "newbies_section_1_subtitle",
-    page: "newbies",
-    title_en: "Go into action with our team-focused solutions!"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "newbies_product_1_header_title",
-    page: "newbies",
-    title_en: "Intercultural collaboration"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "newbies_product_1_header_description",
-    page: "newbies",
-    title_en: "Confronted to different points of views within your teams? Embrace cultural diversity as a strength, turning different opinions and ways of doing into innovation and high performance."
-  )
-
-  Title.find_or_create_by(
-    unique_key: "newbies_product_1_picture_category",
-    page: "newbies",
-    title_en: "People&Culture"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "newbies_product_1_picture_title",
-    page: "newbies",
-    title_en: "Intercultural team collaboration"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "newbies_product_cta",
-    page: "newbies",
-    title_en: "More info"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "newbies_product_2_header_title",
-    page: "newbies",
-    title_en: "Multilingual collaboration"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "newbies_product_2_header_description",
-    page: "newbies",
-    title_en: "Looking for high-performing teams in a multilingual environment? Invest in the collaboration and communication between your teams by giving them a full immersive experience."
-  )
-
-  Title.find_or_create_by(
-    unique_key: "newbies_product_2_picture_category",
-    page: "newbies",
-    title_en: "Languages"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "newbies_product_2_picture_title",
-    page: "newbies",
-    title_en: "Team immersion"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "newbies_product_3_header_title",
-    page: "newbies",
-    title_en: "Cross-team collaboration"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "newbies_product_3_header_description",
-    page: "newbies",
-    title_en: "Seeking a better cross-team connection? Avoid silos and create an open environment with constructive conversations so your teams can reach great results together."
-  )
-
-  Title.find_or_create_by(
-    unique_key: "newbies_product_3_picture_category",
-    page: "newbies",
-    title_en: "People&Culture"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "newbies_product_3_picture_title",
-    page: "newbies",
-    title_en: "Cross-team collaboration"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "newbies_tips_title",
-    page: "newbies",
-    title_en: "3 tips to strengthen your team collaboration right away!"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "newbies_tip_1",
-    page: "newbies",
-    title_en: "Start by creating an environment of psychological safety so that great communication can take place in a constructive way."
-  )
-
-  Title.find_or_create_by(
-    unique_key: "newbies_tip_2",
-    page: "newbies",
-    title_en: "Lay the foundation on how to better collaborate will provide the transparency needed for a stronger and smoother daily collaboration."
-  )
-
-  Title.find_or_create_by(
-    unique_key: "newbies_tip_3",
-    page: "newbies",
-    title_en: "Communication is key! Learn how to execute your key communication moments with ease and impact: giving instructions, providing feedback, supporting and coaching, and delegating."
+    title_en: "That’s why the key ingredients we bring are so appreciated."
   )
 
 

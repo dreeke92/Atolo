@@ -405,6 +405,81 @@
     }
 
   }
+
+  #testimonials{
+
+    padding-top: 100px;
+
+    h2{
+      color: $green;
+      font-weight:400;
+      margin-bottom: 64px;
+      font-size: 36px;
+    }
+    .testimonial-card{
+      background-color: white;
+      height: 550px;
+      position: relative;
+
+      &-logo{
+        height: 250px;
+        width: 250px;
+        padding: 10px;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 3px 3px 6px #0000001A;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 20px;
+
+        .testimonial-logo{
+          max-height: 70%;
+          max-width: 100%;
+        }
+      }
+
+      .testimonial-footer{
+        position: absolute;
+        bottom: 20px;
+        left: 0px;
+        right: 0px;
+        text-align: center;
+        h3, h4{
+          font-size: 18px;
+          color: $green;
+          margin-bottom: 8px;
+        }
+      }
+
+    }
+  }
+
+  .contact-banner{
+    background: transparent linear-gradient(270deg, #DB0B5B 0%, #F0B323 100%) 0% 0% no-repeat padding-box;
+
+    .contact-us-text > .header{
+      font-size: 40px;
+    }
+
+    .contact-us-text > .content{
+      font-size: 24px;
+    }
+    .contact-us-btn{
+      background-color: white;
+      color: $red;
+    }
+
+    svg > #arrow-right-circle{
+      circle, line, path{
+        stroke: $red;
+      }
+    }
+  }
+
+  // #F0B325 #DB0C5A
   @media (min-width: 768px) {
 
     .concept{
@@ -427,6 +502,10 @@
       right: 0px;
       left: 0px;
       position: absolute;
+    }
+
+    #testimonials {
+      padding-top: 210px;
     }
   }
 
