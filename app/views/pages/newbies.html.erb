@@ -34,7 +34,7 @@
           <%= Title.find_by_unique_key("newbies_product_1_header_description")&.translate(locale) %>
         </div>
       </div>
-      <%= link_to product_path(@product_1.id)do %>
+      <%= link_to preview_product_path(@product_1.id)do %>
         <div style="background-image: url(<%= image_url('newbies_Intercultural-team-collaboration.png') %>)" class="bg-image">
           <div class="category">
             <%= Title.find_by_unique_key("newbies_product_1_picture_category")&.translate(locale) %>
@@ -58,7 +58,7 @@
         </div>
       </div>
 
-      <%= link_to product_path(@product_2.id)do %>
+      <%= link_to preview_product_path(@product_2.id)do %>
         <div style="background-image: url(<%= image_url('newbies_Team-immersion.png') %>)" class="bg-image">
           <div class="category">
             <%= Title.find_by_unique_key("newbies_product_2_picture_category")&.translate(locale) %>
@@ -81,7 +81,7 @@
           <%= Title.find_by_unique_key("newbies_product_3_header_description")&.translate(locale) %>
         </div>
       </div>
-      <%= link_to product_path(@product_3.id)do %>
+      <%= link_to preview_product_path(@product_3.id)do %>
         <div style="background-image: url(<%= image_url('newbies_Cross-team-collaboration.png') %>)" class="bg-image">
           <div class="category">
             <%= Title.find_by_unique_key("newbies_product_3_picture_category")&.translate(locale) %>

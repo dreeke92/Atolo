@@ -43,12 +43,14 @@ class PagesController < ApplicationController
       @product_1 = Product.find(236)
       @product_2 = Product.find(248)
       @product_3 = Product.find(251)
+      @testimonials = Testimonial.where(category: "newbies").order(id: :asc)
     else
       @product_1 = Product.take(2).first
       @product_2 = Product.take(2).last
       @product_3 = Product.take(3).last
+      @testimonials = Testimonial.where(category: "leadership").order(id: :asc)
     end
-    @testimonials = Testimonial.where(category: "newbies").order(id: :asc)
+
   end
 
   def promotions
