@@ -252,6 +252,9 @@
     .second-section{
       height: 235px;
     }
+    .categories{
+      top: -96px;
+    }
 
     #approach{
       #quadrant-selector-one.active h3{
@@ -302,7 +305,7 @@
     }
 
     .second-section{
-      height: 235px;
+      height: 380px;
     }
     .btn-div >.regular{
       background-color: $yellow;
@@ -310,9 +313,12 @@
         background-color: $yellow-darker;
       }
     }
-
+    .categories{
+      top: -96px;
+    }
     .category-block{
       background-color: $yellow;
+      width: 28%;
 
       svg{
         g,circle, path {

@@ -227,8 +227,8 @@
   }
 }
 
-#pages_newbies{
-  .wrapper.banner-title{
+
+#pages_newbies .wrapper.banner-title,  #pages_home .fourth-section .wrapper.banner-title{
     background-size: cover;
 
     h1{
@@ -248,10 +248,10 @@
     }
   }
 
-  .wrapper .subtitle {
+  #pages_newbies .wrapper .subtitle, #pages_home .fourth-section .wrapper .subtitle{
     max-width: 690px;
   }
-
+#pages_newbies {
   .concept{
     padding-bottom: 208px;
 
@@ -296,7 +296,7 @@
     .newbies_event{
       max-width: 383px;
       border-radius: 15px;
-      box-shadow: 6px 6px 12px #0000000D;
+      box-shadow: 6px -4px 12px #0000000D;
       margin: 0.8rem;
 
       .header{
@@ -507,7 +507,7 @@
     }
 
     #testimonials {
-      padding-top: 210px;
+      padding-top: 180px;
     }
   }
 
