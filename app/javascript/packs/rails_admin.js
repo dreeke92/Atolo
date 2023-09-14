@@ -6,9 +6,9 @@ var Trix = require("trix");
 
 /* what the newly created button does */
 Trix.config.textAttributes.green = {
-    style: { color: "#48E27C" },
+    style: { color: "#78BE21" },
     parser: function(element) {
-        return element.style.color === "#48E27C"
+        return element.style.color === "#78BE21"
     },
     inheritable: true
 }
