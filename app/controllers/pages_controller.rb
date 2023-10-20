@@ -117,8 +117,9 @@ class PagesController < ApplicationController
         @products << Product.find(235)
         @products << Product.find(236)
         @products << Product.find(251)
+        @products << Product.find(252)
       else
-        @products = Product.where("name_en IS NOT NULL").take(5)
+        @products = Product.where("name_en IS NOT NULL").take(6)
       end
     elsif  category.include?("languages")
       @class = 'red'
