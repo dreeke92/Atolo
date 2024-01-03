@@ -117,6 +117,7 @@ class PagesController < ApplicationController
         @products_1 << Product.find(251)
         @products_1 << Product.find(233)
         @products_1 << Product.find(252)
+        @products_1 << Product.find(236)
         @products_2 << Product.find(256)
         @products_2 << Product.find(234)
         @products_2 << Product.find(254)
