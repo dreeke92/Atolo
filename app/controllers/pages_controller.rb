@@ -111,15 +111,22 @@ class PagesController < ApplicationController
       @key = "people"
       @testimonials = Testimonial.where(category: "people_and_culture").order(id: :asc)
       if Rails.env == "production"
-        @products = []
-        @products << Product.find(233)
-        @products << Product.find(234)
-        @products << Product.find(235)
-        @products << Product.find(236)
-        @products << Product.find(251)
-        @products << Product.find(252)
+        @products_1 = []
+        @products_2 = []
+        @products_3 = []
+        @products_1 << Product.find(251)
+        @products_1 << Product.find(233)
+        @products_1 << Product.find(252)
+        @products_2 << Product.find(256)
+        @products_2 << Product.find(234)
+        @products_2 << Product.find(254)
+        @products_2 << Product.find(255)
+        @products_2 << Product.find(253)
+        @products_3 << Product.find(235)
       else
-        @products = Product.where("name_en IS NOT NULL").take(6)
+       @products_1 = Product.where("name_en IS NOT NULL").take(3)
+        @products_2 = Product.where("name_en IS NOT NULL").take(4)
+        @products_3 = Product.where("name_en IS NOT NULL").take(1)
       end
     elsif  category.include?("languages")
       @class = 'red'

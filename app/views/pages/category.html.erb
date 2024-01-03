@@ -121,10 +121,15 @@
       </div>
     </div>
   <% elsif @class == "yellow" %>
-    <div class="second-section red">
+    <div class="second-section yellow">
+
       <div class="categories">
-          <% @products.each do |product| %>
-            <%= link_to preview_product_path(product.id), class: "category-block" do %>
+        <div class="big-category">
+          <div class="header">
+            <%= Title.find_by_unique_key("pillar_people_category_header_1")&.translate(locale) %>
+          </div>
+          <% @products_1.each do |product| %>
+            <%= link_to preview_product_path(product.id), class: "category-link" do %>
               <div class="title">
                 <%= eval("product.name_#{locale}") %>
               </div>
@@ -132,6 +137,38 @@
             <% end %>
 
           <% end %>
+
+        </div>
+        <div class="big-category">
+          <div class="header">
+            <%= Title.find_by_unique_key("pillar_people_category_header_2")&.translate(locale) %>
+          </div>
+          <% @products_2.each do |product| %>
+            <%= link_to preview_product_path(product.id), class: "category-link" do %>
+              <div class="title">
+                <%= eval("product.name_#{locale}") %>
+              </div>
+              <%= render 'shared/svg/arrow-right-circle' %>
+            <% end %>
+
+          <% end %>
+
+        </div>
+        <div class="big-category">
+          <div class="header">
+            <%= Title.find_by_unique_key("pillar_people_category_header_3")&.translate(locale) %>
+          </div>
+          <% @products_3.each do |product| %>
+            <%= link_to preview_product_path(product.id), class: "category-link" do %>
+              <div class="title">
+                <%= eval("product.name_#{locale}") %>
+              </div>
+              <%= render 'shared/svg/arrow-right-circle' %>
+            <% end %>
+
+          <% end %>
+
+        </div>
       </div>
     </div>
   <% elsif @class == "green" %>
