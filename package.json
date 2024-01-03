@@ -1,9 +1,6 @@
 {
   "name": "Atolo",
   "private": true,
-  "engines": {
-    "node": "14.x",
-  },
   "dependencies": {
     "@rails/actiontext": "^6.1.7",
     "@rails/webpacker": "5.4.3",
