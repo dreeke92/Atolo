@@ -86,6 +86,7 @@
         align-items: center;
         .title{
           color: white;
+          font-size: 18px;
         }
         svg{
           height: 20px;
@@ -114,6 +115,7 @@
       height: 170px;
       .title{
         width: 200px;
+        font-size: 18px;
       }
       svg{
         margin-left: 12px;
@@ -222,6 +224,9 @@
         .testimonial-logo{
           max-height: 100%;
           max-width: 100%;
+        }
+        p.small-font{
+          font-size: 16px;
         }
       }
 
