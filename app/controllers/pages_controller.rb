@@ -84,6 +84,7 @@ class PagesController < ApplicationController
         @products << Product.find(238)
         @products << Product.find(240)
         @products << Product.find(239)
+        @products << Product.find(257)
       else
         @products = Product.where("name_en IS NOT NULL").take(4)
       end
