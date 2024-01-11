@@ -26,9 +26,9 @@
     <%= action_cable_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all' %>
     <% if @product %>
-      <meta property="og:image" content=<%= @product.photo_url %> />
-      <meta property="og:description" content=<%= @product.rich_description_en %> />
-      <meta property="og:title" content=<%= @product.name_en %> />
+      <meta name="og:image" content=<%= @product.photo_url %> />
+      <meta name="og:description" content=<%= @product.rich_description_en %> />
+      <meta name="og:title" content=<%= @product.name_en %> />
     <% end %>
     <%#= stylesheet_pack_tag 'application', media: 'all' %>
     <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
