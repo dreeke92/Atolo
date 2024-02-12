@@ -50,6 +50,15 @@
         </li>
         <li id="nav_events">
           <%= link_to "#{Title.find_by_unique_key("navigation_whats_new")&.translate(locale)}", newbies_path, class:"nav-link" %>
+          <ul class="language-drop-down">
+            <li class="mobile_language_drops">
+              <a href="https://www.eventbrite.be/e/when-experts-become-people-leaders-tickets-810138304477" target="_blank">Webinar</span></a>
+            </li>
+            <li class="mobile_language_drops">
+              <%= link_to "#{Title.find_by_unique_key("newbies_title")&.translate(locale).capitalize}", newbies_path, class:"nav-link" %>
+            </li>
+          </ul>
+
         </li>
         <li id="nav_contact">
           <%= link_to "#{Title.find_by_unique_key("navigation_contact")&.translate(locale)}", contact_path, class:"regular" %>

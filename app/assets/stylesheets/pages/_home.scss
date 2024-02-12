@@ -270,6 +270,16 @@
 
     }
   }
+  .webinar-cta{
+    background-color: white;
+    color:$green-2;
+    border:1px solid $green-2;
+    svg > #arrow-right-circle{
+        circle, line, path{
+        stroke: $green-2;
+      }
+    }
+  }
 }
 .key-figures{
   padding-top: 100px;
