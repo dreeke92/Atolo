@@ -1,29 +1,90 @@
 <%= render 'shared/new_navbar' %>
 <% locale = I18n.locale %>
-<div class="wrapper" style="background-image: url(<%= @product.photo_url %>)">
-  <h2 class="<%= 'pink-title' if [222, 221].include?(@product.id) %>"><%= eval("@product.subtitle_#{locale}") %></h2>
-  <h1><%= eval("@product.name_#{locale}") %></h1>
+<div class="<%= @category_color %>">
+  <div class="wrapper" style="background-image: url(<%= @product.photo_url %>)">
+    <h2 class="<%= 'pink-title' if [222, 221].include?(@product.id) %>"><%= eval("@product.subtitle_#{locale}") %></h2>
+    <h1><%= eval("@product.name_#{locale}") %></h1>
+  </div>
+  <div class="second-section">
+    <div class="summer_description">
+      <%= eval("@product.summer_rich_description_2_#{locale}") %>
+    </div>
+     <div class="container communication" style="padding-bottom:150px;">
+       <div class="row practicalities-title">
+        <% title = Title.find_by_unique_key("product_key_take_away") %>
+         <h2><%= title&.translate(locale) %></h2>
+       </div>
+       <% practicalities_count = @product.practicalities_count(locale).zero? ? 5 : @product.practicalities_count(locale) %>
+       <% col = @product.divisible_by_3?(locale) ? "col-md-4" : "col-md-6"  %>
+       <div class="row practicalities">
+        <% (1..practicalities_count).each do |number| %>
+          <% if eval("@product.practicality_#{number}_#{locale}") %>
+            <div class="<%= (number == practicalities_count && number == 5) ? "offset-md-3 #{col}" : col %>">
+              <div class="practicalities-card">
+                <%= eval("@product.practicality_#{number}_#{locale}") %>
+                <% if false %>
+                  Improve understanding of your audience’s needs.
+                <% end %>
+              </div>
+            </div>
+          <% end %>
+         <% end %>
+       </div>
+       <div class="">
+        <div class="row practicalities">
+          <div class="col-md-4  text-center">
+            <div class="target-card">
+            <div class="icon">
+              <%= render 'shared/svg/target' %>
+            </div>
+            <% target = Title.find_by_unique_key("product_target_group") %>
+            <h3><%= target&.translate(locale) %></h3>
+            <div class="target-card-content"><%= eval("@product.target_group_#{locale}") %></div>
+          </div>
+         </div>
+         <div class="col-md-4 text-center">
+          <div class="target-card">
+            <div class="icon">
+              <%= render 'shared/svg/writing' %>
+            </div>
+            <% format = Title.find_by_unique_key("product_format") %>
+            <h3><%= format&.translate(locale) %></h3>
+            <div class="target-card-content"><%= eval("@product.format_#{locale}") %></div>
+          </div>
+         </div>
+         <div class="col-md-4 text-center">
+           <div class="target-card">
+            <div class="icon">
+              <%= render 'shared/svg/languages' %>
+            </div>
+            <% languages = Title.find_by_unique_key("product_languages") %>
+            <h3><%= languages&.translate(locale) %></h3>
+            <div class="target-card-content"><%= eval("@product.languages_#{locale}") %></div>
+          </div>
+         </div>
+       </div>
+      </div>
+    </div>
+  </div>
+  <section id="discount" class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in onload-content-fade-right">
+    <div class="content">
+      <div style="font-size:16px;"><%= Title.find_by_unique_key("summer_class_discount_title_1")&.translate(locale) %></div>
+      <h2 style="font-size:40px;"><%= Title.find_by_unique_key("summer_class_discount_title_2")&.translate(locale) %></h2>
+      <div style="font-size:18px;"><%= Title.find_by_unique_key("summer_class_discount_title_3")&.translate(locale) %></div>
+    </div>
+    <div class="image">
+
+      <%= image_tag("summer_discount_2.jpg", :alt => "image") %>
+    </div>
+  </section>
+  <section id="main-contact-form" class="banner style5 orient-right content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right" style="align-items: center;">
+    <div class="content main-contact-form-container">
+      <h3><%= "Interested in this Summer Class? Contact us!" %></h3>
+      <p>
+
+      </p>
+      <%= render 'shared/contact-form' %>
+    </div>
+  </section>
 </div>
-<div class="container <%= 'pink-container' if [222, 221].include?(@product.id) %>" >
-  <div class="description content">
-    <%= eval("@product.rich_long_description_#{locale}") %>
-  </div>
-  <h3><%= t('events.products.key_takeaways') %></h3>
-  <div class="content">
-    <%= eval("@product.rich_learnings_#{locale}") %>
-  </div>
-  <h3><%= t('events.products.practicalities') %></h3>
-  <div class="content">
-    <%= eval("@product.rich_practice_#{locale}")%>
-  </div>
-</div>
-<section id="main-contact-form" class="banner style5 orient-right content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
-  <div class="content main-contact-form-container  <%= 'pink-container' if [222, 221].include?(@product.id)%>">
-    <h3><%= simple_format(eval("@product.long_cta_#{locale}"))%></h3>
-    <%= render 'shared/contact-form' %>
-  </div>
-  <div class="image image-lel">
-    <%#= image_tag("people/people2.jpg", :alt => "image background-gradient") %>
-  </div>
-</section>
 

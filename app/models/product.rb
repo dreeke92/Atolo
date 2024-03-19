@@ -10,6 +10,16 @@ class Product < ApplicationRecord
   has_rich_text :rich_description_fr
   has_rich_text :rich_description_nl
 
+  has_rich_text :summer_rich_description_1_en
+  has_rich_text :summer_rich_description_1_de
+  has_rich_text :summer_rich_description_1_fr
+  has_rich_text :summer_rich_description_1_nl
+
+  has_rich_text :summer_rich_description_2_en
+  has_rich_text :summer_rich_description_2_de
+  has_rich_text :summer_rich_description_2_fr
+  has_rich_text :summer_rich_description_2_nl
+
   has_rich_text :rich_long_description_en
   has_rich_text :rich_long_description_de
   has_rich_text :rich_long_description_fr

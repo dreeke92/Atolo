@@ -199,6 +199,12 @@
     }
   }
 
+  #discount{
+    .content{
+      padding-top: 130px;
+      padding-bottom: 110px;
+    }
+  }
 
   .blue{
     .first-section{
@@ -223,8 +229,13 @@
         background-color: $blue;
       }
 
-      .target-card > svg > g > path {
+      .target-card > .icon > svg {
+        path {
         fill: $blue;
+        }
+      }
+      .target-card > h3{
+        color: $blue;
       }
     }
 
@@ -239,6 +250,11 @@
         circle, line, path{
           stroke: $blue;
         }
+      }
+    }
+    #discount{
+      h2{
+        color: $blue;
       }
     }
   }
@@ -287,6 +303,11 @@
         }
       }
     }
+    #discount{
+      h2{
+        color: $yellow;
+      }
+    }
   }
   .red{
     .first-section{
@@ -333,6 +354,11 @@
         }
       }
     }
+    #discount{
+      h2{
+        color: $red;
+      }
+    }
   }
   .green{
     .first-section{
@@ -377,6 +403,11 @@
         circle, line, path{
           stroke: $green-2;
         }
+      }
+    }
+    #discount{
+      h2{
+        color: $green;
       }
     }
   }

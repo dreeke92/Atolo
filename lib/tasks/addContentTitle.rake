@@ -1201,18 +1201,117 @@ task addContentTitle: :environment do
   #   title_en: "Communication is key! Learn how to execute your key communication moments with ease and impact: giving instructions, providing feedback, supporting and coaching, and delegating."
   # )
 
-  Title.find_or_create_by(
-    unique_key: "newbies_contact_banner_title",
-    page: "newbies",
-    title_en: "Too busy to train if there is no value, right?"
-  )
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_contact_banner_title",
+  #   page: "newbies",
+  #   title_en: "Too busy to train if there is no value, right?"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_contact_banner_content",
+  #   page: "newbies",
+  #   title_en: "That’s why the key ingredients we bring are so appreciated."
+  # )
+
+###################
+  # Title.find_or_create_by(
+  #   unique_key: "summer_class_header_title_1",
+  #   page: "summer_class",
+  #   title_en: "EXPERIENCE OUR"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "summer_class_header_title_2",
+  #   page: "summer_class",
+  #   title_en: "SUMMER CLASSES"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "summer_class_header_title_3",
+  #   page: "summer_class",
+  #   title_en: "IN LANGUAGES - COMMUNICATION - LEADERSHIP"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "summer_class_header_date_1",
+  #   page: "summer_class",
+  #   title_en: "15 JUNE"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "summer_class_header_date_2",
+  #   page: "summer_class",
+  #   title_en: "15 SEPTEMBER"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "summer_class_header_cta",
+  #   page: "summer_class",
+  #   title_en: "ENJOY A 50% DISCOUNT FOR YOUR COLLEAGUE!"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "summer_class_section_1_title_1",
+  #   page: "summer_class",
+  #   title_en: "BE PART OF OUR SUMMER EDITION 2024"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "summer_class_section_1_title_2",
+  #   page: "summer_class",
+  #   title_en: "Are you looking to maximize your skills or those of your team?\nLook no further and join us this upcoming summer!"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "summer_class_section_1_title_3",
+  #   page: "summer_class",
+  #   title_en: "Our Summer Classes are the perfect place to experience real-life environment coaching with impact. You choose your skill and decide on the formula:"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "summer_class_section_2_title_1",
+  #   page: "summer_class",
+  #   title_en: "Ready to learn and grow in an inspiring atmosphere with a great summer touch?"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "summer_class_section_2_title_2",
+  #   page: "summer_class",
+  #   title_en: "You will be coached by experts, meet new people and boost your career. Invest in your skills and make the most of your summer time, with the learning expertise from ATOLO!"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "summer_class_section_2_title_3",
+  #   page: "summer_class",
+  #   title_en: "Our after-work meetups will be the perfect closing of your training."
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "summer_class_discount_title_1",
+  #   page: "summer_class",
+  #   title_en: "WANT TO BRING A COLLEAGUE TO OUR SUMMER CLASSES?"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "summer_class_discount_title_2",
+  #   page: "summer_class",
+  #   title_en: "Enjoy your summer discount!"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "summer_class_discount_title_3",
+  #   page: "summer_class",
+  #   title_en: "1 participant pays 100 %, second participant of the same company only pays 50 % when signing up for the same summer class."
+  # )
 
   Title.find_or_create_by(
-    unique_key: "newbies_contact_banner_content",
-    page: "newbies",
-    title_en: "That’s why the key ingredients we bring are so appreciated."
+    unique_key: "summer_class_testimonial_title",
+    page: "summer_class",
+    title_en: "Do you also believe that summer is a great time for learning? Let's find out why our trainings are so appreciated."
   )
 
-
+  # Testimonial.find_or_create_by(category: "summer_class", author: "Participant", company_name: "Work & Learn session", content_en: "What progress have I made! My English has improved considerably: I can say goodbye now to the stress that troubled me before every meeting! So much more rewarding than any other language training I followed in the past.")
+  # Testimonial.find_or_create_by(category: "summer_class", author: "Nathalie Seutin", company_name: "Participant Individual coaching", content_en: "Learning another language has always been difficult for me and taking classes has not been my favorite thing, until now! ATOLO reconciled me with language training. Thanks to my incredible trainer, I want to improve, to learn. I have developed a real interest for English, even beyond the course.")
+  # Testimonial.find_or_create_by(category: "summer_class", author: "Kira Phillips", company_name: "English Language Coach", content_en: "What I love about the group sessions is that they are like summer camp. We join as strangers, but by the end of the week, we have created memories that will last a lifetime.")
 
 end
