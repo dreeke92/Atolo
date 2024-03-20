@@ -110,6 +110,15 @@ RailsAdmin.config do |config|
       field :languages_nl
       field :languages_de
 
+      field :summer_rich_description_1_en
+      field :summer_rich_description_1_fr
+      field :summer_rich_description_1_nl
+      field :summer_rich_description_1_de
+
+      field :summer_rich_description_2_en
+      field :summer_rich_description_2_fr
+      field :summer_rich_description_2_nl
+      field :summer_rich_description_2_de
 
 
     end
@@ -184,6 +193,16 @@ RailsAdmin.config do |config|
       field :rich_practice_nl
       field :rich_practice_de
       field :rich_practice_fr
+
+      field :summer_rich_description_1_en
+      field :summer_rich_description_1_fr
+      field :summer_rich_description_1_nl
+      field :summer_rich_description_1_de
+
+      field :summer_rich_description_2_en
+      field :summer_rich_description_2_fr
+      field :summer_rich_description_2_nl
+      field :summer_rich_description_2_de
     end
 
 

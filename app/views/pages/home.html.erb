@@ -98,18 +98,27 @@
 <div class="fourth-section">
   <div class="owl-carousel banner-home-carousel">
     <div  class="wrapper banner-title" style="background-image: url(<%= image_url 'webinar_header.png' %>)">
+      <% true_f = DateTime.now < DateTime.parse("2024-03-21 13:00:00") %>
       <div>
-        LIVE WEBINAR
+        <%= true_f ? "LIVE WEBINAR" : "Leadership" %>
       </div>
       <h1 style="letter-spacing: 1.5px;">
         WHEN EXPERTS BECOME<br>PEOPLE LEADERS
       </h1>
       <div class="dates">
-        21 MARCH 2024 <span style="width: 32px;border: 1px solid green;height: 0px;margin: 0.7rem;"></span> 12:00 - 13:30
+        <% if true_f %>
+          21 MARCH 2024 <span style="width: 32px;border: 1px solid green;height: 0px;margin: 0.7rem;"></span> 12:00 - 13:30
+        <% else %>
+          1-day workshop <span style="width: 32px;border: 1px solid green;height: 0px;margin: 0.7rem;"></span> NEW
+        <% end %>
       </div>
       <div class="subtitle">
       </div>
-      <a href="https://www.eventbrite.be/e/when-experts-become-people-leaders-tickets-810138304477" target="_blank" class="regular webinar-cta" style="background-color: white;color:#01B27B;border:1px solid #01B27B;"><span> Discover it here <%= render 'shared/svg/arrow-right-circle' %></span></a>
+      <% if true_f %>
+        <a href="https://www.eventbrite.be/e/when-experts-become-people-leaders-tickets-810138304477" target="_blank" class="regular webinar-cta" style="background-color: white;color:#01B27B;border:1px solid #01B27B;"><span> Discover it here <%= render 'shared/svg/arrow-right-circle' %></span></a>
+      <% else %>
+        <a href="/products/258/preview" target="_blank" class="regular webinar-cta" style="background-color: white;color:#01B27B;border:1px solid #01B27B;"><span> Discover it here <%= render 'shared/svg/arrow-right-circle' %></span></a>
+      <% end %>
     </div>
     <div  class="wrapper banner-title" style="background-image: url(<%= image_url 'newbies_header.png' %>)">
       <h1>

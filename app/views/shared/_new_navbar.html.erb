@@ -52,7 +52,12 @@
           <%= link_to "#{Title.find_by_unique_key("navigation_whats_new")&.translate(locale)}", newbies_path, class:"nav-link" %>
           <ul class="language-drop-down">
             <li class="mobile_language_drops">
+              <% if DateTime.now < DateTime.parse("2024-03-21 13:00:00") %>
+              <% product = Product.find(258) %>
               <a href="https://www.eventbrite.be/e/when-experts-become-people-leaders-tickets-810138304477" target="_blank">Webinar</span></a>
+              <% else %>
+                <%= link_to "#{eval("product.name_#{locale}")}", preview_product_path(product.id), class: "nav-link" %>
+              <% end %>
             </li>
             <li class="mobile_language_drops">
               <%= link_to "#{Title.find_by_unique_key("newbies_title")&.translate(locale).capitalize}", newbies_path, class:"nav-link" %>
