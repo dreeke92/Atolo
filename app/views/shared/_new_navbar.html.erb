@@ -1,3 +1,4 @@
+<% locale = I18n.locale %>
 <header id="new-header-fixed">
   <div class="container-fluid">
 
@@ -53,10 +54,10 @@
           <ul class="language-drop-down">
             <li class="mobile_language_drops">
               <% if DateTime.now < DateTime.parse("2024-03-21 13:00:00") %>
-              <% product = Product.find(258) %>
+              <% product = Product.last %>
               <a href="https://www.eventbrite.be/e/when-experts-become-people-leaders-tickets-810138304477" target="_blank">Webinar</span></a>
               <% else %>
-                <%= link_to "#{eval("product.name_#{locale}")}", preview_product_path(product.id), class: "nav-link" %>
+                <%= link_to "#{eval("Product.find(258).name_#{locale}")}", preview_product_path(258), class: "nav-link" %>
               <% end %>
             </li>
             <li class="mobile_language_drops">
