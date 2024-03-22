@@ -1,4 +1,5 @@
 <% locale = I18n.locale %>
+<% product = Rails.env.production? ? Product.find(258) : Product.last %>
 <header id="new-header-fixed">
   <div class="container-fluid">
 
@@ -53,12 +54,7 @@
           <%= link_to "#{Title.find_by_unique_key("navigation_whats_new")&.translate(locale)}", newbies_path, class:"nav-link" %>
           <ul class="language-drop-down">
             <li class="mobile_language_drops">
-              <% if DateTime.now < DateTime.parse("2024-03-21 13:00:00") %>
-              <% product = Product.last %>
-              <a href="https://www.eventbrite.be/e/when-experts-become-people-leaders-tickets-810138304477" target="_blank">Webinar</span></a>
-              <% else %>
-                <%= link_to "#{eval("Product.find(258).name_#{locale}")}", preview_product_path(258), class: "nav-link" %>
-              <% end %>
+              <%= link_to eval("product.name_#{locale}"), preview_product_path(product.id), class: "nav-link" %>
             </li>
             <li class="mobile_language_drops">
               <%= link_to "#{Title.find_by_unique_key("newbies_title")&.translate(locale).capitalize}", newbies_path, class:"nav-link" %>

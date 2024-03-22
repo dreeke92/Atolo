@@ -1,5 +1,6 @@
 <%= render 'shared/new_navbar' %>
 <% locale = I18n.locale %>
+<% product = Rails.env.production? ? Product.find(258) : Product.last %>
 
 <div class="first-section" style="background-image: url(<%= image_url 'home.jpg' %>)">
   <div class="overlay"></div>
@@ -117,7 +118,9 @@
       <% if true_f %>
         <a href="https://www.eventbrite.be/e/when-experts-become-people-leaders-tickets-810138304477" target="_blank" class="regular webinar-cta" style="background-color: white;color:#01B27B;border:1px solid #01B27B;"><span> Discover it here <%= render 'shared/svg/arrow-right-circle' %></span></a>
       <% else %>
-        <a href="/products/258/preview" target="_blank" class="regular webinar-cta" style="background-color: white;color:#01B27B;border:1px solid #01B27B;"><span> Discover it here <%= render 'shared/svg/arrow-right-circle' %></span></a>
+        <%= link_to preview_product_path(product.id), target:"_blank", class: "regular webinar-cta" do %>
+          <span>Discover it here <%= render 'shared/svg/arrow-right-circle' %></span>
+        <% end %>
       <% end %>
     </div>
     <div  class="wrapper banner-title" style="background-image: url(<%= image_url 'newbies_header.png' %>)">
@@ -130,7 +133,7 @@
       <div class="subtitle">
        <%= Title.find_by_unique_key("newbies_title_description")&.translate(locale) %>
       </div>
-      <a href="/newbies" class="regular"><span> <%= Title.find_by_unique_key("summer_classes_btn_discover_it")&.translate(locale) %> <%= image_tag 'icons/arrow-right-circle.svg' %></span></a>
+      <a href="<%= newbies_path %>" class="regular"><span> <%= Title.find_by_unique_key("summer_classes_btn_discover_it")&.translate(locale) %> <%= image_tag 'icons/arrow-right-circle.svg' %></span></a>
     </div>
   </div>
 </div>
