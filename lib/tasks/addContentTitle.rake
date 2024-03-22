@@ -1304,14 +1304,42 @@ task addContentTitle: :environment do
   #   title_en: "1 participant pays 100 %, second participant of the same company only pays 50 % when signing up for the same summer class."
   # )
 
-  Title.find_or_create_by(
-    unique_key: "summer_class_testimonial_title",
-    page: "summer_class",
-    title_en: "Do you also believe that summer is a great time for learning? Let's find out why our trainings are so appreciated."
-  )
+  # Title.find_or_create_by(
+  #   unique_key: "summer_class_testimonial_title",
+  #   page: "summer_class",
+  #   title_en: "Do you also believe that summer is a great time for learning? Let's find out why our trainings are so appreciated."
+  # )
 
   # Testimonial.find_or_create_by(category: "summer_class", author: "Participant", company_name: "Work & Learn session", content_en: "What progress have I made! My English has improved considerably: I can say goodbye now to the stress that troubled me before every meeting! So much more rewarding than any other language training I followed in the past.")
   # Testimonial.find_or_create_by(category: "summer_class", author: "Nathalie Seutin", company_name: "Participant Individual coaching", content_en: "Learning another language has always been difficult for me and taking classes has not been my favorite thing, until now! ATOLO reconciled me with language training. Thanks to my incredible trainer, I want to improve, to learn. I have developed a real interest for English, even beyond the course.")
   # Testimonial.find_or_create_by(category: "summer_class", author: "Kira Phillips", company_name: "English Language Coach", content_en: "What I love about the group sessions is that they are like summer camp. We join as strangers, but by the end of the week, we have created memories that will last a lifetime.")
+
+  Title.find_or_create_by(
+    unique_key: "summer_class_home_title_1",
+    page: "summer_class",
+    title_en: "WHEN EXPERTS BECOME"
+  )
+
+  Title.find_or_create_by(
+    unique_key: "summer_class_home_title_2",
+    page: "summer_class",
+    title_en: "PEOPLE LEADERS"
+  )
+
+  Title.find_or_create_by(
+    unique_key: "summer_class_home_title_0",
+    page: "summer_class",
+    title_en: "Leadership"
+  )
+  Title.find_or_create_by(
+    unique_key: "summer_class_home_title_3",
+    page: "summer_class",
+    title_en: "1-day workshop"
+  )
+  Title.find_or_create_by(
+    unique_key: "summer_class_home_title_4",
+    page: "summer_class",
+    title_en: "NEW"
+  )
 
 end
