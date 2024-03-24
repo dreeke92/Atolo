@@ -69,7 +69,7 @@
           </div>
         </div>
         <div class="description" style="margin-top: 24px;">
-          <%= eval("product.rich_description_#{locale}") %>
+          <%= eval("product.summer_rich_description_1_#{locale}") %>
         </div>
         <% cta = eval("product.cta_#{locale}") %>
         <%= link_to product_path(product.id), class:"cta #{'blue-cta' if [261].include?(product.id)}" do %>
