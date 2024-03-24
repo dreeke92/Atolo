@@ -22,11 +22,11 @@
     </div>
   </div>
 
-  <a href="#products" class="regular"><span> <%= Title.find_by_unique_key("summer_class_header_cta")&.translate(locale) %><%= image_tag 'icons/arrow-down-circle.svg' %></span></a>
+  <a href="#discount" class="regular"><span> <%= Title.find_by_unique_key("summer_class_header_cta")&.translate(locale) %><%= image_tag 'icons/arrow-down-circle.svg' %></span></a>
 </div>
 <div class="container">
   <div class="concept">
-    <div style="font-size:16px;">
+    <div style="font-size:16px;font-weight:700;">
       <%= Title.find_by_unique_key("summer_class_section_1_title_1")&.translate(locale) %>
     </div>
     <h2 style="font-size:32px;"><%= Title.find_by_unique_key("summer_class_section_1_title_2")&.translate(locale) %></h2>
@@ -37,39 +37,43 @@
   <div class="events" id="products">
     <% @products_1.each do |product| %>
       <div class="event large">
-        <div style="background-image: url(<%= product.photo_url %>)" class="bg-image">
+        <div style="background-image: url(<%= product.photo_url %>);position:relative;" class="bg-image">
+          <div style="position:absolute;bottom: 0px;left: 0px;">
+            <div style="font-size:16px;color:white;text-transform: uppercase;padding-left:25px;line-height: normal;">
+              <%= Title.find_by_unique_key("summer_class_language_tag")&.translate(locale) %>
+            </div>
+            <div style="font-size:20px;color:white;text-transform: uppercase;padding-left:25px;padding-top:0px;padding-bottom:24px;">
+              <%= eval("product.name_#{locale}") %>
+            </div>
+          </div>
         </div>
-        <div class="subtitle">
-          <%= eval("product.subtitle_#{locale}") %>
-        </div>
-        <div class="title title-pink">
-          <%= eval("product.name_#{locale}") %>
-        </div>
-        <div class="description">
+        <div class="description" style="margin-top: 24px;">
           <%= eval("product.summer_rich_description_1_#{locale}") %>
         </div>
         <% cta = eval("product.cta_#{locale}") %>
         <%= link_to product_path(product.id), class:"cta pink-cta" do %>
-          <span> <%= cta.nil? ? "More info" : cta %> <%= image_tag 'icons/arrow-right-circle-2.svg' %></span>
+          <span> <%= Title.find_by_unique_key("summer_class_product_more_info")&.translate(locale) %> <%= image_tag 'icons/arrow-right-circle-2.svg' %></span>
         <% end %>
       </div>
     <% end %>
     <% @products_2.each do |product| %>
       <div class="event large">
-        <div style="background-image: url(<%= product.photo_url %>)" class="bg-image">
+        <div style="background-image: url(<%= product.photo_url %>);position:relative;" class="bg-image">
+          <div style="position:absolute;bottom: 0px;left: 0px;">
+            <div style="font-size:16px;color:white;text-transform: uppercase;padding-left:25px;line-height: normal;">
+              <%= Title.find_by_unique_key("summer_class_language_tag")&.translate(locale) %>
+            </div>
+            <div style="font-size:20px;color:white;text-transform: uppercase;padding-left:25px;padding-top:0px;padding-bottom:24px;">
+              <%= eval("product.name_#{locale}") %>
+            </div>
+          </div>
         </div>
-        <div class="subtitle">
-          <%= eval("product.subtitle_#{locale}") %>
-        </div>
-        <div class="title">
-          <%= eval("product.name_#{locale}") %>
-        </div>
-        <div class="description">
+        <div class="description" style="margin-top: 24px;">
           <%= eval("product.rich_description_#{locale}") %>
         </div>
         <% cta = eval("product.cta_#{locale}") %>
-        <%= link_to product_path(product.id), class:"cta" do %>
-          <span> <%= cta.nil? ? "More info" : cta %> <%= image_tag 'icons/arrow-right-circle-2.svg' %></span>
+        <%= link_to product_path(product.id), class:"cta #{'blue-cta' if [261].include?(product.id)}" do %>
+          <span> <%= Title.find_by_unique_key("summer_class_product_more_info")&.translate(locale) %> <%= image_tag 'icons/arrow-right-circle-2.svg' %></span>
         <% end %>
       </div>
     <% end %>
@@ -87,7 +91,7 @@
 </div>
 <section id="discount" class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in onload-content-fade-right">
   <div class="content">
-    <div style="font-size:16px;"><%= Title.find_by_unique_key("summer_class_discount_title_1")&.translate(locale) %></div>
+    <div style="font-size:16px;font-weight: 700;"><%= Title.find_by_unique_key("summer_class_discount_title_1")&.translate(locale) %></div>
     <h2 style="font-size:40px; color:white;"><%= Title.find_by_unique_key("summer_class_discount_title_2")&.translate(locale) %></h2>
     <div style="font-size:18px;"><%= Title.find_by_unique_key("summer_class_discount_title_3")&.translate(locale) %></div>
   </div>
@@ -102,7 +106,7 @@
   <div class="inner">
     <h3><%= Title.find_by_unique_key("summer_class_testimonial_title")&.translate(locale) %></h3>
     <div class="owl-carousel owl-theme testimonial-cards onload-fade-in card-carousel">
-      <% Testimonial.where(category:"summer_class").each do |testimonial| %>
+      <% Testimonial.where(category:"summer_class").order(:id).each do |testimonial| %>
         <section class="testimonial-card">
           <p class="small-font"><%= eval("testimonial.content_#{locale}") %></p>
           <div class="testimonial-footer">

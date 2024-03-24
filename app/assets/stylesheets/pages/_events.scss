@@ -7,7 +7,7 @@
   font-weight: bold;
 }
 .banner-title{
-  margin-top: 70px;
+  margin-top: 80px;
   text-align: center;
   padding: 3rem;
   background-color: #44d274;
@@ -203,6 +203,9 @@
             margin-left: 15px;
           }
         }
+      &.blue-cta{
+        background-color: $blue;
+        }
       }
 
       &.large{
@@ -267,7 +270,7 @@
   }
   #testimonials{
     h3{
-      margin-top: 150px;
+      margin-top: 50px;
       color: $green;
       font-size: 32px;
     }

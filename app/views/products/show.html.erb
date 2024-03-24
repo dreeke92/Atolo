@@ -2,15 +2,22 @@
 <% locale = I18n.locale %>
 <div class="<%= @category_color %>">
   <div class="wrapper" style="background-image: url(<%= @product.photo_url %>)">
-    <h2 class="<%= 'pink-title' if [222, 221].include?(@product.id) %>"><%= eval("@product.subtitle_#{locale}") %></h2>
+    <% if [259, 260].include?(@product.id) %>
+      <h2><%= Title.find_by_unique_key("summer_class_language_tag")&.translate(locale) %></h2>
+    <% elsif [261].include?(@product.id) %>
+      <h2><%= Title.find_by_unique_key("summer_class_communication_tag")&.translate(locale) %></h2>
+    <% elsif [262].include?(@product.id) %>
+      <h2><%= Title.find_by_unique_key("summer_class_leadership_tag")&.translate(locale) %></h2>
+    <% end %>
+
     <h1><%= eval("@product.name_#{locale}") %></h1>
   </div>
   <div class="second-section">
-    <div class="summer_description">
+    <div class="summer_description" style="padding-top: 110px;margin: auto;max-width: 600px;text-align: center;">
       <%= eval("@product.summer_rich_description_2_#{locale}") %>
     </div>
      <div class="container communication" style="padding-bottom:150px;">
-       <div class="row practicalities-title">
+       <div class="row practicalities-title" style="padding-top: 100px;">
         <% title = Title.find_by_unique_key("product_key_take_away") %>
          <h2><%= title&.translate(locale) %></h2>
        </div>
@@ -68,7 +75,7 @@
   </div>
   <section id="discount" class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in onload-content-fade-right">
     <div class="content">
-      <div style="font-size:16px;"><%= Title.find_by_unique_key("summer_class_discount_title_1")&.translate(locale) %></div>
+      <div style="font-size:16px;font-weight: 700;"><%= Title.find_by_unique_key("summer_class_discount_title_1")&.translate(locale) %></div>
       <h2 style="font-size:40px;"><%= Title.find_by_unique_key("summer_class_discount_title_2")&.translate(locale) %></h2>
       <div style="font-size:18px;"><%= Title.find_by_unique_key("summer_class_discount_title_3")&.translate(locale) %></div>
     </div>
@@ -79,9 +86,11 @@
   </section>
   <section id="main-contact-form" class="banner style5 orient-right content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right" style="align-items: center;">
     <div class="content main-contact-form-container">
-      <h3><%= "Interested in this Summer Class? Contact us!" %></h3>
+      <h3 style="text-align: start;"><%= Title.find_by_unique_key("summer_class_form_title_1")&.translate(locale) %><br>
+        <%= Title.find_by_unique_key("summer_class_form_title_2")&.translate(locale) %></h3>
       <p>
-
+        <%= Title.find_by_unique_key("summer_class_form_title_3")&.translate(locale) %> <a href="mailto:welcome@atolo.eu" style="color: #1083C4;">welcome@atolo.eu</a><br>
+        <%= Title.find_by_unique_key("summer_class_form_title_4")&.translate(locale) %> <a href="tel:+32 2 609 50 90" style="color: #1083C4;">+32 2 609 50 90</a>
       </p>
       <%= render 'shared/contact-form' %>
     </div>

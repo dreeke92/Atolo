@@ -1,6 +1,6 @@
 #products_show{
   .wrapper{
-    margin-top: 70px;
+    margin-top: 80px;
     height: 64vh;
     background-position: center;
     background-size: cover;
@@ -61,12 +61,21 @@
       font-weight: 400;
       color: #01B27B;
     }
+
+    form{
+      h2{
+        display: none;
+      }
+    }
   }
   .pink-container{
     h3{
       color: #DB0B5B;
     }
   }
+ }
+ .wrapper.footer-border{
+  margin-top: 0px;
  }
 }
 
