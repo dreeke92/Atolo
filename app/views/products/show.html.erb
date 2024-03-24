@@ -3,11 +3,11 @@
 <div class="<%= @category_color %>">
   <div class="wrapper" style="background-image: url(<%= @product.photo_url %>)">
     <% if [259, 260].include?(@product.id) %>
-      <h2><%= Title.find_by_unique_key("summer_class_language_tag")&.translate(locale) %></h2>
+      <h2 style="color:white;"><%= Title.find_by_unique_key("summer_class_language_tag")&.translate(locale) %></h2>
     <% elsif [261].include?(@product.id) %>
-      <h2><%= Title.find_by_unique_key("summer_class_communication_tag")&.translate(locale) %></h2>
+      <h2 style="color:white;"><%= Title.find_by_unique_key("summer_class_communication_tag")&.translate(locale) %></h2>
     <% elsif [262].include?(@product.id) %>
-      <h2><%= Title.find_by_unique_key("summer_class_leadership_tag")&.translate(locale) %></h2>
+      <h2 style="color:white;"><%= Title.find_by_unique_key("summer_class_leadership_tag")&.translate(locale) %></h2>
     <% end %>
 
     <h1><%= eval("@product.name_#{locale}") %></h1>
