@@ -53,6 +53,9 @@
         <li id="nav_events">
           <%= link_to "#{Title.find_by_unique_key("navigation_whats_new")&.translate(locale)}", newbies_path, class:"nav-link" %>
           <ul class="language-drop-down">
+             <li class="mobile_language_drops">
+              <%= link_to "#{Title.find_by_unique_key("summer_class_2024_title")&.translate(locale)}", summer_class_path(), class: "nav-link" %>
+            </li>
             <li class="mobile_language_drops">
               <%= link_to eval("product.name_#{locale}"), preview_product_path(product.id), class: "nav-link" %>
             </li>

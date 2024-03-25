@@ -1390,13 +1390,22 @@ task addContentTitle: :environment do
   #   title_en: "or give us a call:"
   # )
 
-  Title.find_or_create_by(
-    unique_key: "summer_contact_form_message",
+  # Title.find_or_create_by(
+  #   unique_key: "summer_contact_form_message",
+  #   page: "summer_class",
+  #   title_en: "Mention here the Summer Class, session and  language you are interested in:",
+  #   title_de: "Geben Sie hier die Sommerklasse, Sitzung und Sprache an, an der Sie interessiert sind:",
+  #   title_fr: "Mentionnez ici la Summer Class, la session et la langue qui vous intéressent :",
+  #   title_nl: "Geef hier de Summer Class, sessie en taal aan waarin je geïnteresseerd bent:"
+  # )
+
+   Title.find_or_create_by(
+    unique_key: "summer_class_2024_title",
     page: "summer_class",
-    title_en: "Mention here the Summer Class, session and  language you are interested in:",
-    title_de: "Geben Sie hier die Sommerklasse, Sitzung und Sprache an, an der Sie interessiert sind:",
-    title_fr: "Mentionnez ici la Summer Class, la session et la langue qui vous intéressent :",
-    title_nl: "Geef hier de Summer Class, sessie en taal aan waarin je geïnteresseerd bent:"
+    title_en: "Summer classes 2024",
+    title_de: "Sommer Kurse 2024",
+    title_fr: "Cours d’été 2024",
+    title_nl: "Summer classes 2024"
   )
 
 

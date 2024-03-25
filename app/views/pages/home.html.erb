@@ -98,6 +98,30 @@
 </div>
 <div class="fourth-section">
   <div class="owl-carousel banner-home-carousel">
+    <div  class="wrapper banner-title" style="background-image: url(<%= image_url 'bg_summerclass_2024.jpg' %>)">
+      <div class="title-group" style="padding-bottom:80px;">
+        <div>
+          <%= Title.find_by_unique_key("summer_class_header_title_1")&.translate(locale) %>
+        </div>
+        <h1>
+          <%= Title.find_by_unique_key("summer_class_header_title_2")&.translate(locale) %>
+        </h1>
+        <div>
+          <%= Title.find_by_unique_key("summer_class_header_title_3")&.translate(locale) %>
+        </div>
+        <div class="dates">
+          <div>
+            <%= Title.find_by_unique_key("summer_class_header_date_1")&.translate(locale) %>
+          </div>
+          <%= image_tag "icons/green-arrow.svg" %>
+          <div>
+             <%= Title.find_by_unique_key("summer_class_header_date_2")&.translate(locale) %>
+          </div>
+        </div>
+      </div>
+
+      <a href="<%= summer_class_path %>" class="regular"><span> <%= Title.find_by_unique_key("summer_class_header_cta")&.translate(locale) %><%= render 'shared/svg/arrow-right-circle' %></span></a>
+    </div>
     <div  class="wrapper banner-title" style="background-image: url(<%= image_url 'webinar_header.png' %>)">
       <div>
         <%= Title.find_by_unique_key("summer_class_home_title_0")&.translate(locale) %>
