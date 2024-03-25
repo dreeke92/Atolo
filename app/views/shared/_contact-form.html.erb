@@ -1,3 +1,8 @@
+<% if [259, 260, 261, 262].include?(@product.id) %>
+  <% message_title = Title.find_by_unique_key("summer_contact_form_message")&.translate(locale) %>
+<% else %>
+  <% message_title = Title.find_by_unique_key("contact_form_message")&.translate(locale) %>
+<% end %>
 <%= simple_form_for Message.new do |f| %>
   <h2><%= Title.find_by_unique_key("contact_form_title")&.translate(locale) %></h2>
   <%= f.input :name, label:Title.find_by_unique_key("contact_form_name")&.translate(locale)%>
@@ -5,7 +10,7 @@
   <%= f.input :email,  label:Title.find_by_unique_key("contact_form_email")&.translate(locale) %>
   <%= f.input :phone,  label:Title.find_by_unique_key("contact_form_phone")&.translate(locale) %>
   <%= f.input :attachment, as: :file, label:Title.find_by_unique_key("contact_form_attachment")&.translate(locale) %>
-  <%= f.input :content, label:Title.find_by_unique_key("contact_form_message")&.translate(locale), as: :text %>
+  <%= f.input :content, label: message_title, as: :text %>
   <div class="field d-none">
     <input class="checkbot" id="checkbot" name="message[checkbot]" value="" />
     <label for="human"><%= t('form.human') %></label>

@@ -65,11 +65,11 @@ class Product < ApplicationRecord
   end
 
   def category_color
-    if self.group.downcase.include?("languages")
+    if self.group.downcase.include?("languages") || [259, 260].include?(self.id)
       "red"
     elsif self.group.downcase.include?("people")
       "yellow"
-    elsif self.group.downcase.include?("communication")
+    elsif self.group.downcase.include?("communication") || self.id == 261
       "blue"
     else
       "green"

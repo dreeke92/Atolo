@@ -266,6 +266,17 @@
         color: $blue;
       }
     }
+    #main-contact-form{
+      h3{
+        color: $blue;
+      }
+      #btnsubmit{
+        background-color: $blue;
+        &:hover{
+          background-color: $blue;
+        }
+      }
+    }
   }
   .yellow{
     .first-section{
@@ -317,6 +328,17 @@
         color: $yellow;
       }
     }
+    #main-contact-form{
+      h3{
+        color: $yellow;
+      }
+      #btnsubmit{
+        background-color: $yellow;
+        &:hover{
+          background-color: $yellow;
+        }
+      }
+    }
   }
   .red{
     .first-section{
@@ -366,6 +388,17 @@
     #discount{
       h2{
         color: $red;
+      }
+    }
+    #main-contact-form{
+      h3{
+        color: $red;
+      }
+      #btnsubmit{
+        background-color: $red;
+        &:hover{
+          background-color: $red;
+        }
       }
     }
   }
