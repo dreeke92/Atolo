@@ -1,4 +1,4 @@
-<% if [259, 260, 261, 262].include?(@product.id) %>
+<% if [259, 260, 261, 262].include?(@product&.id) %>
   <% message_title = Title.find_by_unique_key("summer_contact_form_message")&.translate(locale) %>
 <% else %>
   <% message_title = Title.find_by_unique_key("contact_form_message")&.translate(locale) %>
