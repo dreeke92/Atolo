@@ -67,7 +67,11 @@
          <div class="col-md-4 text-center">
            <div class="target-card">
             <div class="icon">
-              <%= render 'shared/svg/languages' %>
+              <% if @category_color  == "red" %>
+                <%= render 'shared/svg/new_language' %>
+              <% else %>
+                <%= render 'shared/svg/languages' %>
+              <% end %>
             </div>
             <% languages = Title.find_by_unique_key("product_languages") %>
             <h3><%= languages&.translate(locale) %></h3>

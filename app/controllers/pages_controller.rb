@@ -155,7 +155,6 @@ class PagesController < ApplicationController
         @products_3 = Product.where("name_en IS NOT NULL").take(4)
       end
     else
-      binding.pry
       redirect_to root_path
     end
   end
