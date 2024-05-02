@@ -73,7 +73,11 @@
                 <%= render 'shared/svg/languages' %>
               <% end %>
             </div>
-            <% languages = Title.find_by_unique_key("product_languages") %>
+            <% if @category_color  == "red" %>
+              <% languages = Title.find_by_unique_key("product_new_languages") %>
+            <% else %>
+              <% languages = Title.find_by_unique_key("product_languages") %>
+            <% end %>
             <h3><%= languages&.translate(locale) %></h3>
             <div class="target-card-content"><%= eval("@product.languages_#{locale}") %></div>
           </div>
