@@ -73,7 +73,7 @@
   <div class="third-section-content">
     <%= Title.find_by_unique_key("home_page_section_3_how_can_we_help_you_description")&.translate(locale) %>
   </div>
-  <a href="/about" class="regular"><span><%= Title.find_by_unique_key("home_page_btn_about_us")&.translate(locale) %> <%= render 'shared/svg/arrow-right-circle' %></span></a>
+  <a href="<%= about_path %>" class="regular"><span><%= Title.find_by_unique_key("home_page_btn_about_us")&.translate(locale) %> <%= render 'shared/svg/arrow-right-circle' %></span></a>
 </div>
 <div class="fourth-section d-none">
   <h2><%= Title.find_by_unique_key("home_page_section_4_whats_new")&.translate(locale) %></h2>
