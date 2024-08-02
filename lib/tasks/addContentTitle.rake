@@ -1399,14 +1399,127 @@ task addContentTitle: :environment do
   #   title_nl: "Geef hier de Summer Class, sessie en taal aan waarin je geïnteresseerd bent:"
   # )
 
-   Title.find_or_create_by(
-    unique_key: "summer_class_2024_title",
-    page: "summer_class",
-    title_en: "Summer classes 2024",
-    title_de: "Sommer Kurse 2024",
-    title_fr: "Cours d’été 2024",
-    title_nl: "Summer classes 2024"
+  #  Title.find_or_create_by(
+  #   unique_key: "summer_class_2024_title",
+  #   page: "summer_class",
+  #   title_en: "Summer classes 2024",
+  #   title_de: "Sommer Kurse 2024",
+  #   title_fr: "Cours d’été 2024",
+  #   title_nl: "Summer classes 2024"
+  # )
+
+  Title.find_or_create_by(
+    unique_key: "newbies_2024_item_1_cta_1",
+    page: "newbies",
+    title_en: "Tap into multigenerational strengths"
   )
+  Title.find_or_create_by(
+    unique_key: "newbies_2024_item_1_title",
+    page: "newbies",
+    title_en: "Confronted with diverse generations and viewpoints within your teams?"
+  )
+  c = Content.find_or_create_by(
+    unique_key: "newbies_2024_item_1_description",
+    page: "newbies"
+  )
+  c.content_en.update(body: "Today’s workplaces span multiple generations, from Baby Boomers to Gen Z, each with unique perspectives and work styles. Embracing this diversity turns challenges into opportunities for innovation and performance!")
+  Title.find_or_create_by(
+    unique_key: "newbies_2024_item_1_drop_1_title",
+    page: "newbies",
+    title_en: "Challenges in multigenerational workforce"
+  )
+  c = Content.find_or_create_by(
+    unique_key: "newbies_2024_item_1_drop_1_content",
+    page: "newbies"
+  )
+  c.content_en.update(body: "1. Communication Styles Bridging generational gaps for effective teamwork. 2. Work Preferences Balancing tech use, work-life balance, and career development. 3. Leadership Adapting leadership styles to engage all age groups. 4. Knowledge Transfer Ensuring continuity as older employees retire. 5. Conflict Resolution Developing strategies for dialogue and harmony.")
+
+  Title.find_or_create_by(
+    unique_key: "newbies_2024_item_1_drop_2_title",
+    page: "newbies",
+    title_en: "Why managing age diversity matters"
+  )
+  c = Content.find_or_create_by(
+    unique_key: "newbies_2024_item_1_drop_2_content",
+    page: "newbies"
+  )
+  c.content_en.update(body: "Managing age diversity boosts teamwork, productivity, and organizational resilience. By leveraging generational strengths, organizations create a collaborative environment where all employees feel valued and empowered.")
+
+  Title.find_or_create_by(
+    unique_key: "newbies_2024_item_2_cta_1",
+    page: "newbies",
+    title_en: "Navigate the shift"
+  )
+  Title.find_or_create_by(
+    unique_key: "newbies_2024_item_2_title",
+    page: "newbies",
+    title_en: "Empower your experts to succeed as leaders"
+  )
+  c = Content.find_or_create_by(
+    unique_key: "newbies_2024_item_2_description",
+    page: "newbies"
+  )
+  c.content_en.update(body: "How can you help technical experts transition into leadership roles? While technical expertise is vital, effective leadership demands a wider range of skills. Many experts are promoted for their technical abilities but encounter challenges in leadership. Learn how to navigate and overcome the pitfalls of this career transition in today’s dynamic environment.")
+
+  Title.find_or_create_by(
+    unique_key: "newbies_2024_item_2_drop_1_title",
+    page: "newbies",
+    title_en: "Challenges in transitioning to leadership"
+  )
+  c = Content.find_or_create_by(
+    unique_key: "newbies_2024_item_2_drop_1_content",
+    page: "newbies"
+  )
+  c.content_en.update(body: "1. Skill Shift Requires skills in communication, decision- making, and strategic thinking. 2. Team Dynamics Involves understanding interpersonal dynamics, motivating others, and fostering collaboration. 3. Personal Development Crucial for leadership roles: emotional intelligence, resilience, and adaptability. 4. Organizational Impact Drives change, innovation, and organizational culture.")
+
+  Title.find_or_create_by(
+    unique_key: "newbies_2024_item_2_drop_2_title",
+    page: "newbies",
+    title_en: "Why empowering your experts matters"
+  )
+  c = Content.find_or_create_by(
+    unique_key: "newbies_2024_item_2_drop_2_content",
+    page: "newbies"
+  )
+  c.content_en.update(body: "Unlock the potential of your experts with this unique tailored training program. Equip your emerging leaders with essential skills in communication, team dynamics, and strategic decision-making. Join us in transforming your technical experts into impactful people leaders!")
+
+  Title.find_or_create_by(
+    unique_key: "newbies_2024_item_3_cta_1",
+    page: "newbies",
+    title_en: "Discover the Language Scan"
+  )
+  Title.find_or_create_by(
+    unique_key: "newbies_2024_item_3_title",
+    page: "newbies",
+    title_en: "Maximizing recruitment with tailored language assessments"
+  )
+  c = Content.find_or_create_by(
+    unique_key: "newbies_2024_item_3_description",
+    page: "newbies"
+  )
+  c.content_en.update(body: "Looking for a language assessment platform with customization, accuracy, and autonomy? Our platform helps HR teams streamline the recruitment process. ATOLO eval measures language proficiency for personalized assessments, crucial for finding the right candidates.")
+
+  Title.find_or_create_by(
+    unique_key: "newbies_2024_item_3_drop_1_title",
+    page: "newbies",
+    title_en: "Key features and benefits"
+  )
+  c = Content.find_or_create_by(
+    unique_key: "newbies_2024_item_3_drop_1_content",
+    page: "newbies"
+  )
+  c.content_en.update(body: "• Detailed Insights Track skill evolution and bridge gaps effectively. • Seamless Integration Use and share easily within your HR team. • Tailored Testing Customize questions to meet business goals. • Intuitive Interface Enhance engagement and showcase your brand.")
+
+  Title.find_or_create_by(
+    unique_key: "newbies_2024_item_3_drop_2_title",
+    page: "newbies",
+    title_en: "Curious about ATOLO eval?"
+  )
+  c = Content.find_or_create_by(
+    unique_key: "newbies_2024_item_3_drop_2_content",
+    page: "newbies"
+  )
+  c.content_en.update(body: "Discover how our tool can elevate your organization’s language proficiency initiatives. Try it out firsthand with a free demo.")
 
 
 
