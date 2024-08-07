@@ -1,0 +1,178 @@
+<%= render 'shared/new_navbar' %>
+<% locale = I18n.locale %>
+<div  class="wrapper banner-title" style="background-image: url(<%= image_url 'newbies_2024_header.png' %>);;background-position: center;background-size: cover;">
+  <h1>
+    <%= Title.find_by_unique_key("newbies_2024_title")&.translate(locale) %>
+  </h1>
+  <div class="subtitle">
+   <%= Title.find_by_unique_key("newbies_2024_title_description")&.translate(locale) %>
+  </div>
+  <a href="#products" class="regular"><span> <%= Title.find_by_unique_key("newbies_2024_get_started")&.translate(locale) %> <%= image_tag 'icons/arrow-down-circle.svg' %></span></a>
+</div>
+<div class="container d-none">
+  <div class="concept">
+  </div>
+</div>
+<div class="grey-bg">
+  <div class="content-2024">
+    <div class="newbies_events" id="products">
+      <div class="newbies_2024_event large">
+        <%= link_to preview_product_path(@product_1.id)do %>
+          <div style="background-image: url(<%= image_url('newbies_2024_product_1.png') %>)" class="bg-image">
+            <div class="category">
+              <%= Title.find_by_unique_key("newbies_2024_item_1_picture_category")&.translate(locale) %>
+            </div>
+            <div class="picture-title">
+              <%= Title.find_by_unique_key("newbies_2024_item_1_picture_title")&.translate(locale) %>
+            </div>
+            <span> <%= Title.find_by_unique_key("newbies_2024_item_1_cta_1")&.translate(locale) %> <%= image_tag 'icons/arrow-right-circle-2.svg' %></span>
+          </div>
+
+        <% end %>
+        <div class="header">
+          <div class="title">
+            <%= Title.find_by_unique_key("newbies_2024_item_1_title")&.translate(locale) %>
+          </div>
+          <div class="description">
+            <%= Content.find_by_unique_key("newbies_2024_item_1_description")&.translate(locale) %>
+          </div>
+          <div class="content">
+            <div class="content-title-1">
+              <%= Title.find_by_unique_key("newbies_2024_item_1_drop_1_title")&.translate(locale) %>
+            </div>
+            <div>
+              <%= Content.find_by_unique_key("newbies_2024_item_1_drop_1_content")&.translate(locale) %>
+            </div>
+            <div  class="content-title-1">
+              <%= Title.find_by_unique_key("newbies_2024_item_1_drop_2_title")&.translate(locale) %>
+            </div>
+            <div>
+              <%= Content.find_by_unique_key("newbies_2024_item_1_drop_2_content")&.translate(locale) %>
+            </div>
+          </div>
+          <%= link_to preview_product_path(@product_1.id), class:"cta yellow-cta" do %>
+            <span> <%= Title.find_by_unique_key("newbies_2024_item_1_picture_title")&.translate(locale) %> <%= image_tag 'icons/arrow-right-circle-2.svg' %></span>
+          <% end %>
+        </div>
+      </div>
+
+      <div class="newbies_2024_event large">
+        <%= link_to preview_product_path(@product_2.id)do %>
+          <div style="background-image: url(<%= image_url('newbies_2024_product_2.png') %>)" class="bg-image">
+            <div class="category">
+              <%= Title.find_by_unique_key("newbies_2024_item_2_picture_category")&.translate(locale) %>
+            </div>
+            <div class="picture-title">
+              <%= Title.find_by_unique_key("newbies_2024_item_2_picture_title")&.translate(locale) %>
+            </div>
+            <span> <%= Title.find_by_unique_key("newbies_2024_item_2_cta_1")&.translate(locale) %> <%= image_tag 'icons/arrow-right-circle-2.svg' %></span>
+          </div>
+
+        <% end %>
+        <div class="header">
+          <div class="title title-green">
+            <%= Title.find_by_unique_key("newbies_2024_item_2_title")&.translate(locale) %>
+          </div>
+          <div class="description">
+            <%= Content.find_by_unique_key("newbies_2024_item_2_description")&.translate(locale) %>
+          </div>
+          <div class="content">
+            <div class="content-title-2">
+              <%= Title.find_by_unique_key("newbies_2024_item_2_drop_1_title")&.translate(locale) %>
+            </div>
+            <div>
+              <%= Content.find_by_unique_key("newbies_2024_item_2_drop_1_content")&.translate(locale) %>
+            </div>
+            <div  class="content-title-2">
+              <%= Title.find_by_unique_key("newbies_2024_item_2_drop_2_title")&.translate(locale) %>
+            </div>
+            <div>
+              <%= Content.find_by_unique_key("newbies_2024_item_2_drop_2_content")&.translate(locale) %>
+            </div>
+          </div>
+          <%= link_to preview_product_path(@product_2.id), class:"cta green-cta" do %>
+            <span> <%= Title.find_by_unique_key("newbies_2024_item_2_picture_title")&.translate(locale) %> <%= image_tag 'icons/arrow-right-circle-2.svg' %></span>
+          <% end %>
+        </div>
+      </div>
+
+      <div class="newbies_2024_event large">
+        <%= link_to eval_path()do %>
+          <div style="background-image: url(<%= image_url('newbies_2024_eval.png') %>)" class="bg-image">
+            <div class="category">
+              <%= Title.find_by_unique_key("newbies_2024_item_3_picture_category")&.translate(locale) %>
+            </div>
+            <div class="picture-title">
+              <%= Title.find_by_unique_key("newbies_2024_item_3_picture_title")&.translate(locale) %>
+            </div>
+            <span> <%= Title.find_by_unique_key("newbies_2024_item_3_cta_1")&.translate(locale) %> <%= image_tag 'icons/arrow-right-circle-2.svg' %></span>
+          </div>
+
+        <% end %>
+        <div class="header">
+          <div class="title title-red">
+            <%= Title.find_by_unique_key("newbies_2024_item_3_title")&.translate(locale) %>
+          </div>
+          <div class="description">
+            <%= Content.find_by_unique_key("newbies_2024_item_3_description")&.translate(locale) %>
+          </div>
+          <div class="content">
+            <div class="content-title-3">
+              <%= Title.find_by_unique_key("newbies_2024_item_3_drop_1_title")&.translate(locale) %>
+            </div>
+            <div>
+              <%= Content.find_by_unique_key("newbies_2024_item_3_drop_1_content")&.translate(locale) %>
+            </div>
+            <div  class="content-title-3">
+              <%= Title.find_by_unique_key("newbies_2024_item_3_drop_2_title")&.translate(locale) %>
+            </div>
+            <div>
+              <%= Content.find_by_unique_key("newbies_2024_item_3_drop_2_content")&.translate(locale) %>
+            </div>
+          </div>
+          <%= link_to eval_path(), class:"cta red-cta" do %>
+            <span> <%= Title.find_by_unique_key("newbies_2024_item_3_picture_title")&.translate(locale) %> <%= image_tag 'icons/arrow-right-circle-2.svg' %></span>
+          <% end %>
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+    <div>
+      <section id="testimonials" class="wrapper style1 align-center">
+        <div class="inner">
+          <h3><%= Title.find_by_unique_key("newbies_2024_testimonial_title")&.translate(locale) %></h3>
+          <div class="owl-carousel owl-theme testimonial-cards onload-fade-in card-carousel">
+            <% Testimonial.where(category: "newbies").order(id: :asc).each do |testimonial| %>
+              <section class="testimonial-card">
+                <p class="small-font"><%= eval("testimonial.content_#{locale}") %></p>
+                <div class="testimonial-footer">
+                  <h3><%= testimonial.author %></h3>
+                  <h4><%= testimonial.company_name %></h4>
+                </div>
+              </section>
+            <% end %>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+
+<div class="contact-banner">
+  <div class="contact-us-text">
+    <div class="header">
+      <%= Title.find_by_unique_key("newbies_contact_banner_title")&.translate(locale) %>
+    </div>
+    <div class="content">
+      <%= Title.find_by_unique_key("newbies_contact_banner_content")&.translate(locale) %>
+    </div>
+  </div>
+  <%= link_to contact_path, class:"contact-us-btn" do %>
+    <%= Title.find_by_unique_key("shared_btn_contact_us")&.translate(locale) %>
+    <%= render 'shared/svg/arrow-right-circle' %>
+  <% end %>
+</div>

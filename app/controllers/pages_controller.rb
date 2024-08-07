@@ -53,6 +53,19 @@ class PagesController < ApplicationController
 
   end
 
+  def newbies_2024
+    if Rails.env.production?
+    # @products = Product.take(3)
+      @product_1 = Product.find(253)
+      @product_2 = Product.find(258)
+      @testimonials = Testimonial.where(category: "newbies").order(id: :asc)
+    else
+      @product_1 = Product.take(2).first
+      @product_2 = Product.take(2).last
+      @testimonials = Testimonial.where(category: "leadership").order(id: :asc)
+    end
+  end
+
   def promotions
     if locale == :en
       @voucher = "voucher_en.pdf"

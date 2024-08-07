@@ -27,6 +27,7 @@ Rails.application.routes.draw do
     get 'events', to: "pages#events"
     get 'summer_class', to: "pages#summer_class"
     get 'newbies', to: "pages#newbies"
+    get 'newbies_2024', to: "pages#newbies_2024"
     get 'eval', to: "pages#eval"
     get 'category/*category', to: "pages#category", as:'category'
     # get 'mockup', to: "pages#mock-up"
