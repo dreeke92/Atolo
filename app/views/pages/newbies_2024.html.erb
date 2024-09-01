@@ -30,11 +30,13 @@
 
         <% end %>
         <div class="header">
-          <div class="title">
-            <%= Title.find_by_unique_key("newbies_2024_item_1_title")&.translate(locale) %>
-          </div>
-          <div class="description">
-            <%= Content.find_by_unique_key("newbies_2024_item_1_description")&.translate(locale) %>
+          <div class="box-size">
+            <div class="title">
+              <%= Title.find_by_unique_key("newbies_2024_item_1_title")&.translate(locale) %>
+            </div>
+            <div class="description">
+              <%= Content.find_by_unique_key("newbies_2024_item_1_description")&.translate(locale) %>
+            </div>
           </div>
           <div class="content">
             <div class="content-title-1">
@@ -70,11 +72,13 @@
 
         <% end %>
         <div class="header">
-          <div class="title title-green">
-            <%= Title.find_by_unique_key("newbies_2024_item_2_title")&.translate(locale) %>
-          </div>
-          <div class="description">
-            <%= Content.find_by_unique_key("newbies_2024_item_2_description")&.translate(locale) %>
+          <div class="box-size">
+            <div class="title title-green">
+              <%= Title.find_by_unique_key("newbies_2024_item_2_title")&.translate(locale) %>
+            </div>
+            <div class="description">
+              <%= Content.find_by_unique_key("newbies_2024_item_2_description")&.translate(locale) %>
+            </div>
           </div>
           <div class="content">
             <div class="content-title-2">
@@ -110,11 +114,13 @@
 
         <% end %>
         <div class="header">
-          <div class="title title-red">
-            <%= Title.find_by_unique_key("newbies_2024_item_3_title")&.translate(locale) %>
-          </div>
-          <div class="description">
-            <%= Content.find_by_unique_key("newbies_2024_item_3_description")&.translate(locale) %>
+          <div class="box-size">
+            <div class="title title-red">
+              <%= Title.find_by_unique_key("newbies_2024_item_3_title")&.translate(locale) %>
+            </div>
+            <div class="description">
+              <%= Content.find_by_unique_key("newbies_2024_item_3_description")&.translate(locale) %>
+            </div>
           </div>
           <div class="content">
             <div class="content-title-3">
@@ -148,6 +154,10 @@
           <div class="owl-carousel owl-theme testimonial-cards onload-fade-in card-carousel">
             <% Testimonial.where(category: "newbies").order(id: :asc).each do |testimonial| %>
               <section class="testimonial-card">
+                <div class="testimonial-card-logo">
+                  <%= image_tag(testimonial.logo_url, :alt => "image", :class => "testimonial-logo") %>
+                </div>
+
                 <p class="small-font"><%= eval("testimonial.content_#{locale}") %></p>
                 <div class="testimonial-footer">
                   <h3><%= testimonial.author %></h3>

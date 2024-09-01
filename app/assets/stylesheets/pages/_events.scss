@@ -23,6 +23,8 @@
   }
 }
 
+
+
 #pages_events, #pages_summer_class, #pages_newbies, #pages_newbies_2024 {
 
   .wrapper{
@@ -445,12 +447,16 @@
         background-color: white;
         border-radius: 0px 0px 15px 15px;
 
+        .box-size{
+          height: 280px;
+        }
         .title{
           font-size: 1.2rem;
           font-weight: 400;
           margin-bottom: 16px;
           color: $yellow;
           max-width: 98%;
+          line-height: 1.4;
         }
 
         .title-red{
@@ -472,22 +478,28 @@
           .content-title-1{
             margin-top: 16px;
             margin-bottom: 8px;
-            font-weight: 400;
+            font-weight: 500;
             color: $yellow;
           }
 
           .content-title-2{
             margin-top: 16px;
             margin-bottom: 8px;
-            font-weight: 400;
+            font-weight: 500;
             color: $green-2;
           }
 
           .content-title-3{
             margin-top: 16px;
             margin-bottom: 8px;
-            font-weight: 400;
+            font-weight: 500;
             color: $red;
+          }
+          .trix-content{
+            font-weight: 400;
+            strong{
+              font-weight: 500;
+            }
           }
         }
       }
@@ -690,9 +702,24 @@
   }
 }
 
+
 #pages_newbies_2024 {
+  .wrapper{
+    padding-bottom: 4rem;
+
+    .regular{
+      font-weight: 400;
+    }
+  }
   .wrapper h1 {
-    margin-top: 125px;
+    margin-top: 40px;
+    font-family: 'Barlow';
+    font-weight: 400;
+    letter-spacing: 12px;
+  }
+  .wrapper .subtitle{
+    font-weight: 500;
+    max-width: 750px;
   }
 
   .content{
@@ -733,7 +760,7 @@
       cursor: pointer;
       display: inline-block;
       font-weight: 400;
-      letter-spacing: 0.125em;
+      // letter-spacing: 0.125em;
       text-align: center;
       text-decoration: none;
 
@@ -758,16 +785,18 @@
       span{
         display: inline-flex;
         align-items: center;
+        justify-content: space-between;
+        width: 95%;
+        transition: all 0.3s ease-in-out;
         img{
           margin-left: 10px;
-          transition: all 0.3s ease-in-out;
+
+        }
+        &:hover{
+          width: 100%;
         }
       }
-      &:hover{
-        img{
-          margin-left: 15px;
-        }
-      }
+
     &.red-cta{
       background-color: $red;
       }
