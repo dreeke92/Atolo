@@ -441,6 +441,7 @@
       border-radius: 15px;
       box-shadow: 6px -4px 12px #0000000D;
       margin: 0.8rem;
+      transition: all 0.3s ease-in-out;
 
       .header{
         padding: 35px;
@@ -480,6 +481,9 @@
             margin-bottom: 8px;
             font-weight: 500;
             color: $yellow;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
           }
 
           .content-title-2{
@@ -487,6 +491,9 @@
             margin-bottom: 8px;
             font-weight: 500;
             color: $green-2;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
           }
 
           .content-title-3{
@@ -494,6 +501,9 @@
             margin-bottom: 8px;
             font-weight: 500;
             color: $red;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
           }
           .trix-content{
             font-weight: 400;
@@ -736,6 +746,10 @@
     // top: -520px;
     position: relative;
     top: 0px;
+
+    .box-size{
+      height: auto;
+    }
   }
   @media (min-width: 768px) {
 
@@ -746,9 +760,19 @@
 
   #testimonials {
     padding-top: 64px;
+    font-size: 32px;
+    .title{
+      color: #78BE21;
+      font-weight: 500;
+    }
   }
   #testimonials .testimonial-card {
+    font-weight: 400;
     background-color: $light-gray;
+    .testimonial-card-logo{
+      height: 170px;
+      width: 170px;
+    }
   }
 
   .contact-banner{
@@ -809,5 +833,38 @@
       background-color: $yellow;
       }
     }
+  .product-drop-down{
+    cursor: pointer;
+    .chevron::before {
+      border-style: solid;
+      border-width: 0.25em 0.25em 0 0;
+      content: '';
+      display: inline-block;
+      height: 0.8em;
+      left: 0.15em;
+      position: relative;
+      top: 0.2em;
+      transform: rotate(-45deg);
+      vertical-align: top;
+      width: 0.8em;
+      /* top: 0; */
+      transform: rotate(135deg);
+      transition: all 0.3s ease-in-out;
+    }
 
+    .content-text{
+      height: 0px;
+      overflow: hidden;
+      transition: all 0.3s ease-in-out;
+    }
+    &.active{
+      .chevron::before {
+        transform: rotate(-45deg);
+        top: 0.5em;
+      }
+      .content-text{
+        height: auto;
+      }
+    }
+  }
 }

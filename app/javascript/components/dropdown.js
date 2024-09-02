@@ -35,4 +35,15 @@ function dropDown(){
 
 };
 
-export { dropDown };
+function productDropDown(){
+  const dropDown = document.querySelectorAll('.product-drop-down');
+  console.log("pr-down-ok");
+
+  dropDown.forEach(selector => {
+    selector.addEventListener('click', event => {
+      event.currentTarget.classList.toggle("active");
+    });
+  });
+};
+
+export { dropDown, productDropDown };

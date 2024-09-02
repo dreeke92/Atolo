@@ -39,17 +39,23 @@
             </div>
           </div>
           <div class="content">
-            <div class="content-title-1">
-              <%= Title.find_by_unique_key("newbies_2024_item_1_drop_1_title")&.translate(locale) %>
+            <div class="product-drop-down">
+              <div class="content-title-1">
+                <%= Title.find_by_unique_key("newbies_2024_item_1_drop_1_title")&.translate(locale) %>
+                <span class="chevron"></span>
+              </div>
+              <div class="content-text">
+                <%= Content.find_by_unique_key("newbies_2024_item_1_drop_1_content")&.translate(locale) %>
+              </div>
             </div>
-            <div>
-              <%= Content.find_by_unique_key("newbies_2024_item_1_drop_1_content")&.translate(locale) %>
-            </div>
-            <div  class="content-title-1">
-              <%= Title.find_by_unique_key("newbies_2024_item_1_drop_2_title")&.translate(locale) %>
-            </div>
-            <div>
-              <%= Content.find_by_unique_key("newbies_2024_item_1_drop_2_content")&.translate(locale) %>
+            <div class="product-drop-down">
+              <div  class="content-title-1">
+                <%= Title.find_by_unique_key("newbies_2024_item_1_drop_2_title")&.translate(locale) %>
+                <span class="chevron"></span>
+              </div>
+              <div class="content-text">
+                <%= Content.find_by_unique_key("newbies_2024_item_1_drop_2_content")&.translate(locale) %>
+              </div>
             </div>
           </div>
           <%= link_to preview_product_path(@product_1.id), class:"cta yellow-cta" do %>
@@ -81,17 +87,23 @@
             </div>
           </div>
           <div class="content">
-            <div class="content-title-2">
-              <%= Title.find_by_unique_key("newbies_2024_item_2_drop_1_title")&.translate(locale) %>
+            <div class="product-drop-down">
+              <div class="content-title-2">
+                <%= Title.find_by_unique_key("newbies_2024_item_2_drop_1_title")&.translate(locale) %>
+                <span class="chevron"></span>
+              </div>
+              <div class="content-text">
+                <%= Content.find_by_unique_key("newbies_2024_item_2_drop_1_content")&.translate(locale) %>
+              </div>
             </div>
-            <div>
-              <%= Content.find_by_unique_key("newbies_2024_item_2_drop_1_content")&.translate(locale) %>
-            </div>
-            <div  class="content-title-2">
-              <%= Title.find_by_unique_key("newbies_2024_item_2_drop_2_title")&.translate(locale) %>
-            </div>
-            <div>
-              <%= Content.find_by_unique_key("newbies_2024_item_2_drop_2_content")&.translate(locale) %>
+            <div class="product-drop-down">
+              <div  class="content-title-2">
+                <%= Title.find_by_unique_key("newbies_2024_item_2_drop_2_title")&.translate(locale) %>
+                <span class="chevron"></span>
+              </div>
+              <div class="content-text">
+                <%= Content.find_by_unique_key("newbies_2024_item_2_drop_2_content")&.translate(locale) %>
+              </div>
             </div>
           </div>
           <%= link_to preview_product_path(@product_2.id), class:"cta green-cta" do %>
@@ -123,17 +135,23 @@
             </div>
           </div>
           <div class="content">
-            <div class="content-title-3">
-              <%= Title.find_by_unique_key("newbies_2024_item_3_drop_1_title")&.translate(locale) %>
+            <div class="product-drop-down">
+              <div class="content-title-3">
+                <%= Title.find_by_unique_key("newbies_2024_item_3_drop_1_title")&.translate(locale) %>
+                <span class="chevron"></span>
+              </div>
+              <div class="content-text">
+                <%= Content.find_by_unique_key("newbies_2024_item_3_drop_1_content")&.translate(locale) %>
+              </div>
             </div>
-            <div>
-              <%= Content.find_by_unique_key("newbies_2024_item_3_drop_1_content")&.translate(locale) %>
-            </div>
-            <div  class="content-title-3">
-              <%= Title.find_by_unique_key("newbies_2024_item_3_drop_2_title")&.translate(locale) %>
-            </div>
-            <div>
-              <%= Content.find_by_unique_key("newbies_2024_item_3_drop_2_content")&.translate(locale) %>
+            <div class="product-drop-down">
+              <div  class="content-title-3">
+                <%= Title.find_by_unique_key("newbies_2024_item_3_drop_2_title")&.translate(locale) %>
+                <span class="chevron"></span>
+              </div>
+              <div class="content-text">
+                <%= Content.find_by_unique_key("newbies_2024_item_3_drop_2_content")&.translate(locale) %>
+              </div>
             </div>
           </div>
           <%= link_to eval_path(), class:"cta red-cta" do %>
@@ -150,7 +168,7 @@
     <div>
       <section id="testimonials" class="wrapper style1 align-center">
         <div class="inner">
-          <h3><%= Title.find_by_unique_key("newbies_2024_testimonial_title")&.translate(locale) %></h3>
+          <h3 class="title"><%= Title.find_by_unique_key("newbies_2024_testimonial_title")&.translate(locale) %></h3>
           <div class="owl-carousel owl-theme testimonial-cards onload-fade-in card-carousel">
             <% Testimonial.where(category: "newbies").order(id: :asc).each do |testimonial| %>
               <section class="testimonial-card">
