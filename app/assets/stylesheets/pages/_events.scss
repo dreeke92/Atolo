@@ -437,7 +437,7 @@
     }
 
     .newbies_2024_event{
-      max-width: 383px;
+      max-width: 395px;
       border-radius: 15px;
       box-shadow: 6px -4px 12px #0000000D;
       margin: 0.8rem;
@@ -449,7 +449,7 @@
         border-radius: 0px 0px 15px 15px;
 
         .box-size{
-          height: 280px;
+          height: 300px;
         }
         .title{
           font-size: 1.2rem;
@@ -750,6 +750,10 @@
     .box-size{
       height: auto;
     }
+
+    .cta{
+      font-weight: 600;
+    }
   }
   @media (min-width: 768px) {
 
@@ -810,7 +814,7 @@
         display: inline-flex;
         align-items: center;
         justify-content: space-between;
-        width: 95%;
+        width: 98%;
         transition: all 0.3s ease-in-out;
         img{
           margin-left: 10px;

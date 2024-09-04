@@ -170,7 +170,7 @@
         <div class="inner">
           <h3 class="title"><%= Title.find_by_unique_key("newbies_2024_testimonial_title")&.translate(locale) %></h3>
           <div class="owl-carousel owl-theme testimonial-cards onload-fade-in card-carousel">
-            <% Testimonial.where(category: "newbies").order(id: :asc).each do |testimonial| %>
+            <% Testimonial.where(category: "newbies_2024").order(id: :asc).each do |testimonial| %>
               <section class="testimonial-card">
                 <div class="testimonial-card-logo">
                   <%= image_tag(testimonial.logo_url, :alt => "image", :class => "testimonial-logo") %>
