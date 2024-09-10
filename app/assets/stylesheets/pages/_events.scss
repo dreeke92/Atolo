@@ -324,6 +324,24 @@
   #pages_newbies .wrapper .subtitle, #pages_home .fourth-section .wrapper .subtitle{
     max-width: 690px;
   }
+
+#pages_home .fourth-section .wrapper.banner-title.newbies_2024{
+  height: 40vh;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: end;
+  flex-wrap: wrap;
+
+  .dates{
+    display:block;
+  }
+  .regular{
+    margin: 0px;
+  }
+  .subtitle{
+    margin-bottom: 0px;
+  }
+}
 #pages_newbies, #pages_newbies_2024 {
   .concept{
     padding-bottom: 208px;
@@ -548,6 +566,7 @@
           color: white;
           left: 35px;
           transition: all 0.3s ease-in-out;
+          right: 45px;
 
           img{
             margin-left: 10px;
@@ -780,6 +799,25 @@
     }
     .testimonial-footer{
       bottom: -6px;
+    }
+
+    .testimonial-id-65 {
+      h3, h4{
+        color: $yellow;
+        font-weight: 500;
+      }
+    }
+    .testimonial-id-67 {
+      h3, h4{
+        color: $green-2;
+        font-weight: 500;
+      }
+    }
+    .testimonial-id-97 {
+      h3, h4{
+        color: $red;
+        font-weight: 500;
+      }
     }
   }
 

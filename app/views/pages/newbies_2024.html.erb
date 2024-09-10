@@ -177,7 +177,7 @@
                 </div>
 
                 <p class="small-font"><%= eval("testimonial.content_#{locale}") %></p>
-                <div class="testimonial-footer">
+                <div class="testimonial-footer <%= "testimonial-id-#{testimonial.id}" %>">
                   <h3><%= testimonial.author %></h3>
                   <h4><%= testimonial.company_name %></h4>
                 </div>

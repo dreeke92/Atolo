@@ -1521,65 +1521,87 @@ task addContentTitle: :environment do
   # )
   # c.content_en.update(body: "Discover how our tool can elevate your organization’s language proficiency initiatives. Try it out firsthand with a free demo.")
 
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_2024_title",
+  #   page: "newbies",
+  #   title_en: "DISCOVER OUR NEWBIES"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_2024_title_description",
+  #   page: "newbies",
+  #   title_en: "You choose the topic, and we tailor it to resonate with your organization. Fully adapted to your needs, with various format options and flexible timing that suits your teams best. Proven results and client-approved!"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_2024_get_started",
+  #   page: "newbies",
+  #   title_en: "Get started"
+  # )
+
+
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_2024_testimonial_title",
+  #   page: "newbies",
+  #   title_en: "Client success stories to inspire you"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_2024_item_1_picture_category",
+  #   page: "newbies",
+  #   title_en: "People&Culture"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_2024_item_1_picture_title",
+  #   page: "newbies",
+  #   title_en: "Managing age diversity"
+  # )
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_2024_item_2_picture_category",
+  #   page: "newbies",
+  #   title_en: "Leadership"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_2024_item_2_picture_title",
+  #   page: "newbies",
+  #   title_en: "When experts become people leaders"
+  # )
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_2024_item_3_picture_category",
+  #   page: "newbies",
+  #   title_en: "Languages"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_2024_item_3_picture_title",
+  #   page: "newbies",
+  #   title_en: "ATOLO Eval"
+  # )
+
   Title.find_or_create_by(
-    unique_key: "newbies_2024_title",
-    page: "newbies",
-    title_en: "DISCOVER OUR NEWBIES"
+    unique_key: "newbies_2024_title_1",
+    page: "home",
+    title_en: "DISCOVER OUR"
   )
 
   Title.find_or_create_by(
-    unique_key: "newbies_2024_title_description",
-    page: "newbies",
-    title_en: "You choose the topic, and we tailor it to resonate with your organization. Fully adapted to your needs, with various format options and flexible timing that suits your teams best. Proven results and client-approved!"
+    unique_key: "newbies_2024_title_2",
+    page: "home",
+    title_en: "NEWBIES"
   )
 
   Title.find_or_create_by(
-    unique_key: "newbies_2024_get_started",
-    page: "newbies",
-    title_en: "Get started"
-  )
-
-
-
-  Title.find_or_create_by(
-    unique_key: "newbies_2024_testimonial_title",
-    page: "newbies",
-    title_en: "Client success stories to inspire you"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "newbies_2024_item_1_picture_category",
-    page: "newbies",
-    title_en: "People&Culture"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "newbies_2024_item_1_picture_title",
-    page: "newbies",
-    title_en: "Managing age diversity"
+    unique_key: "newbies_2024_title_subtitle",
+    page: "home",
+    title_en: "FALL EDITION 2024"
   )
   Title.find_or_create_by(
-    unique_key: "newbies_2024_item_2_picture_category",
-    page: "newbies",
-    title_en: "Leadership"
+    unique_key: "newbies_2024_home_title_description",
+    page: "home",
+    title_en: "LANGUAGE SCAN - AGE DIVERSITY - LEADERSHIP"
   )
-
-  Title.find_or_create_by(
-    unique_key: "newbies_2024_item_2_picture_title",
-    page: "newbies",
-    title_en: "When experts become people leaders"
-  )
-  Title.find_or_create_by(
-    unique_key: "newbies_2024_item_3_picture_category",
-    page: "newbies",
-    title_en: "Languages"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "newbies_2024_item_3_picture_title",
-    page: "newbies",
-    title_en: "ATOLO Eval"
-  )
-
 
 end

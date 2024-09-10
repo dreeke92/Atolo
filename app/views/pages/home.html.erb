@@ -98,57 +98,20 @@
 </div>
 <div class="fourth-section">
   <div class="owl-carousel banner-home-carousel">
-    <div  class="wrapper banner-title" style="background-image: url(<%= image_url 'bg_summerclass_2024.jpg' %>)">
-      <div class="title-group" style="padding-bottom:80px;">
-        <div>
-          <%= Title.find_by_unique_key("summer_class_header_title_1")&.translate(locale) %>
-        </div>
+    <div  class="wrapper banner-title newbies_2024" style="background-image: url(<%= image_url 'newbies_2024_header.png' %>)">
+      <div style="text-align: start;">
         <h1>
-          <%= Title.find_by_unique_key("summer_class_header_title_2")&.translate(locale) %>
+          <span><%= Title.find_by_unique_key("newbies_2024_title_1")&.translate(locale) %></span>
+          <%= Title.find_by_unique_key("newbies_2024_title_2")&.translate(locale) %>
         </h1>
-        <div>
-          <%= Title.find_by_unique_key("summer_class_header_title_3")&.translate(locale) %>
-        </div>
         <div class="dates">
-          <div>
-            <%= Title.find_by_unique_key("summer_class_header_date_1")&.translate(locale) %>
-          </div>
-          <%= image_tag "icons/green-arrow.svg" %>
-          <div>
-             <%= Title.find_by_unique_key("summer_class_header_date_2")&.translate(locale) %>
-          </div>
+          <%= Title.find_by_unique_key("newbies_2024_title_subtitle")&.translate(locale) %>
+        </div>
+        <div class="subtitle">
+         <%= Title.find_by_unique_key("newbies_2024_home_title_description")&.translate(locale) %>
         </div>
       </div>
-
-      <a href="<%= summer_class_path %>" class="regular"><span> <%= Title.find_by_unique_key("summer_class_header_cta")&.translate(locale) %><%= render 'shared/svg/arrow-right-circle' %></span></a>
-    </div>
-    <div  class="wrapper banner-title" style="background-image: url(<%= image_url 'webinar_header.png' %>)">
-      <div>
-        <%= Title.find_by_unique_key("summer_class_home_title_0")&.translate(locale) %>
-      </div>
-      <h1 style="letter-spacing: 1.5px;">
-        <%= Title.find_by_unique_key("summer_class_home_title_1")&.translate(locale) %><br><%= Title.find_by_unique_key("summer_class_home_title_2")&.translate(locale) %>
-      </h1>
-      <div class="dates">
-        <%= Title.find_by_unique_key("summer_class_home_title_3")&.translate(locale) %> <span style="width: 32px;border: 1px solid green;height: 0px;margin: 0.7rem;"></span> <%= Title.find_by_unique_key("summer_class_home_title_4")&.translate(locale) %>
-      </div>
-      <div class="subtitle">
-      </div>
-      <%= link_to preview_product_path(product.id), target:"_blank", class: "regular webinar-cta" do %>
-        <span><%= Title.find_by_unique_key("summer_classes_btn_discover_it")&.translate(locale) %> <%= render 'shared/svg/arrow-right-circle' %></span>
-      <% end %>
-    </div>
-    <div  class="wrapper banner-title" style="background-image: url(<%= image_url 'newbies_header.png' %>)">
-      <h1>
-        <%= Title.find_by_unique_key("newbies_title")&.translate(locale) %>
-      </h1>
-      <div class="dates">
-        <%= Title.find_by_unique_key("newbies_title_subtitle")&.translate(locale) %>
-      </div>
-      <div class="subtitle">
-       <%= Title.find_by_unique_key("newbies_title_description")&.translate(locale) %>
-      </div>
-      <a href="<%= newbies_path %>" class="regular"><span> <%= Title.find_by_unique_key("summer_classes_btn_discover_it")&.translate(locale) %> <%= image_tag 'icons/arrow-right-circle.svg' %></span></a>
+      <a href="<%= newbies_path %>" class="regular"><span> <%= Title.find_by_unique_key("newbies_2024_get_started")&.translate(locale) %> <%= image_tag 'icons/arrow-right-circle.svg' %></span></a>
     </div>
   </div>
 </div>
