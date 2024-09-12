@@ -111,7 +111,7 @@
          <%= Title.find_by_unique_key("newbies_2024_home_title_description")&.translate(locale) %>
         </div>
       </div>
-      <%= link_to newbies_path, :class => 'regular' do %>
+      <%= link_to newbies_2024_path, :class => 'regular' do %>
         <span> <%= Title.find_by_unique_key("home_newbies_2024_cta")&.translate(locale) %> <%= image_tag 'icons/arrow-right-circle.svg' %></span>
       <% end %>
     </div>
