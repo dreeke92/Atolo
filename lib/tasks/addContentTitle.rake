@@ -1581,27 +1581,34 @@ task addContentTitle: :environment do
   #   title_en: "ATOLO Eval"
   # )
 
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_2024_title_1",
+  #   page: "home",
+  #   title_en: "DISCOVER OUR"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_2024_title_2",
+  #   page: "home",
+  #   title_en: "NEWBIES"
+  # )
+
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_2024_title_subtitle",
+  #   page: "home",
+  #   title_en: "FALL EDITION 2024"
+  # )
+  # Title.find_or_create_by(
+  #   unique_key: "newbies_2024_home_title_description",
+  #   page: "home",
+  #   title_en: "LANGUAGE SCAN - AGE DIVERSITY - LEADERSHIP"
+  # )
   Title.find_or_create_by(
-    unique_key: "newbies_2024_title_1",
+    unique_key: "home_newbies_2024_cta",
     page: "home",
-    title_en: "DISCOVER OUR"
+    title_en: "Get started"
   )
 
-  Title.find_or_create_by(
-    unique_key: "newbies_2024_title_2",
-    page: "home",
-    title_en: "NEWBIES"
-  )
 
-  Title.find_or_create_by(
-    unique_key: "newbies_2024_title_subtitle",
-    page: "home",
-    title_en: "FALL EDITION 2024"
-  )
-  Title.find_or_create_by(
-    unique_key: "newbies_2024_home_title_description",
-    page: "home",
-    title_en: "LANGUAGE SCAN - AGE DIVERSITY - LEADERSHIP"
-  )
 
 end
