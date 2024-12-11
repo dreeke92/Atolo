@@ -1603,10 +1603,26 @@ task addContentTitle: :environment do
   #   page: "home",
   #   title_en: "LANGUAGE SCAN - AGE DIVERSITY - LEADERSHIP"
   # )
+  # Title.find_or_create_by(
+  #   unique_key: "home_newbies_2024_cta",
+  #   page: "home",
+  #   title_en: "Get started"
+  # )
   Title.find_or_create_by(
-    unique_key: "home_newbies_2024_cta",
+    unique_key: "EOY2024_title",
     page: "home",
-    title_en: "Get started"
+    title_en: "Looking for lasting learning experiences in",
+    title_fr: "À la recherche d'expériences d'apprentissage durables dans",
+    title_de: "Auf der Suche nach nachhaltigen Lernerfahrungen in",
+    title_nl: "Op zoek naar blijvende leerervaringen in"
+  )
+  Title.find_or_create_by(
+    unique_key: "EOY2024_title_cta",
+    page: "home",
+    title_en: "Take a flying start with our training programs in 2025",
+    title_nl: "Neem een vliegende start met onze trainingsprogramma's in 2025",
+    title_fr: "Prenez un bon départ avec nos programmes de formation en 2025",
+    title_de: "Starten Sie durch mit unseren Ausbildungsprogrammen im Jahr 2025"
   )
 
 

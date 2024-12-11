@@ -98,6 +98,22 @@
 </div>
 <div class="fourth-section">
   <div class="owl-carousel banner-home-carousel">
+    <div  class="wrapper banner-title EOY2024" style="background-image: url(<%= image_url 'EOY2024.png' %>)">
+      <div>
+        <h1>
+          <%= Title.find_by_unique_key("EOY2024_title")&.translate(locale) %>
+        </h1>
+        <div class="content">
+          <span><%= Title.find_by_unique_key("navigation_languages")&.translate(locale) %></span> |
+          <span><%= Title.find_by_unique_key("navigation_communication")&.translate(locale) %></span> |
+          <span><%= Title.find_by_unique_key("navigation_people")&.translate(locale) %></span> |
+          <span><%= Title.find_by_unique_key("navigation_leadership")&.translate(locale) %></span>
+        </div>
+      </div>
+      <%= link_to contact_path, :class => 'regular' do %>
+        <span> <%= Title.find_by_unique_key("EOY2024_title_cta")&.translate(locale) %> <%= image_tag 'icons/arrow-right-circle.svg' %></span>
+      <% end %>
+    </div>
     <div  class="wrapper banner-title newbies_2024" style="background-image: url(<%= image_url 'newbies_2024_header.png' %>)">
       <div style="text-align: start;">
         <h1>
