@@ -13,6 +13,7 @@
     <a href="https://qfor.org/" class="partner" target="_blank">
       <%= image_tag("partners/Qfor.png", :alt => "image", :class => "") %>
     </a>
+
     <a href="https://saq.ch/" class="partner" target="_blank">
       <%= image_tag("partners/SAQ.png", :alt => "image", :class => "") %>
     </a>
@@ -22,7 +23,16 @@
     <a href="https://www.vlaanderen.be/departement-werk-sociale-economie" class="partner" target="_blank">
       <%= image_tag("partners/WSE.png", :alt => "image", :class => "") %>
     </a>
-
+    <% if locale != :nl %>
+      <a href="https://economie-emploi.brussels/conge-education-paye" class="partner" target="_blank">
+        <%= image_tag("partners/SPF Eco & emploi.png", :alt => "image", :class => "") %>
+      </a>
+    <% else %>
+      <a href="https://economie-werk.brussels/betaald-educatief-verlof" class="partner" target="_blank">
+        <%= image_tag("partners/Brussel Eco & werk.png", :alt => "image", :class => "") %>
+      </a>
+    <% end %>
+    </a>
 
 
   </div>
