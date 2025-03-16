@@ -1,6 +1,6 @@
 <%= render 'shared/new_navbar' %>
 <% locale = I18n.locale %>
-<div class="container" style="margin-top: 190px;">
+<div class="container first" style="margin-top: 190px;">
   <div class="first-section">
     <div class="row">
 
@@ -30,4 +30,253 @@
       </div>
     </div>
   </div>
+  <section class="courses-section">
+    <article class="course-card languages">
+      <header class="course-header">
+        <h3 class="course-type">
+          Languages
+          <span class="separator-pink">|</span>
+          10-Hour Online
+        </h3>
+        <h2 class="course-title">
+          <span class="large-text">On-the-spot</span>
+          individual<br>coaching
+        </h2>
+      </header>
+      <p class="course-description">
+        Why is this our <strong>#1 go-to formula</strong> for clients
+        during summer? You get immediate,
+        <strong>nuanced feedback</strong> in your target language to
+        <strong>sharpen communication skills</strong> and tackle
+        <strong>real work challenges</strong>—all in
+        <strong>10 one-on-one online sessions,</strong>
+        fit to your needs and scheduled when you like.
+      </p>
+      <a href="#discount" class="regular"><div>
+        Join BY <span class="color-white">MAY 2</span> & get a <br>early bird discount
+        </div><span class="promo">15%</span>
+      </a>
+      <div class="content">
+        <div class="product-drop-down">
+          <div class="content-title-1">
+            <%= Title.find_by_unique_key("newbies_2024_item_1_drop_1_title")&.translate(locale) %>
+            <span class="chevron"></span>
+          </div>
+          <div class="content-text">
+            <%= Content.find_by_unique_key("newbies_2024_item_1_drop_1_content")&.translate(locale) %>
+          </div>
+        </div>
+        <div class="product-drop-down">
+          <div  class="content-title-1">
+            <%= Title.find_by_unique_key("newbies_2024_item_1_drop_2_title")&.translate(locale) %>
+            <span class="chevron"></span>
+          </div>
+          <div class="content-text">
+            <%= Content.find_by_unique_key("newbies_2024_item_1_drop_2_content")&.translate(locale) %>
+          </div>
+        </div>
+      </div>
+      <div class="article-footer">
+        <div>Be part of our #1 summer succes formula</div>
+        <%= image_tag 'icons/arrow-down-circle.svg' %></a>
+      </div>
+    </article>
+    <article class="course-card leadership">
+      <header class="course-header">
+        <h3 class="course-type">
+          Leadership
+          <span class="separator-green">|</span>
+          1-Day On-Site Masterclass
+        </h3>
+        <h2 class="course-title">
+          <span class="large-text">When experts become</span>
+          people<br>leaders
+        </h2>
+      </header>
+      <p class="course-description">
+        <strong>Gain the skills and insights</strong> needed to evolve
+        from a subject-matter expert into an <strong>effective people leader.</strong>
+        This one-day masterclass equips you with the tools to
+        <strong>inspire, collaborate, and lead with confidence.</strong>
+      </p>
+      <a href="#discount" class="regular">
+        <div>
+          Join BY <span class="color-white">MAY 23</span> & get a <br>early bird discount
+        </div><span class="promo">15%</span>
+      </a>
+      <div class="content">
+        <div class="product-drop-down">
+          <div class="content-title-1">
+            <%= Title.find_by_unique_key("newbies_2024_item_1_drop_1_title")&.translate(locale) %>
+            <span class="chevron"></span>
+          </div>
+          <div class="content-text">
+            <%= Content.find_by_unique_key("newbies_2024_item_1_drop_1_content")&.translate(locale) %>
+          </div>
+        </div>
+        <div class="product-drop-down">
+          <div  class="content-title-1">
+            <%= Title.find_by_unique_key("newbies_2024_item_1_drop_2_title")&.translate(locale) %>
+            <span class="chevron"></span>
+          </div>
+          <div class="content-text">
+            <%= Content.find_by_unique_key("newbies_2024_item_1_drop_2_content")&.translate(locale) %>
+          </div>
+        </div>
+      </div>
+      <div class="article-footer">
+        <div>Turn  expertise into leadership excellence</div>
+        <%= image_tag 'icons/arrow-down-circle.svg' %></a>
+      </div>
+    </article>
+  </section>
+  <div class="section-form">
+    <div class="left-header">
+      <div class="contact-title">
+        Interested in our Summer ClassES?
+      </div>
+      <h3>
+        Contact us <br> via this form
+      </h3>
+      <div class="contact-info">
+        Or mail us <a mailto='welcome@atolo.eu'>welcome@atolo.eu</a><br>
+        Or give us a call: <a tel='welcome@atolo.eu'>+32 2 609 50 90</a>
+      </div>
+    </div>
+    <div class="form">
+      <%= simple_form_for Message.new do |f| %>
+        <h2><%= Title.find_by_unique_key("contact_form_title")&.translate(locale) %></h2>
+        <%= f.input :name, label:Title.find_by_unique_key("contact_form_name")&.translate(locale)%>
+        <%= f.input :company,  label:Title.find_by_unique_key("contact_form_company")&.translate(locale) %>
+        <%= f.input :email,  label:Title.find_by_unique_key("contact_form_email")&.translate(locale) %>
+        <%= f.input :phone,  label:Title.find_by_unique_key("contact_form_phone")&.translate(locale) %>
+        <%= f.input :content, label: Title.find_by_unique_key("contact_form_message")&.translate(locale) , as: :text %>
+        <div class="field d-none">
+          <input class="checkbot" id="checkbot" name="message[checkbot]" value="" />
+          <label for="human"><%= t('form.human') %></label>
+        </div>
+        <div class="field d-none">
+          <input class="checkmark" type="checkbox" id="human" name="message[robot]"/>
+          <label for="human"><%= t('form.human') %></label>
+        </div>
+        <div class="field">
+          <div class="g-recaptcha" data-sitekey="6Leq-ZYgAAAAAGFXLTnAWjkwonj4qbyyTlJ2ytVv" data-callback="onRecaptchaSuccess"
+          data-expired-callback="onRecaptchaResponseExpiry"
+          data-error-callback="onRecaptchaError"></div>
+        </div>
+        <%= f.submit Title.find_by_unique_key("contact_form_send")&.translate(locale), class:"primary contact-form-submit", id:"btnsubmit" , disabled: true%>
+      <% end %>
+    </div>
+  </div>
+  <div class="push-section">
+    <div class="content-1">
+      <div class="title">
+        Limited Time Only
+      </div>
+      <h3>
+        Early Bird<br>Special
+      </h3>
+    </div>
+    <div class="content-2">
+      <div class="title-1">
+        SAVE 15%
+      </div>
+      <div class="title-2">
+        on Our Summer Trainings
+      </div>
+    </div>
+  </div>
 </div>
+<div class="testimonials">
+  <div class="container testimonials">
+    <section id="testimonials" class="wrapper style1 align-center">
+      <div class="inner">
+        <h3 class="title"><%= Title.find_by_unique_key("newbies_2024_testimonial_title")&.translate(locale) %></h3>
+        <div class="subtitle-1">
+          Is summer a great time for learning?
+        </div>
+        <div class="subtitle-2">
+          Absolutely – less busy, more engagement and all the summer vibes!
+        </div>
+        <div class="owl-carousel owl-theme testimonial-cards onload-fade-in card-carousel">
+          <% Testimonial.where(category: "summer_class_2025").order(id: :asc).each do |testimonial| %>
+            <section class="testimonial-card">
+              <div class="testimonial-card-logo">
+                <%= image_tag(testimonial.logo_url, :alt => "image", :class => "testimonial-logo") %>
+              </div>
+
+              <p class="small-font"><%= eval("testimonial.content_#{locale}") %></p>
+              <div class="testimonial-footer <%= "testimonial-id-#{testimonial.id}" %>">
+                <h3><%= testimonial.author %></h3>
+                <h4><%= testimonial.company_name %></h4>
+              </div>
+            </section>
+          <% end %>
+        </div>
+      </div>
+    </section>
+    <div class="push-section-2">
+      <div class="content-1">
+        <div class="title">
+          JOIN OUR
+        </div>
+        <h3>
+          SUMMER CLASSES
+        </h3>
+        <div class="title">
+          THEY ARE waiting for you
+        </div>
+      </div>
+      <div class="content-2">
+        <div class="title-1">
+          EDITION
+        </div>
+        <div class="title-2">
+          2025
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  let isRecaptchaValidated = false;
+
+  function toggleRecaptchaFormMessage(type = "error", hide = false) {
+    document.getElementById(`contact-form-${type}`).style.display = hide
+      ? "none"
+      : "inherit";
+  }
+
+  function onRecaptchaSuccess() {
+    isRecaptchaValidated = true;
+    document.getElementById("btnsubmit").disabled = false;
+    document.getElementById("checkbot").value = "okay";
+  }
+
+  function onRecaptchaError() {
+    // toggleRecaptchaFormMessage("error");
+    // toggleRecaptchaFormMessage("success", true);
+  }
+
+  function onRecaptchaResponseExpiry() {
+    // onRecaptchaError();
+  }
+
+  const recaptchaForm = document.getElementById("contact-form");
+  recaptchaForm.addEventListener("submit", function (e) {
+    console.log("toto");
+    e.preventDefault();
+
+    // failure
+    if (!isRecaptchaValidated) {
+      console.log('bot');
+      // toggleRecaptchaFormMessage("error");
+      // toggleRecaptchaFormMessage("success", true);
+      return;
+    }
+
+    // success
+    document.getElementById("contact-form").submit();
+  });
+</script>
