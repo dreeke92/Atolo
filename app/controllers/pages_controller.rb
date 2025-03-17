@@ -26,6 +26,19 @@ class PagesController < ApplicationController
     # @products = Product.take(3)
   end
 
+  def summer_class_2025
+    if Rails.env.production?
+    # @products = Product.take(3)
+    @products_1 = Product.where("id in (259, 260)").order(:id)
+    @products_2 = Product.where("id in (261, 262)").order(:id)
+    @testimonials = Testimonial.where(category: "summer_class_2025").order(id: :asc)
+    else
+      @products_1 = Product.take(2)
+      @products_2 = Product.take(2)
+      @testimonials = Testimonial.where(category: "summer_class_2025").order(id: :asc)
+    end
+  end
+
   def summer_class
     if Rails.env.production?
     # @products = Product.take(3)

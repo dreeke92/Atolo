@@ -1,0 +1,301 @@
+<%= render 'shared/new_navbar' %>
+<% locale = I18n.locale %>
+<div class="container first" style="margin-top: 190px;">
+  <div class="first-section">
+    <div class="row">
+
+      <div class="col-md-6 col-xs-12">
+        <h1>
+          <%= Title.find_by_unique_key("summer_section_1_title")&.translate(locale).html_safe %>
+        </h1>
+
+        <div class="dates">
+          <div class="date_from"><%= Title.find_by_unique_key("summer_section_1_dates_1")&.translate(locale) %></div>
+          <%= image_tag "icons/green-arrow.svg" %>
+          <div class="date_to"><%= Title.find_by_unique_key("summer_section_1_dates_2")&.translate(locale) %></div>
+        </div>
+      </div>
+      <div class="offset-md-1 col-md-5 col-xs-12">
+        <div class="border-green">
+        </div>
+        <div class="content">
+          <%= Title.find_by_unique_key("summer_section_1_content_1")&.translate(locale) %>
+          <div style="margin-top: 14px;font-weight:500;"><%= Title.find_by_unique_key("summer_section_1_content_2")&.translate(locale) %></div>
+        </div>
+        <a href="#contact-form" class="regular"><div>
+          <%= Title.find_by_unique_key("summer_section_1_cta")&.translate(locale).html_safe %>
+          <%= image_tag 'icons/arrow-down-circle-green-darker.svg' %></a>
+      </div>
+    </div>
+  </div>
+  <section class="courses-section">
+    <article class="course-card languages">
+      <header class="course-header">
+        <h3 class="course-type">
+          <%= Title.find_by_unique_key("summer_section_articles_language_subtitle")&.translate(locale).html_safe %>
+        </h3>
+        <h2 class="course-title">
+          <%= Title.find_by_unique_key("summer_section_articles_language_title")&.translate(locale).html_safe %>
+        </h2>
+      </header>
+      <p class="course-description">
+        <%= Title.find_by_unique_key("summer_section_articles_language_description")&.translate(locale).html_safe %>
+      </p>
+      <a href="#contact-form" class="regular">
+        <%= Title.find_by_unique_key("summer_section_articles_language_cta")&.translate(locale).html_safe %>
+      </a>
+      <div class="content" style="width: 100%;">
+        <div class="product-drop-down">
+          <div class="content-title-1">
+            <%= Title.find_by_unique_key("summer_section_articles_language_drop_1_title")&.translate(locale) %>
+            <span class="chevron"></span>
+          </div>
+          <div class="content-text">
+            <%= Content.find_by_unique_key("summer_section_articles_language_drop_1_content")&.translate(locale) %>
+          </div>
+        </div>
+        <div class="product-drop-down">
+          <div  class="content-title-1">
+            <%= Title.find_by_unique_key("summer_section_articles_language_drop_2_title")&.translate(locale) %>
+            <span class="chevron"></span>
+          </div>
+          <div class="content-text">
+            <%= Content.find_by_unique_key("summer_section_articles_language_drop_2_content")&.translate(locale) %>
+          </div>
+        </div>
+        <div class="product-drop-down">
+          <div  class="content-title-1">
+            <%= Title.find_by_unique_key("summer_section_articles_language_drop_3_title")&.translate(locale) %>
+            <span class="chevron"></span>
+          </div>
+          <div class="content-text">
+            <%= Content.find_by_unique_key("summer_section_articles_language_drop_3_content")&.translate(locale) %>
+          </div>
+        </div>
+        <div class="product-drop-down">
+          <div  class="content-title-1">
+            <%= Title.find_by_unique_key("summer_section_articles_language_drop_4_title")&.translate(locale).html_safe %>
+            <span class="chevron"></span>
+          </div>
+          <div class="content-text">
+            <%= Content.find_by_unique_key("summer_section_articles_language_drop_4_content")&.translate(locale) %>
+          </div>
+        </div>
+      </div>
+      <div class="article-footer">
+        <div>
+          <%= Title.find_by_unique_key("summer_section_articles_language_footer")&.translate(locale) %>
+        </div>
+        <%= image_tag 'icons/arrow-down-circle.svg' %></a>
+      </div>
+    </article>
+    <article class="course-card leadership">
+      <header class="course-header">
+        <h3 class="course-type">
+          <%= Title.find_by_unique_key("summer_section_articles_leadership_subtitle")&.translate(locale).html_safe %>
+        </h3>
+        <h2 class="course-title">
+          <%= Title.find_by_unique_key("summer_section_articles_leadership_title")&.translate(locale).html_safe %>
+        </h2>
+      </header>
+      <p class="course-description">
+        <%= Title.find_by_unique_key("summer_section_articles_leadership_description")&.translate(locale).html_safe %>
+      </p>
+      <a href="#contact-form" class="regular">
+          <%= Title.find_by_unique_key("summer_section_articles_leadership_cta")&.translate(locale).html_safe %>
+      </a>
+      <div class="content" style="width: 100%;">
+        <div class="product-drop-down">
+          <div class="content-title-1">
+            <%= Title.find_by_unique_key("summer_section_articles_leadership_drop_1_title")&.translate(locale) %>
+            <span class="chevron"></span>
+          </div>
+          <div class="content-text">
+            <%= Content.find_by_unique_key("summer_section_articles_leadership_drop_1_content")&.translate(locale) %>
+          </div>
+        </div>
+        <div class="product-drop-down">
+          <div  class="content-title-1">
+            <%= Title.find_by_unique_key("summer_section_articles_leadership_drop_2_title")&.translate(locale) %>
+            <span class="chevron"></span>
+          </div>
+          <div class="content-text">
+            <%= Content.find_by_unique_key("summer_section_articles_leadership_drop_2_content")&.translate(locale) %>
+          </div>
+        </div>
+        <div class="product-drop-down">
+          <div  class="content-title-1">
+            <%= Title.find_by_unique_key("summer_section_articles_leadership_drop_3_title")&.translate(locale) %>
+            <span class="chevron"></span>
+          </div>
+          <div class="content-text">
+            <%= Content.find_by_unique_key("summer_section_articles_leadership_drop_3_content")&.translate(locale) %>
+          </div>
+        </div>
+        <div class="product-drop-down">
+          <div  class="content-title-1">
+            <%= Title.find_by_unique_key("summer_section_articles_leadership_drop_4_title")&.translate(locale).html_safe %>
+            <span class="chevron"></span>
+          </div>
+          <div class="content-text">
+            <%= Content.find_by_unique_key("summer_section_articles_leadership_drop_4_content")&.translate(locale) %>
+          </div>
+        </div>
+      </div>
+      <div class="article-footer">
+        <div>
+          <%= Title.find_by_unique_key("summer_section_articles_leadership_footer")&.translate(locale) %>
+        </div>
+        <%= image_tag 'icons/arrow-down-circle.svg' %></a>
+      </div>
+    </article>
+  </section>
+  <div class="section-form" id="contact-form">
+    <div class="left-header">
+      <div class="contact-title">
+        <%= Title.find_by_unique_key("summer_section_contact_title_1")&.translate(locale) %>
+      </div>
+      <h3>
+        <%= Title.find_by_unique_key("summer_section_contact_title_2")&.translate(locale).html_safe %>
+      </h3>
+      <div class="contact-info">
+        <%= Title.find_by_unique_key("summer_section_contact_informations")&.translate(locale).html_safe %>
+      </div>
+    </div>
+    <div class="form">
+      <%= simple_form_for Message.new do |f| %>
+        <%= f.input :name, label:Title.find_by_unique_key("contact_form_name")&.translate(locale)%>
+        <%= f.input :company,  label:Title.find_by_unique_key("contact_form_company")&.translate(locale) %>
+        <%= f.input :email,  label:Title.find_by_unique_key("contact_form_email")&.translate(locale) %>
+        <%= f.input :phone,  label:Title.find_by_unique_key("contact_form_phone")&.translate(locale) %>
+        <%= f.input :content, label: Title.find_by_unique_key("summer_section_contact_form_message")&.translate(locale) , as: :text %>
+        <div class="field d-none">
+          <input class="checkbot" id="checkbot" name="message[checkbot]" value="" />
+          <label for="human"><%= t('form.human') %></label>
+        </div>
+        <div class="field d-none">
+          <input class="checkmark" type="checkbox" id="human" name="message[robot]"/>
+          <label for="human"><%= t('form.human') %></label>
+        </div>
+        <div class="field">
+          <div class="g-recaptcha" data-sitekey="6Leq-ZYgAAAAAGFXLTnAWjkwonj4qbyyTlJ2ytVv" data-callback="onRecaptchaSuccess"
+          data-expired-callback="onRecaptchaResponseExpiry"
+          data-error-callback="onRecaptchaError"></div>
+        </div>
+        <%= f.submit Title.find_by_unique_key("contact_form_send")&.translate(locale), class:"primary contact-form-submit", id:"btnsubmit" , disabled: true%>
+      <% end %>
+    </div>
+  </div>
+  <div class="push-section">
+    <div class="content-1">
+      <div class="title">
+        <%= Title.find_by_unique_key("summer_section_push_1_title_1")&.translate(locale) %>
+      </div>
+      <h3>
+        <%= Title.find_by_unique_key("summer_section_push_1_title_2")&.translate(locale).html_safe %>
+      </h3>
+    </div>
+    <div class="content-2">
+      <div class="title-1">
+        <%= Title.find_by_unique_key("summer_section_push_1_title_3")&.translate(locale) %>
+      </div>
+      <div class="title-2">
+        <%= Title.find_by_unique_key("summer_section_push_1_title_4")&.translate(locale) %>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="testimonials">
+  <div class="container testimonials">
+    <section id="testimonials" class="wrapper style1 align-center">
+      <div class="inner">
+        <h3 class="title"><%= Title.find_by_unique_key("summer_section_testimonial_title")&.translate(locale).html_safe %></h3>
+        <div class="subtitle-1">
+          <%= Title.find_by_unique_key("summer_section_testimonial_subtitle_1")&.translate(locale).html_safe %>
+        </div>
+        <div class="subtitle-2">
+          <%= Title.find_by_unique_key("summer_section_testimonial_subtitle_2")&.translate(locale) %>
+        </div>
+        <div class="owl-carousel owl-theme testimonial-cards onload-fade-in card-carousel">
+          <% Testimonial.where(category: "summer_class_2025").order(id: :asc).each do |testimonial| %>
+            <section class="testimonial-card">
+              <div class="testimonial-card-logo">
+                <%= image_tag(testimonial.logo_url, :alt => "image", :class => "testimonial-logo") %>
+              </div>
+
+              <p class="small-font"><%= eval("testimonial.content_#{locale}") %></p>
+              <div class="testimonial-footer <%= "testimonial-id-#{testimonial.id}" %>">
+                <h3><%= testimonial.author %></h3>
+                <h4><%= testimonial.job %></h4>
+                <h4><%= testimonial.company_name %></h4>
+              </div>
+            </section>
+          <% end %>
+        </div>
+      </div>
+    </section>
+    <div class="push-section-2">
+      <div class="content-1">
+        <div class="title">
+          <%= Title.find_by_unique_key("summer_section_push_2_title_1")&.translate(locale) %>
+        </div>
+        <h3>
+          <%= Title.find_by_unique_key("summer_section_push_2_title_2")&.translate(locale) %>
+        </h3>
+        <div class="title">
+          <%= Title.find_by_unique_key("summer_section_push_2_title_3")&.translate(locale) %>
+        </div>
+      </div>
+      <div class="content-2">
+        <div class="title-1">
+          <%= Title.find_by_unique_key("summer_section_push_2_title_4")&.translate(locale) %>
+        </div>
+        <div class="title-2">
+          2025
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  let isRecaptchaValidated = false;
+
+  function toggleRecaptchaFormMessage(type = "error", hide = false) {
+    document.getElementById(`contact-form-${type}`).style.display = hide
+      ? "none"
+      : "inherit";
+  }
+
+  function onRecaptchaSuccess() {
+    isRecaptchaValidated = true;
+    document.getElementById("btnsubmit").disabled = false;
+    document.getElementById("checkbot").value = "okay";
+  }
+
+  function onRecaptchaError() {
+    // toggleRecaptchaFormMessage("error");
+    // toggleRecaptchaFormMessage("success", true);
+  }
+
+  function onRecaptchaResponseExpiry() {
+    // onRecaptchaError();
+  }
+
+  const recaptchaForm = document.getElementById("contact-form");
+  recaptchaForm.addEventListener("submit", function (e) {
+    console.log("toto");
+    e.preventDefault();
+
+    // failure
+    if (!isRecaptchaValidated) {
+      console.log('bot');
+      // toggleRecaptchaFormMessage("error");
+      // toggleRecaptchaFormMessage("success", true);
+      return;
+    }
+
+    // success
+    document.getElementById("contact-form").submit();
+  });
+</script>

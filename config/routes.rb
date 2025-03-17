@@ -25,7 +25,7 @@ Rails.application.routes.draw do
     # get 'promotions', to: "pages#promotions"
     get 'thank_you', to: "pages#thank_you"
     get 'events', to: "pages#events"
-    get 'summer_class', to: "pages#summer_class"
+    get 'summer_class', to: "pages#summer_class_2025"
     get 'newbies', to: "pages#newbies"
     get 'newbies_2024', to: "pages#newbies_2024"
     get 'eval', to: "pages#eval"
