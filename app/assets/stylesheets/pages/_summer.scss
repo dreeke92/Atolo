@@ -432,6 +432,44 @@
       border-radius: 24px;
       font-size: 18px;
       font-weight: 400;
+
+      h3{
+        color: var(--Charcoal, #373A36);
+        margin-bottom: 0px;
+        font-size: 20px;
+        font-weight: 500;
+      }
+      h4{
+        color: var(--Charcoal, #373A36);
+        font-size: 20px;
+        font-weight: 400;
+        &:last-child{
+          margin-top: 12px;
+        }
+      }
+    }
+
+    h3.title{
+      color: var(--Corporate, #78BE21);
+      text-align: center;
+      font-family: Barlow;
+      font-size: 42px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 50px; /* 110% */
+    }
+
+    .subtitle-1, .subtitle-2{
+      color: var(--Charcoal, #373A36);
+      text-align: center;
+      font-family: Barlow;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px; /* 121.429% */
+    }
+    .subtitle-2{
+      font-weight: 500;
     }
   }
 

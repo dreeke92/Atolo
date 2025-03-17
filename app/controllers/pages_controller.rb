@@ -50,9 +50,6 @@ class PagesController < ApplicationController
     end
   end
 
-  def summer_test
-  end
-
   def newbies
     if Rails.env.production?
     # @products = Product.take(3)
