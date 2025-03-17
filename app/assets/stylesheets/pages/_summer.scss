@@ -76,6 +76,7 @@
     column-gap: 34px;
     justify-content: center;
     margin-top: 80px;
+    flex-wrap: wrap;
 
     .course-card{
       position: relative;
@@ -373,6 +374,7 @@
     left: 15px;
     right: 15px;
     z-index: 10;
+    flex-wrap: wrap;
 
     .content-1{
       .title{
@@ -487,6 +489,7 @@
     left: 15px;
     right: 15px;
     z-index: 10;
+    flex-wrap: wrap;
 
     .content-1{
       .title{
@@ -540,5 +543,59 @@
   }
   footer{
     padding-top: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  #pages_summer_class_2025 .first-section .dates {
+    font-size: 24px;
+  }
+  #pages_summer_class_2025 .first-section .border-green {
+    margin-top: 40px;
+    margin-bottom: 8px;
+  }
+  #pages_summer_class_2025 .courses-section .regular div,
+  #pages_summer_class_2025 .first-section .regular div {
+    font-size: 16px;
+  }
+  #pages_summer_class_2025 .courses-section .regular span.promo,
+  #pages_summer_class_2025 .first-section .regular span.promo  {
+  font-size: 30px;
+  }
+  #pages_summer_class_2025 .first-section .regular img {
+    height: 37px;
+    margin-left: 12px;
+  }
+
+  #pages_summer_class_2025 .section-form {
+    flex-direction: column;
+    .left-header{
+      border-radius: 25px 25px 0px 0px;
+      position: relative;
+      width: 100%;
+    }
+    .form{
+      margin-left: 0px;
+      border-radius: 0px 0px 25px 25px;
+    }
+  }
+  #pages_summer_class_2025 .push-section,#pages_summer_class_2025 .push-section-2 {
+    width: auto;
+    row-gap: 40px;
+  }
+
+  #pages_summer_class_2025 .push-section {
+    bottom: -480px;
+  }
+
+  #pages_summer_class_2025 .push-section-2 {
+    bottom: -450px;
+  }
+
+  #pages_summer_class_2025 .testimonials {
+      background: var(--Offwhite, #F5F5F5);
+      padding-top: 300px;
+      padding-bottom: 200px;
+      position: relative;
   }
 }
