@@ -36,9 +36,11 @@
             <%= Title.find_by_unique_key("summer_section_articles_language_subtitle")&.translate(locale).html_safe %>
           </h3>
         </div>
-        <h2 class="course-title">
-          <%= Title.find_by_unique_key("summer_section_articles_language_title")&.translate(locale).html_safe %>
-        </h2>
+        <div class="height-fixed" style="height: 200px;">
+          <h2 class="course-title">
+            <%= Title.find_by_unique_key("summer_section_articles_language_title")&.translate(locale).html_safe %>
+          </h2>
+        </div>
       </header>
       <p class="course-description">
         <%= Title.find_by_unique_key("summer_section_articles_language_description")&.translate(locale).html_safe %>
@@ -98,9 +100,11 @@
             <%= Title.find_by_unique_key("summer_section_articles_leadership_subtitle")&.translate(locale).html_safe %>
           </h3>
         </div>
-        <h2 class="course-title">
-          <%= Title.find_by_unique_key("summer_section_articles_leadership_title")&.translate(locale).html_safe %>
-        </h2>
+        <div class="height-fixed" style="height: 200px;">
+          <h2 class="course-title">
+            <%= Title.find_by_unique_key("summer_section_articles_leadership_title")&.translate(locale).html_safe %>
+          </h2>
+        </div>
       </header>
       <p class="course-description">
         <%= Title.find_by_unique_key("summer_section_articles_leadership_description")&.translate(locale).html_safe %>
