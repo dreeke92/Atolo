@@ -31,9 +31,11 @@
   <section class="courses-section">
     <article class="course-card languages">
       <header class="course-header">
-        <h3 class="course-type">
-          <%= Title.find_by_unique_key("summer_section_articles_language_subtitle")&.translate(locale).html_safe %>
-        </h3>
+        <div class="height-fixed" style="height: 50px;">
+          <h3 class="course-type">
+            <%= Title.find_by_unique_key("summer_section_articles_language_subtitle")&.translate(locale).html_safe %>
+          </h3>
+        </div>
         <h2 class="course-title">
           <%= Title.find_by_unique_key("summer_section_articles_language_title")&.translate(locale).html_safe %>
         </h2>
@@ -91,9 +93,11 @@
     </article>
     <article class="course-card leadership">
       <header class="course-header">
-        <h3 class="course-type">
-          <%= Title.find_by_unique_key("summer_section_articles_leadership_subtitle")&.translate(locale).html_safe %>
-        </h3>
+        <div class="height-fixed" style="height: 50px;">
+          <h3 class="course-type">
+            <%= Title.find_by_unique_key("summer_section_articles_leadership_subtitle")&.translate(locale).html_safe %>
+          </h3>
+        </div>
         <h2 class="course-title">
           <%= Title.find_by_unique_key("summer_section_articles_leadership_title")&.translate(locale).html_safe %>
         </h2>

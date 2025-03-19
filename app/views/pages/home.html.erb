@@ -96,7 +96,36 @@
     <a href="/summer_class" class="regular"><span> <%= Title.find_by_unique_key("summer_classes_btn_discover_it")&.translate(locale) %> <%= image_tag 'icons/arrow-right-circle.svg' %></span></a>
   </div>
 </div>
-<div class="fourth-section">
+<div id="summer_class">
+  <div class="rowflex">
+    <div class="col_1">
+      <div class="first-content">
+        <h1>
+          <%= Title.find_by_unique_key("home_summer_section_1_title")&.translate(locale)&.html_safe %>
+        </h1>
+
+        <div class="dates">
+          <div class="date_from"><%= Title.find_by_unique_key("home_summer_section_1_dates_1")&.translate(locale) %></div>
+          <%= image_tag "icons/green-arrow.svg" %>
+          <div class="date_to"><%= Title.find_by_unique_key("home_summer_section_1_dates_2")&.translate(locale) %></div>
+        </div>
+      </div>
+    </div>
+    <div class="col_1">
+      <div class="second-content">
+        <div class="border-green">
+        </div>
+        <div class="content">
+          <div style="margin-top: 14px;font-weight: 500;font-size: 32px;line-height: 1.2;"><%= Title.find_by_unique_key("home_summer_section_1_content")&.translate(locale)&.html_safe %></div>
+        </div>
+        <a href="<%= summer_class_path %>" class="regular">
+          <%= Title.find_by_unique_key("home_summer_section_1_cta")&.translate(locale)&.html_safe %>
+          <%= render 'shared/svg/arrow-right-circle' %></a>
+        </div>
+    </div>
+  </div>
+</div>
+<div class="fourth-section d-none">
   <div class="owl-carousel banner-home-carousel">
     <div  class="wrapper banner-title EOY2024" style="background-image: url(<%= image_url 'EOY2024.png' %>)">
       <div>

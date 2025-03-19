@@ -1618,304 +1618,348 @@ task addContentTitle: :environment do
   # )
 
   # section 1 summerclass
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_1_title",
+#     page: "summer_class_2025",
+#     title_en: "<span>EXPERIENCE</span> <span class='color-green'>SUMMER TRAINING</span>
+#           <span>LIKE NEVER BEFORE</span>
+#           <span class='font-light'>IN LANGUAGES & LEADERSHIP</span>"
+#   )
+
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_1_dates_1",
+#     page: "summer_class_2025",
+#     title_en: "1 JUNE"
+#   )
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_1_dates_2",
+#     page: "summer_class_2025",
+#     title_en: "15 SEPTEMBER"
+#   )
+
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_1_content_1",
+#     page: "summer_class_2025",
+#     title_en: "Make this summer the one where you unlock new skills and experiences."
+#   )
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_1_content_2",
+#     page: "summer_class_2025",
+#     title_en: "Summer. Grow. Enjoy. Repeat."
+#   )
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_1_cta",
+#     page: "summer_class_2025",
+#     title_en: "<span class='color-white'>Join NOW</span> and get a<br>early bird discount</div><span class='promo'>15%</span>"
+#   )
+
+#   # # end section 1
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_articles_language_subtitle",
+#     page: "summer_class_2025",
+#     title_en: "Languages
+#           <span class='separator-pink'>|</span>
+#           10-Hour Online"
+#   )
+
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_articles_language_title",
+#     page: "summer_class_2025",
+#     title_en: "<span class='large-text'>On-the-spot</span>
+#           individual<br>coaching"
+#   )
+
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_articles_language_description",
+#     page: "summer_class_2025",
+#     title_en: "Why is this our <strong>#1 go-to formula</strong> for clients
+#         during summer? You get immediate,
+#         <strong>nuanced feedback</strong> in your target language to
+#         <strong>sharpen communication skills</strong> and tackle
+#         <strong>real work challenges</strong>—all in
+#         <strong>10 one-on-one online sessions,</strong>
+#         fit to your needs and scheduled when you like."
+#   )
+
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_articles_language_cta",
+#     page: "summer_class_2025",
+#     title_en: "<div>Join BY <span class='color-white'>MAY 2</span> & get a <br>early bird discount
+#         </div><span class='promo'>15%</span>"
+#   )
+
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_articles_language_drop_1_title",
+#     page: "summer_class_2025",
+#     title_en: "Practival info"
+#   )
+
+#   c = Content.find_or_create_by(
+#     unique_key: "summer_section_articles_language_drop_1_content",
+#     page: "summer_class_2025"
+#   )
+#   c.content_en.update(body: "TO DO")
+
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_articles_language_drop_2_title",
+#     page: "summer_class_2025",
+#     title_en: "Perfect for"
+#   )
+
+#   c = Content.find_or_create_by(
+#     unique_key: "summer_section_articles_language_drop_2_content",
+#     page: "summer_class_2025"
+#   )
+#   c.content_en.update(body: "TO DO")
+
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_articles_language_drop_3_title",
+#     page: "summer_class_2025",
+#     title_en: "Why it works"
+#   )
+
+#   c = Content.find_or_create_by(
+#     unique_key: "summer_section_articles_language_drop_3_content",
+#     page: "summer_class_2025"
+#   )
+#   c.content_en.update(body: "TO DO")
+
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_articles_language_drop_4_title",
+#     page: "summer_class_2025",
+#     title_en: "Examples of coaching <br> you can follow (and more)"
+#   )
+
+#   c = Content.find_or_create_by(
+#     unique_key: "summer_section_articles_language_drop_4_content",
+#     page: "summer_class_2025"
+#   )
+#   c.content_en.update(body: "TO DO")
+
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_articles_language_footer",
+#     page: "summer_class_2025",
+#     title_en: "Be part of our #1 summer succes formula"
+#   )
+
+#   # leadership
+
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_articles_leadership_subtitle",
+#     page: "summer_class_2025",
+#     title_en: "Leadership
+#           <span class='separator-green'>|</span>
+#           1-Day On-Site Masterclass"
+#   )
+
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_articles_leadership_title",
+#     page: "summer_class_2025",
+#     title_en: "<span class='large-text'>When experts become</span>
+#           people<br>leaders"
+#   )
+
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_articles_leadership_description",
+#     page: "summer_class_2025",
+#     title_en: "<strong>Gain the skills and insights</strong> needed to evolve
+#         from a subject-matter expert into an <strong>effective people leader.</strong>
+#         This one-day masterclass equips you with the tools to
+#         <strong>inspire, collaborate, and lead with confidence.</strong>"
+#   )
+
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_articles_leadership_cta",
+#     page: "summer_class_2025",
+#     title_en: "<div>Join BY <span class='color-white'>MAY 23</span> & get a <br>early bird discount
+#         </div><span class='promo'>15%</span>"
+#   )
+
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_articles_leadership_drop_1_title",
+#     page: "summer_class_2025",
+#     title_en: "Practival info"
+#   )
+
+#   c = Content.find_or_create_by(
+#     unique_key: "summer_section_articles_leadership_drop_1_content",
+#     page: "summer_class_2025"
+#   )
+#   c.content_en.update(body: "TO DO")
+
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_articles_leadership_drop_2_title",
+#     page: "summer_class_2025",
+#     title_en: "Perfect for"
+#   )
+
+#   c = Content.find_or_create_by(
+#     unique_key: "summer_section_articles_leadership_drop_2_content",
+#     page: "summer_class_2025"
+#   )
+#   c.content_en.update(body: "TO DO")
+
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_articles_leadership_drop_3_title",
+#     page: "summer_class_2025",
+#     title_en: "Why it works"
+#   )
+
+#   c = Content.find_or_create_by(
+#     unique_key: "summer_section_articles_leadership_drop_3_content",
+#     page: "summer_class_2025"
+#   )
+#   c.content_en.update(body: "TO DO")
+
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_articles_leadership_drop_4_title",
+#     page: "summer_class_2025",
+#     title_en: "What you will again"
+#   )
+
+#   c = Content.find_or_create_by(
+#     unique_key: "summer_section_articles_leadership_drop_4_content",
+#     page: "summer_class_2025"
+#   )
+#   c.content_en.update(body: "TO DO")
+
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_articles_leadership_footer",
+#     page: "summer_class_2025",
+#     title_en: "Turn  expertise into leadership excellence"
+#   )
+
+
+# #  contact form
+
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_contact_title_1",
+#     page: "summer_class_2025",
+#     title_en: "Interested in our Summer Classes?"
+#   )
+
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_contact_title_2",
+#     page: "summer_class_2025",
+#     title_en: "Contact us <br> via this form"
+#   )
+
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_contact_informations",
+#     page: "summer_class_2025",
+#     title_en: "Or mail us <a mailto='welcome@atolo.eu'>welcome@atolo.eu</a><br>
+#         Or give us a call: <a tel='+32 2 609 50 90u'>+32 2 609 50 90</a>"
+#   )
+
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_contact_form_message",
+#     page: "summer_class_2025",
+#     title_en: "Mention here the Summer Class and language you are interested in:"
+#   )
+
+# # push section 1
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_push_1_title_1",
+#     page: "summer_class_2025",
+#     title_en: "Limited Time Only"
+#   )
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_push_1_title_2",
+#     page: "summer_class_2025",
+#     title_en: "Early Bird<br>Special"
+#   )
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_push_1_title_3",
+#     page: "summer_class_2025",
+#     title_en: "SAVE 15%"
+#   )
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_push_1_title_4",
+#     page: "summer_class_2025",
+#     title_en: "on Our Summer Trainings"
+#   )
+
+#   # testimonials
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_testimonial_title",
+#     page: "summer_class_2025",
+#     title_en: "Discover why our training programs<br> are so highly appreciated"
+#   )
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_testimonial_subtitle_1",
+#     page: "summer_class_2025",
+#     title_en: "Is summer a great time for learning?"
+#   )
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_testimonial_subtitle_2",
+#     page: "summer_class_2025",
+#     title_en: "Absolutely – less busy, more engagement and all the summer vibes!"
+#   )
+
+
+#   # push section 2
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_push_2_title_1",
+#     page: "summer_class_2025",
+#     title_en: "JOIN OUR"
+#   )
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_push_2_title_2",
+#     page: "summer_class_2025",
+#     title_en: "SUMMER CLASSES"
+#   )
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_push_2_title_3",
+#     page: "summer_class_2025",
+#     title_en: "THEY ARE waiting for you"
+#   )
+#   Title.find_or_create_by(
+#     unique_key: "summer_section_push_2_title_4",
+#     page: "summer_class_2025",
+#     title_en: "EDITION"
+#   )
+
   Title.find_or_create_by(
-    unique_key: "summer_section_1_title",
-    page: "summer_class_2025",
+    unique_key: "home_summer_section_1_title",
+    page: "home_page",
     title_en: "<span>EXPERIENCE</span> <span class='color-green'>SUMMER TRAINING</span>
-          <span>LIKE NEVER BEFORE</span>
-          <span class='font-light'>IN LANGUAGES & LEADERSHIP</span>"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "summer_section_1_dates_1",
-    page: "summer_class_2025",
-    title_en: "1 JUNE"
-  )
-  Title.find_or_create_by(
-    unique_key: "summer_section_1_dates_2",
-    page: "summer_class_2025",
-    title_en: "15 SEPTEMBER"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "summer_section_1_content_1",
-    page: "summer_class_2025",
-    title_en: "Make this summer the one where you unlock new skills and experiences."
+          <span class='font-light' style='display:inline;'>LIKE</span> <span> NEVER BEFORE</span>
+          <span class='font-light'>IN LANGUAGES & LEADERSHIP</span>",
+    title_nl: "<span>UPGRADE JE</span> <span class='color-green'>ZOMERTRAINING</span>
+          <span class='font-light' style='display:inline;'>TO THE</span> <span> NEXT-LEVEL</span>
+          <span class='font-light'>IN TALEN EN LEADERSHIP</span>",
+    title_fr: "<span>VIVEZ UN</span> <span class='color-green' style='display:inline;'> ÉTÉ<br>D'APPRENTISSAGE</span>
+          <span>INOUBLIABLE</span>
+          <span class='font-light'>EN LANGUES & LEADERSHIP</span>"
   )
   Title.find_or_create_by(
-    unique_key: "summer_section_1_content_2",
+    unique_key: "home_summer_section_1_dates_1",
     page: "summer_class_2025",
-    title_en: "Summer. Grow. Enjoy. Repeat."
+    title_en: "1 JUNE",
+    title_fr: "1 JUIN",
+    title_nl: "1 JUNI"
   )
   Title.find_or_create_by(
-    unique_key: "summer_section_1_cta",
+    unique_key: "home_summer_section_1_dates_2",
     page: "summer_class_2025",
-    title_en: "<span class='color-white'>Join NOW</span> and get a<br>early bird discount</div><span class='promo'>15%</span>"
-  )
-
-  # # end section 1
-  Title.find_or_create_by(
-    unique_key: "summer_section_articles_language_subtitle",
-    page: "summer_class_2025",
-    title_en: "Languages
-          <span class='separator-pink'>|</span>
-          10-Hour Online"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "summer_section_articles_language_title",
-    page: "summer_class_2025",
-    title_en: "<span class='large-text'>On-the-spot</span>
-          individual<br>coaching"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "summer_section_articles_language_description",
-    page: "summer_class_2025",
-    title_en: "Why is this our <strong>#1 go-to formula</strong> for clients
-        during summer? You get immediate,
-        <strong>nuanced feedback</strong> in your target language to
-        <strong>sharpen communication skills</strong> and tackle
-        <strong>real work challenges</strong>—all in
-        <strong>10 one-on-one online sessions,</strong>
-        fit to your needs and scheduled when you like."
-  )
-
-  Title.find_or_create_by(
-    unique_key: "summer_section_articles_language_cta",
-    page: "summer_class_2025",
-    title_en: "<div>Join BY <span class='color-white'>MAY 2</span> & get a <br>early bird discount
-        </div><span class='promo'>15%</span>"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "summer_section_articles_language_drop_1_title",
-    page: "summer_class_2025",
-    title_en: "Practival info"
-  )
-
-  c = Content.find_or_create_by(
-    unique_key: "summer_section_articles_language_drop_1_content",
-    page: "summer_class_2025"
-  )
-  c.content_en.update(body: "TO DO")
-
-  Title.find_or_create_by(
-    unique_key: "summer_section_articles_language_drop_2_title",
-    page: "summer_class_2025",
-    title_en: "Perfect for"
-  )
-
-  c = Content.find_or_create_by(
-    unique_key: "summer_section_articles_language_drop_2_content",
-    page: "summer_class_2025"
-  )
-  c.content_en.update(body: "TO DO")
-
-  Title.find_or_create_by(
-    unique_key: "summer_section_articles_language_drop_3_title",
-    page: "summer_class_2025",
-    title_en: "Why it works"
-  )
-
-  c = Content.find_or_create_by(
-    unique_key: "summer_section_articles_language_drop_3_content",
-    page: "summer_class_2025"
-  )
-  c.content_en.update(body: "TO DO")
-
-  Title.find_or_create_by(
-    unique_key: "summer_section_articles_language_drop_4_title",
-    page: "summer_class_2025",
-    title_en: "Examples of coaching <br> you can follow (and more)"
-  )
-
-  c = Content.find_or_create_by(
-    unique_key: "summer_section_articles_language_drop_4_content",
-    page: "summer_class_2025"
-  )
-  c.content_en.update(body: "TO DO")
-
-  Title.find_or_create_by(
-    unique_key: "summer_section_articles_language_footer",
-    page: "summer_class_2025",
-    title_en: "Be part of our #1 summer succes formula"
-  )
-
-  # leadership
-
-  Title.find_or_create_by(
-    unique_key: "summer_section_articles_leadership_subtitle",
-    page: "summer_class_2025",
-    title_en: "Leadership
-          <span class='separator-green'>|</span>
-          1-Day On-Site Masterclass"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "summer_section_articles_leadership_title",
-    page: "summer_class_2025",
-    title_en: "<span class='large-text'>When experts become</span>
-          people<br>leaders"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "summer_section_articles_leadership_description",
-    page: "summer_class_2025",
-    title_en: "<strong>Gain the skills and insights</strong> needed to evolve
-        from a subject-matter expert into an <strong>effective people leader.</strong>
-        This one-day masterclass equips you with the tools to
-        <strong>inspire, collaborate, and lead with confidence.</strong>"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "summer_section_articles_leadership_cta",
-    page: "summer_class_2025",
-    title_en: "<div>Join BY <span class='color-white'>MAY 23</span> & get a <br>early bird discount
-        </div><span class='promo'>15%</span>"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "summer_section_articles_leadership_drop_1_title",
-    page: "summer_class_2025",
-    title_en: "Practival info"
-  )
-
-  c = Content.find_or_create_by(
-    unique_key: "summer_section_articles_leadership_drop_1_content",
-    page: "summer_class_2025"
-  )
-  c.content_en.update(body: "TO DO")
-
-  Title.find_or_create_by(
-    unique_key: "summer_section_articles_leadership_drop_2_title",
-    page: "summer_class_2025",
-    title_en: "Perfect for"
-  )
-
-  c = Content.find_or_create_by(
-    unique_key: "summer_section_articles_leadership_drop_2_content",
-    page: "summer_class_2025"
-  )
-  c.content_en.update(body: "TO DO")
-
-  Title.find_or_create_by(
-    unique_key: "summer_section_articles_leadership_drop_3_title",
-    page: "summer_class_2025",
-    title_en: "Why it works"
-  )
-
-  c = Content.find_or_create_by(
-    unique_key: "summer_section_articles_leadership_drop_3_content",
-    page: "summer_class_2025"
-  )
-  c.content_en.update(body: "TO DO")
-
-  Title.find_or_create_by(
-    unique_key: "summer_section_articles_leadership_drop_4_title",
-    page: "summer_class_2025",
-    title_en: "What you will again"
-  )
-
-  c = Content.find_or_create_by(
-    unique_key: "summer_section_articles_leadership_drop_4_content",
-    page: "summer_class_2025"
-  )
-  c.content_en.update(body: "TO DO")
-
-  Title.find_or_create_by(
-    unique_key: "summer_section_articles_leadership_footer",
-    page: "summer_class_2025",
-    title_en: "Turn  expertise into leadership excellence"
-  )
-
-
-#  contact form
-
-  Title.find_or_create_by(
-    unique_key: "summer_section_contact_title_1",
-    page: "summer_class_2025",
-    title_en: "Interested in our Summer Classes?"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "summer_section_contact_title_2",
-    page: "summer_class_2025",
-    title_en: "Contact us <br> via this form"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "summer_section_contact_informations",
-    page: "summer_class_2025",
-    title_en: "Or mail us <a mailto='welcome@atolo.eu'>welcome@atolo.eu</a><br>
-        Or give us a call: <a tel='+32 2 609 50 90u'>+32 2 609 50 90</a>"
-  )
-
-  Title.find_or_create_by(
-    unique_key: "summer_section_contact_form_message",
-    page: "summer_class_2025",
-    title_en: "Mention here the Summer Class and language you are interested in:"
-  )
-
-# push section 1
-  Title.find_or_create_by(
-    unique_key: "summer_section_push_1_title_1",
-    page: "summer_class_2025",
-    title_en: "Limited Time Only"
+    title_en: "15 SEPTEMBER",
+    title_fr: "15 SEPTEMBRE",
+    title_nl: "15 SEPTEMBER"
   )
   Title.find_or_create_by(
-    unique_key: "summer_section_push_1_title_2",
+    unique_key: "home_summer_section_1_content",
     page: "summer_class_2025",
-    title_en: "Early Bird<br>Special"
+    title_en: "Summer.<br> Grow.<br> Enjoy.<br> Repeat.",
+    title_fr: "Apprenez.<br> Progressez.<br> Rayonnez.<br> Recommencez.",
+    title_nl: "Tijd om te zomeren.<br>Te groeien.<br>Te genieten."
   )
   Title.find_or_create_by(
-    unique_key: "summer_section_push_1_title_3",
+    unique_key: "home_summer_section_1_cta",
     page: "summer_class_2025",
-    title_en: "SAVE 15%"
-  )
-  Title.find_or_create_by(
-    unique_key: "summer_section_push_1_title_4",
-    page: "summer_class_2025",
-    title_en: "on Our Summer Trainings"
-  )
-
-  # testimonials
-  Title.find_or_create_by(
-    unique_key: "summer_section_testimonial_title",
-    page: "summer_class_2025",
-    title_en: "Discover why our training programs<br> are so highly appreciated"
-  )
-  Title.find_or_create_by(
-    unique_key: "summer_section_testimonial_subtitle_1",
-    page: "summer_class_2025",
-    title_en: "Is summer a great time for learning?"
-  )
-  Title.find_or_create_by(
-    unique_key: "summer_section_testimonial_subtitle_2",
-    page: "summer_class_2025",
-    title_en: "Absolutely – less busy, more engagement and all the summer vibes!"
+    title_en: "<div><span class='color-black'>Join NOW</span> and get a<br>early bird discount</div><span class='promo'>15%</span>",
+    title_nl: "<div>VROEGBOEKKORTING</div><span class='promo'>15%</span>",
+    title_fr: "<div>Réduction <span class='color-black'>EARLY BIRD</span></div><span class='promo'>15%</span>"
   )
 
 
-  # push section 2
-  Title.find_or_create_by(
-    unique_key: "summer_section_push_2_title_1",
-    page: "summer_class_2025",
-    title_en: "JOIN OUR"
-  )
-  Title.find_or_create_by(
-    unique_key: "summer_section_push_2_title_2",
-    page: "summer_class_2025",
-    title_en: "SUMMER CLASSES"
-  )
-  Title.find_or_create_by(
-    unique_key: "summer_section_push_2_title_3",
-    page: "summer_class_2025",
-    title_en: "THEY ARE waiting for you"
-  )
-  Title.find_or_create_by(
-    unique_key: "summer_section_push_2_title_4",
-    page: "summer_class_2025",
-    title_en: "EDITION"
-  )
 end

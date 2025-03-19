@@ -144,12 +144,13 @@
     .course-description{
       font-size: 18px;
       font-weight: 500;
+      height: 200px;
       strong{
         color: #6A0229;
         font-weight: 700;
       }
     }
-    .course-card.leadership{
+    .course-card.leadership {
       h3{
         color: var(--Leadership---dark-detail, #02593E);
       }
@@ -158,7 +159,6 @@
       }
 
       .course-description{
-        height: 150px;
         strong{
           color: #02593E;
           font-weight: 700;
@@ -547,6 +547,18 @@
 }
 
 @media (max-width: 768px) {
+  #summer_class .first-content h1 span {
+    font-size: 42px;
+  }
+  #summer_class h1 span.font-light:last-child {
+    font-size: 24px;
+  }
+
+  #summer_class .col_1:last-child {
+    width: 100%;
+    padding-left: 8vw;
+  }
+  #summer_class .first-content .dates,
   #pages_summer_class_2025 .first-section .dates {
     font-size: 24px;
   }
@@ -554,16 +566,20 @@
     margin-top: 40px;
     margin-bottom: 8px;
   }
+  #summer_class .second-content .regular div,
   #pages_summer_class_2025 .courses-section .regular div,
   #pages_summer_class_2025 .first-section .regular div {
     font-size: 16px;
   }
+  #summer_class .second-content .regular span.promo,
   #pages_summer_class_2025 .courses-section .regular span.promo,
   #pages_summer_class_2025 .first-section .regular span.promo  {
   font-size: 30px;
   }
+  #summer_class .second-content .regular svg,
   #pages_summer_class_2025 .first-section .regular img {
     height: 37px;
+    width: 37px;
     margin-left: 12px;
   }
 
@@ -598,4 +614,118 @@
       padding-bottom: 200px;
       position: relative;
   }
+}
+#summer_class{
+  margin-top: 120px;
+    h1{
+      font-size: inherit;
+      span{
+        font-size: 56px;
+        font-weight: 500;
+        color: #373A36;
+        line-height: 60px;
+      }
+      span.color-green{
+        display: block;
+        color: #78BE21;
+      }
+      span.font-light{
+        font-size: 28px;
+        line-height: 32px;
+        display: block;
+
+        &:last-child{
+          margin-top: 40px;
+        }
+      }
+    }
+
+    .dates{
+      margin-top: 32px;
+      display: flex;
+      font-size: 32px;
+      font-weight: 500;
+      img{
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+    }
+    .border-green{
+      border: 4px solid var(--Charcoal, #373A36);
+      width: 64px;
+      margin-bottom: 12px;
+    }
+
+    .content{
+      font-size: 28px;
+      line-height: 32px;
+      color: white;
+    }
+    .regular{
+      display: inline-flex;
+      align-items: center;
+      margin-top: 60px;
+      background-color: white;
+
+      &:hover{
+        background-color: white;
+      }
+
+      div{
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: var(--Corporate, #78BE21);
+        line-height: 1.2;
+      }
+      span.color-black{
+        color: var(--Charcoal, #373A36);
+      }
+      span.promo{
+        font-size: 55px;
+        font-weight: 600;
+        line-height: 25px;
+        margin-left: 8px;
+        color: var(--Charcoal, #373A36);
+      }
+      img{
+        height: 37px;
+        margin-left: 24px;
+      }
+      svg{
+        margin-left: 24px;
+        height: 37px;
+        height: 37px;
+        g,circle, path {
+          stroke: var(--Corporate, #78BE21);
+        }
+      }
+    }
+
+    .rowflex{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .col_1{
+      padding-top: 120px;
+      padding-bottom: 120px;
+      width: 50%;
+
+      &:first-child{
+        padding-left: 8vw;
+      }
+      &:last-child{
+        background-color: var(--Corporate, #78BE21);
+        padding-right: 8vw;
+      }
+    }
+    .second-content{
+      max-width: 450px;
+      margin: auto;
+    }
+    // .first-content, .second-content{
+    //   padding-top: 120px;
+    //   padding-bottom: 120px;
+    // }
 }
