@@ -190,7 +190,7 @@
           data-expired-callback="onRecaptchaResponseExpiry"
           data-error-callback="onRecaptchaError"></div>
         </div>
-        <%= f.submit Title.find_by_unique_key("contact_form_send")&.translate(locale), class:"primary contact-form-submit", id:"btnsubmit" , disabled: true%>
+        <%= f.submit Title.find_by_unique_key("contact_form_send")&.translate(locale), class:"primary contact-form-submit", id:"btnsubmit" , disabled: true %>
       <% end %>
     </div>
   </div>
@@ -304,6 +304,6 @@
     }
 
     // success
-    document.getElementById("contact-form").submit();
+    document.getElementById("new_message").submit();
   });
 </script>
