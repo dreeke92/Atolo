@@ -120,44 +120,7 @@
     <span> Free & Online - Join us <%= render 'shared/svg/arrow-right-circle' %></span>
   </a>
 </div>
-<div class="key-figures">
-  <h2><%= Title.find_by_unique_key("home_pages_key_figures")&.translate(locale) %></h2>
-  <div class="figures">
-    <div class="figure-card">
-      <div class="figure-card-number" id="trainer-counter">
-        6,100
-      </div>
-      <div class="figure-card-title">
-        <%= Title.find_by_unique_key("home_pages_key_figures_missions")&.translate(locale) %>
-      </div>
-    </div>
-    <div class="figure-card">
-      <div class="figure-card-number" id="coaches-counter">
-        80
-      </div>
-      <div class="figure-card-title">
-        <%= Title.find_by_unique_key("home_pages_key_figures_coaches")&.translate(locale) %>
-      </div>
-    </div>
-    <div class="figure-card" >
-      <div class="figure-card-number" id="trainees-counter">
-        13,071
-      </div>
-      <div class="figure-card-title">
-        <%= Title.find_by_unique_key("home_pages_key_figures_trainees")&.translate(locale) %>
-      </div>
-    </div>
-    <div class="figure-card">
-      <div class="figure-card-number">
-        <span id="satisfaction-counter">99</span>,8 %
-      </div>
-      <div class="figure-card-title">
-        <%= Title.find_by_unique_key("home_pages_key_figures_satisfaction")&.translate(locale) %>
-      </div>
-    </div>
-  </div>
 
-</div>
 <div id="summer_class" class="wrapper">
   <div style="height: 64px; width: 100%; color:#78BE21"></div>
   <div class="rowflex">
@@ -225,6 +188,43 @@
     </div>
   </div>
 </div>
+<div class="key-figures">
+  <h2><%= Title.find_by_unique_key("home_pages_key_figures")&.translate(locale) %></h2>
+  <div class="figures">
+    <div class="figure-card">
+      <div class="figure-card-number" id="trainer-counter">
+        6,100
+      </div>
+      <div class="figure-card-title">
+        <%= Title.find_by_unique_key("home_pages_key_figures_missions")&.translate(locale) %>
+      </div>
+    </div>
+    <div class="figure-card">
+      <div class="figure-card-number" id="coaches-counter">
+        80
+      </div>
+      <div class="figure-card-title">
+        <%= Title.find_by_unique_key("home_pages_key_figures_coaches")&.translate(locale) %>
+      </div>
+    </div>
+    <div class="figure-card" >
+      <div class="figure-card-number" id="trainees-counter">
+        13,071
+      </div>
+      <div class="figure-card-title">
+        <%= Title.find_by_unique_key("home_pages_key_figures_trainees")&.translate(locale) %>
+      </div>
+    </div>
+    <div class="figure-card">
+      <div class="figure-card-number">
+        <span id="satisfaction-counter">99</span>,8 %
+      </div>
+      <div class="figure-card-title">
+        <%= Title.find_by_unique_key("home_pages_key_figures_satisfaction")&.translate(locale) %>
+      </div>
+    </div>
+  </div>
 
+</div>
 <%= render 'shared/new_testimonials' %>
 <%= render 'shared/new_partners' %>
