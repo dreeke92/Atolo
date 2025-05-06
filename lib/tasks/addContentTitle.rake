@@ -1919,47 +1919,54 @@ task addContentTitle: :environment do
 #     title_en: "EDITION"
 #   )
 
-  Title.find_or_create_by(
-    unique_key: "home_summer_section_1_title",
-    page: "home_page",
-    title_en: "<span>EXPERIENCE</span> <span class='color-green'>SUMMER TRAINING</span>
-          <span class='font-light' style='display:inline;'>LIKE</span> <span> NEVER BEFORE</span>
-          <span class='font-light'>IN LANGUAGES & LEADERSHIP</span>",
-    title_nl: "<span>UPGRADE JE</span> <span class='color-green'>ZOMERTRAINING</span>
-          <span class='font-light' style='display:inline;'>TO THE</span> <span> NEXT-LEVEL</span>
-          <span class='font-light'>IN TALEN EN LEADERSHIP</span>",
-    title_fr: "<span>VIVEZ UN</span> <span class='color-green' style='display:inline;'> ÉTÉ<br>D'APPRENTISSAGE</span>
-          <span>INOUBLIABLE</span>
-          <span class='font-light'>EN LANGUES & LEADERSHIP</span>"
-  )
-  Title.find_or_create_by(
-    unique_key: "home_summer_section_1_dates_1",
-    page: "summer_class_2025",
-    title_en: "1 JUNE",
-    title_fr: "1 JUIN",
-    title_nl: "1 JUNI"
-  )
-  Title.find_or_create_by(
-    unique_key: "home_summer_section_1_dates_2",
-    page: "summer_class_2025",
-    title_en: "15 SEPTEMBER",
-    title_fr: "15 SEPTEMBRE",
-    title_nl: "15 SEPTEMBER"
-  )
-  Title.find_or_create_by(
-    unique_key: "home_summer_section_1_content",
-    page: "summer_class_2025",
-    title_en: "Summer.<br> Grow.<br> Enjoy.<br> Repeat.",
-    title_fr: "Apprenez.<br> Progressez.<br> Rayonnez.<br> Recommencez.",
-    title_nl: "Tijd om te zomeren.<br>Te groeien.<br>Te genieten."
-  )
-  Title.find_or_create_by(
-    unique_key: "home_summer_section_1_cta",
-    page: "summer_class_2025",
-    title_en: "<div><span class='color-black'>Join NOW</span> and get a<br>early bird discount</div><span class='promo'>15%</span>",
-    title_nl: "<div>VROEGBOEKKORTING</div><span class='promo'>15%</span>",
-    title_fr: "<div>Réduction <span class='color-black'>EARLY BIRD</span></div><span class='promo'>15%</span>"
-  )
+  # Title.find_or_create_by(
+  #   unique_key: "home_summer_section_1_title",
+  #   page: "home_page",
+  #   title_en: "<span>EXPERIENCE</span> <span class='color-green'>SUMMER TRAINING</span>
+  #         <span class='font-light' style='display:inline;'>LIKE</span> <span> NEVER BEFORE</span>
+  #         <span class='font-light'>IN LANGUAGES & LEADERSHIP</span>",
+  #   title_nl: "<span>UPGRADE JE</span> <span class='color-green'>ZOMERTRAINING</span>
+  #         <span class='font-light' style='display:inline;'>TO THE</span> <span> NEXT-LEVEL</span>
+  #         <span class='font-light'>IN TALEN EN LEADERSHIP</span>",
+  #   title_fr: "<span>VIVEZ UN</span> <span class='color-green' style='display:inline;'> ÉTÉ<br>D'APPRENTISSAGE</span>
+  #         <span>INOUBLIABLE</span>
+  #         <span class='font-light'>EN LANGUES & LEADERSHIP</span>"
+  # )
+  # Title.find_or_create_by(
+  #   unique_key: "home_summer_section_1_dates_1",
+  #   page: "summer_class_2025",
+  #   title_en: "1 JUNE",
+  #   title_fr: "1 JUIN",
+  #   title_nl: "1 JUNI"
+  # )
+  # Title.find_or_create_by(
+  #   unique_key: "home_summer_section_1_dates_2",
+  #   page: "summer_class_2025",
+  #   title_en: "15 SEPTEMBER",
+  #   title_fr: "15 SEPTEMBRE",
+  #   title_nl: "15 SEPTEMBER"
+  # )
+  # Title.find_or_create_by(
+  #   unique_key: "home_summer_section_1_content",
+  #   page: "summer_class_2025",
+  #   title_en: "Summer.<br> Grow.<br> Enjoy.<br> Repeat.",
+  #   title_fr: "Apprenez.<br> Progressez.<br> Rayonnez.<br> Recommencez.",
+  #   title_nl: "Tijd om te zomeren.<br>Te groeien.<br>Te genieten."
+  # )
+  # Title.find_or_create_by(
+  #   unique_key: "home_summer_section_1_cta",
+  #   page: "summer_class_2025",
+  #   title_en: "<div><span class='color-black'>Join NOW</span> and get a<br>early bird discount</div><span class='promo'>15%</span>",
+  #   title_nl: "<div>VROEGBOEKKORTING</div><span class='promo'>15%</span>",
+  #   title_fr: "<div>Réduction <span class='color-black'>EARLY BIRD</span></div><span class='promo'>15%</span>"
+  # )
 
-
+  Title.find_or_create_by(
+    unique_key: "webinar_diversity_link",
+    page: "navbar",
+    title_en: "Webinar on age diversity",
+    title_nl: "Webinar over leeftijdsdiversiteit",
+    title_fr: "Webinaire sur la diversité générationnelle",
+    title_de: "Webinar über Altersvielfalt"
+  )
 end

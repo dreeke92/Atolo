@@ -513,3 +513,11 @@
     }
   }
 }
+
+.regular-white{
+  span svg{
+    g,circle, path {
+      stroke: var(--Corporate, #78BE21);
+    }
+  }
+}

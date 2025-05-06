@@ -52,6 +52,18 @@
         </li>
         <li id="nav_events">
           <%= link_to "#{Title.find_by_unique_key("navigation_whats_new")&.translate(locale)}", summer_class_path, class:"nav-link" %>
+          <ul class="nav-menu-drop-down">
+            <li id="nav_team" class="about-nav">
+              <%= link_to summer_class_path do %>
+                Summer classes
+              <% end %>
+            </li>
+            <li id="nav_probono" class="about-nav">
+              <a href="https://www.eventbrite.be/e/bridging-the-generation-gap-how-to-lead-an-age-diverse-team-like-a-pro-tickets-1333817988509?aff=oddtdtcreator">
+                <%= Title.find_by_unique_key("webinar_diversity_link")&.translate(locale) %>
+              </a>
+            </li>
+          </ul>
 
         </li>
         <li id="nav_contact">

@@ -96,7 +96,32 @@
     <a href="/summer_class" class="regular"><span> <%= Title.find_by_unique_key("summer_classes_btn_discover_it")&.translate(locale) %> <%= image_tag 'icons/arrow-right-circle.svg' %></span></a>
   </div>
 </div>
-<div id="summer_class">
+
+<div  class="wrapper banner-title EOY2024" style="background-image: url(<%= image_url '050525.png' %>);padding-top:120px;padding-bottom:120px;background-position: center;background-size: cover;">
+  <div>
+    <div style="font-weight: 400;margin-bottom: 12px;">LIVE WEBINAR</div>
+    <h1 style="margin-bottom: 12px;letter-spacing: 3.5px;font-weight: 400;">
+      BRIDGING THE GENERATION GAP
+    </h1>
+    <div class="content" style="font-weight: 400;margin-bottom: 12px;">
+      HOW TO LEAD AN AGE-DIVERSE TEAM LIKE A PRO
+    </div>
+    <div class="dates" style="display: inline-flex;column-gap: 12px;margin-bottom: 64px;font-size: 14px;font-weight: 500;">
+      <div>
+        19 JUNE 2025
+      </div>
+      <%= image_tag "icons/green-arrow.svg" %>
+      <div>
+         12 : 00 - 13 : 00
+      </div>
+    </div>
+  </div>
+  <a href="https://www.eventbrite.be/e/bridging-the-generation-gap-how-to-lead-an-age-diverse-team-like-a-pro-tickets-1333817988509" class="regular regular-white" style="color: #78BE21;background-color: white;font-weight: 500;" >
+    <span> Free & Online - Join us <%= render 'shared/svg/arrow-right-circle' %></span>
+  </a>
+</div>
+
+<div id="summer_class" class="wrapper">
   <div class="rowflex">
     <div class="col_1">
       <div class="first-content">
