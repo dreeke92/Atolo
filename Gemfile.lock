@@ -1,6 +1,12 @@
 GEM
-  remote: https://rubygems.org/
   remote: https://rails-assets.org/
+  specs:
+    rails-assets-es6-promise (4.2.4)
+    rails-assets-sweetalert2 (5.1.1)
+      rails-assets-es6-promise
+
+GEM
+  remote: https://rubygems.org/
   specs:
     actioncable (6.1.7)
       actionpack (= 6.1.7)
@@ -191,7 +197,7 @@ GEM
     puma (6.0.1)
       nio4r (~> 2.0)
     racc (1.6.2)
-    rack (2.2.5)
+    rack (2.2.6.3)
     rack-proxy (0.7.4)
       rack
     rack-test (2.0.2)
@@ -211,9 +217,6 @@ GEM
       bundler (>= 1.15.0)
       railties (= 6.1.7)
       sprockets-rails (>= 2.0.0)
-    rails-assets-es6-promise (4.2.4)
-    rails-assets-sweetalert2 (5.1.1)
-      rails-assets-es6-promise
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
