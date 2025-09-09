@@ -1961,12 +1961,21 @@ task addContentTitle: :environment do
   #   title_fr: "<div>Réduction <span class='color-black'>EARLY BIRD</span></div><span class='promo'>15%</span>"
   # )
 
+  # Title.find_or_create_by(
+  #   unique_key: "webinar_diversity_link",
+  #   page: "navbar",
+  #   title_en: "Webinar on age diversity",
+  #   title_nl: "Webinar over leeftijdsdiversiteit",
+  #   title_fr: "Webinaire sur la diversité générationnelle",
+  #   title_de: "Webinar über Altersvielfalt"
+  # )
+
   Title.find_or_create_by(
-    unique_key: "webinar_diversity_link",
+    unique_key: "latest_success_story_link",
     page: "navbar",
-    title_en: "Webinar on age diversity",
-    title_nl: "Webinar over leeftijdsdiversiteit",
-    title_fr: "Webinaire sur la diversité générationnelle",
-    title_de: "Webinar über Altersvielfalt"
+    title_en: "Latest success story",
+    title_nl: "Meest recente succesverhaal",
+    title_fr: "Notre success story la plus récente",
+    title_de: "Latest success story"
   )
 end

@@ -53,10 +53,15 @@
         <li id="nav_events">
           <%= link_to "#{Title.find_by_unique_key("navigation_whats_new")&.translate(locale)}", summer_class_path, class:"nav-link" %>
           <ul class="nav-menu-drop-down">
-            <li id="nav_team" class="about-nav">
+            <li id="nav_team" class="about-nav d-none">
               <%= link_to summer_class_path do %>
                 Summer classes
               <% end %>
+            </li>
+            <li id="nav_team" class="about-nav">
+              <a href="https://www.linkedin.com/pulse/from-language-barriers-business-breakthroughs-atolo-2wsae" target="_blank">
+                <%= Title.find_by_unique_key("latest_success_story_link")&.translate(locale) %>
+              </a>
             </li>
             <li id="nav_probono" class="about-nav d-none">
               <a href="https://www.eventbrite.be/e/bridging-the-generation-gap-how-to-lead-an-age-diverse-team-like-a-pro-tickets-1333817988509?aff=oddtdtcreator" target="_blank">
