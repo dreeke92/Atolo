@@ -1,16 +1,16 @@
 <section id="partners" class="wrapper style1 align-center">
   <h2><%= Title.find_by_unique_key("partners_title")&.translate(locale) %></h2>
   <div class="partners">
-    <a href="https://www.alimento.be/" class="partner" target="_blank">
+    <a href="https://www.alimento.be/" class="partner d-none" target="_blank">
       <%= image_tag("partners/Alimento.png", :alt => "image", :class => "") %>
     </a>
-    <a href="https://www.febelfin-academy.be/" class="partner" target="_blank">
+    <a href="https://www.febelfin-academy.be/" class="partner  d-none" target="_blank">
       <%= image_tag("partners/Febelfin.png", :alt => "image", :class => "") %>
     </a>
-    <a href="https://www.fsma.be/" class="partner" target="_blank">
+    <a href="https://www.fsma.be/" class="partner  d-none" target="_blank">
       <%= image_tag("partners/FSMA.jpg", :alt => "image", :class => "") %>
     </a>
-    <a href="https://qfor.org/" class="partner" target="_blank">
+    <a href="https://qfor.org/" class="partner  d-none" target="_blank">
       <%= image_tag("partners/Qfor.png", :alt => "image", :class => "") %>
     </a>
 
@@ -20,15 +20,15 @@
     <a href="https://alice.ch/" class="partner" target="_blank">
       <%= image_tag("partners/FSEA.png", :alt => "image", :class => "") %>
     </a>
-    <a href="https://www.vlaanderen.be/departement-werk-sociale-economie" class="partner" target="_blank">
+    <a href="https://www.vlaanderen.be/departement-werk-sociale-economie" class="partner d-none" target="_blank">
       <%= image_tag("partners/WSE.png", :alt => "image", :class => "") %>
     </a>
     <% if locale != :nl %>
-      <a href="https://economie-emploi.brussels/conge-education-paye" class="partner" target="_blank">
+      <a href="https://economie-emploi.brussels/conge-education-paye" class="partner  d-none" target="_blank">
         <%= image_tag("partners/SPF Eco & emploi.png", :alt => "image", :class => "") %>
       </a>
     <% else %>
-      <a href="https://economie-werk.brussels/betaald-educatief-verlof" class="partner" target="_blank">
+      <a href="https://economie-werk.brussels/betaald-educatief-verlof" class="partner d-none" target="_blank">
         <%= image_tag("partners/Brussel Eco & werk.png", :alt => "image", :class => "") %>
       </a>
     <% end %>

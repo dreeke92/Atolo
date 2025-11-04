@@ -57,7 +57,7 @@
         <%= Title.find_by_unique_key("home_page_learn_more")&.translate(locale) %>
       </div>
     <% end %>
-    <%= link_to contact_path, class:"category green" do %>
+    <% link_to contact_path, class:"category green" do %>
       <div class="title">
         <%= Title.find_by_unique_key("home_page_contact_title")&.translate(locale) %>
       </div>
@@ -73,7 +73,7 @@
   <div class="third-section-content">
     <%= Title.find_by_unique_key("home_page_section_3_how_can_we_help_you_description")&.translate(locale) %>
   </div>
-  <a href="<%= about_path %>" class="regular"><span><%= Title.find_by_unique_key("home_page_btn_about_us")&.translate(locale) %> <%= render 'shared/svg/arrow-right-circle' %></span></a>
+  <a href="<%= about_path %>" class="regular d-none"><span><%= Title.find_by_unique_key("home_page_btn_about_us")&.translate(locale) %> <%= render 'shared/svg/arrow-right-circle' %></span></a>
 </div>
 <div class="fourth-section d-none">
   <h2><%= Title.find_by_unique_key("home_page_section_4_whats_new")&.translate(locale) %></h2>
@@ -165,7 +165,7 @@
           <span><%= Title.find_by_unique_key("navigation_leadership")&.translate(locale) %></span>
         </div>
       </div>
-      <%= link_to contact_path, :class => 'regular' do %>
+      <% link_to contact_path, :class => 'regular' do %>
         <span> <%= Title.find_by_unique_key("EOY2024_title_cta")&.translate(locale) %> <%= image_tag 'icons/arrow-right-circle.svg' %></span>
       <% end %>
     </div>

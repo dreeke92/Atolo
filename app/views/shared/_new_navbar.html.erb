@@ -29,7 +29,7 @@
         </li>
 
         <li id="nav_about">
-          <%= link_to about_path do %>
+          <% link_to about_path do %>
             <%= Title.find_by_unique_key("navigation_about_us")&.translate(locale) %>
           <% end %>
           <ul class="nav-menu-drop-down">
@@ -51,7 +51,7 @@
           </ul>
         </li>
         <li id="nav_events">
-          <%= link_to "#{Title.find_by_unique_key("navigation_whats_new")&.translate(locale)}", summer_class_path, class:"nav-link" %>
+          <% link_to "#{Title.find_by_unique_key("navigation_whats_new")&.translate(locale)}", summer_class_path, class:"nav-link" %>
           <ul class="nav-menu-drop-down">
             <li id="nav_team" class="about-nav d-none">
               <%= link_to summer_class_path do %>
@@ -72,7 +72,7 @@
 
         </li>
         <li id="nav_contact">
-          <%= link_to "#{Title.find_by_unique_key("navigation_contact")&.translate(locale)}", contact_path, class:"regular" %>
+          <% link_to "#{Title.find_by_unique_key("navigation_contact")&.translate(locale)}", contact_path, class:"regular" %>
         </li>
         <li id="nav_internationalization">
           <div class="locale">

@@ -69,7 +69,7 @@
   <div class="contact-us-text">
     <%= Title.find_by_unique_key("shared_curious_to_know_more")&.translate(locale) %>
   </div>
-  <%= link_to contact_path, class:"contact-us-btn" do %>
+  <% link_to contact_path, class:"contact-us-btn" do %>
     <%= Title.find_by_unique_key("shared_btn_contact_us")&.translate(locale) %>
     <%= render 'shared/svg/arrow-right-circle' %>
   <% end %>
