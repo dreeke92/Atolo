@@ -6,7 +6,6 @@
     "@rails/webpacker": "5.4.3",
     "autoprefixer": "10.4.5",
     "bootstrap": "^4.3.1",
-    "browser-js": "^1.10.1",
     "jquery": "^3.4.0",
     "mini-css-extract-plugin": "^2.7.2",
     "popper.js": "^1.15.0",
